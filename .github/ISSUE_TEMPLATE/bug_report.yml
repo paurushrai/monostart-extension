@@ -1,0 +1,85 @@
+name: Bug report
+description: Report something that isn't working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the sections
+        below so it can be reproduced and fixed quickly.
+
+        ⚠️ **Found a security vulnerability?** Do **not** file it here — report it
+        privately via the [Security policy](../security/policy).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug — what you saw vs. what you expected.
+      placeholder: When I drag a widget onto a group, the layout resets to default…
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Be specific — exact clicks/keys so it can be reproduced reliably.
+      placeholder: |
+        1. Open a new tab
+        2. Enter edit mode
+        3. Drag the Todo widget into a group
+        4. See the layout reset
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen instead?
+    validations:
+      required: true
+  - type: input
+    id: extension-version
+    attributes:
+      label: MonoStart version
+      description: Find it at chrome://extensions (or the manifest version).
+      placeholder: "1.2.1"
+    validations:
+      required: true
+  - type: input
+    id: chrome-version
+    attributes:
+      label: Chrome version
+      placeholder: "e.g. 126.0.6478.127"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - ChromeOS
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots or console output
+      description: |
+        Optional but helpful. For console output: chrome://extensions →
+        _Inspect views_ → Console. Drag images directly into this field.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I'm on the latest version of MonoStart.
+          required: true
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
