@@ -49,7 +49,7 @@ investing time in a PR.
 
 ## Reporting bugs
 
-Open a [GitHub issue](https://github.com/paurushrai/monostart-chrome-extension/issues)
+Open a [GitHub issue](https://github.com/paurushrai/monostart-extension/issues)
 and include:
 
 - **What happened** vs. **what you expected**.
@@ -58,7 +58,7 @@ and include:
 - Screenshots or console output if relevant (`chrome://extensions` → _Inspect views_).
 
 > For **security vulnerabilities**, do **not** open a public issue — report it
-> privately via [GitHub Security Advisories](https://github.com/paurushrai/monostart-chrome-extension/security/advisories/new)
+> privately via [GitHub Security Advisories](https://github.com/paurushrai/monostart-extension/security/advisories/new)
 > or email **paurushrai96@gmail.com**.
 
 ## Development setup
@@ -66,8 +66,8 @@ and include:
 Requires **Node.js 22+**.
 
 ```bash
-git clone https://github.com/paurushrai/monostart-chrome-extension.git
-cd monostart-chrome-extension
+git clone https://github.com/paurushrai/monostart-extension.git
+cd monostart-extension
 npm install
 npm run build        # outputs to dist/
 ```

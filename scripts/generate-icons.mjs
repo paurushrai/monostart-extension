@@ -7,7 +7,9 @@
 //   public/favicon.svg                      — rounded black tile (browser tab)
 //   <store dir>/store-icon-128.png          — full square, NO alpha (store listing)
 //
-// Run: node scripts/generate-icons.mjs
+// Run:                node scripts/generate-icons.mjs
+// Custom store dir:   STORE_DIR=path/to/dir node scripts/generate-icons.mjs
+//                     node scripts/generate-icons.mjs path/to/dir
 import sharp from 'sharp';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -15,7 +17,9 @@ import { dirname, resolve } from 'node:path';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const ICON_DIR = resolve(ROOT, 'public/icons');
-const STORE_DIR = '/Users/paurushrai/Downloads/chrome-professional';
+// Store-listing output dir. Defaults to the repo's `store-assets/` so the script
+// works for any checkout; override with the STORE_DIR env var or a CLI argument.
+const STORE_DIR = resolve(ROOT, process.env.STORE_DIR ?? process.argv[2] ?? 'store-assets');
 
 const BRAND_BLACK = '#000000';
 const LOGO_WHITE = '#ffffff';
@@ -59,6 +63,7 @@ async function main() {
 
   // Store-listing icon: full square, flattened onto black → guaranteed no alpha.
   const squareSvg = tileSvg(0);
+  mkdirSync(STORE_DIR, { recursive: true });
   const storeOut = resolve(STORE_DIR, 'store-icon-128.png');
   await render(squareSvg).resize(128, 128).flatten({ background: BRAND_BLACK }).png().toFile(storeOut);
   console.log(`wrote ${storeOut} (128x128, no alpha)`);

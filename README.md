@@ -108,8 +108,8 @@ _Pending review — link will be added once published._
 
 ```bash
 # 1. Clone
-git clone https://github.com/paurushrai/monostart-chrome-extension.git
-cd monostart-chrome-extension
+git clone https://github.com/paurushrai/monostart-extension.git
+cd monostart-extension
 
 # 2. Install dependencies (Node 22+)
 npm install
@@ -126,8 +126,8 @@ runs in Chrome, not in a container.
 
 ```bash
 # 1. Clone
-git clone https://github.com/paurushrai/monostart-chrome-extension.git
-cd monostart-chrome-extension
+git clone https://github.com/paurushrai/monostart-extension.git
+cd monostart-extension
 
 # 2. Build the extension → outputs to dist/
 docker build --target export --output type=local,dest=dist .
@@ -173,7 +173,7 @@ all pass.
 ## Project structure
 
 ```text
-monostart-chrome-extension/
+monostart-extension/
 ├── public/                 # Static assets copied verbatim (manifest.json, icons, favicon)
 ├── src/
 │   ├── components/         # UI components
@@ -231,7 +231,7 @@ Quick version:
 3. Run `npm run lint && npm run typecheck && npm test` — all must pass.
 4. Open a PR describing **what**, **why**, and **how to test**.
 
-Bug reports and feature ideas are welcome via [GitHub Issues](https://github.com/paurushrai/monostart-chrome-extension/issues).
+Bug reports and feature ideas are welcome via [GitHub Issues](https://github.com/paurushrai/monostart-extension/issues).
 
 ## Security
 
