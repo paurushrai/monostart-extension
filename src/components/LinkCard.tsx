@@ -28,6 +28,7 @@ import {
 import Favicon from './Favicon';
 import type { LinkItem, GridSlot } from '../types';
 import { deriveSiteName } from '../lib/siteName';
+import { normalizeGoogleAccountUrl } from '../lib/googleAccount';
 
 interface GroupRef {
   id: string;
@@ -76,6 +77,8 @@ const LinkCard = ({
   }, [isRenaming]);
 
   const siteName = customName || deriveSiteName(url, title);
+  // Open the default Google account, not whichever one was active at capture time.
+  const openUrl = normalizeGoogleAccountUrl(url);
   const listMode = displayMode === 'list';
   const isIconOnly = listMode ? false : item.w === 1;
   const isLarge = listMode ? false : ((item.w && item.w > 2) || (item.h && item.h > 1));
@@ -289,7 +292,7 @@ const LinkCard = ({
       )}
 
       <a
-        href={url}
+        href={openUrl}
         target={openInNewTab ? "_blank" : "_top"}
         rel="noopener noreferrer"
         draggable={false}

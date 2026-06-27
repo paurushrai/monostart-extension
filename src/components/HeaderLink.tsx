@@ -14,6 +14,7 @@ import { Button } from './ui/button';
 import { MoreHorizontal, Trash2, FolderInput, Home, Folder, Edit2, Link2, Eye, Image as ImageIcon, Type, Check } from 'lucide-react';
 import { siteFaviconUrl } from '../lib/favicon';
 import { deriveSiteName } from '../lib/siteName';
+import { normalizeGoogleAccountUrl } from '../lib/googleAccount';
 import Favicon from './Favicon';
 import type { LinkItem, GridSlot } from '../types';
 
@@ -62,6 +63,8 @@ const HeaderLink = ({
 
   const siteName = item.customName || deriveSiteName(item.url, item.title);
   const url = item.url;
+  // Open the default Google account, not whichever one was active at capture time.
+  const openUrl = normalizeGoogleAccountUrl(url);
 
   const showAsText = item.viewMode === 'text';
 
@@ -182,7 +185,7 @@ const HeaderLink = ({
       title={siteName}
     >
       <a
-        href={url}
+        href={openUrl}
         target={openInNewTab ? "_blank" : "_top"}
         rel="noopener noreferrer"
         draggable={false}
