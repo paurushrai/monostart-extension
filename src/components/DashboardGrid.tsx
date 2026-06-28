@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useState, type DragEvent as ReactDragEvent } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useState, memo, type DragEvent as ReactDragEvent } from 'react';
 import GridLayout from 'react-grid-layout/legacy';
 import type { Layout } from 'react-grid-layout/legacy';
 import 'react-grid-layout/css/styles.css';
@@ -32,12 +32,11 @@ interface GroupRef {
 interface Props {
   links: WidgetItem[];
   onLayoutChange: (layout: Layout) => void;
-  onDelete: (id: string) => void;
-  onViewModeChange: (id: string, newMode: 'icon' | 'icon+text') => void;
-  onUpdateItem: (id: string, updates: Partial<WidgetItem>) => void;
   isEditing: boolean;
   openInNewTab?: boolean;
   groups?: GroupRef[];
+  // onMoveItem stays a prop (the drag hook needs it); item-mutation callbacks
+  // reach widgets via DashboardActionsContext, not through this component.
   onMoveItem: (linkId: string, targetGroupId: string | null, targetCoords?: GridSlot) => void;
   onSwap: (draggedId: string, targetId: string, draggedSourceRect?: { x: number; y: number; w: number; h: number }) => void;
   onHeaderTargetChange?: (isOver: boolean) => void;
@@ -91,9 +90,6 @@ const buildLayout = (displayLinks: DisplayItem[]): Layout =>
 const DashboardGrid = ({
   links,
   onLayoutChange,
-  onDelete,
-  onViewModeChange,
-  onUpdateItem,
   isEditing,
   openInNewTab,
   groups = [],
@@ -163,24 +159,27 @@ const DashboardGrid = ({
     drag.handleExternalDrop(linkId, e.clientX, e.clientY);
   };
 
-  const displayLinks: DisplayItem[] = [...links];
-  if (drag.activeDragOutItem && drag.dragOutCoords) {
-    const w = drag.activeDragOutItem.w ?? (drag.activeDragOutItem.viewMode === 'icon' ? 1 : 3);
-    const h = drag.activeDragOutItem.h ?? 1;
-    const placeholder: DragPlaceholder = {
-      id: 'drag-out-placeholder',
-      type: 'link',
-      title: 'Drop to Place',
-      url: '',
-      w,
-      h,
-      x: drag.dragOutCoords.x,
-      y: drag.dragOutCoords.y,
-    };
-    displayLinks.push(placeholder);
-  }
+  const displayLinks: DisplayItem[] = useMemo(() => {
+    const base: DisplayItem[] = [...links];
+    if (drag.activeDragOutItem && drag.dragOutCoords) {
+      const w = drag.activeDragOutItem.w ?? (drag.activeDragOutItem.viewMode === 'icon' ? 1 : 3);
+      const h = drag.activeDragOutItem.h ?? 1;
+      const placeholder: DragPlaceholder = {
+        id: 'drag-out-placeholder',
+        type: 'link',
+        title: 'Drop to Place',
+        url: '',
+        w,
+        h,
+        x: drag.dragOutCoords.x,
+        y: drag.dragOutCoords.y,
+      };
+      base.push(placeholder);
+    }
+    return base;
+  }, [links, drag.activeDragOutItem, drag.dragOutCoords]);
 
-  const layout = buildLayout(displayLinks);
+  const layout = useMemo(() => buildLayout(displayLinks), [displayLinks]);
 
   return (
     <div
@@ -234,10 +233,6 @@ const DashboardGrid = ({
                 isEditing={isEditing}
                 openInNewTab={openInNewTab}
                 groups={groups}
-                onDelete={onDelete}
-                onViewModeChange={onViewModeChange}
-                onUpdateItem={onUpdateItem}
-                onMoveItem={onMoveItem}
                 activeDragGroupId={drag.activeDragGroupId}
                 dragCursorCoords={drag.dragCursorCoords}
                 draggedItem={drag.draggedItem}
@@ -275,4 +270,6 @@ const DashboardGrid = ({
   );
 };
 
-export default DashboardGrid;
+// Memoized: its props from App (mainLinks, groups, useDashboard handlers) are all
+// referentially stable, so opening a modal or a toast no longer re-renders the grid.
+export default memo(DashboardGrid);

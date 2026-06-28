@@ -1,15 +1,19 @@
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useMemo, useRef, useEffect, lazy, Suspense } from 'react';
 import DashboardGrid from './components/DashboardGrid';
 import DashboardBackground from './components/DashboardBackground';
-import AddWidgetModal from './components/AddWidgetModal';
-import ThemeSettingsModal from './components/ThemeSettingsModal';
-import AddLinkModal from './components/AddLinkModal';
 import AppHeader from './components/AppHeader';
-import ClearDashboardModal from './components/ClearDashboardModal';
-import ShareModal from './components/ShareModal';
 import FooterGuide from './components/FooterGuide';
+
+// Modals aren't on the first-paint path — lazy-load them so their code (and deps
+// like the reminders date-picker) is parsed only when the user first opens one.
+const AddWidgetModal = lazy(() => import('./components/AddWidgetModal'));
+const ThemeSettingsModal = lazy(() => import('./components/ThemeSettingsModal'));
+const AddLinkModal = lazy(() => import('./components/AddLinkModal'));
+const ClearDashboardModal = lazy(() => import('./components/ClearDashboardModal'));
+const ShareModal = lazy(() => import('./components/ShareModal'));
 import Toast from './components/Toast';
 import { useDashboard } from './hooks/useDashboard';
+import { DashboardActionsProvider, type DashboardActions } from './contexts/dashboardActions';
 import { useTheme } from './hooks/useTheme';
 import { useHeaderDrag } from './hooks/useHeaderDrag';
 import { useToast } from './hooks/useToast';
@@ -137,9 +141,22 @@ function App() {
     enterEditModeAfterAdd();
   }, [addWidget, showToast, links, isEditing, enterEditModeAfterAdd]);
 
-  const groups = disambiguateGroups(
-    links.filter((l): l is GroupItem => l.type === 'group'),
+  // Memoized so unrelated re-renders (opening a modal, a toast, header-drag
+  // hover) don't allocate new array refs and cascade into DashboardGrid.
+  const groups = useMemo(
+    () => disambiguateGroups(links.filter((l): l is GroupItem => l.type === 'group')),
+    [links],
   );
+  const mainLinks = useMemo(() => links.filter((l) => !l.isHeaderLink), [links]);
+
+  // Stable value (handlers are useCallback-stable) so widgets consuming the
+  // context don't re-render on unrelated App re-renders.
+  const dashboardActions = useMemo<DashboardActions>(() => ({
+    onDelete: handleDelete,
+    onViewModeChange: handleViewModeChange,
+    onUpdateItem: handleUpdateLink,
+    onMoveItem: handleMoveLink,
+  }), [handleDelete, handleViewModeChange, handleUpdateLink, handleMoveLink]);
 
   const hasBackground = !!(settings.background && settings.background.type !== 'none' && settings.background.value);
 
@@ -184,56 +201,69 @@ function App() {
           DashboardGrid re-measures the stale content height and the layout
           never reflows until refresh. */}
       <main className="flex-1 min-h-0">
-        <DashboardGrid
-          links={links.filter((l) => !l.isHeaderLink)}
-          onLayoutChange={handleLayoutChange}
-          onDelete={handleDelete}
-          onViewModeChange={handleViewModeChange}
-          onUpdateItem={handleUpdateLink}
-          isEditing={isEditing}
-          openInNewTab={settings.openInNewTab}
-          groups={groups}
-          onMoveItem={handleMoveLink}
-          onSwap={handleSwap}
-          onHeaderTargetChange={setIsHeaderTargeted}
-        />
+        <DashboardActionsProvider value={dashboardActions}>
+          <DashboardGrid
+            links={mainLinks}
+            onLayoutChange={handleLayoutChange}
+            isEditing={isEditing}
+            openInNewTab={settings.openInNewTab}
+            groups={groups}
+            onMoveItem={handleMoveLink}
+            onSwap={handleSwap}
+            onHeaderTargetChange={setIsHeaderTargeted}
+          />
+        </DashboardActionsProvider>
       </main>
       </div>
 
-      <AddWidgetModal
-        open={modalOpen}
-        onClose={() => setModalOpen(false)}
-        onSelect={handleAddWidget}
-      />
+      {/* Each modal mounts only while open; lazy chunks load on first open.
+          fallback={null} — a disk-loaded chunk resolves within a frame. */}
+      <Suspense fallback={null}>
+        {modalOpen && (
+          <AddWidgetModal
+            open
+            onClose={() => setModalOpen(false)}
+            onSelect={handleAddWidget}
+          />
+        )}
 
-      <ThemeSettingsModal
-        open={themeModalOpen}
-        onOpenChange={setThemeModalOpen}
-        settings={settings}
-        updateSettings={updateSettings}
-      />
+        {themeModalOpen && (
+          <ThemeSettingsModal
+            open
+            onOpenChange={setThemeModalOpen}
+            settings={settings}
+            updateSettings={updateSettings}
+          />
+        )}
 
-      <AddLinkModal
-        open={addLinkModalOpen}
-        onClose={() => {
-          if (preAddSnapshotRef.current && !isEditing) preAddSnapshotRef.current = null;
-          setAddLinkModalOpen(false);
-        }}
-        onAfterAdd={enterEditModeAfterAdd}
-        groups={groups}
-      />
+        {addLinkModalOpen && (
+          <AddLinkModal
+            open
+            onClose={() => {
+              if (preAddSnapshotRef.current && !isEditing) preAddSnapshotRef.current = null;
+              setAddLinkModalOpen(false);
+            }}
+            onAfterAdd={enterEditModeAfterAdd}
+            groups={groups}
+          />
+        )}
 
-      <ClearDashboardModal
-        open={clearModalOpen}
-        onClose={() => setClearModalOpen(false)}
-        links={links}
-        onConfirm={handleClearDashboard}
-      />
+        {clearModalOpen && (
+          <ClearDashboardModal
+            open
+            onClose={() => setClearModalOpen(false)}
+            links={links}
+            onConfirm={handleClearDashboard}
+          />
+        )}
 
-      <ShareModal
-        open={shareModalOpen}
-        onClose={() => setShareModalOpen(false)}
-      />
+        {shareModalOpen && (
+          <ShareModal
+            open
+            onClose={() => setShareModalOpen(false)}
+          />
+        )}
+      </Suspense>
 
       <FooterGuide />
 

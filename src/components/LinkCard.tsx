@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, type FocusEvent, type KeyboardEvent } from 'react';
+import { useState, useRef, useEffect, memo, type FocusEvent, type KeyboardEvent } from 'react';
 import {
   ExternalLink,
   Check,
@@ -384,4 +384,7 @@ const LinkCard = ({
   );
 };
 
-export default LinkCard;
+// Memoized: inside a group the inner grid maps many LinkCards, so skipping
+// re-renders of unchanged cards (callbacks from useDashboard are stable, items
+// are updated immutably) avoids re-rendering every sibling on any group change.
+export default memo(LinkCard);

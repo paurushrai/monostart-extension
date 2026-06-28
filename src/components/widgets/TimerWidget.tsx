@@ -1,9 +1,14 @@
-import { useState, useEffect, type FormEvent } from 'react';
-import { Clock, Plus, Trash2, X, Play, Pause, RotateCcw } from 'lucide-react';
+import { useState, useEffect, useCallback, type FormEvent } from 'react';
+import { Clock, Plus, X, Play, Pause, RotateCcw } from 'lucide-react';
 import { useWidgetStorage } from '../../hooks/useWidgetStorage';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import WidgetShell from './WidgetShell';
+import { computeRemainingMs, selectExpiredTimerIds, anyTimerRunning } from '../../lib/timer';
+import { playTimerChime } from '../../lib/chime';
 import type { TimerItem, TimerEntry } from '../../types';
+
+const TICK_INTERVAL_MS = 250;
 
 const formatTime = (ms: number): string => {
   if (ms <= 0) return "00:00";
@@ -15,35 +20,15 @@ const formatTime = (ms: number): string => {
 
 interface TimerItemProps {
   timer: TimerEntry;
+  now: number;
   onUpdate: (id: number, updates: Partial<TimerEntry>) => void;
   onDelete: (id: number) => void;
 }
 
-const TimerItem = ({ timer, onUpdate, onDelete }: Readonly<TimerItemProps>) => {
-  const [timeLeft, setTimeLeft] = useState(timer.remainingMs);
-
-  useEffect(() => {
-    let interval: ReturnType<typeof setInterval> | undefined;
-    if (timer.isRunning) {
-      interval = setInterval(() => {
-        const now = Date.now();
-        const remaining = (timer.endTime ?? now) - now;
-        if (remaining <= 0) {
-          clearInterval(interval);
-          setTimeLeft(0);
-          onUpdate(timer.id, { isRunning: false, remainingMs: 0, endTime: null });
-          try {
-            new Audio('https://assets.mixkit.co/active_storage/sfx/2869/2869-preview.mp3').play().catch((e) => console.log(e));
-          } catch { /* empty */ }
-        } else {
-          setTimeLeft(remaining);
-        }
-      }, 100);
-    } else {
-      setTimeLeft(timer.remainingMs);
-    }
-    return () => clearInterval(interval);
-  }, [timer]);
+const TimerItem = ({ timer, now, onUpdate, onDelete }: Readonly<TimerItemProps>) => {
+  // Remaining time is derived from `now` (driven by the widget's single ticker),
+  // so each TimerItem is a pure display with no interval of its own.
+  const timeLeft = computeRemainingMs(timer, now);
 
   const handleStart = () => {
     if (timeLeft <= 0) return;
@@ -111,6 +96,17 @@ const TimerWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
   const [timers, saveTimers] = useWidgetStorage<TimerEntry[]>(`timer-widget-${item.id}`, []);
   const [newMinutes, setNewMinutes] = useState("");
   const [newLabel, setNewLabel] = useState("");
+  const [now, setNow] = useState(() => Date.now());
+
+  const running = anyTimerRunning(timers);
+
+  // One ticker per widget (not one per running timer): refresh `now` only while
+  // something is counting down; an idle timer widget runs no interval at all.
+  useEffect(() => {
+    if (!running) return;
+    const id = setInterval(() => setNow(Date.now()), TICK_INTERVAL_MS);
+    return () => clearInterval(id);
+  }, [running]);
 
   const handleAdd = (e: FormEvent) => {
     e.preventDefault();
@@ -131,38 +127,25 @@ const TimerWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
     setNewLabel("");
   };
 
-  const updateTimer = (id: number, updates: Partial<TimerEntry>) => {
+  const updateTimer = useCallback((id: number, updates: Partial<TimerEntry>) => {
     saveTimers((current) => current.map(t => t.id === id ? { ...t, ...updates } : t));
-  };
+  }, [saveTimers]);
 
-  const deleteTimer = (id: number) => {
+  const deleteTimer = useCallback((id: number) => {
     saveTimers((current) => current.filter(t => t.id !== id));
-  };
+  }, [saveTimers]);
+
+  // Stop any timers that reached zero and chime once. updateTimer clears their
+  // isRunning flag, so the next run finds none expired — the effect is idempotent.
+  useEffect(() => {
+    const expired = selectExpiredTimerIds(timers, now);
+    if (expired.length === 0) return;
+    expired.forEach((id) => updateTimer(id, { isRunning: false, remainingMs: 0, endTime: null }));
+    playTimerChime();
+  }, [timers, now, updateTimer]);
 
   return (
-    <article className="card-base w-full h-full relative group overflow-hidden flex flex-col bg-card/65 backdrop-blur-md">
-      <header className={`flex items-center justify-between px-2 border-b border-border bg-gray-50/50 dark:bg-black/10 shrink-0 rounded-t-xl ${isEditing ? 'py-1 drag-handle cursor-grab active:cursor-grabbing' : 'py-0.5'}`}>
-        <div className="flex items-center gap-1.5">
-          <Clock size={isEditing ? 12 : 10} className="text-primary" aria-hidden="true" />
-          <h3 className={`font-medium text-foreground pointer-events-none ${isEditing ? 'text-xs' : 'text-2xs'}`}>{item.title || 'Timers'}</h3>
-        </div>
-        {isEditing && (
-          <Button
-            type="button"
-            variant="ghost"
-            size="icon"
-            onMouseDown={(e) => e.stopPropagation()}
-            onClick={(e) => { e.stopPropagation(); onDelete(item.id); }}
-            className="h-6 w-6 text-red-500 hover:bg-red-50 hover:text-red-500 dark:hover:bg-red-900/20 relative z-20"
-            title="Delete Widget"
-          >
-            <Trash2 size={13} />
-          </Button>
-        )}
-      </header>
-
-      {isEditing && <div className="absolute inset-x-0 bottom-0 top-[48px] z-10 bg-transparent cursor-grab drag-handle" />}
-
+    <WidgetShell icon={Clock} title={item.title || 'Timers'} isEditing={isEditing} onDelete={() => onDelete(item.id)}>
       <ul className="flex-1 overflow-y-auto p-1 space-y-1 list-none">
         {timers.length === 0 && (
           <li className="text-xs text-muted-foreground text-center mt-4">No timers set.</li>
@@ -171,6 +154,7 @@ const TimerWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
           <TimerItem
             key={timer.id}
             timer={timer}
+            now={now}
             onUpdate={updateTimer}
             onDelete={deleteTimer}
           />
@@ -208,7 +192,7 @@ const TimerWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
           </Button>
         </div>
       </form>
-    </article>
+    </WidgetShell>
   );
 };
 

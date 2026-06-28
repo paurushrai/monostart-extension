@@ -15,6 +15,7 @@ import {
   placeInGroup,
   placeOnMain,
 } from '../lib/linkPlacement';
+import { normalize, dedupeById } from '../lib/dashboardMigrations';
 import type { WidgetItem, GroupItem, GridSlot } from '../types';
 
 const HEADER_TARGET = 'header';
@@ -31,37 +32,6 @@ export interface UseDashboard {
   handleSwap: (draggedId: string, targetId: string, draggedSourceRect?: { x: number; y: number; w: number; h: number }) => void;
   addWidget: (widget: { type: WidgetItem['type']; defaults?: Partial<WidgetItem> }) => Promise<WidgetItem | null>;
 }
-
-const migrateGoogleSearchHeight = (items: WidgetItem[]): WidgetItem[] =>
-  items.map((l) =>
-    l.type === WidgetType.GOOGLE_SEARCH && (l.h ?? 1) > 1 ? { ...l, h: 1 } : l,
-  );
-
-// Pre-1.0 the group widget's persisted discriminant was 'section'. Items saved
-// before the rename still carry it and would fall through to the link renderer,
-// so normalize them to the current 'group' type on load.
-const LEGACY_SECTION_TYPE = 'section';
-
-const migrateLegacySectionType = (items: WidgetItem[]): WidgetItem[] =>
-  items.map((item) =>
-    (item.type as string) === LEGACY_SECTION_TYPE
-      ? ({ ...item, type: WidgetType.GROUP } as WidgetItem)
-      : item,
-  );
-
-const dedupeById = (items: WidgetItem[]): WidgetItem[] => {
-  const seen = new Set<string>();
-  const out: WidgetItem[] = [];
-  for (const item of items) {
-    if (seen.has(item.id)) continue;
-    seen.add(item.id);
-    out.push(item);
-  }
-  return out;
-};
-
-const normalize = (items: WidgetItem[]): WidgetItem[] =>
-  dedupeById(migrateGoogleSearchHeight(migrateLegacySectionType(items)));
 
 export interface UseDashboardOptions {
   onSwapFailed?: (reason: string) => void;
