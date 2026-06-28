@@ -66,7 +66,7 @@
       "barOnlyDesc": "Just the search bar. Takes 1 row. Compact.",
       "urlLabel": "URL or embed code",
       "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
-      "urlHint": "Paste a URL for simple embeds, or paste an <iframe> snippet from sites that block direct loading (YouTube, Figma, Spotify, CodePen, etc.).",
+      "urlHint": "Paste a URL for simple embeds, or paste an <code>&lt;iframe&gt;</code> snippet from sites that block direct loading (YouTube, Figma, Spotify, CodePen, etc.).",
       "back": "Back",
       "embedWidget": "Embed Widget"
     },
@@ -105,7 +105,14 @@
       "uploadImage": "Upload Image",
       "imageUploaded": "Custom image uploaded.",
       "blur": "Blur",
-      "dim": "Dim"
+      "dim": "Dim",
+      "fileReadError": "Failed to read file.",
+      "bgType": {
+        "none": "None",
+        "color": "Color",
+        "gradient": "Gradient",
+        "image": "Image"
+      }
     },
     "clear": {
       "title": "Clear dashboard",
@@ -117,8 +124,8 @@
       "alsoClearHeaderDesc": "By default the header bar is preserved. Tick this to wipe it too.",
       "widgetGroups_one": "About to delete <strong>{{count}}</strong> widget/group",
       "widgetGroups_other": "About to delete <strong>{{count}}</strong> widgets/groups",
-      "headerLinks_one": "{{count}} header link",
-      "headerLinks_other": "{{count}} header links",
+      "headerLinks_one": "<strong>{{count}}</strong> header link",
+      "headerLinks_other": "<strong>{{count}}</strong> header links",
       "andConnector": " and ",
       "cancelRestores": ". Cancel in edit-mode toolbar restores them.",
       "nothingToClear": "Nothing to clear with the current selection.",
@@ -130,7 +137,9 @@
       "title": "MonoStart",
       "description": "Share this item",
       "copyLink": "Copy link",
-      "linkCopied": "Link copied"
+      "linkCopied": "Link copied",
+      "shareOn": "Share on {{platform}}",
+      "shareVia": "Share via {{platform}}"
     }
   }
 }

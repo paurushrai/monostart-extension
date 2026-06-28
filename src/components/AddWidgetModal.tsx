@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import { WIDGET_CATALOG } from '../lib/widgetCatalog';
 import type { WidgetMeta } from '../lib/widgetCatalog';
 import {
@@ -212,7 +212,10 @@ const AddWidgetModal = ({ open, onClose, onSelect }: Readonly<Props>) => {
                 className="w-full rounded-sm border border-input bg-background px-3 py-2 text-sm font-mono ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 resize-none"
               />
               <p className="text-xs text-muted-foreground">
-                {t('modals.addWidget.urlHint')}
+                <Trans
+                  i18nKey="modals.addWidget.urlHint"
+                  components={{ code: <code className="font-mono" /> }}
+                />
               </p>
             </div>
             <div className="flex justify-end gap-2 mt-2">

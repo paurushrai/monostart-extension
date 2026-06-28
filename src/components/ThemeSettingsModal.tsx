@@ -21,6 +21,14 @@ const bgGradients = [
   { name: 'Aurora', value: 'linear-gradient(135deg,#7c3aed,#2563eb,#06b6d4)' },
 ];
 
+// Translation keys for bg type labels — resolved in render via t()
+const BG_TYPES: ReadonlyArray<{ id: DashboardBackground['type']; labelKey: string }> = [
+  { id: 'none', labelKey: 'modals.theme.bgType.none' },
+  { id: 'color', labelKey: 'modals.theme.bgType.color' },
+  { id: 'gradient', labelKey: 'modals.theme.bgType.gradient' },
+  { id: 'image', labelKey: 'modals.theme.bgType.image' },
+];
+
 interface Props {
   open: boolean;
   onOpenChange: (open: boolean) => void;
@@ -34,13 +42,6 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
   const { t } = useTranslation();
   const currentMode: ThemeMode = settings.themeMode || 'device';
   const currentColor = settings.themeColor || '0 0% 30%';
-
-  const bgTypes: ReadonlyArray<{ id: DashboardBackground['type']; label: string }> = [
-    { id: 'none', label: 'None' },
-    { id: 'color', label: 'Color' },
-    { id: 'gradient', label: 'Gradient' },
-    { id: 'image', label: 'Image' },
-  ];
 
   const setMode = (mode: ThemeMode) => {
     updateSettings({ ...settings, themeMode: mode });
@@ -88,7 +89,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
       }
       setBg({ type: 'image', value });
     } catch (err) {
-      setBgError(err instanceof Error ? err.message : 'Failed to read file.');
+      setBgError(err instanceof Error ? err.message : t('modals.theme.fileReadError'));
     }
   };
 
@@ -223,7 +224,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
             <h4 id="background-heading" className="text-sm font-medium text-foreground">{t('modals.theme.backgroundHeading')}</h4>
 
             <div role="radiogroup" aria-label={t('modals.theme.backgroundTypeLabel')} className="flex bg-muted p-1 rounded-lg border border-border">
-              {bgTypes.map((bgT) => (
+              {BG_TYPES.map((bgT) => (
                 <Button
                   key={bgT.id}
                   type="button"
@@ -235,7 +236,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                     bg.type === bgT.id ? 'bg-card shadow-sm text-foreground hover:bg-card' : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
-                  {bgT.label}
+                  {t(bgT.labelKey)}
                 </Button>
               ))}
             </div>
