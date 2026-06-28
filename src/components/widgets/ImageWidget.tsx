@@ -27,8 +27,9 @@ const toEditableUrl = (value: string): string =>
   value && !value.startsWith('data:') && !isIdbRef(value) ? value : '';
 
 const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>) => {
-  const { title = 'Image', url = '', fit = 'cover' } = item;
+  const { title, url = '', fit = 'cover' } = item;
   const { t } = useTranslation();
+  const imageTitle = title || t('widgets.image.defaultTitle');
   const { src: resolvedSrc, status: imageStatus } = useImageSrc(url);
   const [isEditingTitle, setIsEditingTitle] = useState(false);
   const [showConfig, setShowConfig] = useState(!url);
@@ -95,7 +96,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
               <Input
                 ref={titleInputRef}
                 type="text"
-                defaultValue={title}
+                defaultValue={imageTitle}
                 onBlur={handleTitleBlur}
                 onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); }}
                 aria-label={t('widgets.image.titleAriaLabel')}
@@ -106,7 +107,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
                 onClick={handleTitleClick}
                 className={`font-medium truncate select-none ${isEditing ? 'text-xs cursor-pointer hover:bg-black/5 dark:hover:bg-white/5 px-1 rounded' : 'text-xs pointer-events-none'}`}
               >
-                {title}
+                {imageTitle}
               </h3>
             )}
           </div>
@@ -253,7 +254,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
             ) : (
               <img
                 src={resolvedSrc}
-                alt={title}
+                alt={imageTitle}
                 className={`w-full h-full pointer-events-none select-none rounded-b-xl ${fitClass}`}
                 onError={() => {
                   setUploadError(t('widgets.image.loadError'));

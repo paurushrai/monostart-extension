@@ -125,7 +125,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
               onPointerDown={stopPointer}
               onTouchStart={stopPointer}
               onClick={handleDeleteClick}
-              title="Remove widget"
+              title={t('widgets.iframe.removeWidget')}
               className="h-7 w-7 rounded-md hover:text-red-500 hover:bg-background"
             >
               <X size={14} />

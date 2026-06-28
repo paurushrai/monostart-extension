@@ -30,8 +30,9 @@ interface Props {
 }
 
 const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>) => {
-  const { title = 'Note', content = '', noteColor = 'default' } = item;
+  const { title, content = '', noteColor = 'default' } = item;
   const { t } = useTranslation();
+  const noteTitle = title || t('widgets.note.defaultTitle');
   const [text, setText] = useState(content);
   const [prevContent, setPrevContent] = useState(content);
   const [isEditingTitle, setIsEditingTitle] = useState(false);
@@ -90,7 +91,7 @@ const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>
             <Input
               ref={titleInputRef}
               type="text"
-              defaultValue={title}
+              defaultValue={noteTitle}
               onBlur={handleTitleBlur}
               onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); }}
               aria-label={t('widgets.note.titleAriaLabel')}
@@ -101,7 +102,7 @@ const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>
               onClick={handleTitleClick}
               className={`font-medium truncate select-none ${isEditing ? 'text-xs cursor-pointer hover:bg-black/5 dark:hover:bg-white/5 px-1 rounded' : 'text-2xs pointer-events-none'}`}
             >
-              {title}
+              {noteTitle}
             </h3>
           )}
         </div>
