@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react';
+import { useTranslation } from 'react-i18next';
 import { WIDGET_CATALOG } from '../lib/widgetCatalog';
 import type { WidgetMeta } from '../lib/widgetCatalog';
 import {
@@ -43,6 +44,7 @@ interface Props {
 }
 
 const AddWidgetModal = ({ open, onClose, onSelect }: Readonly<Props>) => {
+  const { t } = useTranslation();
   const [step, setStep] = useState(1);
   const [selectedWidget, setSelectedWidget] = useState<WidgetMeta | null>(null);
   const [input, setInput] = useState("");
@@ -112,6 +114,12 @@ const AddWidgetModal = ({ open, onClose, onSelect }: Readonly<Props>) => {
     handleClose();
   };
 
+  const dialogTitle = step === 1
+    ? t('modals.addWidget.title')
+    : step === 3
+      ? t('modals.addWidget.titleGoogleStyle')
+      : t('modals.addWidget.titleConfigure', { name: selectedWidget?.name });
+
   return (
     <Dialog open={open} onOpenChange={(isOpen) => !isOpen && handleClose()}>
       <DialogContent aria-describedby={undefined} className="sm:max-w-2xl bg-background border-border p-0 gap-0">
@@ -122,7 +130,7 @@ const AddWidgetModal = ({ open, onClose, onSelect }: Readonly<Props>) => {
             </Button>
           )}
           <DialogTitle className="text-foreground">
-            {step === 1 ? 'Add Widget' : step === 3 ? 'Choose Google Search style' : `Configure ${selectedWidget?.name}`}
+            {dialogTitle}
           </DialogTitle>
         </DialogHeader>
 
@@ -167,9 +175,9 @@ const AddWidgetModal = ({ open, onClose, onSelect }: Readonly<Props>) => {
                 <PreviewBar />
               </div>
               <div>
-                <div className="text-sm font-semibold text-foreground">Logo + Bar</div>
+                <div className="text-sm font-semibold text-foreground">{t('modals.addWidget.logoBarTitle')}</div>
                 <div className="text-xs text-muted-foreground mt-0.5">
-                  Big Google logo above the search bar. Takes 4 rows.
+                  {t('modals.addWidget.logoBarDesc')}
                 </div>
               </div>
             </Button>
@@ -184,9 +192,9 @@ const AddWidgetModal = ({ open, onClose, onSelect }: Readonly<Props>) => {
                 <PreviewBar />
               </div>
               <div>
-                <div className="text-sm font-semibold text-foreground">Bar only</div>
+                <div className="text-sm font-semibold text-foreground">{t('modals.addWidget.barOnlyTitle')}</div>
                 <div className="text-xs text-muted-foreground mt-0.5">
-                  Just the search bar. Takes 1 row. Compact.
+                  {t('modals.addWidget.barOnlyDesc')}
                 </div>
               </div>
             </Button>
@@ -194,26 +202,25 @@ const AddWidgetModal = ({ open, onClose, onSelect }: Readonly<Props>) => {
         ) : (
           <form onSubmit={handleSubmit} className="p-5 flex flex-col gap-4">
             <div className="space-y-2">
-              <label className="text-sm font-medium text-foreground">URL or embed code</label>
+              <label className="text-sm font-medium text-foreground">{t('modals.addWidget.urlLabel')}</label>
               <textarea
                 autoFocus
                 rows={5}
-                placeholder={'https://example.com\nor\n<iframe src="https://www.youtube.com/embed/..." ...></iframe>'}
+                placeholder={t('modals.addWidget.urlPlaceholder')}
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 className="w-full rounded-sm border border-input bg-background px-3 py-2 text-sm font-mono ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 resize-none"
               />
               <p className="text-xs text-muted-foreground">
-                Paste a URL for simple embeds, or paste an <code className="font-mono">{'<iframe>'}</code> snippet
-                from sites that block direct loading (YouTube, Figma, Spotify, CodePen, etc.).
+                {t('modals.addWidget.urlHint')}
               </p>
             </div>
             <div className="flex justify-end gap-2 mt-2">
               <Button type="button" variant="outline" onClick={() => setStep(1)}>
-                Back
+                {t('modals.addWidget.back')}
               </Button>
               <Button type="submit" disabled={!input.trim()}>
-                Embed Widget
+                {t('modals.addWidget.embedWidget')}
               </Button>
             </div>
           </form>

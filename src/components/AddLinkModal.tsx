@@ -1,4 +1,5 @@
 import { useState, useMemo, type FormEvent } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from './ui/dialog';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
@@ -28,17 +29,18 @@ interface Props {
 }
 
 const AddLinkModal = ({ open, onClose, onAfterAdd, groups = [] }: Readonly<Props>) => {
+  const { t } = useTranslation();
   const [url, setUrl] = useState('');
   const [title, setTitle] = useState('');
   const [location, setLocation] = useState('dashboard');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const { locationLabel, LocationIcon } = useMemo(() => {
-    if (location === 'dashboard') return { locationLabel: 'Main Dashboard', LocationIcon: LayoutGrid };
-    if (location === 'header') return { locationLabel: 'Header (Favicon only)', LocationIcon: Bookmark };
+    if (location === 'dashboard') return { locationLabel: t('modals.addLink.locationMainDashboard'), LocationIcon: LayoutGrid };
+    if (location === 'header') return { locationLabel: t('modals.addLink.locationHeader'), LocationIcon: Bookmark };
     const group = groups.find((s) => s.id === location);
-    return { locationLabel: group ? `Group: ${group.title}` : 'Main Dashboard', LocationIcon: Folder };
-  }, [location, groups]);
+    return { locationLabel: group ? t('modals.addLink.locationGroup', { title: group.title }) : t('modals.addLink.locationMainDashboard'), LocationIcon: Folder };
+  }, [location, groups, t]);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
@@ -74,7 +76,7 @@ const AddLinkModal = ({ open, onClose, onAfterAdd, groups = [] }: Readonly<Props
       h: 1,
       isHeaderLink: isHeader
     }, groupId);
-    
+
     setIsSubmitting(false);
     setUrl('');
     setTitle('');
@@ -87,33 +89,33 @@ const AddLinkModal = ({ open, onClose, onAfterAdd, groups = [] }: Readonly<Props
     <Dialog open={open} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>Add Link</DialogTitle>
+          <DialogTitle>{t('modals.addLink.title')}</DialogTitle>
           <DialogDescription>
-            Paste a URL to add a new link card to your dashboard.
+            {t('modals.addLink.description')}
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-4 mt-2">
           <div className="space-y-2">
-            <Label htmlFor="url">Website URL</Label>
+            <Label htmlFor="url">{t('modals.addLink.urlLabel')}</Label>
             <Input
               id="url"
-              placeholder="https://example.com"
+              placeholder={t('modals.addLink.urlPlaceholder')}
               value={url}
               onChange={(e) => setUrl(e.target.value)}
               autoFocus
             />
           </div>
           <div className="space-y-2">
-            <Label htmlFor="title">Title (Optional)</Label>
+            <Label htmlFor="title">{t('modals.addLink.titleLabel')}</Label>
             <Input
               id="title"
-              placeholder="My Link"
+              placeholder={t('modals.addLink.titlePlaceholder')}
               value={title}
               onChange={(e) => setTitle(e.target.value)}
             />
           </div>
           <div className="space-y-2">
-            <Label htmlFor="location-trigger">Location</Label>
+            <Label htmlFor="location-trigger">{t('modals.addLink.locationLabel')}</Label>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button
@@ -135,19 +137,19 @@ const AddLinkModal = ({ open, onClose, onAfterAdd, groups = [] }: Readonly<Props
               >
                 <DropdownMenuItem onClick={() => setLocation('dashboard')} className="text-sm">
                   <LayoutGrid size={14} className="mr-2 text-muted-foreground" aria-hidden="true" />
-                  <span className="flex-1">Main Dashboard</span>
+                  <span className="flex-1">{t('modals.addLink.locationMainDashboard')}</span>
                   {location === 'dashboard' && <Check size={14} className="ml-2 text-primary" aria-hidden="true" />}
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => setLocation('header')} className="text-sm">
                   <Bookmark size={14} className="mr-2 text-muted-foreground" aria-hidden="true" />
-                  <span className="flex-1">Header (Favicon only)</span>
+                  <span className="flex-1">{t('modals.addLink.locationHeader')}</span>
                   {location === 'header' && <Check size={14} className="ml-2 text-primary" aria-hidden="true" />}
                 </DropdownMenuItem>
                 {groups.length > 0 && <DropdownMenuSeparator />}
                 {groups.map((s) => (
                   <DropdownMenuItem key={s.id} onClick={() => setLocation(s.id)} className="text-sm">
                     <Folder size={14} className="mr-2 text-muted-foreground" aria-hidden="true" />
-                    <span className="flex-1 truncate">Folder: {s.title}</span>
+                    <span className="flex-1 truncate">{t('modals.addLink.locationFolder', { title: s.title })}</span>
                     {location === s.id && <Check size={14} className="ml-2 text-primary shrink-0" aria-hidden="true" />}
                   </DropdownMenuItem>
                 ))}
@@ -162,10 +164,10 @@ const AddLinkModal = ({ open, onClose, onAfterAdd, groups = [] }: Readonly<Props
               className="mr-2"
               disabled={isSubmitting}
             >
-              Cancel
+              {t('modals.addLink.cancel')}
             </Button>
             <Button type="submit" disabled={isSubmitting || !url.trim()}>
-              Add Link
+              {t('modals.addLink.submit')}
             </Button>
           </div>
         </form>
