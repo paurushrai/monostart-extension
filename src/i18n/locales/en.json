@@ -237,10 +237,10 @@
     "onlyOneGoogleSearch": "Only one Google search widget is allowed.",
     "noRoomForWidget": "No room for this widget. Resize or remove something to make space.",
     "swap": {
-      "no-room": "Can't swap — not enough room to fit both widgets at their new positions.",
-      "out-of-bounds": "Can't swap — one of the widgets would extend past the grid edge at its minimum size.",
-      "overlap": "Can't swap — the two widgets' minimum sizes overlap each other.",
-      "obstacle": "Can't swap — another widget is in the way. Move or resize it first."
+      "no-room": "Can’t swap — not enough room to fit both widgets at their new positions.",
+      "out-of-bounds": "Can’t swap — one of the widgets would extend past the grid edge at its minimum size.",
+      "overlap": "Can’t swap — the two widgets’ minimum sizes overlap each other.",
+      "obstacle": "Can’t swap — another widget is in the way. Move or resize it first."
     }
   },
   "popup": {
