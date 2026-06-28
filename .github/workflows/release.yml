@@ -69,6 +69,26 @@ jobs:
           cd dist
           zip -r "../monostart-${GITHUB_REF_NAME}.zip" .
 
+      # Pre-releases (hyphenated tags) skip the Chrome Web Store. Store upload is
+      # also skipped when CWS secrets are absent, so the GitHub Release still works
+      # before store credentials are configured.
+      - name: Resolve release flags
+        id: meta
+        env:
+          CWS_CLIENT_ID: ${{ secrets.CWS_CLIENT_ID }}
+        run: |
+          if printf '%s' "$GITHUB_REF_NAME" | grep -q '-'; then
+            echo "prerelease=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "prerelease=false" >> "$GITHUB_OUTPUT"
+          fi
+          if [ -n "$CWS_CLIENT_ID" ]; then
+            echo "cws=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "cws=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Chrome Web Store secrets not configured — skipping store upload"
+          fi
+
       - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -81,4 +101,19 @@ jobs:
             "monostart-${GITHUB_REF_NAME}.zip" \
             --title "$GITHUB_REF_NAME" \
             --generate-notes \
-            $PRERELEASE
+            $PRERELEASE \
+          || gh release upload "$GITHUB_REF_NAME" "monostart-${GITHUB_REF_NAME}.zip" --clobber
+
+      # Uploads the packaged zip and publishes it live. Reads EXTENSION_ID /
+      # CLIENT_ID / CLIENT_SECRET / REFRESH_TOKEN from env (chrome-webstore-upload-cli).
+      - name: Publish to Chrome Web Store
+        if: steps.meta.outputs.cws == 'true' && steps.meta.outputs.prerelease == 'false'
+        env:
+          EXTENSION_ID: hhfeihcppmfepeeainafmaifpmdemmlg
+          CLIENT_ID: ${{ secrets.CWS_CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CWS_CLIENT_SECRET }}
+          REFRESH_TOKEN: ${{ secrets.CWS_REFRESH_TOKEN }}
+        run: |
+          npx --yes chrome-webstore-upload-cli@3 upload \
+            --source "monostart-${GITHUB_REF_NAME}.zip" \
+            --auto-publish
