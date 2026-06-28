@@ -5,6 +5,7 @@ import VoiceSearchOverlay from './VoiceSearchOverlay';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import Favicon from '../Favicon';
+import { useSearchSuggestions, type Suggestion } from '../../hooks/useSearchSuggestions';
 import type { GoogleSearchItem, WidgetItem } from '../../types';
 
 const GoogleLogo = ({ className = '', mono = false }: { className?: string; mono?: boolean }) => (
@@ -26,12 +27,6 @@ const GoogleLogo = ({ className = '', mono = false }: { className?: string; mono
     )}
   </span>
 );
-
-interface Suggestion {
-  text: string;
-  type: 'history' | 'search';
-  url?: string;
-}
 
 interface SpeechRecognitionResultEvent {
   resultIndex: number;
@@ -113,7 +108,7 @@ const GoogleSearchWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonl
     onUpdateItem(item.id, { logoStyle: logoStyle === 'color' ? 'mono' : 'color' } as Partial<WidgetItem>);
   };
   const [query, setQuery] = useState('');
-  const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
+  const suggestions = useSearchSuggestions(query);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const [lensOpen, setLensOpen] = useState(false);
@@ -132,82 +127,6 @@ const GoogleSearchWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonl
       recognizerRef.current = null;
     };
   }, []);
-
-  useEffect(() => {
-    const fetchSuggestions = async () => {
-      const q = query.trim();
-
-      try {
-        let historyResults: Suggestion[] = [];
-        if (typeof chrome !== 'undefined' && chrome.history) {
-          const historyItems = await new Promise<chrome.history.HistoryItem[]>((resolve) => {
-            chrome.history.search({ text: q, maxResults: q ? 5 : 8 }, resolve);
-          });
-
-          historyResults = historyItems
-            .map((h): Suggestion => {
-              let text = h.title || h.url;
-              if (text && text.endsWith(' - Google Search')) {
-                text = text.replace(' - Google Search', '');
-              }
-              return { text: text || h.url || '', type: 'history', url: h.url };
-            });
-
-          const seenHistory = new Set<string>();
-          historyResults = historyResults.filter((h) => {
-            const key = h.text.toLowerCase();
-            if (seenHistory.has(key)) return false;
-            seenHistory.add(key);
-            return true;
-          });
-
-          if (q) {
-            historyResults = historyResults.filter(h => h.text.toLowerCase().includes(q.toLowerCase()));
-          }
-        }
-
-        if (!q) {
-          setSuggestions(historyResults.slice(0, 8));
-          return;
-        }
-
-        if (typeof chrome !== 'undefined' && chrome.runtime) {
-          chrome.runtime.sendMessage(
-            { action: 'fetchSuggestions', query: q },
-            (response: { data?: [string, string[]] }) => {
-              let autoResults: Suggestion[] = [];
-              if (response && response.data && response.data[1]) {
-                autoResults = response.data[1].map((text): Suggestion => ({ text, type: 'search' }));
-              }
-
-              const combined: Suggestion[] = [...historyResults, ...autoResults];
-              const unique: Suggestion[] = [];
-              const seen = new Set<string>();
-              for (const s of combined) {
-                const lower = s.text.toLowerCase();
-                if (!seen.has(lower)) {
-                  seen.add(lower);
-                  unique.push(s);
-                }
-              }
-              setSuggestions(unique.slice(0, 8));
-            }
-          );
-        } else {
-          const res = await fetch(`https://suggestqueries.google.com/complete/search?client=firefox&q=${encodeURIComponent(q)}`);
-          const data = (await res.json()) as [string, string[]];
-          if (data && data[1]) {
-            setSuggestions(data[1].slice(0, 8).map((text): Suggestion => ({ text, type: 'search' })));
-          }
-        }
-      } catch (e) {
-        console.error('Failed to fetch suggestions', e);
-      }
-    };
-
-    const timeout = setTimeout(fetchSuggestions, 200);
-    return () => clearTimeout(timeout);
-  }, [query]);
 
   useEffect(() => {
     setActiveIndex(-1);
