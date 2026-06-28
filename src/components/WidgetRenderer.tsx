@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo, type ReactElement } from 'react';
 import LinkCard from './LinkCard';
 import IframeWidget from './IframeWidget';
 import GoogleSearchWidget from './widgets/GoogleSearchWidget';
@@ -10,6 +10,7 @@ import NoteWidget from './widgets/NoteWidget';
 import ImageWidget from './widgets/ImageWidget';
 import LabelWidget from './widgets/LabelWidget';
 import { WidgetType } from '../lib/widgetCatalog';
+import { useDashboardActions, type DashboardActions } from '../contexts/dashboardActions';
 import type {
   DisplayItem,
   DragPlaceholder,
@@ -25,7 +26,6 @@ import type {
   LabelItem,
   GoogleSearchItem,
   DragCoords,
-  GridSlot,
 } from '../types';
 
 interface GroupRef {
@@ -33,15 +33,13 @@ interface GroupRef {
   title: string;
 }
 
+// Item-mutation callbacks (onDelete/onViewModeChange/onUpdateItem/onMoveItem) come
+// from DashboardActionsContext, not props — so they aren't drilled through the grid.
 interface Props {
   item: DisplayItem;
   isEditing: boolean;
   openInNewTab?: boolean;
   groups?: GroupRef[];
-  onDelete: (id: string) => void;
-  onViewModeChange: (id: string, newMode: 'icon' | 'icon+text') => void;
-  onUpdateItem: (id: string, updates: Partial<WidgetItem>) => void;
-  onMoveItem?: (linkId: string, targetGroupId: string | null, targetCoords?: GridSlot) => void;
   activeDragGroupId: string | null;
   dragCursorCoords: DragCoords | null;
   draggedItem: WidgetItem | null;
@@ -53,22 +51,66 @@ interface Props {
 const isPlaceholder = (item: DisplayItem): item is DragPlaceholder =>
   item.id === 'drag-out-placeholder' || item.id === 'drag-placeholder';
 
-function WidgetRendererInner({
-  item,
-  isEditing,
-  openInNewTab,
-  groups,
-  onDelete,
-  onViewModeChange,
-  onUpdateItem,
-  onMoveItem,
-  activeDragGroupId,
-  dragCursorCoords,
-  draggedItem,
-  onInnerDragStart,
-  onInnerDrag,
-  onInnerDragStop,
-}: Readonly<Props>) {
+// Type → renderer lookup. Replaces a 10-case switch: adding a widget is now one
+// new entry (open for extension) rather than editing dispatch logic, and the map
+// can be asserted complete in tests. Each entry mirrors its former switch case.
+type RenderProps = Omit<Props, 'item'> & DashboardActions & { item: WidgetItem };
+type WidgetRender = (p: RenderProps) => ReactElement;
+
+// Default renderer; also the fallback for unknown types (matches the prior switch
+// default). Held as a named const so the fallback isn't a possibly-undefined lookup.
+const renderLink: WidgetRender = ({ item, onDelete, onViewModeChange, onUpdateItem, isEditing, openInNewTab, groups, onMoveItem }) =>
+  <LinkCard
+    item={item as LinkItem}
+    onDelete={onDelete}
+    onViewModeChange={onViewModeChange}
+    onUpdateItem={onUpdateItem}
+    isEditing={isEditing}
+    openInNewTab={openInNewTab}
+    groups={groups}
+    onMoveItem={onMoveItem}
+    parentId={undefined}
+  />;
+
+const WIDGET_RENDERERS: Record<string, WidgetRender> = {
+  [WidgetType.GOOGLE_SEARCH]: ({ item, onDelete, onUpdateItem, isEditing }) =>
+    <GoogleSearchWidget item={item as GoogleSearchItem} onDelete={onDelete} onUpdateItem={onUpdateItem} isEditing={isEditing} />,
+  [WidgetType.IFRAME]: ({ item, onDelete, isEditing }) =>
+    <IframeWidget item={item as IframeItem} onDelete={onDelete} isEditing={isEditing} />,
+  [WidgetType.TODO]: ({ item, onDelete, isEditing }) =>
+    <TodoWidget item={item as TodoItem} onDelete={onDelete} isEditing={isEditing} />,
+  [WidgetType.TIMER]: ({ item, onDelete, isEditing }) =>
+    <TimerWidget item={item as TimerItem} onDelete={onDelete} isEditing={isEditing} />,
+  [WidgetType.REMINDERS]: ({ item, onDelete, isEditing }) =>
+    <RemindersWidget item={item as RemindersItem} onDelete={onDelete} isEditing={isEditing} />,
+  [WidgetType.NOTE]: ({ item, onDelete, onUpdateItem, isEditing }) =>
+    <NoteWidget item={item as NoteItem} onDelete={onDelete} onUpdateItem={onUpdateItem} isEditing={isEditing} />,
+  [WidgetType.IMAGE]: ({ item, onDelete, onUpdateItem, isEditing }) =>
+    <ImageWidget item={item as ImageItem} onDelete={onDelete} onUpdateItem={onUpdateItem} isEditing={isEditing} />,
+  [WidgetType.LABEL]: ({ item, onDelete, onUpdateItem, isEditing }) =>
+    <LabelWidget item={item as LabelItem} onDelete={onDelete} onUpdateItem={onUpdateItem} isEditing={isEditing} />,
+  [WidgetType.GROUP]: ({ item, onDelete, onUpdateItem, isEditing, openInNewTab, groups, onMoveItem, activeDragGroupId, dragCursorCoords, draggedItem, onInnerDragStart, onInnerDrag, onInnerDragStop }) =>
+    <GroupWidget
+      item={item as GroupItem}
+      onDelete={onDelete}
+      onUpdateItem={onUpdateItem}
+      isEditing={isEditing}
+      openInNewTab={openInNewTab}
+      groups={groups}
+      onMoveItem={onMoveItem}
+      isDraggedOver={activeDragGroupId === item.id}
+      dragCursorCoords={dragCursorCoords}
+      onInnerDragStart={onInnerDragStart}
+      onInnerDrag={onInnerDrag}
+      onInnerDragStop={onInnerDragStop}
+      draggedItem={draggedItem}
+    />,
+  [WidgetType.LINK]: renderLink,
+};
+
+function WidgetRendererInner(props: Readonly<Props>) {
+  const actions = useDashboardActions();
+  const { item } = props;
   if (isPlaceholder(item)) {
     return (
       <div className="w-full h-full rounded-lg border-2 border-dashed flex items-center justify-center bg-primary/5 transition-all duration-300 animate-pulse border-primary px-3 text-center select-none">
@@ -80,68 +122,15 @@ function WidgetRendererInner({
   }
 
   const linkItem = item as WidgetItem;
-
-  switch (linkItem.type) {
-    case WidgetType.GOOGLE_SEARCH:
-      return <GoogleSearchWidget item={linkItem as GoogleSearchItem} onDelete={onDelete} onUpdateItem={onUpdateItem} isEditing={isEditing} />;
-    case WidgetType.IFRAME:
-      return <IframeWidget item={linkItem as IframeItem} onDelete={onDelete} isEditing={isEditing} />;
-    case WidgetType.TODO:
-      return <TodoWidget item={linkItem as TodoItem} onDelete={onDelete} isEditing={isEditing} />;
-    case WidgetType.TIMER:
-      return <TimerWidget item={linkItem as TimerItem} onDelete={onDelete} isEditing={isEditing} />;
-    case WidgetType.REMINDERS:
-      return <RemindersWidget item={linkItem as RemindersItem} onDelete={onDelete} isEditing={isEditing} />;
-    case WidgetType.NOTE:
-      return <NoteWidget item={linkItem as NoteItem} onDelete={onDelete} onUpdateItem={onUpdateItem} isEditing={isEditing} />;
-    case WidgetType.IMAGE:
-      return <ImageWidget item={linkItem as ImageItem} onDelete={onDelete} onUpdateItem={onUpdateItem} isEditing={isEditing} />;
-    case WidgetType.LABEL:
-      return <LabelWidget item={linkItem as LabelItem} onDelete={onDelete} onUpdateItem={onUpdateItem} isEditing={isEditing} />;
-    case WidgetType.GROUP:
-      return (
-        <GroupWidget
-          item={linkItem as GroupItem}
-          onDelete={onDelete}
-          onUpdateItem={onUpdateItem}
-          isEditing={isEditing}
-          openInNewTab={openInNewTab}
-          groups={groups}
-          onMoveItem={onMoveItem}
-          isDraggedOver={activeDragGroupId === linkItem.id}
-          dragCursorCoords={dragCursorCoords}
-          onInnerDragStart={onInnerDragStart}
-          onInnerDrag={onInnerDrag}
-          onInnerDragStop={onInnerDragStop}
-          draggedItem={draggedItem}
-        />
-      );
-    case WidgetType.LINK:
-    default:
-      return (
-        <LinkCard
-          item={linkItem as LinkItem}
-          onDelete={onDelete}
-          onViewModeChange={onViewModeChange}
-          onUpdateItem={onUpdateItem}
-          isEditing={isEditing}
-          openInNewTab={openInNewTab}
-          groups={groups}
-          onMoveItem={onMoveItem}
-          parentId={undefined}
-        />
-      );
-  }
+  const render = WIDGET_RENDERERS[linkItem.type] ?? renderLink;
+  return render({ ...props, ...actions, item: linkItem });
 }
 
 const WidgetRenderer = memo(WidgetRendererInner, (prev, next) => {
+  // Item-mutation callbacks now come from a stable context, so they're not compared.
   if (prev.item !== next.item) return false;
   if (prev.isEditing !== next.isEditing) return false;
   if (prev.openInNewTab !== next.openInNewTab) return false;
-  if (prev.onDelete !== next.onDelete) return false;
-  if (prev.onViewModeChange !== next.onViewModeChange) return false;
-  if (prev.onUpdateItem !== next.onUpdateItem) return false;
-  if (prev.onMoveItem !== next.onMoveItem) return false;
 
   if (next.item.type === 'group') {
     if (prev.activeDragGroupId !== next.activeDragGroupId) return false;
