@@ -170,6 +170,9 @@ npm run test:watch # Vitest (watch mode)
 Before opening a PR, please ensure `npm run lint`, `npm run typecheck`, and `npm test`
 all pass.
 
+Cutting a release (tag → GitHub Release → Chrome Web Store) is documented in
+[RELEASING.md](RELEASING.md).
+
 ## Project structure
 
 ```text
