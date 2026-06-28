@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { getSettings, getItems } from '../lib/storage';
 import { saveItem } from '../lib/itemRepository';
 import { disambiguateGroups } from '../lib/disambiguateGroups';
@@ -32,6 +33,7 @@ interface TabInfo {
 type Destination = 'main' | 'header' | (string & {});
 
 function PopupApp() {
+  const { t } = useTranslation();
   const [saved, setSaved] = useState(false);
   const [tabInfo, setTabInfo] = useState<TabInfo | null>(null);
   const [canSave, setCanSave] = useState(false);
@@ -124,10 +126,10 @@ function PopupApp() {
 
   const displayGroups = useMemo(() => disambiguateGroups(groups), [groups]);
   const destinationLabel = (() => {
-    if (destination === 'main') return 'Main dashboard';
-    if (destination === 'header') return 'Header bar';
+    if (destination === 'main') return t('popup.destination.main');
+    if (destination === 'header') return t('popup.destination.header');
     const found = displayGroups.find((s) => s.id === destination)?.title;
-    return found ?? 'Main dashboard';
+    return found ?? t('popup.destination.main');
   })();
 
   const DestinationIcon = useMemo(() => {
@@ -161,12 +163,12 @@ function PopupApp() {
   return (
     <main className="w-[300px] min-w-[300px] bg-bg-primary font-sans p-4 flex flex-col gap-3">
       {pending.length > 0 && (
-        <section aria-label="Pending reminders" className="flex flex-col gap-2 -mx-1 -mt-1 p-3 rounded-xl bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-900/40">
+        <section aria-label={t('popup.reminders.ariaLabel')} className="flex flex-col gap-2 -mx-1 -mt-1 p-3 rounded-xl bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-900/40">
           <header className="flex items-center justify-between">
             <div className="flex items-center gap-1.5">
               <Bell size={13} className="text-red-600 dark:text-red-400" aria-hidden="true" />
               <h3 className="text-xs font-semibold text-red-700 dark:text-red-300">
-                {pending.length} reminder{pending.length === 1 ? '' : 's'}
+                {t('popup.reminders.count', { count: pending.length })}
               </h3>
             </div>
             <Button
@@ -175,7 +177,7 @@ function PopupApp() {
               onClick={dismissAll}
               className="h-auto p-0 text-2xs text-red-700 dark:text-red-300 hover:text-red-700"
             >
-              Clear all
+              {t('popup.reminders.clearAll')}
             </Button>
           </header>
           <ul className="flex flex-col gap-1 max-h-[180px] overflow-y-auto list-none">
@@ -201,7 +203,7 @@ function PopupApp() {
                   variant="ghost"
                   size="icon"
                   onClick={() => dismissOne(p.firedId)}
-                  title="Dismiss"
+                  title={t('popup.reminders.dismiss')}
                   className="h-5 w-5 shrink-0 text-muted-foreground hover:text-red-500 hover:bg-transparent opacity-60 hover:opacity-100"
                 >
                   <X size={12} />
@@ -213,7 +215,7 @@ function PopupApp() {
       )}
 
       <h3 className="m-0 text-sm font-semibold text-ink flex justify-center items-center gap-1.5 border-b pb-4">
-        Save to MonoStart
+        {t('popup.saveToMonoStart')}
       </h3>
 
       {tabInfo && (
@@ -235,7 +237,7 @@ function PopupApp() {
       <div className="h-px bg-border -mx-1" />
 
       <div className="flex flex-col gap-1.5">
-        <label htmlFor="popup-destination-trigger" className="text-2xs font-medium uppercase tracking-wide text-muted-foreground">Destination</label>
+        <label htmlFor="popup-destination-trigger" className="text-2xs font-medium uppercase tracking-wide text-muted-foreground">{t('popup.destination.label')}</label>
         <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button
@@ -255,10 +257,10 @@ function PopupApp() {
           className="w-[268px] max-h-[min(260px,var(--radix-dropdown-menu-content-available-height))] overflow-y-auto"
         >
           <DropdownMenuItem onClick={() => setDestination('main')} className="text-xs">
-            <LayoutGrid size={13} className="mr-2" aria-hidden="true" /> Main dashboard
+            <LayoutGrid size={13} className="mr-2" aria-hidden="true" /> {t('popup.destination.main')}
           </DropdownMenuItem>
           <DropdownMenuItem onClick={() => setDestination('header')} className="text-xs">
-            <Bookmark size={13} className="mr-2" aria-hidden="true" /> Header bar
+            <Bookmark size={13} className="mr-2" aria-hidden="true" /> {t('popup.destination.header')}
           </DropdownMenuItem>
           {displayGroups.length > 0 && <DropdownMenuSeparator />}
           {displayGroups.map((s) => (
@@ -277,9 +279,9 @@ function PopupApp() {
         className={`btn-primary w-full ${saved ? 'success' : ''} ${!canSave && !saved ? 'opacity-60 cursor-not-allowed' : ''}`}
       >
         {saved ? (
-          <><Check size={15} aria-hidden="true" /> Saved!</>
+          <><Check size={15} aria-hidden="true" /> {t('popup.saved')}</>
         ) : (
-          <><BookmarkPlus size={15} aria-hidden="true" /> Save Link</>
+          <><BookmarkPlus size={15} aria-hidden="true" /> {t('popup.saveLink')}</>
         )}
       </button>
 
@@ -289,7 +291,7 @@ function PopupApp() {
         className="btn-secondary w-full justify-center flex items-center gap-1.5"
       >
         <ExternalLink size={15} aria-hidden="true" />
-        Open Dashboard
+        {t('popup.openDashboard')}
       </button>
     </main>
   );

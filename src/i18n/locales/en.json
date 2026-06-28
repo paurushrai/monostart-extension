@@ -226,6 +226,41 @@
       "actionsAriaLabel": "Link actions"
     }
   },
+  "toasts": {
+    "removedEmptyPhotos_one": "Removed {{count}} empty photo widget.",
+    "removedEmptyPhotos_other": "Removed {{count}} empty photo widgets.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgets",
+    "clearedHeaderLinks_one": "{{count}} header link",
+    "clearedHeaderLinks_other": "{{count}} header links",
+    "clearedSummary": "Cleared {{items}}. Cancel to undo, or Save to confirm.",
+    "onlyOneGoogleSearch": "Only one Google search widget is allowed.",
+    "noRoomForWidget": "No room for this widget. Resize or remove something to make space.",
+    "swap": {
+      "no-room": "Can't swap — not enough room to fit both widgets at their new positions.",
+      "out-of-bounds": "Can't swap — one of the widgets would extend past the grid edge at its minimum size.",
+      "overlap": "Can't swap — the two widgets' minimum sizes overlap each other.",
+      "obstacle": "Can't swap — another widget is in the way. Move or resize it first."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Save to MonoStart",
+    "saveLink": "Save Link",
+    "saved": "Saved!",
+    "openDashboard": "Open Dashboard",
+    "destination": {
+      "label": "Destination",
+      "main": "Main dashboard",
+      "header": "Header bar"
+    },
+    "reminders": {
+      "ariaLabel": "Pending reminders",
+      "count_one": "{{count}} reminder",
+      "count_other": "{{count}} reminders",
+      "clearAll": "Clear all",
+      "dismiss": "Dismiss"
+    }
+  },
   "footer": {
     "guide": {
       "ariaLabel": "Hide Chrome footer guide",
