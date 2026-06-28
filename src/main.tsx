@@ -2,7 +2,6 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App'
-import './i18n/config';
 import i18n from './i18n/config';
 import { loadLocale } from './i18n/loadLocale';
 import { SUPPORTED_CODES } from './i18n/languages';
