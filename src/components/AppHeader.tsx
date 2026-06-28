@@ -101,14 +101,14 @@ export default function AppHeader({
               variant="ghost"
               size="sm"
               onClick={onClearDashboard}
-              title="Clear Dashboard"
+              title={t('header.clear')}
               className="text-red-500 hover:text-red-500 hover:bg-red-500/10 dark:hover:bg-red-500/15"
             >
               <Trash2 size={14} className="mr-1.5" />
-              Clear
+              {t('header.clear')}
             </Button>
             <Button variant="outline" size="sm" onClick={onCancelEdit}>
-              Cancel
+              {t('header.cancel')}
             </Button>
             <Button
               size="sm"
@@ -116,7 +116,7 @@ export default function AppHeader({
               className="bg-primary hover:bg-primary/90 text-primary-foreground dark:bg-primary dark:hover:bg-primary/90 dark:text-primary-foreground"
             >
               <Check size={16} className="mr-1.5" />
-              Save
+              {t('header.save')}
             </Button>
           </div>
         )}
@@ -130,7 +130,7 @@ export default function AppHeader({
             <Button
               variant="ghost"
               size="icon"
-              title="Settings"
+              title={t('header.settings')}
             >
               <Settings size={20} />
             </Button>
@@ -141,14 +141,14 @@ export default function AppHeader({
               className="flex items-center gap-2 cursor-pointer"
             >
               <LinkIcon size={14} className="text-muted-foreground" />
-              <span>Add Link</span>
+              <span>{t('header.menu.addLink')}</span>
             </DropdownMenuItem>
             <DropdownMenuItem
               onClick={onOpenAddWidget}
               className="flex items-center gap-2 cursor-pointer"
             >
               <LayoutGrid size={14} className="text-muted-foreground" />
-              <span>Add Widget</span>
+              <span>{t('header.menu.addWidget')}</span>
             </DropdownMenuItem>
 
             {!isEditing && (
@@ -157,7 +157,7 @@ export default function AppHeader({
                 className="flex items-center gap-2 cursor-pointer"
               >
                 <Edit2 size={14} className="text-muted-foreground" />
-                <span>Edit Dashboard</span>
+                <span>{t('header.menu.editDashboard')}</span>
               </DropdownMenuItem>
             )}
 
@@ -167,7 +167,7 @@ export default function AppHeader({
               className="flex items-center gap-2 cursor-pointer"
             >
               <Share2 size={14} className="text-muted-foreground" />
-              <span>Share MonoStart</span>
+              <span>{t('header.menu.share')}</span>
             </DropdownMenuItem>
             <DropdownMenuItem
               onClick={onOpenLanguage}
@@ -184,7 +184,7 @@ export default function AppHeader({
             >
               <div className="flex items-center gap-2">
                 <Palette size={14} className="text-muted-foreground" />
-                <span>Theme & Appearance</span>
+                <span>{t('header.menu.theme')}</span>
               </div>
               <div
                 className="w-3.5 h-3.5 rounded-full border border-border shadow-sm"
@@ -201,7 +201,7 @@ export default function AppHeader({
             >
               <div className="flex items-center gap-2">
                 <AppWindow size={14} className="text-muted-foreground" />
-                <span>Open links in new tab</span>
+                <span>{t('header.menu.openInNewTab')}</span>
               </div>
               <span
                 className={`flex items-center justify-center w-4 h-4 rounded border transition-colors ${
