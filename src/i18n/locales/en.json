@@ -1,0 +1,9 @@
+{
+  "common": {
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "copy": "Copy",
+    "copied": "Copied"
+  }
+}
