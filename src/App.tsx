@@ -6,6 +6,7 @@ import ThemeSettingsModal from './components/ThemeSettingsModal';
 import AddLinkModal from './components/AddLinkModal';
 import AppHeader from './components/AppHeader';
 import ClearDashboardModal from './components/ClearDashboardModal';
+import ShareModal from './components/ShareModal';
 import FooterGuide from './components/FooterGuide';
 import Toast from './components/Toast';
 import { useDashboard } from './hooks/useDashboard';
@@ -56,6 +57,7 @@ function App() {
   const [themeModalOpen, setThemeModalOpen] = useState(false);
   const [addLinkModalOpen, setAddLinkModalOpen] = useState(false);
   const [clearModalOpen, setClearModalOpen] = useState(false);
+  const [shareModalOpen, setShareModalOpen] = useState(false);
   const [isHeaderTargeted, setIsHeaderTargeted] = useState(false);
 
   const preAddSnapshotRef = useRef<WidgetItem[] | null>(null);
@@ -171,6 +173,7 @@ function App() {
         }}
         onOpenAddWidget={() => setModalOpen(true)}
         onOpenTheme={() => setThemeModalOpen(true)}
+        onOpenShare={() => setShareModalOpen(true)}
         onClearDashboard={() => setClearModalOpen(true)}
         isDropTarget={isHeaderTargeted}
       />
@@ -225,6 +228,11 @@ function App() {
         onClose={() => setClearModalOpen(false)}
         links={links}
         onConfirm={handleClearDashboard}
+      />
+
+      <ShareModal
+        open={shareModalOpen}
+        onClose={() => setShareModalOpen(false)}
       />
 
       <FooterGuide />
