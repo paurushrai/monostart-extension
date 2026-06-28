@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Check, Search } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
@@ -15,6 +15,10 @@ export default function LanguageModal({ open, onClose }: Readonly<Props>) {
   const { t } = useTranslation();
   const { language, setLanguage } = useLanguage();
   const [query, setQuery] = useState('');
+
+  useEffect(() => {
+    if (!open) setQuery('');
+  }, [open]);
 
   const q = query.trim().toLowerCase();
   const matches = SUPPORTED_LANGUAGES.filter(
