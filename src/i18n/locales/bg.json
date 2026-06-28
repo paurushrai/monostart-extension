@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Изтрий",
+    "cancel": "Отказ",
+    "save": "Запази",
+    "copy": "Копирай",
+    "copied": "Копирано"
+  },
+  "header": {
+    "menu": {
+      "language": "Език",
+      "addLink": "Добави връзка",
+      "addWidget": "Добави приспособление",
+      "editDashboard": "Редактирай таблото",
+      "theme": "Тема и изглед",
+      "share": "Сподели MonoStart",
+      "openInNewTab": "Отваряй връзки в нов раздел"
+    },
+    "settings": "Настройки",
+    "clear": "Изчисти",
+    "clearDashboard": "Изчисти таблото",
+    "cancel": "Отказ",
+    "save": "Запази"
+  },
+  "widgets": {
+    "deleteWidget": "Изтрий приспособление",
+    "placeholder": {
+      "place": "Постави",
+      "dropToPlace": "Пусни за поставяне"
+    },
+    "todo": {
+      "defaultTitle": "Задачи",
+      "empty": "Все още няма задачи.",
+      "deleteTask": "Изтрий задача",
+      "placeholder": "Добави задача...",
+      "newTaskAriaLabel": "Нова задача",
+      "addTask": "Добави задача",
+      "toggleAriaLabel": "Маркирай \"{{text}}\" като {{status}}",
+      "statusComplete": "завършена",
+      "statusIncomplete": "незавършена"
+    },
+    "timer": {
+      "defaultTitle": "Таймери",
+      "empty": "Няма зададени таймери.",
+      "deleteTimer": "Изтрий таймер",
+      "pause": "Пауза",
+      "start": "Старт",
+      "reset": "Нулиране",
+      "placeholderMin": "Мин",
+      "durationAriaLabel": "Продължителност на таймера в минути",
+      "placeholderLabel": "Етикет (по избор)",
+      "labelAriaLabel": "Етикет на таймера (по избор)",
+      "addTimer": "Добави таймер"
+    },
+    "reminders": {
+      "defaultTitle": "Напомняния",
+      "empty": "Все още няма напомняния.",
+      "deleteReminder": "Изтрий напомняне",
+      "placeholder": "Напомни ми да...",
+      "textAriaLabel": "Текст на напомнянето",
+      "recurrenceTitle": "Повторение",
+      "addReminder": "Добави напомняне",
+      "customIntervalAriaLabel": "Стойност на персонализирания интервал",
+      "customUnitAriaLabel": "Единица за персонализирания интервал",
+      "unitMinutes": "Минути",
+      "unitHours": "Часове",
+      "unitDays": "Дни",
+      "saveRecurrence": "Запази",
+      "toggleAriaLabel": "Маркирай \"{{text}}\" като {{status}}",
+      "statusComplete": "завършено",
+      "statusIncomplete": "незавършено",
+      "recurrenceNone": "Веднъж",
+      "recurrence30min": "Всеки 30 мин",
+      "recurrenceHourly": "Всеки час",
+      "recurrenceDaily": "Всеки ден",
+      "recurrenceWeekly": "Всяка седмица",
+      "recurrenceCustom": "Персонализирано",
+      "everyDay": "Всеки {{count}}д",
+      "everyHour": "Всеки {{count}}ч",
+      "everyMin": "Всеки {{count}}м",
+      "every": "Всеки",
+      "today": "Днес {{time}}",
+      "tomorrow": "Утре {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Бележка",
+      "changeColor": "Смени цвета",
+      "placeholder": "Напиши нещо...",
+      "contentAriaLabel": "Съдържание на бележката",
+      "titleAriaLabel": "Заглавие на бележката",
+      "actionsAriaLabel": "Действия с бележката",
+      "color_default": "По подразбиране",
+      "color_amber": "Жълт",
+      "color_sky": "Син",
+      "color_rose": "Розов",
+      "color_emerald": "Зелен",
+      "color_purple": "Лилав"
+    },
+    "image": {
+      "defaultTitle": "Изображение",
+      "settings": "Настройки на изображението",
+      "actionsAriaLabel": "Действия с изображението",
+      "titleAriaLabel": "Заглавие на изображението",
+      "changeImage": "Смени изображението",
+      "fitCover": "Покриване (Изрязване)",
+      "fitContain": "Вместване (Пропорции)",
+      "fitFill": "Запълване (Разтягане)",
+      "configureTitle": "Конфигурирай изображението на приспособлението",
+      "urlPlaceholder": "Постави URL на изображение...",
+      "or": "Или",
+      "uploadLocal": "Качи локално изображение",
+      "cancelConfig": "Отказ от конфигурацията",
+      "loadError": "Изображението не успя да се зареди. URL адресът може да е неработещ или блокиран."
+    },
+    "label": {
+      "defaultText": "Текст",
+      "settings": "Настройки на текста",
+      "actionsAriaLabel": "Действия с етикета",
+      "textAriaLabel": "Текст на етикета",
+      "editText": "Редактирай текст",
+      "showCardStyle": "Покажи стил на карта",
+      "fontSize": "Размер на шрифта",
+      "alignment": "Подравняване",
+      "fontWeight": "Тегло на шрифта",
+      "opacity": "Прозрачност",
+      "deleteText": "Изтрий текст",
+      "alignLeft": "Ляво",
+      "alignCenter": "Център",
+      "alignRight": "Дясно",
+      "fontSizes": {
+        "sm": "Малък",
+        "base": "Среден",
+        "lg": "Голям",
+        "xl": "Много голям",
+        "xl2": "2X Голям",
+        "xl3": "3X Голям",
+        "xl4": "4X Голям",
+        "xl5": "5X Голям",
+        "xl6": "6X Голям",
+        "xl7": "7X Голям",
+        "xl8": "8X Голям",
+        "xl9": "9X Голям",
+        "xl10": "10X Голям",
+        "xl12": "12X Голям"
+      },
+      "fontWeights": {
+        "thin": "Тънък",
+        "light": "Лек",
+        "regular": "Обикновен",
+        "medium": "Среден",
+        "semibold": "Полудебел",
+        "bold": "Удебелен",
+        "extrabold": "Много удебелен",
+        "black": "Черен"
+      },
+      "opacities": {
+        "full": "100% (Ярък)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Приглушен)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Търси в Google или въведи URL",
+      "searchAriaLabel": "Заявка за търсене",
+      "voiceSearch": "Гласово търсене",
+      "lensSearch": "Търси изображение с Lens",
+      "removeWidget": "Премахни приспособление",
+      "switchToBarOnly": "Премини само към лента",
+      "switchToLogoBar": "Премини към лого + лента",
+      "barOnly": "Само лента",
+      "showLogo": "Покажи лого",
+      "toggleLogoStyle": "Превключи стила на логото"
+    },
+    "group": {
+      "borderColorAriaLabel": "Цвят на рамката на групата",
+      "pasteUrlPlaceholder": "Постави URL...",
+      "colors": {
+        "red": "Червен",
+        "pink": "Розов",
+        "purple": "Лилав",
+        "indigo": "Индиго",
+        "blue": "Син",
+        "cyan": "Циан",
+        "teal": "Тюркоаз",
+        "green": "Зелен",
+        "yellow": "Жълт",
+        "orange": "Оранжев",
+        "slate": "Шисти",
+        "neutral": "Неутрален"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Добави връзка",
+      "colorBorder": "Цветна рамка",
+      "layout": "Оформление",
+      "layoutGrid": "Мрежа",
+      "layoutList": "Списък",
+      "gridColumns": "Колони в мрежата",
+      "column_one": "{{count}} колона",
+      "column_other": "{{count}} колони",
+      "deleteGroup": "Изтрий група",
+      "actionsAriaLabel": "Действия с групата"
+    },
+    "groupInnerGrid": {
+      "empty": "Празна група",
+      "addFirstLink": "Добави първата връзка",
+      "dropToAdd": "Пусни за добавяне",
+      "add": "Добави"
+    },
+    "iframe": {
+      "removeWidget": "Премахни приспособление",
+      "openInNewTab": "Отвори в нов раздел"
+    },
+    "linkCard": {
+      "options": "Опции",
+      "rename": "Преименувай",
+      "size": "Размер",
+      "sizeSmall": "Малък (1×1)",
+      "sizeMedium": "Среден (3×1)",
+      "moveTo": "Премести в...",
+      "mainDashboard": "Главно табло",
+      "header": "Заглавна лента",
+      "deleteLink": "Изтрий връзка",
+      "actionsAriaLabel": "Действия с връзката"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Премахнато {{count}} празно приспособление за снимки.",
+    "removedEmptyPhotos_other": "Премахнати {{count}} празни приспособления за снимки.",
+    "clearedWidgets_one": "{{count}} приспособление",
+    "clearedWidgets_other": "{{count}} приспособления",
+    "clearedHeaderLinks_one": "{{count}} връзка в заглавната лента",
+    "clearedHeaderLinks_other": "{{count}} връзки в заглавната лента",
+    "clearedSummary": "Изчистено {{items}}. Натисни Отказ за отмяна или Запази за потвърждение.",
+    "onlyOneGoogleSearch": "Разрешено е само едно приспособление за търсене в Google.",
+    "noRoomForWidget": "Няма място за това приспособление. Преоразмери или премахни нещо, за да освободиш място.",
+    "swap": {
+      "no-room": "Не може да се размени — недостатъчно място за двете приспособления на новите им позиции.",
+      "out-of-bounds": "Не може да се размени — едно от приспособленията би излязло извън ръба на мрежата при минималния му размер.",
+      "overlap": "Не може да се размени — минималните размери на двете приспособления се застъпват.",
+      "obstacle": "Не може да се размени — друго приспособление е на пътя. Премести или преоразмери го първо."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Запази в MonoStart",
+    "saveLink": "Запази връзка",
+    "saved": "Запазено!",
+    "openDashboard": "Отвори таблото",
+    "destination": {
+      "label": "Местоназначение",
+      "main": "Главно табло",
+      "header": "Заглавна лента"
+    },
+    "reminders": {
+      "ariaLabel": "Чакащи напомняния",
+      "count_one": "{{count}} напомняне",
+      "count_other": "{{count}} напомняния",
+      "clearAll": "Изчисти всички",
+      "dismiss": "Отхвърли"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Скрий ръководството за долния колонтитул на Chrome",
+      "success": "Долният колонтитул е скрит — насладете се на целия екран!",
+      "corner": {
+        "title": "Получи изживяване на цял екран",
+        "intro": "Chrome добавя долен колонтитул под MonoStart. За да го скриеш, натисни",
+        "cta": "Персонализирай Chrome",
+        "ctaSuffix": "в долния десен ъгъл.",
+        "noFooter": "Не виждаш долен колонтитул? Всичко е наред — пропусни тази стъпка."
+      },
+      "panel": {
+        "title": "Почти готово",
+        "intro": "Под",
+        "setting": "Долен колонтитул",
+        "turnOff": ", изключи",
+        "action": "Показвай долен колонтитул на страницата за нов раздел",
+        "suffix": ", след което затвори панела."
+      },
+      "skip": "Пропусни",
+      "next": "Напред",
+      "done": "Готово"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Език",
+      "subtitle": "Избери своя език",
+      "search": "Търси езици…",
+      "empty": "Няма езици, съответстващи на търсенето ти."
+    },
+    "addWidget": {
+      "title": "Добави приспособление",
+      "titleConfigure": "Конфигурирай {{name}}",
+      "titleGoogleStyle": "Избери стил за търсене в Google",
+      "logoBarTitle": "Лого + Лента",
+      "logoBarDesc": "Голямо лого на Google над лентата за търсене. Заема 4 реда.",
+      "barOnlyTitle": "Само лента",
+      "barOnlyDesc": "Само лентата за търсене. Заема 1 ред. Компактна.",
+      "urlLabel": "URL или код за вграждане",
+      "urlPlaceholder": "https://example.com\nили\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Постави URL за обикновено вграждане или постави <code>&lt;iframe&gt;</code> фрагмент от сайтове, които блокират директното зареждане (YouTube, Figma, Spotify, CodePen и др.).",
+      "back": "Назад",
+      "embedWidget": "Вгради приспособление"
+    },
+    "addLink": {
+      "title": "Добави връзка",
+      "description": "Постави URL, за да добавиш нова карта с връзка към таблото си.",
+      "urlLabel": "URL на уебсайта",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Заглавие (по избор)",
+      "titlePlaceholder": "Моята връзка",
+      "locationLabel": "Местоположение",
+      "locationMainDashboard": "Главно табло",
+      "locationHeader": "Заглавна лента (само фавикон)",
+      "locationFolder": "Папка: {{title}}",
+      "locationGroup": "Група: {{title}}",
+      "cancel": "Отказ",
+      "submit": "Добави връзка"
+    },
+    "theme": {
+      "title": "Тема и изглед",
+      "description": "Персонализирай облика на таблото си.",
+      "modeGroupLabel": "Режим на темата",
+      "light": "Светъл",
+      "dark": "Тъмен",
+      "device": "Устройство",
+      "primaryColorHeading": "Основен цвят",
+      "primaryColorPresetsLabel": "Готови основни цветове",
+      "customColorLabel": "Персонализиран цвят",
+      "customColorTitle": "Персонализиран цвят",
+      "customHue": "Персонализиран нюанс",
+      "backgroundHeading": "Фон",
+      "backgroundTypeLabel": "Тип на фона",
+      "backgroundColorLabel": "Цвят на фона",
+      "backgroundGradientLabel": "Градиент на фона",
+      "imageUrlPlaceholder": "Постави URL на изображение...",
+      "uploadImage": "Качи изображение",
+      "imageUploaded": "Персонализираното изображение е качено.",
+      "blur": "Размазване",
+      "dim": "Затъмняване",
+      "fileReadError": "Неуспешно четене на файла.",
+      "bgType": {
+        "none": "Без",
+        "color": "Цвят",
+        "gradient": "Градиент",
+        "image": "Изображение"
+      }
+    },
+    "clear": {
+      "title": "Изчисти таблото",
+      "description": "Това премахва приспособленията от таблото. В режим на редактиране все още можеш да натиснеш Отказ, за да отмениш, преди да запазиш.",
+      "widgetsGroups": "Приспособления и групи в главната мрежа",
+      "linksInsideGroups": "↳ връзки вътре в групите",
+      "headerBarLinks": "Връзки в заглавната лента",
+      "alsoClearHeaderLabel": "Изчисти също връзките в заглавната лента",
+      "alsoClearHeaderDesc": "По подразбиране заглавната лента се запазва. Отметни това, за да я изтриеш също.",
+      "widgetGroups_one": "Ще бъде изтрито <strong>{{count}}</strong> приспособление/група",
+      "widgetGroups_other": "Ще бъдат изтрити <strong>{{count}}</strong> приспособления/групи",
+      "headerLinks_one": "<strong>{{count}}</strong> връзка в заглавната лента",
+      "headerLinks_other": "<strong>{{count}}</strong> връзки в заглавната лента",
+      "andConnector": " и ",
+      "cancelRestores": ". Отказ в лентата за редактиране ги възстановява.",
+      "nothingToClear": "Няма какво да се изчисти с текущата селекция.",
+      "cancelButton": "Отказ",
+      "clearWidgets": "Изчисти приспособленията",
+      "clearEverything": "Изчисти всичко"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Сподели този елемент",
+      "copyLink": "Копирай връзката",
+      "linkCopied": "Връзката е копирана",
+      "shareOn": "Сподели в {{platform}}",
+      "shareVia": "Сподели чрез {{platform}}"
+    }
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "মুছুন",
+    "cancel": "বাতিল",
+    "save": "সংরক্ষণ",
+    "copy": "কপি",
+    "copied": "কপি হয়েছে"
+  },
+  "header": {
+    "menu": {
+      "language": "ভাষা",
+      "addLink": "লিঙ্ক যোগ করুন",
+      "addWidget": "উইজেট যোগ করুন",
+      "editDashboard": "ড্যাশবোর্ড সম্পাদনা করুন",
+      "theme": "থিম ও চেহারা",
+      "share": "MonoStart শেয়ার করুন",
+      "openInNewTab": "নতুন ট্যাবে লিঙ্ক খুলুন"
+    },
+    "settings": "সেটিংস",
+    "clear": "পরিষ্কার",
+    "clearDashboard": "ড্যাশবোর্ড পরিষ্কার করুন",
+    "cancel": "বাতিল",
+    "save": "সংরক্ষণ"
+  },
+  "widgets": {
+    "deleteWidget": "উইজেট মুছুন",
+    "placeholder": {
+      "place": "রাখুন",
+      "dropToPlace": "রাখতে ছেড়ে দিন"
+    },
+    "todo": {
+      "defaultTitle": "কাজের তালিকা",
+      "empty": "এখনো কোনো কাজ নেই।",
+      "deleteTask": "কাজ মুছুন",
+      "placeholder": "কাজ যোগ করুন...",
+      "newTaskAriaLabel": "নতুন কাজ",
+      "addTask": "কাজ যোগ করুন",
+      "toggleAriaLabel": "\"{{text}}\" কে {{status}} হিসেবে চিহ্নিত করুন",
+      "statusComplete": "সম্পন্ন",
+      "statusIncomplete": "অসম্পন্ন"
+    },
+    "timer": {
+      "defaultTitle": "টাইমার",
+      "empty": "কোনো টাইমার সেট নেই।",
+      "deleteTimer": "টাইমার মুছুন",
+      "pause": "বিরতি",
+      "start": "শুরু",
+      "reset": "পুনরায় সেট",
+      "placeholderMin": "মিনিট",
+      "durationAriaLabel": "মিনিটে টাইমারের সময়কাল",
+      "placeholderLabel": "লেবেল (ঐচ্ছিক)",
+      "labelAriaLabel": "টাইমার লেবেল (ঐচ্ছিক)",
+      "addTimer": "টাইমার যোগ করুন"
+    },
+    "reminders": {
+      "defaultTitle": "অনুস্মারক",
+      "empty": "এখনো কোনো অনুস্মারক নেই।",
+      "deleteReminder": "অনুস্মারক মুছুন",
+      "placeholder": "আমাকে মনে করিয়ে দিন...",
+      "textAriaLabel": "অনুস্মারকের পাঠ্য",
+      "recurrenceTitle": "পুনরাবৃত্তি",
+      "addReminder": "অনুস্মারক যোগ করুন",
+      "customIntervalAriaLabel": "কাস্টম ব্যবধানের মান",
+      "customUnitAriaLabel": "কাস্টম ব্যবধানের একক",
+      "unitMinutes": "মিনিট",
+      "unitHours": "ঘণ্টা",
+      "unitDays": "দিন",
+      "saveRecurrence": "সংরক্ষণ",
+      "toggleAriaLabel": "\"{{text}}\" কে {{status}} হিসেবে চিহ্নিত করুন",
+      "statusComplete": "সম্পন্ন",
+      "statusIncomplete": "অসম্পন্ন",
+      "recurrenceNone": "একবার",
+      "recurrence30min": "প্রতি ৩০ মিনিটে",
+      "recurrenceHourly": "প্রতি ঘণ্টায়",
+      "recurrenceDaily": "প্রতিদিন",
+      "recurrenceWeekly": "প্রতি সপ্তাহে",
+      "recurrenceCustom": "কাস্টম",
+      "everyDay": "প্রতি {{count}}দিন",
+      "everyHour": "প্রতি {{count}}ঘণ্টা",
+      "everyMin": "প্রতি {{count}}মিনিট",
+      "every": "প্রতি",
+      "today": "আজ {{time}}",
+      "tomorrow": "আগামীকাল {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "নোট",
+      "changeColor": "রঙ পরিবর্তন করুন",
+      "placeholder": "কিছু লিখুন...",
+      "contentAriaLabel": "নোটের বিষয়বস্তু",
+      "titleAriaLabel": "নোটের শিরোনাম",
+      "actionsAriaLabel": "নোটের কার্যক্রম",
+      "color_default": "ডিফল্ট",
+      "color_amber": "হলুদ",
+      "color_sky": "নীল",
+      "color_rose": "গোলাপি",
+      "color_emerald": "সবুজ",
+      "color_purple": "বেগুনি"
+    },
+    "image": {
+      "defaultTitle": "ছবি",
+      "settings": "ছবির সেটিংস",
+      "actionsAriaLabel": "ছবির কার্যক্রম",
+      "titleAriaLabel": "ছবির শিরোনাম",
+      "changeImage": "ছবি পরিবর্তন করুন",
+      "fitCover": "কভার (ক্রপ)",
+      "fitContain": "ধারণ (অনুপাত)",
+      "fitFill": "পূরণ (প্রসারিত)",
+      "configureTitle": "উইজেট ছবি কনফিগার করুন",
+      "urlPlaceholder": "ছবির URL পেস্ট করুন...",
+      "or": "অথবা",
+      "uploadLocal": "স্থানীয় ছবি আপলোড করুন",
+      "cancelConfig": "কনফিগারেশন বাতিল",
+      "loadError": "ছবি লোড হয়নি। URL ভাঙ্গা বা অবরুদ্ধ হতে পারে।"
+    },
+    "label": {
+      "defaultText": "পাঠ্য",
+      "settings": "পাঠ্য সেটিংস",
+      "actionsAriaLabel": "লেবেলের কার্যক্রম",
+      "textAriaLabel": "লেবেলের পাঠ্য",
+      "editText": "পাঠ্য সম্পাদনা করুন",
+      "showCardStyle": "কার্ড স্টাইল দেখান",
+      "fontSize": "ফন্টের আকার",
+      "alignment": "সারিবদ্ধতা",
+      "fontWeight": "ফন্টের ওজন",
+      "opacity": "স্বচ্ছতা",
+      "deleteText": "পাঠ্য মুছুন",
+      "alignLeft": "বাম",
+      "alignCenter": "কেন্দ্র",
+      "alignRight": "ডান",
+      "fontSizes": {
+        "sm": "ছোট",
+        "base": "মাঝারি",
+        "lg": "বড়",
+        "xl": "অতি বড়",
+        "xl2": "২X বড়",
+        "xl3": "৩X বড়",
+        "xl4": "৪X বড়",
+        "xl5": "৫X বড়",
+        "xl6": "৬X বড়",
+        "xl7": "৭X বড়",
+        "xl8": "৮X বড়",
+        "xl9": "৯X বড়",
+        "xl10": "১০X বড়",
+        "xl12": "১২X বড়"
+      },
+      "fontWeights": {
+        "thin": "পাতলা",
+        "light": "হালকা",
+        "regular": "সাধারণ",
+        "medium": "মাঝারি",
+        "semibold": "আধা-গাঢ়",
+        "bold": "গাঢ়",
+        "extrabold": "অতিরিক্ত গাঢ়",
+        "black": "কালো"
+      },
+      "opacities": {
+        "full": "১০০% (উজ্জ্বল)",
+        "p80": "৮০%",
+        "p60": "৬০%",
+        "muted": "৪০% (ম্লান)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google এ সার্চ করুন বা URL টাইপ করুন",
+      "searchAriaLabel": "সার্চ প্রশ্ন",
+      "voiceSearch": "ভয়েস সার্চ",
+      "lensSearch": "Lens দিয়ে যেকোনো ছবি সার্চ করুন",
+      "removeWidget": "উইজেট সরান",
+      "switchToBarOnly": "শুধু বারে পরিবর্তন করুন",
+      "switchToLogoBar": "লোগো + বারে পরিবর্তন করুন",
+      "barOnly": "শুধু বার",
+      "showLogo": "লোগো দেখান",
+      "toggleLogoStyle": "লোগো স্টাইল পরিবর্তন করুন"
+    },
+    "group": {
+      "borderColorAriaLabel": "গ্রুপের বর্ডারের রঙ",
+      "pasteUrlPlaceholder": "URL পেস্ট করুন...",
+      "colors": {
+        "red": "লাল",
+        "pink": "গোলাপি",
+        "purple": "বেগুনি",
+        "indigo": "নীলবেগুনি",
+        "blue": "নীল",
+        "cyan": "সায়ান",
+        "teal": "টিল",
+        "green": "সবুজ",
+        "yellow": "হলুদ",
+        "orange": "কমলা",
+        "slate": "স্লেট",
+        "neutral": "নিরপেক্ষ"
+      }
+    },
+    "groupHeader": {
+      "addLink": "লিঙ্ক যোগ করুন",
+      "colorBorder": "রঙিন বর্ডার",
+      "layout": "বিন্যাস",
+      "layoutGrid": "গ্রিড",
+      "layoutList": "তালিকা",
+      "gridColumns": "গ্রিড কলাম",
+      "column_one": "{{count}} কলাম",
+      "column_other": "{{count}} কলাম",
+      "deleteGroup": "গ্রুপ মুছুন",
+      "actionsAriaLabel": "গ্রুপের কার্যক্রম"
+    },
+    "groupInnerGrid": {
+      "empty": "খালি গ্রুপ",
+      "addFirstLink": "প্রথম লিঙ্ক যোগ করুন",
+      "dropToAdd": "যোগ করতে ছেড়ে দিন",
+      "add": "যোগ করুন"
+    },
+    "iframe": {
+      "removeWidget": "উইজেট সরান",
+      "openInNewTab": "নতুন ট্যাবে খুলুন"
+    },
+    "linkCard": {
+      "options": "বিকল্প",
+      "rename": "নাম পরিবর্তন",
+      "size": "আকার",
+      "sizeSmall": "ছোট (১×১)",
+      "sizeMedium": "মাঝারি (৩×১)",
+      "moveTo": "এতে সরান...",
+      "mainDashboard": "প্রধান ড্যাশবোর্ড",
+      "header": "হেডার",
+      "deleteLink": "লিঙ্ক মুছুন",
+      "actionsAriaLabel": "লিঙ্কের কার্যক্রম"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}}টি খালি ফটো উইজেট সরানো হয়েছে।",
+    "removedEmptyPhotos_other": "{{count}}টি খালি ফটো উইজেট সরানো হয়েছে।",
+    "clearedWidgets_one": "{{count}}টি উইজেট",
+    "clearedWidgets_other": "{{count}}টি উইজেট",
+    "clearedHeaderLinks_one": "{{count}}টি হেডার লিঙ্ক",
+    "clearedHeaderLinks_other": "{{count}}টি হেডার লিঙ্ক",
+    "clearedSummary": "{{items}} পরিষ্কার করা হয়েছে। পূর্বাবস্থায় ফেরাতে বাতিল করুন, বা নিশ্চিত করতে সংরক্ষণ করুন।",
+    "onlyOneGoogleSearch": "শুধুমাত্র একটি Google সার্চ উইজেট অনুমোদিত।",
+    "noRoomForWidget": "এই উইজেটের জন্য জায়গা নেই। জায়গা করতে কিছু পুনরায় আকার দিন বা সরান।",
+    "swap": {
+      "no-room": "অদলবদল করা যাচ্ছে না — নতুন অবস্থানে উভয় উইজেটের জন্য যথেষ্ট জায়গা নেই।",
+      "out-of-bounds": "অদলবদল করা যাচ্ছে না — একটি উইজেট তার ন্যূনতম আকারে গ্রিডের প্রান্ত ছাড়িয়ে যাবে।",
+      "overlap": "অদলবদল করা যাচ্ছে না — দুটি উইজেটের ন্যূনতম আকার পরস্পর ওভারল্যাপ করে।",
+      "obstacle": "অদলবদল করা যাচ্ছে না — পথে আরেকটি উইজেট আছে। আগে সেটি সরান বা পুনরায় আকার দিন।"
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStart এ সংরক্ষণ করুন",
+    "saveLink": "লিঙ্ক সংরক্ষণ",
+    "saved": "সংরক্ষিত!",
+    "openDashboard": "ড্যাশবোর্ড খুলুন",
+    "destination": {
+      "label": "গন্তব্য",
+      "main": "প্রধান ড্যাশবোর্ড",
+      "header": "হেডার বার"
+    },
+    "reminders": {
+      "ariaLabel": "অপেক্ষমাণ অনুস্মারক",
+      "count_one": "{{count}}টি অনুস্মারক",
+      "count_other": "{{count}}টি অনুস্মারক",
+      "clearAll": "সব পরিষ্কার করুন",
+      "dismiss": "খারিজ করুন"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome ফুটার গাইড লুকান",
+      "success": "ফুটার লুকানো হয়েছে — পূর্ণ স্ক্রিন উপভোগ করুন!",
+      "corner": {
+        "title": "পূর্ণ-স্ক্রিন অভিজ্ঞতা পান",
+        "intro": "Chrome MonoStart এর নিচে একটি ফুটার যোগ করে। এটি লুকাতে ক্লিক করুন",
+        "cta": "Chrome কাস্টমাইজ করুন",
+        "ctaSuffix": "নিচের-ডান কোণে।",
+        "noFooter": "ফুটার দেখছেন না? আপনি প্রস্তুত — এটি এড়িয়ে যান।"
+      },
+      "panel": {
+        "title": "প্রায় হয়ে গেছে",
+        "intro": "এর অধীনে",
+        "setting": "ফুটার",
+        "turnOff": ", বন্ধ করুন",
+        "action": "নতুন ট্যাব পৃষ্ঠায় ফুটার দেখান",
+        "suffix": ", তারপর প্যানেল বন্ধ করুন।"
+      },
+      "skip": "এড়িয়ে যান",
+      "next": "পরবর্তী",
+      "done": "সম্পন্ন"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "ভাষা",
+      "subtitle": "আপনার ভাষা বেছে নিন",
+      "search": "ভাষা খুঁজুন…",
+      "empty": "আপনার সার্চের সাথে কোনো ভাষা মেলেনি।"
+    },
+    "addWidget": {
+      "title": "উইজেট যোগ করুন",
+      "titleConfigure": "{{name}} কনফিগার করুন",
+      "titleGoogleStyle": "Google সার্চ স্টাইল বেছে নিন",
+      "logoBarTitle": "লোগো + বার",
+      "logoBarDesc": "সার্চ বারের উপরে বড় Google লোগো। ৪ সারি নেয়।",
+      "barOnlyTitle": "শুধু বার",
+      "barOnlyDesc": "শুধু সার্চ বার। ১ সারি নেয়। কমপ্যাক্ট।",
+      "urlLabel": "URL বা এম্বেড কোড",
+      "urlPlaceholder": "https://example.com\nঅথবা\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "সাধারণ এম্বেডের জন্য একটি URL পেস্ট করুন, অথবা যে সাইটগুলি সরাসরি লোডিং ব্লক করে সেগুলি থেকে <code>&lt;iframe&gt;</code> স্নিপেট পেস্ট করুন (YouTube, Figma, Spotify, CodePen, ইত্যাদি)।",
+      "back": "পেছনে",
+      "embedWidget": "উইজেট এম্বেড করুন"
+    },
+    "addLink": {
+      "title": "লিঙ্ক যোগ করুন",
+      "description": "আপনার ড্যাশবোর্ডে একটি নতুন লিঙ্ক কার্ড যোগ করতে একটি URL পেস্ট করুন।",
+      "urlLabel": "ওয়েবসাইট URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "শিরোনাম (ঐচ্ছিক)",
+      "titlePlaceholder": "আমার লিঙ্ক",
+      "locationLabel": "অবস্থান",
+      "locationMainDashboard": "প্রধান ড্যাশবোর্ড",
+      "locationHeader": "হেডার (শুধু ফেভিকন)",
+      "locationFolder": "ফোল্ডার: {{title}}",
+      "locationGroup": "গ্রুপ: {{title}}",
+      "cancel": "বাতিল",
+      "submit": "লিঙ্ক যোগ করুন"
+    },
+    "theme": {
+      "title": "থিম ও চেহারা",
+      "description": "আপনার ড্যাশবোর্ডের চেহারা কাস্টমাইজ করুন।",
+      "modeGroupLabel": "থিম মোড",
+      "light": "আলো",
+      "dark": "অন্ধকার",
+      "device": "ডিভাইস",
+      "primaryColorHeading": "প্রাথমিক রঙ",
+      "primaryColorPresetsLabel": "প্রাথমিক রঙের প্রিসেট",
+      "customColorLabel": "কাস্টম রঙ",
+      "customColorTitle": "কাস্টম রঙ",
+      "customHue": "কাস্টম হিউ",
+      "backgroundHeading": "পটভূমি",
+      "backgroundTypeLabel": "পটভূমির ধরন",
+      "backgroundColorLabel": "পটভূমির রঙ",
+      "backgroundGradientLabel": "পটভূমির গ্রেডিয়েন্ট",
+      "imageUrlPlaceholder": "ছবির URL পেস্ট করুন...",
+      "uploadImage": "ছবি আপলোড করুন",
+      "imageUploaded": "কাস্টম ছবি আপলোড হয়েছে।",
+      "blur": "ঝাপসা",
+      "dim": "অনুজ্জ্বল",
+      "fileReadError": "ফাইল পড়তে ব্যর্থ হয়েছে।",
+      "bgType": {
+        "none": "কিছু না",
+        "color": "রঙ",
+        "gradient": "গ্রেডিয়েন্ট",
+        "image": "ছবি"
+      }
+    },
+    "clear": {
+      "title": "ড্যাশবোর্ড পরিষ্কার করুন",
+      "description": "এটি ড্যাশবোর্ড থেকে উইজেট সরিয়ে দেয়। আপনি সম্পাদনা মোডে আছেন, তাই সংরক্ষণের আগে বাতিল করে পূর্বাবস্থায় ফিরতে পারেন।",
+      "widgetsGroups": "প্রধান গ্রিডে উইজেট ও গ্রুপ",
+      "linksInsideGroups": "↳ গ্রুপের ভেতরে লিঙ্ক",
+      "headerBarLinks": "হেডার বার লিঙ্ক",
+      "alsoClearHeaderLabel": "হেডার বার লিঙ্কও পরিষ্কার করুন",
+      "alsoClearHeaderDesc": "ডিফল্টরূপে হেডার বার সংরক্ষিত থাকে। এটিও মুছতে চাইলে টিক দিন।",
+      "widgetGroups_one": "<strong>{{count}}</strong>টি উইজেট/গ্রুপ মুছতে চলেছে",
+      "widgetGroups_other": "<strong>{{count}}</strong>টি উইজেট/গ্রুপ মুছতে চলেছে",
+      "headerLinks_one": "<strong>{{count}}</strong>টি হেডার লিঙ্ক",
+      "headerLinks_other": "<strong>{{count}}</strong>টি হেডার লিঙ্ক",
+      "andConnector": " এবং ",
+      "cancelRestores": "। সম্পাদনা-মোড টুলবারে বাতিল করলে সেগুলি ফিরে আসবে।",
+      "nothingToClear": "বর্তমান নির্বাচনে পরিষ্কার করার কিছু নেই।",
+      "cancelButton": "বাতিল",
+      "clearWidgets": "উইজেট পরিষ্কার করুন",
+      "clearEverything": "সব পরিষ্কার করুন"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "এই আইটেম শেয়ার করুন",
+      "copyLink": "লিঙ্ক কপি করুন",
+      "linkCopied": "লিঙ্ক কপি হয়েছে",
+      "shareOn": "{{platform}} এ শেয়ার করুন",
+      "shareVia": "{{platform}} এর মাধ্যমে শেয়ার করুন"
+    }
+  }
+}
