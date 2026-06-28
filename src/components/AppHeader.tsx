@@ -101,7 +101,7 @@ export default function AppHeader({
               variant="ghost"
               size="sm"
               onClick={onClearDashboard}
-              title={t('header.clear')}
+              title={t('header.clearDashboard')}
               className="text-red-500 hover:text-red-500 hover:bg-red-500/10 dark:hover:bg-red-500/15"
             >
               <Trash2 size={14} className="mr-1.5" />
