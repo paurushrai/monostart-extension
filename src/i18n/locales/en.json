@@ -5,5 +5,18 @@
     "save": "Save",
     "copy": "Copy",
     "copied": "Copied"
+  },
+  "header": {
+    "menu": {
+      "language": "Language"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Language",
+      "subtitle": "Choose your language",
+      "search": "Search languages…",
+      "empty": "No languages match your search."
+    }
   }
 }

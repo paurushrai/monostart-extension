@@ -7,10 +7,11 @@ import {
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
-import { Edit2, Check, Settings, Link as LinkIcon, Palette, AppWindow, LayoutGrid, Trash2, Share2 } from 'lucide-react';
+import { Edit2, Check, Settings, Link as LinkIcon, Palette, AppWindow, LayoutGrid, Trash2, Share2, Languages } from 'lucide-react';
 import HeaderBranding from './HeaderBranding';
 import type { WidgetItem, LinkItem, GroupItem, Settings as AppSettings, GridSlot } from '../types';
 import type { UseHeaderDrag } from '../hooks/useHeaderDrag';
+import { useTranslation } from 'react-i18next';
 
 interface Props {
   links: WidgetItem[];
@@ -28,6 +29,7 @@ interface Props {
   onOpenAddWidget: () => void;
   onOpenTheme: () => void;
   onOpenShare: () => void;
+  onOpenLanguage: () => void;
   onClearDashboard: () => void;
   isDropTarget?: boolean;
 }
@@ -48,9 +50,11 @@ export default function AppHeader({
   onOpenAddWidget,
   onOpenTheme,
   onOpenShare,
+  onOpenLanguage,
   onClearDashboard,
   isDropTarget = false,
 }: Readonly<Props>) {
+  const { t } = useTranslation();
   const headerLinks = links
     .filter((l): l is LinkItem => l.isHeaderLink === true && l.type === 'link')
     .sort((a, b) => (a.order || 0) - (b.order || 0));
@@ -164,6 +168,13 @@ export default function AppHeader({
             >
               <Share2 size={14} className="text-muted-foreground" />
               <span>Share MonoStart</span>
+            </DropdownMenuItem>
+            <DropdownMenuItem
+              onClick={onOpenLanguage}
+              className="flex items-center gap-2 cursor-pointer"
+            >
+              <Languages size={14} className="text-muted-foreground" />
+              <span>{t('header.menu.language')}</span>
             </DropdownMenuItem>
 
             <DropdownMenuSeparator />

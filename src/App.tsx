@@ -11,6 +11,7 @@ const ThemeSettingsModal = lazy(() => import('./components/ThemeSettingsModal'))
 const AddLinkModal = lazy(() => import('./components/AddLinkModal'));
 const ClearDashboardModal = lazy(() => import('./components/ClearDashboardModal'));
 const ShareModal = lazy(() => import('./components/ShareModal'));
+const LanguageModal = lazy(() => import('./components/LanguageModal'));
 import Toast from './components/Toast';
 import { useDashboard } from './hooks/useDashboard';
 import { DashboardActionsProvider, type DashboardActions } from './contexts/dashboardActions';
@@ -62,6 +63,7 @@ function App() {
   const [addLinkModalOpen, setAddLinkModalOpen] = useState(false);
   const [clearModalOpen, setClearModalOpen] = useState(false);
   const [shareModalOpen, setShareModalOpen] = useState(false);
+  const [languageModalOpen, setLanguageModalOpen] = useState(false);
   const [isHeaderTargeted, setIsHeaderTargeted] = useState(false);
 
   const preAddSnapshotRef = useRef<WidgetItem[] | null>(null);
@@ -191,6 +193,7 @@ function App() {
         onOpenAddWidget={() => setModalOpen(true)}
         onOpenTheme={() => setThemeModalOpen(true)}
         onOpenShare={() => setShareModalOpen(true)}
+        onOpenLanguage={() => setLanguageModalOpen(true)}
         onClearDashboard={() => setClearModalOpen(true)}
         isDropTarget={isHeaderTargeted}
       />
@@ -262,6 +265,10 @@ function App() {
             open
             onClose={() => setShareModalOpen(false)}
           />
+        )}
+
+        {languageModalOpen && (
+          <LanguageModal open onClose={() => setLanguageModalOpen(false)} />
         )}
       </Suspense>
 
