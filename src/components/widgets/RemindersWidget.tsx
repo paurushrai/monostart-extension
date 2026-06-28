@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect, type FormEvent } from 'react';
 import { Bell, Plus, X, Repeat, ChevronDown, Check } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { useWidgetStorage } from '../../hooks/useWidgetStorage';
 import WidgetShell from './WidgetShell';
 import { DateTimePicker } from '@/components/ui/date-time-picker';
@@ -37,24 +38,25 @@ type CustomUnit = 'm' | 'h' | 'd';
 const unitToMs = (unit: CustomUnit): number =>
   unit === 'd' ? DAY_MS : unit === 'h' ? HOUR_MS : MINUTE_MS;
 
-const formatCustomMs = (ms: number): string => {
+const formatCustomMs = (ms: number, t: (key: string, opts?: Record<string, unknown>) => string): string => {
   const minutes = Math.max(1, Math.round(ms / MINUTE_MS));
-  if (minutes >= 1440 && minutes % 1440 === 0) return `Every ${minutes / 1440}d`;
-  if (minutes >= 60 && minutes % 60 === 0) return `Every ${minutes / 60}h`;
-  return `Every ${minutes}m`;
+  if (minutes >= 1440 && minutes % 1440 === 0) return t('widgets.reminders.everyDay', { count: minutes / 1440 });
+  if (minutes >= 60 && minutes % 60 === 0) return t('widgets.reminders.everyHour', { count: minutes / 60 });
+  return t('widgets.reminders.everyMin', { count: minutes });
 };
 
 const recurrenceLabel = (
   recurrence: ReminderEntry['recurrence'],
+  t: (key: string, opts?: Record<string, unknown>) => string,
   customIntervalMs?: number,
 ): string => {
   switch (recurrence) {
-    case 'none': return 'Once';
-    case '30min': return 'Every 30 min';
-    case 'hourly': return 'Hourly';
-    case 'daily': return 'Daily';
-    case 'weekly': return 'Weekly';
-    case 'custom': return customIntervalMs ? formatCustomMs(customIntervalMs) : 'Custom';
+    case 'none': return t('widgets.reminders.recurrenceNone');
+    case '30min': return t('widgets.reminders.recurrence30min');
+    case 'hourly': return t('widgets.reminders.recurrenceHourly');
+    case 'daily': return t('widgets.reminders.recurrenceDaily');
+    case 'weekly': return t('widgets.reminders.recurrenceWeekly');
+    case 'custom': return customIntervalMs ? formatCustomMs(customIntervalMs, t) : t('widgets.reminders.recurrenceCustom');
   }
 };
 
@@ -68,7 +70,7 @@ const defaultDueAt = (): Date => {
   return d;
 };
 
-const formatDue = (epochMs: number): string => {
+const formatDue = (epochMs: number, t: (key: string, opts?: Record<string, unknown>) => string): string => {
   const d = new Date(epochMs);
   const now = new Date();
   const sameDay =
@@ -76,18 +78,19 @@ const formatDue = (epochMs: number): string => {
     d.getMonth() === now.getMonth() &&
     d.getDate() === now.getDate();
   const time = d.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
-  if (sameDay) return `Today ${time}`;
+  if (sameDay) return t('widgets.reminders.today', { time });
   const tomorrow = new Date(now);
   tomorrow.setDate(now.getDate() + 1);
   const sameAsTomorrow =
     d.getFullYear() === tomorrow.getFullYear() &&
     d.getMonth() === tomorrow.getMonth() &&
     d.getDate() === tomorrow.getDate();
-  if (sameAsTomorrow) return `Tomorrow ${time}`;
-  return `${d.toLocaleDateString([], { month: 'short', day: 'numeric' })} ${time}`;
+  if (sameAsTomorrow) return t('widgets.reminders.tomorrow', { time });
+  return t('widgets.reminders.dateTime', { date: d.toLocaleDateString([], { month: 'short', day: 'numeric' }), time });
 };
 
 const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
+  const { t } = useTranslation();
   const [reminders, saveReminders] = useWidgetStorage<ReminderEntry[]>(`reminders-widget-${item.id}`, []);
   const [text, setText] = useState('');
   const [dueAt, setDueAt] = useState<Date>(defaultDueAt);
@@ -146,10 +149,10 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
   };
 
   return (
-    <WidgetShell icon={Bell} title={item.title || 'Reminders'} isEditing={isEditing} onDelete={() => onDelete(item.id)}>
+    <WidgetShell icon={Bell} title={item.title || t('widgets.reminders.defaultTitle')} isEditing={isEditing} onDelete={() => onDelete(item.id)}>
       <ul className="flex-1 overflow-y-auto p-1 space-y-1 list-none">
         {sorted.length === 0 && (
-          <li className="text-xs text-muted-foreground text-center mt-4">No reminders yet.</li>
+          <li className="text-xs text-muted-foreground text-center mt-4">{t('widgets.reminders.empty')}</li>
         )}
         {sorted.map((r) => {
           const overdue = !r.completed && r.dueAt <= now;
@@ -163,7 +166,7 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
                   type="checkbox"
                   checked={!!r.completed}
                   onChange={() => toggleComplete(r.id)}
-                  aria-label={`Mark "${r.text}" as ${r.completed ? 'incomplete' : 'complete'}`}
+                  aria-label={t('widgets.reminders.toggleAriaLabel', { text: r.text, status: r.completed ? t('widgets.reminders.statusIncomplete') : t('widgets.reminders.statusComplete') })}
                   className="mt-1 accent-primary cursor-pointer w-3.5 h-3.5 shrink-0"
                 />
               ) : (
@@ -174,8 +177,8 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
                   {r.text}
                 </p>
                 <p className={`text-2xs mt-0.5 ${overdue ? 'text-red-600 dark:text-red-400 font-medium' : 'text-muted-foreground'}`}>
-                  <time dateTime={new Date(r.dueAt).toISOString()}>{formatDue(r.dueAt)}</time>
-                  {r.recurrence !== 'none' && <span className="ml-1.5">· {recurrenceLabel(r.recurrence, r.customIntervalMs)}</span>}
+                  <time dateTime={new Date(r.dueAt).toISOString()}>{formatDue(r.dueAt, t)}</time>
+                  {r.recurrence !== 'none' && <span className="ml-1.5">· {recurrenceLabel(r.recurrence, t, r.customIntervalMs)}</span>}
                 </p>
               </div>
               <Button
@@ -184,7 +187,7 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
                 size="icon"
                 onClick={() => removeOne(r.id)}
                 className="h-5 w-5 opacity-0 group-hover/item:opacity-100 text-muted-foreground hover:text-red-500 hover:bg-transparent transition-opacity shrink-0 mt-0.5"
-                title="Delete Reminder"
+                title={t('widgets.reminders.deleteReminder')}
               >
                 <X size={14} />
               </Button>
@@ -198,8 +201,8 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Remind me to..."
-          aria-label="Reminder text"
+          placeholder={t('widgets.reminders.placeholder')}
+          aria-label={t('widgets.reminders.textAriaLabel')}
           className="h-7 w-full bg-gray-100 dark:bg-white/5 border-none rounded-sm px-2.5 text-xs focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-0"
         />
         <div className="flex items-center gap-1.5">
@@ -212,12 +215,12 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
                 type="button"
                 variant="secondary"
                 size="sm"
-                title="Recurrence"
+                title={t('widgets.reminders.recurrenceTitle')}
                 className="h-7 px-2 rounded-sm text-xs font-medium bg-gray-100 dark:bg-white/5 hover:bg-gray-200 dark:hover:bg-white/10 shrink-0"
               >
                 {recurrence === 'custom'
-                  ? formatCustomMs(customValue * unitToMs(customUnit))
-                  : recurrenceLabel(recurrence)}
+                  ? formatCustomMs(customValue * unitToMs(customUnit), t)
+                  : recurrenceLabel(recurrence, t)}
                 <ChevronDown size={12} className="ml-1 opacity-60" aria-hidden="true" />
               </Button>
             </DropdownMenuTrigger>
@@ -233,7 +236,7 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
                       <span className="w-3.5 inline-flex justify-center">
                         {recurrence === 'custom' && <Check size={12} />}
                       </span>
-                      <span>Custom</span>
+                      <span>{t('widgets.reminders.recurrenceCustom')}</span>
                     </DropdownMenuItem>
                   );
                 }
@@ -246,7 +249,7 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
                     <span className="w-3.5 inline-flex justify-center">
                       {recurrence === opt && <Check size={12} />}
                     </span>
-                    <span>{recurrenceLabel(opt)}</span>
+                    <span>{recurrenceLabel(opt, t)}</span>
                   </DropdownMenuItem>
                 );
               })}
@@ -257,7 +260,7 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
                   onKeyDown={(e) => e.stopPropagation()}
                 >
                   <div className="flex items-center gap-1.5">
-                    <span className="text-2xs text-muted-foreground shrink-0">Every</span>
+                    <span className="text-2xs text-muted-foreground shrink-0">{t('widgets.reminders.every')}</span>
                     <Input
                       type="number"
                       min={1}
@@ -267,20 +270,20 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
                         const n = parseInt(e.target.value, 10);
                         setCustomValue(Number.isFinite(n) ? Math.max(1, Math.min(365, n)) : 1);
                       }}
-                      aria-label="Custom interval value"
+                      aria-label={t('widgets.reminders.customIntervalAriaLabel')}
                       className="w-14 h-7 text-xs px-2 bg-gray-100 dark:bg-white/5 border-none rounded-sm focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-0"
                     />
                     <Select value={customUnit} onValueChange={(v) => setCustomUnit(v as CustomUnit)}>
                       <SelectTrigger
-                        aria-label="Custom interval unit"
+                        aria-label={t('widgets.reminders.customUnitAriaLabel')}
                         className="h-7 w-[5.5rem] px-2 text-xs bg-gray-100 dark:bg-white/5 border-none rounded-sm shadow-none focus:ring-1 focus:ring-primary focus:ring-offset-0"
                       >
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent className="min-w-[6rem]">
-                        <SelectItem value="m" className="text-xs">Minutes</SelectItem>
-                        <SelectItem value="h" className="text-xs">Hours</SelectItem>
-                        <SelectItem value="d" className="text-xs">Days</SelectItem>
+                        <SelectItem value="m" className="text-xs">{t('widgets.reminders.unitMinutes')}</SelectItem>
+                        <SelectItem value="h" className="text-xs">{t('widgets.reminders.unitHours')}</SelectItem>
+                        <SelectItem value="d" className="text-xs">{t('widgets.reminders.unitDays')}</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -290,7 +293,7 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
                     className="h-6 px-2 text-2xs w-full"
                     onClick={() => setRecurrenceOpen(false)}
                   >
-                    Save
+                    {t('widgets.reminders.saveRecurrence')}
                   </Button>
                 </div>
               )}
@@ -301,7 +304,7 @@ const RemindersWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
             size="icon"
             disabled={!text.trim()}
             className="h-7 w-7 rounded-sm bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 active:bg-primary/80 dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/90 dark:active:bg-primary/80 disabled:opacity-40 shrink-0"
-            title="Add Reminder"
+            title={t('widgets.reminders.addReminder')}
           >
             <Plus size={14} strokeWidth={3} />
           </Button>

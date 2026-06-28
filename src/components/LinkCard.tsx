@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, memo, type FocusEvent, type KeyboardEvent } from 'react';
+import { useTranslation } from 'react-i18next';
 import {
   ExternalLink,
   Check,
@@ -61,6 +62,7 @@ const LinkCard = ({
   displayMode,
 }: Readonly<Props>) => {
   const { url, title, customName } = item;
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isRenaming, setIsRenaming] = useState(false);
   const [draftName, setDraftName] = useState('');
@@ -150,7 +152,7 @@ const LinkCard = ({
       {isEditing && (
         <div 
           role="toolbar"
-          aria-label="Link actions"
+          aria-label={t('widgets.linkCard.actionsAriaLabel')}
           className={`absolute top-0 right-0 z-30 -translate-y-[30%] translate-x-[30%] transition-all duration-200 flex items-center
             ${isMenuOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-90 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto'}`}
           onMouseDown={(e) => e.stopPropagation()}
@@ -160,7 +162,7 @@ const LinkCard = ({
               <Button
                 variant="ghost"
                 size="icon"
-                title="Options"
+                title={t('widgets.linkCard.options')}
                 className="h-6.5 w-6.5 rounded-full bg-background shadow-md border border-border hover:bg-secondary flex items-center justify-center transition-transform active:scale-95"
               >
                 <MoreHorizontal size={12} className="text-foreground" />
@@ -179,7 +181,7 @@ const LinkCard = ({
             >
               <DropdownMenuItem onClick={startRename} className="flex items-center gap-2">
                 <Pencil size={13} className="text-muted-foreground" />
-                <span>Rename</span>
+                <span>{t('widgets.linkCard.rename')}</span>
               </DropdownMenuItem>
 
               <DropdownMenuSeparator />
@@ -187,7 +189,7 @@ const LinkCard = ({
               <DropdownMenuSub>
                 <DropdownMenuSubTrigger className="flex items-center gap-2">
                   <Ruler size={13} className="text-muted-foreground" />
-                  <span>Size</span>
+                  <span>{t('widgets.linkCard.size')}</span>
                 </DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent className="w-40" onMouseDown={(e) => e.stopPropagation()}>
@@ -200,7 +202,7 @@ const LinkCard = ({
                     >
                       <div className="flex items-center gap-2">
                         <Square size={13} className="text-muted-foreground" />
-                        <span>Small (1×1)</span>
+                        <span>{t('widgets.linkCard.sizeSmall')}</span>
                       </div>
                       {isIconOnly && <Check className="h-3.5 w-3.5 text-primary ml-2" />}
                     </DropdownMenuItem>
@@ -214,7 +216,7 @@ const LinkCard = ({
                     >
                       <div className="flex items-center gap-2">
                         <RectangleHorizontal size={13} className="text-muted-foreground" />
-                        <span>Medium (3×1)</span>
+                        <span>{t('widgets.linkCard.sizeMedium')}</span>
                       </div>
                       {!isIconOnly && <Check className="h-3.5 w-3.5 text-primary ml-2" />}
                     </DropdownMenuItem>
@@ -226,7 +228,7 @@ const LinkCard = ({
                 <DropdownMenuSub>
                   <DropdownMenuSubTrigger className="flex items-center gap-2">
                     <FolderInput size={13} className="text-muted-foreground" />
-                    <span>Move to...</span>
+                    <span>{t('widgets.linkCard.moveTo')}</span>
                   </DropdownMenuSubTrigger>
                   <DropdownMenuPortal>
                     <DropdownMenuSubContent className="w-44" onMouseDown={(e) => e.stopPropagation()}>
@@ -239,7 +241,7 @@ const LinkCard = ({
                           className="flex items-center gap-2"
                         >
                           <Home size={13} className="text-muted-foreground" />
-                          <span>Main Dashboard</span>
+                          <span>{t('widgets.linkCard.mainDashboard')}</span>
                         </DropdownMenuItem>
                       )}
                       {!item.isHeaderLink && (
@@ -251,7 +253,7 @@ const LinkCard = ({
                           className="flex items-center gap-2"
                         >
                           <LayoutGrid size={13} className="text-muted-foreground" />
-                          <span>Header</span>
+                          <span>{t('widgets.linkCard.header')}</span>
                         </DropdownMenuItem>
                       )}
                       {groups
@@ -284,7 +286,7 @@ const LinkCard = ({
                 className="text-red-500 hover:text-red-600 focus:text-red-600 focus:bg-red-50 dark:focus:bg-red-950/20 flex items-center gap-2"
               >
                 <Trash2 size={13} />
-                <span>Delete Link</span>
+                <span>{t('widgets.linkCard.deleteLink')}</span>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

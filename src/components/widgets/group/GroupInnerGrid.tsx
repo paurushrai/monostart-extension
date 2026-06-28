@@ -1,4 +1,5 @@
 import { useLayoutEffect, useState, type RefObject, type MouseEvent as ReactMouseEvent } from 'react';
+import { useTranslation } from 'react-i18next';
 import GridLayout from 'react-grid-layout/legacy';
 import type { Layout } from 'react-grid-layout/legacy';
 import { Folder } from 'lucide-react';
@@ -86,6 +87,7 @@ export default function GroupInnerGrid({
   onInnerUpdateLink,
   onAddFirstLink,
 }: Readonly<Props>) {
+  const { t } = useTranslation();
   const isList = groupLayout === 'list';
   const gridCols = isList ? 1 : cols;
   const rowPx = isList ? 25 : 50;
@@ -220,7 +222,7 @@ export default function GroupInnerGrid({
       {displayLinks.length === 0 ? (
         <div className="flex flex-col items-center justify-center h-full text-center p-4 min-h-[120px]">
           <Folder size={28} className="text-muted-foreground/30 mb-1.5" />
-          <span className="text-xs text-muted-foreground/60 font-medium">Empty Group</span>
+          <span className="text-xs text-muted-foreground/60 font-medium">{t('widgets.groupInnerGrid.empty')}</span>
           {isEditing && (
             <Button
               variant="link"
@@ -228,7 +230,7 @@ export default function GroupInnerGrid({
               onClick={onAddFirstLink}
               className="text-2xs text-primary mt-0.5 hover:no-underline px-2 h-auto"
             >
-              Add first link
+              {t('widgets.groupInnerGrid.addFirstLink')}
             </Button>
           )}
         </div>
@@ -258,7 +260,7 @@ export default function GroupInnerGrid({
                   style={{ borderColor: borderCssColor }}
                 >
                   <span className="text-2xs font-semibold block w-full text-center" style={{ color: textCssColor }}>
-                    {subItem.w === 1 ? 'Add' : 'Drop to Add'}
+                    {subItem.w === 1 ? t('widgets.groupInnerGrid.add') : t('widgets.groupInnerGrid.dropToAdd')}
                   </span>
                 </div>
               ) : (

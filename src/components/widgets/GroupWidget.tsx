@@ -11,20 +11,21 @@ import { findFirstFreeSlot } from '../../lib/grid';
 import { siteFaviconUrl } from '../../lib/favicon';
 import { deriveSiteName } from '../../lib/siteName';
 import type { GroupItem, LinkItem, WidgetItem, DragCoords, GridSlot } from '../../types';
+import { useTranslation } from 'react-i18next';
 
 const PRESET_COLORS = [
-  { name: 'Red', hsl: '346 87% 61%' },
-  { name: 'Pink', hsl: '326 100% 74%' },
-  { name: 'Purple', hsl: '271 91% 65%' },
-  { name: 'Indigo', hsl: '239 84% 67%' },
-  { name: 'Blue', hsl: '200 73% 52%' },
-  { name: 'Cyan', hsl: '189 94% 43%' },
-  { name: 'Teal', hsl: '175 84% 32%' },
-  { name: 'Green', hsl: '142 71% 45%' },
-  { name: 'Yellow', hsl: '45 93% 47%' },
-  { name: 'Orange', hsl: '24 100% 50%' },
-  { name: 'Slate', hsl: '215 16% 47%' },
-  { name: 'Neutral', hsl: '0 0% 50%' },
+  { name: 'Red', hsl: '346 87% 61%', labelKey: 'widgets.group.colors.red' },
+  { name: 'Pink', hsl: '326 100% 74%', labelKey: 'widgets.group.colors.pink' },
+  { name: 'Purple', hsl: '271 91% 65%', labelKey: 'widgets.group.colors.purple' },
+  { name: 'Indigo', hsl: '239 84% 67%', labelKey: 'widgets.group.colors.indigo' },
+  { name: 'Blue', hsl: '200 73% 52%', labelKey: 'widgets.group.colors.blue' },
+  { name: 'Cyan', hsl: '189 94% 43%', labelKey: 'widgets.group.colors.cyan' },
+  { name: 'Teal', hsl: '175 84% 32%', labelKey: 'widgets.group.colors.teal' },
+  { name: 'Green', hsl: '142 71% 45%', labelKey: 'widgets.group.colors.green' },
+  { name: 'Yellow', hsl: '45 93% 47%', labelKey: 'widgets.group.colors.yellow' },
+  { name: 'Orange', hsl: '24 100% 50%', labelKey: 'widgets.group.colors.orange' },
+  { name: 'Slate', hsl: '215 16% 47%', labelKey: 'widgets.group.colors.slate' },
+  { name: 'Neutral', hsl: '0 0% 50%', labelKey: 'widgets.group.colors.neutral' },
 ];
 
 interface GroupRef {
@@ -63,6 +64,7 @@ const GroupWidget = ({
   onInnerDragStop,
   draggedItem,
 }: Readonly<Props>) => {
+  const { t } = useTranslation();
   const { title, borderColor = '200 73% 52%', links = [], cols = 3, layout = 'grid' } = item;
 
   const [isAddingLink, setIsAddingLink] = useState(false);
@@ -271,7 +273,7 @@ const GroupWidget = ({
       {showColorPicker && isEditing && (
         <div
           role="radiogroup"
-          aria-label="Group border color"
+          aria-label={t('widgets.group.borderColorAriaLabel')}
           className="mt-4 mx-3 px-3 py-2 bg-secondary/40 border border-border/40 rounded-lg flex flex-wrap gap-1.5 justify-center items-center select-none"
           onMouseDown={(e) => e.stopPropagation()}
         >
@@ -290,7 +292,7 @@ const GroupWidget = ({
                 borderColor === color.hsl ? 'ring-1.5 ring-foreground' : 'border border-border/60'
               }`}
               style={{ backgroundColor: `hsl(${color.hsl})` }}
-              title={color.name}
+              title={t(color.labelKey)}
             />
           ))}
           <Button
@@ -313,7 +315,7 @@ const GroupWidget = ({
           <Input
             ref={addInputRef}
             type="text"
-            placeholder="Paste URL..."
+            placeholder={t('widgets.group.pasteUrlPlaceholder')}
             value={newUrl}
             onChange={(e) => setNewUrl(e.target.value)}
             className="h-7 text-xs flex-1 bg-gray-100 dark:bg-white/5 border-none rounded-sm px-2.5 focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-0"

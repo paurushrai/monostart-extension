@@ -3,6 +3,7 @@ import { X, ExternalLink } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { sanitizeEmbed, extractEmbedSrc } from '@/lib/embedSanitizer';
 import type { IframeItem } from '../types';
+import { useTranslation } from 'react-i18next';
 
 const EmbedContent = React.memo(function EmbedContent({ html }: { html: string }) {
   return (
@@ -33,6 +34,7 @@ interface Props {
 }
 
 const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>) => {
+  const { t } = useTranslation();
   const isEmbed = item.mode === 'embed' && !!item.embedHtml;
 
   const sanitizedHtml = useMemo(
@@ -76,7 +78,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
               onPointerDown={stopPointer}
               onTouchStart={stopPointer}
               onClick={handleDeleteClick}
-              title="Remove widget"
+              title={t('widgets.iframe.removeWidget')}
               className="h-6 w-6 rounded-md bg-background/80 backdrop-blur-sm hover:text-red-500 shadow-sm"
             >
               <X size={12} />
@@ -108,7 +110,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
               asChild
               onMouseDown={(e) => e.stopPropagation()}
               className={`rounded-md hover:bg-background ${isEditing ? 'h-7 w-7' : 'h-5 w-5'}`}
-              title="Open in new tab"
+              title={t('widgets.iframe.openInNewTab')}
             >
               <a href={openUrl} target="_blank" rel="noopener noreferrer">
                 <ExternalLink size={isEditing ? 14 : 10} />

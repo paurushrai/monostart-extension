@@ -1,4 +1,5 @@
 import type { FocusEvent, KeyboardEvent } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Plus, Trash2, Palette, Folder, Check, MoreVertical, LayoutGrid, List, Rows3 } from 'lucide-react';
 import { Button } from "../../ui/button";
 import {
@@ -50,6 +51,7 @@ export default function GroupHeader({
   onUpdateLayout,
   onDelete,
 }: Readonly<Props>) {
+  const { t } = useTranslation();
   return (
     <div
       className={`flex items-center justify-between px-2 border-b bg-gray-50/50 dark:bg-black/10 shrink-0 rounded-t-[10px] transition-all duration-300 ${isEditing ? 'py-1 drag-handle cursor-grab active:cursor-grabbing' : 'py-0.5'}`}
@@ -76,7 +78,7 @@ export default function GroupHeader({
       {isEditing && (
         <div
           role="toolbar"
-          aria-label="Group actions"
+          aria-label={t('widgets.groupHeader.actionsAriaLabel')}
           className="flex items-center gap-0.5 shrink-0"
           onMouseDown={(e) => e.stopPropagation()}
         >
@@ -84,7 +86,7 @@ export default function GroupHeader({
             variant="ghost"
             size="icon"
             className="w-6 h-6 rounded hover:bg-secondary text-muted-foreground hover:text-foreground"
-            title="Add Link"
+            title={t('widgets.groupHeader.addLink')}
             onClick={onAddLink}
           >
             <Plus size={13} />
@@ -103,7 +105,7 @@ export default function GroupHeader({
             <DropdownMenuContent align="end" className="w-40" onMouseDown={(e) => e.stopPropagation()}>
               <DropdownMenuItem onClick={onAddLink}>
                 <Plus className="mr-2 h-3.5 w-3.5" />
-                Add Link
+                {t('widgets.groupHeader.addLink')}
               </DropdownMenuItem>
 
               <DropdownMenuSeparator />
@@ -114,7 +116,7 @@ export default function GroupHeader({
               >
                 <span className="flex items-center">
                   <Palette className="mr-2 h-3.5 w-3.5" />
-                  Color Border
+                  {t('widgets.groupHeader.colorBorder')}
                 </span>
                 <div className="w-3.5 h-3.5 rounded-full border border-border" style={{ backgroundColor: borderCssColor }} />
               </DropdownMenuItem>
@@ -122,7 +124,7 @@ export default function GroupHeader({
               <DropdownMenuSub>
                 <DropdownMenuSubTrigger className="flex items-center">
                   <Rows3 className="mr-2 h-3.5 w-3.5" />
-                  Layout
+                  {t('widgets.groupHeader.layout')}
                 </DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent className="w-36" onMouseDown={(e) => e.stopPropagation()}>
@@ -132,7 +134,7 @@ export default function GroupHeader({
                     >
                       <span className="flex items-center">
                         <LayoutGrid className="mr-2 h-3.5 w-3.5" />
-                        Grid
+                        {t('widgets.groupHeader.layoutGrid')}
                       </span>
                       {layout === 'grid' && <Check className="h-3.5 w-3.5 text-primary" />}
                     </DropdownMenuItem>
@@ -142,7 +144,7 @@ export default function GroupHeader({
                     >
                       <span className="flex items-center">
                         <List className="mr-2 h-3.5 w-3.5" />
-                        List
+                        {t('widgets.groupHeader.layoutList')}
                       </span>
                       {layout === 'list' && <Check className="h-3.5 w-3.5 text-primary" />}
                     </DropdownMenuItem>
@@ -154,7 +156,7 @@ export default function GroupHeader({
                 <DropdownMenuSub>
                   <DropdownMenuSubTrigger className="flex items-center">
                     <LayoutGrid className="mr-2 h-3.5 w-3.5" />
-                    Grid Columns
+                    {t('widgets.groupHeader.gridColumns')}
                   </DropdownMenuSubTrigger>
                   <DropdownMenuPortal>
                     <DropdownMenuSubContent className="w-36" onMouseDown={(e) => e.stopPropagation()}>
@@ -164,7 +166,7 @@ export default function GroupHeader({
                           onClick={() => onUpdateCols(num)}
                           className="flex items-center justify-between"
                         >
-                          <span>{num} {num === 1 ? 'Column' : 'Columns'}</span>
+                          <span>{t('widgets.groupHeader.column', { count: num })}</span>
                           {cols === num && <Check className="h-3.5 w-3.5 text-primary" />}
                         </DropdownMenuItem>
                       ))}
@@ -180,7 +182,7 @@ export default function GroupHeader({
                 className="text-red-500 hover:text-red-600 focus:text-red-600 focus:bg-red-50 dark:focus:bg-red-950/20"
               >
                 <Trash2 className="mr-2 h-3.5 w-3.5" />
-                Delete Group
+                {t('widgets.groupHeader.deleteGroup')}
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

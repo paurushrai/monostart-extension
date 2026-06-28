@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import { CheckSquare, Plus, X } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { useWidgetStorage } from '../../hooks/useWidgetStorage';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -13,6 +14,7 @@ interface Props {
 }
 
 const TodoWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
+  const { t } = useTranslation();
   const [todos, saveTodos] = useWidgetStorage<TodoEntry[]>(`todo-widget-${item.id}`, []);
   const [newTask, setNewTask] = useState("");
 
@@ -33,10 +35,10 @@ const TodoWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
   };
 
   return (
-    <WidgetShell icon={CheckSquare} title={item.title || 'Todos'} isEditing={isEditing} onDelete={() => onDelete(item.id)}>
+    <WidgetShell icon={CheckSquare} title={item.title || t('widgets.todo.defaultTitle')} isEditing={isEditing} onDelete={() => onDelete(item.id)}>
       <ul className="flex-1 overflow-y-auto p-1 space-y-0.5 list-none">
         {todos.length === 0 && (
-          <li className="text-xs text-muted-foreground text-center mt-4">No tasks yet.</li>
+          <li className="text-xs text-muted-foreground text-center mt-4">{t('widgets.todo.empty')}</li>
         )}
         {todos.map(todo => (
           <li key={todo.id} className="flex items-center gap-1.5 px-2 py-0.5 hover:bg-gray-50 dark:hover:bg-white/5 rounded group/item">
@@ -44,7 +46,7 @@ const TodoWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
               type="checkbox"
               checked={todo.completed}
               onChange={() => toggleTodo(todo.id)}
-              aria-label={`Mark "${todo.text}" as ${todo.completed ? 'incomplete' : 'complete'}`}
+              aria-label={t('widgets.todo.toggleAriaLabel', { text: todo.text, status: todo.completed ? t('widgets.todo.statusIncomplete') : t('widgets.todo.statusComplete') })}
               className="accent-primary cursor-pointer w-3 h-3 shrink-0"
             />
             <span className={`text-xs leading-snug flex-1 min-w-0 break-words ${todo.completed ? 'line-through text-muted-foreground' : 'text-foreground'}`}>
@@ -55,7 +57,7 @@ const TodoWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
               variant="ghost"
               size="icon"
               onClick={() => deleteTodo(todo.id)}
-              title="Delete Task"
+              title={t('widgets.todo.deleteTask')}
               className="h-5 w-5 opacity-0 group-hover/item:opacity-100 text-muted-foreground hover:text-red-500 hover:bg-transparent transition-opacity shrink-0"
             >
               <X size={14} />
@@ -70,8 +72,8 @@ const TodoWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
             type="text"
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
-            placeholder="Add a task..."
-            aria-label="New task"
+            placeholder={t('widgets.todo.placeholder')}
+            aria-label={t('widgets.todo.newTaskAriaLabel')}
             className="h-7 w-full bg-gray-100 dark:bg-white/5 border-none rounded-sm pl-2.5 pr-8 text-xs focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-0"
           />
           <Button
@@ -79,7 +81,7 @@ const TodoWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
             variant="ghost"
             size="icon"
             disabled={!newTask.trim()}
-            title="Add Task"
+            title={t('widgets.todo.addTask')}
             className="absolute right-1 top-1/2 -translate-y-1/2 h-6 w-6 p-0 text-primary hover:bg-primary/10 hover:text-primary disabled:opacity-50"
           >
             <Plus size={14} />

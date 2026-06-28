@@ -1,4 +1,5 @@
 import { memo, type ReactElement } from 'react';
+import { useTranslation } from 'react-i18next';
 import LinkCard from './LinkCard';
 import IframeWidget from './IframeWidget';
 import GoogleSearchWidget from './widgets/GoogleSearchWidget';
@@ -110,12 +111,13 @@ const WIDGET_RENDERERS: Record<string, WidgetRender> = {
 
 function WidgetRendererInner(props: Readonly<Props>) {
   const actions = useDashboardActions();
+  const { t } = useTranslation();
   const { item } = props;
   if (isPlaceholder(item)) {
     return (
       <div className="w-full h-full rounded-lg border-2 border-dashed flex items-center justify-center bg-primary/5 transition-all duration-300 animate-pulse border-primary px-3 text-center select-none">
         <span className="text-2xs font-semibold text-primary block w-full text-center">
-          {item.w === 1 ? 'Place' : 'Drop to Place'}
+          {item.w === 1 ? t('widgets.placeholder.place') : t('widgets.placeholder.dropToPlace')}
         </span>
       </div>
     );

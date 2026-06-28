@@ -14,6 +14,7 @@ import { processImageUpload } from '../../lib/processImageUpload';
 import { deleteImage } from '../../lib/imageStore';
 import { isIdbRef } from '../../lib/imageRef';
 import { useImageSrc } from '../../hooks/useImageSrc';
+import { useTranslation } from 'react-i18next';
 
 interface Props {
   item: ImageItem;
@@ -27,6 +28,7 @@ const toEditableUrl = (value: string): string =>
 
 const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>) => {
   const { title = 'Image', url = '', fit = 'cover' } = item;
+  const { t } = useTranslation();
   const { src: resolvedSrc, status: imageStatus } = useImageSrc(url);
   const [isEditingTitle, setIsEditingTitle] = useState(false);
   const [showConfig, setShowConfig] = useState(!url);
@@ -49,7 +51,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
 
   const handleTitleBlur = () => {
     setIsEditingTitle(false);
-    const newTitle = titleInputRef.current?.value.trim() || 'Image';
+    const newTitle = titleInputRef.current?.value.trim() || t('widgets.image.defaultTitle');
     onUpdateItem(item.id, { title: newTitle });
   };
 
@@ -72,7 +74,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
       onUpdateItem(item.id, { url: value });
       setShowConfig(false);
     } catch (err) {
-      setUploadError(err instanceof Error ? err.message : "Failed to read file.");
+      setUploadError(err instanceof Error ? err.message : t('modals.theme.fileReadError'));
     }
   };
 
@@ -96,7 +98,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
                 defaultValue={title}
                 onBlur={handleTitleBlur}
                 onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); }}
-                aria-label="Image title"
+                aria-label={t('widgets.image.titleAriaLabel')}
                 className={`h-auto font-medium bg-background border border-border rounded px-1 py-0.5 focus-visible:ring-0 focus-visible:ring-offset-0 ${isEditing ? 'text-xs max-w-[140px]' : 'text-xs max-w-[120px]'}`}
               />
             ) : (
@@ -109,7 +111,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
             )}
           </div>
 
-          <div role="toolbar" aria-label="Image actions" className="flex items-center gap-1 shrink-0 relative z-25">
+          <div role="toolbar" aria-label={t('widgets.image.actionsAriaLabel')} className="flex items-center gap-1 shrink-0 relative z-25">
             {url && (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -117,7 +119,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
                     type="button"
                     variant="ghost"
                     size="icon"
-                    title="Image Settings"
+                    title={t('widgets.image.settings')}
                     className={`text-muted-foreground hover:bg-black/5 dark:hover:bg-white/5 hover:text-foreground ${isEditing ? 'h-6 w-6' : 'h-5 w-5'}`}
                   >
                     <Settings size={isEditing ? 12 : 11} />
@@ -129,28 +131,28 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
                     className="flex items-center gap-2 py-1 cursor-pointer text-xs"
                   >
                     <Link size={12} className="text-muted-foreground" />
-                    <span>Change Image</span>
+                    <span>{t('widgets.image.changeImage')}</span>
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem 
                     onClick={() => onUpdateItem(item.id, { fit: 'cover' })}
                     className="flex items-center justify-between py-1 cursor-pointer text-xs"
                   >
-                    <span>Cover (Crop)</span>
+                    <span>{t('widgets.image.fitCover')}</span>
                     {fit === 'cover' && <Check size={12} className="text-primary" />}
                   </DropdownMenuItem>
                   <DropdownMenuItem 
                     onClick={() => onUpdateItem(item.id, { fit: 'contain' })}
                     className="flex items-center justify-between py-1 cursor-pointer text-xs"
                   >
-                    <span>Contain (Aspect)</span>
+                    <span>{t('widgets.image.fitContain')}</span>
                     {fit === 'contain' && <Check size={12} className="text-primary" />}
                   </DropdownMenuItem>
                   <DropdownMenuItem 
                     onClick={() => onUpdateItem(item.id, { fit: 'fill' })}
                     className="flex items-center justify-between py-1 cursor-pointer text-xs"
                   >
-                    <span>Fill (Stretch)</span>
+                    <span>{t('widgets.image.fitFill')}</span>
                     {fit === 'fill' && <Check size={12} className="text-primary" />}
                   </DropdownMenuItem>
                 </DropdownMenuContent>
@@ -165,7 +167,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
                 onMouseDown={(e) => e.stopPropagation()}
                 onClick={(e) => { e.stopPropagation(); onDelete(item.id); }}
                 className="h-6 w-6 text-red-500 hover:bg-red-50 hover:text-red-500 dark:hover:bg-red-900/20"
-                title="Delete Widget"
+                title={t('widgets.deleteWidget')}
               >
                 <Trash2 size={13} />
               </Button>
@@ -181,12 +183,12 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
         {isEditing && showConfig ? (
           <div className="w-full h-full px-3 py-1 flex flex-col overflow-y-auto z-20 bg-background/95 backdrop-blur-sm">
             <div className="my-auto w-full space-y-2">
-            <p className="text-xs font-medium text-foreground text-center shrink-0">Configure Widget Image</p>
+            <p className="text-xs font-medium text-foreground text-center shrink-0">{t('widgets.image.configureTitle')}</p>
 
             <div className="flex gap-1.5 shrink-0">
               <Input
                 type="text"
-                placeholder="Paste image URL..."
+                placeholder={t('widgets.image.urlPlaceholder')}
                 value={inputUrl}
                 onChange={(e) => setInputUrl(e.target.value)}
                 className="h-8 text-xs flex-1 bg-gray-100 dark:bg-white/5 border-none rounded-sm px-3 focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-0"
@@ -198,13 +200,13 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
                 disabled={!inputUrl.trim()}
                 onClick={() => handleSaveUrl(inputUrl)}
               >
-                Save
+                {t('common.save')}
               </Button>
             </div>
 
             <div className="flex items-center text-[10px] text-muted-foreground/60 uppercase tracking-wider font-semibold shrink-0">
               <div className="flex-1 h-px bg-border" />
-              <span className="px-2">Or</span>
+              <span className="px-2">{t('widgets.image.or')}</span>
               <div className="flex-1 h-px bg-border" />
             </div>
 
@@ -223,7 +225,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
                 className="w-full h-8 text-xs flex items-center justify-center gap-1.5 border-dashed"
               >
                 <Upload size={12} />
-                Upload Local Image
+                {t('widgets.image.uploadLocal')}
               </Button>
               {uploadError && (
                 <p className="text-[10px] text-red-500 mt-1 text-center">{uploadError}</p>
@@ -237,7 +239,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
                 onClick={() => setShowConfig(false)}
                 className="h-7 text-[10px] font-normal"
               >
-                Cancel Configuration
+                {t('widgets.image.cancelConfig')}
               </Button>
             )}
             </div>
@@ -254,7 +256,7 @@ const ImageWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props
                 alt={title}
                 className={`w-full h-full pointer-events-none select-none rounded-b-xl ${fitClass}`}
                 onError={() => {
-                  setUploadError("Image failed to load. The URL might be broken or blocked.");
+                  setUploadError(t('widgets.image.loadError'));
                   setShowConfig(true);
                 }}
               />

@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, type FormEvent } from 'react';
 import { Clock, Plus, X, Play, Pause, RotateCcw } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { useWidgetStorage } from '../../hooks/useWidgetStorage';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -26,31 +27,32 @@ interface TimerItemProps {
 }
 
 const TimerItem = ({ timer, now, onUpdate, onDelete }: Readonly<TimerItemProps>) => {
+  const { t } = useTranslation();
   // Remaining time is derived from `now` (driven by the widget's single ticker),
   // so each TimerItem is a pure display with no interval of its own.
   const timeLeft = computeRemainingMs(timer, now);
 
   const handleStart = () => {
     if (timeLeft <= 0) return;
-    onUpdate(timer.id, { 
-      isRunning: true, 
-      endTime: Date.now() + timeLeft 
+    onUpdate(timer.id, {
+      isRunning: true,
+      endTime: Date.now() + timeLeft
     });
   };
 
   const handlePause = () => {
-    onUpdate(timer.id, { 
-      isRunning: false, 
+    onUpdate(timer.id, {
+      isRunning: false,
       remainingMs: timeLeft,
-      endTime: null 
+      endTime: null
     });
   };
 
   const handleReset = () => {
-    onUpdate(timer.id, { 
-      isRunning: false, 
+    onUpdate(timer.id, {
+      isRunning: false,
       remainingMs: timer.durationMs,
-      endTime: null 
+      endTime: null
     });
   };
 
@@ -63,7 +65,7 @@ const TimerItem = ({ timer, now, onUpdate, onDelete }: Readonly<TimerItemProps>)
           variant="ghost"
           size="icon"
           onClick={() => onDelete(timer.id)}
-          title="Delete Timer"
+          title={t('widgets.timer.deleteTimer')}
           className="h-5 w-5 opacity-0 group-hover:opacity-100 text-muted-foreground hover:text-red-500 hover:bg-transparent transition-opacity"
         >
           <X size={12} />
@@ -75,11 +77,11 @@ const TimerItem = ({ timer, now, onUpdate, onDelete }: Readonly<TimerItemProps>)
         </time>
         <div className="flex items-center gap-1">
           {timer.isRunning ? (
-            <Button type="button" size="icon" onClick={handlePause} title="Pause" className="h-7 w-7 p-0 rounded-full bg-primary/10 text-primary hover:bg-primary/20 dark:bg-primary/10 dark:text-primary dark:hover:bg-primary/20"><Pause size={14} /></Button>
+            <Button type="button" size="icon" onClick={handlePause} title={t('widgets.timer.pause')} className="h-7 w-7 p-0 rounded-full bg-primary/10 text-primary hover:bg-primary/20 dark:bg-primary/10 dark:text-primary dark:hover:bg-primary/20"><Pause size={14} /></Button>
           ) : (
-            <Button type="button" size="icon" onClick={handleStart} title="Start" className="h-7 w-7 p-0 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/90"><Play size={14} className="ml-0.5" /></Button>
+            <Button type="button" size="icon" onClick={handleStart} title={t('widgets.timer.start')} className="h-7 w-7 p-0 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/90"><Play size={14} className="ml-0.5" /></Button>
           )}
-          <Button type="button" size="icon" onClick={handleReset} title="Reset" className="h-7 w-7 p-0 rounded-full bg-gray-200 dark:bg-white/10 text-foreground dark:text-foreground hover:bg-gray-300 dark:hover:bg-white/20"><RotateCcw size={14} /></Button>
+          <Button type="button" size="icon" onClick={handleReset} title={t('widgets.timer.reset')} className="h-7 w-7 p-0 rounded-full bg-gray-200 dark:bg-white/10 text-foreground dark:text-foreground hover:bg-gray-300 dark:hover:bg-white/20"><RotateCcw size={14} /></Button>
         </div>
       </div>
     </li>
@@ -93,6 +95,7 @@ interface Props {
 }
 
 const TimerWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
+  const { t } = useTranslation();
   const [timers, saveTimers] = useWidgetStorage<TimerEntry[]>(`timer-widget-${item.id}`, []);
   const [newMinutes, setNewMinutes] = useState("");
   const [newLabel, setNewLabel] = useState("");
@@ -145,10 +148,10 @@ const TimerWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
   }, [timers, now, updateTimer]);
 
   return (
-    <WidgetShell icon={Clock} title={item.title || 'Timers'} isEditing={isEditing} onDelete={() => onDelete(item.id)}>
+    <WidgetShell icon={Clock} title={item.title || t('widgets.timer.defaultTitle')} isEditing={isEditing} onDelete={() => onDelete(item.id)}>
       <ul className="flex-1 overflow-y-auto p-1 space-y-1 list-none">
         {timers.length === 0 && (
-          <li className="text-xs text-muted-foreground text-center mt-4">No timers set.</li>
+          <li className="text-xs text-muted-foreground text-center mt-4">{t('widgets.timer.empty')}</li>
         )}
         {timers.map(timer => (
           <TimerItem
@@ -169,23 +172,23 @@ const TimerWidget = ({ item, onDelete, isEditing }: Readonly<Props>) => {
             max="999"
             value={newMinutes}
             onChange={(e) => setNewMinutes(e.target.value)}
-            placeholder="Min"
-            aria-label="Timer duration in minutes"
+            placeholder={t('widgets.timer.placeholderMin')}
+            aria-label={t('widgets.timer.durationAriaLabel')}
             className="h-7 w-14 bg-gray-100 dark:bg-white/5 border-none rounded-sm px-2 text-xs focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-0"
           />
           <Input
             type="text"
             value={newLabel}
             onChange={(e) => setNewLabel(e.target.value)}
-            placeholder="Label (optional)"
-            aria-label="Timer label (optional)"
+            placeholder={t('widgets.timer.placeholderLabel')}
+            aria-label={t('widgets.timer.labelAriaLabel')}
             className="h-7 flex-1 min-w-0 bg-gray-100 dark:bg-white/5 border-none rounded-sm px-2 text-xs focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-0"
           />
           <Button
             type="submit"
             size="icon"
             disabled={!newMinutes}
-            title="Add Timer"
+            title={t('widgets.timer.addTimer')}
             className="h-7 w-7 shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/90 disabled:opacity-50 rounded-sm"
           >
             <Plus size={14} />
