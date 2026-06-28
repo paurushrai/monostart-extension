@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Odstrániť",
+    "cancel": "Zrušiť",
+    "save": "Uložiť",
+    "copy": "Kopírovať",
+    "copied": "Skopírované"
+  },
+  "header": {
+    "menu": {
+      "language": "Jazyk",
+      "addLink": "Pridať odkaz",
+      "addWidget": "Pridať widget",
+      "editDashboard": "Upraviť panel",
+      "theme": "Téma a vzhľad",
+      "share": "Zdieľať MonoStart",
+      "openInNewTab": "Otvoriť odkazy na novej karte"
+    },
+    "settings": "Nastavenia",
+    "clear": "Vymazať",
+    "clearDashboard": "Vymazať panel",
+    "cancel": "Zrušiť",
+    "save": "Uložiť"
+  },
+  "widgets": {
+    "deleteWidget": "Odstrániť widget",
+    "placeholder": {
+      "place": "Umiestniť",
+      "dropToPlace": "Pustiť na umiestnenie"
+    },
+    "todo": {
+      "defaultTitle": "Úlohy",
+      "empty": "Zatiaľ žiadne úlohy.",
+      "deleteTask": "Odstrániť úlohu",
+      "placeholder": "Pridať úlohu...",
+      "newTaskAriaLabel": "Nová úloha",
+      "addTask": "Pridať úlohu",
+      "toggleAriaLabel": "Označiť „{{text}}” ako {{status}}",
+      "statusComplete": "dokončené",
+      "statusIncomplete": "nedokončené"
+    },
+    "timer": {
+      "defaultTitle": "Časovače",
+      "empty": "Žiadne časovače.",
+      "deleteTimer": "Odstrániť časovač",
+      "pause": "Pozastaviť",
+      "start": "Spustiť",
+      "reset": "Resetovať",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Trvanie časovača v minútach",
+      "placeholderLabel": "Popis (voliteľné)",
+      "labelAriaLabel": "Popis časovača (voliteľné)",
+      "addTimer": "Pridať časovač"
+    },
+    "reminders": {
+      "defaultTitle": "Pripomienky",
+      "empty": "Zatiaľ žiadne pripomienky.",
+      "deleteReminder": "Odstrániť pripomienku",
+      "placeholder": "Pripomenúť mi...",
+      "textAriaLabel": "Text pripomienky",
+      "recurrenceTitle": "Opakovanie",
+      "addReminder": "Pridať pripomienku",
+      "customIntervalAriaLabel": "Hodnota vlastného intervalu",
+      "customUnitAriaLabel": "Jednotka vlastného intervalu",
+      "unitMinutes": "Minúty",
+      "unitHours": "Hodiny",
+      "unitDays": "Dni",
+      "saveRecurrence": "Uložiť",
+      "toggleAriaLabel": "Označiť „{{text}}” ako {{status}}",
+      "statusComplete": "dokončené",
+      "statusIncomplete": "nedokončené",
+      "recurrenceNone": "Raz",
+      "recurrence30min": "Každých 30 min",
+      "recurrenceHourly": "Každú hodinu",
+      "recurrenceDaily": "Denne",
+      "recurrenceWeekly": "Týždenne",
+      "recurrenceCustom": "Vlastné",
+      "everyDay": "Každých {{count}}d",
+      "everyHour": "Každých {{count}}h",
+      "everyMin": "Každých {{count}}m",
+      "every": "Každých",
+      "today": "Dnes {{time}}",
+      "tomorrow": "Zajtra {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Poznámka",
+      "changeColor": "Zmeniť farbu",
+      "placeholder": "Napísať niečo...",
+      "contentAriaLabel": "Obsah poznámky",
+      "titleAriaLabel": "Názov poznámky",
+      "actionsAriaLabel": "Akcie poznámky",
+      "color_default": "Predvolená",
+      "color_amber": "Žltá",
+      "color_sky": "Modrá",
+      "color_rose": "Ružová",
+      "color_emerald": "Zelená",
+      "color_purple": "Fialová"
+    },
+    "image": {
+      "defaultTitle": "Obrázok",
+      "settings": "Nastavenia obrázka",
+      "actionsAriaLabel": "Akcie obrázka",
+      "titleAriaLabel": "Názov obrázka",
+      "changeImage": "Zmeniť obrázok",
+      "fitCover": "Vyplniť (Orezať)",
+      "fitContain": "Obsahovať (Pomer strán)",
+      "fitFill": "Roztiahnuť",
+      "configureTitle": "Konfigurovať obrázok widgetu",
+      "urlPlaceholder": "Vložiť URL obrázka...",
+      "or": "Alebo",
+      "uploadLocal": "Nahrať lokálny obrázok",
+      "cancelConfig": "Zrušiť konfiguráciu",
+      "loadError": "Obrázok sa nepodarilo načítať. URL môže byť nefunkčná alebo blokovaná."
+    },
+    "label": {
+      "defaultText": "Text",
+      "settings": "Nastavenia textu",
+      "actionsAriaLabel": "Akcie štítku",
+      "textAriaLabel": "Text štítku",
+      "editText": "Upraviť text",
+      "showCardStyle": "Zobraziť štýl karty",
+      "fontSize": "Veľkosť písma",
+      "alignment": "Zarovnanie",
+      "fontWeight": "Hrúbka písma",
+      "opacity": "Priehľadnosť",
+      "deleteText": "Odstrániť text",
+      "alignLeft": "Vľavo",
+      "alignCenter": "Na stred",
+      "alignRight": "Vpravo",
+      "fontSizes": {
+        "sm": "Malé",
+        "base": "Stredné",
+        "lg": "Veľké",
+        "xl": "Extra veľké",
+        "xl2": "2× veľké",
+        "xl3": "3× veľké",
+        "xl4": "4× veľké",
+        "xl5": "5× veľké",
+        "xl6": "6× veľké",
+        "xl7": "7× veľké",
+        "xl8": "8× veľké",
+        "xl9": "9× veľké",
+        "xl10": "10× veľké",
+        "xl12": "12× veľké"
+      },
+      "fontWeights": {
+        "thin": "Tenké",
+        "light": "Ľahké",
+        "regular": "Normálne",
+        "medium": "Stredné",
+        "semibold": "Polohrubé",
+        "bold": "Tučné",
+        "extrabold": "Extra tučné",
+        "black": "Čierne"
+      },
+      "opacities": {
+        "full": "100% (Plná)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Tlmená)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Hľadať na Google alebo zadajte URL",
+      "searchAriaLabel": "Vyhľadávací dopyt",
+      "voiceSearch": "Hlasové vyhľadávanie",
+      "lensSearch": "Vyhľadať obrázok pomocou Lens",
+      "removeWidget": "Odstrániť widget",
+      "switchToBarOnly": "Prepnúť iba na lištu",
+      "switchToLogoBar": "Prepnúť na logo + lištu",
+      "barOnly": "Iba lišta",
+      "showLogo": "Zobraziť logo",
+      "toggleLogoStyle": "Prepnúť štýl loga"
+    },
+    "group": {
+      "borderColorAriaLabel": "Farba okraja skupiny",
+      "pasteUrlPlaceholder": "Vložiť URL...",
+      "colors": {
+        "red": "Červená",
+        "pink": "Ružová",
+        "purple": "Fialová",
+        "indigo": "Indigová",
+        "blue": "Modrá",
+        "cyan": "Tyrkysová",
+        "teal": "Morská zelená",
+        "green": "Zelená",
+        "yellow": "Žltá",
+        "orange": "Oranžová",
+        "slate": "Bridlicová",
+        "neutral": "Neutrálna"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Pridať odkaz",
+      "colorBorder": "Farba okraja",
+      "layout": "Rozloženie",
+      "layoutGrid": "Mriežka",
+      "layoutList": "Zoznam",
+      "gridColumns": "Stĺpce mriežky",
+      "column_one": "{{count}} stĺpec",
+      "column_other": "{{count}} stĺpce",
+      "deleteGroup": "Odstrániť skupinu",
+      "actionsAriaLabel": "Akcie skupiny"
+    },
+    "groupInnerGrid": {
+      "empty": "Prázdna skupina",
+      "addFirstLink": "Pridať prvý odkaz",
+      "dropToAdd": "Pustiť na pridanie",
+      "add": "Pridať"
+    },
+    "iframe": {
+      "removeWidget": "Odstrániť widget",
+      "openInNewTab": "Otvoriť na novej karte"
+    },
+    "linkCard": {
+      "options": "Možnosti",
+      "rename": "Premenovať",
+      "size": "Veľkosť",
+      "sizeSmall": "Malá (1×1)",
+      "sizeMedium": "Stredná (3×1)",
+      "moveTo": "Presunúť do...",
+      "mainDashboard": "Hlavný panel",
+      "header": "Hlavička",
+      "deleteLink": "Odstrániť odkaz",
+      "actionsAriaLabel": "Akcie odkazu"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Odstránený {{count}} prázdny widget fotografie.",
+    "removedEmptyPhotos_other": "Odstránené {{count}} prázdne widgety fotografií.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgety",
+    "clearedHeaderLinks_one": "{{count}} odkaz v hlavičke",
+    "clearedHeaderLinks_other": "{{count}} odkazov v hlavičke",
+    "clearedSummary": "Vymazané {{items}}. Zrušte na vrátenie alebo Uložte na potvrdenie.",
+    "onlyOneGoogleSearch": "Povolený je iba jeden widget Google vyhľadávania.",
+    "noRoomForWidget": "Pre tento widget nie je miesto. Zmeňte veľkosť alebo odstráňte niečo, aby ste uvoľnili miesto.",
+    "swap": {
+      "no-room": "Nie je možné vymeniť — nedostatok miesta pre oba widgety na nových pozíciách.",
+      "out-of-bounds": "Nie je možné vymeniť — jeden z widgetov by presahoval okraj mriežky pri minimálnej veľkosti.",
+      "overlap": "Nie je možné vymeniť — minimálne veľkosti dvoch widgetov sa prekrývajú.",
+      "obstacle": "Nie je možné vymeniť — iný widget je v ceste. Najprv ho presuňte alebo zmeňte jeho veľkosť."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Uložiť do MonoStart",
+    "saveLink": "Uložiť odkaz",
+    "saved": "Uložené!",
+    "openDashboard": "Otvoriť panel",
+    "destination": {
+      "label": "Cieľ",
+      "main": "Hlavný panel",
+      "header": "Lišta hlavičky"
+    },
+    "reminders": {
+      "ariaLabel": "Čakajúce pripomienky",
+      "count_one": "{{count}} pripomienka",
+      "count_other": "{{count}} pripomienky",
+      "clearAll": "Vymazať všetky",
+      "dismiss": "Zamietnuť"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Skryť sprievodcu päty Chrome",
+      "success": "Päta skrytá — užívajte si celú obrazovku!",
+      "corner": {
+        "title": "Získajte zážitok na celú obrazovku",
+        "intro": "Chrome pridá pätu pod MonoStart. Ak ju chcete skryť, kliknite",
+        "cta": "Prispôsobiť Chrome",
+        "ctaSuffix": "v pravom dolnom rohu.",
+        "noFooter": "Nevidíte pätu? Všetko je v poriadku — preskočte toto."
+      },
+      "panel": {
+        "title": "Takmer hotovo",
+        "intro": "Pod",
+        "setting": "Päta",
+        "turnOff": "vypnite",
+        "action": "Zobraziť pätu na stránke Nová karta",
+        "suffix": "a potom zatvorte panel."
+      },
+      "skip": "Preskočiť",
+      "next": "Ďalej",
+      "done": "Hotovo"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Jazyk",
+      "subtitle": "Vyberte jazyk",
+      "search": "Hľadať jazyky…",
+      "empty": "Žiadne jazyky nevyhovujú vášmu hľadaniu."
+    },
+    "addWidget": {
+      "title": "Pridať widget",
+      "titleConfigure": "Konfigurovať {{name}}",
+      "titleGoogleStyle": "Vyberte štýl Google vyhľadávania",
+      "logoBarTitle": "Logo + lišta",
+      "logoBarDesc": "Veľké logo Google nad vyhľadávacou lištou. Zaberá 4 riadky.",
+      "barOnlyTitle": "Iba lišta",
+      "barOnlyDesc": "Len vyhľadávacia lišta. Zaberá 1 riadok. Kompaktné.",
+      "urlLabel": "URL alebo kód na vloženie",
+      "urlPlaceholder": "https://example.com\nalebo\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Vložte URL pre jednoduché vkladanie alebo vložte úryvok <code>&lt;iframe&gt;</code> zo stránok, ktoré blokujú priame načítanie (YouTube, Figma, Spotify, CodePen atď.).",
+      "back": "Späť",
+      "embedWidget": "Vložiť widget"
+    },
+    "addLink": {
+      "title": "Pridať odkaz",
+      "description": "Vložte URL na pridanie novej karty odkazu na váš panel.",
+      "urlLabel": "URL webovej stránky",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Názov (voliteľné)",
+      "titlePlaceholder": "Môj odkaz",
+      "locationLabel": "Umiestnenie",
+      "locationMainDashboard": "Hlavný panel",
+      "locationHeader": "Hlavička (iba favicon)",
+      "locationFolder": "Priečinok: {{title}}",
+      "locationGroup": "Skupina: {{title}}",
+      "cancel": "Zrušiť",
+      "submit": "Pridať odkaz"
+    },
+    "theme": {
+      "title": "Téma a vzhľad",
+      "description": "Prispôsobte vzhľad svojho panela.",
+      "modeGroupLabel": "Režim témy",
+      "light": "Svetlý",
+      "dark": "Tmavý",
+      "device": "Zariadenie",
+      "primaryColorHeading": "Primárna farba",
+      "primaryColorPresetsLabel": "Prednastavené primárne farby",
+      "customColorLabel": "Vlastná farba",
+      "customColorTitle": "Vlastná farba",
+      "customHue": "Vlastný odtieň",
+      "backgroundHeading": "Pozadie",
+      "backgroundTypeLabel": "Typ pozadia",
+      "backgroundColorLabel": "Farba pozadia",
+      "backgroundGradientLabel": "Gradient pozadia",
+      "imageUrlPlaceholder": "Vložiť URL obrázka...",
+      "uploadImage": "Nahrať obrázok",
+      "imageUploaded": "Vlastný obrázok nahraný.",
+      "blur": "Rozmazanie",
+      "dim": "Stmavenie",
+      "fileReadError": "Nepodarilo sa načítať súbor.",
+      "bgType": {
+        "none": "Žiadne",
+        "color": "Farba",
+        "gradient": "Gradient",
+        "image": "Obrázok"
+      }
+    },
+    "clear": {
+      "title": "Vymazať panel",
+      "description": "Toto odstráni widgety z panela. Ste v režime úprav, takže môžete stlačiť Zrušiť na vrátenie zmien pred uložením.",
+      "widgetsGroups": "Widgety a skupiny na hlavnej mriežke",
+      "linksInsideGroups": "↳ odkazov v skupinách",
+      "headerBarLinks": "Odkazov v lište hlavičky",
+      "alsoClearHeaderLabel": "Tiež vymazať odkazov v lište hlavičky",
+      "alsoClearHeaderDesc": "Predvolene je lišta hlavičky zachovaná. Zaškrtnutím toto tiež vymažete.",
+      "widgetGroups_one": "Chystáte sa odstrániť <strong>{{count}}</strong> widget/skupinu",
+      "widgetGroups_other": "Chystáte sa odstrániť <strong>{{count}}</strong> widgetov/skupín",
+      "headerLinks_one": "<strong>{{count}}</strong> odkaz v hlavičke",
+      "headerLinks_other": "<strong>{{count}}</strong> odkazov v hlavičke",
+      "andConnector": " a ",
+      "cancelRestores": ". Zrušenie v paneli nástrojov úprav ich obnoví.",
+      "nothingToClear": "S aktuálnym výberom nie je čo vymazať.",
+      "cancelButton": "Zrušiť",
+      "clearWidgets": "Vymazať widgety",
+      "clearEverything": "Vymazať všetko"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Zdieľať túto položku",
+      "copyLink": "Kopírovať odkaz",
+      "linkCopied": "Odkaz skopírovaný",
+      "shareOn": "Zdieľať na {{platform}}",
+      "shareVia": "Zdieľať cez {{platform}}"
+    }
+  }
+}

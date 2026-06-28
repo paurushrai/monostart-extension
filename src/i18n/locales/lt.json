@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Ištrinti",
+    "cancel": "Atšaukti",
+    "save": "Išsaugoti",
+    "copy": "Kopijuoti",
+    "copied": "Nukopijuota"
+  },
+  "header": {
+    "menu": {
+      "language": "Kalba",
+      "addLink": "Pridėti nuorodą",
+      "addWidget": "Pridėti valdiklį",
+      "editDashboard": "Redaguoti prietaisų skydelį",
+      "theme": "Tema ir išvaizda",
+      "share": "Dalintis MonoStart",
+      "openInNewTab": "Atidaryti nuorodas naujame skirtuke"
+    },
+    "settings": "Nustatymai",
+    "clear": "Išvalyti",
+    "clearDashboard": "Išvalyti prietaisų skydelį",
+    "cancel": "Atšaukti",
+    "save": "Išsaugoti"
+  },
+  "widgets": {
+    "deleteWidget": "Ištrinti valdiklį",
+    "placeholder": {
+      "place": "Padėti",
+      "dropToPlace": "Numeskite, kad padėtumėte"
+    },
+    "todo": {
+      "defaultTitle": "Užduotys",
+      "empty": "Dar nėra užduočių.",
+      "deleteTask": "Ištrinti užduotį",
+      "placeholder": "Pridėti užduotį...",
+      "newTaskAriaLabel": "Nauja užduotis",
+      "addTask": "Pridėti užduotį",
+      "toggleAriaLabel": "Pažymėti \"{{text}}\" kaip {{status}}",
+      "statusComplete": "atlikta",
+      "statusIncomplete": "neatlikta"
+    },
+    "timer": {
+      "defaultTitle": "Laikmačiai",
+      "empty": "Laikmačių nenustatyta.",
+      "deleteTimer": "Ištrinti laikmačiai",
+      "pause": "Pristabdyti",
+      "start": "Pradėti",
+      "reset": "Iš naujo",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Laikmačio trukmė minutėmis",
+      "placeholderLabel": "Žymė (neprivaloma)",
+      "labelAriaLabel": "Laikmačio žymė (neprivaloma)",
+      "addTimer": "Pridėti laikmačiai"
+    },
+    "reminders": {
+      "defaultTitle": "Priminimai",
+      "empty": "Dar nėra priminimų.",
+      "deleteReminder": "Ištrinti priminimą",
+      "placeholder": "Priminti man apie...",
+      "textAriaLabel": "Priminimo tekstas",
+      "recurrenceTitle": "Pasikartojimas",
+      "addReminder": "Pridėti priminimą",
+      "customIntervalAriaLabel": "Pasirinktinis intervalo reikšmė",
+      "customUnitAriaLabel": "Pasirinktinis intervalo vienetas",
+      "unitMinutes": "Minutės",
+      "unitHours": "Valandos",
+      "unitDays": "Dienos",
+      "saveRecurrence": "Išsaugoti",
+      "toggleAriaLabel": "Pažymėti \"{{text}}\" kaip {{status}}",
+      "statusComplete": "atlikta",
+      "statusIncomplete": "neatlikta",
+      "recurrenceNone": "Kartą",
+      "recurrence30min": "Kas 30 min",
+      "recurrenceHourly": "Kas valandą",
+      "recurrenceDaily": "Kasdien",
+      "recurrenceWeekly": "Kas savaitę",
+      "recurrenceCustom": "Pasirinktinis",
+      "everyDay": "Kas {{count}}d",
+      "everyHour": "Kas {{count}}h",
+      "everyMin": "Kas {{count}}m",
+      "every": "Kas",
+      "today": "Šiandien {{time}}",
+      "tomorrow": "Rytoj {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Pastaba",
+      "changeColor": "Keisti spalvą",
+      "placeholder": "Rašykite ką nors...",
+      "contentAriaLabel": "Pastabos turinys",
+      "titleAriaLabel": "Pastabos pavadinimas",
+      "actionsAriaLabel": "Pastabos veiksmai",
+      "color_default": "Numatytoji",
+      "color_amber": "Geltona",
+      "color_sky": "Mėlyna",
+      "color_rose": "Rožinė",
+      "color_emerald": "Žalia",
+      "color_purple": "Violetinė"
+    },
+    "image": {
+      "defaultTitle": "Vaizdas",
+      "settings": "Vaizdo nustatymai",
+      "actionsAriaLabel": "Vaizdo veiksmai",
+      "titleAriaLabel": "Vaizdo pavadinimas",
+      "changeImage": "Keisti vaizdą",
+      "fitCover": "Uždengti (apkarpyti)",
+      "fitContain": "Talpinti (proporcingai)",
+      "fitFill": "Užpildyti (ištempti)",
+      "configureTitle": "Konfigūruoti valdiklio vaizdą",
+      "urlPlaceholder": "Įklijuokite vaizdo URL...",
+      "or": "Arba",
+      "uploadLocal": "Įkelti vietinį vaizdą",
+      "cancelConfig": "Atšaukti konfigūraciją",
+      "loadError": "Vaizdo nepavyko įkelti. URL gali būti neveikiantis arba užblokuotas."
+    },
+    "label": {
+      "defaultText": "Tekstas",
+      "settings": "Teksto nustatymai",
+      "actionsAriaLabel": "Žymės veiksmai",
+      "textAriaLabel": "Žymės tekstas",
+      "editText": "Redaguoti tekstą",
+      "showCardStyle": "Rodyti kortelės stilių",
+      "fontSize": "Šrifto dydis",
+      "alignment": "Lygiavimas",
+      "fontWeight": "Šrifto storis",
+      "opacity": "Neskaidrumas",
+      "deleteText": "Ištrinti tekstą",
+      "alignLeft": "Kairė",
+      "alignCenter": "Centre",
+      "alignRight": "Dešinė",
+      "fontSizes": {
+        "sm": "Mažas",
+        "base": "Vidutinis",
+        "lg": "Didelis",
+        "xl": "Labai didelis",
+        "xl2": "2X didelis",
+        "xl3": "3X didelis",
+        "xl4": "4X didelis",
+        "xl5": "5X didelis",
+        "xl6": "6X didelis",
+        "xl7": "7X didelis",
+        "xl8": "8X didelis",
+        "xl9": "9X didelis",
+        "xl10": "10X didelis",
+        "xl12": "12X didelis"
+      },
+      "fontWeights": {
+        "thin": "Plonas",
+        "light": "Lengvas",
+        "regular": "Įprastas",
+        "medium": "Vidutinis",
+        "semibold": "Pusiau pusjuodis",
+        "bold": "Pusjuodis",
+        "extrabold": "Labai pusjuodis",
+        "black": "Juodas"
+      },
+      "opacities": {
+        "full": "100% (Ryškus)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Pritildytas)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Ieškokite Google arba įveskite URL",
+      "searchAriaLabel": "Paieškos užklausa",
+      "voiceSearch": "Balso paieška",
+      "lensSearch": "Ieškokite bet kokio vaizdo naudodami Lens",
+      "removeWidget": "Pašalinti valdiklį",
+      "switchToBarOnly": "Perjungti tik į juostą",
+      "switchToLogoBar": "Perjungti į logotipą + juostą",
+      "barOnly": "Tik juosta",
+      "showLogo": "Rodyti logotipą",
+      "toggleLogoStyle": "Perjungti logotipo stilių"
+    },
+    "group": {
+      "borderColorAriaLabel": "Grupės rėmelio spalva",
+      "pasteUrlPlaceholder": "Įklijuokite URL...",
+      "colors": {
+        "red": "Raudona",
+        "pink": "Rožinė",
+        "purple": "Violetinė",
+        "indigo": "Indigė",
+        "blue": "Mėlyna",
+        "cyan": "Žydra",
+        "teal": "Žalsvai mėlyna",
+        "green": "Žalia",
+        "yellow": "Geltona",
+        "orange": "Oranžinė",
+        "slate": "Pilka",
+        "neutral": "Neutrali"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Pridėti nuorodą",
+      "colorBorder": "Spalvoti rėmeliai",
+      "layout": "Išdėstymas",
+      "layoutGrid": "Tinklelis",
+      "layoutList": "Sąrašas",
+      "gridColumns": "Tinklelio stulpeliai",
+      "column_one": "{{count}} stulpelis",
+      "column_other": "{{count}} stulpeliai",
+      "deleteGroup": "Ištrinti grupę",
+      "actionsAriaLabel": "Grupės veiksmai"
+    },
+    "groupInnerGrid": {
+      "empty": "Tuščia grupė",
+      "addFirstLink": "Pridėti pirmą nuorodą",
+      "dropToAdd": "Numeskite, kad pridėtumėte",
+      "add": "Pridėti"
+    },
+    "iframe": {
+      "removeWidget": "Pašalinti valdiklį",
+      "openInNewTab": "Atidaryti naujame skirtuke"
+    },
+    "linkCard": {
+      "options": "Parinktys",
+      "rename": "Pervadinti",
+      "size": "Dydis",
+      "sizeSmall": "Mažas (1×1)",
+      "sizeMedium": "Vidutinis (3×1)",
+      "moveTo": "Perkelti į...",
+      "mainDashboard": "Pagrindinis prietaisų skydelis",
+      "header": "Antraštė",
+      "deleteLink": "Ištrinti nuorodą",
+      "actionsAriaLabel": "Nuorodos veiksmai"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Pašalintas {{count}} tuščias nuotraukos valdiklis.",
+    "removedEmptyPhotos_other": "Pašalinti {{count}} tušti nuotraukų valdikliai.",
+    "clearedWidgets_one": "{{count}} valdiklis",
+    "clearedWidgets_other": "{{count}} valdikliai",
+    "clearedHeaderLinks_one": "{{count}} antraštės nuoroda",
+    "clearedHeaderLinks_other": "{{count}} antraštės nuorodos",
+    "clearedSummary": "Išvalyta {{items}}. Atšaukite, kad anuliuotumėte, arba išsaugokite, kad patvirtintumėte.",
+    "onlyOneGoogleSearch": "Leidžiamas tik vienas Google paieškos valdiklis.",
+    "noRoomForWidget": "Nėra vietos šiam valdikliui. Pakeiskite dydį arba pašalinkite ką nors, kad atlaisvintumėte vietos.",
+    "swap": {
+      "no-room": "Negalima keisti vietomis — nepakanka vietos abiem valdikliams naujose pozicijose.",
+      "out-of-bounds": "Negalima keisti vietomis — vienas iš valdiklių peržengė tinklelio kraštą minimaliu dydžiu.",
+      "overlap": "Negalima keisti vietomis — abiejų valdiklių minimalūs dydžiai persidengia.",
+      "obstacle": "Negalima keisti vietomis — kelią blokuoja kitas valdiklis. Pirmiausia perkelkite arba pakeiskite jo dydį."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Išsaugoti į MonoStart",
+    "saveLink": "Išsaugoti nuorodą",
+    "saved": "Išsaugota!",
+    "openDashboard": "Atidaryti prietaisų skydelį",
+    "destination": {
+      "label": "Paskirties vieta",
+      "main": "Pagrindinis prietaisų skydelis",
+      "header": "Antraštės juosta"
+    },
+    "reminders": {
+      "ariaLabel": "Laukiantys priminimai",
+      "count_one": "{{count}} priminimas",
+      "count_other": "{{count}} priminimai",
+      "clearAll": "Išvalyti visus",
+      "dismiss": "Atmesti"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Slėpti Chrome poraštės vadovą",
+      "success": "Poraštė paslėpta — mėgaukitės visu ekranu!",
+      "corner": {
+        "title": "Gaukite viso ekrano patirtį",
+        "intro": "Chrome prideda poraštę žemiau MonoStart. Norėdami ją paslėpti, spustelėkite",
+        "cta": "Tinkinti Chrome",
+        "ctaSuffix": "apatiniame dešiniajame kampe.",
+        "noFooter": "Nematote poraštės? Viskas gerai — praleiskite tai."
+      },
+      "panel": {
+        "title": "Beveik baigta",
+        "intro": "Skyriuje",
+        "setting": "Poraštė",
+        "turnOff": ", išjunkite",
+        "action": "Rodyti poraštę naujame skirtuke",
+        "suffix": ", tada uždarykite skydelį."
+      },
+      "skip": "Praleisti",
+      "next": "Toliau",
+      "done": "Atlikta"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Kalba",
+      "subtitle": "Pasirinkite savo kalbą",
+      "search": "Ieškoti kalbų…",
+      "empty": "Kalbų, atitinkančių jūsų paiešką, nerasta."
+    },
+    "addWidget": {
+      "title": "Pridėti valdiklį",
+      "titleConfigure": "Konfigūruoti {{name}}",
+      "titleGoogleStyle": "Pasirinkite Google paieškos stilių",
+      "logoBarTitle": "Logotipas + juosta",
+      "logoBarDesc": "Didelis Google logotipas virš paieškos juostos. Užima 4 eilutes.",
+      "barOnlyTitle": "Tik juosta",
+      "barOnlyDesc": "Tik paieškos juosta. Užima 1 eilutę. Kompaktiškas.",
+      "urlLabel": "URL arba įterpimo kodas",
+      "urlPlaceholder": "https://example.com\narba\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Įklijuokite URL paprastiems įterpimams arba <code>&lt;iframe&gt;</code> ištrauką iš svetainių, kurios blokuoja tiesioginį įkėlimą (YouTube, Figma, Spotify, CodePen ir kt.).",
+      "back": "Atgal",
+      "embedWidget": "Įterpti valdiklį"
+    },
+    "addLink": {
+      "title": "Pridėti nuorodą",
+      "description": "Įklijuokite URL, kad pridėtumėte naują nuorodos kortelę į prietaisų skydelį.",
+      "urlLabel": "Svetainės URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Pavadinimas (neprivaloma)",
+      "titlePlaceholder": "Mano nuoroda",
+      "locationLabel": "Vieta",
+      "locationMainDashboard": "Pagrindinis prietaisų skydelis",
+      "locationHeader": "Antraštė (tik favicon)",
+      "locationFolder": "Aplankas: {{title}}",
+      "locationGroup": "Grupė: {{title}}",
+      "cancel": "Atšaukti",
+      "submit": "Pridėti nuorodą"
+    },
+    "theme": {
+      "title": "Tema ir išvaizda",
+      "description": "Tinkinkite prietaisų skydelio išvaizdą.",
+      "modeGroupLabel": "Temos režimas",
+      "light": "Šviesi",
+      "dark": "Tamsi",
+      "device": "Įrenginys",
+      "primaryColorHeading": "Pagrindinė spalva",
+      "primaryColorPresetsLabel": "Pagrindinės spalvos išankstiniai nustatymai",
+      "customColorLabel": "Pasirinktinė spalva",
+      "customColorTitle": "Pasirinktinė spalva",
+      "customHue": "Pasirinktinis atspalvis",
+      "backgroundHeading": "Fonas",
+      "backgroundTypeLabel": "Fono tipas",
+      "backgroundColorLabel": "Fono spalva",
+      "backgroundGradientLabel": "Fono gradientas",
+      "imageUrlPlaceholder": "Įklijuokite vaizdo URL...",
+      "uploadImage": "Įkelti vaizdą",
+      "imageUploaded": "Pasirinktinis vaizdas įkeltas.",
+      "blur": "Suliejimas",
+      "dim": "Pritemimas",
+      "fileReadError": "Nepavyko nuskaityti failo.",
+      "bgType": {
+        "none": "Nėra",
+        "color": "Spalva",
+        "gradient": "Gradientas",
+        "image": "Vaizdas"
+      }
+    },
+    "clear": {
+      "title": "Išvalyti prietaisų skydelį",
+      "description": "Tai pašalina valdiklius iš prietaisų skydelio. Esate redagavimo režime, todėl vis tiek galite spausti Atšaukti, kad anuliuotumėte prieš išsaugant.",
+      "widgetsGroups": "Valdikliai ir grupės pagrindiniame tinklelyje",
+      "linksInsideGroups": "↳ nuorodos grupių viduje",
+      "headerBarLinks": "Antraštės juostos nuorodos",
+      "alsoClearHeaderLabel": "Taip pat išvalyti antraštės juostos nuorodas",
+      "alsoClearHeaderDesc": "Pagal numatytuosius nustatymus antraštės juosta išsaugoma. Pažymėkite tai, kad ją taip pat išvalytumėte.",
+      "widgetGroups_one": "Ketinama ištrinti <strong>{{count}}</strong> valdiklį/grupę",
+      "widgetGroups_other": "Ketinama ištrinti <strong>{{count}}</strong> valdiklius/grupes",
+      "headerLinks_one": "<strong>{{count}}</strong> antraštės nuoroda",
+      "headerLinks_other": "<strong>{{count}}</strong> antraštės nuorodos",
+      "andConnector": " ir ",
+      "cancelRestores": ". Atšaukimas redagavimo režimo įrankių juostoje atkuria juos.",
+      "nothingToClear": "Su esamu pasirinkimu nieko išvalyti negalima.",
+      "cancelButton": "Atšaukti",
+      "clearWidgets": "Išvalyti valdiklius",
+      "clearEverything": "Išvalyti viską"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Dalintis šiuo elementu",
+      "copyLink": "Kopijuoti nuorodą",
+      "linkCopied": "Nuoroda nukopijuota",
+      "shareOn": "Dalintis per {{platform}}",
+      "shareVia": "Dalintis per {{platform}}"
+    }
+  }
+}

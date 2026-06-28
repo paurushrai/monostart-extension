@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "copy": "コピー",
+    "copied": "コピー済み"
+  },
+  "header": {
+    "menu": {
+      "language": "言語",
+      "addLink": "リンクを追加",
+      "addWidget": "ウィジェットを追加",
+      "editDashboard": "ダッシュボードを編集",
+      "theme": "テーマと外観",
+      "share": "MonoStartをシェア",
+      "openInNewTab": "リンクを新しいタブで開く"
+    },
+    "settings": "設定",
+    "clear": "クリア",
+    "clearDashboard": "ダッシュボードをクリア",
+    "cancel": "キャンセル",
+    "save": "保存"
+  },
+  "widgets": {
+    "deleteWidget": "ウィジェットを削除",
+    "placeholder": {
+      "place": "配置",
+      "dropToPlace": "ドロップして配置"
+    },
+    "todo": {
+      "defaultTitle": "ToDo",
+      "empty": "タスクがありません。",
+      "deleteTask": "タスクを削除",
+      "placeholder": "タスクを追加...",
+      "newTaskAriaLabel": "新しいタスク",
+      "addTask": "タスクを追加",
+      "toggleAriaLabel": "「{{text}}」を{{status}}としてマーク",
+      "statusComplete": "完了",
+      "statusIncomplete": "未完了"
+    },
+    "timer": {
+      "defaultTitle": "タイマー",
+      "empty": "タイマーが設定されていません。",
+      "deleteTimer": "タイマーを削除",
+      "pause": "一時停止",
+      "start": "開始",
+      "reset": "リセット",
+      "placeholderMin": "分",
+      "durationAriaLabel": "タイマーの時間（分）",
+      "placeholderLabel": "ラベル（任意）",
+      "labelAriaLabel": "タイマーのラベル（任意）",
+      "addTimer": "タイマーを追加"
+    },
+    "reminders": {
+      "defaultTitle": "リマインダー",
+      "empty": "リマインダーがありません。",
+      "deleteReminder": "リマインダーを削除",
+      "placeholder": "リマインドする内容...",
+      "textAriaLabel": "リマインダーのテキスト",
+      "recurrenceTitle": "繰り返し",
+      "addReminder": "リマインダーを追加",
+      "customIntervalAriaLabel": "カスタム間隔の値",
+      "customUnitAriaLabel": "カスタム間隔の単位",
+      "unitMinutes": "分",
+      "unitHours": "時間",
+      "unitDays": "日",
+      "saveRecurrence": "保存",
+      "toggleAriaLabel": "「{{text}}」を{{status}}としてマーク",
+      "statusComplete": "完了",
+      "statusIncomplete": "未完了",
+      "recurrenceNone": "1回のみ",
+      "recurrence30min": "30分ごと",
+      "recurrenceHourly": "毎時",
+      "recurrenceDaily": "毎日",
+      "recurrenceWeekly": "毎週",
+      "recurrenceCustom": "カスタム",
+      "everyDay": "{{count}}日ごと",
+      "everyHour": "{{count}}時間ごと",
+      "everyMin": "{{count}}分ごと",
+      "every": "ごと",
+      "today": "今日 {{time}}",
+      "tomorrow": "明日 {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "メモ",
+      "changeColor": "色を変更",
+      "placeholder": "何か書いてください...",
+      "contentAriaLabel": "メモの内容",
+      "titleAriaLabel": "メモのタイトル",
+      "actionsAriaLabel": "メモの操作",
+      "color_default": "デフォルト",
+      "color_amber": "黄色",
+      "color_sky": "青",
+      "color_rose": "ピンク",
+      "color_emerald": "緑",
+      "color_purple": "紫"
+    },
+    "image": {
+      "defaultTitle": "画像",
+      "settings": "画像設定",
+      "actionsAriaLabel": "画像の操作",
+      "titleAriaLabel": "画像のタイトル",
+      "changeImage": "画像を変更",
+      "fitCover": "カバー（トリミング）",
+      "fitContain": "コンテイン（アスペクト比）",
+      "fitFill": "フィル（引き伸ばし）",
+      "configureTitle": "ウィジェット画像の設定",
+      "urlPlaceholder": "画像URLを貼り付け...",
+      "or": "または",
+      "uploadLocal": "ローカル画像をアップロード",
+      "cancelConfig": "設定をキャンセル",
+      "loadError": "画像の読み込みに失敗しました。URLが壊れているかブロックされている可能性があります。"
+    },
+    "label": {
+      "defaultText": "テキスト",
+      "settings": "テキスト設定",
+      "actionsAriaLabel": "ラベルの操作",
+      "textAriaLabel": "ラベルのテキスト",
+      "editText": "テキストを編集",
+      "showCardStyle": "カードスタイルを表示",
+      "fontSize": "フォントサイズ",
+      "alignment": "配置",
+      "fontWeight": "フォントの太さ",
+      "opacity": "不透明度",
+      "deleteText": "テキストを削除",
+      "alignLeft": "左",
+      "alignCenter": "中央",
+      "alignRight": "右",
+      "fontSizes": {
+        "sm": "小",
+        "base": "中",
+        "lg": "大",
+        "xl": "特大",
+        "xl2": "2X 大",
+        "xl3": "3X 大",
+        "xl4": "4X 大",
+        "xl5": "5X 大",
+        "xl6": "6X 大",
+        "xl7": "7X 大",
+        "xl8": "8X 大",
+        "xl9": "9X 大",
+        "xl10": "10X 大",
+        "xl12": "12X 大"
+      },
+      "fontWeights": {
+        "thin": "極細",
+        "light": "細い",
+        "regular": "標準",
+        "medium": "中程度",
+        "semibold": "セミボールド",
+        "bold": "太字",
+        "extrabold": "極太",
+        "black": "ブラック"
+      },
+      "opacities": {
+        "full": "100%（明るい）",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40%（控えめ）"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google で検索するか URL を入力",
+      "searchAriaLabel": "検索クエリ",
+      "voiceSearch": "音声検索",
+      "lensSearch": "Lens で画像を検索",
+      "removeWidget": "ウィジェットを削除",
+      "switchToBarOnly": "バーのみに切り替え",
+      "switchToLogoBar": "ロゴ＋バーに切り替え",
+      "barOnly": "バーのみ",
+      "showLogo": "ロゴを表示",
+      "toggleLogoStyle": "ロゴスタイルを切り替え"
+    },
+    "group": {
+      "borderColorAriaLabel": "グループの枠線の色",
+      "pasteUrlPlaceholder": "URLを貼り付け...",
+      "colors": {
+        "red": "赤",
+        "pink": "ピンク",
+        "purple": "紫",
+        "indigo": "インディゴ",
+        "blue": "青",
+        "cyan": "シアン",
+        "teal": "ティール",
+        "green": "緑",
+        "yellow": "黄",
+        "orange": "オレンジ",
+        "slate": "スレート",
+        "neutral": "ニュートラル"
+      }
+    },
+    "groupHeader": {
+      "addLink": "リンクを追加",
+      "colorBorder": "枠線の色",
+      "layout": "レイアウト",
+      "layoutGrid": "グリッド",
+      "layoutList": "リスト",
+      "gridColumns": "グリッドの列数",
+      "column_one": "{{count}}列",
+      "column_other": "{{count}}列",
+      "deleteGroup": "グループを削除",
+      "actionsAriaLabel": "グループの操作"
+    },
+    "groupInnerGrid": {
+      "empty": "空のグループ",
+      "addFirstLink": "最初のリンクを追加",
+      "dropToAdd": "ドロップして追加",
+      "add": "追加"
+    },
+    "iframe": {
+      "removeWidget": "ウィジェットを削除",
+      "openInNewTab": "新しいタブで開く"
+    },
+    "linkCard": {
+      "options": "オプション",
+      "rename": "名前を変更",
+      "size": "サイズ",
+      "sizeSmall": "小（1×1）",
+      "sizeMedium": "中（3×1）",
+      "moveTo": "移動先...",
+      "mainDashboard": "メインダッシュボード",
+      "header": "ヘッダー",
+      "deleteLink": "リンクを削除",
+      "actionsAriaLabel": "リンクの操作"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "空の写真ウィジェットを{{count}}件削除しました。",
+    "removedEmptyPhotos_other": "空の写真ウィジェットを{{count}}件削除しました。",
+    "clearedWidgets_one": "{{count}}個のウィジェット",
+    "clearedWidgets_other": "{{count}}個のウィジェット",
+    "clearedHeaderLinks_one": "{{count}}個のヘッダーリンク",
+    "clearedHeaderLinks_other": "{{count}}個のヘッダーリンク",
+    "clearedSummary": "{{items}}をクリアしました。元に戻すにはキャンセル、確定するには保存してください。",
+    "onlyOneGoogleSearch": "Google検索ウィジェットは1つのみ使用できます。",
+    "noRoomForWidget": "このウィジェットを配置するスペースがありません。何かをリサイズまたは削除してスペースを作ってください。",
+    "swap": {
+      "no-room": "スワップできません — 両方のウィジェットを新しい位置に配置するのに十分なスペースがありません。",
+      "out-of-bounds": "スワップできません — いずれかのウィジェットが最小サイズでグリッドの端を超えてしまいます。",
+      "overlap": "スワップできません — 2つのウィジェットの最小サイズが重なっています。",
+      "obstacle": "スワップできません — 別のウィジェットが邪魔しています。先にそれを移動またはリサイズしてください。"
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStartに保存",
+    "saveLink": "リンクを保存",
+    "saved": "保存しました！",
+    "openDashboard": "ダッシュボードを開く",
+    "destination": {
+      "label": "保存先",
+      "main": "メインダッシュボード",
+      "header": "ヘッダーバー"
+    },
+    "reminders": {
+      "ariaLabel": "保留中のリマインダー",
+      "count_one": "{{count}}件のリマインダー",
+      "count_other": "{{count}}件のリマインダー",
+      "clearAll": "すべてクリア",
+      "dismiss": "閉じる"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chromeフッターガイドを非表示",
+      "success": "フッターを非表示にしました — フルスクリーンをお楽しみください！",
+      "corner": {
+        "title": "フルスクリーン体験を手に入れよう",
+        "intro": "ChromeはMonoStartの下にフッターを追加します。非表示にするには、右下の",
+        "cta": "Chromeをカスタマイズ",
+        "ctaSuffix": "をクリックしてください。",
+        "noFooter": "フッターが表示されていませんか？準備完了です — スキップして大丈夫です。"
+      },
+      "panel": {
+        "title": "もう少しです",
+        "intro": "",
+        "setting": "フッター",
+        "turnOff": "の下で、",
+        "action": "新しいタブページにフッターを表示する",
+        "suffix": "をオフにしてから、パネルを閉じてください。"
+      },
+      "skip": "スキップ",
+      "next": "次へ",
+      "done": "完了"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "言語",
+      "subtitle": "言語を選択してください",
+      "search": "言語を検索…",
+      "empty": "検索に一致する言語がありません。"
+    },
+    "addWidget": {
+      "title": "ウィジェットを追加",
+      "titleConfigure": "{{name}}を設定",
+      "titleGoogleStyle": "Google検索スタイルを選択",
+      "logoBarTitle": "ロゴ＋バー",
+      "logoBarDesc": "検索バーの上に大きなGoogleロゴを表示します。4行を使用します。",
+      "barOnlyTitle": "バーのみ",
+      "barOnlyDesc": "検索バーのみ。1行を使用します。コンパクト。",
+      "urlLabel": "URLまたは埋め込みコード",
+      "urlPlaceholder": "https://example.com\nまたは\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "シンプルな埋め込みにはURLを貼り付けるか、直接読み込みをブロックするサイト（YouTube、Figma、Spotify、CodePenなど）からは<code>&lt;iframe&gt;</code>スニペットを貼り付けてください。",
+      "back": "戻る",
+      "embedWidget": "ウィジェットを埋め込む"
+    },
+    "addLink": {
+      "title": "リンクを追加",
+      "description": "URLを貼り付けてダッシュボードに新しいリンクカードを追加します。",
+      "urlLabel": "ウェブサイトのURL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "タイトル（任意）",
+      "titlePlaceholder": "マイリンク",
+      "locationLabel": "場所",
+      "locationMainDashboard": "メインダッシュボード",
+      "locationHeader": "ヘッダー（ファビコンのみ）",
+      "locationFolder": "フォルダー：{{title}}",
+      "locationGroup": "グループ：{{title}}",
+      "cancel": "キャンセル",
+      "submit": "リンクを追加"
+    },
+    "theme": {
+      "title": "テーマと外観",
+      "description": "ダッシュボードの外観をカスタマイズします。",
+      "modeGroupLabel": "テーマモード",
+      "light": "ライト",
+      "dark": "ダーク",
+      "device": "デバイス設定に従う",
+      "primaryColorHeading": "プライマリカラー",
+      "primaryColorPresetsLabel": "プライマリカラーのプリセット",
+      "customColorLabel": "カスタムカラー",
+      "customColorTitle": "カスタムカラー",
+      "customHue": "カスタム色相",
+      "backgroundHeading": "背景",
+      "backgroundTypeLabel": "背景の種類",
+      "backgroundColorLabel": "背景色",
+      "backgroundGradientLabel": "背景グラデーション",
+      "imageUrlPlaceholder": "画像URLを貼り付け...",
+      "uploadImage": "画像をアップロード",
+      "imageUploaded": "カスタム画像をアップロードしました。",
+      "blur": "ぼかし",
+      "dim": "暗さ",
+      "fileReadError": "ファイルの読み込みに失敗しました。",
+      "bgType": {
+        "none": "なし",
+        "color": "カラー",
+        "gradient": "グラデーション",
+        "image": "画像"
+      }
+    },
+    "clear": {
+      "title": "ダッシュボードをクリア",
+      "description": "これにより、ダッシュボードからウィジェットが削除されます。編集モード中なので、保存前にキャンセルして元に戻すことができます。",
+      "widgetsGroups": "メイングリッド上のウィジェットとグループ",
+      "linksInsideGroups": "↳ グループ内のリンク",
+      "headerBarLinks": "ヘッダーバーのリンク",
+      "alsoClearHeaderLabel": "ヘッダーバーのリンクもクリアする",
+      "alsoClearHeaderDesc": "デフォルトではヘッダーバーは保持されます。チェックするとヘッダーも削除されます。",
+      "widgetGroups_one": "<strong>{{count}}</strong>個のウィジェット/グループを削除しようとしています",
+      "widgetGroups_other": "<strong>{{count}}</strong>個のウィジェット/グループを削除しようとしています",
+      "headerLinks_one": "<strong>{{count}}</strong>個のヘッダーリンク",
+      "headerLinks_other": "<strong>{{count}}</strong>個のヘッダーリンク",
+      "andConnector": "および",
+      "cancelRestores": "。編集モードのツールバーでキャンセルすると元に戻ります。",
+      "nothingToClear": "現在の選択ではクリアするものがありません。",
+      "cancelButton": "キャンセル",
+      "clearWidgets": "ウィジェットをクリア",
+      "clearEverything": "すべてクリア"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "このアイテムをシェア",
+      "copyLink": "リンクをコピー",
+      "linkCopied": "リンクをコピーしました",
+      "shareOn": "{{platform}}でシェア",
+      "shareVia": "{{platform}}でシェア"
+    }
+  }
+}

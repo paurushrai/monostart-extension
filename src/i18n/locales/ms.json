@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Padam",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "copy": "Salin",
+    "copied": "Disalin"
+  },
+  "header": {
+    "menu": {
+      "language": "Bahasa",
+      "addLink": "Tambah Pautan",
+      "addWidget": "Tambah Widget",
+      "editDashboard": "Edit Papan Pemuka",
+      "theme": "Tema & Penampilan",
+      "share": "Kongsi MonoStart",
+      "openInNewTab": "Buka pautan dalam tab baharu"
+    },
+    "settings": "Tetapan",
+    "clear": "Kosongkan",
+    "clearDashboard": "Kosongkan Papan Pemuka",
+    "cancel": "Batal",
+    "save": "Simpan"
+  },
+  "widgets": {
+    "deleteWidget": "Padam Widget",
+    "placeholder": {
+      "place": "Letak",
+      "dropToPlace": "Lepas untuk Letak"
+    },
+    "todo": {
+      "defaultTitle": "Senarai Tugasan",
+      "empty": "Tiada tugasan lagi.",
+      "deleteTask": "Padam Tugasan",
+      "placeholder": "Tambah tugasan...",
+      "newTaskAriaLabel": "Tugasan baharu",
+      "addTask": "Tambah Tugasan",
+      "toggleAriaLabel": "Tandakan \"{{text}}\" sebagai {{status}}",
+      "statusComplete": "selesai",
+      "statusIncomplete": "belum selesai"
+    },
+    "timer": {
+      "defaultTitle": "Pemasa",
+      "empty": "Tiada pemasa ditetapkan.",
+      "deleteTimer": "Padam Pemasa",
+      "pause": "Jeda",
+      "start": "Mula",
+      "reset": "Set Semula",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Tempoh pemasa dalam minit",
+      "placeholderLabel": "Label (pilihan)",
+      "labelAriaLabel": "Label pemasa (pilihan)",
+      "addTimer": "Tambah Pemasa"
+    },
+    "reminders": {
+      "defaultTitle": "Peringatan",
+      "empty": "Tiada peringatan lagi.",
+      "deleteReminder": "Padam Peringatan",
+      "placeholder": "Ingatkan saya untuk...",
+      "textAriaLabel": "Teks peringatan",
+      "recurrenceTitle": "Pengulangan",
+      "addReminder": "Tambah Peringatan",
+      "customIntervalAriaLabel": "Nilai selang tersuai",
+      "customUnitAriaLabel": "Unit selang tersuai",
+      "unitMinutes": "Minit",
+      "unitHours": "Jam",
+      "unitDays": "Hari",
+      "saveRecurrence": "Simpan",
+      "toggleAriaLabel": "Tandakan \"{{text}}\" sebagai {{status}}",
+      "statusComplete": "selesai",
+      "statusIncomplete": "belum selesai",
+      "recurrenceNone": "Sekali",
+      "recurrence30min": "Setiap 30 min",
+      "recurrenceHourly": "Setiap jam",
+      "recurrenceDaily": "Setiap hari",
+      "recurrenceWeekly": "Setiap minggu",
+      "recurrenceCustom": "Tersuai",
+      "everyDay": "Setiap {{count}}h",
+      "everyHour": "Setiap {{count}}j",
+      "everyMin": "Setiap {{count}}m",
+      "every": "Setiap",
+      "today": "Hari ini {{time}}",
+      "tomorrow": "Esok {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Nota",
+      "changeColor": "Tukar Warna",
+      "placeholder": "Tulis sesuatu...",
+      "contentAriaLabel": "Kandungan nota",
+      "titleAriaLabel": "Tajuk nota",
+      "actionsAriaLabel": "Tindakan nota",
+      "color_default": "Lalai",
+      "color_amber": "Kuning",
+      "color_sky": "Biru",
+      "color_rose": "Merah Jambu",
+      "color_emerald": "Hijau",
+      "color_purple": "Ungu"
+    },
+    "image": {
+      "defaultTitle": "Imej",
+      "settings": "Tetapan Imej",
+      "actionsAriaLabel": "Tindakan imej",
+      "titleAriaLabel": "Tajuk imej",
+      "changeImage": "Tukar Imej",
+      "fitCover": "Penutup (Potong)",
+      "fitContain": "Muatkan (Nisbah)",
+      "fitFill": "Isi (Regangkan)",
+      "configureTitle": "Konfigurasi Imej Widget",
+      "urlPlaceholder": "Tampal URL imej...",
+      "or": "Atau",
+      "uploadLocal": "Muat Naik Imej Tempatan",
+      "cancelConfig": "Batal Konfigurasi",
+      "loadError": "Imej gagal dimuatkan. URL mungkin rosak atau disekat."
+    },
+    "label": {
+      "defaultText": "Teks",
+      "settings": "Tetapan Teks",
+      "actionsAriaLabel": "Tindakan label",
+      "textAriaLabel": "Teks label",
+      "editText": "Edit Teks",
+      "showCardStyle": "Tunjuk Gaya Kad",
+      "fontSize": "Saiz Fon",
+      "alignment": "Penjajaran",
+      "fontWeight": "Berat Fon",
+      "opacity": "Kelegapan",
+      "deleteText": "Padam Teks",
+      "alignLeft": "Kiri",
+      "alignCenter": "Tengah",
+      "alignRight": "Kanan",
+      "fontSizes": {
+        "sm": "Kecil",
+        "base": "Sederhana",
+        "lg": "Besar",
+        "xl": "Sangat Besar",
+        "xl2": "2X Besar",
+        "xl3": "3X Besar",
+        "xl4": "4X Besar",
+        "xl5": "5X Besar",
+        "xl6": "6X Besar",
+        "xl7": "7X Besar",
+        "xl8": "8X Besar",
+        "xl9": "9X Besar",
+        "xl10": "10X Besar",
+        "xl12": "12X Besar"
+      },
+      "fontWeights": {
+        "thin": "Nipis",
+        "light": "Ringan",
+        "regular": "Biasa",
+        "medium": "Sederhana",
+        "semibold": "Semi Tebal",
+        "bold": "Tebal",
+        "extrabold": "Sangat Tebal",
+        "black": "Hitam"
+      },
+      "opacities": {
+        "full": "100% (Cerah)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Redup)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Cari di Google atau taip URL",
+      "searchAriaLabel": "Pertanyaan carian",
+      "voiceSearch": "Carian suara",
+      "lensSearch": "Cari sebarang imej dengan Lens",
+      "removeWidget": "Buang widget",
+      "switchToBarOnly": "Tukar ke bar sahaja",
+      "switchToLogoBar": "Tukar ke logo + bar",
+      "barOnly": "Bar sahaja",
+      "showLogo": "Tunjuk logo",
+      "toggleLogoStyle": "Togol gaya logo"
+    },
+    "group": {
+      "borderColorAriaLabel": "Warna sempadan kumpulan",
+      "pasteUrlPlaceholder": "Tampal URL...",
+      "colors": {
+        "red": "Merah",
+        "pink": "Merah Jambu",
+        "purple": "Ungu",
+        "indigo": "Indigo",
+        "blue": "Biru",
+        "cyan": "Sian",
+        "teal": "Teal",
+        "green": "Hijau",
+        "yellow": "Kuning",
+        "orange": "Oren",
+        "slate": "Kelabu Batu",
+        "neutral": "Neutral"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Tambah Pautan",
+      "colorBorder": "Sempadan Berwarna",
+      "layout": "Susun Atur",
+      "layoutGrid": "Grid",
+      "layoutList": "Senarai",
+      "gridColumns": "Lajur Grid",
+      "column_one": "{{count}} Lajur",
+      "column_other": "{{count}} Lajur",
+      "deleteGroup": "Padam Kumpulan",
+      "actionsAriaLabel": "Tindakan kumpulan"
+    },
+    "groupInnerGrid": {
+      "empty": "Kumpulan Kosong",
+      "addFirstLink": "Tambah pautan pertama",
+      "dropToAdd": "Lepas untuk Tambah",
+      "add": "Tambah"
+    },
+    "iframe": {
+      "removeWidget": "Buang widget",
+      "openInNewTab": "Buka dalam tab baharu"
+    },
+    "linkCard": {
+      "options": "Pilihan",
+      "rename": "Namakan Semula",
+      "size": "Saiz",
+      "sizeSmall": "Kecil (1×1)",
+      "sizeMedium": "Sederhana (3×1)",
+      "moveTo": "Pindah ke...",
+      "mainDashboard": "Papan Pemuka Utama",
+      "header": "Pengepala",
+      "deleteLink": "Padam Pautan",
+      "actionsAriaLabel": "Tindakan pautan"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Dibuang {{count}} widget foto kosong.",
+    "removedEmptyPhotos_other": "Dibuang {{count}} widget foto kosong.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widget",
+    "clearedHeaderLinks_one": "{{count}} pautan pengepala",
+    "clearedHeaderLinks_other": "{{count}} pautan pengepala",
+    "clearedSummary": "Dikosongkan {{items}}. Batal untuk membuat asal, atau Simpan untuk mengesahkan.",
+    "onlyOneGoogleSearch": "Hanya satu widget carian Google dibenarkan.",
+    "noRoomForWidget": "Tiada ruang untuk widget ini. Ubah saiz atau buang sesuatu untuk membuat ruang.",
+    "swap": {
+      "no-room": "Tidak boleh tukar — ruang tidak mencukupi untuk kedua-dua widget pada kedudukan baharu.",
+      "out-of-bounds": "Tidak boleh tukar — salah satu widget akan melebihi sempadan grid pada saiz minimumnya.",
+      "overlap": "Tidak boleh tukar — saiz minimum kedua-dua widget bertindih antara satu sama lain.",
+      "obstacle": "Tidak boleh tukar — widget lain menghalang. Alih atau ubah saiznya dahulu."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Simpan ke MonoStart",
+    "saveLink": "Simpan Pautan",
+    "saved": "Disimpan!",
+    "openDashboard": "Buka Papan Pemuka",
+    "destination": {
+      "label": "Destinasi",
+      "main": "Papan pemuka utama",
+      "header": "Bar pengepala"
+    },
+    "reminders": {
+      "ariaLabel": "Peringatan belum selesai",
+      "count_one": "{{count}} peringatan",
+      "count_other": "{{count}} peringatan",
+      "clearAll": "Kosongkan semua",
+      "dismiss": "Abaikan"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Sembunyikan panduan footer Chrome",
+      "success": "Footer disembunyikan — nikmati skrin penuh!",
+      "corner": {
+        "title": "Dapatkan pengalaman skrin penuh",
+        "intro": "Chrome menambah footer di bawah MonoStart. Untuk menyembunyikannya, klik",
+        "cta": "Sesuaikan Chrome",
+        "ctaSuffix": "di sudut bawah kanan.",
+        "noFooter": "Tidak nampak footer? Anda sudah bersedia — langkau ini."
+      },
+      "panel": {
+        "title": "Hampir selesai",
+        "intro": "Di bawah",
+        "setting": "Footer",
+        "turnOff": ", matikan",
+        "action": "Tunjukkan footer pada halaman Tab Baharu",
+        "suffix": ", kemudian tutup panel."
+      },
+      "skip": "Langkau",
+      "next": "Seterusnya",
+      "done": "Selesai"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Bahasa",
+      "subtitle": "Pilih bahasa anda",
+      "search": "Cari bahasa…",
+      "empty": "Tiada bahasa yang sepadan dengan carian anda."
+    },
+    "addWidget": {
+      "title": "Tambah Widget",
+      "titleConfigure": "Konfigurasi {{name}}",
+      "titleGoogleStyle": "Pilih gaya Carian Google",
+      "logoBarTitle": "Logo + Bar",
+      "logoBarDesc": "Logo Google besar di atas bar carian. Mengambil 4 baris.",
+      "barOnlyTitle": "Bar sahaja",
+      "barOnlyDesc": "Hanya bar carian. Mengambil 1 baris. Padat.",
+      "urlLabel": "URL atau kod embed",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Tampal URL untuk embed mudah, atau tampal coretan <code>&lt;iframe&gt;</code> dari laman yang menyekat pemuatan terus (YouTube, Figma, Spotify, CodePen, dll.).",
+      "back": "Kembali",
+      "embedWidget": "Embed Widget"
+    },
+    "addLink": {
+      "title": "Tambah Pautan",
+      "description": "Tampal URL untuk menambah kad pautan baharu ke papan pemuka anda.",
+      "urlLabel": "URL Laman Web",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Tajuk (Pilihan)",
+      "titlePlaceholder": "Pautan Saya",
+      "locationLabel": "Lokasi",
+      "locationMainDashboard": "Papan Pemuka Utama",
+      "locationHeader": "Pengepala (Favicon sahaja)",
+      "locationFolder": "Folder: {{title}}",
+      "locationGroup": "Kumpulan: {{title}}",
+      "cancel": "Batal",
+      "submit": "Tambah Pautan"
+    },
+    "theme": {
+      "title": "Tema & Penampilan",
+      "description": "Sesuaikan rupa dan nuansa papan pemuka anda.",
+      "modeGroupLabel": "Mod tema",
+      "light": "Cerah",
+      "dark": "Gelap",
+      "device": "Peranti",
+      "primaryColorHeading": "Warna Utama",
+      "primaryColorPresetsLabel": "Pratetap warna utama",
+      "customColorLabel": "Warna tersuai",
+      "customColorTitle": "Warna tersuai",
+      "customHue": "Rona Tersuai",
+      "backgroundHeading": "Latar Belakang",
+      "backgroundTypeLabel": "Jenis latar belakang",
+      "backgroundColorLabel": "Warna latar belakang",
+      "backgroundGradientLabel": "Kecerunan latar belakang",
+      "imageUrlPlaceholder": "Tampal URL imej...",
+      "uploadImage": "Muat Naik Imej",
+      "imageUploaded": "Imej tersuai dimuat naik.",
+      "blur": "Kabur",
+      "dim": "Redup",
+      "fileReadError": "Gagal membaca fail.",
+      "bgType": {
+        "none": "Tiada",
+        "color": "Warna",
+        "gradient": "Kecerunan",
+        "image": "Imej"
+      }
+    },
+    "clear": {
+      "title": "Kosongkan papan pemuka",
+      "description": "Ini membuang widget dari papan pemuka. Anda dalam mod edit, jadi anda masih boleh tekan Batal untuk membuat asal sebelum menyimpan.",
+      "widgetsGroups": "Widget & kumpulan pada grid utama",
+      "linksInsideGroups": "↳ pautan dalam kumpulan",
+      "headerBarLinks": "Pautan bar pengepala",
+      "alsoClearHeaderLabel": "Kosongkan juga pautan bar pengepala",
+      "alsoClearHeaderDesc": "Secara lalai bar pengepala dikekalkan. Tandai ini untuk memadamnya juga.",
+      "widgetGroups_one": "Akan memadam <strong>{{count}}</strong> widget/kumpulan",
+      "widgetGroups_other": "Akan memadam <strong>{{count}}</strong> widget/kumpulan",
+      "headerLinks_one": "<strong>{{count}}</strong> pautan pengepala",
+      "headerLinks_other": "<strong>{{count}}</strong> pautan pengepala",
+      "andConnector": " dan ",
+      "cancelRestores": ". Batal dalam bar alat mod edit memulihkannya.",
+      "nothingToClear": "Tiada yang perlu dikosongkan dengan pilihan semasa.",
+      "cancelButton": "Batal",
+      "clearWidgets": "Kosongkan widget",
+      "clearEverything": "Kosongkan semua"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Kongsi item ini",
+      "copyLink": "Salin pautan",
+      "linkCopied": "Pautan disalin",
+      "shareOn": "Kongsi di {{platform}}",
+      "shareVia": "Kongsi melalui {{platform}}"
+    }
+  }
+}

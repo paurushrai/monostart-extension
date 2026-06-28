@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "copy": "Copier",
+    "copied": "Copié"
+  },
+  "header": {
+    "menu": {
+      "language": "Langue",
+      "addLink": "Ajouter un lien",
+      "addWidget": "Ajouter un widget",
+      "editDashboard": "Modifier le tableau de bord",
+      "theme": "Thème et apparence",
+      "share": "Partager MonoStart",
+      "openInNewTab": "Ouvrir les liens dans un nouvel onglet"
+    },
+    "settings": "Paramètres",
+    "clear": "Effacer",
+    "clearDashboard": "Effacer le tableau de bord",
+    "cancel": "Annuler",
+    "save": "Enregistrer"
+  },
+  "widgets": {
+    "deleteWidget": "Supprimer le widget",
+    "placeholder": {
+      "place": "Placer",
+      "dropToPlace": "Déposer pour placer"
+    },
+    "todo": {
+      "defaultTitle": "Tâches",
+      "empty": "Aucune tâche pour l'instant.",
+      "deleteTask": "Supprimer la tâche",
+      "placeholder": "Ajouter une tâche...",
+      "newTaskAriaLabel": "Nouvelle tâche",
+      "addTask": "Ajouter une tâche",
+      "toggleAriaLabel": "Marquer « {{text}} » comme {{status}}",
+      "statusComplete": "terminée",
+      "statusIncomplete": "non terminée"
+    },
+    "timer": {
+      "defaultTitle": "Minuteries",
+      "empty": "Aucune minuterie définie.",
+      "deleteTimer": "Supprimer la minuterie",
+      "pause": "Pause",
+      "start": "Démarrer",
+      "reset": "Réinitialiser",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Durée de la minuterie en minutes",
+      "placeholderLabel": "Étiquette (optionnel)",
+      "labelAriaLabel": "Étiquette de la minuterie (optionnel)",
+      "addTimer": "Ajouter une minuterie"
+    },
+    "reminders": {
+      "defaultTitle": "Rappels",
+      "empty": "Aucun rappel pour l'instant.",
+      "deleteReminder": "Supprimer le rappel",
+      "placeholder": "Me rappeler de...",
+      "textAriaLabel": "Texte du rappel",
+      "recurrenceTitle": "Récurrence",
+      "addReminder": "Ajouter un rappel",
+      "customIntervalAriaLabel": "Valeur de l'intervalle personnalisé",
+      "customUnitAriaLabel": "Unité de l'intervalle personnalisé",
+      "unitMinutes": "Minutes",
+      "unitHours": "Heures",
+      "unitDays": "Jours",
+      "saveRecurrence": "Enregistrer",
+      "toggleAriaLabel": "Marquer « {{text}} » comme {{status}}",
+      "statusComplete": "terminé",
+      "statusIncomplete": "non terminé",
+      "recurrenceNone": "Une fois",
+      "recurrence30min": "Toutes les 30 min",
+      "recurrenceHourly": "Toutes les heures",
+      "recurrenceDaily": "Quotidien",
+      "recurrenceWeekly": "Hebdomadaire",
+      "recurrenceCustom": "Personnalisé",
+      "everyDay": "Tous les {{count}}j",
+      "everyHour": "Toutes les {{count}}h",
+      "everyMin": "Toutes les {{count}}min",
+      "every": "Chaque",
+      "today": "Aujourd'hui {{time}}",
+      "tomorrow": "Demain {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Note",
+      "changeColor": "Changer la couleur",
+      "placeholder": "Écrivez quelque chose...",
+      "contentAriaLabel": "Contenu de la note",
+      "titleAriaLabel": "Titre de la note",
+      "actionsAriaLabel": "Actions de la note",
+      "color_default": "Par défaut",
+      "color_amber": "Jaune",
+      "color_sky": "Bleu",
+      "color_rose": "Rose",
+      "color_emerald": "Vert",
+      "color_purple": "Violet"
+    },
+    "image": {
+      "defaultTitle": "Image",
+      "settings": "Paramètres de l'image",
+      "actionsAriaLabel": "Actions de l'image",
+      "titleAriaLabel": "Titre de l'image",
+      "changeImage": "Changer l'image",
+      "fitCover": "Couverture (recadrage)",
+      "fitContain": "Contenir (proportions)",
+      "fitFill": "Remplir (étirement)",
+      "configureTitle": "Configurer l'image du widget",
+      "urlPlaceholder": "Coller l'URL de l'image...",
+      "or": "Ou",
+      "uploadLocal": "Télécharger une image locale",
+      "cancelConfig": "Annuler la configuration",
+      "loadError": "Impossible de charger l'image. L'URL est peut-être incorrecte ou bloquée."
+    },
+    "label": {
+      "defaultText": "Texte",
+      "settings": "Paramètres du texte",
+      "actionsAriaLabel": "Actions de l'étiquette",
+      "textAriaLabel": "Texte de l'étiquette",
+      "editText": "Modifier le texte",
+      "showCardStyle": "Afficher le style de carte",
+      "fontSize": "Taille de la police",
+      "alignment": "Alignement",
+      "fontWeight": "Graisse de la police",
+      "opacity": "Opacité",
+      "deleteText": "Supprimer le texte",
+      "alignLeft": "Gauche",
+      "alignCenter": "Centre",
+      "alignRight": "Droite",
+      "fontSizes": {
+        "sm": "Petit",
+        "base": "Moyen",
+        "lg": "Grand",
+        "xl": "Très grand",
+        "xl2": "2× grand",
+        "xl3": "3× grand",
+        "xl4": "4× grand",
+        "xl5": "5× grand",
+        "xl6": "6× grand",
+        "xl7": "7× grand",
+        "xl8": "8× grand",
+        "xl9": "9× grand",
+        "xl10": "10× grand",
+        "xl12": "12× grand"
+      },
+      "fontWeights": {
+        "thin": "Fin",
+        "light": "Léger",
+        "regular": "Normal",
+        "medium": "Moyen",
+        "semibold": "Semi-gras",
+        "bold": "Gras",
+        "extrabold": "Extra-gras",
+        "black": "Noir"
+      },
+      "opacities": {
+        "full": "100 % (Vif)",
+        "p80": "80 %",
+        "p60": "60 %",
+        "muted": "40 % (Atténué)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Rechercher sur Google ou entrer une URL",
+      "searchAriaLabel": "Requête de recherche",
+      "voiceSearch": "Recherche vocale",
+      "lensSearch": "Rechercher une image avec Lens",
+      "removeWidget": "Supprimer le widget",
+      "switchToBarOnly": "Passer à la barre seule",
+      "switchToLogoBar": "Passer à logo + barre",
+      "barOnly": "Barre seule",
+      "showLogo": "Afficher le logo",
+      "toggleLogoStyle": "Basculer le style du logo"
+    },
+    "group": {
+      "borderColorAriaLabel": "Couleur de bordure du groupe",
+      "pasteUrlPlaceholder": "Coller l'URL...",
+      "colors": {
+        "red": "Rouge",
+        "pink": "Rose",
+        "purple": "Violet",
+        "indigo": "Indigo",
+        "blue": "Bleu",
+        "cyan": "Cyan",
+        "teal": "Sarcelle",
+        "green": "Vert",
+        "yellow": "Jaune",
+        "orange": "Orange",
+        "slate": "Ardoise",
+        "neutral": "Neutre"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Ajouter un lien",
+      "colorBorder": "Couleur de bordure",
+      "layout": "Disposition",
+      "layoutGrid": "Grille",
+      "layoutList": "Liste",
+      "gridColumns": "Colonnes de la grille",
+      "column_one": "{{count}} colonne",
+      "column_other": "{{count}} colonnes",
+      "deleteGroup": "Supprimer le groupe",
+      "actionsAriaLabel": "Actions du groupe"
+    },
+    "groupInnerGrid": {
+      "empty": "Groupe vide",
+      "addFirstLink": "Ajouter le premier lien",
+      "dropToAdd": "Déposer pour ajouter",
+      "add": "Ajouter"
+    },
+    "iframe": {
+      "removeWidget": "Supprimer le widget",
+      "openInNewTab": "Ouvrir dans un nouvel onglet"
+    },
+    "linkCard": {
+      "options": "Options",
+      "rename": "Renommer",
+      "size": "Taille",
+      "sizeSmall": "Petit (1×1)",
+      "sizeMedium": "Moyen (3×1)",
+      "moveTo": "Déplacer vers...",
+      "mainDashboard": "Tableau de bord principal",
+      "header": "En-tête",
+      "deleteLink": "Supprimer le lien",
+      "actionsAriaLabel": "Actions du lien"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} widget photo vide supprimé.",
+    "removedEmptyPhotos_other": "{{count}} widgets photos vides supprimés.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgets",
+    "clearedHeaderLinks_one": "{{count}} lien d'en-tête",
+    "clearedHeaderLinks_other": "{{count}} liens d'en-tête",
+    "clearedSummary": "{{items}} effacé(s). Annuler pour annuler, ou Enregistrer pour confirmer.",
+    "onlyOneGoogleSearch": "Un seul widget de recherche Google est autorisé.",
+    "noRoomForWidget": "Pas de place pour ce widget. Redimensionnez ou supprimez quelque chose pour libérer de l'espace.",
+    "swap": {
+      "no-room": "Impossible d'échanger — pas assez de place pour les deux widgets à leurs nouvelles positions.",
+      "out-of-bounds": "Impossible d'échanger — un des widgets dépasserait le bord de la grille à sa taille minimale.",
+      "overlap": "Impossible d'échanger — les tailles minimales des deux widgets se chevauchent.",
+      "obstacle": "Impossible d'échanger — un autre widget est dans le chemin. Déplacez-le ou redimensionnez-le d'abord."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Enregistrer dans MonoStart",
+    "saveLink": "Enregistrer le lien",
+    "saved": "Enregistré !",
+    "openDashboard": "Ouvrir le tableau de bord",
+    "destination": {
+      "label": "Destination",
+      "main": "Tableau de bord principal",
+      "header": "Barre d'en-tête"
+    },
+    "reminders": {
+      "ariaLabel": "Rappels en attente",
+      "count_one": "{{count}} rappel",
+      "count_other": "{{count}} rappels",
+      "clearAll": "Tout effacer",
+      "dismiss": "Ignorer"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Masquer le guide du pied de page Chrome",
+      "success": "Pied de page masqué — profitez du plein écran !",
+      "corner": {
+        "title": "Obtenez l'expérience plein écran",
+        "intro": "Chrome ajoute un pied de page sous MonoStart. Pour le masquer, cliquez sur",
+        "cta": "Personnaliser Chrome",
+        "ctaSuffix": "dans le coin inférieur droit.",
+        "noFooter": "Vous ne voyez pas de pied de page ? Vous êtes prêt — passez cette étape."
+      },
+      "panel": {
+        "title": "Presque terminé",
+        "intro": "Sous",
+        "setting": "Pied de page",
+        "turnOff": ", désactivez",
+        "action": "Afficher le pied de page sur la page Nouvel onglet",
+        "suffix": ", puis fermez le panneau."
+      },
+      "skip": "Ignorer",
+      "next": "Suivant",
+      "done": "Terminé"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Langue",
+      "subtitle": "Choisissez votre langue",
+      "search": "Rechercher des langues…",
+      "empty": "Aucune langue ne correspond à votre recherche."
+    },
+    "addWidget": {
+      "title": "Ajouter un widget",
+      "titleConfigure": "Configurer {{name}}",
+      "titleGoogleStyle": "Choisir le style de recherche Google",
+      "logoBarTitle": "Logo + Barre",
+      "logoBarDesc": "Grand logo Google au-dessus de la barre de recherche. Prend 4 lignes.",
+      "barOnlyTitle": "Barre seule",
+      "barOnlyDesc": "Juste la barre de recherche. Prend 1 ligne. Compact.",
+      "urlLabel": "URL ou code d'intégration",
+      "urlPlaceholder": "https://example.com\nou\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Collez une URL pour les intégrations simples, ou collez un extrait <code>&lt;iframe&gt;</code> depuis des sites qui bloquent le chargement direct (YouTube, Figma, Spotify, CodePen, etc.).",
+      "back": "Retour",
+      "embedWidget": "Intégrer le widget"
+    },
+    "addLink": {
+      "title": "Ajouter un lien",
+      "description": "Collez une URL pour ajouter une nouvelle carte de lien à votre tableau de bord.",
+      "urlLabel": "URL du site web",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Titre (optionnel)",
+      "titlePlaceholder": "Mon lien",
+      "locationLabel": "Emplacement",
+      "locationMainDashboard": "Tableau de bord principal",
+      "locationHeader": "En-tête (favicon uniquement)",
+      "locationFolder": "Dossier : {{title}}",
+      "locationGroup": "Groupe : {{title}}",
+      "cancel": "Annuler",
+      "submit": "Ajouter le lien"
+    },
+    "theme": {
+      "title": "Thème et apparence",
+      "description": "Personnalisez l'apparence de votre tableau de bord.",
+      "modeGroupLabel": "Mode du thème",
+      "light": "Clair",
+      "dark": "Sombre",
+      "device": "Appareil",
+      "primaryColorHeading": "Couleur principale",
+      "primaryColorPresetsLabel": "Préréglages de couleur principale",
+      "customColorLabel": "Couleur personnalisée",
+      "customColorTitle": "Couleur personnalisée",
+      "customHue": "Teinte personnalisée",
+      "backgroundHeading": "Arrière-plan",
+      "backgroundTypeLabel": "Type d'arrière-plan",
+      "backgroundColorLabel": "Couleur d'arrière-plan",
+      "backgroundGradientLabel": "Dégradé d'arrière-plan",
+      "imageUrlPlaceholder": "Coller l'URL de l'image...",
+      "uploadImage": "Télécharger une image",
+      "imageUploaded": "Image personnalisée téléchargée.",
+      "blur": "Flou",
+      "dim": "Assombrir",
+      "fileReadError": "Impossible de lire le fichier.",
+      "bgType": {
+        "none": "Aucun",
+        "color": "Couleur",
+        "gradient": "Dégradé",
+        "image": "Image"
+      }
+    },
+    "clear": {
+      "title": "Effacer le tableau de bord",
+      "description": "Cela supprime les widgets du tableau de bord. Vous êtes en mode édition, vous pouvez donc toujours appuyer sur Annuler pour revenir en arrière avant d'enregistrer.",
+      "widgetsGroups": "Widgets et groupes sur la grille principale",
+      "linksInsideGroups": "↳ liens à l'intérieur des groupes",
+      "headerBarLinks": "Liens de la barre d'en-tête",
+      "alsoClearHeaderLabel": "Effacer également les liens de la barre d'en-tête",
+      "alsoClearHeaderDesc": "Par défaut, la barre d'en-tête est conservée. Cochez cette case pour l'effacer aussi.",
+      "widgetGroups_one": "Vous êtes sur le point de supprimer <strong>{{count}}</strong> widget/groupe",
+      "widgetGroups_other": "Vous êtes sur le point de supprimer <strong>{{count}}</strong> widgets/groupes",
+      "headerLinks_one": "<strong>{{count}}</strong> lien d'en-tête",
+      "headerLinks_other": "<strong>{{count}}</strong> liens d'en-tête",
+      "andConnector": " et ",
+      "cancelRestores": ". Annuler dans la barre d'outils du mode édition les restaure.",
+      "nothingToClear": "Rien à effacer avec la sélection actuelle.",
+      "cancelButton": "Annuler",
+      "clearWidgets": "Effacer les widgets",
+      "clearEverything": "Tout effacer"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Partager cet élément",
+      "copyLink": "Copier le lien",
+      "linkCopied": "Lien copié",
+      "shareOn": "Partager sur {{platform}}",
+      "shareVia": "Partager via {{platform}}"
+    }
+  }
+}

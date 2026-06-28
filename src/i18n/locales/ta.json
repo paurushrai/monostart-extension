@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "நீக்கு",
+    "cancel": "ரத்துசெய்",
+    "save": "சேமி",
+    "copy": "நகலெடு",
+    "copied": "நகலெடுக்கப்பட்டது"
+  },
+  "header": {
+    "menu": {
+      "language": "மொழி",
+      "addLink": "இணைப்பு சேர்",
+      "addWidget": "விட்ஜெட் சேர்",
+      "editDashboard": "டாஷ்போர்டு திருத்து",
+      "theme": "தீம் & தோற்றம்",
+      "share": "MonoStart பகிர்",
+      "openInNewTab": "இணைப்புகளை புதிய தாவலில் திற"
+    },
+    "settings": "அமைப்புகள்",
+    "clear": "அழி",
+    "clearDashboard": "டாஷ்போர்டு அழி",
+    "cancel": "ரத்துசெய்",
+    "save": "சேமி"
+  },
+  "widgets": {
+    "deleteWidget": "விட்ஜெட் நீக்கு",
+    "placeholder": {
+      "place": "வை",
+      "dropToPlace": "வைக்க இழுத்துவிடு"
+    },
+    "todo": {
+      "defaultTitle": "செய்யவேண்டியவை",
+      "empty": "இன்னும் பணிகள் இல்லை.",
+      "deleteTask": "பணி நீக்கு",
+      "placeholder": "ஒரு பணி சேர்...",
+      "newTaskAriaLabel": "புதிய பணி",
+      "addTask": "பணி சேர்",
+      "toggleAriaLabel": "\"{{text}}\" ஐ {{status}} என குறி",
+      "statusComplete": "முடிந்தது",
+      "statusIncomplete": "முடியவில்லை"
+    },
+    "timer": {
+      "defaultTitle": "டைமர்கள்",
+      "empty": "டைமர்கள் எதுவும் இல்லை.",
+      "deleteTimer": "டைமர் நீக்கு",
+      "pause": "இடைநிறுத்து",
+      "start": "தொடங்கு",
+      "reset": "மீட்டமை",
+      "placeholderMin": "நிமிடம்",
+      "durationAriaLabel": "நிமிடங்களில் டைமர் காலம்",
+      "placeholderLabel": "தலைப்பு (விரும்பினால்)",
+      "labelAriaLabel": "டைமர் தலைப்பு (விரும்பினால்)",
+      "addTimer": "டைமர் சேர்"
+    },
+    "reminders": {
+      "defaultTitle": "நினைவூட்டல்கள்",
+      "empty": "இன்னும் நினைவூட்டல்கள் இல்லை.",
+      "deleteReminder": "நினைவூட்டல் நீக்கு",
+      "placeholder": "என்னை நினைவூட்டு...",
+      "textAriaLabel": "நினைவூட்டல் உரை",
+      "recurrenceTitle": "மீண்டும் நிகழ்வு",
+      "addReminder": "நினைவூட்டல் சேர்",
+      "customIntervalAriaLabel": "தனிப்பயன் இடைவெளி மதிப்பு",
+      "customUnitAriaLabel": "தனிப்பயன் இடைவெளி அலகு",
+      "unitMinutes": "நிமிடங்கள்",
+      "unitHours": "மணிநேரங்கள்",
+      "unitDays": "நாட்கள்",
+      "saveRecurrence": "சேமி",
+      "toggleAriaLabel": "\"{{text}}\" ஐ {{status}} என குறி",
+      "statusComplete": "முடிந்தது",
+      "statusIncomplete": "முடியவில்லை",
+      "recurrenceNone": "ஒருமுறை",
+      "recurrence30min": "ஒவ்வொரு 30 நிமிடமும்",
+      "recurrenceHourly": "மணிதோறும்",
+      "recurrenceDaily": "தினமும்",
+      "recurrenceWeekly": "வாரமும்",
+      "recurrenceCustom": "தனிப்பயன்",
+      "everyDay": "ஒவ்வொரு {{count}}நா",
+      "everyHour": "ஒவ்வொரு {{count}}ம",
+      "everyMin": "ஒவ்வொரு {{count}}நி",
+      "every": "ஒவ்வொரு",
+      "today": "இன்று {{time}}",
+      "tomorrow": "நாளை {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "குறிப்பு",
+      "changeColor": "நிறம் மாற்று",
+      "placeholder": "ஏதாவது எழுது...",
+      "contentAriaLabel": "குறிப்பு உள்ளடக்கம்",
+      "titleAriaLabel": "குறிப்பு தலைப்பு",
+      "actionsAriaLabel": "குறிப்பு செயல்கள்",
+      "color_default": "இயல்பு",
+      "color_amber": "மஞ்சள்",
+      "color_sky": "நீலம்",
+      "color_rose": "இளஞ்சிவப்பு",
+      "color_emerald": "பச்சை",
+      "color_purple": "ஊதா"
+    },
+    "image": {
+      "defaultTitle": "படம்",
+      "settings": "படம் அமைப்புகள்",
+      "actionsAriaLabel": "படம் செயல்கள்",
+      "titleAriaLabel": "படம் தலைப்பு",
+      "changeImage": "படம் மாற்று",
+      "fitCover": "மூடு (வெட்டு)",
+      "fitContain": "கொண்டிரு (விகிதம்)",
+      "fitFill": "நிரப்பு (நீட்டு)",
+      "configureTitle": "விட்ஜெட் படம் அமை",
+      "urlPlaceholder": "படம் URL ஒட்டு...",
+      "or": "அல்லது",
+      "uploadLocal": "உள்ளூர் படம் பதிவேற்று",
+      "cancelConfig": "அமைவை ரத்துசெய்",
+      "loadError": "படம் ஏற்றம் தோல்வியடைந்தது. URL உடைந்ததாக அல்லது தடுக்கப்பட்டதாக இருக்கலாம்."
+    },
+    "label": {
+      "defaultText": "உரை",
+      "settings": "உரை அமைப்புகள்",
+      "actionsAriaLabel": "லேபிள் செயல்கள்",
+      "textAriaLabel": "லேபிள் உரை",
+      "editText": "உரை திருத்து",
+      "showCardStyle": "கார்டு பாணி காட்டு",
+      "fontSize": "எழுத்து அளவு",
+      "alignment": "சீரமைப்பு",
+      "fontWeight": "எழுத்து எடை",
+      "opacity": "ஒளிபுகாநிலை",
+      "deleteText": "உரை நீக்கு",
+      "alignLeft": "இடது",
+      "alignCenter": "மையம்",
+      "alignRight": "வலது",
+      "fontSizes": {
+        "sm": "சிறியது",
+        "base": "நடுத்தரம்",
+        "lg": "பெரியது",
+        "xl": "மிகப் பெரியது",
+        "xl2": "2X பெரியது",
+        "xl3": "3X பெரியது",
+        "xl4": "4X பெரியது",
+        "xl5": "5X பெரியது",
+        "xl6": "6X பெரியது",
+        "xl7": "7X பெரியது",
+        "xl8": "8X பெரியது",
+        "xl9": "9X பெரியது",
+        "xl10": "10X பெரியது",
+        "xl12": "12X பெரியது"
+      },
+      "fontWeights": {
+        "thin": "மெல்லிய",
+        "light": "இலகுவான",
+        "regular": "சாதாரண",
+        "medium": "நடுத்தர",
+        "semibold": "அரை தடிமன்",
+        "bold": "தடிமன்",
+        "extrabold": "கூடுதல் தடிமன்",
+        "black": "கறுப்பு"
+      },
+      "opacities": {
+        "full": "100% (பிரகாசமான)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (மங்கலான)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google தேடு அல்லது URL தட்டச்சு செய்",
+      "searchAriaLabel": "தேடல் வினவல்",
+      "voiceSearch": "குரல் தேடல்",
+      "lensSearch": "Lens மூலம் எந்த படத்தையும் தேடு",
+      "removeWidget": "விட்ஜெட் நீக்கு",
+      "switchToBarOnly": "பட்டை மட்டுமாக மாறு",
+      "switchToLogoBar": "லோகோ + பட்டையாக மாறு",
+      "barOnly": "பட்டை மட்டும்",
+      "showLogo": "லோகோ காட்டு",
+      "toggleLogoStyle": "லோகோ பாணி மாற்று"
+    },
+    "group": {
+      "borderColorAriaLabel": "குழு எல்லை நிறம்",
+      "pasteUrlPlaceholder": "URL ஒட்டு...",
+      "colors": {
+        "red": "சிவப்பு",
+        "pink": "இளஞ்சிவப்பு",
+        "purple": "ஊதா",
+        "indigo": "இண்டிகோ",
+        "blue": "நீலம்",
+        "cyan": "கருநீலம்",
+        "teal": "டீல்",
+        "green": "பச்சை",
+        "yellow": "மஞ்சள்",
+        "orange": "ஆரஞ்சு",
+        "slate": "ஸ்லேட்",
+        "neutral": "நடுநிலை"
+      }
+    },
+    "groupHeader": {
+      "addLink": "இணைப்பு சேர்",
+      "colorBorder": "நிற எல்லை",
+      "layout": "தளவமைப்பு",
+      "layoutGrid": "கட்டம்",
+      "layoutList": "பட்டியல்",
+      "gridColumns": "கட்ட நெடுவரிசைகள்",
+      "column_one": "{{count}} நெடுவரிசை",
+      "column_other": "{{count}} நெடுவரிசைகள்",
+      "deleteGroup": "குழு நீக்கு",
+      "actionsAriaLabel": "குழு செயல்கள்"
+    },
+    "groupInnerGrid": {
+      "empty": "காலி குழு",
+      "addFirstLink": "முதல் இணைப்பு சேர்",
+      "dropToAdd": "சேர்க்க இழுத்துவிடு",
+      "add": "சேர்"
+    },
+    "iframe": {
+      "removeWidget": "விட்ஜெட் நீக்கு",
+      "openInNewTab": "புதிய தாவலில் திற"
+    },
+    "linkCard": {
+      "options": "விருப்பங்கள்",
+      "rename": "மறுபெயரிடு",
+      "size": "அளவு",
+      "sizeSmall": "சிறியது (1×1)",
+      "sizeMedium": "நடுத்தரம் (3×1)",
+      "moveTo": "இதற்கு நகர்த்து...",
+      "mainDashboard": "முகப்பு டாஷ்போர்டு",
+      "header": "தலைப்பு",
+      "deleteLink": "இணைப்பு நீக்கு",
+      "actionsAriaLabel": "இணைப்பு செயல்கள்"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} காலி புகைப்பட விட்ஜெட் நீக்கப்பட்டது.",
+    "removedEmptyPhotos_other": "{{count}} காலி புகைப்பட விட்ஜெட்கள் நீக்கப்பட்டன.",
+    "clearedWidgets_one": "{{count}} விட்ஜெட்",
+    "clearedWidgets_other": "{{count}} விட்ஜெட்கள்",
+    "clearedHeaderLinks_one": "{{count}} தலைப்பு இணைப்பு",
+    "clearedHeaderLinks_other": "{{count}} தலைப்பு இணைப்புகள்",
+    "clearedSummary": "{{items}} அழிக்கப்பட்டது. செயல்தவிர்க்க ரத்துசெய், உறுதிப்படுத்த சேமி.",
+    "onlyOneGoogleSearch": "ஒரே ஒரு Google தேடல் விட்ஜெட் மட்டுமே அனுமதிக்கப்படுகிறது.",
+    "noRoomForWidget": "இந்த விட்ஜெட்டிற்கு இடம் இல்லை. இடம் உருவாக்க மறுஅளவிடவும் அல்லது நீக்கவும்.",
+    "swap": {
+      "no-room": "இடமாற்ற முடியவில்லை — புதிய நிலைகளில் இரு விட்ஜெட்களும் பொருந்த போதுமான இடம் இல்லை.",
+      "out-of-bounds": "இடமாற்ற முடியவில்லை — ஒரு விட்ஜெட் அதன் குறைந்தபட்ச அளவில் கட்ட எல்லையை தாண்டும்.",
+      "overlap": "இடமாற்ற முடியவில்லை — இரு விட்ஜெட்களின் குறைந்தபட்ச அளவுகள் ஒன்றோடொன்று மேலோடுகின்றன.",
+      "obstacle": "இடமாற்ற முடியவில்லை — வேறொரு விட்ஜெட் தடையாக உள்ளது. முதலில் நகர்த்தவும் அல்லது மறுஅளவிடவும்."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStart இல் சேமி",
+    "saveLink": "இணைப்பு சேமி",
+    "saved": "சேமிக்கப்பட்டது!",
+    "openDashboard": "டாஷ்போர்டு திற",
+    "destination": {
+      "label": "இலக்கு",
+      "main": "முகப்பு டாஷ்போர்டு",
+      "header": "தலைப்பு பட்டை"
+    },
+    "reminders": {
+      "ariaLabel": "நிலுவையில் உள்ள நினைவூட்டல்கள்",
+      "count_one": "{{count}} நினைவூட்டல்",
+      "count_other": "{{count}} நினைவூட்டல்கள்",
+      "clearAll": "அனைத்தும் அழி",
+      "dismiss": "நிராகரி"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome அடித்தள வழிகாட்டியை மறை",
+      "success": "அடித்தளம் மறைக்கப்பட்டது — முழுத்திரையை அனுபவி!",
+      "corner": {
+        "title": "முழுத்திரை அனுபவம் பெறுங்கள்",
+        "intro": "Chrome, MonoStart க்கு கீழே ஒரு அடித்தளம் சேர்க்கிறது. அதை மறைக்க, கிளிக் செய்யுங்கள்",
+        "cta": "Customize Chrome",
+        "ctaSuffix": "கீழ்-வலது மூலையில்.",
+        "noFooter": "அடித்தளம் தெரியவில்லையா? நீங்கள் தயாராக உள்ளீர்கள் — இதைத் தவிர்க்கலாம்."
+      },
+      "panel": {
+        "title": "கிட்டத்தட்ட முடிந்தது",
+        "intro": "கீழே",
+        "setting": "அடித்தளம்",
+        "turnOff": ", அணைக்கவும்",
+        "action": "புதிய தாவல் பக்கத்தில் அடித்தளம் காட்டு",
+        "suffix": ", பிறகு பலகத்தை மூடுங்கள்."
+      },
+      "skip": "தவிர்",
+      "next": "அடுத்து",
+      "done": "முடிந்தது"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "மொழி",
+      "subtitle": "உங்கள் மொழியை தேர்ந்தெடுங்கள்",
+      "search": "மொழிகளை தேடு…",
+      "empty": "உங்கள் தேடலுக்கு பொருந்தும் மொழிகள் இல்லை."
+    },
+    "addWidget": {
+      "title": "விட்ஜெட் சேர்",
+      "titleConfigure": "{{name}} அமை",
+      "titleGoogleStyle": "Google தேடல் பாணியை தேர்ந்தெடு",
+      "logoBarTitle": "லோகோ + பட்டை",
+      "logoBarDesc": "தேடல் பட்டைக்கு மேலே பெரிய Google லோகோ. 4 வரிசைகள் எடுக்கும்.",
+      "barOnlyTitle": "பட்டை மட்டும்",
+      "barOnlyDesc": "தேடல் பட்டை மட்டும். 1 வரிசை எடுக்கும். சிறியது.",
+      "urlLabel": "URL அல்லது உட்பொதி குறியீடு",
+      "urlPlaceholder": "https://example.com\nஅல்லது\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "எளிய உட்பொதிப்புக்கு URL ஒட்டுங்கள், அல்லது நேரடி ஏற்றலைத் தடுக்கும் தளங்களிலிருந்து <code>&lt;iframe&gt;</code> துணுக்கை ஒட்டுங்கள் (YouTube, Figma, Spotify, CodePen, போன்றவை).",
+      "back": "பின்னால்",
+      "embedWidget": "விட்ஜெட் உட்பொதி"
+    },
+    "addLink": {
+      "title": "இணைப்பு சேர்",
+      "description": "உங்கள் டாஷ்போர்டில் புதிய இணைப்பு கார்டு சேர்க்க URL ஒட்டுங்கள்.",
+      "urlLabel": "வலைதள URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "தலைப்பு (விரும்பினால்)",
+      "titlePlaceholder": "என் இணைப்பு",
+      "locationLabel": "இடம்",
+      "locationMainDashboard": "முகப்பு டாஷ்போர்டு",
+      "locationHeader": "தலைப்பு (ஃபேவிக்கான் மட்டும்)",
+      "locationFolder": "கோப்புறை: {{title}}",
+      "locationGroup": "குழு: {{title}}",
+      "cancel": "ரத்துசெய்",
+      "submit": "இணைப்பு சேர்"
+    },
+    "theme": {
+      "title": "தீம் & தோற்றம்",
+      "description": "உங்கள் டாஷ்போர்டின் தோற்றத்தை தனிப்பயனாக்குங்கள்.",
+      "modeGroupLabel": "தீம் பயன்முறை",
+      "light": "வெளிர்",
+      "dark": "இருள்",
+      "device": "சாதனம்",
+      "primaryColorHeading": "முதன்மை நிறம்",
+      "primaryColorPresetsLabel": "முதன்மை நிற முன்னமைவுகள்",
+      "customColorLabel": "தனிப்பயன் நிறம்",
+      "customColorTitle": "தனிப்பயன் நிறம்",
+      "customHue": "தனிப்பயன் நிறத்திணை",
+      "backgroundHeading": "பின்னணி",
+      "backgroundTypeLabel": "பின்னணி வகை",
+      "backgroundColorLabel": "பின்னணி நிறம்",
+      "backgroundGradientLabel": "பின்னணி சாயல்",
+      "imageUrlPlaceholder": "படம் URL ஒட்டு...",
+      "uploadImage": "படம் பதிவேற்று",
+      "imageUploaded": "தனிப்பயன் படம் பதிவேற்றப்பட்டது.",
+      "blur": "மங்கல்",
+      "dim": "மங்கு",
+      "fileReadError": "கோப்பை படிக்க தோல்வியடைந்தது.",
+      "bgType": {
+        "none": "இல்லை",
+        "color": "நிறம்",
+        "gradient": "சாயல்",
+        "image": "படம்"
+      }
+    },
+    "clear": {
+      "title": "டாஷ்போர்டு அழி",
+      "description": "இது டாஷ்போர்டிலிருந்து விட்ஜெட்களை நீக்குகிறது. நீங்கள் திருத்த பயன்முறையில் இருக்கிறீர்கள், எனவே சேமிப்பதற்கு முன் ரத்துசெய்யலாம்.",
+      "widgetsGroups": "முகப்பு கட்டத்தில் விட்ஜெட்கள் & குழுக்கள்",
+      "linksInsideGroups": "↳ குழுக்களுக்குள் இணைப்புகள்",
+      "headerBarLinks": "தலைப்பு பட்டை இணைப்புகள்",
+      "alsoClearHeaderLabel": "தலைப்பு பட்டை இணைப்புகளையும் அழி",
+      "alsoClearHeaderDesc": "இயல்பாக தலைப்பு பட்டை பாதுகாக்கப்படுகிறது. அதையும் அழிக்க இதை தேர்வுசெய்யுங்கள்.",
+      "widgetGroups_one": "<strong>{{count}}</strong> விட்ஜெட்/குழு நீக்கப்படும்",
+      "widgetGroups_other": "<strong>{{count}}</strong> விட்ஜெட்கள்/குழுக்கள் நீக்கப்படும்",
+      "headerLinks_one": "<strong>{{count}}</strong> தலைப்பு இணைப்பு",
+      "headerLinks_other": "<strong>{{count}}</strong> தலைப்பு இணைப்புகள்",
+      "andConnector": " மற்றும் ",
+      "cancelRestores": ". திருத்த பயன்முறை கருவிப்பட்டியில் ரத்துசெய் அவற்றை மீட்டமைக்கும்.",
+      "nothingToClear": "தற்போதைய தேர்வில் அழிக்க எதுவும் இல்லை.",
+      "cancelButton": "ரத்துசெய்",
+      "clearWidgets": "விட்ஜெட்கள் அழி",
+      "clearEverything": "அனைத்தும் அழி"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "இந்த உருப்படியை பகிர்",
+      "copyLink": "இணைப்பு நகலெடு",
+      "linkCopied": "இணைப்பு நகலெடுக்கப்பட்டது",
+      "shareOn": "{{platform}} இல் பகிர்",
+      "shareVia": "{{platform}} வழியாக பகிர்"
+    }
+  }
+}

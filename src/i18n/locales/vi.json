@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Xóa",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép"
+  },
+  "header": {
+    "menu": {
+      "language": "Ngôn ngữ",
+      "addLink": "Thêm liên kết",
+      "addWidget": "Thêm tiện ích",
+      "editDashboard": "Chỉnh sửa bảng điều khiển",
+      "theme": "Giao diện & Hình thức",
+      "share": "Chia sẻ MonoStart",
+      "openInNewTab": "Mở liên kết trong tab mới"
+    },
+    "settings": "Cài đặt",
+    "clear": "Xóa",
+    "clearDashboard": "Xóa bảng điều khiển",
+    "cancel": "Hủy",
+    "save": "Lưu"
+  },
+  "widgets": {
+    "deleteWidget": "Xóa tiện ích",
+    "placeholder": {
+      "place": "Đặt",
+      "dropToPlace": "Thả để đặt"
+    },
+    "todo": {
+      "defaultTitle": "Việc cần làm",
+      "empty": "Chưa có nhiệm vụ nào.",
+      "deleteTask": "Xóa nhiệm vụ",
+      "placeholder": "Thêm nhiệm vụ...",
+      "newTaskAriaLabel": "Nhiệm vụ mới",
+      "addTask": "Thêm nhiệm vụ",
+      "toggleAriaLabel": "Đánh dấu \"{{text}}\" là {{status}}",
+      "statusComplete": "hoàn thành",
+      "statusIncomplete": "chưa hoàn thành"
+    },
+    "timer": {
+      "defaultTitle": "Bộ hẹn giờ",
+      "empty": "Chưa có bộ hẹn giờ nào.",
+      "deleteTimer": "Xóa bộ hẹn giờ",
+      "pause": "Tạm dừng",
+      "start": "Bắt đầu",
+      "reset": "Đặt lại",
+      "placeholderMin": "Phút",
+      "durationAriaLabel": "Thời gian hẹn giờ tính bằng phút",
+      "placeholderLabel": "Nhãn (tùy chọn)",
+      "labelAriaLabel": "Nhãn bộ hẹn giờ (tùy chọn)",
+      "addTimer": "Thêm bộ hẹn giờ"
+    },
+    "reminders": {
+      "defaultTitle": "Nhắc nhở",
+      "empty": "Chưa có nhắc nhở nào.",
+      "deleteReminder": "Xóa nhắc nhở",
+      "placeholder": "Nhắc tôi...",
+      "textAriaLabel": "Nội dung nhắc nhở",
+      "recurrenceTitle": "Lặp lại",
+      "addReminder": "Thêm nhắc nhở",
+      "customIntervalAriaLabel": "Giá trị khoảng thời gian tùy chỉnh",
+      "customUnitAriaLabel": "Đơn vị khoảng thời gian tùy chỉnh",
+      "unitMinutes": "Phút",
+      "unitHours": "Giờ",
+      "unitDays": "Ngày",
+      "saveRecurrence": "Lưu",
+      "toggleAriaLabel": "Đánh dấu \"{{text}}\" là {{status}}",
+      "statusComplete": "hoàn thành",
+      "statusIncomplete": "chưa hoàn thành",
+      "recurrenceNone": "Một lần",
+      "recurrence30min": "Mỗi 30 phút",
+      "recurrenceHourly": "Mỗi giờ",
+      "recurrenceDaily": "Hàng ngày",
+      "recurrenceWeekly": "Hàng tuần",
+      "recurrenceCustom": "Tùy chỉnh",
+      "everyDay": "Mỗi {{count}}d",
+      "everyHour": "Mỗi {{count}}h",
+      "everyMin": "Mỗi {{count}}m",
+      "every": "Mỗi",
+      "today": "Hôm nay {{time}}",
+      "tomorrow": "Ngày mai {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Ghi chú",
+      "changeColor": "Đổi màu",
+      "placeholder": "Viết gì đó...",
+      "contentAriaLabel": "Nội dung ghi chú",
+      "titleAriaLabel": "Tiêu đề ghi chú",
+      "actionsAriaLabel": "Hành động ghi chú",
+      "color_default": "Mặc định",
+      "color_amber": "Vàng",
+      "color_sky": "Xanh dương",
+      "color_rose": "Hồng",
+      "color_emerald": "Xanh lá",
+      "color_purple": "Tím"
+    },
+    "image": {
+      "defaultTitle": "Hình ảnh",
+      "settings": "Cài đặt hình ảnh",
+      "actionsAriaLabel": "Hành động hình ảnh",
+      "titleAriaLabel": "Tiêu đề hình ảnh",
+      "changeImage": "Đổi hình ảnh",
+      "fitCover": "Phủ (Cắt xén)",
+      "fitContain": "Vừa khung (Tỷ lệ)",
+      "fitFill": "Lấp đầy (Kéo giãn)",
+      "configureTitle": "Cấu hình hình ảnh tiện ích",
+      "urlPlaceholder": "Dán URL hình ảnh...",
+      "or": "Hoặc",
+      "uploadLocal": "Tải lên hình ảnh cục bộ",
+      "cancelConfig": "Hủy cấu hình",
+      "loadError": "Hình ảnh không tải được. URL có thể bị hỏng hoặc bị chặn."
+    },
+    "label": {
+      "defaultText": "Văn bản",
+      "settings": "Cài đặt văn bản",
+      "actionsAriaLabel": "Hành động nhãn",
+      "textAriaLabel": "Văn bản nhãn",
+      "editText": "Chỉnh sửa văn bản",
+      "showCardStyle": "Hiển thị kiểu thẻ",
+      "fontSize": "Cỡ chữ",
+      "alignment": "Căn chỉnh",
+      "fontWeight": "Độ đậm chữ",
+      "opacity": "Độ mờ",
+      "deleteText": "Xóa văn bản",
+      "alignLeft": "Trái",
+      "alignCenter": "Giữa",
+      "alignRight": "Phải",
+      "fontSizes": {
+        "sm": "Nhỏ",
+        "base": "Vừa",
+        "lg": "Lớn",
+        "xl": "Rất lớn",
+        "xl2": "2X Lớn",
+        "xl3": "3X Lớn",
+        "xl4": "4X Lớn",
+        "xl5": "5X Lớn",
+        "xl6": "6X Lớn",
+        "xl7": "7X Lớn",
+        "xl8": "8X Lớn",
+        "xl9": "9X Lớn",
+        "xl10": "10X Lớn",
+        "xl12": "12X Lớn"
+      },
+      "fontWeights": {
+        "thin": "Mỏng",
+        "light": "Nhẹ",
+        "regular": "Thường",
+        "medium": "Vừa",
+        "semibold": "Nửa đậm",
+        "bold": "Đậm",
+        "extrabold": "Rất đậm",
+        "black": "Đen"
+      },
+      "opacities": {
+        "full": "100% (Sáng)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Mờ)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Tìm kiếm trên Google hoặc nhập URL",
+      "searchAriaLabel": "Truy vấn tìm kiếm",
+      "voiceSearch": "Tìm kiếm bằng giọng nói",
+      "lensSearch": "Tìm kiếm hình ảnh bằng Lens",
+      "removeWidget": "Xóa tiện ích",
+      "switchToBarOnly": "Chuyển sang chỉ thanh tìm kiếm",
+      "switchToLogoBar": "Chuyển sang logo + thanh tìm kiếm",
+      "barOnly": "Chỉ thanh tìm kiếm",
+      "showLogo": "Hiển thị logo",
+      "toggleLogoStyle": "Chuyển đổi kiểu logo"
+    },
+    "group": {
+      "borderColorAriaLabel": "Màu viền nhóm",
+      "pasteUrlPlaceholder": "Dán URL...",
+      "colors": {
+        "red": "Đỏ",
+        "pink": "Hồng",
+        "purple": "Tím",
+        "indigo": "Chàm",
+        "blue": "Xanh dương",
+        "cyan": "Xanh lam",
+        "teal": "Xanh mòng két",
+        "green": "Xanh lá",
+        "yellow": "Vàng",
+        "orange": "Cam",
+        "slate": "Xám xanh",
+        "neutral": "Trung tính"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Thêm liên kết",
+      "colorBorder": "Màu viền",
+      "layout": "Bố cục",
+      "layoutGrid": "Lưới",
+      "layoutList": "Danh sách",
+      "gridColumns": "Số cột lưới",
+      "column_one": "{{count}} cột",
+      "column_other": "{{count}} cột",
+      "deleteGroup": "Xóa nhóm",
+      "actionsAriaLabel": "Hành động nhóm"
+    },
+    "groupInnerGrid": {
+      "empty": "Nhóm trống",
+      "addFirstLink": "Thêm liên kết đầu tiên",
+      "dropToAdd": "Thả để thêm",
+      "add": "Thêm"
+    },
+    "iframe": {
+      "removeWidget": "Xóa tiện ích",
+      "openInNewTab": "Mở trong tab mới"
+    },
+    "linkCard": {
+      "options": "Tùy chọn",
+      "rename": "Đổi tên",
+      "size": "Kích thước",
+      "sizeSmall": "Nhỏ (1×1)",
+      "sizeMedium": "Vừa (3×1)",
+      "moveTo": "Chuyển đến...",
+      "mainDashboard": "Bảng điều khiển chính",
+      "header": "Tiêu đề",
+      "deleteLink": "Xóa liên kết",
+      "actionsAriaLabel": "Hành động liên kết"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Đã xóa {{count}} tiện ích ảnh trống.",
+    "removedEmptyPhotos_other": "Đã xóa {{count}} tiện ích ảnh trống.",
+    "clearedWidgets_one": "{{count}} tiện ích",
+    "clearedWidgets_other": "{{count}} tiện ích",
+    "clearedHeaderLinks_one": "{{count}} liên kết tiêu đề",
+    "clearedHeaderLinks_other": "{{count}} liên kết tiêu đề",
+    "clearedSummary": "Đã xóa {{items}}. Hủy để hoàn tác, hoặc Lưu để xác nhận.",
+    "onlyOneGoogleSearch": "Chỉ cho phép một tiện ích tìm kiếm Google.",
+    "noRoomForWidget": "Không có chỗ cho tiện ích này. Thay đổi kích thước hoặc xóa thứ gì đó để tạo không gian.",
+    "swap": {
+      "no-room": "Không thể hoán đổi — không đủ chỗ cho cả hai tiện ích ở vị trí mới.",
+      "out-of-bounds": "Không thể hoán đổi — một trong các tiện ích sẽ vượt qua cạnh lưới ở kích thước tối thiểu.",
+      "overlap": "Không thể hoán đổi — kích thước tối thiểu của hai tiện ích chồng lên nhau.",
+      "obstacle": "Không thể hoán đổi — có tiện ích khác đang chắn. Hãy di chuyển hoặc thay đổi kích thước nó trước."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Lưu vào MonoStart",
+    "saveLink": "Lưu liên kết",
+    "saved": "Đã lưu!",
+    "openDashboard": "Mở bảng điều khiển",
+    "destination": {
+      "label": "Đích đến",
+      "main": "Bảng điều khiển chính",
+      "header": "Thanh tiêu đề"
+    },
+    "reminders": {
+      "ariaLabel": "Nhắc nhở đang chờ",
+      "count_one": "{{count}} nhắc nhở",
+      "count_other": "{{count}} nhắc nhở",
+      "clearAll": "Xóa tất cả",
+      "dismiss": "Bỏ qua"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Ẩn hướng dẫn chân trang Chrome",
+      "success": "Đã ẩn chân trang — tận hưởng toàn màn hình!",
+      "corner": {
+        "title": "Trải nghiệm toàn màn hình",
+        "intro": "Chrome thêm chân trang bên dưới MonoStart. Để ẩn nó, nhấp vào",
+        "cta": "Tùy chỉnh Chrome",
+        "ctaSuffix": "ở góc dưới bên phải.",
+        "noFooter": "Không thấy chân trang? Bạn đã xong — bỏ qua bước này."
+      },
+      "panel": {
+        "title": "Gần xong rồi",
+        "intro": "Trong",
+        "setting": "Chân trang",
+        "turnOff": ", tắt",
+        "action": "Hiển thị chân trang trên trang tab mới",
+        "suffix": ", sau đó đóng bảng điều khiển."
+      },
+      "skip": "Bỏ qua",
+      "next": "Tiếp theo",
+      "done": "Xong"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Ngôn ngữ",
+      "subtitle": "Chọn ngôn ngữ của bạn",
+      "search": "Tìm kiếm ngôn ngữ…",
+      "empty": "Không có ngôn ngữ nào phù hợp với tìm kiếm của bạn."
+    },
+    "addWidget": {
+      "title": "Thêm tiện ích",
+      "titleConfigure": "Cấu hình {{name}}",
+      "titleGoogleStyle": "Chọn kiểu tìm kiếm Google",
+      "logoBarTitle": "Logo + Thanh tìm kiếm",
+      "logoBarDesc": "Logo Google lớn phía trên thanh tìm kiếm. Chiếm 4 hàng.",
+      "barOnlyTitle": "Chỉ thanh tìm kiếm",
+      "barOnlyDesc": "Chỉ có thanh tìm kiếm. Chiếm 1 hàng. Gọn gàng.",
+      "urlLabel": "URL hoặc mã nhúng",
+      "urlPlaceholder": "https://example.com\nhoặc\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Dán URL cho các nhúng đơn giản, hoặc dán đoạn <code>&lt;iframe&gt;</code> từ các trang chặn tải trực tiếp (YouTube, Figma, Spotify, CodePen, v.v.).",
+      "back": "Quay lại",
+      "embedWidget": "Nhúng tiện ích"
+    },
+    "addLink": {
+      "title": "Thêm liên kết",
+      "description": "Dán URL để thêm thẻ liên kết mới vào bảng điều khiển của bạn.",
+      "urlLabel": "URL trang web",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Tiêu đề (Tùy chọn)",
+      "titlePlaceholder": "Liên kết của tôi",
+      "locationLabel": "Vị trí",
+      "locationMainDashboard": "Bảng điều khiển chính",
+      "locationHeader": "Tiêu đề (Chỉ favicon)",
+      "locationFolder": "Thư mục: {{title}}",
+      "locationGroup": "Nhóm: {{title}}",
+      "cancel": "Hủy",
+      "submit": "Thêm liên kết"
+    },
+    "theme": {
+      "title": "Giao diện & Hình thức",
+      "description": "Tùy chỉnh giao diện bảng điều khiển của bạn.",
+      "modeGroupLabel": "Chế độ giao diện",
+      "light": "Sáng",
+      "dark": "Tối",
+      "device": "Thiết bị",
+      "primaryColorHeading": "Màu chủ đạo",
+      "primaryColorPresetsLabel": "Bộ màu chủ đạo có sẵn",
+      "customColorLabel": "Màu tùy chỉnh",
+      "customColorTitle": "Màu tùy chỉnh",
+      "customHue": "Sắc độ tùy chỉnh",
+      "backgroundHeading": "Nền",
+      "backgroundTypeLabel": "Loại nền",
+      "backgroundColorLabel": "Màu nền",
+      "backgroundGradientLabel": "Nền chuyển màu",
+      "imageUrlPlaceholder": "Dán URL hình ảnh...",
+      "uploadImage": "Tải lên hình ảnh",
+      "imageUploaded": "Đã tải lên hình ảnh tùy chỉnh.",
+      "blur": "Làm mờ",
+      "dim": "Làm tối",
+      "fileReadError": "Không đọc được tệp.",
+      "bgType": {
+        "none": "Không có",
+        "color": "Màu",
+        "gradient": "Chuyển màu",
+        "image": "Hình ảnh"
+      }
+    },
+    "clear": {
+      "title": "Xóa bảng điều khiển",
+      "description": "Thao tác này xóa các tiện ích khỏi bảng điều khiển. Bạn đang ở chế độ chỉnh sửa, vì vậy vẫn có thể nhấn Hủy để hoàn tác trước khi lưu.",
+      "widgetsGroups": "Tiện ích & nhóm trên lưới chính",
+      "linksInsideGroups": "↳ liên kết trong nhóm",
+      "headerBarLinks": "Liên kết thanh tiêu đề",
+      "alsoClearHeaderLabel": "Cũng xóa liên kết thanh tiêu đề",
+      "alsoClearHeaderDesc": "Mặc định thanh tiêu đề được giữ nguyên. Đánh dấu vào đây để xóa nó luôn.",
+      "widgetGroups_one": "Sắp xóa <strong>{{count}}</strong> tiện ích/nhóm",
+      "widgetGroups_other": "Sắp xóa <strong>{{count}}</strong> tiện ích/nhóm",
+      "headerLinks_one": "<strong>{{count}}</strong> liên kết tiêu đề",
+      "headerLinks_other": "<strong>{{count}}</strong> liên kết tiêu đề",
+      "andConnector": " và ",
+      "cancelRestores": ". Hủy trong thanh công cụ chế độ chỉnh sửa sẽ khôi phục chúng.",
+      "nothingToClear": "Không có gì để xóa với lựa chọn hiện tại.",
+      "cancelButton": "Hủy",
+      "clearWidgets": "Xóa tiện ích",
+      "clearEverything": "Xóa tất cả"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Chia sẻ mục này",
+      "copyLink": "Sao chép liên kết",
+      "linkCopied": "Đã sao chép liên kết",
+      "shareOn": "Chia sẻ trên {{platform}}",
+      "shareVia": "Chia sẻ qua {{platform}}"
+    }
+  }
+}

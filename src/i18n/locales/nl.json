@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Verwijderen",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd"
+  },
+  "header": {
+    "menu": {
+      "language": "Taal",
+      "addLink": "Link toevoegen",
+      "addWidget": "Widget toevoegen",
+      "editDashboard": "Dashboard bewerken",
+      "theme": "Thema & uiterlijk",
+      "share": "MonoStart delen",
+      "openInNewTab": "Links in nieuw tabblad openen"
+    },
+    "settings": "Instellingen",
+    "clear": "Wissen",
+    "clearDashboard": "Dashboard wissen",
+    "cancel": "Annuleren",
+    "save": "Opslaan"
+  },
+  "widgets": {
+    "deleteWidget": "Widget verwijderen",
+    "placeholder": {
+      "place": "Plaatsen",
+      "dropToPlace": "Neerzetten om te plaatsen"
+    },
+    "todo": {
+      "defaultTitle": "Taken",
+      "empty": "Nog geen taken.",
+      "deleteTask": "Taak verwijderen",
+      "placeholder": "Taak toevoegen...",
+      "newTaskAriaLabel": "Nieuwe taak",
+      "addTask": "Taak toevoegen",
+      "toggleAriaLabel": "Markeer \"{{text}}\" als {{status}}",
+      "statusComplete": "voltooid",
+      "statusIncomplete": "niet voltooid"
+    },
+    "timer": {
+      "defaultTitle": "Timers",
+      "empty": "Geen timers ingesteld.",
+      "deleteTimer": "Timer verwijderen",
+      "pause": "Pauzeren",
+      "start": "Starten",
+      "reset": "Opnieuw instellen",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Timerduur in minuten",
+      "placeholderLabel": "Label (optioneel)",
+      "labelAriaLabel": "Timerlabel (optioneel)",
+      "addTimer": "Timer toevoegen"
+    },
+    "reminders": {
+      "defaultTitle": "Herinneringen",
+      "empty": "Nog geen herinneringen.",
+      "deleteReminder": "Herinnering verwijderen",
+      "placeholder": "Herinner me aan...",
+      "textAriaLabel": "Herinneringstekst",
+      "recurrenceTitle": "Herhaling",
+      "addReminder": "Herinnering toevoegen",
+      "customIntervalAriaLabel": "Aangepaste intervalwaarde",
+      "customUnitAriaLabel": "Aangepaste intervaleenheid",
+      "unitMinutes": "Minuten",
+      "unitHours": "Uren",
+      "unitDays": "Dagen",
+      "saveRecurrence": "Opslaan",
+      "toggleAriaLabel": "Markeer \"{{text}}\" als {{status}}",
+      "statusComplete": "voltooid",
+      "statusIncomplete": "niet voltooid",
+      "recurrenceNone": "Eenmalig",
+      "recurrence30min": "Elke 30 min",
+      "recurrenceHourly": "Elk uur",
+      "recurrenceDaily": "Dagelijks",
+      "recurrenceWeekly": "Wekelijks",
+      "recurrenceCustom": "Aangepast",
+      "everyDay": "Elke {{count}}d",
+      "everyHour": "Elk {{count}}u",
+      "everyMin": "Elke {{count}}m",
+      "every": "Elke",
+      "today": "Vandaag {{time}}",
+      "tomorrow": "Morgen {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Notitie",
+      "changeColor": "Kleur wijzigen",
+      "placeholder": "Schrijf iets...",
+      "contentAriaLabel": "Notitie-inhoud",
+      "titleAriaLabel": "Notitietitel",
+      "actionsAriaLabel": "Notitieacties",
+      "color_default": "Standaard",
+      "color_amber": "Geel",
+      "color_sky": "Blauw",
+      "color_rose": "Roze",
+      "color_emerald": "Groen",
+      "color_purple": "Paars"
+    },
+    "image": {
+      "defaultTitle": "Afbeelding",
+      "settings": "Afbeeldingsinstellingen",
+      "actionsAriaLabel": "Afbeeldingsacties",
+      "titleAriaLabel": "Afbeeldingstitel",
+      "changeImage": "Afbeelding wijzigen",
+      "fitCover": "Bedekken (bijsnijden)",
+      "fitContain": "Bevatten (verhouding)",
+      "fitFill": "Vullen (uitrekken)",
+      "configureTitle": "Widgetafbeelding instellen",
+      "urlPlaceholder": "Afbeeldings-URL plakken...",
+      "or": "Of",
+      "uploadLocal": "Lokale afbeelding uploaden",
+      "cancelConfig": "Configuratie annuleren",
+      "loadError": "Afbeelding kon niet worden geladen. De URL is mogelijk verbroken of geblokkeerd."
+    },
+    "label": {
+      "defaultText": "Tekst",
+      "settings": "Tekstinstellingen",
+      "actionsAriaLabel": "Labelacties",
+      "textAriaLabel": "Labeltekst",
+      "editText": "Tekst bewerken",
+      "showCardStyle": "Kaartopmaak tonen",
+      "fontSize": "Tekengrootte",
+      "alignment": "Uitlijning",
+      "fontWeight": "Letterdikte",
+      "opacity": "Doorzichtigheid",
+      "deleteText": "Tekst verwijderen",
+      "alignLeft": "Links",
+      "alignCenter": "Midden",
+      "alignRight": "Rechts",
+      "fontSizes": {
+        "sm": "Klein",
+        "base": "Normaal",
+        "lg": "Groot",
+        "xl": "Extra groot",
+        "xl2": "2x groot",
+        "xl3": "3x groot",
+        "xl4": "4x groot",
+        "xl5": "5x groot",
+        "xl6": "6x groot",
+        "xl7": "7x groot",
+        "xl8": "8x groot",
+        "xl9": "9x groot",
+        "xl10": "10x groot",
+        "xl12": "12x groot"
+      },
+      "fontWeights": {
+        "thin": "Dun",
+        "light": "Licht",
+        "regular": "Normaal",
+        "medium": "Normaal zwaar",
+        "semibold": "Semi vet",
+        "bold": "Vet",
+        "extrabold": "Extra vet",
+        "black": "Zwart"
+      },
+      "opacities": {
+        "full": "100% (Helder)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Gedempt)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Zoek op Google of typ een URL",
+      "searchAriaLabel": "Zoekopdracht",
+      "voiceSearch": "Zoeken met stem",
+      "lensSearch": "Zoek een afbeelding met Lens",
+      "removeWidget": "Widget verwijderen",
+      "switchToBarOnly": "Overschakelen naar alleen balk",
+      "switchToLogoBar": "Overschakelen naar logo + balk",
+      "barOnly": "Alleen balk",
+      "showLogo": "Logo tonen",
+      "toggleLogoStyle": "Logostijl wisselen"
+    },
+    "group": {
+      "borderColorAriaLabel": "Groepsrandkleur",
+      "pasteUrlPlaceholder": "URL plakken...",
+      "colors": {
+        "red": "Rood",
+        "pink": "Roze",
+        "purple": "Paars",
+        "indigo": "Indigo",
+        "blue": "Blauw",
+        "cyan": "Cyaan",
+        "teal": "Groenblauw",
+        "green": "Groen",
+        "yellow": "Geel",
+        "orange": "Oranje",
+        "slate": "Leisteen",
+        "neutral": "Neutraal"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Link toevoegen",
+      "colorBorder": "Randkleur",
+      "layout": "Indeling",
+      "layoutGrid": "Raster",
+      "layoutList": "Lijst",
+      "gridColumns": "Rasterkolommen",
+      "column_one": "{{count}} kolom",
+      "column_other": "{{count}} kolommen",
+      "deleteGroup": "Groep verwijderen",
+      "actionsAriaLabel": "Groepsacties"
+    },
+    "groupInnerGrid": {
+      "empty": "Lege groep",
+      "addFirstLink": "Eerste link toevoegen",
+      "dropToAdd": "Neerzetten om toe te voegen",
+      "add": "Toevoegen"
+    },
+    "iframe": {
+      "removeWidget": "Widget verwijderen",
+      "openInNewTab": "In nieuw tabblad openen"
+    },
+    "linkCard": {
+      "options": "Opties",
+      "rename": "Hernoemen",
+      "size": "Grootte",
+      "sizeSmall": "Klein (1×1)",
+      "sizeMedium": "Normaal (3×1)",
+      "moveTo": "Verplaatsen naar...",
+      "mainDashboard": "Hoofddashboard",
+      "header": "Koptekst",
+      "deleteLink": "Link verwijderen",
+      "actionsAriaLabel": "Linkacties"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} lege foto-widget verwijderd.",
+    "removedEmptyPhotos_other": "{{count}} lege foto-widgets verwijderd.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgets",
+    "clearedHeaderLinks_one": "{{count}} koptekstlink",
+    "clearedHeaderLinks_other": "{{count}} koptekstlinks",
+    "clearedSummary": "{{items}} gewist. Annuleren om ongedaan te maken, of opslaan om te bevestigen.",
+    "onlyOneGoogleSearch": "Slechts één Google zoekwidget is toegestaan.",
+    "noRoomForWidget": "Geen ruimte voor deze widget. Verklein of verwijder iets om ruimte te maken.",
+    "swap": {
+      "no-room": "Wisselen niet mogelijk — onvoldoende ruimte voor beide widgets op hun nieuwe posities.",
+      "out-of-bounds": "Wisselen niet mogelijk — een van de widgets zou buiten de rasterrand vallen op zijn minimale grootte.",
+      "overlap": "Wisselen niet mogelijk — de minimale grootten van de twee widgets overlappen elkaar.",
+      "obstacle": "Wisselen niet mogelijk — een andere widget is in de weg. Verplaats of verklein deze eerst."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Opslaan in MonoStart",
+    "saveLink": "Link opslaan",
+    "saved": "Opgeslagen!",
+    "openDashboard": "Dashboard openen",
+    "destination": {
+      "label": "Bestemming",
+      "main": "Hoofddashboard",
+      "header": "Koptekstbalk"
+    },
+    "reminders": {
+      "ariaLabel": "Openstaande herinneringen",
+      "count_one": "{{count}} herinnering",
+      "count_other": "{{count}} herinneringen",
+      "clearAll": "Alles wissen",
+      "dismiss": "Sluiten"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome-voettekstgids verbergen",
+      "success": "Voettekst verborgen — geniet van het volledige scherm!",
+      "corner": {
+        "title": "Beleef de volledigschermervaring",
+        "intro": "Chrome voegt een voettekst toe onder MonoStart. Om deze te verbergen, klik op",
+        "cta": "Chrome aanpassen",
+        "ctaSuffix": "in de rechteronderhoek.",
+        "noFooter": "Geen voettekst? Je bent klaar — sla dit over."
+      },
+      "panel": {
+        "title": "Bijna klaar",
+        "intro": "Onder",
+        "setting": "Voettekst",
+        "turnOff": ", zet uit",
+        "action": "Voettekst tonen op Nieuw tabbladpagina",
+        "suffix": ", sluit het paneel daarna."
+      },
+      "skip": "Overslaan",
+      "next": "Volgende",
+      "done": "Gereed"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Taal",
+      "subtitle": "Kies uw taal",
+      "search": "Talen zoeken…",
+      "empty": "Geen talen gevonden voor uw zoekopdracht."
+    },
+    "addWidget": {
+      "title": "Widget toevoegen",
+      "titleConfigure": "{{name}} instellen",
+      "titleGoogleStyle": "Kies de Google Zoeken-stijl",
+      "logoBarTitle": "Logo + balk",
+      "logoBarDesc": "Groot Google-logo boven de zoekbalk. Neemt 4 rijen in beslag.",
+      "barOnlyTitle": "Alleen balk",
+      "barOnlyDesc": "Alleen de zoekbalk. Neemt 1 rij in beslag. Compact.",
+      "urlLabel": "URL of insluitcode",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Plak een URL voor eenvoudige insluitingen, of plak een <code>&lt;iframe&gt;</code>-fragment van sites die directe laadpogingen blokkeren (YouTube, Figma, Spotify, CodePen, enz.).",
+      "back": "Terug",
+      "embedWidget": "Widget insluiten"
+    },
+    "addLink": {
+      "title": "Link toevoegen",
+      "description": "Plak een URL om een nieuwe linkkaart aan uw dashboard toe te voegen.",
+      "urlLabel": "Website-URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Titel (optioneel)",
+      "titlePlaceholder": "Mijn link",
+      "locationLabel": "Locatie",
+      "locationMainDashboard": "Hoofddashboard",
+      "locationHeader": "Koptekstbalk (alleen favicon)",
+      "locationFolder": "Map: {{title}}",
+      "locationGroup": "Groep: {{title}}",
+      "cancel": "Annuleren",
+      "submit": "Link toevoegen"
+    },
+    "theme": {
+      "title": "Thema & uiterlijk",
+      "description": "Pas de uitstraling van uw dashboard aan.",
+      "modeGroupLabel": "Theamamodus",
+      "light": "Licht",
+      "dark": "Donker",
+      "device": "Apparaat",
+      "primaryColorHeading": "Primaire kleur",
+      "primaryColorPresetsLabel": "Primaire kleurvoorinstellingen",
+      "customColorLabel": "Aangepaste kleur",
+      "customColorTitle": "Aangepaste kleur",
+      "customHue": "Aangepaste tint",
+      "backgroundHeading": "Achtergrond",
+      "backgroundTypeLabel": "Achtergrondtype",
+      "backgroundColorLabel": "Achtergrondkleur",
+      "backgroundGradientLabel": "Achtergrondverloop",
+      "imageUrlPlaceholder": "Afbeeldings-URL plakken...",
+      "uploadImage": "Afbeelding uploaden",
+      "imageUploaded": "Aangepaste afbeelding geüpload.",
+      "blur": "Vervagen",
+      "dim": "Dimmen",
+      "fileReadError": "Bestand kon niet worden gelezen.",
+      "bgType": {
+        "none": "Geen",
+        "color": "Kleur",
+        "gradient": "Verloop",
+        "image": "Afbeelding"
+      }
+    },
+    "clear": {
+      "title": "Dashboard wissen",
+      "description": "Dit verwijdert widgets van het dashboard. U bevindt zich in de bewerkingsmodus, u kunt nog steeds op Annuleren klikken om ongedaan te maken voordat u opslaat.",
+      "widgetsGroups": "Widgets en groepen op het hoofdraster",
+      "linksInsideGroups": "↳ links binnen groepen",
+      "headerBarLinks": "Koptekstbalklinks",
+      "alsoClearHeaderLabel": "Ook de koptekstbalklinks wissen",
+      "alsoClearHeaderDesc": "Standaard blijft de koptekstbalk behouden. Vink dit aan om die ook te wissen.",
+      "widgetGroups_one": "Op het punt om <strong>{{count}}</strong> widget/groep te verwijderen",
+      "widgetGroups_other": "Op het punt om <strong>{{count}}</strong> widgets/groepen te verwijderen",
+      "headerLinks_one": "<strong>{{count}}</strong> koptekstlink",
+      "headerLinks_other": "<strong>{{count}}</strong> koptekstlinks",
+      "andConnector": " en ",
+      "cancelRestores": ". Annuleren in de bewerkingsmodewerkbalk herstelt ze.",
+      "nothingToClear": "Niets te wissen met de huidige selectie.",
+      "cancelButton": "Annuleren",
+      "clearWidgets": "Widgets wissen",
+      "clearEverything": "Alles wissen"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Dit item delen",
+      "copyLink": "Link kopiëren",
+      "linkCopied": "Link gekopieerd",
+      "shareOn": "Delen op {{platform}}",
+      "shareVia": "Delen via {{platform}}"
+    }
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Διαγραφή",
+    "cancel": "Ακύρωση",
+    "save": "Αποθήκευση",
+    "copy": "Αντιγραφή",
+    "copied": "Αντιγράφηκε"
+  },
+  "header": {
+    "menu": {
+      "language": "Γλώσσα",
+      "addLink": "Προσθήκη συνδέσμου",
+      "addWidget": "Προσθήκη widget",
+      "editDashboard": "Επεξεργασία πίνακα",
+      "theme": "Θέμα & Εμφάνιση",
+      "share": "Κοινοποίηση MonoStart",
+      "openInNewTab": "Άνοιγμα συνδέσμων σε νέα καρτέλα"
+    },
+    "settings": "Ρυθμίσεις",
+    "clear": "Εκκαθάριση",
+    "clearDashboard": "Εκκαθάριση πίνακα",
+    "cancel": "Ακύρωση",
+    "save": "Αποθήκευση"
+  },
+  "widgets": {
+    "deleteWidget": "Διαγραφή widget",
+    "placeholder": {
+      "place": "Τοποθέτηση",
+      "dropToPlace": "Απόθεση για τοποθέτηση"
+    },
+    "todo": {
+      "defaultTitle": "Εργασίες",
+      "empty": "Δεν υπάρχουν ακόμα εργασίες.",
+      "deleteTask": "Διαγραφή εργασίας",
+      "placeholder": "Προσθήκη εργασίας...",
+      "newTaskAriaLabel": "Νέα εργασία",
+      "addTask": "Προσθήκη εργασίας",
+      "toggleAriaLabel": "Σήμανση «{{text}}» ως {{status}}",
+      "statusComplete": "ολοκληρωμένη",
+      "statusIncomplete": "ανολοκλήρωτη"
+    },
+    "timer": {
+      "defaultTitle": "Χρονόμετρα",
+      "empty": "Δεν έχουν οριστεί χρονόμετρα.",
+      "deleteTimer": "Διαγραφή χρονόμετρου",
+      "pause": "Παύση",
+      "start": "Έναρξη",
+      "reset": "Επαναφορά",
+      "placeholderMin": "Λεπτ.",
+      "durationAriaLabel": "Διάρκεια χρονόμετρου σε λεπτά",
+      "placeholderLabel": "Ετικέτα (προαιρετικά)",
+      "labelAriaLabel": "Ετικέτα χρονόμετρου (προαιρετικά)",
+      "addTimer": "Προσθήκη χρονόμετρου"
+    },
+    "reminders": {
+      "defaultTitle": "Υπενθυμίσεις",
+      "empty": "Δεν υπάρχουν ακόμα υπενθυμίσεις.",
+      "deleteReminder": "Διαγραφή υπενθύμισης",
+      "placeholder": "Υπενθύμισέ μου να...",
+      "textAriaLabel": "Κείμενο υπενθύμισης",
+      "recurrenceTitle": "Επανάληψη",
+      "addReminder": "Προσθήκη υπενθύμισης",
+      "customIntervalAriaLabel": "Τιμή προσαρμοσμένου διαστήματος",
+      "customUnitAriaLabel": "Μονάδα προσαρμοσμένου διαστήματος",
+      "unitMinutes": "Λεπτά",
+      "unitHours": "Ώρες",
+      "unitDays": "Ημέρες",
+      "saveRecurrence": "Αποθήκευση",
+      "toggleAriaLabel": "Σήμανση «{{text}}» ως {{status}}",
+      "statusComplete": "ολοκληρωμένη",
+      "statusIncomplete": "ανολοκλήρωτη",
+      "recurrenceNone": "Μία φορά",
+      "recurrence30min": "Κάθε 30 λεπτ.",
+      "recurrenceHourly": "Κάθε ώρα",
+      "recurrenceDaily": "Καθημερινά",
+      "recurrenceWeekly": "Εβδομαδιαία",
+      "recurrenceCustom": "Προσαρμοσμένο",
+      "everyDay": "Κάθε {{count}}η",
+      "everyHour": "Κάθε {{count}}ω",
+      "everyMin": "Κάθε {{count}}λ",
+      "every": "Κάθε",
+      "today": "Σήμερα {{time}}",
+      "tomorrow": "Αύριο {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Σημείωση",
+      "changeColor": "Αλλαγή χρώματος",
+      "placeholder": "Γράψτε κάτι...",
+      "contentAriaLabel": "Περιεχόμενο σημείωσης",
+      "titleAriaLabel": "Τίτλος σημείωσης",
+      "actionsAriaLabel": "Ενέργειες σημείωσης",
+      "color_default": "Προεπιλογή",
+      "color_amber": "Κίτρινο",
+      "color_sky": "Μπλε",
+      "color_rose": "Ροζ",
+      "color_emerald": "Πράσινο",
+      "color_purple": "Μοβ"
+    },
+    "image": {
+      "defaultTitle": "Εικόνα",
+      "settings": "Ρυθμίσεις εικόνας",
+      "actionsAriaLabel": "Ενέργειες εικόνας",
+      "titleAriaLabel": "Τίτλος εικόνας",
+      "changeImage": "Αλλαγή εικόνας",
+      "fitCover": "Κάλυψη (Περικοπή)",
+      "fitContain": "Προσαρμογή (Αναλογίες)",
+      "fitFill": "Πλήρωση (Τέντωμα)",
+      "configureTitle": "Διαμόρφωση εικόνας widget",
+      "urlPlaceholder": "Επικόλληση URL εικόνας...",
+      "or": "Ή",
+      "uploadLocal": "Μεταφόρτωση τοπικής εικόνας",
+      "cancelConfig": "Ακύρωση διαμόρφωσης",
+      "loadError": "Αποτυχία φόρτωσης εικόνας. Το URL ενδέχεται να είναι κατεστραμμένο ή αποκλεισμένο."
+    },
+    "label": {
+      "defaultText": "Κείμενο",
+      "settings": "Ρυθμίσεις κειμένου",
+      "actionsAriaLabel": "Ενέργειες ετικέτας",
+      "textAriaLabel": "Κείμενο ετικέτας",
+      "editText": "Επεξεργασία κειμένου",
+      "showCardStyle": "Εμφάνιση στυλ κάρτας",
+      "fontSize": "Μέγεθος γραμματοσειράς",
+      "alignment": "Στοίχιση",
+      "fontWeight": "Πάχος γραμματοσειράς",
+      "opacity": "Αδιαφάνεια",
+      "deleteText": "Διαγραφή κειμένου",
+      "alignLeft": "Αριστερά",
+      "alignCenter": "Κέντρο",
+      "alignRight": "Δεξιά",
+      "fontSizes": {
+        "sm": "Μικρό",
+        "base": "Μεσαίο",
+        "lg": "Μεγάλο",
+        "xl": "Πολύ μεγάλο",
+        "xl2": "2× μεγάλο",
+        "xl3": "3× μεγάλο",
+        "xl4": "4× μεγάλο",
+        "xl5": "5× μεγάλο",
+        "xl6": "6× μεγάλο",
+        "xl7": "7× μεγάλο",
+        "xl8": "8× μεγάλο",
+        "xl9": "9× μεγάλο",
+        "xl10": "10× μεγάλο",
+        "xl12": "12× μεγάλο"
+      },
+      "fontWeights": {
+        "thin": "Λεπτό",
+        "light": "Ανάλαφρο",
+        "regular": "Κανονικό",
+        "medium": "Μεσαίο",
+        "semibold": "Ημίπαχο",
+        "bold": "Έντονο",
+        "extrabold": "Εξαιρετικά έντονο",
+        "black": "Μαύρο"
+      },
+      "opacities": {
+        "full": "100% (Φωτεινό)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Αμυδρό)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Αναζήτηση στο Google ή πληκτρολογήστε URL",
+      "searchAriaLabel": "Ερώτημα αναζήτησης",
+      "voiceSearch": "Φωνητική αναζήτηση",
+      "lensSearch": "Αναζήτηση οποιασδήποτε εικόνας με το Lens",
+      "removeWidget": "Αφαίρεση widget",
+      "switchToBarOnly": "Μετάβαση μόνο σε γραμμή",
+      "switchToLogoBar": "Μετάβαση σε λογότυπο + γραμμή",
+      "barOnly": "Μόνο γραμμή",
+      "showLogo": "Εμφάνιση λογότυπου",
+      "toggleLogoStyle": "Εναλλαγή στυλ λογότυπου"
+    },
+    "group": {
+      "borderColorAriaLabel": "Χρώμα περιγράμματος ομάδας",
+      "pasteUrlPlaceholder": "Επικόλληση URL...",
+      "colors": {
+        "red": "Κόκκινο",
+        "pink": "Ροζ",
+        "purple": "Μοβ",
+        "indigo": "Ινδικό μπλε",
+        "blue": "Μπλε",
+        "cyan": "Κυανό",
+        "teal": "Πετρόλ",
+        "green": "Πράσινο",
+        "yellow": "Κίτρινο",
+        "orange": "Πορτοκαλί",
+        "slate": "Σχιστόχρωμο",
+        "neutral": "Ουδέτερο"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Προσθήκη συνδέσμου",
+      "colorBorder": "Χρώμα περιγράμματος",
+      "layout": "Διάταξη",
+      "layoutGrid": "Πλέγμα",
+      "layoutList": "Λίστα",
+      "gridColumns": "Στήλες πλέγματος",
+      "column_one": "{{count}} στήλη",
+      "column_other": "{{count}} στήλες",
+      "deleteGroup": "Διαγραφή ομάδας",
+      "actionsAriaLabel": "Ενέργειες ομάδας"
+    },
+    "groupInnerGrid": {
+      "empty": "Κενή ομάδα",
+      "addFirstLink": "Προσθήκη πρώτου συνδέσμου",
+      "dropToAdd": "Απόθεση για προσθήκη",
+      "add": "Προσθήκη"
+    },
+    "iframe": {
+      "removeWidget": "Αφαίρεση widget",
+      "openInNewTab": "Άνοιγμα σε νέα καρτέλα"
+    },
+    "linkCard": {
+      "options": "Επιλογές",
+      "rename": "Μετονομασία",
+      "size": "Μέγεθος",
+      "sizeSmall": "Μικρό (1×1)",
+      "sizeMedium": "Μεσαίο (3×1)",
+      "moveTo": "Μετακίνηση σε...",
+      "mainDashboard": "Κύριος πίνακας",
+      "header": "Κεφαλίδα",
+      "deleteLink": "Διαγραφή συνδέσμου",
+      "actionsAriaLabel": "Ενέργειες συνδέσμου"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Αφαιρέθηκε {{count}} κενό widget φωτογραφίας.",
+    "removedEmptyPhotos_other": "Αφαιρέθηκαν {{count}} κενά widget φωτογραφίας.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widget",
+    "clearedHeaderLinks_one": "{{count}} σύνδεσμος κεφαλίδας",
+    "clearedHeaderLinks_other": "{{count}} σύνδεσμοι κεφαλίδας",
+    "clearedSummary": "Εκκαθαρίστηκαν {{items}}. Ακύρωση για αναίρεση ή Αποθήκευση για επιβεβαίωση.",
+    "onlyOneGoogleSearch": "Επιτρέπεται μόνο ένα widget αναζήτησης Google.",
+    "noRoomForWidget": "Δεν υπάρχει χώρος για αυτό το widget. Αλλάξτε μέγεθος ή αφαιρέστε κάτι για να ελευθερωθεί χώρος.",
+    "swap": {
+      "no-room": "Αδύνατη η εναλλαγή — δεν υπάρχει αρκετός χώρος και για τα δύο widget στις νέες θέσεις τους.",
+      "out-of-bounds": "Αδύνατη η εναλλαγή — ένα από τα widget θα εξερχόταν εκτός ορίων πλέγματος στο ελάχιστο μέγεθός του.",
+      "overlap": "Αδύνατη η εναλλαγή — τα ελάχιστα μεγέθη των δύο widget αλληλεπικαλύπτονται.",
+      "obstacle": "Αδύνατη η εναλλαγή — ένα άλλο widget εμποδίζει. Μετακινήστε ή αλλάξτε μέγεθός του πρώτα."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Αποθήκευση στο MonoStart",
+    "saveLink": "Αποθήκευση συνδέσμου",
+    "saved": "Αποθηκεύτηκε!",
+    "openDashboard": "Άνοιγμα πίνακα",
+    "destination": {
+      "label": "Προορισμός",
+      "main": "Κύριος πίνακας",
+      "header": "Γραμμή κεφαλίδας"
+    },
+    "reminders": {
+      "ariaLabel": "Εκκρεμείς υπενθυμίσεις",
+      "count_one": "{{count}} υπενθύμιση",
+      "count_other": "{{count}} υπενθυμίσεις",
+      "clearAll": "Εκκαθάριση όλων",
+      "dismiss": "Απόρριψη"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Απόκρυψη οδηγού υποσέλιδου Chrome",
+      "success": "Το υποσέλιδο αποκρύφθηκε — απολαύστε την πλήρη οθόνη!",
+      "corner": {
+        "title": "Αποκτήστε την εμπειρία πλήρους οθόνης",
+        "intro": "Το Chrome προσθέτει υποσέλιδο κάτω από το MonoStart. Για να το αποκρύψετε, κάντε κλικ στο",
+        "cta": "Προσαρμογή Chrome",
+        "ctaSuffix": "στη κάτω δεξιά γωνία.",
+        "noFooter": "Δεν βλέπετε υποσέλιδο; Είστε έτοιμοι — παραλείψτε αυτό."
+      },
+      "panel": {
+        "title": "Σχεδόν εκεί",
+        "intro": "Στην ενότητα",
+        "setting": "Υποσέλιδο",
+        "turnOff": ", απενεργοποιήστε",
+        "action": "Εμφάνιση υποσέλιδου στη σελίδα νέας καρτέλας",
+        "suffix": ", και κλείστε τον πίνακα."
+      },
+      "skip": "Παράλειψη",
+      "next": "Επόμενο",
+      "done": "Τέλος"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Γλώσσα",
+      "subtitle": "Επιλέξτε γλώσσα",
+      "search": "Αναζήτηση γλωσσών…",
+      "empty": "Καμία γλώσσα δεν ταιριάζει με την αναζήτησή σας."
+    },
+    "addWidget": {
+      "title": "Προσθήκη widget",
+      "titleConfigure": "Διαμόρφωση {{name}}",
+      "titleGoogleStyle": "Επιλογή στυλ αναζήτησης Google",
+      "logoBarTitle": "Λογότυπο + Γραμμή",
+      "logoBarDesc": "Μεγάλο λογότυπο Google πάνω από τη γραμμή αναζήτησης. Καταλαμβάνει 4 σειρές.",
+      "barOnlyTitle": "Μόνο γραμμή",
+      "barOnlyDesc": "Μόνο η γραμμή αναζήτησης. Καταλαμβάνει 1 σειρά. Συμπαγής.",
+      "urlLabel": "URL ή κώδικας ενσωμάτωσης",
+      "urlPlaceholder": "https://example.com\nή\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Επικολλήστε URL για απλές ενσωματώσεις ή επικολλήστε ένα απόσπασμα <code>&lt;iframe&gt;</code> από ιστότοπους που αποκλείουν την άμεση φόρτωση (YouTube, Figma, Spotify, CodePen κ.λπ.).",
+      "back": "Πίσω",
+      "embedWidget": "Ενσωμάτωση widget"
+    },
+    "addLink": {
+      "title": "Προσθήκη συνδέσμου",
+      "description": "Επικολλήστε URL για να προσθέσετε νέα κάρτα συνδέσμου στον πίνακά σας.",
+      "urlLabel": "URL ιστότοπου",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Τίτλος (προαιρετικά)",
+      "titlePlaceholder": "Ο σύνδεσμός μου",
+      "locationLabel": "Τοποθεσία",
+      "locationMainDashboard": "Κύριος πίνακας",
+      "locationHeader": "Κεφαλίδα (μόνο favicon)",
+      "locationFolder": "Φάκελος: {{title}}",
+      "locationGroup": "Ομάδα: {{title}}",
+      "cancel": "Ακύρωση",
+      "submit": "Προσθήκη συνδέσμου"
+    },
+    "theme": {
+      "title": "Θέμα & Εμφάνιση",
+      "description": "Προσαρμόστε την εμφάνιση του πίνακά σας.",
+      "modeGroupLabel": "Λειτουργία θέματος",
+      "light": "Ανοιχτόχρωμο",
+      "dark": "Σκοτεινό",
+      "device": "Συσκευή",
+      "primaryColorHeading": "Κύριο χρώμα",
+      "primaryColorPresetsLabel": "Προεπιλογές κύριου χρώματος",
+      "customColorLabel": "Προσαρμοσμένο χρώμα",
+      "customColorTitle": "Προσαρμοσμένο χρώμα",
+      "customHue": "Προσαρμοσμένη απόχρωση",
+      "backgroundHeading": "Φόντο",
+      "backgroundTypeLabel": "Τύπος φόντου",
+      "backgroundColorLabel": "Χρώμα φόντου",
+      "backgroundGradientLabel": "Διαβάθμιση φόντου",
+      "imageUrlPlaceholder": "Επικόλληση URL εικόνας...",
+      "uploadImage": "Μεταφόρτωση εικόνας",
+      "imageUploaded": "Η προσαρμοσμένη εικόνα μεταφορτώθηκε.",
+      "blur": "Θόλωμα",
+      "dim": "Σκίαση",
+      "fileReadError": "Αποτυχία ανάγνωσης αρχείου.",
+      "bgType": {
+        "none": "Κανένα",
+        "color": "Χρώμα",
+        "gradient": "Διαβάθμιση",
+        "image": "Εικόνα"
+      }
+    },
+    "clear": {
+      "title": "Εκκαθάριση πίνακα",
+      "description": "Αυτό αφαιρεί widget από τον πίνακα. Βρίσκεστε σε λειτουργία επεξεργασίας, οπότε μπορείτε ακόμα να πατήσετε Ακύρωση για αναίρεση πριν αποθηκεύσετε.",
+      "widgetsGroups": "Widget & ομάδες στο κύριο πλέγμα",
+      "linksInsideGroups": "↳ σύνδεσμοι μέσα σε ομάδες",
+      "headerBarLinks": "Σύνδεσμοι γραμμής κεφαλίδας",
+      "alsoClearHeaderLabel": "Εκκαθάριση και των συνδέσμων κεφαλίδας",
+      "alsoClearHeaderDesc": "Από προεπιλογή, η κεφαλίδα διατηρείται. Επιλέξτε αυτό για να την εκκαθαρίσετε επίσης.",
+      "widgetGroups_one": "Πρόκειται να διαγραφεί <strong>{{count}}</strong> widget/ομάδα",
+      "widgetGroups_other": "Πρόκειται να διαγραφούν <strong>{{count}}</strong> widget/ομάδες",
+      "headerLinks_one": "<strong>{{count}}</strong> σύνδεσμος κεφαλίδας",
+      "headerLinks_other": "<strong>{{count}}</strong> σύνδεσμοι κεφαλίδας",
+      "andConnector": " και ",
+      "cancelRestores": ". Η ακύρωση στη γραμμή επεξεργασίας τα επαναφέρει.",
+      "nothingToClear": "Δεν υπάρχει τίποτα να εκκαθαριστεί με την τρέχουσα επιλογή.",
+      "cancelButton": "Ακύρωση",
+      "clearWidgets": "Εκκαθάριση widget",
+      "clearEverything": "Εκκαθάριση όλων"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Κοινοποίηση αυτού του στοιχείου",
+      "copyLink": "Αντιγραφή συνδέσμου",
+      "linkCopied": "Ο σύνδεσμος αντιγράφηκε",
+      "shareOn": "Κοινοποίηση στο {{platform}}",
+      "shareVia": "Κοινοποίηση μέσω {{platform}}"
+    }
+  }
+}

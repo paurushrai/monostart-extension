@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "తొలగించు",
+    "cancel": "రద్దు చేయి",
+    "save": "సేవ్ చేయి",
+    "copy": "కాపీ చేయి",
+    "copied": "కాపీ అయింది"
+  },
+  "header": {
+    "menu": {
+      "language": "భాష",
+      "addLink": "లింక్ జోడించు",
+      "addWidget": "విజెట్ జోడించు",
+      "editDashboard": "డాష్‌బోర్డ్ సవరించు",
+      "theme": "థీమ్ & రూపం",
+      "share": "MonoStart షేర్ చేయి",
+      "openInNewTab": "లింక్‌లను కొత్త ట్యాబ్‌లో తెరువు"
+    },
+    "settings": "సెట్టింగ్‌లు",
+    "clear": "క్లియర్ చేయి",
+    "clearDashboard": "డాష్‌బోర్డ్ క్లియర్ చేయి",
+    "cancel": "రద్దు చేయి",
+    "save": "సేవ్ చేయి"
+  },
+  "widgets": {
+    "deleteWidget": "విజెట్ తొలగించు",
+    "placeholder": {
+      "place": "ఉంచు",
+      "dropToPlace": "ఉంచడానికి వదలండి"
+    },
+    "todo": {
+      "defaultTitle": "చేయవలసినవి",
+      "empty": "ఇంకా పనులు లేవు.",
+      "deleteTask": "పని తొలగించు",
+      "placeholder": "పని జోడించు...",
+      "newTaskAriaLabel": "కొత్త పని",
+      "addTask": "పని జోడించు",
+      "toggleAriaLabel": "\"{{text}}\" ని {{status}} గా గుర్తించు",
+      "statusComplete": "పూర్తయింది",
+      "statusIncomplete": "పూర్తికాలేదు"
+    },
+    "timer": {
+      "defaultTitle": "టైమర్లు",
+      "empty": "టైమర్లు సెట్ చేయలేదు.",
+      "deleteTimer": "టైమర్ తొలగించు",
+      "pause": "పాజ్ చేయి",
+      "start": "ప్రారంభించు",
+      "reset": "రీసెట్ చేయి",
+      "placeholderMin": "నిమి",
+      "durationAriaLabel": "టైమర్ వ్యవధి నిమిషాలలో",
+      "placeholderLabel": "లేబుల్ (ఐచ్ఛికం)",
+      "labelAriaLabel": "టైమర్ లేబుల్ (ఐచ్ఛికం)",
+      "addTimer": "టైమర్ జోడించు"
+    },
+    "reminders": {
+      "defaultTitle": "రిమైండర్లు",
+      "empty": "ఇంకా రిమైండర్లు లేవు.",
+      "deleteReminder": "రిమైండర్ తొలగించు",
+      "placeholder": "నాకు గుర్తు చేయి...",
+      "textAriaLabel": "రిమైండర్ వచనం",
+      "recurrenceTitle": "పునరావృత్తి",
+      "addReminder": "రిమైండర్ జోడించు",
+      "customIntervalAriaLabel": "అనుకూల విరామ విలువ",
+      "customUnitAriaLabel": "అనుకూల విరామ యూనిట్",
+      "unitMinutes": "నిమిషాలు",
+      "unitHours": "గంటలు",
+      "unitDays": "రోజులు",
+      "saveRecurrence": "సేవ్ చేయి",
+      "toggleAriaLabel": "\"{{text}}\" ని {{status}} గా గుర్తించు",
+      "statusComplete": "పూర్తయింది",
+      "statusIncomplete": "పూర్తికాలేదు",
+      "recurrenceNone": "ఒక్కసారి",
+      "recurrence30min": "ప్రతి 30 నిమి",
+      "recurrenceHourly": "గంటకోసారి",
+      "recurrenceDaily": "రోజూ",
+      "recurrenceWeekly": "వారానికోసారి",
+      "recurrenceCustom": "అనుకూలం",
+      "everyDay": "ప్రతి {{count}}రో",
+      "everyHour": "ప్రతి {{count}}గం",
+      "everyMin": "ప్రతి {{count}}నిమి",
+      "every": "ప్రతి",
+      "today": "ఈరోజు {{time}}",
+      "tomorrow": "రేపు {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "నోట్",
+      "changeColor": "రంగు మార్చు",
+      "placeholder": "ఏదైనా రాయండి...",
+      "contentAriaLabel": "నోట్ విషయం",
+      "titleAriaLabel": "నోట్ శీర్షిక",
+      "actionsAriaLabel": "నోట్ చర్యలు",
+      "color_default": "డిఫాల్ట్",
+      "color_amber": "పసుపు",
+      "color_sky": "నీలం",
+      "color_rose": "గులాబీ",
+      "color_emerald": "ఆకుపచ్చ",
+      "color_purple": "వైలెట్"
+    },
+    "image": {
+      "defaultTitle": "చిత్రం",
+      "settings": "చిత్రం సెట్టింగ్‌లు",
+      "actionsAriaLabel": "చిత్రం చర్యలు",
+      "titleAriaLabel": "చిత్రం శీర్షిక",
+      "changeImage": "చిత్రం మార్చు",
+      "fitCover": "కవర్ (క్రాప్)",
+      "fitContain": "కంటెయిన్ (నిష్పత్తి)",
+      "fitFill": "ఫిల్ (సాగదీయు)",
+      "configureTitle": "విజెట్ చిత్రం కాన్ఫిగర్ చేయి",
+      "urlPlaceholder": "చిత్రం URL పేస్ట్ చేయండి...",
+      "or": "లేదా",
+      "uploadLocal": "స్థానిక చిత్రం అప్‌లోడ్ చేయి",
+      "cancelConfig": "కాన్ఫిగరేషన్ రద్దు చేయి",
+      "loadError": "చిత్రం లోడ్ కాలేదు. URL పాడైపోవచ్చు లేదా బ్లాక్ అయి ఉండవచ్చు."
+    },
+    "label": {
+      "defaultText": "వచనం",
+      "settings": "వచనం సెట్టింగ్‌లు",
+      "actionsAriaLabel": "లేబుల్ చర్యలు",
+      "textAriaLabel": "లేబుల్ వచనం",
+      "editText": "వచనం సవరించు",
+      "showCardStyle": "కార్డ్ స్టైల్ చూపు",
+      "fontSize": "అక్షరం పరిమాణం",
+      "alignment": "అమరిక",
+      "fontWeight": "అక్షరం బరువు",
+      "opacity": "పారదర్శకత",
+      "deleteText": "వచనం తొలగించు",
+      "alignLeft": "ఎడమ",
+      "alignCenter": "మధ్య",
+      "alignRight": "కుడి",
+      "fontSizes": {
+        "sm": "చిన్న",
+        "base": "మధ్యమ",
+        "lg": "పెద్ద",
+        "xl": "అదనపు పెద్ద",
+        "xl2": "2X పెద్ద",
+        "xl3": "3X పెద్ద",
+        "xl4": "4X పెద్ద",
+        "xl5": "5X పెద్ద",
+        "xl6": "6X పెద్ద",
+        "xl7": "7X పెద్ద",
+        "xl8": "8X పెద్ద",
+        "xl9": "9X పెద్ద",
+        "xl10": "10X పెద్ద",
+        "xl12": "12X పెద్ద"
+      },
+      "fontWeights": {
+        "thin": "సన్నగా",
+        "light": "తేలికగా",
+        "regular": "సాధారణ",
+        "medium": "మధ్యమ",
+        "semibold": "సెమీ బోల్డ్",
+        "bold": "బోల్డ్",
+        "extrabold": "అదనపు బోల్డ్",
+        "black": "బ్లాక్"
+      },
+      "opacities": {
+        "full": "100% (ప్రకాశవంతం)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (మందంగా)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google లో వెతకండి లేదా URL టైప్ చేయండి",
+      "searchAriaLabel": "వెతకు పదం",
+      "voiceSearch": "వాయిస్ సెర్చ్",
+      "lensSearch": "Lens తో ఏదైనా చిత్రం వెతకండి",
+      "removeWidget": "విజెట్ తొలగించు",
+      "switchToBarOnly": "బార్ మాత్రమేకి మారు",
+      "switchToLogoBar": "లోగో + బార్‌కి మారు",
+      "barOnly": "బార్ మాత్రమే",
+      "showLogo": "లోగో చూపు",
+      "toggleLogoStyle": "లోగో స్టైల్ మారు"
+    },
+    "group": {
+      "borderColorAriaLabel": "గ్రూప్ సరిహద్దు రంగు",
+      "pasteUrlPlaceholder": "URL పేస్ట్ చేయండి...",
+      "colors": {
+        "red": "ఎరుపు",
+        "pink": "గులాబీ",
+        "purple": "వైలెట్",
+        "indigo": "నీలిరంగు",
+        "blue": "నీలం",
+        "cyan": "సయాన్",
+        "teal": "టీల్",
+        "green": "ఆకుపచ్చ",
+        "yellow": "పసుపు",
+        "orange": "నారంజ",
+        "slate": "స్లేట్",
+        "neutral": "తటస్థ"
+      }
+    },
+    "groupHeader": {
+      "addLink": "లింక్ జోడించు",
+      "colorBorder": "సరిహద్దు రంగు",
+      "layout": "అమరిక",
+      "layoutGrid": "గ్రిడ్",
+      "layoutList": "జాబితా",
+      "gridColumns": "గ్రిడ్ కాలమ్‌లు",
+      "column_one": "{{count}} కాలమ్",
+      "column_other": "{{count}} కాలమ్‌లు",
+      "deleteGroup": "గ్రూప్ తొలగించు",
+      "actionsAriaLabel": "గ్రూప్ చర్యలు"
+    },
+    "groupInnerGrid": {
+      "empty": "ఖాళీ గ్రూప్",
+      "addFirstLink": "మొదటి లింక్ జోడించు",
+      "dropToAdd": "జోడించడానికి వదలండి",
+      "add": "జోడించు"
+    },
+    "iframe": {
+      "removeWidget": "విజెట్ తొలగించు",
+      "openInNewTab": "కొత్త ట్యాబ్‌లో తెరువు"
+    },
+    "linkCard": {
+      "options": "ఎంపికలు",
+      "rename": "పేరు మార్చు",
+      "size": "పరిమాణం",
+      "sizeSmall": "చిన్న (1×1)",
+      "sizeMedium": "మధ్యమ (3×1)",
+      "moveTo": "తరలించు...",
+      "mainDashboard": "ప్రధాన డాష్‌బోర్డ్",
+      "header": "హెడర్",
+      "deleteLink": "లింక్ తొలగించు",
+      "actionsAriaLabel": "లింక్ చర్యలు"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} ఖాళీ ఫోటో విజెట్ తొలగించబడింది.",
+    "removedEmptyPhotos_other": "{{count}} ఖాళీ ఫోటో విజెట్‌లు తొలగించబడ్డాయి.",
+    "clearedWidgets_one": "{{count}} విజెట్",
+    "clearedWidgets_other": "{{count}} విజెట్‌లు",
+    "clearedHeaderLinks_one": "{{count}} హెడర్ లింక్",
+    "clearedHeaderLinks_other": "{{count}} హెడర్ లింక్‌లు",
+    "clearedSummary": "{{items}} క్లియర్ అయ్యాయి. రద్దు చేయడానికి రద్దు నొక్కండి, లేదా నిర్ధారించడానికి సేవ్ నొక్కండి.",
+    "onlyOneGoogleSearch": "ఒక్క Google సెర్చ్ విజెట్ మాత్రమే అనుమతించబడుతుంది.",
+    "noRoomForWidget": "ఈ విజెట్‌కు స్థలం లేదు. స్థలం చేయడానికి ఏదైనా పరిమాణం మార్చండి లేదా తొలగించండి.",
+    "swap": {
+      "no-room": "మార్చుకోలేరు — రెండు విజెట్‌లు కొత్త స్థానాల్లో సరిపోవడానికి తగినంత స్థలం లేదు.",
+      "out-of-bounds": "మార్చుకోలేరు — విజెట్‌లలో ఒకటి దాని కనీస పరిమాణంలో గ్రిడ్ అంచుని దాటుతుంది.",
+      "overlap": "మార్చుకోలేరు — రెండు విజెట్‌ల కనీస పరిమాణాలు అతివ్యాప్తి చెందుతున్నాయి.",
+      "obstacle": "మార్చుకోలేరు — మరొక విజెట్ దారిలో ఉంది. ముందు దాన్ని తరలించండి లేదా పరిమాణం మార్చండి."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStart లో సేవ్ చేయి",
+    "saveLink": "లింక్ సేవ్ చేయి",
+    "saved": "సేవ్ అయింది!",
+    "openDashboard": "డాష్‌బోర్డ్ తెరువు",
+    "destination": {
+      "label": "గమ్యం",
+      "main": "ప్రధాన డాష్‌బోర్డ్",
+      "header": "హెడర్ బార్"
+    },
+    "reminders": {
+      "ariaLabel": "పెండింగ్ రిమైండర్లు",
+      "count_one": "{{count}} రిమైండర్",
+      "count_other": "{{count}} రిమైండర్లు",
+      "clearAll": "అన్నీ క్లియర్ చేయి",
+      "dismiss": "తొలగించు"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome ఫుటర్ గైడ్ దాచు",
+      "success": "ఫుటర్ దాచబడింది — పూర్తి స్క్రీన్ ఆనందించండి!",
+      "corner": {
+        "title": "పూర్తి స్క్రీన్ అనుభవం పొందండి",
+        "intro": "Chrome, MonoStart దిగువన ఒక ఫుటర్ జోడిస్తుంది. దాచడానికి, క్లిక్ చేయండి",
+        "cta": "Chrome కస్టమైజ్ చేయి",
+        "ctaSuffix": "కుడి దిగువ మూలలో.",
+        "noFooter": "ఫుటర్ కనిపించడం లేదా? మీరు సిద్ధంగా ఉన్నారు — దీన్ని దాటవేయండి."
+      },
+      "panel": {
+        "title": "దాదాపు అయింది",
+        "intro": "కింద",
+        "setting": "ఫుటర్",
+        "turnOff": ", ఆపివేయి",
+        "action": "కొత్త ట్యాబ్ పేజీలో ఫుటర్ చూపు",
+        "suffix": ", తర్వాత పానెల్ మూసివేయండి."
+      },
+      "skip": "దాటవేయి",
+      "next": "తదుపరి",
+      "done": "పూర్తయింది"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "భాష",
+      "subtitle": "మీ భాష ఎంచుకోండి",
+      "search": "భాషలు వెతకండి…",
+      "empty": "మీ వెతుకులాటకు సరిపోయే భాషలు లేవు."
+    },
+    "addWidget": {
+      "title": "విజెట్ జోడించు",
+      "titleConfigure": "{{name}} కాన్ఫిగర్ చేయి",
+      "titleGoogleStyle": "Google సెర్చ్ స్టైల్ ఎంచుకోండి",
+      "logoBarTitle": "లోగో + బార్",
+      "logoBarDesc": "సెర్చ్ బార్ పైన పెద్ద Google లోగో. 4 వరుసలు తీసుకుంటుంది.",
+      "barOnlyTitle": "బార్ మాత్రమే",
+      "barOnlyDesc": "కేవలం సెర్చ్ బార్. 1 వరుస తీసుకుంటుంది. కాంపాక్ట్.",
+      "urlLabel": "URL లేదా ఎంబెడ్ కోడ్",
+      "urlPlaceholder": "https://example.com\nలేదా\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "సాధారణ ఎంబెడ్‌లకు URL పేస్ట్ చేయండి, లేదా నేరుగా లోడ్ చేయడాన్ని బ్లాక్ చేసే సైట్‌ల నుండి <code>&lt;iframe&gt;</code> స్నిప్పెట్ పేస్ట్ చేయండి (YouTube, Figma, Spotify, CodePen మొదలైనవి).",
+      "back": "వెనక్కి",
+      "embedWidget": "విజెట్ ఎంబెడ్ చేయి"
+    },
+    "addLink": {
+      "title": "లింక్ జోడించు",
+      "description": "మీ డాష్‌బోర్డ్‌లో కొత్త లింక్ కార్డ్ జోడించడానికి URL పేస్ట్ చేయండి.",
+      "urlLabel": "వెబ్‌సైట్ URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "శీర్షిక (ఐచ్ఛికం)",
+      "titlePlaceholder": "నా లింక్",
+      "locationLabel": "స్థానం",
+      "locationMainDashboard": "ప్రధాన డాష్‌బోర్డ్",
+      "locationHeader": "హెడర్ (Favicon మాత్రమే)",
+      "locationFolder": "ఫోల్డర్: {{title}}",
+      "locationGroup": "గ్రూప్: {{title}}",
+      "cancel": "రద్దు చేయి",
+      "submit": "లింక్ జోడించు"
+    },
+    "theme": {
+      "title": "థీమ్ & రూపం",
+      "description": "మీ డాష్‌బోర్డ్ రూపాన్ని అనుకూలీకరించండి.",
+      "modeGroupLabel": "థీమ్ మోడ్",
+      "light": "వెలుతురు",
+      "dark": "చీకటి",
+      "device": "పరికరం",
+      "primaryColorHeading": "ప్రాథమిక రంగు",
+      "primaryColorPresetsLabel": "ప్రాథమిక రంగు ప్రీసెట్‌లు",
+      "customColorLabel": "అనుకూల రంగు",
+      "customColorTitle": "అనుకూల రంగు",
+      "customHue": "అనుకూల హ్యూ",
+      "backgroundHeading": "నేపథ్యం",
+      "backgroundTypeLabel": "నేపథ్యం రకం",
+      "backgroundColorLabel": "నేపథ్యం రంగు",
+      "backgroundGradientLabel": "నేపథ్యం గ్రేడియెంట్",
+      "imageUrlPlaceholder": "చిత్రం URL పేస్ట్ చేయండి...",
+      "uploadImage": "చిత్రం అప్‌లోడ్ చేయి",
+      "imageUploaded": "అనుకూల చిత్రం అప్‌లోడ్ అయింది.",
+      "blur": "బ్లర్",
+      "dim": "మసకగా",
+      "fileReadError": "ఫైల్ చదవడం విఫలమైంది.",
+      "bgType": {
+        "none": "ఏదీ లేదు",
+        "color": "రంగు",
+        "gradient": "గ్రేడియెంట్",
+        "image": "చిత్రం"
+      }
+    },
+    "clear": {
+      "title": "డాష్‌బోర్డ్ క్లియర్ చేయి",
+      "description": "ఇది డాష్‌బోర్డ్ నుండి విజెట్‌లను తొలగిస్తుంది. మీరు ఎడిట్ మోడ్‌లో ఉన్నారు, కాబట్టి సేవ్ చేయడానికి ముందు రద్దు నొక్కి రద్దు చేయవచ్చు.",
+      "widgetsGroups": "ప్రధాన గ్రిడ్‌లోని విజెట్‌లు & గ్రూప్‌లు",
+      "linksInsideGroups": "↳ గ్రూప్‌ల లోని లింక్‌లు",
+      "headerBarLinks": "హెడర్ బార్ లింక్‌లు",
+      "alsoClearHeaderLabel": "హెడర్ బార్ లింక్‌లు కూడా క్లియర్ చేయి",
+      "alsoClearHeaderDesc": "డిఫాల్ట్‌గా హెడర్ బార్ భద్రపరచబడుతుంది. దాన్ని కూడా తొలగించడానికి ఇది చెక్ చేయండి.",
+      "widgetGroups_one": "<strong>{{count}}</strong> విజెట్/గ్రూప్ తొలగించబోతున్నారు",
+      "widgetGroups_other": "<strong>{{count}}</strong> విజెట్‌లు/గ్రూప్‌లు తొలగించబోతున్నారు",
+      "headerLinks_one": "<strong>{{count}}</strong> హెడర్ లింక్",
+      "headerLinks_other": "<strong>{{count}}</strong> హెడర్ లింక్‌లు",
+      "andConnector": " మరియు ",
+      "cancelRestores": ". ఎడిట్-మోడ్ టూల్‌బార్‌లో రద్దు వాటిని పునరుద్ధరిస్తుంది.",
+      "nothingToClear": "ప్రస్తుత ఎంపికతో క్లియర్ చేయడానికి ఏమీ లేదు.",
+      "cancelButton": "రద్దు చేయి",
+      "clearWidgets": "విజెట్‌లు క్లియర్ చేయి",
+      "clearEverything": "అన్నీ క్లియర్ చేయి"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "ఈ అంశాన్ని షేర్ చేయి",
+      "copyLink": "లింక్ కాపీ చేయి",
+      "linkCopied": "లింక్ కాపీ అయింది",
+      "shareOn": "{{platform}} లో షేర్ చేయి",
+      "shareVia": "{{platform}} ద్వారా షేర్ చేయి"
+    }
+  }
+}

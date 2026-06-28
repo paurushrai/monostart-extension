@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Poista",
+    "cancel": "Peruuta",
+    "save": "Tallenna",
+    "copy": "Kopioi",
+    "copied": "Kopioitu"
+  },
+  "header": {
+    "menu": {
+      "language": "Kieli",
+      "addLink": "Lisää linkki",
+      "addWidget": "Lisää widget",
+      "editDashboard": "Muokkaa kojelautaa",
+      "theme": "Teema ja ulkoasu",
+      "share": "Jaa MonoStart",
+      "openInNewTab": "Avaa linkit uudessa välilehdessä"
+    },
+    "settings": "Asetukset",
+    "clear": "Tyhjennä",
+    "clearDashboard": "Tyhjennä kojelauta",
+    "cancel": "Peruuta",
+    "save": "Tallenna"
+  },
+  "widgets": {
+    "deleteWidget": "Poista widget",
+    "placeholder": {
+      "place": "Sijoita",
+      "dropToPlace": "Pudota sijoittaaksesi"
+    },
+    "todo": {
+      "defaultTitle": "Tehtävät",
+      "empty": "Ei tehtäviä vielä.",
+      "deleteTask": "Poista tehtävä",
+      "placeholder": "Lisää tehtävä...",
+      "newTaskAriaLabel": "Uusi tehtävä",
+      "addTask": "Lisää tehtävä",
+      "toggleAriaLabel": "Merkitse \"{{text}}\" tilaksi {{status}}",
+      "statusComplete": "valmis",
+      "statusIncomplete": "kesken"
+    },
+    "timer": {
+      "defaultTitle": "Ajastimet",
+      "empty": "Ei ajastimia asetettu.",
+      "deleteTimer": "Poista ajastin",
+      "pause": "Tauko",
+      "start": "Käynnistä",
+      "reset": "Nollaa",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Ajastimen kesto minuuteissa",
+      "placeholderLabel": "Otsikko (valinnainen)",
+      "labelAriaLabel": "Ajastimen otsikko (valinnainen)",
+      "addTimer": "Lisää ajastin"
+    },
+    "reminders": {
+      "defaultTitle": "Muistutukset",
+      "empty": "Ei muistutuksia vielä.",
+      "deleteReminder": "Poista muistutus",
+      "placeholder": "Muistuta minua...",
+      "textAriaLabel": "Muistutuksen teksti",
+      "recurrenceTitle": "Toistuvuus",
+      "addReminder": "Lisää muistutus",
+      "customIntervalAriaLabel": "Mukautetun välin arvo",
+      "customUnitAriaLabel": "Mukautetun välin yksikkö",
+      "unitMinutes": "Minuutit",
+      "unitHours": "Tunnit",
+      "unitDays": "Päivät",
+      "saveRecurrence": "Tallenna",
+      "toggleAriaLabel": "Merkitse \"{{text}}\" tilaksi {{status}}",
+      "statusComplete": "valmis",
+      "statusIncomplete": "kesken",
+      "recurrenceNone": "Kerran",
+      "recurrence30min": "Joka 30 min",
+      "recurrenceHourly": "Tunneittain",
+      "recurrenceDaily": "Päivittäin",
+      "recurrenceWeekly": "Viikoittain",
+      "recurrenceCustom": "Mukautettu",
+      "everyDay": "Joka {{count}}pv",
+      "everyHour": "Joka {{count}}t",
+      "everyMin": "Joka {{count}}min",
+      "every": "Joka",
+      "today": "Tänään {{time}}",
+      "tomorrow": "Huomenna {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Muistiinpano",
+      "changeColor": "Vaihda väri",
+      "placeholder": "Kirjoita jotain...",
+      "contentAriaLabel": "Muistiinpanon sisältö",
+      "titleAriaLabel": "Muistiinpanon otsikko",
+      "actionsAriaLabel": "Muistiinpanon toiminnot",
+      "color_default": "Oletus",
+      "color_amber": "Keltainen",
+      "color_sky": "Sininen",
+      "color_rose": "Pinkki",
+      "color_emerald": "Vihreä",
+      "color_purple": "Violetti"
+    },
+    "image": {
+      "defaultTitle": "Kuva",
+      "settings": "Kuva-asetukset",
+      "actionsAriaLabel": "Kuvan toiminnot",
+      "titleAriaLabel": "Kuvan otsikko",
+      "changeImage": "Vaihda kuva",
+      "fitCover": "Peittävä (rajaus)",
+      "fitContain": "Sisältävä (kuvasuhde)",
+      "fitFill": "Täyttävä (venytys)",
+      "configureTitle": "Määritä widgetin kuva",
+      "urlPlaceholder": "Liitä kuvan URL...",
+      "or": "Tai",
+      "uploadLocal": "Lataa paikallinen kuva",
+      "cancelConfig": "Peruuta määritys",
+      "loadError": "Kuvan lataaminen epäonnistui. URL saattaa olla rikki tai estetty."
+    },
+    "label": {
+      "defaultText": "Teksti",
+      "settings": "Tekstiasetukset",
+      "actionsAriaLabel": "Otsikon toiminnot",
+      "textAriaLabel": "Otsikon teksti",
+      "editText": "Muokkaa tekstiä",
+      "showCardStyle": "Näytä korttityyli",
+      "fontSize": "Fonttikoko",
+      "alignment": "Tasaus",
+      "fontWeight": "Fontin paino",
+      "opacity": "Läpinäkyvyys",
+      "deleteText": "Poista teksti",
+      "alignLeft": "Vasemmalle",
+      "alignCenter": "Keskelle",
+      "alignRight": "Oikealle",
+      "fontSizes": {
+        "sm": "Pieni",
+        "base": "Keskikokoinen",
+        "lg": "Suuri",
+        "xl": "Erittäin suuri",
+        "xl2": "2X suuri",
+        "xl3": "3X suuri",
+        "xl4": "4X suuri",
+        "xl5": "5X suuri",
+        "xl6": "6X suuri",
+        "xl7": "7X suuri",
+        "xl8": "8X suuri",
+        "xl9": "9X suuri",
+        "xl10": "10X suuri",
+        "xl12": "12X suuri"
+      },
+      "fontWeights": {
+        "thin": "Ohut",
+        "light": "Kevyt",
+        "regular": "Normaali",
+        "medium": "Keskikokoinen",
+        "semibold": "Puolipaksu",
+        "bold": "Lihavoitu",
+        "extrabold": "Erittäin paksu",
+        "black": "Musta"
+      },
+      "opacities": {
+        "full": "100% (Kirkas)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Vaalea)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Hae Googlesta tai kirjoita URL",
+      "searchAriaLabel": "Hakukysely",
+      "voiceSearch": "Äänihaku",
+      "lensSearch": "Hae mitä tahansa kuvaa Lensillä",
+      "removeWidget": "Poista widget",
+      "switchToBarOnly": "Vaihda pelkkään palkkiin",
+      "switchToLogoBar": "Vaihda logo + palkki",
+      "barOnly": "Pelkkä palkki",
+      "showLogo": "Näytä logo",
+      "toggleLogoStyle": "Vaihda logotyyliä"
+    },
+    "group": {
+      "borderColorAriaLabel": "Ryhmän reunuksen väri",
+      "pasteUrlPlaceholder": "Liitä URL...",
+      "colors": {
+        "red": "Punainen",
+        "pink": "Pinkki",
+        "purple": "Violetti",
+        "indigo": "Indigo",
+        "blue": "Sininen",
+        "cyan": "Syaani",
+        "teal": "Sinivihreä",
+        "green": "Vihreä",
+        "yellow": "Keltainen",
+        "orange": "Oranssi",
+        "slate": "Liuskekivi",
+        "neutral": "Neutraali"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Lisää linkki",
+      "colorBorder": "Väritä reunus",
+      "layout": "Asettelu",
+      "layoutGrid": "Ruudukko",
+      "layoutList": "Lista",
+      "gridColumns": "Ruudukon sarakkeet",
+      "column_one": "{{count}} sarake",
+      "column_other": "{{count}} saraketta",
+      "deleteGroup": "Poista ryhmä",
+      "actionsAriaLabel": "Ryhmän toiminnot"
+    },
+    "groupInnerGrid": {
+      "empty": "Tyhjä ryhmä",
+      "addFirstLink": "Lisää ensimmäinen linkki",
+      "dropToAdd": "Pudota lisätäksesi",
+      "add": "Lisää"
+    },
+    "iframe": {
+      "removeWidget": "Poista widget",
+      "openInNewTab": "Avaa uudessa välilehdessä"
+    },
+    "linkCard": {
+      "options": "Asetukset",
+      "rename": "Nimeä uudelleen",
+      "size": "Koko",
+      "sizeSmall": "Pieni (1×1)",
+      "sizeMedium": "Keskikokoinen (3×1)",
+      "moveTo": "Siirrä...",
+      "mainDashboard": "Pääkojelauta",
+      "header": "Otsikko",
+      "deleteLink": "Poista linkki",
+      "actionsAriaLabel": "Linkin toiminnot"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Poistettu {{count}} tyhjä kuvawidget.",
+    "removedEmptyPhotos_other": "Poistettu {{count}} tyhjää kuvawidgettiä.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgettiä",
+    "clearedHeaderLinks_one": "{{count}} otsikkolinkki",
+    "clearedHeaderLinks_other": "{{count}} otsikkolinkkiä",
+    "clearedSummary": "Tyhjennetty {{items}}. Peruuta kumotaksesi tai tallenna vahvistaaksesi.",
+    "onlyOneGoogleSearch": "Vain yksi Google-hakuwidget on sallittu.",
+    "noRoomForWidget": "Ei tilaa tälle widgetille. Muuta kokoa tai poista jotain tehdäksesi tilaa.",
+    "swap": {
+      "no-room": "Vaihto ei onnistu — ei tarpeeksi tilaa molemmille widgeteille uusissa sijainneissa.",
+      "out-of-bounds": "Vaihto ei onnistu — yksi widgeteistä ulottuisi ruudukon reunan yli minimikossaan.",
+      "overlap": "Vaihto ei onnistu — kahden widgetin minimikoot menevät päällekkäin.",
+      "obstacle": "Vaihto ei onnistu — toinen widget on tiellä. Siirrä tai muuta sen kokoa ensin."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Tallenna MonoStartiin",
+    "saveLink": "Tallenna linkki",
+    "saved": "Tallennettu!",
+    "openDashboard": "Avaa kojelauta",
+    "destination": {
+      "label": "Kohde",
+      "main": "Pääkojelauta",
+      "header": "Otsikkopalkki"
+    },
+    "reminders": {
+      "ariaLabel": "Odottavat muistutukset",
+      "count_one": "{{count}} muistutus",
+      "count_other": "{{count}} muistutusta",
+      "clearAll": "Tyhjennä kaikki",
+      "dismiss": "Hylkää"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Piilota Chromen alatunnisteen opas",
+      "success": "Alatunniste piilotettu — nauti koko näytöstä!",
+      "corner": {
+        "title": "Koko näytön kokemus",
+        "intro": "Chrome lisää alatunnisteen MonoStartin alle. Piilota se napsauttamalla",
+        "cta": "Mukauta Chromea",
+        "ctaSuffix": "oikeassa alakulmassa.",
+        "noFooter": "Etkö näe alatunnistetta? Olet valmis — ohita tämä."
+      },
+      "panel": {
+        "title": "Melkein valmis",
+        "intro": "Kohdassa",
+        "setting": "Alatunniste",
+        "turnOff": ", poista käytöstä",
+        "action": "Näytä alatunniste Uusi välilehti -sivulla",
+        "suffix": ", sulje sitten paneeli."
+      },
+      "skip": "Ohita",
+      "next": "Seuraava",
+      "done": "Valmis"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Kieli",
+      "subtitle": "Valitse kielesi",
+      "search": "Hae kieliä…",
+      "empty": "Ei kieliä hakuasi vastaavana."
+    },
+    "addWidget": {
+      "title": "Lisää widget",
+      "titleConfigure": "Määritä {{name}}",
+      "titleGoogleStyle": "Valitse Google-hakutyyli",
+      "logoBarTitle": "Logo + palkki",
+      "logoBarDesc": "Iso Google-logo hakupalkin yläpuolella. Vie 4 riviä.",
+      "barOnlyTitle": "Pelkkä palkki",
+      "barOnlyDesc": "Vain hakupalkki. Vie 1 rivin. Kompakti.",
+      "urlLabel": "URL tai upotuskoodi",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Liitä URL yksinkertaisille upotuksille tai liitä <code>&lt;iframe&gt;</code>-koodinpätkä sivustoilta, jotka estävät suoran latauksen (YouTube, Figma, Spotify, CodePen jne.).",
+      "back": "Takaisin",
+      "embedWidget": "Upota widget"
+    },
+    "addLink": {
+      "title": "Lisää linkki",
+      "description": "Liitä URL lisätäksesi uuden linkkikortin kojelautaasi.",
+      "urlLabel": "Verkkosivuston URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Otsikko (valinnainen)",
+      "titlePlaceholder": "Oma linkki",
+      "locationLabel": "Sijainti",
+      "locationMainDashboard": "Pääkojelauta",
+      "locationHeader": "Otsikko (vain favicon)",
+      "locationFolder": "Kansio: {{title}}",
+      "locationGroup": "Ryhmä: {{title}}",
+      "cancel": "Peruuta",
+      "submit": "Lisää linkki"
+    },
+    "theme": {
+      "title": "Teema ja ulkoasu",
+      "description": "Mukauta kojelautasi ulkoasua.",
+      "modeGroupLabel": "Teematila",
+      "light": "Vaalea",
+      "dark": "Tumma",
+      "device": "Laite",
+      "primaryColorHeading": "Pääväri",
+      "primaryColorPresetsLabel": "Päävärin esiasetukset",
+      "customColorLabel": "Mukautettu väri",
+      "customColorTitle": "Mukautettu väri",
+      "customHue": "Mukautettu sävy",
+      "backgroundHeading": "Tausta",
+      "backgroundTypeLabel": "Taustatyyppi",
+      "backgroundColorLabel": "Taustaväri",
+      "backgroundGradientLabel": "Taustasäteily",
+      "imageUrlPlaceholder": "Liitä kuvan URL...",
+      "uploadImage": "Lataa kuva",
+      "imageUploaded": "Mukautettu kuva ladattu.",
+      "blur": "Sumennus",
+      "dim": "Himmennys",
+      "fileReadError": "Tiedoston lukeminen epäonnistui.",
+      "bgType": {
+        "none": "Ei mitään",
+        "color": "Väri",
+        "gradient": "Liukuväri",
+        "image": "Kuva"
+      }
+    },
+    "clear": {
+      "title": "Tyhjennä kojelauta",
+      "description": "Tämä poistaa widgetit kojelaudalta. Olet muokkaustilassa, joten voit silti peruuttaa ennen tallentamista.",
+      "widgetsGroups": "Widgetit ja ryhmät pääruudukossa",
+      "linksInsideGroups": "↳ linkit ryhmien sisällä",
+      "headerBarLinks": "Otsikkopalkkilinkit",
+      "alsoClearHeaderLabel": "Tyhjennä myös otsikkopalkkilinkit",
+      "alsoClearHeaderDesc": "Oletuksena otsikkopalkki säilytetään. Valitse tämä pyyhkiäksesi sen myös.",
+      "widgetGroups_one": "Poistetaan <strong>{{count}}</strong> widget/ryhmä",
+      "widgetGroups_other": "Poistetaan <strong>{{count}}</strong> widgettiä/ryhmää",
+      "headerLinks_one": "<strong>{{count}}</strong> otsikkolinkki",
+      "headerLinks_other": "<strong>{{count}}</strong> otsikkolinkkiä",
+      "andConnector": " ja ",
+      "cancelRestores": ". Peruuta muokkaustilan työkalupalkissa palauttaa ne.",
+      "nothingToClear": "Ei mitään tyhjennettävää nykyisellä valinnalla.",
+      "cancelButton": "Peruuta",
+      "clearWidgets": "Tyhjennä widgetit",
+      "clearEverything": "Tyhjennä kaikki"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Jaa tämä kohde",
+      "copyLink": "Kopioi linkki",
+      "linkCopied": "Linkki kopioitu",
+      "shareOn": "Jaa {{platform}}:ssä",
+      "shareVia": "Jaa {{platform}}:n kautta"
+    }
+  }
+}

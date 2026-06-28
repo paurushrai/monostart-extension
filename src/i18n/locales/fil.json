@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Burahin",
+    "cancel": "Kanselahin",
+    "save": "I-save",
+    "copy": "Kopyahin",
+    "copied": "Nakopya"
+  },
+  "header": {
+    "menu": {
+      "language": "Wika",
+      "addLink": "Magdagdag ng Link",
+      "addWidget": "Magdagdag ng Widget",
+      "editDashboard": "I-edit ang Dashboard",
+      "theme": "Tema at Hitsura",
+      "share": "Ibahagi ang MonoStart",
+      "openInNewTab": "Buksan ang mga link sa bagong tab"
+    },
+    "settings": "Mga Setting",
+    "clear": "I-clear",
+    "clearDashboard": "I-clear ang Dashboard",
+    "cancel": "Kanselahin",
+    "save": "I-save"
+  },
+  "widgets": {
+    "deleteWidget": "Burahin ang Widget",
+    "placeholder": {
+      "place": "Ilagay",
+      "dropToPlace": "I-drop para Ilagay"
+    },
+    "todo": {
+      "defaultTitle": "Mga Gawain",
+      "empty": "Wala pang mga gawain.",
+      "deleteTask": "Burahin ang Gawain",
+      "placeholder": "Magdagdag ng gawain...",
+      "newTaskAriaLabel": "Bagong gawain",
+      "addTask": "Magdagdag ng Gawain",
+      "toggleAriaLabel": "Markahan ang \"{{text}}\" bilang {{status}}",
+      "statusComplete": "tapos na",
+      "statusIncomplete": "hindi pa tapos"
+    },
+    "timer": {
+      "defaultTitle": "Mga Timer",
+      "empty": "Walang itinakdang mga timer.",
+      "deleteTimer": "Burahin ang Timer",
+      "pause": "I-pause",
+      "start": "Simulan",
+      "reset": "I-reset",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Tagal ng timer sa minuto",
+      "placeholderLabel": "Label (opsyonal)",
+      "labelAriaLabel": "Label ng timer (opsyonal)",
+      "addTimer": "Magdagdag ng Timer"
+    },
+    "reminders": {
+      "defaultTitle": "Mga Paalala",
+      "empty": "Wala pang mga paalala.",
+      "deleteReminder": "Burahin ang Paalala",
+      "placeholder": "Paalalahanan ako na...",
+      "textAriaLabel": "Teksto ng paalala",
+      "recurrenceTitle": "Paulit-ulit",
+      "addReminder": "Magdagdag ng Paalala",
+      "customIntervalAriaLabel": "Halaga ng custom na agwat",
+      "customUnitAriaLabel": "Yunit ng custom na agwat",
+      "unitMinutes": "Minuto",
+      "unitHours": "Oras",
+      "unitDays": "Araw",
+      "saveRecurrence": "I-save",
+      "toggleAriaLabel": "Markahan ang \"{{text}}\" bilang {{status}}",
+      "statusComplete": "tapos na",
+      "statusIncomplete": "hindi pa tapos",
+      "recurrenceNone": "Isang beses",
+      "recurrence30min": "Bawat 30 min",
+      "recurrenceHourly": "Bawat oras",
+      "recurrenceDaily": "Araw-araw",
+      "recurrenceWeekly": "Linggu-linggo",
+      "recurrenceCustom": "Custom",
+      "everyDay": "Bawat {{count}}d",
+      "everyHour": "Bawat {{count}}h",
+      "everyMin": "Bawat {{count}}m",
+      "every": "Bawat",
+      "today": "Ngayon {{time}}",
+      "tomorrow": "Bukas {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Tala",
+      "changeColor": "Baguhin ang Kulay",
+      "placeholder": "Sumulat ng kahit ano...",
+      "contentAriaLabel": "Nilalaman ng tala",
+      "titleAriaLabel": "Pamagat ng tala",
+      "actionsAriaLabel": "Mga aksyon ng tala",
+      "color_default": "Default",
+      "color_amber": "Dilaw",
+      "color_sky": "Asul",
+      "color_rose": "Rosas",
+      "color_emerald": "Berde",
+      "color_purple": "Lila"
+    },
+    "image": {
+      "defaultTitle": "Larawan",
+      "settings": "Mga Setting ng Larawan",
+      "actionsAriaLabel": "Mga aksyon ng larawan",
+      "titleAriaLabel": "Pamagat ng larawan",
+      "changeImage": "Baguhin ang Larawan",
+      "fitCover": "Cover (I-crop)",
+      "fitContain": "Contain (Aspeto)",
+      "fitFill": "Fill (Unat)",
+      "configureTitle": "I-configure ang Widget na Larawan",
+      "urlPlaceholder": "I-paste ang URL ng larawan...",
+      "or": "O",
+      "uploadLocal": "Mag-upload ng Lokal na Larawan",
+      "cancelConfig": "Kanselahin ang Configuration",
+      "loadError": "Hindi na-load ang larawan. Maaaring sira o naharang ang URL."
+    },
+    "label": {
+      "defaultText": "Teksto",
+      "settings": "Mga Setting ng Teksto",
+      "actionsAriaLabel": "Mga aksyon ng label",
+      "textAriaLabel": "Teksto ng label",
+      "editText": "I-edit ang Teksto",
+      "showCardStyle": "Ipakita ang Estilo ng Card",
+      "fontSize": "Laki ng Font",
+      "alignment": "Pagkakahanay",
+      "fontWeight": "Kapal ng Font",
+      "opacity": "Opacity",
+      "deleteText": "Burahin ang Teksto",
+      "alignLeft": "Kaliwa",
+      "alignCenter": "Gitna",
+      "alignRight": "Kanan",
+      "fontSizes": {
+        "sm": "Maliit",
+        "base": "Katamtaman",
+        "lg": "Malaki",
+        "xl": "Napakалaki",
+        "xl2": "2X Malaki",
+        "xl3": "3X Malaki",
+        "xl4": "4X Malaki",
+        "xl5": "5X Malaki",
+        "xl6": "6X Malaki",
+        "xl7": "7X Malaki",
+        "xl8": "8X Malaki",
+        "xl9": "9X Malaki",
+        "xl10": "10X Malaki",
+        "xl12": "12X Malaki"
+      },
+      "fontWeights": {
+        "thin": "Manipis",
+        "light": "Magaan",
+        "regular": "Regular",
+        "medium": "Katamtaman",
+        "semibold": "Semi Makapal",
+        "bold": "Makapal",
+        "extrabold": "Sobrang Makapal",
+        "black": "Itim"
+      },
+      "opacities": {
+        "full": "100% (Maliwanag)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Muted)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Maghanap sa Google o mag-type ng URL",
+      "searchAriaLabel": "Query sa paghahanap",
+      "voiceSearch": "Paghahanap sa boses",
+      "lensSearch": "Maghanap ng anumang larawan gamit ang Lens",
+      "removeWidget": "Alisin ang widget",
+      "switchToBarOnly": "Lumipat sa bar lamang",
+      "switchToLogoBar": "Lumipat sa logo + bar",
+      "barOnly": "Bar lamang",
+      "showLogo": "Ipakita ang logo",
+      "toggleLogoStyle": "I-toggle ang estilo ng logo"
+    },
+    "group": {
+      "borderColorAriaLabel": "Kulay ng hangganan ng grupo",
+      "pasteUrlPlaceholder": "I-paste ang URL...",
+      "colors": {
+        "red": "Pula",
+        "pink": "Rosas",
+        "purple": "Lila",
+        "indigo": "Indigo",
+        "blue": "Asul",
+        "cyan": "Cyan",
+        "teal": "Teal",
+        "green": "Berde",
+        "yellow": "Dilaw",
+        "orange": "Kahel",
+        "slate": "Slate",
+        "neutral": "Neutral"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Magdagdag ng Link",
+      "colorBorder": "Kulayan ang Hangganan",
+      "layout": "Layout",
+      "layoutGrid": "Grid",
+      "layoutList": "Listahan",
+      "gridColumns": "Mga Kolum ng Grid",
+      "column_one": "{{count}} Kolum",
+      "column_other": "{{count}} mga Kolum",
+      "deleteGroup": "Burahin ang Grupo",
+      "actionsAriaLabel": "Mga aksyon ng grupo"
+    },
+    "groupInnerGrid": {
+      "empty": "Walang laman na Grupo",
+      "addFirstLink": "Magdagdag ng unang link",
+      "dropToAdd": "I-drop para Idagdag",
+      "add": "Idagdag"
+    },
+    "iframe": {
+      "removeWidget": "Alisin ang widget",
+      "openInNewTab": "Buksan sa bagong tab"
+    },
+    "linkCard": {
+      "options": "Mga Opsyon",
+      "rename": "Palitan ng pangalan",
+      "size": "Sukat",
+      "sizeSmall": "Maliit (1×1)",
+      "sizeMedium": "Katamtaman (3×1)",
+      "moveTo": "Ilipat sa...",
+      "mainDashboard": "Pangunahing Dashboard",
+      "header": "Header",
+      "deleteLink": "Burahin ang Link",
+      "actionsAriaLabel": "Mga aksyon ng link"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Inalis ang {{count}} walang lalamang widget na larawan.",
+    "removedEmptyPhotos_other": "Inalis ang {{count}} mga walang lalamang widget na larawan.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} mga widget",
+    "clearedHeaderLinks_one": "{{count}} link sa header",
+    "clearedHeaderLinks_other": "{{count}} mga link sa header",
+    "clearedSummary": "Na-clear ang {{items}}. Kanselahin para i-undo, o i-save para kumpirmahin.",
+    "onlyOneGoogleSearch": "Isang Google search widget lamang ang pinahihintulutan.",
+    "noRoomForWidget": "Walang espasyo para sa widget na ito. Baguhin ang sukat o alisin ang isang bagay para gumawa ng espasyo.",
+    "swap": {
+      "no-room": "Hindi maaaring mag-swap — hindi sapat ang espasyo para sa parehong mga widget sa kanilang mga bagong posisyon.",
+      "out-of-bounds": "Hindi maaaring mag-swap — ang isa sa mga widget ay lalampas sa gilid ng grid sa pinakamaliit nitong sukat.",
+      "overlap": "Hindi maaaring mag-swap — nagtatagpo ang pinakamaliit na sukat ng dalawang widget.",
+      "obstacle": "Hindi maaaring mag-swap — may widget na nasa daan. Ilipat o baguhin muna ang sukat nito."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "I-save sa MonoStart",
+    "saveLink": "I-save ang Link",
+    "saved": "Nai-save!",
+    "openDashboard": "Buksan ang Dashboard",
+    "destination": {
+      "label": "Destinasyon",
+      "main": "Pangunahing dashboard",
+      "header": "Header bar"
+    },
+    "reminders": {
+      "ariaLabel": "Mga naghihintay na paalala",
+      "count_one": "{{count}} paalala",
+      "count_other": "{{count}} mga paalala",
+      "clearAll": "I-clear lahat",
+      "dismiss": "Isara"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Itago ang gabay sa footer ng Chrome",
+      "success": "Naitago ang footer — tamasahin ang buong screen!",
+      "corner": {
+        "title": "Makamit ang karanasan sa buong screen",
+        "intro": "Nagdadagdag ang Chrome ng footer sa ibaba ng MonoStart. Para itago ito, i-click ang",
+        "cta": "I-customize ang Chrome",
+        "ctaSuffix": "sa kanang sulok sa ibaba.",
+        "noFooter": "Hindi nakikita ang footer? Handa ka na — laktawan ito."
+      },
+      "panel": {
+        "title": "Halos na",
+        "intro": "Sa ilalim ng",
+        "setting": "Footer",
+        "turnOff": ", i-off ang",
+        "action": "Ipakita ang footer sa bagong tab na pahina",
+        "suffix": ", pagkatapos isara ang panel."
+      },
+      "skip": "Laktawan",
+      "next": "Susunod",
+      "done": "Tapos na"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Wika",
+      "subtitle": "Piliin ang iyong wika",
+      "search": "Maghanap ng mga wika…",
+      "empty": "Walang mga wika na tumutugma sa iyong paghahanap."
+    },
+    "addWidget": {
+      "title": "Magdagdag ng Widget",
+      "titleConfigure": "I-configure ang {{name}}",
+      "titleGoogleStyle": "Pumili ng estilo ng Google Search",
+      "logoBarTitle": "Logo + Bar",
+      "logoBarDesc": "Malaking logo ng Google sa itaas ng search bar. Gumagamit ng 4 na row.",
+      "barOnlyTitle": "Bar lamang",
+      "barOnlyDesc": "Ang search bar lamang. Gumagamit ng 1 row. Compact.",
+      "urlLabel": "URL o embed code",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Mag-paste ng URL para sa simpleng mga embed, o mag-paste ng <code>&lt;iframe&gt;</code> snippet mula sa mga site na nagharang ng direktang pag-load (YouTube, Figma, Spotify, CodePen, atbp.).",
+      "back": "Bumalik",
+      "embedWidget": "I-embed ang Widget"
+    },
+    "addLink": {
+      "title": "Magdagdag ng Link",
+      "description": "Mag-paste ng URL para magdagdag ng bagong link card sa iyong dashboard.",
+      "urlLabel": "URL ng Website",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Pamagat (Opsyonal)",
+      "titlePlaceholder": "Aking Link",
+      "locationLabel": "Lokasyon",
+      "locationMainDashboard": "Pangunahing Dashboard",
+      "locationHeader": "Header (Favicon lamang)",
+      "locationFolder": "Folder: {{title}}",
+      "locationGroup": "Grupo: {{title}}",
+      "cancel": "Kanselahin",
+      "submit": "Magdagdag ng Link"
+    },
+    "theme": {
+      "title": "Tema at Hitsura",
+      "description": "I-customize ang hitsura ng iyong dashboard.",
+      "modeGroupLabel": "Mode ng tema",
+      "light": "Maliwanag",
+      "dark": "Madilim",
+      "device": "Device",
+      "primaryColorHeading": "Pangunahing Kulay",
+      "primaryColorPresetsLabel": "Mga preset ng pangunahing kulay",
+      "customColorLabel": "Custom na kulay",
+      "customColorTitle": "Custom na kulay",
+      "customHue": "Custom na Hue",
+      "backgroundHeading": "Background",
+      "backgroundTypeLabel": "Uri ng background",
+      "backgroundColorLabel": "Kulay ng background",
+      "backgroundGradientLabel": "Gradient ng background",
+      "imageUrlPlaceholder": "I-paste ang URL ng larawan...",
+      "uploadImage": "Mag-upload ng Larawan",
+      "imageUploaded": "Na-upload ang custom na larawan.",
+      "blur": "Blur",
+      "dim": "Paliimin",
+      "fileReadError": "Nabigo ang pagbabasa ng file.",
+      "bgType": {
+        "none": "Wala",
+        "color": "Kulay",
+        "gradient": "Gradient",
+        "image": "Larawan"
+      }
+    },
+    "clear": {
+      "title": "I-clear ang dashboard",
+      "description": "Inaalis nito ang mga widget mula sa dashboard. Nasa edit mode ka, kaya maaari ka pa ring mag-cancel bago mag-save.",
+      "widgetsGroups": "Mga widget at grupo sa pangunahing grid",
+      "linksInsideGroups": "↳ mga link sa loob ng mga grupo",
+      "headerBarLinks": "Mga link sa header bar",
+      "alsoClearHeaderLabel": "I-clear din ang mga link sa header bar",
+      "alsoClearHeaderDesc": "Sa default, nananatili ang header bar. Lagyan ng tsek ito para burahin din ito.",
+      "widgetGroups_one": "Mabubura ang <strong>{{count}}</strong> widget/grupo",
+      "widgetGroups_other": "Mabubura ang <strong>{{count}}</strong> mga widget/grupo",
+      "headerLinks_one": "<strong>{{count}}</strong> link sa header",
+      "headerLinks_other": "<strong>{{count}}</strong> mga link sa header",
+      "andConnector": " at ",
+      "cancelRestores": ". Ang Cancel sa toolbar ng edit mode ay ibabalik ang mga ito.",
+      "nothingToClear": "Walang i-clear sa kasalukuyang seleksyon.",
+      "cancelButton": "Kanselahin",
+      "clearWidgets": "I-clear ang mga widget",
+      "clearEverything": "I-clear ang lahat"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Ibahagi ang item na ito",
+      "copyLink": "Kopyahin ang link",
+      "linkCopied": "Nakopya ang link",
+      "shareOn": "Ibahagi sa {{platform}}",
+      "shareVia": "Ibahagi sa pamamagitan ng {{platform}}"
+    }
+  }
+}

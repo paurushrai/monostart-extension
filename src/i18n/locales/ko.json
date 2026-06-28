@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "삭제",
+    "cancel": "취소",
+    "save": "저장",
+    "copy": "복사",
+    "copied": "복사됨"
+  },
+  "header": {
+    "menu": {
+      "language": "언어",
+      "addLink": "링크 추가",
+      "addWidget": "위젯 추가",
+      "editDashboard": "대시보드 편집",
+      "theme": "테마 및 외관",
+      "share": "MonoStart 공유",
+      "openInNewTab": "새 탭에서 링크 열기"
+    },
+    "settings": "설정",
+    "clear": "초기화",
+    "clearDashboard": "대시보드 초기화",
+    "cancel": "취소",
+    "save": "저장"
+  },
+  "widgets": {
+    "deleteWidget": "위젯 삭제",
+    "placeholder": {
+      "place": "배치",
+      "dropToPlace": "여기에 놓기"
+    },
+    "todo": {
+      "defaultTitle": "할 일",
+      "empty": "아직 할 일이 없습니다.",
+      "deleteTask": "할 일 삭제",
+      "placeholder": "할 일 추가...",
+      "newTaskAriaLabel": "새 할 일",
+      "addTask": "할 일 추가",
+      "toggleAriaLabel": "\"{{text}}\"을(를) {{status}}로 표시",
+      "statusComplete": "완료",
+      "statusIncomplete": "미완료"
+    },
+    "timer": {
+      "defaultTitle": "타이머",
+      "empty": "설정된 타이머가 없습니다.",
+      "deleteTimer": "타이머 삭제",
+      "pause": "일시정지",
+      "start": "시작",
+      "reset": "초기화",
+      "placeholderMin": "분",
+      "durationAriaLabel": "타이머 시간(분)",
+      "placeholderLabel": "레이블 (선택)",
+      "labelAriaLabel": "타이머 레이블 (선택)",
+      "addTimer": "타이머 추가"
+    },
+    "reminders": {
+      "defaultTitle": "리마인더",
+      "empty": "아직 리마인더가 없습니다.",
+      "deleteReminder": "리마인더 삭제",
+      "placeholder": "나에게 알림...",
+      "textAriaLabel": "리마인더 텍스트",
+      "recurrenceTitle": "반복",
+      "addReminder": "리마인더 추가",
+      "customIntervalAriaLabel": "사용자 지정 간격 값",
+      "customUnitAriaLabel": "사용자 지정 간격 단위",
+      "unitMinutes": "분",
+      "unitHours": "시간",
+      "unitDays": "일",
+      "saveRecurrence": "저장",
+      "toggleAriaLabel": "\"{{text}}\"을(를) {{status}}로 표시",
+      "statusComplete": "완료",
+      "statusIncomplete": "미완료",
+      "recurrenceNone": "한 번",
+      "recurrence30min": "30분마다",
+      "recurrenceHourly": "매시간",
+      "recurrenceDaily": "매일",
+      "recurrenceWeekly": "매주",
+      "recurrenceCustom": "사용자 지정",
+      "everyDay": "{{count}}일마다",
+      "everyHour": "{{count}}시간마다",
+      "everyMin": "{{count}}분마다",
+      "every": "마다",
+      "today": "오늘 {{time}}",
+      "tomorrow": "내일 {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "메모",
+      "changeColor": "색상 변경",
+      "placeholder": "무언가를 작성하세요...",
+      "contentAriaLabel": "메모 내용",
+      "titleAriaLabel": "메모 제목",
+      "actionsAriaLabel": "메모 동작",
+      "color_default": "기본",
+      "color_amber": "노란색",
+      "color_sky": "파란색",
+      "color_rose": "분홍색",
+      "color_emerald": "초록색",
+      "color_purple": "보라색"
+    },
+    "image": {
+      "defaultTitle": "이미지",
+      "settings": "이미지 설정",
+      "actionsAriaLabel": "이미지 동작",
+      "titleAriaLabel": "이미지 제목",
+      "changeImage": "이미지 변경",
+      "fitCover": "채우기 (자르기)",
+      "fitContain": "맞추기 (비율 유지)",
+      "fitFill": "늘리기 (변형)",
+      "configureTitle": "위젯 이미지 구성",
+      "urlPlaceholder": "이미지 URL 붙여넣기...",
+      "or": "또는",
+      "uploadLocal": "로컬 이미지 업로드",
+      "cancelConfig": "구성 취소",
+      "loadError": "이미지를 불러오지 못했습니다. URL이 잘못되었거나 차단되었을 수 있습니다."
+    },
+    "label": {
+      "defaultText": "텍스트",
+      "settings": "텍스트 설정",
+      "actionsAriaLabel": "레이블 동작",
+      "textAriaLabel": "레이블 텍스트",
+      "editText": "텍스트 편집",
+      "showCardStyle": "카드 스타일 표시",
+      "fontSize": "글꼴 크기",
+      "alignment": "정렬",
+      "fontWeight": "글꼴 굵기",
+      "opacity": "불투명도",
+      "deleteText": "텍스트 삭제",
+      "alignLeft": "왼쪽",
+      "alignCenter": "가운데",
+      "alignRight": "오른쪽",
+      "fontSizes": {
+        "sm": "작게",
+        "base": "보통",
+        "lg": "크게",
+        "xl": "매우 크게",
+        "xl2": "2배 크게",
+        "xl3": "3배 크게",
+        "xl4": "4배 크게",
+        "xl5": "5배 크게",
+        "xl6": "6배 크게",
+        "xl7": "7배 크게",
+        "xl8": "8배 크게",
+        "xl9": "9배 크게",
+        "xl10": "10배 크게",
+        "xl12": "12배 크게"
+      },
+      "fontWeights": {
+        "thin": "가늘게",
+        "light": "얇게",
+        "regular": "보통",
+        "medium": "중간",
+        "semibold": "반굵게",
+        "bold": "굵게",
+        "extrabold": "매우 굵게",
+        "black": "최대 굵기"
+      },
+      "opacities": {
+        "full": "100% (밝게)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (흐리게)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google 검색 또는 URL 입력",
+      "searchAriaLabel": "검색어",
+      "voiceSearch": "음성 검색",
+      "lensSearch": "Lens로 이미지 검색",
+      "removeWidget": "위젯 제거",
+      "switchToBarOnly": "검색창만 표시로 전환",
+      "switchToLogoBar": "로고 + 검색창으로 전환",
+      "barOnly": "검색창만",
+      "showLogo": "로고 표시",
+      "toggleLogoStyle": "로고 스타일 전환"
+    },
+    "group": {
+      "borderColorAriaLabel": "그룹 테두리 색상",
+      "pasteUrlPlaceholder": "URL 붙여넣기...",
+      "colors": {
+        "red": "빨간색",
+        "pink": "분홍색",
+        "purple": "보라색",
+        "indigo": "남색",
+        "blue": "파란색",
+        "cyan": "청록색",
+        "teal": "틸",
+        "green": "초록색",
+        "yellow": "노란색",
+        "orange": "주황색",
+        "slate": "슬레이트",
+        "neutral": "중립"
+      }
+    },
+    "groupHeader": {
+      "addLink": "링크 추가",
+      "colorBorder": "테두리 색상",
+      "layout": "레이아웃",
+      "layoutGrid": "그리드",
+      "layoutList": "목록",
+      "gridColumns": "그리드 열",
+      "column_one": "{{count}}열",
+      "column_other": "{{count}}열",
+      "deleteGroup": "그룹 삭제",
+      "actionsAriaLabel": "그룹 동작"
+    },
+    "groupInnerGrid": {
+      "empty": "빈 그룹",
+      "addFirstLink": "첫 번째 링크 추가",
+      "dropToAdd": "여기에 놓아 추가",
+      "add": "추가"
+    },
+    "iframe": {
+      "removeWidget": "위젯 제거",
+      "openInNewTab": "새 탭에서 열기"
+    },
+    "linkCard": {
+      "options": "옵션",
+      "rename": "이름 변경",
+      "size": "크기",
+      "sizeSmall": "작게 (1×1)",
+      "sizeMedium": "보통 (3×1)",
+      "moveTo": "이동...",
+      "mainDashboard": "메인 대시보드",
+      "header": "헤더",
+      "deleteLink": "링크 삭제",
+      "actionsAriaLabel": "링크 동작"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "빈 사진 위젯 {{count}}개를 제거했습니다.",
+    "removedEmptyPhotos_other": "빈 사진 위젯 {{count}}개를 제거했습니다.",
+    "clearedWidgets_one": "위젯 {{count}}개",
+    "clearedWidgets_other": "위젯 {{count}}개",
+    "clearedHeaderLinks_one": "헤더 링크 {{count}}개",
+    "clearedHeaderLinks_other": "헤더 링크 {{count}}개",
+    "clearedSummary": "{{items}}을(를) 지웠습니다. 취소하면 되돌리거나, 저장하면 확정됩니다.",
+    "onlyOneGoogleSearch": "Google 검색 위젯은 하나만 허용됩니다.",
+    "noRoomForWidget": "이 위젯을 넣을 공간이 없습니다. 크기를 조정하거나 다른 것을 제거하세요.",
+    "swap": {
+      "no-room": "교체 불가 — 새 위치에 두 위젯을 모두 배치할 공간이 부족합니다.",
+      "out-of-bounds": "교체 불가 — 위젯 중 하나가 최소 크기에서 그리드 가장자리를 벗어납니다.",
+      "overlap": "교체 불가 — 두 위젯의 최소 크기가 서로 겹칩니다.",
+      "obstacle": "교체 불가 — 다른 위젯이 방해가 됩니다. 먼저 이동하거나 크기를 조정하세요."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStart에 저장",
+    "saveLink": "링크 저장",
+    "saved": "저장됨!",
+    "openDashboard": "대시보드 열기",
+    "destination": {
+      "label": "위치",
+      "main": "메인 대시보드",
+      "header": "헤더 바"
+    },
+    "reminders": {
+      "ariaLabel": "대기 중인 리마인더",
+      "count_one": "리마인더 {{count}}개",
+      "count_other": "리마인더 {{count}}개",
+      "clearAll": "모두 지우기",
+      "dismiss": "닫기"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome 하단 안내 숨기기",
+      "success": "하단이 숨겨졌습니다 — 전체 화면을 즐기세요!",
+      "corner": {
+        "title": "전체 화면 경험 얻기",
+        "intro": "Chrome은 MonoStart 아래에 하단 바를 추가합니다. 숨기려면 클릭하세요",
+        "cta": "Chrome 맞춤설정",
+        "ctaSuffix": "오른쪽 아래 모서리에 있습니다.",
+        "noFooter": "하단 바가 보이지 않으신가요? 이미 완료된 상태입니다 — 건너뛰세요."
+      },
+      "panel": {
+        "title": "거의 다 됐어요",
+        "intro": "다음 항목 아래",
+        "setting": "하단",
+        "turnOff": ", 끄세요",
+        "action": "새 탭 페이지에 하단 표시",
+        "suffix": ", 그런 다음 패널을 닫으세요."
+      },
+      "skip": "건너뛰기",
+      "next": "다음",
+      "done": "완료"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "언어",
+      "subtitle": "언어를 선택하세요",
+      "search": "언어 검색…",
+      "empty": "검색과 일치하는 언어가 없습니다."
+    },
+    "addWidget": {
+      "title": "위젯 추가",
+      "titleConfigure": "{{name}} 구성",
+      "titleGoogleStyle": "Google 검색 스타일 선택",
+      "logoBarTitle": "로고 + 검색창",
+      "logoBarDesc": "검색창 위에 큰 Google 로고. 4행을 차지합니다.",
+      "barOnlyTitle": "검색창만",
+      "barOnlyDesc": "검색창만 표시. 1행을 차지합니다. 간결합니다.",
+      "urlLabel": "URL 또는 삽입 코드",
+      "urlPlaceholder": "https://example.com\n또는\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "단순 삽입에는 URL을 붙여넣고, 직접 로딩을 차단하는 사이트(YouTube, Figma, Spotify, CodePen 등)에서는 <code>&lt;iframe&gt;</code> 코드를 붙여넣으세요.",
+      "back": "뒤로",
+      "embedWidget": "위젯 삽입"
+    },
+    "addLink": {
+      "title": "링크 추가",
+      "description": "URL을 붙여넣어 대시보드에 새 링크 카드를 추가하세요.",
+      "urlLabel": "웹사이트 URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "제목 (선택)",
+      "titlePlaceholder": "내 링크",
+      "locationLabel": "위치",
+      "locationMainDashboard": "메인 대시보드",
+      "locationHeader": "헤더 (파비콘만)",
+      "locationFolder": "폴더: {{title}}",
+      "locationGroup": "그룹: {{title}}",
+      "cancel": "취소",
+      "submit": "링크 추가"
+    },
+    "theme": {
+      "title": "테마 및 외관",
+      "description": "대시보드의 모양과 느낌을 사용자화하세요.",
+      "modeGroupLabel": "테마 모드",
+      "light": "밝게",
+      "dark": "어둡게",
+      "device": "기기",
+      "primaryColorHeading": "주 색상",
+      "primaryColorPresetsLabel": "주 색상 프리셋",
+      "customColorLabel": "사용자 지정 색상",
+      "customColorTitle": "사용자 지정 색상",
+      "customHue": "사용자 지정 색조",
+      "backgroundHeading": "배경",
+      "backgroundTypeLabel": "배경 유형",
+      "backgroundColorLabel": "배경 색상",
+      "backgroundGradientLabel": "배경 그라데이션",
+      "imageUrlPlaceholder": "이미지 URL 붙여넣기...",
+      "uploadImage": "이미지 업로드",
+      "imageUploaded": "사용자 지정 이미지가 업로드되었습니다.",
+      "blur": "흐림",
+      "dim": "어둡게",
+      "fileReadError": "파일을 읽지 못했습니다.",
+      "bgType": {
+        "none": "없음",
+        "color": "색상",
+        "gradient": "그라데이션",
+        "image": "이미지"
+      }
+    },
+    "clear": {
+      "title": "대시보드 초기화",
+      "description": "이 작업은 대시보드에서 위젯을 제거합니다. 편집 모드이므로 저장 전에 취소하여 되돌릴 수 있습니다.",
+      "widgetsGroups": "메인 그리드의 위젯 및 그룹",
+      "linksInsideGroups": "↳ 그룹 내부의 링크",
+      "headerBarLinks": "헤더 바 링크",
+      "alsoClearHeaderLabel": "헤더 바 링크도 지우기",
+      "alsoClearHeaderDesc": "기본적으로 헤더 바는 유지됩니다. 체크하면 함께 삭제됩니다.",
+      "widgetGroups_one": "<strong>{{count}}</strong>개의 위젯/그룹을 삭제하려 합니다",
+      "widgetGroups_other": "<strong>{{count}}</strong>개의 위젯/그룹을 삭제하려 합니다",
+      "headerLinks_one": "헤더 링크 <strong>{{count}}</strong>개",
+      "headerLinks_other": "헤더 링크 <strong>{{count}}</strong>개",
+      "andConnector": " 및 ",
+      "cancelRestores": ". 편집 모드 툴바에서 취소하면 복원됩니다.",
+      "nothingToClear": "현재 선택으로는 지울 항목이 없습니다.",
+      "cancelButton": "취소",
+      "clearWidgets": "위젯 지우기",
+      "clearEverything": "모두 지우기"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "이 항목 공유",
+      "copyLink": "링크 복사",
+      "linkCopied": "링크 복사됨",
+      "shareOn": "{{platform}}에서 공유",
+      "shareVia": "{{platform}}으로 공유"
+    }
+  }
+}

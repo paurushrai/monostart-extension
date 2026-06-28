@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Удалить",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "copy": "Копировать",
+    "copied": "Скопировано"
+  },
+  "header": {
+    "menu": {
+      "language": "Язык",
+      "addLink": "Добавить ссылку",
+      "addWidget": "Добавить виджет",
+      "editDashboard": "Редактировать панель",
+      "theme": "Тема и внешний вид",
+      "share": "Поделиться MonoStart",
+      "openInNewTab": "Открывать ссылки в новой вкладке"
+    },
+    "settings": "Настройки",
+    "clear": "Очистить",
+    "clearDashboard": "Очистить панель",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "widgets": {
+    "deleteWidget": "Удалить виджет",
+    "placeholder": {
+      "place": "Разместить",
+      "dropToPlace": "Перетащите для размещения"
+    },
+    "todo": {
+      "defaultTitle": "Задачи",
+      "empty": "Задач пока нет.",
+      "deleteTask": "Удалить задачу",
+      "placeholder": "Добавить задачу...",
+      "newTaskAriaLabel": "Новая задача",
+      "addTask": "Добавить задачу",
+      "toggleAriaLabel": "Отметить «{{text}}» как {{status}}",
+      "statusComplete": "выполнено",
+      "statusIncomplete": "не выполнено"
+    },
+    "timer": {
+      "defaultTitle": "Таймеры",
+      "empty": "Таймеры не установлены.",
+      "deleteTimer": "Удалить таймер",
+      "pause": "Пауза",
+      "start": "Старт",
+      "reset": "Сброс",
+      "placeholderMin": "Мин",
+      "durationAriaLabel": "Длительность таймера в минутах",
+      "placeholderLabel": "Метка (необязательно)",
+      "labelAriaLabel": "Метка таймера (необязательно)",
+      "addTimer": "Добавить таймер"
+    },
+    "reminders": {
+      "defaultTitle": "Напоминания",
+      "empty": "Напоминаний пока нет.",
+      "deleteReminder": "Удалить напоминание",
+      "placeholder": "Напомнить мне...",
+      "textAriaLabel": "Текст напоминания",
+      "recurrenceTitle": "Повторение",
+      "addReminder": "Добавить напоминание",
+      "customIntervalAriaLabel": "Значение пользовательского интервала",
+      "customUnitAriaLabel": "Единица пользовательского интервала",
+      "unitMinutes": "Минуты",
+      "unitHours": "Часы",
+      "unitDays": "Дни",
+      "saveRecurrence": "Сохранить",
+      "toggleAriaLabel": "Отметить «{{text}}» как {{status}}",
+      "statusComplete": "выполнено",
+      "statusIncomplete": "не выполнено",
+      "recurrenceNone": "Однократно",
+      "recurrence30min": "Каждые 30 мин",
+      "recurrenceHourly": "Ежечасно",
+      "recurrenceDaily": "Ежедневно",
+      "recurrenceWeekly": "Еженедельно",
+      "recurrenceCustom": "Пользовательское",
+      "everyDay": "Каждые {{count}}д",
+      "everyHour": "Каждые {{count}}ч",
+      "everyMin": "Каждые {{count}}м",
+      "every": "Каждые",
+      "today": "Сегодня {{time}}",
+      "tomorrow": "Завтра {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Заметка",
+      "changeColor": "Изменить цвет",
+      "placeholder": "Напишите что-нибудь...",
+      "contentAriaLabel": "Содержимое заметки",
+      "titleAriaLabel": "Заголовок заметки",
+      "actionsAriaLabel": "Действия с заметкой",
+      "color_default": "По умолчанию",
+      "color_amber": "Жёлтый",
+      "color_sky": "Голубой",
+      "color_rose": "Розовый",
+      "color_emerald": "Зелёный",
+      "color_purple": "Фиолетовый"
+    },
+    "image": {
+      "defaultTitle": "Изображение",
+      "settings": "Настройки изображения",
+      "actionsAriaLabel": "Действия с изображением",
+      "titleAriaLabel": "Заголовок изображения",
+      "changeImage": "Изменить изображение",
+      "fitCover": "Заполнение (Обрезка)",
+      "fitContain": "Вписать (Пропорции)",
+      "fitFill": "Растянуть (По размеру)",
+      "configureTitle": "Настроить изображение виджета",
+      "urlPlaceholder": "Вставьте URL изображения...",
+      "or": "Или",
+      "uploadLocal": "Загрузить локальное изображение",
+      "cancelConfig": "Отмена настройки",
+      "loadError": "Не удалось загрузить изображение. URL может быть недействительным или заблокированным."
+    },
+    "label": {
+      "defaultText": "Текст",
+      "settings": "Настройки текста",
+      "actionsAriaLabel": "Действия с меткой",
+      "textAriaLabel": "Текст метки",
+      "editText": "Редактировать текст",
+      "showCardStyle": "Показать стиль карточки",
+      "fontSize": "Размер шрифта",
+      "alignment": "Выравнивание",
+      "fontWeight": "Насыщенность шрифта",
+      "opacity": "Прозрачность",
+      "deleteText": "Удалить текст",
+      "alignLeft": "По левому краю",
+      "alignCenter": "По центру",
+      "alignRight": "По правому краю",
+      "fontSizes": {
+        "sm": "Маленький",
+        "base": "Средний",
+        "lg": "Большой",
+        "xl": "Очень большой",
+        "xl2": "2X большой",
+        "xl3": "3X большой",
+        "xl4": "4X большой",
+        "xl5": "5X большой",
+        "xl6": "6X большой",
+        "xl7": "7X большой",
+        "xl8": "8X большой",
+        "xl9": "9X большой",
+        "xl10": "10X большой",
+        "xl12": "12X большой"
+      },
+      "fontWeights": {
+        "thin": "Тонкий",
+        "light": "Лёгкий",
+        "regular": "Обычный",
+        "medium": "Средний",
+        "semibold": "Полужирный",
+        "bold": "Жирный",
+        "extrabold": "Сверхжирный",
+        "black": "Чёрный"
+      },
+      "opacities": {
+        "full": "100% (Яркий)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Приглушённый)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Поиск в Google или введите URL",
+      "searchAriaLabel": "Поисковый запрос",
+      "voiceSearch": "Голосовой поиск",
+      "lensSearch": "Искать любое изображение с Lens",
+      "removeWidget": "Удалить виджет",
+      "switchToBarOnly": "Переключиться только на строку",
+      "switchToLogoBar": "Переключиться на логотип + строку",
+      "barOnly": "Только строка",
+      "showLogo": "Показать логотип",
+      "toggleLogoStyle": "Переключить стиль логотипа"
+    },
+    "group": {
+      "borderColorAriaLabel": "Цвет границы группы",
+      "pasteUrlPlaceholder": "Вставьте URL...",
+      "colors": {
+        "red": "Красный",
+        "pink": "Розовый",
+        "purple": "Фиолетовый",
+        "indigo": "Индиго",
+        "blue": "Синий",
+        "cyan": "Голубой",
+        "teal": "Бирюзовый",
+        "green": "Зелёный",
+        "yellow": "Жёлтый",
+        "orange": "Оранжевый",
+        "slate": "Сланцевый",
+        "neutral": "Нейтральный"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Добавить ссылку",
+      "colorBorder": "Цвет границы",
+      "layout": "Макет",
+      "layoutGrid": "Сетка",
+      "layoutList": "Список",
+      "gridColumns": "Столбцы сетки",
+      "column_one": "{{count}} столбец",
+      "column_other": "{{count}} столбцов",
+      "deleteGroup": "Удалить группу",
+      "actionsAriaLabel": "Действия с группой"
+    },
+    "groupInnerGrid": {
+      "empty": "Пустая группа",
+      "addFirstLink": "Добавить первую ссылку",
+      "dropToAdd": "Перетащите для добавления",
+      "add": "Добавить"
+    },
+    "iframe": {
+      "removeWidget": "Удалить виджет",
+      "openInNewTab": "Открыть в новой вкладке"
+    },
+    "linkCard": {
+      "options": "Параметры",
+      "rename": "Переименовать",
+      "size": "Размер",
+      "sizeSmall": "Маленький (1×1)",
+      "sizeMedium": "Средний (3×1)",
+      "moveTo": "Переместить в...",
+      "mainDashboard": "Главная панель",
+      "header": "Шапка",
+      "deleteLink": "Удалить ссылку",
+      "actionsAriaLabel": "Действия со ссылкой"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Удалён {{count}} пустой фотовиджет.",
+    "removedEmptyPhotos_other": "Удалено {{count}} пустых фотовиджетов.",
+    "clearedWidgets_one": "{{count}} виджет",
+    "clearedWidgets_other": "{{count}} виджетов",
+    "clearedHeaderLinks_one": "{{count}} ссылка шапки",
+    "clearedHeaderLinks_other": "{{count}} ссылок шапки",
+    "clearedSummary": "Очищено {{items}}. Нажмите Отмена для отмены или Сохранить для подтверждения.",
+    "onlyOneGoogleSearch": "Допускается только один виджет поиска Google.",
+    "noRoomForWidget": "Нет места для этого виджета. Измените размер или удалите что-нибудь, чтобы освободить место.",
+    "swap": {
+      "no-room": "Невозможно поменять местами — недостаточно места для обоих виджетов на новых позициях.",
+      "out-of-bounds": "Невозможно поменять местами — один из виджетов выйдет за пределы сетки при минимальном размере.",
+      "overlap": "Невозможно поменять местами — минимальные размеры двух виджетов перекрываются.",
+      "obstacle": "Невозможно поменять местами — другой виджет мешает. Переместите или измените его размер сначала."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Сохранить в MonoStart",
+    "saveLink": "Сохранить ссылку",
+    "saved": "Сохранено!",
+    "openDashboard": "Открыть панель",
+    "destination": {
+      "label": "Назначение",
+      "main": "Главная панель",
+      "header": "Строка шапки"
+    },
+    "reminders": {
+      "ariaLabel": "Ожидающие напоминания",
+      "count_one": "{{count}} напоминание",
+      "count_other": "{{count}} напоминаний",
+      "clearAll": "Очистить всё",
+      "dismiss": "Закрыть"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Скрыть руководство по нижнему колонтитулу Chrome",
+      "success": "Нижний колонтитул скрыт — наслаждайтесь полным экраном!",
+      "corner": {
+        "title": "Получите опыт на весь экран",
+        "intro": "Chrome добавляет нижний колонтитул под MonoStart. Чтобы скрыть его, нажмите",
+        "cta": "Настроить Chrome",
+        "ctaSuffix": "в правом нижнем углу.",
+        "noFooter": "Не видите нижний колонтитул? Всё готово — пропустите это."
+      },
+      "panel": {
+        "title": "Почти готово",
+        "intro": "В разделе",
+        "setting": "Нижний колонтитул",
+        "turnOff": ", отключите",
+        "action": "Показывать нижний колонтитул на странице новой вкладки",
+        "suffix": ", затем закройте панель."
+      },
+      "skip": "Пропустить",
+      "next": "Далее",
+      "done": "Готово"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Язык",
+      "subtitle": "Выберите язык",
+      "search": "Поиск языков…",
+      "empty": "Нет языков, соответствующих вашему поиску."
+    },
+    "addWidget": {
+      "title": "Добавить виджет",
+      "titleConfigure": "Настроить {{name}}",
+      "titleGoogleStyle": "Выберите стиль поиска Google",
+      "logoBarTitle": "Логотип + строка",
+      "logoBarDesc": "Большой логотип Google над строкой поиска. Занимает 4 строки.",
+      "barOnlyTitle": "Только строка",
+      "barOnlyDesc": "Только строка поиска. Занимает 1 строку. Компактно.",
+      "urlLabel": "URL или код для встраивания",
+      "urlPlaceholder": "https://example.com\nили\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Вставьте URL для простых встраиваний или вставьте фрагмент <code>&lt;iframe&gt;</code> с сайтов, блокирующих прямую загрузку (YouTube, Figma, Spotify, CodePen и др.).",
+      "back": "Назад",
+      "embedWidget": "Встроить виджет"
+    },
+    "addLink": {
+      "title": "Добавить ссылку",
+      "description": "Вставьте URL, чтобы добавить новую карточку ссылки на панель.",
+      "urlLabel": "URL сайта",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Заголовок (необязательно)",
+      "titlePlaceholder": "Моя ссылка",
+      "locationLabel": "Расположение",
+      "locationMainDashboard": "Главная панель",
+      "locationHeader": "Шапка (только Favicon)",
+      "locationFolder": "Папка: {{title}}",
+      "locationGroup": "Группа: {{title}}",
+      "cancel": "Отмена",
+      "submit": "Добавить ссылку"
+    },
+    "theme": {
+      "title": "Тема и внешний вид",
+      "description": "Настройте внешний вид вашей панели.",
+      "modeGroupLabel": "Режим темы",
+      "light": "Светлый",
+      "dark": "Тёмный",
+      "device": "Устройство",
+      "primaryColorHeading": "Основной цвет",
+      "primaryColorPresetsLabel": "Предустановки основного цвета",
+      "customColorLabel": "Пользовательский цвет",
+      "customColorTitle": "Пользовательский цвет",
+      "customHue": "Пользовательский оттенок",
+      "backgroundHeading": "Фон",
+      "backgroundTypeLabel": "Тип фона",
+      "backgroundColorLabel": "Цвет фона",
+      "backgroundGradientLabel": "Градиент фона",
+      "imageUrlPlaceholder": "Вставьте URL изображения...",
+      "uploadImage": "Загрузить изображение",
+      "imageUploaded": "Пользовательское изображение загружено.",
+      "blur": "Размытие",
+      "dim": "Затемнение",
+      "fileReadError": "Не удалось прочитать файл.",
+      "bgType": {
+        "none": "Нет",
+        "color": "Цвет",
+        "gradient": "Градиент",
+        "image": "Изображение"
+      }
+    },
+    "clear": {
+      "title": "Очистить панель",
+      "description": "Это удаляет виджеты с панели. Вы в режиме редактирования, поэтому можете нажать Отмена для отмены до сохранения.",
+      "widgetsGroups": "Виджеты и группы на основной сетке",
+      "linksInsideGroups": "↳ ссылки внутри групп",
+      "headerBarLinks": "Ссылки строки шапки",
+      "alsoClearHeaderLabel": "Также очистить ссылки строки шапки",
+      "alsoClearHeaderDesc": "По умолчанию строка шапки сохраняется. Отметьте это, чтобы также очистить её.",
+      "widgetGroups_one": "Будет удалён <strong>{{count}}</strong> виджет/группа",
+      "widgetGroups_other": "Будет удалено <strong>{{count}}</strong> виджетов/групп",
+      "headerLinks_one": "<strong>{{count}}</strong> ссылка шапки",
+      "headerLinks_other": "<strong>{{count}}</strong> ссылок шапки",
+      "andConnector": " и ",
+      "cancelRestores": ". Отмена в панели инструментов режима редактирования восстановит их.",
+      "nothingToClear": "Нечего очищать при текущем выборе.",
+      "cancelButton": "Отмена",
+      "clearWidgets": "Очистить виджеты",
+      "clearEverything": "Очистить всё"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Поделиться этим элементом",
+      "copyLink": "Копировать ссылку",
+      "linkCopied": "Ссылка скопирована",
+      "shareOn": "Поделиться в {{platform}}",
+      "shareVia": "Поделиться через {{platform}}"
+    }
+  }
+}

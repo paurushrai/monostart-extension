@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Șterge",
+    "cancel": "Anulează",
+    "save": "Salvează",
+    "copy": "Copiază",
+    "copied": "Copiat"
+  },
+  "header": {
+    "menu": {
+      "language": "Limbă",
+      "addLink": "Adaugă link",
+      "addWidget": "Adaugă widget",
+      "editDashboard": "Editează tabloul de bord",
+      "theme": "Temă și aspect",
+      "share": "Distribuie MonoStart",
+      "openInNewTab": "Deschide linkurile în filă nouă"
+    },
+    "settings": "Setări",
+    "clear": "Curăță",
+    "clearDashboard": "Curăță tabloul de bord",
+    "cancel": "Anulează",
+    "save": "Salvează"
+  },
+  "widgets": {
+    "deleteWidget": "Șterge widget",
+    "placeholder": {
+      "place": "Plasează",
+      "dropToPlace": "Trage pentru a plasa"
+    },
+    "todo": {
+      "defaultTitle": "Sarcini",
+      "empty": "Nicio sarcină încă.",
+      "deleteTask": "Șterge sarcina",
+      "placeholder": "Adaugă o sarcină...",
+      "newTaskAriaLabel": "Sarcină nouă",
+      "addTask": "Adaugă sarcină",
+      "toggleAriaLabel": "Marchează \"{{text}}\" ca {{status}}",
+      "statusComplete": "completată",
+      "statusIncomplete": "incompletă"
+    },
+    "timer": {
+      "defaultTitle": "Cronometre",
+      "empty": "Niciun cronometru setat.",
+      "deleteTimer": "Șterge cronometrul",
+      "pause": "Pauză",
+      "start": "Start",
+      "reset": "Resetează",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Durata cronometrului în minute",
+      "placeholderLabel": "Etichetă (opțional)",
+      "labelAriaLabel": "Eticheta cronometrului (opțional)",
+      "addTimer": "Adaugă cronometru"
+    },
+    "reminders": {
+      "defaultTitle": "Mementouri",
+      "empty": "Niciun memento încă.",
+      "deleteReminder": "Șterge mementoul",
+      "placeholder": "Amintește-mi să...",
+      "textAriaLabel": "Textul mementoului",
+      "recurrenceTitle": "Recurență",
+      "addReminder": "Adaugă memento",
+      "customIntervalAriaLabel": "Valoarea intervalului personalizat",
+      "customUnitAriaLabel": "Unitatea intervalului personalizat",
+      "unitMinutes": "Minute",
+      "unitHours": "Ore",
+      "unitDays": "Zile",
+      "saveRecurrence": "Salvează",
+      "toggleAriaLabel": "Marchează \"{{text}}\" ca {{status}}",
+      "statusComplete": "completat",
+      "statusIncomplete": "incomplet",
+      "recurrenceNone": "O dată",
+      "recurrence30min": "La fiecare 30 min",
+      "recurrenceHourly": "Orar",
+      "recurrenceDaily": "Zilnic",
+      "recurrenceWeekly": "Săptămânal",
+      "recurrenceCustom": "Personalizat",
+      "everyDay": "La fiecare {{count}}z",
+      "everyHour": "La fiecare {{count}}h",
+      "everyMin": "La fiecare {{count}}m",
+      "every": "La fiecare",
+      "today": "Azi {{time}}",
+      "tomorrow": "Mâine {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Notă",
+      "changeColor": "Schimbă culoarea",
+      "placeholder": "Scrie ceva...",
+      "contentAriaLabel": "Conținutul notei",
+      "titleAriaLabel": "Titlul notei",
+      "actionsAriaLabel": "Acțiuni notă",
+      "color_default": "Implicit",
+      "color_amber": "Galben",
+      "color_sky": "Albastru",
+      "color_rose": "Roz",
+      "color_emerald": "Verde",
+      "color_purple": "Violet"
+    },
+    "image": {
+      "defaultTitle": "Imagine",
+      "settings": "Setări imagine",
+      "actionsAriaLabel": "Acțiuni imagine",
+      "titleAriaLabel": "Titlul imaginii",
+      "changeImage": "Schimbă imaginea",
+      "fitCover": "Acoperire (Decupare)",
+      "fitContain": "Conținut (Aspect)",
+      "fitFill": "Umplere (Întindere)",
+      "configureTitle": "Configurează imaginea widget-ului",
+      "urlPlaceholder": "Lipește URL-ul imaginii...",
+      "or": "Sau",
+      "uploadLocal": "Încarcă imagine locală",
+      "cancelConfig": "Anulează configurarea",
+      "loadError": "Imaginea nu s-a putut încărca. URL-ul ar putea fi întrerupt sau blocat."
+    },
+    "label": {
+      "defaultText": "Text",
+      "settings": "Setări text",
+      "actionsAriaLabel": "Acțiuni etichetă",
+      "textAriaLabel": "Textul etichetei",
+      "editText": "Editează textul",
+      "showCardStyle": "Afișează stilul card",
+      "fontSize": "Dimensiune font",
+      "alignment": "Aliniere",
+      "fontWeight": "Grosime font",
+      "opacity": "Opacitate",
+      "deleteText": "Șterge textul",
+      "alignLeft": "Stânga",
+      "alignCenter": "Centru",
+      "alignRight": "Dreapta",
+      "fontSizes": {
+        "sm": "Mic",
+        "base": "Mediu",
+        "lg": "Mare",
+        "xl": "Foarte mare",
+        "xl2": "2X mare",
+        "xl3": "3X mare",
+        "xl4": "4X mare",
+        "xl5": "5X mare",
+        "xl6": "6X mare",
+        "xl7": "7X mare",
+        "xl8": "8X mare",
+        "xl9": "9X mare",
+        "xl10": "10X mare",
+        "xl12": "12X mare"
+      },
+      "fontWeights": {
+        "thin": "Subțire",
+        "light": "Ușor",
+        "regular": "Normal",
+        "medium": "Mediu",
+        "semibold": "Semi-îngroșat",
+        "bold": "Îngroșat",
+        "extrabold": "Extra îngroșat",
+        "black": "Negru"
+      },
+      "opacities": {
+        "full": "100% (Strălucitor)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Estompat)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Caută pe Google sau introdu un URL",
+      "searchAriaLabel": "Interogare de căutare",
+      "voiceSearch": "Căutare vocală",
+      "lensSearch": "Caută orice imagine cu Lens",
+      "removeWidget": "Elimină widget",
+      "switchToBarOnly": "Comută la doar bară",
+      "switchToLogoBar": "Comută la logo + bară",
+      "barOnly": "Doar bară",
+      "showLogo": "Afișează logo",
+      "toggleLogoStyle": "Schimbă stilul logo-ului"
+    },
+    "group": {
+      "borderColorAriaLabel": "Culoarea bordurii grupului",
+      "pasteUrlPlaceholder": "Lipește URL...",
+      "colors": {
+        "red": "Roșu",
+        "pink": "Roz",
+        "purple": "Violet",
+        "indigo": "Indigo",
+        "blue": "Albastru",
+        "cyan": "Cyan",
+        "teal": "Teal",
+        "green": "Verde",
+        "yellow": "Galben",
+        "orange": "Portocaliu",
+        "slate": "Slate",
+        "neutral": "Neutru"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Adaugă link",
+      "colorBorder": "Colorează bordura",
+      "layout": "Aspect",
+      "layoutGrid": "Grilă",
+      "layoutList": "Listă",
+      "gridColumns": "Coloane grilă",
+      "column_one": "{{count}} coloană",
+      "column_other": "{{count}} coloane",
+      "deleteGroup": "Șterge grupul",
+      "actionsAriaLabel": "Acțiuni grup"
+    },
+    "groupInnerGrid": {
+      "empty": "Grup gol",
+      "addFirstLink": "Adaugă primul link",
+      "dropToAdd": "Trage pentru a adăuga",
+      "add": "Adaugă"
+    },
+    "iframe": {
+      "removeWidget": "Elimină widget",
+      "openInNewTab": "Deschide în filă nouă"
+    },
+    "linkCard": {
+      "options": "Opțiuni",
+      "rename": "Redenumește",
+      "size": "Dimensiune",
+      "sizeSmall": "Mic (1×1)",
+      "sizeMedium": "Mediu (3×1)",
+      "moveTo": "Mută în...",
+      "mainDashboard": "Tabloul de bord principal",
+      "header": "Antet",
+      "deleteLink": "Șterge linkul",
+      "actionsAriaLabel": "Acțiuni link"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "S-a eliminat {{count}} widget foto gol.",
+    "removedEmptyPhotos_other": "S-au eliminat {{count}} widget-uri foto goale.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widget-uri",
+    "clearedHeaderLinks_one": "{{count}} link antet",
+    "clearedHeaderLinks_other": "{{count}} linkuri antet",
+    "clearedSummary": "S-au șters {{items}}. Anulează pentru a reveni sau Salvează pentru a confirma.",
+    "onlyOneGoogleSearch": "Este permis un singur widget de căutare Google.",
+    "noRoomForWidget": "Nu există spațiu pentru acest widget. Redimensionează sau elimină ceva pentru a face loc.",
+    "swap": {
+      "no-room": "Nu se poate schimba — nu este suficient spațiu pentru ambele widget-uri la noile lor poziții.",
+      "out-of-bounds": "Nu se poate schimba — unul dintre widget-uri ar depăși marginea grilei la dimensiunea sa minimă.",
+      "overlap": "Nu se poate schimba — dimensiunile minime ale celor două widget-uri se suprapun.",
+      "obstacle": "Nu se poate schimba — un alt widget este în cale. Mută-l sau redimensionează-l mai întâi."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Salvează în MonoStart",
+    "saveLink": "Salvează linkul",
+    "saved": "Salvat!",
+    "openDashboard": "Deschide tabloul de bord",
+    "destination": {
+      "label": "Destinație",
+      "main": "Tabloul de bord principal",
+      "header": "Bara de antet"
+    },
+    "reminders": {
+      "ariaLabel": "Mementouri în așteptare",
+      "count_one": "{{count}} memento",
+      "count_other": "{{count}} mementouri",
+      "clearAll": "Șterge tot",
+      "dismiss": "Respinge"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Ascunde ghidul de subsol Chrome",
+      "success": "Subsolul este ascuns — bucură-te de ecranul complet!",
+      "corner": {
+        "title": "Obține experiența pe ecran complet",
+        "intro": "Chrome adaugă un subsol sub MonoStart. Pentru a-l ascunde, apasă",
+        "cta": "Personalizează Chrome",
+        "ctaSuffix": "în colțul din dreapta-jos.",
+        "noFooter": "Nu vezi un subsol? Ești gata — sari peste asta."
+      },
+      "panel": {
+        "title": "Aproape gata",
+        "intro": "La",
+        "setting": "Subsol",
+        "turnOff": ", dezactivează",
+        "action": "Afișează subsolul pe pagina filă nouă",
+        "suffix": ", apoi închide panoul."
+      },
+      "skip": "Sari peste",
+      "next": "Următor",
+      "done": "Gata"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Limbă",
+      "subtitle": "Alege limba ta",
+      "search": "Caută limbi…",
+      "empty": "Nicio limbă nu corespunde căutării tale."
+    },
+    "addWidget": {
+      "title": "Adaugă widget",
+      "titleConfigure": "Configurează {{name}}",
+      "titleGoogleStyle": "Alege stilul de căutare Google",
+      "logoBarTitle": "Logo + bară",
+      "logoBarDesc": "Logo mare Google deasupra barei de căutare. Ocupă 4 rânduri.",
+      "barOnlyTitle": "Doar bară",
+      "barOnlyDesc": "Doar bara de căutare. Ocupă 1 rând. Compact.",
+      "urlLabel": "URL sau cod de încorporare",
+      "urlPlaceholder": "https://example.com\nsau\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Lipește un URL pentru încorporări simple sau lipește un fragment <code>&lt;iframe&gt;</code> de pe site-uri care blochează încărcarea directă (YouTube, Figma, Spotify, CodePen, etc.).",
+      "back": "Înapoi",
+      "embedWidget": "Încorporează widget"
+    },
+    "addLink": {
+      "title": "Adaugă link",
+      "description": "Lipește un URL pentru a adăuga un nou card de link pe tabloul de bord.",
+      "urlLabel": "URL site web",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Titlu (opțional)",
+      "titlePlaceholder": "Linkul meu",
+      "locationLabel": "Locație",
+      "locationMainDashboard": "Tabloul de bord principal",
+      "locationHeader": "Antet (doar favicon)",
+      "locationFolder": "Folder: {{title}}",
+      "locationGroup": "Grup: {{title}}",
+      "cancel": "Anulează",
+      "submit": "Adaugă link"
+    },
+    "theme": {
+      "title": "Temă și aspect",
+      "description": "Personalizează aspectul tabloului de bord.",
+      "modeGroupLabel": "Mod temă",
+      "light": "Luminos",
+      "dark": "Întunecat",
+      "device": "Dispozitiv",
+      "primaryColorHeading": "Culoare principală",
+      "primaryColorPresetsLabel": "Presetări culoare principală",
+      "customColorLabel": "Culoare personalizată",
+      "customColorTitle": "Culoare personalizată",
+      "customHue": "Nuanță personalizată",
+      "backgroundHeading": "Fundal",
+      "backgroundTypeLabel": "Tip fundal",
+      "backgroundColorLabel": "Culoare fundal",
+      "backgroundGradientLabel": "Gradient fundal",
+      "imageUrlPlaceholder": "Lipește URL-ul imaginii...",
+      "uploadImage": "Încarcă imagine",
+      "imageUploaded": "Imagine personalizată încărcată.",
+      "blur": "Estompare",
+      "dim": "Întunecare",
+      "fileReadError": "Citirea fișierului a eșuat.",
+      "bgType": {
+        "none": "Niciunul",
+        "color": "Culoare",
+        "gradient": "Gradient",
+        "image": "Imagine"
+      }
+    },
+    "clear": {
+      "title": "Curăță tabloul de bord",
+      "description": "Aceasta elimină widget-urile de pe tabloul de bord. Ești în modul de editare, deci poți apăsa Anulează pentru a reveni înainte de salvare.",
+      "widgetsGroups": "Widget-uri și grupuri pe grila principală",
+      "linksInsideGroups": "↳ linkuri în interiorul grupurilor",
+      "headerBarLinks": "Linkuri bara de antet",
+      "alsoClearHeaderLabel": "Curăță și linkurile barei de antet",
+      "alsoClearHeaderDesc": "În mod implicit bara de antet este păstrată. Bifează aceasta pentru a o șterge și pe ea.",
+      "widgetGroups_one": "Urmează să fie șters <strong>{{count}}</strong> widget/grup",
+      "widgetGroups_other": "Urmează să fie șterse <strong>{{count}}</strong> widget-uri/grupuri",
+      "headerLinks_one": "<strong>{{count}}</strong> link antet",
+      "headerLinks_other": "<strong>{{count}}</strong> linkuri antet",
+      "andConnector": " și ",
+      "cancelRestores": ". Anulează în bara de instrumente a modului de editare le restaurează.",
+      "nothingToClear": "Nu există nimic de șters cu selecția curentă.",
+      "cancelButton": "Anulează",
+      "clearWidgets": "Șterge widget-urile",
+      "clearEverything": "Șterge tot"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Distribuie acest element",
+      "copyLink": "Copiază linkul",
+      "linkCopied": "Link copiat",
+      "shareOn": "Distribuie pe {{platform}}",
+      "shareVia": "Distribuie prin {{platform}}"
+    }
+  }
+}

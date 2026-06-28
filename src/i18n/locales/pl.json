@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Usuń",
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "copy": "Kopiuj",
+    "copied": "Skopiowano"
+  },
+  "header": {
+    "menu": {
+      "language": "Język",
+      "addLink": "Dodaj link",
+      "addWidget": "Dodaj widget",
+      "editDashboard": "Edytuj pulpit",
+      "theme": "Motyw i wygląd",
+      "share": "Udostępnij MonoStart",
+      "openInNewTab": "Otwórz linki w nowej karcie"
+    },
+    "settings": "Ustawienia",
+    "clear": "Wyczyść",
+    "clearDashboard": "Wyczyść pulpit",
+    "cancel": "Anuluj",
+    "save": "Zapisz"
+  },
+  "widgets": {
+    "deleteWidget": "Usuń widget",
+    "placeholder": {
+      "place": "Umieść",
+      "dropToPlace": "Upuść, aby umieścić"
+    },
+    "todo": {
+      "defaultTitle": "Zadania",
+      "empty": "Brak zadań.",
+      "deleteTask": "Usuń zadanie",
+      "placeholder": "Dodaj zadanie...",
+      "newTaskAriaLabel": "Nowe zadanie",
+      "addTask": "Dodaj zadanie",
+      "toggleAriaLabel": "Oznacz \"{{text}}\" jako {{status}}",
+      "statusComplete": "ukończone",
+      "statusIncomplete": "nieukończone"
+    },
+    "timer": {
+      "defaultTitle": "Timery",
+      "empty": "Brak timerów.",
+      "deleteTimer": "Usuń timer",
+      "pause": "Wstrzymaj",
+      "start": "Start",
+      "reset": "Resetuj",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Czas trwania timera w minutach",
+      "placeholderLabel": "Etykieta (opcjonalnie)",
+      "labelAriaLabel": "Etykieta timera (opcjonalnie)",
+      "addTimer": "Dodaj timer"
+    },
+    "reminders": {
+      "defaultTitle": "Przypomnienia",
+      "empty": "Brak przypomnień.",
+      "deleteReminder": "Usuń przypomnienie",
+      "placeholder": "Przypomnij mi o...",
+      "textAriaLabel": "Tekst przypomnienia",
+      "recurrenceTitle": "Powtarzanie",
+      "addReminder": "Dodaj przypomnienie",
+      "customIntervalAriaLabel": "Wartość niestandardowego interwału",
+      "customUnitAriaLabel": "Jednostka niestandardowego interwału",
+      "unitMinutes": "Minuty",
+      "unitHours": "Godziny",
+      "unitDays": "Dni",
+      "saveRecurrence": "Zapisz",
+      "toggleAriaLabel": "Oznacz \"{{text}}\" jako {{status}}",
+      "statusComplete": "ukończone",
+      "statusIncomplete": "nieukończone",
+      "recurrenceNone": "Jednorazowo",
+      "recurrence30min": "Co 30 min",
+      "recurrenceHourly": "Co godzinę",
+      "recurrenceDaily": "Codziennie",
+      "recurrenceWeekly": "Co tydzień",
+      "recurrenceCustom": "Niestandardowe",
+      "everyDay": "Co {{count}}d",
+      "everyHour": "Co {{count}}h",
+      "everyMin": "Co {{count}}m",
+      "every": "Co",
+      "today": "Dzisiaj {{time}}",
+      "tomorrow": "Jutro {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Notatka",
+      "changeColor": "Zmień kolor",
+      "placeholder": "Napisz coś...",
+      "contentAriaLabel": "Treść notatki",
+      "titleAriaLabel": "Tytuł notatki",
+      "actionsAriaLabel": "Akcje notatki",
+      "color_default": "Domyślny",
+      "color_amber": "Żółty",
+      "color_sky": "Niebieski",
+      "color_rose": "Różowy",
+      "color_emerald": "Zielony",
+      "color_purple": "Fioletowy"
+    },
+    "image": {
+      "defaultTitle": "Obraz",
+      "settings": "Ustawienia obrazu",
+      "actionsAriaLabel": "Akcje obrazu",
+      "titleAriaLabel": "Tytuł obrazu",
+      "changeImage": "Zmień obraz",
+      "fitCover": "Wypełnij (Przytnij)",
+      "fitContain": "Dopasuj (Proporcje)",
+      "fitFill": "Rozciągnij",
+      "configureTitle": "Skonfiguruj obraz widgetu",
+      "urlPlaceholder": "Wklej adres URL obrazu...",
+      "or": "Lub",
+      "uploadLocal": "Prześlij lokalny obraz",
+      "cancelConfig": "Anuluj konfigurację",
+      "loadError": "Nie można załadować obrazu. Adres URL może być nieprawidłowy lub zablokowany."
+    },
+    "label": {
+      "defaultText": "Tekst",
+      "settings": "Ustawienia tekstu",
+      "actionsAriaLabel": "Akcje etykiety",
+      "textAriaLabel": "Tekst etykiety",
+      "editText": "Edytuj tekst",
+      "showCardStyle": "Pokaż styl karty",
+      "fontSize": "Rozmiar czcionki",
+      "alignment": "Wyrównanie",
+      "fontWeight": "Grubość czcionki",
+      "opacity": "Przezroczystość",
+      "deleteText": "Usuń tekst",
+      "alignLeft": "Do lewej",
+      "alignCenter": "Do środka",
+      "alignRight": "Do prawej",
+      "fontSizes": {
+        "sm": "Mały",
+        "base": "Średni",
+        "lg": "Duży",
+        "xl": "Bardzo duży",
+        "xl2": "2X duży",
+        "xl3": "3X duży",
+        "xl4": "4X duży",
+        "xl5": "5X duży",
+        "xl6": "6X duży",
+        "xl7": "7X duży",
+        "xl8": "8X duży",
+        "xl9": "9X duży",
+        "xl10": "10X duży",
+        "xl12": "12X duży"
+      },
+      "fontWeights": {
+        "thin": "Cienki",
+        "light": "Jasny",
+        "regular": "Normalny",
+        "medium": "Średni",
+        "semibold": "Półpogrubiony",
+        "bold": "Pogrubiony",
+        "extrabold": "Bardzo pogrubiony",
+        "black": "Czarny"
+      },
+      "opacities": {
+        "full": "100% (Pełna)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Przytłumiona)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Szukaj w Google lub wpisz adres URL",
+      "searchAriaLabel": "Zapytanie wyszukiwania",
+      "voiceSearch": "Wyszukiwanie głosowe",
+      "lensSearch": "Wyszukaj dowolny obraz za pomocą Lens",
+      "removeWidget": "Usuń widget",
+      "switchToBarOnly": "Przełącz na sam pasek",
+      "switchToLogoBar": "Przełącz na logo + pasek",
+      "barOnly": "Tylko pasek",
+      "showLogo": "Pokaż logo",
+      "toggleLogoStyle": "Przełącz styl logo"
+    },
+    "group": {
+      "borderColorAriaLabel": "Kolor obramowania grupy",
+      "pasteUrlPlaceholder": "Wklej adres URL...",
+      "colors": {
+        "red": "Czerwony",
+        "pink": "Różowy",
+        "purple": "Fioletowy",
+        "indigo": "Indygo",
+        "blue": "Niebieski",
+        "cyan": "Cyjan",
+        "teal": "Morski",
+        "green": "Zielony",
+        "yellow": "Żółty",
+        "orange": "Pomarańczowy",
+        "slate": "Łupkowy",
+        "neutral": "Neutralny"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Dodaj link",
+      "colorBorder": "Kolor obramowania",
+      "layout": "Układ",
+      "layoutGrid": "Siatka",
+      "layoutList": "Lista",
+      "gridColumns": "Kolumny siatki",
+      "column_one": "{{count}} kolumna",
+      "column_other": "{{count}} kolumny",
+      "deleteGroup": "Usuń grupę",
+      "actionsAriaLabel": "Akcje grupy"
+    },
+    "groupInnerGrid": {
+      "empty": "Pusta grupa",
+      "addFirstLink": "Dodaj pierwszy link",
+      "dropToAdd": "Upuść, aby dodać",
+      "add": "Dodaj"
+    },
+    "iframe": {
+      "removeWidget": "Usuń widget",
+      "openInNewTab": "Otwórz w nowej karcie"
+    },
+    "linkCard": {
+      "options": "Opcje",
+      "rename": "Zmień nazwę",
+      "size": "Rozmiar",
+      "sizeSmall": "Mały (1×1)",
+      "sizeMedium": "Średni (3×1)",
+      "moveTo": "Przenieś do...",
+      "mainDashboard": "Główny pulpit",
+      "header": "Nagłówek",
+      "deleteLink": "Usuń link",
+      "actionsAriaLabel": "Akcje linku"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Usunięto {{count}} pusty widget zdjęcia.",
+    "removedEmptyPhotos_other": "Usunięto {{count}} puste widgety zdjęć.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgety",
+    "clearedHeaderLinks_one": "{{count}} link nagłówka",
+    "clearedHeaderLinks_other": "{{count}} linki nagłówka",
+    "clearedSummary": "Wyczyszczono {{items}}. Anuluj, aby cofnąć, lub Zapisz, aby potwierdzić.",
+    "onlyOneGoogleSearch": "Dozwolony jest tylko jeden widget wyszukiwarki Google.",
+    "noRoomForWidget": "Brak miejsca na ten widget. Zmień rozmiar lub usuń coś, aby zrobić miejsce.",
+    "swap": {
+      "no-room": "Nie można zamienić — niewystarczająco miejsca, aby umieścić oba widgety na nowych pozycjach.",
+      "out-of-bounds": "Nie można zamienić — jeden z widgetów wyszedłby poza krawędź siatki przy minimalnym rozmiarze.",
+      "overlap": "Nie można zamienić — minimalne rozmiary obu widgetów nachodzą na siebie.",
+      "obstacle": "Nie można zamienić — inny widget jest na drodze. Najpierw go przesuń lub zmień jego rozmiar."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Zapisz w MonoStart",
+    "saveLink": "Zapisz link",
+    "saved": "Zapisano!",
+    "openDashboard": "Otwórz pulpit",
+    "destination": {
+      "label": "Miejsce docelowe",
+      "main": "Główny pulpit",
+      "header": "Pasek nagłówka"
+    },
+    "reminders": {
+      "ariaLabel": "Oczekujące przypomnienia",
+      "count_one": "{{count}} przypomnienie",
+      "count_other": "{{count}} przypomnienia",
+      "clearAll": "Wyczyść wszystko",
+      "dismiss": "Odrzuć"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Ukryj przewodnik stopki Chrome",
+      "success": "Stopka ukryta — ciesz się pełnym ekranem!",
+      "corner": {
+        "title": "Uzyskaj pełnoekranowe doświadczenie",
+        "intro": "Chrome dodaje stopkę pod MonoStart. Aby ją ukryć, kliknij",
+        "cta": "Dostosuj Chrome",
+        "ctaSuffix": "w prawym dolnym rogu.",
+        "noFooter": "Nie widzisz stopki? Wszystko gotowe — pomiń ten krok."
+      },
+      "panel": {
+        "title": "Prawie gotowe",
+        "intro": "W sekcji",
+        "setting": "Stopka",
+        "turnOff": ", wyłącz",
+        "action": "Pokaż stopkę na stronie nowej karty",
+        "suffix": ", a następnie zamknij panel."
+      },
+      "skip": "Pomiń",
+      "next": "Dalej",
+      "done": "Gotowe"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Język",
+      "subtitle": "Wybierz język",
+      "search": "Szukaj języków…",
+      "empty": "Brak języków pasujących do wyszukiwania."
+    },
+    "addWidget": {
+      "title": "Dodaj widget",
+      "titleConfigure": "Skonfiguruj {{name}}",
+      "titleGoogleStyle": "Wybierz styl wyszukiwarki Google",
+      "logoBarTitle": "Logo + pasek",
+      "logoBarDesc": "Duże logo Google nad paskiem wyszukiwania. Zajmuje 4 rzędy.",
+      "barOnlyTitle": "Tylko pasek",
+      "barOnlyDesc": "Tylko pasek wyszukiwania. Zajmuje 1 rząd. Kompaktowy.",
+      "urlLabel": "Adres URL lub kod osadzenia",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Wklej adres URL dla prostych osadzeń lub wklej fragment <code>&lt;iframe&gt;</code> ze stron, które blokują bezpośrednie ładowanie (YouTube, Figma, Spotify, CodePen itp.).",
+      "back": "Wstecz",
+      "embedWidget": "Osadź widget"
+    },
+    "addLink": {
+      "title": "Dodaj link",
+      "description": "Wklej adres URL, aby dodać nową kartę linku do pulpitu.",
+      "urlLabel": "Adres URL strony",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Tytuł (opcjonalnie)",
+      "titlePlaceholder": "Mój link",
+      "locationLabel": "Lokalizacja",
+      "locationMainDashboard": "Główny pulpit",
+      "locationHeader": "Nagłówek (tylko favicon)",
+      "locationFolder": "Folder: {{title}}",
+      "locationGroup": "Grupa: {{title}}",
+      "cancel": "Anuluj",
+      "submit": "Dodaj link"
+    },
+    "theme": {
+      "title": "Motyw i wygląd",
+      "description": "Dostosuj wygląd swojego pulpitu.",
+      "modeGroupLabel": "Tryb motywu",
+      "light": "Jasny",
+      "dark": "Ciemny",
+      "device": "Urządzenie",
+      "primaryColorHeading": "Kolor podstawowy",
+      "primaryColorPresetsLabel": "Presety kolorów podstawowych",
+      "customColorLabel": "Niestandardowy kolor",
+      "customColorTitle": "Niestandardowy kolor",
+      "customHue": "Niestandardowy odcień",
+      "backgroundHeading": "Tło",
+      "backgroundTypeLabel": "Typ tła",
+      "backgroundColorLabel": "Kolor tła",
+      "backgroundGradientLabel": "Gradient tła",
+      "imageUrlPlaceholder": "Wklej adres URL obrazu...",
+      "uploadImage": "Prześlij obraz",
+      "imageUploaded": "Niestandardowy obraz przesłany.",
+      "blur": "Rozmycie",
+      "dim": "Przyciemnienie",
+      "fileReadError": "Nie udało się odczytać pliku.",
+      "bgType": {
+        "none": "Brak",
+        "color": "Kolor",
+        "gradient": "Gradient",
+        "image": "Obraz"
+      }
+    },
+    "clear": {
+      "title": "Wyczyść pulpit",
+      "description": "Spowoduje to usunięcie widgetów z pulpitu. Jesteś w trybie edycji, więc nadal możesz nacisnąć Anuluj, aby cofnąć zmiany przed zapisaniem.",
+      "widgetsGroups": "Widgety i grupy na głównej siatce",
+      "linksInsideGroups": "↳ linki wewnątrz grup",
+      "headerBarLinks": "Linki paska nagłówka",
+      "alsoClearHeaderLabel": "Wyczyść również linki paska nagłówka",
+      "alsoClearHeaderDesc": "Domyślnie pasek nagłówka jest zachowywany. Zaznacz to, aby go też wyczyścić.",
+      "widgetGroups_one": "Zamierzasz usunąć <strong>{{count}}</strong> widget/grupę",
+      "widgetGroups_other": "Zamierzasz usunąć <strong>{{count}}</strong> widgety/grupy",
+      "headerLinks_one": "<strong>{{count}}</strong> link nagłówka",
+      "headerLinks_other": "<strong>{{count}}</strong> linki nagłówka",
+      "andConnector": " i ",
+      "cancelRestores": ". Anuluj na pasku narzędzi trybu edycji przywróci je.",
+      "nothingToClear": "Nic do wyczyszczenia przy bieżącym wyborze.",
+      "cancelButton": "Anuluj",
+      "clearWidgets": "Wyczyść widgety",
+      "clearEverything": "Wyczyść wszystko"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Udostępnij ten element",
+      "copyLink": "Kopiuj link",
+      "linkCopied": "Link skopiowany",
+      "shareOn": "Udostępnij na {{platform}}",
+      "shareVia": "Udostępnij przez {{platform}}"
+    }
+  }
+}

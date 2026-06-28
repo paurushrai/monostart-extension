@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "Elimina",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "copy": "Copia",
+    "copied": "Copiato"
+  },
+  "header": {
+    "menu": {
+      "language": "Lingua",
+      "addLink": "Aggiungi Link",
+      "addWidget": "Aggiungi Widget",
+      "editDashboard": "Modifica Dashboard",
+      "theme": "Tema e Aspetto",
+      "share": "Condividi MonoStart",
+      "openInNewTab": "Apri i link in una nuova scheda"
+    },
+    "settings": "Impostazioni",
+    "clear": "Cancella",
+    "clearDashboard": "Cancella Dashboard",
+    "cancel": "Annulla",
+    "save": "Salva"
+  },
+  "widgets": {
+    "deleteWidget": "Elimina Widget",
+    "placeholder": {
+      "place": "Posiziona",
+      "dropToPlace": "Trascina per Posizionare"
+    },
+    "todo": {
+      "defaultTitle": "Attività",
+      "empty": "Nessuna attività.",
+      "deleteTask": "Elimina Attività",
+      "placeholder": "Aggiungi un'attività...",
+      "newTaskAriaLabel": "Nuova attività",
+      "addTask": "Aggiungi Attività",
+      "toggleAriaLabel": "Segna \"{{text}}\" come {{status}}",
+      "statusComplete": "completata",
+      "statusIncomplete": "incompleta"
+    },
+    "timer": {
+      "defaultTitle": "Timer",
+      "empty": "Nessun timer impostato.",
+      "deleteTimer": "Elimina Timer",
+      "pause": "Pausa",
+      "start": "Avvia",
+      "reset": "Reimposta",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Durata del timer in minuti",
+      "placeholderLabel": "Etichetta (opzionale)",
+      "labelAriaLabel": "Etichetta timer (opzionale)",
+      "addTimer": "Aggiungi Timer"
+    },
+    "reminders": {
+      "defaultTitle": "Promemoria",
+      "empty": "Nessun promemoria.",
+      "deleteReminder": "Elimina Promemoria",
+      "placeholder": "Ricordami di...",
+      "textAriaLabel": "Testo del promemoria",
+      "recurrenceTitle": "Ricorrenza",
+      "addReminder": "Aggiungi Promemoria",
+      "customIntervalAriaLabel": "Valore intervallo personalizzato",
+      "customUnitAriaLabel": "Unità intervallo personalizzato",
+      "unitMinutes": "Minuti",
+      "unitHours": "Ore",
+      "unitDays": "Giorni",
+      "saveRecurrence": "Salva",
+      "toggleAriaLabel": "Segna \"{{text}}\" come {{status}}",
+      "statusComplete": "completato",
+      "statusIncomplete": "incompleto",
+      "recurrenceNone": "Una volta",
+      "recurrence30min": "Ogni 30 min",
+      "recurrenceHourly": "Ogni ora",
+      "recurrenceDaily": "Ogni giorno",
+      "recurrenceWeekly": "Ogni settimana",
+      "recurrenceCustom": "Personalizzato",
+      "everyDay": "Ogni {{count}}g",
+      "everyHour": "Ogni {{count}}h",
+      "everyMin": "Ogni {{count}}m",
+      "every": "Ogni",
+      "today": "Oggi {{time}}",
+      "tomorrow": "Domani {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Nota",
+      "changeColor": "Cambia Colore",
+      "placeholder": "Scrivi qualcosa...",
+      "contentAriaLabel": "Contenuto della nota",
+      "titleAriaLabel": "Titolo della nota",
+      "actionsAriaLabel": "Azioni nota",
+      "color_default": "Predefinito",
+      "color_amber": "Giallo",
+      "color_sky": "Blu",
+      "color_rose": "Rosa",
+      "color_emerald": "Verde",
+      "color_purple": "Viola"
+    },
+    "image": {
+      "defaultTitle": "Immagine",
+      "settings": "Impostazioni Immagine",
+      "actionsAriaLabel": "Azioni immagine",
+      "titleAriaLabel": "Titolo immagine",
+      "changeImage": "Cambia Immagine",
+      "fitCover": "Copertura (Ritaglia)",
+      "fitContain": "Contenuta (Proporzioni)",
+      "fitFill": "Riempi (Allunga)",
+      "configureTitle": "Configura Immagine Widget",
+      "urlPlaceholder": "Incolla URL immagine...",
+      "or": "Oppure",
+      "uploadLocal": "Carica Immagine Locale",
+      "cancelConfig": "Annulla Configurazione",
+      "loadError": "Impossibile caricare l'immagine. L'URL potrebbe essere non valido o bloccato."
+    },
+    "label": {
+      "defaultText": "Testo",
+      "settings": "Impostazioni Testo",
+      "actionsAriaLabel": "Azioni etichetta",
+      "textAriaLabel": "Testo etichetta",
+      "editText": "Modifica Testo",
+      "showCardStyle": "Mostra Stile Scheda",
+      "fontSize": "Dimensione Font",
+      "alignment": "Allineamento",
+      "fontWeight": "Spessore Font",
+      "opacity": "Opacità",
+      "deleteText": "Elimina Testo",
+      "alignLeft": "Sinistra",
+      "alignCenter": "Centro",
+      "alignRight": "Destra",
+      "fontSizes": {
+        "sm": "Piccolo",
+        "base": "Medio",
+        "lg": "Grande",
+        "xl": "Extra Grande",
+        "xl2": "2X Grande",
+        "xl3": "3X Grande",
+        "xl4": "4X Grande",
+        "xl5": "5X Grande",
+        "xl6": "6X Grande",
+        "xl7": "7X Grande",
+        "xl8": "8X Grande",
+        "xl9": "9X Grande",
+        "xl10": "10X Grande",
+        "xl12": "12X Grande"
+      },
+      "fontWeights": {
+        "thin": "Sottile",
+        "light": "Leggero",
+        "regular": "Normale",
+        "medium": "Medio",
+        "semibold": "Semi Grassetto",
+        "bold": "Grassetto",
+        "extrabold": "Extra Grassetto",
+        "black": "Nero"
+      },
+      "opacities": {
+        "full": "100% (Pieno)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Attenuato)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Cerca su Google o digita un URL",
+      "searchAriaLabel": "Query di ricerca",
+      "voiceSearch": "Ricerca vocale",
+      "lensSearch": "Cerca qualsiasi immagine con Lens",
+      "removeWidget": "Rimuovi widget",
+      "switchToBarOnly": "Passa solo alla barra",
+      "switchToLogoBar": "Passa a logo + barra",
+      "barOnly": "Solo barra",
+      "showLogo": "Mostra logo",
+      "toggleLogoStyle": "Cambia stile logo"
+    },
+    "group": {
+      "borderColorAriaLabel": "Colore bordo gruppo",
+      "pasteUrlPlaceholder": "Incolla URL...",
+      "colors": {
+        "red": "Rosso",
+        "pink": "Rosa",
+        "purple": "Viola",
+        "indigo": "Indaco",
+        "blue": "Blu",
+        "cyan": "Ciano",
+        "teal": "Verde acqua",
+        "green": "Verde",
+        "yellow": "Giallo",
+        "orange": "Arancione",
+        "slate": "Ardesia",
+        "neutral": "Neutro"
+      }
+    },
+    "groupHeader": {
+      "addLink": "Aggiungi Link",
+      "colorBorder": "Colore Bordo",
+      "layout": "Layout",
+      "layoutGrid": "Griglia",
+      "layoutList": "Lista",
+      "gridColumns": "Colonne Griglia",
+      "column_one": "{{count}} Colonna",
+      "column_other": "{{count}} Colonne",
+      "deleteGroup": "Elimina Gruppo",
+      "actionsAriaLabel": "Azioni gruppo"
+    },
+    "groupInnerGrid": {
+      "empty": "Gruppo Vuoto",
+      "addFirstLink": "Aggiungi il primo link",
+      "dropToAdd": "Trascina per Aggiungere",
+      "add": "Aggiungi"
+    },
+    "iframe": {
+      "removeWidget": "Rimuovi widget",
+      "openInNewTab": "Apri in una nuova scheda"
+    },
+    "linkCard": {
+      "options": "Opzioni",
+      "rename": "Rinomina",
+      "size": "Dimensione",
+      "sizeSmall": "Piccolo (1×1)",
+      "sizeMedium": "Medio (3×1)",
+      "moveTo": "Sposta in...",
+      "mainDashboard": "Dashboard Principale",
+      "header": "Intestazione",
+      "deleteLink": "Elimina Link",
+      "actionsAriaLabel": "Azioni link"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Rimosso {{count}} widget foto vuoto.",
+    "removedEmptyPhotos_other": "Rimossi {{count}} widget foto vuoti.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widget",
+    "clearedHeaderLinks_one": "{{count}} link intestazione",
+    "clearedHeaderLinks_other": "{{count}} link intestazione",
+    "clearedSummary": "Rimosso {{items}}. Annulla per tornare indietro, o Salva per confermare.",
+    "onlyOneGoogleSearch": "È consentito un solo widget di ricerca Google.",
+    "noRoomForWidget": "Non c'è spazio per questo widget. Ridimensiona o rimuovi qualcosa per fare spazio.",
+    "swap": {
+      "no-room": "Impossibile scambiare — spazio insufficiente per entrambi i widget nelle nuove posizioni.",
+      "out-of-bounds": "Impossibile scambiare — uno dei widget supererebbe il bordo della griglia alla dimensione minima.",
+      "overlap": "Impossibile scambiare — le dimensioni minime dei due widget si sovrappongono.",
+      "obstacle": "Impossibile scambiare — un altro widget è di ostacolo. Spostalo o ridimensionalo prima."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Salva su MonoStart",
+    "saveLink": "Salva Link",
+    "saved": "Salvato!",
+    "openDashboard": "Apri Dashboard",
+    "destination": {
+      "label": "Destinazione",
+      "main": "Dashboard principale",
+      "header": "Barra intestazione"
+    },
+    "reminders": {
+      "ariaLabel": "Promemoria in sospeso",
+      "count_one": "{{count}} promemoria",
+      "count_other": "{{count}} promemoria",
+      "clearAll": "Cancella tutti",
+      "dismiss": "Chiudi"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Nascondi guida piè di pagina Chrome",
+      "success": "Piè di pagina nascosto — goditi il schermo intero!",
+      "corner": {
+        "title": "Ottieni l'esperienza a schermo intero",
+        "intro": "Chrome aggiunge un piè di pagina sotto MonoStart. Per nasconderlo, clicca",
+        "cta": "Personalizza Chrome",
+        "ctaSuffix": "nell'angolo in basso a destra.",
+        "noFooter": "Non vedi un piè di pagina? Sei a posto — salta questo passaggio."
+      },
+      "panel": {
+        "title": "Quasi fatto",
+        "intro": "Sotto",
+        "setting": "Piè di pagina",
+        "turnOff": ", disattiva",
+        "action": "Mostra piè di pagina nella pagina Nuova scheda",
+        "suffix": ", poi chiudi il pannello."
+      },
+      "skip": "Salta",
+      "next": "Avanti",
+      "done": "Fatto"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Lingua",
+      "subtitle": "Scegli la tua lingua",
+      "search": "Cerca lingue…",
+      "empty": "Nessuna lingua corrisponde alla ricerca."
+    },
+    "addWidget": {
+      "title": "Aggiungi Widget",
+      "titleConfigure": "Configura {{name}}",
+      "titleGoogleStyle": "Scegli lo stile di ricerca Google",
+      "logoBarTitle": "Logo + Barra",
+      "logoBarDesc": "Grande logo Google sopra la barra di ricerca. Occupa 4 righe.",
+      "barOnlyTitle": "Solo barra",
+      "barOnlyDesc": "Solo la barra di ricerca. Occupa 1 riga. Compatta.",
+      "urlLabel": "URL o codice embed",
+      "urlPlaceholder": "https://example.com\noppure\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Incolla un URL per embed semplici, o incolla un frammento <code>&lt;iframe&gt;</code> da siti che bloccano il caricamento diretto (YouTube, Figma, Spotify, CodePen, ecc.).",
+      "back": "Indietro",
+      "embedWidget": "Incorpora Widget"
+    },
+    "addLink": {
+      "title": "Aggiungi Link",
+      "description": "Incolla un URL per aggiungere una nuova scheda link alla dashboard.",
+      "urlLabel": "URL sito web",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Titolo (Opzionale)",
+      "titlePlaceholder": "Il mio Link",
+      "locationLabel": "Posizione",
+      "locationMainDashboard": "Dashboard Principale",
+      "locationHeader": "Intestazione (solo Favicon)",
+      "locationFolder": "Cartella: {{title}}",
+      "locationGroup": "Gruppo: {{title}}",
+      "cancel": "Annulla",
+      "submit": "Aggiungi Link"
+    },
+    "theme": {
+      "title": "Tema e Aspetto",
+      "description": "Personalizza l'aspetto della tua dashboard.",
+      "modeGroupLabel": "Modalità tema",
+      "light": "Chiaro",
+      "dark": "Scuro",
+      "device": "Dispositivo",
+      "primaryColorHeading": "Colore Primario",
+      "primaryColorPresetsLabel": "Preimpostazioni colore primario",
+      "customColorLabel": "Colore personalizzato",
+      "customColorTitle": "Colore personalizzato",
+      "customHue": "Tonalità personalizzata",
+      "backgroundHeading": "Sfondo",
+      "backgroundTypeLabel": "Tipo di sfondo",
+      "backgroundColorLabel": "Colore sfondo",
+      "backgroundGradientLabel": "Gradiente sfondo",
+      "imageUrlPlaceholder": "Incolla URL immagine...",
+      "uploadImage": "Carica Immagine",
+      "imageUploaded": "Immagine personalizzata caricata.",
+      "blur": "Sfocatura",
+      "dim": "Oscura",
+      "fileReadError": "Impossibile leggere il file.",
+      "bgType": {
+        "none": "Nessuno",
+        "color": "Colore",
+        "gradient": "Gradiente",
+        "image": "Immagine"
+      }
+    },
+    "clear": {
+      "title": "Cancella dashboard",
+      "description": "Questo rimuove i widget dalla dashboard. Sei in modalità modifica, quindi puoi ancora premere Annulla per tornare indietro prima di salvare.",
+      "widgetsGroups": "Widget e gruppi nella griglia principale",
+      "linksInsideGroups": "↳ link all'interno dei gruppi",
+      "headerBarLinks": "Link della barra intestazione",
+      "alsoClearHeaderLabel": "Cancella anche i link della barra intestazione",
+      "alsoClearHeaderDesc": "Per impostazione predefinita la barra intestazione viene preservata. Seleziona questa opzione per cancellarla anch'essa.",
+      "widgetGroups_one": "Stai per eliminare <strong>{{count}}</strong> widget/gruppo",
+      "widgetGroups_other": "Stai per eliminare <strong>{{count}}</strong> widget/gruppi",
+      "headerLinks_one": "<strong>{{count}}</strong> link intestazione",
+      "headerLinks_other": "<strong>{{count}}</strong> link intestazione",
+      "andConnector": " e ",
+      "cancelRestores": ". Annulla nella barra degli strumenti di modifica li ripristina.",
+      "nothingToClear": "Nulla da cancellare con la selezione attuale.",
+      "cancelButton": "Annulla",
+      "clearWidgets": "Cancella widget",
+      "clearEverything": "Cancella tutto"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Condividi questo elemento",
+      "copyLink": "Copia link",
+      "linkCopied": "Link copiato",
+      "shareOn": "Condividi su {{platform}}",
+      "shareVia": "Condividi via {{platform}}"
+    }
+  }
+}

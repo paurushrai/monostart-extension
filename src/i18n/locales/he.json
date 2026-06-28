@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "מחק",
+    "cancel": "ביטול",
+    "save": "שמור",
+    "copy": "העתק",
+    "copied": "הועתק"
+  },
+  "header": {
+    "menu": {
+      "language": "שפה",
+      "addLink": "הוסף קישור",
+      "addWidget": "הוסף ווידג'ט",
+      "editDashboard": "ערוך לוח מחוונים",
+      "theme": "ערכת נושא ומראה",
+      "share": "שתף את MonoStart",
+      "openInNewTab": "פתח קישורים בכרטיסייה חדשה"
+    },
+    "settings": "הגדרות",
+    "clear": "נקה",
+    "clearDashboard": "נקה לוח מחוונים",
+    "cancel": "ביטול",
+    "save": "שמור"
+  },
+  "widgets": {
+    "deleteWidget": "מחק ווידג'ט",
+    "placeholder": {
+      "place": "מקם",
+      "dropToPlace": "גרור למיקום"
+    },
+    "todo": {
+      "defaultTitle": "משימות",
+      "empty": "אין משימות עדיין.",
+      "deleteTask": "מחק משימה",
+      "placeholder": "הוסף משימה...",
+      "newTaskAriaLabel": "משימה חדשה",
+      "addTask": "הוסף משימה",
+      "toggleAriaLabel": "סמן \"{{text}}\" כ-{{status}}",
+      "statusComplete": "הושלם",
+      "statusIncomplete": "לא הושלם"
+    },
+    "timer": {
+      "defaultTitle": "טיימרים",
+      "empty": "לא הוגדרו טיימרים.",
+      "deleteTimer": "מחק טיימר",
+      "pause": "השהה",
+      "start": "התחל",
+      "reset": "אפס",
+      "placeholderMin": "דק'",
+      "durationAriaLabel": "משך הטיימר בדקות",
+      "placeholderLabel": "תווית (אופציונלי)",
+      "labelAriaLabel": "תווית טיימר (אופציונלי)",
+      "addTimer": "הוסף טיימר"
+    },
+    "reminders": {
+      "defaultTitle": "תזכורות",
+      "empty": "אין תזכורות עדיין.",
+      "deleteReminder": "מחק תזכורת",
+      "placeholder": "תזכיר לי...",
+      "textAriaLabel": "טקסט התזכורת",
+      "recurrenceTitle": "חזרתיות",
+      "addReminder": "הוסף תזכורת",
+      "customIntervalAriaLabel": "ערך מרווח מותאם אישית",
+      "customUnitAriaLabel": "יחידת מרווח מותאמת אישית",
+      "unitMinutes": "דקות",
+      "unitHours": "שעות",
+      "unitDays": "ימים",
+      "saveRecurrence": "שמור",
+      "toggleAriaLabel": "סמן \"{{text}}\" כ-{{status}}",
+      "statusComplete": "הושלם",
+      "statusIncomplete": "לא הושלם",
+      "recurrenceNone": "פעם אחת",
+      "recurrence30min": "כל 30 דקות",
+      "recurrenceHourly": "כל שעה",
+      "recurrenceDaily": "יומי",
+      "recurrenceWeekly": "שבועי",
+      "recurrenceCustom": "מותאם אישית",
+      "everyDay": "כל {{count}}י",
+      "everyHour": "כל {{count}}ש",
+      "everyMin": "כל {{count}}ד",
+      "every": "כל",
+      "today": "היום {{time}}",
+      "tomorrow": "מחר {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "הערה",
+      "changeColor": "שנה צבע",
+      "placeholder": "כתוב משהו...",
+      "contentAriaLabel": "תוכן ההערה",
+      "titleAriaLabel": "כותרת ההערה",
+      "actionsAriaLabel": "פעולות הערה",
+      "color_default": "ברירת מחדל",
+      "color_amber": "צהוב",
+      "color_sky": "כחול",
+      "color_rose": "ורוד",
+      "color_emerald": "ירוק",
+      "color_purple": "סגול"
+    },
+    "image": {
+      "defaultTitle": "תמונה",
+      "settings": "הגדרות תמונה",
+      "actionsAriaLabel": "פעולות תמונה",
+      "titleAriaLabel": "כותרת תמונה",
+      "changeImage": "שנה תמונה",
+      "fitCover": "כיסוי (חיתוך)",
+      "fitContain": "הכלה (יחס עניין)",
+      "fitFill": "מילוי (מתיחה)",
+      "configureTitle": "הגדר תמונת ווידג'ט",
+      "urlPlaceholder": "הדבק כתובת URL של תמונה...",
+      "or": "או",
+      "uploadLocal": "העלה תמונה מקומית",
+      "cancelConfig": "בטל הגדרה",
+      "loadError": "הטעינה של התמונה נכשלה. ייתכן שהכתובת שגויה או חסומה."
+    },
+    "label": {
+      "defaultText": "טקסט",
+      "settings": "הגדרות טקסט",
+      "actionsAriaLabel": "פעולות תווית",
+      "textAriaLabel": "טקסט תווית",
+      "editText": "ערוך טקסט",
+      "showCardStyle": "הצג סגנון כרטיס",
+      "fontSize": "גודל גופן",
+      "alignment": "יישור",
+      "fontWeight": "עובי גופן",
+      "opacity": "אטימות",
+      "deleteText": "מחק טקסט",
+      "alignLeft": "שמאל",
+      "alignCenter": "מרכז",
+      "alignRight": "ימין",
+      "fontSizes": {
+        "sm": "קטן",
+        "base": "בינוני",
+        "lg": "גדול",
+        "xl": "גדול במיוחד",
+        "xl2": "גדול פי 2",
+        "xl3": "גדול פי 3",
+        "xl4": "גדול פי 4",
+        "xl5": "גדול פי 5",
+        "xl6": "גדול פי 6",
+        "xl7": "גדול פי 7",
+        "xl8": "גדול פי 8",
+        "xl9": "גדול פי 9",
+        "xl10": "גדול פי 10",
+        "xl12": "גדול פי 12"
+      },
+      "fontWeights": {
+        "thin": "דק",
+        "light": "קל",
+        "regular": "רגיל",
+        "medium": "בינוני",
+        "semibold": "למחצה מודגש",
+        "bold": "מודגש",
+        "extrabold": "מודגש במיוחד",
+        "black": "שחור"
+      },
+      "opacities": {
+        "full": "100% (בהיר)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (עמום)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "חפש ב-Google או הקלד כתובת URL",
+      "searchAriaLabel": "שאילתת חיפוש",
+      "voiceSearch": "חיפוש קולי",
+      "lensSearch": "חפש תמונה כלשהי עם Lens",
+      "removeWidget": "הסר ווידג'ט",
+      "switchToBarOnly": "עבור לסרגל בלבד",
+      "switchToLogoBar": "עבור ללוגו + סרגל",
+      "barOnly": "סרגל בלבד",
+      "showLogo": "הצג לוגו",
+      "toggleLogoStyle": "שנה סגנון לוגו"
+    },
+    "group": {
+      "borderColorAriaLabel": "צבע גבול הקבוצה",
+      "pasteUrlPlaceholder": "הדבק כתובת URL...",
+      "colors": {
+        "red": "אדום",
+        "pink": "ורוד",
+        "purple": "סגול",
+        "indigo": "אינדיגו",
+        "blue": "כחול",
+        "cyan": "ציאן",
+        "teal": "טיל",
+        "green": "ירוק",
+        "yellow": "צהוב",
+        "orange": "כתום",
+        "slate": "אפרפר",
+        "neutral": "ניטרלי"
+      }
+    },
+    "groupHeader": {
+      "addLink": "הוסף קישור",
+      "colorBorder": "צבע גבול",
+      "layout": "פריסה",
+      "layoutGrid": "רשת",
+      "layoutList": "רשימה",
+      "gridColumns": "עמודות רשת",
+      "column_one": "עמודה {{count}}",
+      "column_other": "{{count}} עמודות",
+      "deleteGroup": "מחק קבוצה",
+      "actionsAriaLabel": "פעולות קבוצה"
+    },
+    "groupInnerGrid": {
+      "empty": "קבוצה ריקה",
+      "addFirstLink": "הוסף קישור ראשון",
+      "dropToAdd": "גרור להוספה",
+      "add": "הוסף"
+    },
+    "iframe": {
+      "removeWidget": "הסר ווידג'ט",
+      "openInNewTab": "פתח בכרטיסייה חדשה"
+    },
+    "linkCard": {
+      "options": "אפשרויות",
+      "rename": "שנה שם",
+      "size": "גודל",
+      "sizeSmall": "קטן (1×1)",
+      "sizeMedium": "בינוני (3×1)",
+      "moveTo": "העבר אל...",
+      "mainDashboard": "לוח מחוונים ראשי",
+      "header": "כותרת",
+      "deleteLink": "מחק קישור",
+      "actionsAriaLabel": "פעולות קישור"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "הוסר {{count}} ווידג'ט תמונה ריק.",
+    "removedEmptyPhotos_other": "הוסרו {{count}} ווידג'טי תמונה ריקים.",
+    "clearedWidgets_one": "{{count}} ווידג'ט",
+    "clearedWidgets_other": "{{count}} ווידג'טים",
+    "clearedHeaderLinks_one": "{{count}} קישור כותרת",
+    "clearedHeaderLinks_other": "{{count}} קישורי כותרת",
+    "clearedSummary": "נוקה {{items}}. לחץ ביטול לביטול, או שמור לאישור.",
+    "onlyOneGoogleSearch": "מותר רק ווידג'ט Google חיפוש אחד.",
+    "noRoomForWidget": "אין מקום לווידג'ט זה. שנה גודל או הסר פריטים כדי לפנות מקום.",
+    "swap": {
+      "no-room": "לא ניתן להחליף — אין מספיק מקום לשני הווידג'טים במיקומים החדשים שלהם.",
+      "out-of-bounds": "לא ניתן להחליף — אחד מהווידג'טים יחרוג מגבול הרשת בגודל המינימלי שלו.",
+      "overlap": "לא ניתן להחליף — הגדלים המינימליים של שני הווידג'טים חופפים זה לזה.",
+      "obstacle": "לא ניתן להחליף — ווידג'ט אחר חוסם את הדרך. העבר או שנה את גודלו תחילה."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "שמור ב-MonoStart",
+    "saveLink": "שמור קישור",
+    "saved": "נשמר!",
+    "openDashboard": "פתח לוח מחוונים",
+    "destination": {
+      "label": "יעד",
+      "main": "לוח מחוונים ראשי",
+      "header": "סרגל כותרת"
+    },
+    "reminders": {
+      "ariaLabel": "תזכורות ממתינות",
+      "count_one": "{{count}} תזכורת",
+      "count_other": "{{count}} תזכורות",
+      "clearAll": "נקה הכל",
+      "dismiss": "סגור"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "הסתר מדריך כותרת תחתונה של Chrome",
+      "success": "הכותרת התחתונה הוסתרה — תיהנה ממסך מלא!",
+      "corner": {
+        "title": "קבל את חוויית המסך המלא",
+        "intro": "Chrome מוסיף כותרת תחתונה מתחת ל-MonoStart. להסתרתה, לחץ על",
+        "cta": "התאם אישית את Chrome",
+        "ctaSuffix": "בפינה הימנית התחתונה.",
+        "noFooter": "לא רואה כותרת תחתונה? הכל בסדר — דלג על זה."
+      },
+      "panel": {
+        "title": "כמעט שם",
+        "intro": "תחת",
+        "setting": "כותרת תחתונה",
+        "turnOff": ", כבה את",
+        "action": "הצג כותרת תחתונה בדף כרטיסייה חדשה",
+        "suffix": ", ולאחר מכן סגור את הפאנל."
+      },
+      "skip": "דלג",
+      "next": "הבא",
+      "done": "סיום"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "שפה",
+      "subtitle": "בחר את השפה שלך",
+      "search": "חפש שפות…",
+      "empty": "לא נמצאו שפות התואמות לחיפוש שלך."
+    },
+    "addWidget": {
+      "title": "הוסף ווידג'ט",
+      "titleConfigure": "הגדר {{name}}",
+      "titleGoogleStyle": "בחר סגנון חיפוש Google",
+      "logoBarTitle": "לוגו + סרגל",
+      "logoBarDesc": "לוגו Google גדול מעל סרגל החיפוש. תופס 4 שורות.",
+      "barOnlyTitle": "סרגל בלבד",
+      "barOnlyDesc": "רק סרגל החיפוש. תופס שורה אחת. קומפקטי.",
+      "urlLabel": "URL או קוד הטמעה",
+      "urlPlaceholder": "https://example.com\nאו\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "הדבק כתובת URL להטמעות פשוטות, או הדבק קטע <code>&lt;iframe&gt;</code> מאתרים החוסמים טעינה ישירה (YouTube, Figma, Spotify, CodePen וכו').",
+      "back": "חזור",
+      "embedWidget": "הטמע ווידג'ט"
+    },
+    "addLink": {
+      "title": "הוסף קישור",
+      "description": "הדבק כתובת URL להוספת כרטיס קישור חדש ללוח המחוונים שלך.",
+      "urlLabel": "כתובת URL של האתר",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "כותרת (אופציונלי)",
+      "titlePlaceholder": "הקישור שלי",
+      "locationLabel": "מיקום",
+      "locationMainDashboard": "לוח מחוונים ראשי",
+      "locationHeader": "כותרת (סמל בלבד)",
+      "locationFolder": "תיקייה: {{title}}",
+      "locationGroup": "קבוצה: {{title}}",
+      "cancel": "ביטול",
+      "submit": "הוסף קישור"
+    },
+    "theme": {
+      "title": "ערכת נושא ומראה",
+      "description": "התאם אישית את המראה של לוח המחוונים שלך.",
+      "modeGroupLabel": "מצב ערכת נושא",
+      "light": "בהיר",
+      "dark": "כהה",
+      "device": "מכשיר",
+      "primaryColorHeading": "צבע ראשי",
+      "primaryColorPresetsLabel": "הגדרות קבועות מראש לצבע ראשי",
+      "customColorLabel": "צבע מותאם אישית",
+      "customColorTitle": "צבע מותאם אישית",
+      "customHue": "גוון מותאם אישית",
+      "backgroundHeading": "רקע",
+      "backgroundTypeLabel": "סוג רקע",
+      "backgroundColorLabel": "צבע רקע",
+      "backgroundGradientLabel": "הדרגתיות רקע",
+      "imageUrlPlaceholder": "הדבק כתובת URL של תמונה...",
+      "uploadImage": "העלה תמונה",
+      "imageUploaded": "תמונה מותאמת אישית הועלתה.",
+      "blur": "טשטוש",
+      "dim": "עמעום",
+      "fileReadError": "קריאת הקובץ נכשלה.",
+      "bgType": {
+        "none": "ללא",
+        "color": "צבע",
+        "gradient": "הדרגתיות",
+        "image": "תמונה"
+      }
+    },
+    "clear": {
+      "title": "נקה לוח מחוונים",
+      "description": "פעולה זו מסירה ווידג'טים מלוח המחוונים. אתה במצב עריכה, כך שעדיין תוכל ללחוץ ביטול לביטול לפני השמירה.",
+      "widgetsGroups": "ווידג'טים וקבוצות ברשת הראשית",
+      "linksInsideGroups": "↳ קישורים בתוך קבוצות",
+      "headerBarLinks": "קישורי סרגל כותרת",
+      "alsoClearHeaderLabel": "נקה גם את קישורי סרגל הכותרת",
+      "alsoClearHeaderDesc": "כברירת מחדל, סרגל הכותרת נשמר. סמן כדי למחוק אותו גם.",
+      "widgetGroups_one": "עומד למחוק <strong>{{count}}</strong> ווידג'ט/קבוצה",
+      "widgetGroups_other": "עומד למחוק <strong>{{count}}</strong> ווידג'טים/קבוצות",
+      "headerLinks_one": "<strong>{{count}}</strong> קישור כותרת",
+      "headerLinks_other": "<strong>{{count}}</strong> קישורי כותרת",
+      "andConnector": " ו-",
+      "cancelRestores": ". ביטול בסרגל מצב העריכה משחזר אותם.",
+      "nothingToClear": "אין מה לנקות עם הבחירה הנוכחית.",
+      "cancelButton": "ביטול",
+      "clearWidgets": "נקה ווידג'טים",
+      "clearEverything": "נקה הכל"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "שתף פריט זה",
+      "copyLink": "העתק קישור",
+      "linkCopied": "הקישור הועתק",
+      "shareOn": "שתף ב-{{platform}}",
+      "shareVia": "שתף דרך {{platform}}"
+    }
+  }
+}

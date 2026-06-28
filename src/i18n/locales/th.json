@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "ลบ",
+    "cancel": "ยกเลิก",
+    "save": "บันทึก",
+    "copy": "คัดลอก",
+    "copied": "คัดลอกแล้ว"
+  },
+  "header": {
+    "menu": {
+      "language": "ภาษา",
+      "addLink": "เพิ่มลิงก์",
+      "addWidget": "เพิ่มวิดเจ็ต",
+      "editDashboard": "แก้ไขแดชบอร์ด",
+      "theme": "ธีมและรูปแบบ",
+      "share": "แชร์ MonoStart",
+      "openInNewTab": "เปิดลิงก์ในแท็บใหม่"
+    },
+    "settings": "การตั้งค่า",
+    "clear": "ล้าง",
+    "clearDashboard": "ล้างแดชบอร์ด",
+    "cancel": "ยกเลิก",
+    "save": "บันทึก"
+  },
+  "widgets": {
+    "deleteWidget": "ลบวิดเจ็ต",
+    "placeholder": {
+      "place": "วาง",
+      "dropToPlace": "วางที่นี่"
+    },
+    "todo": {
+      "defaultTitle": "รายการสิ่งที่ต้องทำ",
+      "empty": "ยังไม่มีงาน",
+      "deleteTask": "ลบงาน",
+      "placeholder": "เพิ่มงาน...",
+      "newTaskAriaLabel": "งานใหม่",
+      "addTask": "เพิ่มงาน",
+      "toggleAriaLabel": "ทำเครื่องหมาย \"{{text}}\" เป็น {{status}}",
+      "statusComplete": "เสร็จสิ้น",
+      "statusIncomplete": "ยังไม่เสร็จ"
+    },
+    "timer": {
+      "defaultTitle": "ตัวจับเวลา",
+      "empty": "ยังไม่มีตัวจับเวลา",
+      "deleteTimer": "ลบตัวจับเวลา",
+      "pause": "หยุดชั่วคราว",
+      "start": "เริ่ม",
+      "reset": "รีเซ็ต",
+      "placeholderMin": "นาที",
+      "durationAriaLabel": "ระยะเวลาตัวจับเวลาในนาที",
+      "placeholderLabel": "ชื่อ (ไม่บังคับ)",
+      "labelAriaLabel": "ชื่อตัวจับเวลา (ไม่บังคับ)",
+      "addTimer": "เพิ่มตัวจับเวลา"
+    },
+    "reminders": {
+      "defaultTitle": "การเตือนความจำ",
+      "empty": "ยังไม่มีการเตือนความจำ",
+      "deleteReminder": "ลบการเตือนความจำ",
+      "placeholder": "เตือนฉันให้...",
+      "textAriaLabel": "ข้อความเตือนความจำ",
+      "recurrenceTitle": "การทำซ้ำ",
+      "addReminder": "เพิ่มการเตือนความจำ",
+      "customIntervalAriaLabel": "ค่าช่วงเวลาที่กำหนดเอง",
+      "customUnitAriaLabel": "หน่วยช่วงเวลาที่กำหนดเอง",
+      "unitMinutes": "นาที",
+      "unitHours": "ชั่วโมง",
+      "unitDays": "วัน",
+      "saveRecurrence": "บันทึก",
+      "toggleAriaLabel": "ทำเครื่องหมาย \"{{text}}\" เป็น {{status}}",
+      "statusComplete": "เสร็จสิ้น",
+      "statusIncomplete": "ยังไม่เสร็จ",
+      "recurrenceNone": "ครั้งเดียว",
+      "recurrence30min": "ทุก 30 นาที",
+      "recurrenceHourly": "ทุกชั่วโมง",
+      "recurrenceDaily": "ทุกวัน",
+      "recurrenceWeekly": "ทุกสัปดาห์",
+      "recurrenceCustom": "กำหนดเอง",
+      "everyDay": "ทุก {{count}} วัน",
+      "everyHour": "ทุก {{count}} ชั่วโมง",
+      "everyMin": "ทุก {{count}} นาที",
+      "every": "ทุก",
+      "today": "วันนี้ {{time}}",
+      "tomorrow": "พรุ่งนี้ {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "บันทึก",
+      "changeColor": "เปลี่ยนสี",
+      "placeholder": "เขียนบางอย่าง...",
+      "contentAriaLabel": "เนื้อหาบันทึก",
+      "titleAriaLabel": "หัวเรื่องบันทึก",
+      "actionsAriaLabel": "การดำเนินการบันทึก",
+      "color_default": "ค่าเริ่มต้น",
+      "color_amber": "เหลือง",
+      "color_sky": "น้ำเงิน",
+      "color_rose": "ชมพู",
+      "color_emerald": "เขียว",
+      "color_purple": "ม่วง"
+    },
+    "image": {
+      "defaultTitle": "รูปภาพ",
+      "settings": "การตั้งค่ารูปภาพ",
+      "actionsAriaLabel": "การดำเนินการรูปภาพ",
+      "titleAriaLabel": "หัวเรื่องรูปภาพ",
+      "changeImage": "เปลี่ยนรูปภาพ",
+      "fitCover": "เต็มพื้นที่ (ครอบ)",
+      "fitContain": "พอดีกรอบ (อัตราส่วน)",
+      "fitFill": "เต็มกรอบ (ยืด)",
+      "configureTitle": "ตั้งค่ารูปภาพวิดเจ็ต",
+      "urlPlaceholder": "วาง URL รูปภาพ...",
+      "or": "หรือ",
+      "uploadLocal": "อัปโหลดรูปภาพในเครื่อง",
+      "cancelConfig": "ยกเลิกการตั้งค่า",
+      "loadError": "ไม่สามารถโหลดรูปภาพได้ URL อาจเสียหายหรือถูกบล็อก"
+    },
+    "label": {
+      "defaultText": "ข้อความ",
+      "settings": "การตั้งค่าข้อความ",
+      "actionsAriaLabel": "การดำเนินการป้ายกำกับ",
+      "textAriaLabel": "ข้อความป้ายกำกับ",
+      "editText": "แก้ไขข้อความ",
+      "showCardStyle": "แสดงสไตล์การ์ด",
+      "fontSize": "ขนาดตัวอักษร",
+      "alignment": "การจัดแนว",
+      "fontWeight": "น้ำหนักตัวอักษร",
+      "opacity": "ความทึบ",
+      "deleteText": "ลบข้อความ",
+      "alignLeft": "ซ้าย",
+      "alignCenter": "กลาง",
+      "alignRight": "ขวา",
+      "fontSizes": {
+        "sm": "เล็ก",
+        "base": "กลาง",
+        "lg": "ใหญ่",
+        "xl": "ใหญ่มาก",
+        "xl2": "ใหญ่ 2 เท่า",
+        "xl3": "ใหญ่ 3 เท่า",
+        "xl4": "ใหญ่ 4 เท่า",
+        "xl5": "ใหญ่ 5 เท่า",
+        "xl6": "ใหญ่ 6 เท่า",
+        "xl7": "ใหญ่ 7 เท่า",
+        "xl8": "ใหญ่ 8 เท่า",
+        "xl9": "ใหญ่ 9 เท่า",
+        "xl10": "ใหญ่ 10 เท่า",
+        "xl12": "ใหญ่ 12 เท่า"
+      },
+      "fontWeights": {
+        "thin": "บาง",
+        "light": "เบา",
+        "regular": "ปกติ",
+        "medium": "กลาง",
+        "semibold": "กึ่งหนา",
+        "bold": "หนา",
+        "extrabold": "หนามาก",
+        "black": "หนาที่สุด"
+      },
+      "opacities": {
+        "full": "100% (สว่าง)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (จางลง)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "ค้นหาด้วย Google หรือพิมพ์ URL",
+      "searchAriaLabel": "คำค้นหา",
+      "voiceSearch": "ค้นหาด้วยเสียง",
+      "lensSearch": "ค้นหารูปภาพใดก็ได้ด้วย Lens",
+      "removeWidget": "ลบวิดเจ็ต",
+      "switchToBarOnly": "เปลี่ยนเป็นแถบเท่านั้น",
+      "switchToLogoBar": "เปลี่ยนเป็นโลโก้ + แถบ",
+      "barOnly": "แถบเท่านั้น",
+      "showLogo": "แสดงโลโก้",
+      "toggleLogoStyle": "สลับสไตล์โลโก้"
+    },
+    "group": {
+      "borderColorAriaLabel": "สีขอบกลุ่ม",
+      "pasteUrlPlaceholder": "วาง URL...",
+      "colors": {
+        "red": "แดง",
+        "pink": "ชมพู",
+        "purple": "ม่วง",
+        "indigo": "ครามเข้ม",
+        "blue": "น้ำเงิน",
+        "cyan": "ฟ้าคราม",
+        "teal": "เขียวอมน้ำเงิน",
+        "green": "เขียว",
+        "yellow": "เหลือง",
+        "orange": "ส้ม",
+        "slate": "เทาอมน้ำเงิน",
+        "neutral": "เป็นกลาง"
+      }
+    },
+    "groupHeader": {
+      "addLink": "เพิ่มลิงก์",
+      "colorBorder": "สีขอบ",
+      "layout": "เลย์เอาต์",
+      "layoutGrid": "ตาราง",
+      "layoutList": "รายการ",
+      "gridColumns": "คอลัมน์ตาราง",
+      "column_one": "{{count}} คอลัมน์",
+      "column_other": "{{count}} คอลัมน์",
+      "deleteGroup": "ลบกลุ่ม",
+      "actionsAriaLabel": "การดำเนินการกลุ่ม"
+    },
+    "groupInnerGrid": {
+      "empty": "กลุ่มว่างเปล่า",
+      "addFirstLink": "เพิ่มลิงก์แรก",
+      "dropToAdd": "วางเพื่อเพิ่ม",
+      "add": "เพิ่ม"
+    },
+    "iframe": {
+      "removeWidget": "ลบวิดเจ็ต",
+      "openInNewTab": "เปิดในแท็บใหม่"
+    },
+    "linkCard": {
+      "options": "ตัวเลือก",
+      "rename": "เปลี่ยนชื่อ",
+      "size": "ขนาด",
+      "sizeSmall": "เล็ก (1×1)",
+      "sizeMedium": "กลาง (3×1)",
+      "moveTo": "ย้ายไปที่...",
+      "mainDashboard": "แดชบอร์ดหลัก",
+      "header": "ส่วนหัว",
+      "deleteLink": "ลบลิงก์",
+      "actionsAriaLabel": "การดำเนินการลิงก์"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "ลบวิดเจ็ตรูปภาพว่าง {{count}} รายการแล้ว",
+    "removedEmptyPhotos_other": "ลบวิดเจ็ตรูปภาพว่าง {{count}} รายการแล้ว",
+    "clearedWidgets_one": "{{count}} วิดเจ็ต",
+    "clearedWidgets_other": "{{count}} วิดเจ็ต",
+    "clearedHeaderLinks_one": "{{count}} ลิงก์ส่วนหัว",
+    "clearedHeaderLinks_other": "{{count}} ลิงก์ส่วนหัว",
+    "clearedSummary": "ล้าง {{items}} แล้ว ยกเลิกเพื่อเลิกทำ หรือบันทึกเพื่อยืนยัน",
+    "onlyOneGoogleSearch": "อนุญาตให้มีวิดเจ็ตค้นหา Google ได้เพียงหนึ่งรายการเท่านั้น",
+    "noRoomForWidget": "ไม่มีที่ว่างสำหรับวิดเจ็ตนี้ ปรับขนาดหรือลบบางอย่างเพื่อเพิ่มพื้นที่",
+    "swap": {
+      "no-room": "ไม่สามารถสลับได้ — ไม่มีพื้นที่เพียงพอสำหรับทั้งสองวิดเจ็ตในตำแหน่งใหม่",
+      "out-of-bounds": "ไม่สามารถสลับได้ — วิดเจ็ตหนึ่งจะเกินขอบตารางที่ขนาดขั้นต่ำ",
+      "overlap": "ไม่สามารถสลับได้ — ขนาดขั้นต่ำของสองวิดเจ็ตทับซ้อนกัน",
+      "obstacle": "ไม่สามารถสลับได้ — มีวิดเจ็ตอื่นขวางอยู่ ย้ายหรือปรับขนาดก่อน"
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "บันทึกไปยัง MonoStart",
+    "saveLink": "บันทึกลิงก์",
+    "saved": "บันทึกแล้ว!",
+    "openDashboard": "เปิดแดชบอร์ด",
+    "destination": {
+      "label": "ปลายทาง",
+      "main": "แดชบอร์ดหลัก",
+      "header": "แถบส่วนหัว"
+    },
+    "reminders": {
+      "ariaLabel": "การเตือนความจำที่รอดำเนินการ",
+      "count_one": "{{count}} การเตือนความจำ",
+      "count_other": "{{count}} การเตือนความจำ",
+      "clearAll": "ล้างทั้งหมด",
+      "dismiss": "ปิด"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "ซ่อนคำแนะนำส่วนท้ายของ Chrome",
+      "success": "ซ่อนส่วนท้ายแล้ว — เพลิดเพลินกับหน้าจอเต็มรูปแบบ!",
+      "corner": {
+        "title": "รับประสบการณ์เต็มหน้าจอ",
+        "intro": "Chrome เพิ่มส่วนท้ายใต้ MonoStart หากต้องการซ่อน ให้คลิก",
+        "cta": "ปรับแต่ง Chrome",
+        "ctaSuffix": "ที่มุมขวาล่าง",
+        "noFooter": "ไม่เห็นส่วนท้าย? คุณพร้อมแล้ว — ข้ามขั้นตอนนี้ได้เลย"
+      },
+      "panel": {
+        "title": "เกือบเสร็จแล้ว",
+        "intro": "ใต้",
+        "setting": "ส่วนท้าย",
+        "turnOff": ", ปิด",
+        "action": "แสดงส่วนท้ายบนหน้าแท็บใหม่",
+        "suffix": ", จากนั้นปิดแผง"
+      },
+      "skip": "ข้าม",
+      "next": "ถัดไป",
+      "done": "เสร็จสิ้น"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "ภาษา",
+      "subtitle": "เลือกภาษาของคุณ",
+      "search": "ค้นหาภาษา…",
+      "empty": "ไม่พบภาษาที่ตรงกับการค้นหาของคุณ"
+    },
+    "addWidget": {
+      "title": "เพิ่มวิดเจ็ต",
+      "titleConfigure": "ตั้งค่า {{name}}",
+      "titleGoogleStyle": "เลือกรูปแบบการค้นหา Google",
+      "logoBarTitle": "โลโก้ + แถบ",
+      "logoBarDesc": "โลโก้ Google ขนาดใหญ่เหนือแถบค้นหา ใช้พื้นที่ 4 แถว",
+      "barOnlyTitle": "แถบเท่านั้น",
+      "barOnlyDesc": "เฉพาะแถบค้นหา ใช้พื้นที่ 1 แถว กระชับ",
+      "urlLabel": "URL หรือโค้ดฝัง",
+      "urlPlaceholder": "https://example.com\nหรือ\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "วาง URL สำหรับการฝังทั่วไป หรือวางโค้ด <code>&lt;iframe&gt;</code> จากเว็บไซต์ที่บล็อกการโหลดโดยตรง (YouTube, Figma, Spotify, CodePen เป็นต้น)",
+      "back": "ย้อนกลับ",
+      "embedWidget": "ฝังวิดเจ็ต"
+    },
+    "addLink": {
+      "title": "เพิ่มลิงก์",
+      "description": "วาง URL เพื่อเพิ่มการ์ดลิงก์ใหม่ในแดชบอร์ดของคุณ",
+      "urlLabel": "URL เว็บไซต์",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "หัวเรื่อง (ไม่บังคับ)",
+      "titlePlaceholder": "ลิงก์ของฉัน",
+      "locationLabel": "ตำแหน่ง",
+      "locationMainDashboard": "แดชบอร์ดหลัก",
+      "locationHeader": "ส่วนหัว (เฉพาะ Favicon)",
+      "locationFolder": "โฟลเดอร์: {{title}}",
+      "locationGroup": "กลุ่ม: {{title}}",
+      "cancel": "ยกเลิก",
+      "submit": "เพิ่มลิงก์"
+    },
+    "theme": {
+      "title": "ธีมและรูปแบบ",
+      "description": "ปรับแต่งลักษณะและความรู้สึกของแดชบอร์ดของคุณ",
+      "modeGroupLabel": "โหมดธีม",
+      "light": "สว่าง",
+      "dark": "มืด",
+      "device": "อุปกรณ์",
+      "primaryColorHeading": "สีหลัก",
+      "primaryColorPresetsLabel": "ค่าสีหลักที่ตั้งไว้",
+      "customColorLabel": "สีที่กำหนดเอง",
+      "customColorTitle": "สีที่กำหนดเอง",
+      "customHue": "เฉดสีที่กำหนดเอง",
+      "backgroundHeading": "พื้นหลัง",
+      "backgroundTypeLabel": "ประเภทพื้นหลัง",
+      "backgroundColorLabel": "สีพื้นหลัง",
+      "backgroundGradientLabel": "การไล่สีพื้นหลัง",
+      "imageUrlPlaceholder": "วาง URL รูปภาพ...",
+      "uploadImage": "อัปโหลดรูปภาพ",
+      "imageUploaded": "อัปโหลดรูปภาพที่กำหนดเองแล้ว",
+      "blur": "เบลอ",
+      "dim": "หรี่",
+      "fileReadError": "ไม่สามารถอ่านไฟล์ได้",
+      "bgType": {
+        "none": "ไม่มี",
+        "color": "สี",
+        "gradient": "การไล่สี",
+        "image": "รูปภาพ"
+      }
+    },
+    "clear": {
+      "title": "ล้างแดชบอร์ด",
+      "description": "การดำเนินการนี้จะลบวิดเจ็ตออกจากแดชบอร์ด คุณอยู่ในโหมดแก้ไข จึงยังสามารถกดยกเลิกเพื่อเลิกทำก่อนบันทึกได้",
+      "widgetsGroups": "วิดเจ็ตและกลุ่มบนตารางหลัก",
+      "linksInsideGroups": "↳ ลิงก์ภายในกลุ่ม",
+      "headerBarLinks": "ลิงก์แถบส่วนหัว",
+      "alsoClearHeaderLabel": "ล้างลิงก์แถบส่วนหัวด้วย",
+      "alsoClearHeaderDesc": "โดยค่าเริ่มต้นแถบส่วนหัวจะถูกเก็บไว้ ทำเครื่องหมายนี้เพื่อล้างด้วย",
+      "widgetGroups_one": "กำลังจะลบ <strong>{{count}}</strong> วิดเจ็ต/กลุ่ม",
+      "widgetGroups_other": "กำลังจะลบ <strong>{{count}}</strong> วิดเจ็ต/กลุ่ม",
+      "headerLinks_one": "<strong>{{count}}</strong> ลิงก์ส่วนหัว",
+      "headerLinks_other": "<strong>{{count}}</strong> ลิงก์ส่วนหัว",
+      "andConnector": " และ ",
+      "cancelRestores": " ยกเลิกในแถบเครื่องมือโหมดแก้ไขเพื่อกู้คืน",
+      "nothingToClear": "ไม่มีอะไรต้องล้างด้วยการเลือกปัจจุบัน",
+      "cancelButton": "ยกเลิก",
+      "clearWidgets": "ล้างวิดเจ็ต",
+      "clearEverything": "ล้างทั้งหมด"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "แชร์รายการนี้",
+      "copyLink": "คัดลอกลิงก์",
+      "linkCopied": "คัดลอกลิงก์แล้ว",
+      "shareOn": "แชร์บน {{platform}}",
+      "shareVia": "แชร์ผ่าน {{platform}}"
+    }
+  }
+}

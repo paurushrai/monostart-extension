@@ -1,0 +1,381 @@
+{
+  "common": {
+    "delete": "ഇല്ലാതാക്കുക",
+    "cancel": "റദ്ദാക്കുക",
+    "save": "സംരക്ഷിക്കുക",
+    "copy": "പകർത്തുക",
+    "copied": "പകർത്തി"
+  },
+  "header": {
+    "menu": {
+      "language": "ഭാഷ",
+      "addLink": "ലിങ്ക് ചേർക്കുക",
+      "addWidget": "വിജറ്റ് ചേർക്കുക",
+      "editDashboard": "ഡാഷ്‌ബോർഡ് തിരുത്തുക",
+      "theme": "തീം & രൂപഭാവം",
+      "share": "MonoStart പങ്കിടുക",
+      "openInNewTab": "ലിങ്കുകൾ പുതിയ ടാബിൽ തുറക്കുക"
+    },
+    "settings": "ക്രമീകരണങ്ങൾ",
+    "clear": "മായ്ക്കുക",
+    "clearDashboard": "ഡാഷ്‌ബോർഡ് മായ്ക്കുക",
+    "cancel": "റദ്ദാക്കുക",
+    "save": "സംരക്ഷിക്കുക"
+  },
+  "widgets": {
+    "deleteWidget": "വിജറ്റ് ഇല്ലാതാക്കുക",
+    "placeholder": {
+      "place": "സ്ഥാനം",
+      "dropToPlace": "സ്ഥാപിക്കാൻ ഇടുക"
+    },
+    "todo": {
+      "defaultTitle": "ടൂഡോകൾ",
+      "empty": "ഇതുവരെ ടാസ്‌ക്കുകൾ ഇല്ല.",
+      "deleteTask": "ടാസ്‌ക് ഇല്ലാതാക്കുക",
+      "placeholder": "ഒരു ടാസ്‌ക് ചേർക്കുക...",
+      "newTaskAriaLabel": "പുതിയ ടാസ്‌ക്",
+      "addTask": "ടാസ്‌ക് ചേർക്കുക",
+      "toggleAriaLabel": "\"{{text}}\" {{status}} ആക്കി അടയാളപ്പെടുത്തുക",
+      "statusComplete": "പൂർത്തിയായി",
+      "statusIncomplete": "അപൂർണ്ണം"
+    },
+    "timer": {
+      "defaultTitle": "ടൈമറുകൾ",
+      "empty": "ടൈമറുകൾ ഒന്നും സജ്ജീകരിച്ചിട്ടില്ല.",
+      "deleteTimer": "ടൈമർ ഇല്ലാതാക്കുക",
+      "pause": "താൽക്കാലികമായി നിർത്തുക",
+      "start": "ആരംഭിക്കുക",
+      "reset": "പുനഃക്രമീകരിക്കുക",
+      "placeholderMin": "മിനിറ്റ്",
+      "durationAriaLabel": "ടൈമർ ദൈർഘ്യം മിനിറ്റിൽ",
+      "placeholderLabel": "ലേബൽ (ഐച്ഛികം)",
+      "labelAriaLabel": "ടൈമർ ലേബൽ (ഐച്ഛികം)",
+      "addTimer": "ടൈമർ ചേർക്കുക"
+    },
+    "reminders": {
+      "defaultTitle": "ഓർമ്മപ്പെടുത്തലുകൾ",
+      "empty": "ഇതുവരെ ഓർമ്മപ്പെടുത്തലുകൾ ഇല്ല.",
+      "deleteReminder": "ഓർമ്മപ്പെടുത്തൽ ഇല്ലാതാക്കുക",
+      "placeholder": "എന്നെ ഓർമ്മിപ്പിക്കൂ...",
+      "textAriaLabel": "ഓർമ്മപ്പെടുത്തൽ വാചകം",
+      "recurrenceTitle": "ആവർത്തനം",
+      "addReminder": "ഓർമ്മപ്പെടുത്തൽ ചേർക്കുക",
+      "customIntervalAriaLabel": "ഇഷ്‌ടാനുസൃത ഇടവേള മൂല്യം",
+      "customUnitAriaLabel": "ഇഷ്‌ടാനുസൃത ഇടവേള യൂണിറ്റ്",
+      "unitMinutes": "മിനിറ്റുകൾ",
+      "unitHours": "മണിക്കൂറുകൾ",
+      "unitDays": "ദിവസങ്ങൾ",
+      "saveRecurrence": "സംരക്ഷിക്കുക",
+      "toggleAriaLabel": "\"{{text}}\" {{status}} ആക്കി അടയാളപ്പെടുത്തുക",
+      "statusComplete": "പൂർത്തിയായി",
+      "statusIncomplete": "അപൂർണ്ണം",
+      "recurrenceNone": "ഒരിക്കൽ",
+      "recurrence30min": "എല്ലാ 30 മിനിറ്റിലും",
+      "recurrenceHourly": "മണിക്കൂർതോറും",
+      "recurrenceDaily": "ദൈനംദിനം",
+      "recurrenceWeekly": "ആഴ്ചതോറും",
+      "recurrenceCustom": "ഇഷ്‌ടാനുസൃതം",
+      "everyDay": "എല്ലാ {{count}}ദി",
+      "everyHour": "എല്ലാ {{count}}മ",
+      "everyMin": "എല്ലാ {{count}}മി",
+      "every": "എല്ലാ",
+      "today": "ഇന്ന് {{time}}",
+      "tomorrow": "നാളെ {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "കുറിപ്പ്",
+      "changeColor": "നിറം മാറ്റുക",
+      "placeholder": "എന്തെങ്കിലും എഴുതുക...",
+      "contentAriaLabel": "കുറിപ്പ് ഉള്ളടക്കം",
+      "titleAriaLabel": "കുറിപ്പ് തലക്കെട്ട്",
+      "actionsAriaLabel": "കുറിപ്പ് പ്രവർത്തനങ്ങൾ",
+      "color_default": "സ്ഥിരസ്ഥിതി",
+      "color_amber": "മഞ്ഞ",
+      "color_sky": "നീല",
+      "color_rose": "പിങ്ക്",
+      "color_emerald": "പച്ച",
+      "color_purple": "പർപ്പിൾ"
+    },
+    "image": {
+      "defaultTitle": "ചിത്രം",
+      "settings": "ചിത്ര ക്രമീകരണങ്ങൾ",
+      "actionsAriaLabel": "ചിത്ര പ്രവർത്തനങ്ങൾ",
+      "titleAriaLabel": "ചിത്ര തലക്കെട്ട്",
+      "changeImage": "ചിത്രം മാറ്റുക",
+      "fitCover": "കവർ (ക്രോപ്പ്)",
+      "fitContain": "ഉൾക്കൊള്ളുക (അനുപാതം)",
+      "fitFill": "നിറക്കുക (നീട്ടൽ)",
+      "configureTitle": "വിജറ്റ് ചിത്രം ക്രമീകരിക്കുക",
+      "urlPlaceholder": "ചിത്ര URL ഒട്ടിക്കുക...",
+      "or": "അല്ലെങ്കിൽ",
+      "uploadLocal": "പ്രാദേശിക ചിത്രം അപ്‌ലോഡ് ചെയ്യുക",
+      "cancelConfig": "ക്രമീകരണം റദ്ദാക്കുക",
+      "loadError": "ചിത്രം ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. URL തകർന്നതോ തടഞ്ഞതോ ആകാം."
+    },
+    "label": {
+      "defaultText": "വാചകം",
+      "settings": "വാചക ക്രമീകരണങ്ങൾ",
+      "actionsAriaLabel": "ലേബൽ പ്രവർത്തനങ്ങൾ",
+      "textAriaLabel": "ലേബൽ വാചകം",
+      "editText": "വാചകം തിരുത്തുക",
+      "showCardStyle": "കാർഡ് ശൈലി കാണിക്കുക",
+      "fontSize": "ഫോൺട്ട് വലുപ്പം",
+      "alignment": "വിന്യാസം",
+      "fontWeight": "ഫോൺട്ട് ഭാരം",
+      "opacity": "അതാര്യത",
+      "deleteText": "വാചകം ഇല്ലാതാക്കുക",
+      "alignLeft": "ഇടത്",
+      "alignCenter": "മധ്യം",
+      "alignRight": "വലത്",
+      "fontSizes": {
+        "sm": "ചെറുത്",
+        "base": "ഇടത്തരം",
+        "lg": "വലുത്",
+        "xl": "അത്യധികം വലുത്",
+        "xl2": "2X വലുത്",
+        "xl3": "3X വലുത്",
+        "xl4": "4X വലുത്",
+        "xl5": "5X വലുത്",
+        "xl6": "6X വലുത്",
+        "xl7": "7X വലുത്",
+        "xl8": "8X വലുത്",
+        "xl9": "9X വലുത്",
+        "xl10": "10X വലുത്",
+        "xl12": "12X വലുത്"
+      },
+      "fontWeights": {
+        "thin": "നേർത്ത",
+        "light": "ലഘു",
+        "regular": "സാധാരണ",
+        "medium": "ഇടത്തരം",
+        "semibold": "അർദ്ധ കട്ടി",
+        "bold": "കട്ടി",
+        "extrabold": "അത്യധിക കട്ടി",
+        "black": "ബ്ലാക്ക്"
+      },
+      "opacities": {
+        "full": "100% (തിളക്കമുള്ള)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (മങ്ങിയ)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google തിരയുക അല്ലെങ്കിൽ URL ടൈപ്പ് ചെയ്യുക",
+      "searchAriaLabel": "തിരയൽ ചോദ്യം",
+      "voiceSearch": "ശബ്ദ തിരയൽ",
+      "lensSearch": "Lens ഉപയോഗിച്ച് ഏതെങ്കിലും ചിത്രം തിരയുക",
+      "removeWidget": "വിജറ്റ് നീക്കംചെയ്യുക",
+      "switchToBarOnly": "ബാർ മാത്രമായി മാറ്റുക",
+      "switchToLogoBar": "ലോഗോ + ബാറിലേക്ക് മാറ്റുക",
+      "barOnly": "ബാർ മാത്രം",
+      "showLogo": "ലോഗോ കാണിക്കുക",
+      "toggleLogoStyle": "ലോഗോ ശൈലി ടോഗിൾ ചെയ്യുക"
+    },
+    "group": {
+      "borderColorAriaLabel": "ഗ്രൂപ്പ് ബോർഡർ നിറം",
+      "pasteUrlPlaceholder": "URL ഒട്ടിക്കുക...",
+      "colors": {
+        "red": "ചുവപ്പ്",
+        "pink": "പിങ്ക്",
+        "purple": "പർപ്പിൾ",
+        "indigo": "ഇൻഡിഗോ",
+        "blue": "നീല",
+        "cyan": "സയൻ",
+        "teal": "ടീൽ",
+        "green": "പച്ച",
+        "yellow": "മഞ്ഞ",
+        "orange": "ഓറഞ്ച്",
+        "slate": "സ്ലേറ്റ്",
+        "neutral": "നിഷ്പക്ഷം"
+      }
+    },
+    "groupHeader": {
+      "addLink": "ലിങ്ക് ചേർക്കുക",
+      "colorBorder": "നിറ ബോർഡർ",
+      "layout": "ലേഔട്ട്",
+      "layoutGrid": "ഗ്രിഡ്",
+      "layoutList": "പട്ടിക",
+      "gridColumns": "ഗ്രിഡ് നിരകൾ",
+      "column_one": "{{count}} നിര",
+      "column_other": "{{count}} നിരകൾ",
+      "deleteGroup": "ഗ്രൂപ്പ് ഇല്ലാതാക്കുക",
+      "actionsAriaLabel": "ഗ്രൂപ്പ് പ്രവർത്തനങ്ങൾ"
+    },
+    "groupInnerGrid": {
+      "empty": "ഒഴിഞ്ഞ ഗ്രൂപ്പ്",
+      "addFirstLink": "ആദ്യ ലിങ്ക് ചേർക്കുക",
+      "dropToAdd": "ചേർക്കാൻ ഇടുക",
+      "add": "ചേർക്കുക"
+    },
+    "iframe": {
+      "removeWidget": "വിജറ്റ് നീക്കംചെയ്യുക",
+      "openInNewTab": "പുതിയ ടാബിൽ തുറക്കുക"
+    },
+    "linkCard": {
+      "options": "ഓപ്ഷനുകൾ",
+      "rename": "പുനർനാമകരണം ചെയ്യുക",
+      "size": "വലുപ്പം",
+      "sizeSmall": "ചെറുത് (1×1)",
+      "sizeMedium": "ഇടത്തരം (3×1)",
+      "moveTo": "ഇതിലേക്ക് നീക്കുക...",
+      "mainDashboard": "പ്രധാന ഡാഷ്‌ബോർഡ്",
+      "header": "ഹെഡർ",
+      "deleteLink": "ലിങ്ക് ഇല്ലാതാക്കുക",
+      "actionsAriaLabel": "ലിങ്ക് പ്രവർത്തനങ്ങൾ"
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} ഒഴിഞ്ഞ ഫോട്ടോ വിജറ്റ് നീക്കം ചെയ്തു.",
+    "removedEmptyPhotos_other": "{{count}} ഒഴിഞ്ഞ ഫോട്ടോ വിജറ്റുകൾ നീക്കം ചെയ്തു.",
+    "clearedWidgets_one": "{{count}} വിജറ്റ്",
+    "clearedWidgets_other": "{{count}} വിജറ്റുകൾ",
+    "clearedHeaderLinks_one": "{{count}} ഹെഡർ ലിങ്ക്",
+    "clearedHeaderLinks_other": "{{count}} ഹെഡർ ലിങ്കുകൾ",
+    "clearedSummary": "{{items}} മായ്ച്ചു. പഴയ അവസ്ഥ തിരികെ വരാൻ റദ്ദാക്കുക, അല്ലെങ്കിൽ സ്ഥിരീകരിക്കാൻ സംരക്ഷിക്കുക.",
+    "onlyOneGoogleSearch": "ഒരു Google തിരയൽ വിജറ്റ് മാത്രം അനുവദനീയം.",
+    "noRoomForWidget": "ഈ വിജറ്റിന് സ്ഥലമില്ല. ഇടം ഉണ്ടാക്കാൻ എന്തെങ്കിലും വലുപ്പം മാറ്റുക അല്ലെങ്കിൽ നീക്കംചെയ്യുക.",
+    "swap": {
+      "no-room": "സ്വാപ്പ് ചെയ്യാൻ കഴിയില്ല — പുതിയ സ്ഥാനങ്ങളിൽ രണ്ട് വിജറ്റുകൾക്കും ഒതുക്കാൻ ആവശ്യത്തിന് സ്ഥലമില്ല.",
+      "out-of-bounds": "സ്വാപ്പ് ചെയ്യാൻ കഴിയില്ല — ഒരു വിജറ്റ് അതിന്റെ ഏറ്റവും കുറഞ്ഞ വലുപ്പത്തിൽ ഗ്രിഡ് അരികിനപ്പുറം നീളും.",
+      "overlap": "സ്വാപ്പ് ചെയ്യാൻ കഴിയില്ല — രണ്ട് വിജറ്റുകളുടെ ഏറ്റവും കുറഞ്ഞ വലുപ്പങ്ങൾ പരസ്പരം ഓവർലാപ്പ് ചെയ്യുന്നു.",
+      "obstacle": "സ്വാപ്പ് ചെയ്യാൻ കഴിയില്ല — മറ്റൊരു വിജറ്റ് വഴിയിലുണ്ട്. ആദ്യം അത് നീക്കുക അല്ലെങ്കിൽ വലുപ്പം മാറ്റുക."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStart-ൽ സംരക്ഷിക്കുക",
+    "saveLink": "ലിങ്ക് സംരക്ഷിക്കുക",
+    "saved": "സംരക്ഷിച്ചു!",
+    "openDashboard": "ഡാഷ്‌ബോർഡ് തുറക്കുക",
+    "destination": {
+      "label": "ലക്ഷ്യസ്ഥാനം",
+      "main": "പ്രധാന ഡാഷ്‌ബോർഡ്",
+      "header": "ഹെഡർ ബാർ"
+    },
+    "reminders": {
+      "ariaLabel": "തീർപ്പാകാത്ത ഓർമ്മപ്പെടുത്തലുകൾ",
+      "count_one": "{{count}} ഓർമ്മപ്പെടുത്തൽ",
+      "count_other": "{{count}} ഓർമ്മപ്പെടുത്തലുകൾ",
+      "clearAll": "എല്ലാം മായ്ക്കുക",
+      "dismiss": "നിരസിക്കുക"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome ഫൂട്ടർ ഗൈഡ് മറയ്ക്കുക",
+      "success": "ഫൂട്ടർ മറഞ്ഞു — പൂർണ്ണ സ്ക്രീൻ ആസ്വദിക്കുക!",
+      "corner": {
+        "title": "പൂർണ്ണ-സ്ക്രീൻ അനുഭവം നേടുക",
+        "intro": "Chrome MonoStart-ന് താഴെ ഒരു ഫൂട്ടർ ചേർക്കുന്നു. അത് മറയ്ക്കാൻ, ക്ലിക്ക് ചെയ്യുക",
+        "cta": "Customize Chrome",
+        "ctaSuffix": "താഴെ-വലത് കോണിൽ.",
+        "noFooter": "ഫൂട്ടർ കാണുന്നില്ലേ? നിങ്ങൾ സജ്ജമാണ് — ഇത് ഒഴിവാക്കുക."
+      },
+      "panel": {
+        "title": "ഏതാണ്ട് പൂർത്തിയായി",
+        "intro": "ഇതിന് കീഴിൽ",
+        "setting": "ഫൂട്ടർ",
+        "turnOff": ", ഓഫ് ചെയ്യുക",
+        "action": "പുതിയ ടാബ് പേജിൽ ഫൂട്ടർ കാണിക്കുക",
+        "suffix": ", തുടർന്ന് പാനൽ അടയ്ക്കുക."
+      },
+      "skip": "ഒഴിവാക്കുക",
+      "next": "അടുത്തത്",
+      "done": "പൂർത്തിയായി"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "ഭാഷ",
+      "subtitle": "നിങ്ങളുടെ ഭാഷ തിരഞ്ഞെടുക്കുക",
+      "search": "ഭാഷകൾ തിരയുക…",
+      "empty": "നിങ്ങളുടെ തിരയലുമായി പൊരുത്തപ്പെടുന്ന ഭാഷകളൊന്നുമില്ല."
+    },
+    "addWidget": {
+      "title": "വിജറ്റ് ചേർക്കുക",
+      "titleConfigure": "{{name}} ക്രമീകരിക്കുക",
+      "titleGoogleStyle": "Google തിരയൽ ശൈലി തിരഞ്ഞെടുക്കുക",
+      "logoBarTitle": "ലോഗോ + ബാർ",
+      "logoBarDesc": "തിരയൽ ബാറിന് മുകളിൽ വലിയ Google ലോഗോ. 4 വരി ആവശ്യമാണ്.",
+      "barOnlyTitle": "ബാർ മാത്രം",
+      "barOnlyDesc": "തിരയൽ ബാർ മാത്രം. 1 വരി ആവശ്യമാണ്. സംക്ഷിപ്തം.",
+      "urlLabel": "URL അല്ലെങ്കിൽ എംബെഡ് കോഡ്",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "ലളിതമായ എംബെഡുകൾക്ക് ഒരു URL ഒട്ടിക്കുക, അല്ലെങ്കിൽ നേരിട്ടുള്ള ലോഡിംഗ് തടയുന്ന സൈറ്റുകളിൽ നിന്ന് (YouTube, Figma, Spotify, CodePen, മുതലായവ) ഒരു <code>&lt;iframe&gt;</code> സ്നിപ്പറ്റ് ഒട്ടിക്കുക.",
+      "back": "തിരിച്ച്",
+      "embedWidget": "വിജറ്റ് എംബെഡ് ചെയ്യുക"
+    },
+    "addLink": {
+      "title": "ലിങ്ക് ചേർക്കുക",
+      "description": "നിങ്ങളുടെ ഡാഷ്‌ബോർഡിൽ ഒരു പുതിയ ലിങ്ക് കാർഡ് ചേർക്കാൻ ഒരു URL ഒട്ടിക്കുക.",
+      "urlLabel": "വെബ്‌സൈറ്റ് URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "തലക്കെട്ട് (ഐച്ഛികം)",
+      "titlePlaceholder": "എന്റെ ലിങ്ക്",
+      "locationLabel": "സ്ഥാനം",
+      "locationMainDashboard": "പ്രധാന ഡാഷ്‌ബോർഡ്",
+      "locationHeader": "ഹെഡർ (ഫേവിക്കോൺ മാത്രം)",
+      "locationFolder": "ഫോൾഡർ: {{title}}",
+      "locationGroup": "ഗ്രൂപ്പ്: {{title}}",
+      "cancel": "റദ്ദാക്കുക",
+      "submit": "ലിങ്ക് ചേർക്കുക"
+    },
+    "theme": {
+      "title": "തീം & രൂപഭാവം",
+      "description": "നിങ്ങളുടെ ഡാഷ്‌ബോർഡിന്റെ രൂപഭാവം ഇഷ്‌ടാനുസൃതമാക്കുക.",
+      "modeGroupLabel": "തീം മോഡ്",
+      "light": "ലൈറ്റ്",
+      "dark": "ഡാർക്ക്",
+      "device": "ഉപകരണം",
+      "primaryColorHeading": "പ്രാഥമിക നിറം",
+      "primaryColorPresetsLabel": "പ്രാഥമിക നിറ പ്രീസെറ്റുകൾ",
+      "customColorLabel": "ഇഷ്‌ടാനുസൃത നിറം",
+      "customColorTitle": "ഇഷ്‌ടാനുസൃത നിറം",
+      "customHue": "ഇഷ്‌ടാനുസൃത ഹ്യൂ",
+      "backgroundHeading": "പശ്ചാത്തലം",
+      "backgroundTypeLabel": "പശ്ചാത്തല തരം",
+      "backgroundColorLabel": "പശ്ചാത്തല നിറം",
+      "backgroundGradientLabel": "പശ്ചാത്തല ഗ്രേഡിയന്റ്",
+      "imageUrlPlaceholder": "ചിത്ര URL ഒട്ടിക്കുക...",
+      "uploadImage": "ചിത്രം അപ്‌ലോഡ് ചെയ്യുക",
+      "imageUploaded": "ഇഷ്‌ടാനുസൃത ചിത്രം അപ്‌ലോഡ് ചെയ്തു.",
+      "blur": "മങ്ങൽ",
+      "dim": "മങ്ങൽ",
+      "fileReadError": "ഫയൽ വായിക്കുന്നതിൽ പരാജയപ്പെട്ടു.",
+      "bgType": {
+        "none": "ഒന്നുമില്ല",
+        "color": "നിറം",
+        "gradient": "ഗ്രേഡിയന്റ്",
+        "image": "ചിത്രം"
+      }
+    },
+    "clear": {
+      "title": "ഡാഷ്‌ബോർഡ് മായ്ക്കുക",
+      "description": "ഇത് ഡാഷ്‌ബോർഡിൽ നിന്ന് വിജറ്റുകൾ നീക്കംചെയ്യുന്നു. നിങ്ങൾ എഡിറ്റ് മോഡിലാണ്, അതിനാൽ സംരക്ഷിക്കുന്നതിന് മുമ്പ് റദ്ദാക്കാൻ ഇനിയും കഴിയും.",
+      "widgetsGroups": "പ്രധാന ഗ്രിഡിലെ വിജറ്റുകളും ഗ്രൂപ്പുകളും",
+      "linksInsideGroups": "↳ ഗ്രൂപ്പുകൾക്കുള്ളിലെ ലിങ്കുകൾ",
+      "headerBarLinks": "ഹെഡർ ബാർ ലിങ്കുകൾ",
+      "alsoClearHeaderLabel": "ഹെഡർ ബാർ ലിങ്കുകളും മായ്ക്കുക",
+      "alsoClearHeaderDesc": "സ്ഥിരസ്ഥിതിയായി ഹെഡർ ബാർ സംരക്ഷിക്കപ്പെടും. അതും മായ്ക്കാൻ ഇത് ടിക്ക് ചെയ്യുക.",
+      "widgetGroups_one": "<strong>{{count}}</strong> വിജറ്റ്/ഗ്രൂപ്പ് ഇല്ലാതാക്കാൻ പോകുന്നു",
+      "widgetGroups_other": "<strong>{{count}}</strong> വിജറ്റുകൾ/ഗ്രൂപ്പുകൾ ഇല്ലാതാക്കാൻ പോകുന്നു",
+      "headerLinks_one": "<strong>{{count}}</strong> ഹെഡർ ലിങ്ക്",
+      "headerLinks_other": "<strong>{{count}}</strong> ഹെഡർ ലിങ്കുകൾ",
+      "andConnector": " ഉം ",
+      "cancelRestores": ". എഡിറ്റ്-മോഡ് ടൂൾബാറിൽ റദ്ദാക്കൽ അവ പുനഃസ്ഥാപിക്കും.",
+      "nothingToClear": "നിലവിലെ തിരഞ്ഞെടുക്കലിൽ മായ്ക്കാൻ ഒന്നുമില്ല.",
+      "cancelButton": "റദ്ദാക്കുക",
+      "clearWidgets": "വിജറ്റുകൾ മായ്ക്കുക",
+      "clearEverything": "എല്ലാം മായ്ക്കുക"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "ഈ ഇനം പങ്കിടുക",
+      "copyLink": "ലിങ്ക് പകർത്തുക",
+      "linkCopied": "ലിങ്ക് പകർത്തി",
+      "shareOn": "{{platform}}-ൽ പങ്കിടുക",
+      "shareVia": "{{platform}} വഴി പങ്കിടുക"
+    }
+  }
+}
