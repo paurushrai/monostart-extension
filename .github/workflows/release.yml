@@ -1,0 +1,84 @@
+name: Release
+
+# Tag-driven release for MonoStart. Push an annotated SemVer tag from `main`
+# (e.g. `v1.3.0`) and this builds the extension, verifies versions are in sync,
+# zips dist/, and publishes a GitHub Release with the .zip attached.
+#
+#   git tag -a v1.3.0 -m "v1.3.0" && git push origin main --follow-tags
+#
+# Pre-release tags (containing a hyphen, e.g. v1.3.0-beta.1) are marked as
+# pre-releases automatically.
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+# Releases are immutable and order-sensitive — never cancel an in-flight one.
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write # create the GitHub Release and upload assets
+
+jobs:
+  release:
+    name: Build & publish release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Verify tag matches package & manifest version
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          PKG=$(node -p "require('./package.json').version")
+          MAN=$(node -p "require('./public/manifest.json').version")
+          echo "tag=$TAG package=$PKG manifest=$MAN"
+          if [ "$TAG" != "$PKG" ] || [ "$TAG" != "$MAN" ]; then
+            echo "::error::Version mismatch — tag ($TAG), package.json ($PKG), and manifest.json ($MAN) must all match"
+            exit 1
+          fi
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Re-run the full quality gate on the tagged commit: never publish a red build.
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      # Chrome Web Store expects manifest.json at the zip root, so zip dist/ contents.
+      - name: Package extension
+        run: |
+          cd dist
+          zip -r "../monostart-${GITHUB_REF_NAME}.zip" .
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PRERELEASE=""
+          case "$GITHUB_REF_NAME" in
+            *-*) PRERELEASE="--prerelease" ;;
+          esac
+          gh release create "$GITHUB_REF_NAME" \
+            "monostart-${GITHUB_REF_NAME}.zip" \
+            --title "$GITHUB_REF_NAME" \
+            --generate-notes \
+            $PRERELEASE

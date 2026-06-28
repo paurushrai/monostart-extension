@@ -31,6 +31,16 @@ jobs:
           node-version: '22'
           cache: npm
 
+      - name: Check version sync (package.json == manifest.json)
+        run: |
+          PKG=$(node -p "require('./package.json').version")
+          MAN=$(node -p "require('./public/manifest.json').version")
+          echo "package=$PKG manifest=$MAN"
+          if [ "$PKG" != "$MAN" ]; then
+            echo "::error::Version mismatch — package.json ($PKG) and public/manifest.json ($MAN) must match"
+            exit 1
+          fi
+
       - name: Install dependencies
         run: npm ci
 
