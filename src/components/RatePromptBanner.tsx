@@ -11,7 +11,7 @@ interface Props {
 export default function RatePromptBanner({ onRate, onLater, onDismiss }: Readonly<Props>) {
   const { t } = useTranslation();
   return (
-    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-[min(92vw,28rem)] animate-in fade-in slide-in-from-bottom-2">
+    <div className="fixed bottom-4 right-4 z-40 w-[min(92vw,24rem)] animate-in fade-in slide-in-from-bottom-2">
       <div className="card-base bg-card/95 backdrop-blur-md border border-border shadow-lg rounded-xl p-4 relative">
         <button
           type="button"
