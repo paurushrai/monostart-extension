@@ -190,7 +190,7 @@
         "slate": "স্লেট",
         "neutral": "নিরপেক্ষ"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "নতুন গ্রুপ"
     },
     "groupHeader": {
       "addLink": "লিঙ্ক যোগ করুন",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "উইজেট সরান",
       "openInNewTab": "নতুন ট্যাবে খুলুন",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "এম্বেড করা পৃষ্ঠা"
     },
     "linkCard": {
       "options": "বিকল্প",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google অনুসন্ধান",
+        "description": "Google অনুসন্ধান করুন বা একটি URL টাইপ করুন।"
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "গ্রুপ",
+        "description": "আপনার লিঙ্কগুলি সংগঠিত করার জন্য কাস্টম রঙের একটি গ্রুপ।"
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "অনুস্মারক",
+        "description": "ব্রাউজার বিজ্ঞপ্তি সহ অনুস্মারক নির্ধারণ করুন। প্রতি ঘণ্টা / প্রতিদিন / সাপ্তাহিক পুনরাবৃত্তি সমর্থিত।"
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "কাজের তালিকা",
+        "description": "আপনার কাজগুলি ট্র্যাক করুন।"
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "টাইমার",
+        "description": "একাধিক টাইমার পরিচালনা করুন।"
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "স্টিকি নোট",
+        "description": "কাস্টম রঙ দিয়ে নোট বা অনুস্মারক লিখুন।"
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "ছবি",
+        "description": "একটি URL থেকে ছবি যোগ করুন বা স্থানীয় ফাইল আপলোড করুন।"
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "টেক্সট লেবেল",
+        "description": "আপনার গ্রিড স্টাইল করতে একটি পরিষ্কার ভাসমান টেক্সট শিরোনাম বা টাইটেল যোগ করুন।"
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "এম্বেড করা পৃষ্ঠা",
+        "description": "যেকোনো ওয়েবসাইট লাইভ উইজেট হিসেবে এম্বেড করুন।"
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "ছবি"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "ডিফল্ট",
+        "grey": "ধূসর",
+        "blue": "নীল",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "সবুজ",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "হলুদ",
+        "orange": "কমলা",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "টমেটো",
+        "rose": "গোলাপ",
+        "pink": "গোলাপি",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "বেগুনি"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "গোধূলি",
+        "sunset": "সূর্যাস্ত",
+        "ocean": "মহাসাগর",
+        "forest": "বন",
         "slate": "Slate",
         "aurora": "Aurora"
       }

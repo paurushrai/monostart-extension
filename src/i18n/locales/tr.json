@@ -190,7 +190,7 @@
         "slate": "Kurşuni",
         "neutral": "Nötr"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Yeni Grup"
     },
     "groupHeader": {
       "addLink": "Bağlantı Ekle",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Widget'ı kaldır",
       "openInNewTab": "Yeni sekmede aç",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Gömülü Sayfa"
     },
     "linkCard": {
       "options": "Seçenekler",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google Arama",
+        "description": "Google'da ara veya bir URL gir."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grup",
+        "description": "Bağlantılarını düzenlemek için özel renkli bir grup."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Hatırlatıcılar",
+        "description": "Tarayıcı bildirimleriyle hatırlatıcılar planla. Saatlik / günlük / haftalık tekrar desteklenir."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Yapılacaklar Listesi",
+        "description": "Görevlerini takip et."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Zamanlayıcılar",
+        "description": "Birden fazla zamanlayıcıyı yönet."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Yapışkan Not",
+        "description": "Özel renklerle notlar veya hatırlatıcılar yaz."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Görsel",
+        "description": "Bir URL'den görsel ekle veya yerel dosya yükle."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Metin Etiketi",
+        "description": "Izgaranı şekillendirmek için temiz bir yüzen metin başlığı ekle."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Gömülü Sayfa",
+        "description": "Herhangi bir web sitesini canlı widget olarak göm."
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "Resim"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Varsayılan",
+        "grey": "Gri",
+        "blue": "Mavi",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Yeşil",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Sarı",
+        "orange": "Turuncu",
         "apricot": "Apricot",
-        "tomato": "Tomato",
+        "tomato": "Domates",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "Pembe",
         "fuchsia": "Fuchsia",
         "violet": "Violet"
       },
       "gradients": {
         "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "sunset": "Gün Batımı",
+        "ocean": "Okyanus",
+        "forest": "Orman",
         "slate": "Slate",
         "aurora": "Aurora"
       }

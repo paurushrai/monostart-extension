@@ -190,7 +190,7 @@
         "slate": "Шисти",
         "neutral": "Неутрален"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Нова група"
     },
     "groupHeader": {
       "addLink": "Добави връзка",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Премахни приспособление",
       "openInNewTab": "Отвори в нов раздел",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Вградена страница"
     },
     "linkCard": {
       "options": "Опции",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google Търсене",
+        "description": "Търсете в Google или въведете URL адрес."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Група",
+        "description": "Група с персонализиран цвят за организиране на връзките ви."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Напомняния",
+        "description": "Планирайте напомняния с известия от браузъра. Поддържа се почасово / дневно / седмично повторение."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Списък задачи",
+        "description": "Следете задачите си."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Таймери",
+        "description": "Управлявайте множество таймери."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Лепяща бележка",
+        "description": "Пишете бележки или напомняния с персонализирани цветове."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Изображение",
+        "description": "Добавете изображение от URL адрес или качете локален файл."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Текстов етикет",
+        "description": "Добавете чист плаващ текстов заглавен ред или заглавие за стилизиране на мрежата ви."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Вградена страница",
+        "description": "Вградете всеки уебсайт като активно приспособление."
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "Изображение"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "По подразбиране",
+        "grey": "Сив",
+        "blue": "Син",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Зелен",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Жълт",
+        "orange": "Оранжев",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "Доматено",
+        "rose": "Розов",
+        "pink": "Розов",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Виолетов"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "Здрач",
+        "sunset": "Залез",
+        "ocean": "Океан",
+        "forest": "Гора",
         "slate": "Slate",
         "aurora": "Aurora"
       }

@@ -190,7 +190,7 @@
         "slate": "Liuskekivi",
         "neutral": "Neutraali"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Uusi ryhmä"
     },
     "groupHeader": {
       "addLink": "Lisää linkki",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Poista widget",
       "openInNewTab": "Avaa uudessa välilehdessä",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Upotettu sivu"
     },
     "linkCard": {
       "options": "Asetukset",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Hae Googlesta tai kirjoita URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Ryhmä",
+        "description": "Mukautetun värin ryhmä linkkiesi järjestämiseen."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Muistutukset",
+        "description": "Ajoita muistutuksia selaimen ilmoitusten avulla. Tunti- / päivä- / viikkokohtainen toistuvuus tuettu."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Tehtävälista",
+        "description": "Seuraa tehtäviäsi."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Ajastimet",
+        "description": "Hallitse useita ajastimia."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Muistilappu",
+        "description": "Kirjoita muistiinpanoja tai muistutuksia mukautetuilla väreillä."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Kuva",
+        "description": "Lisää kuva URL-osoitteesta tai lataa paikallinen tiedosto."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Tekstiotsikko",
+        "description": "Lisää siisti kelluva tekstiotsikko tai -nimike tyylitelläksesi ruudukkosi."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Upotettu sivu",
+        "description": "Upota mikä tahansa verkkosivusto reaaliaikaisena widgetinä."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Kuva"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Oletus",
+        "grey": "Harmaa",
+        "blue": "Sininen",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Vihreä",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Keltainen",
+        "orange": "Oranssi",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "Tomaatti",
+        "rose": "Ruusu",
+        "pink": "Pinkki",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Violetti"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "Hämärä",
+        "sunset": "Auringonlasku",
+        "ocean": "Valtameri",
+        "forest": "Metsä",
+        "slate": "Liuskekivi",
         "aurora": "Aurora"
       }
     },

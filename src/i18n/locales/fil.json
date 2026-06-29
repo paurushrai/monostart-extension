@@ -190,7 +190,7 @@
         "slate": "Slate",
         "neutral": "Neutral"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Bagong Grupo"
     },
     "groupHeader": {
       "addLink": "Magdagdag ng Link",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Alisin ang widget",
       "openInNewTab": "Buksan sa bagong tab",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Naka-embed na Pahina"
     },
     "linkCard": {
       "options": "Mga Opsyon",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Maghanap sa Google o mag-type ng URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grupo",
+        "description": "Isang grupo na may custom na kulay para sa pag-oorganisa ng iyong mga link."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Mga Paalala",
+        "description": "Mag-iskedyul ng mga paalala na may mga notipikasyon ng browser. Sinusuportahan ang paulit-ulit na oras / araw / linggo."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Listahan ng Gawain",
+        "description": "Subaybayan ang iyong mga gawain."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Mga Timer",
+        "description": "Pamahalaan ang maraming mga timer."
       },
       "note": {
         "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "description": "Sumulat ng mga tala o paalala na may custom na mga kulay."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Larawan",
+        "description": "Magdagdag ng larawan mula sa isang URL o mag-upload ng lokal na file."
       },
       "label": {
         "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "description": "Magdagdag ng malinis na lumulutang na text header o pamagat para i-estilo ang iyong grid."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Naka-embed na Pahina",
+        "description": "I-embed ang anumang website bilang isang live na widget."
       }
     }
   },
@@ -407,10 +407,10 @@
         "violet": "Violet"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "Takipsilim",
+        "sunset": "Paglubog ng Araw",
+        "ocean": "Karagatan",
+        "forest": "Kagubatan",
         "slate": "Slate",
         "aurora": "Aurora"
       }

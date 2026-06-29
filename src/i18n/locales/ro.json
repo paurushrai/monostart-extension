@@ -190,7 +190,7 @@
         "slate": "Slate",
         "neutral": "Neutru"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Grup nou"
     },
     "groupHeader": {
       "addLink": "Adaugă link",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Elimină widget",
       "openInNewTab": "Deschide în filă nouă",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Pagină încorporată"
     },
     "linkCard": {
       "options": "Opțiuni",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Caută pe Google sau introdu un URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grup",
+        "description": "Un grup colorat personalizat pentru organizarea linkurilor tale."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Mementouri",
+        "description": "Programează mementouri cu notificări de browser. Recurență orară / zilnică / săptămânală suportată."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Listă de sarcini",
+        "description": "Urmărește-ți sarcinile."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Cronometre",
+        "description": "Gestionează mai multe cronometre."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Notă lipicioasă",
+        "description": "Scrie notițe sau mementouri cu culori personalizate."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Imagine",
+        "description": "Adaugă o imagine dintr-un URL sau încarcă un fișier local."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Etichetă text",
+        "description": "Adaugă un antet sau titlu text plutitor pentru a stiliza grila ta."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Pagină încorporată",
+        "description": "Încorporează orice site web ca widget în timp real."
       }
     }
   },
@@ -390,29 +390,29 @@
         "image": "Imagine"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Implicit",
+        "grey": "Gri",
+        "blue": "Albastru",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Verde",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
-        "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
-        "fuchsia": "Fuchsia",
+        "yellow": "Galben",
+        "orange": "Portocaliu",
+        "apricot": "Caisiu",
+        "tomato": "Roșu tomată",
+        "rose": "Roz",
+        "pink": "Roz deschis",
+        "fuchsia": "Fucsia",
         "violet": "Violet"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
+        "dusk": "Amurg",
+        "sunset": "Apus",
         "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
-        "aurora": "Aurora"
+        "forest": "Pădure",
+        "slate": "Ardezie",
+        "aurora": "Auroră"
       }
     },
     "clear": {

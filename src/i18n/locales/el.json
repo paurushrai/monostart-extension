@@ -190,7 +190,7 @@
         "slate": "Σχιστόχρωμο",
         "neutral": "Ουδέτερο"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Νέα ομάδα"
     },
     "groupHeader": {
       "addLink": "Προσθήκη συνδέσμου",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Αφαίρεση widget",
       "openInNewTab": "Άνοιγμα σε νέα καρτέλα",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Ενσωματωμένη σελίδα"
     },
     "linkCard": {
       "options": "Επιλογές",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google Αναζήτηση",
+        "description": "Αναζητήστε στο Google ή πληκτρολογήστε μια διεύθυνση URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Ομάδα",
+        "description": "Μια ομάδα με προσαρμοσμένο χρώμα για τη διοργάνωση των συνδέσμων σας."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Υπενθυμίσεις",
+        "description": "Προγραμματίστε υπενθυμίσεις με ειδοποιήσεις του προγράμματος περιήγησης. Υποστηρίζεται ωριαία / ημερήσια / εβδομαδιαία επανάληψη."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Λίστα εργασιών",
+        "description": "Παρακολουθήστε τις εργασίες σας."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Χρονόμετρα",
+        "description": "Διαχειριστείτε πολλά χρονόμετρα."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Αυτοκόλλητη σημείωση",
+        "description": "Γράψτε σημειώσεις ή υπενθυμίσεις με προσαρμοσμένα χρώματα."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Εικόνα",
+        "description": "Προσθέστε μια εικόνα από URL ή ανεβάστε ένα τοπικό αρχείο."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Ετικέτα κειμένου",
+        "description": "Προσθέστε μια αιωρούμενη επικεφαλίδα ή τίτλο κειμένου για να διαμορφώσετε το πλέγμα σας."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Ενσωματωμένη σελίδα",
+        "description": "Ενσωματώστε οποιονδήποτε ιστότοπο ως ζωντανό widget."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Εικόνα"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Προεπιλογή",
+        "grey": "Γκρι",
+        "blue": "Μπλε",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Πράσινο",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Κίτρινο",
+        "orange": "Πορτοκαλί",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "Ντομάτα",
+        "rose": "Τριαντάφυλλο",
+        "pink": "Ροζ",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Βιολετί"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "Σούρουπο",
+        "sunset": "Ηλιοβασίλεμα",
+        "ocean": "Ωκεανός",
+        "forest": "Δάσος",
+        "slate": "Σχιστόλιθος",
         "aurora": "Aurora"
       }
     },

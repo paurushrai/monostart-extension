@@ -190,7 +190,7 @@
         "slate": "خاکستری",
         "neutral": "خنثی"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "گروه جدید"
     },
     "groupHeader": {
       "addLink": "افزودن لینک",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "حذف ویجت",
       "openInNewTab": "باز کردن در برگه جدید",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "صفحه جاسازی‌شده"
     },
     "linkCard": {
       "options": "گزینه‌ها",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "جستجوی Google",
+        "description": "در Google جستجو کنید یا یک آدرس URL وارد کنید."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "گروه",
+        "description": "یک گروه با رنگ دلخواه برای سازماندهی لینک‌هایتان."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "یادآورها",
+        "description": "یادآورها را با اعلان‌های مرورگر زمان‌بندی کنید. تکرار ساعتی / روزانه / هفتگی پشتیبانی می‌شود."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "فهرست کارها",
+        "description": "وظایفتان را پیگیری کنید."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "تایمرها",
+        "description": "چندین تایمر را مدیریت کنید."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "یادداشت چسبنده",
+        "description": "یادداشت‌ها یا یادآورها را با رنگ‌های دلخواه بنویسید."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "تصویر",
+        "description": "یک تصویر از URL اضافه کنید یا یک فایل محلی بارگذاری کنید."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "برچسب متنی",
+        "description": "یک عنوان یا سرتیتر متنی شناور تمیز اضافه کنید تا شبکه‌تان را سبک‌دهی کنید."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "صفحه جاسازی‌شده",
+        "description": "هر وب‌سایتی را به‌صورت یک ویجت زنده جاسازی کنید."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "تصویر"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "پیش‌فرض",
+        "grey": "خاکستری",
+        "blue": "آبی",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "سبز",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "زرد",
+        "orange": "نارنجی",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "گوجه‌فرنگی",
+        "rose": "رز",
+        "pink": "صورتی",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "بنفش"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "غروب",
+        "sunset": "غروب آفتاب",
+        "ocean": "اقیانوس",
+        "forest": "جنگل",
+        "slate": "سنگ لوح",
         "aurora": "Aurora"
       }
     },

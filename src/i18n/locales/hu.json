@@ -190,7 +190,7 @@
         "slate": "Palakék",
         "neutral": "Semleges"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Új csoport"
     },
     "groupHeader": {
       "addLink": "Link hozzáadása",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Widget eltávolítása",
       "openInNewTab": "Megnyitás új lapon",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Beágyazott oldal"
     },
     "linkCard": {
       "options": "Beállítások",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Keresés Google-ben vagy URL beírása."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Csoport",
+        "description": "Egyedi színű csoport a linkek rendszerezéséhez."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Emlékeztetők",
+        "description": "Emlékeztetők ütemezése böngésző-értesítésekkel. Óránkénti / napi / heti ismétlés támogatott."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Feladatlista",
+        "description": "Kövesd nyomon a feladataidat."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Időzítők",
+        "description": "Kezelj több időzítőt."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Öntapadó cetli",
+        "description": "Írj jegyzeteket vagy emlékeztetőket egyedi színekkel."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Kép",
+        "description": "Adj hozzá képet egy URL-ről vagy tölts fel helyi fájlt."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Szöveges felirat",
+        "description": "Adj hozzá lebegő szöveges fejlécet a rács stílusozásához."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Beágyazott oldal",
+        "description": "Ágyazz be bármely weboldalt élő widgetként."
       }
     }
   },
@@ -407,10 +407,10 @@
         "violet": "Violet"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "Szürkület",
+        "sunset": "Napnyugta",
+        "ocean": "Óceán",
+        "forest": "Erdő",
         "slate": "Slate",
         "aurora": "Aurora"
       }

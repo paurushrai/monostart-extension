@@ -190,7 +190,7 @@
         "slate": "Сланцевый",
         "neutral": "Нейтральный"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Новая группа"
     },
     "groupHeader": {
       "addLink": "Добавить ссылку",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Удалить виджет",
       "openInNewTab": "Открыть в новой вкладке",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Встроенная страница"
     },
     "linkCard": {
       "options": "Параметры",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Ищите в Google или введите URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Группа",
+        "description": "Группа с настраиваемым цветом для организации ссылок."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Напоминания",
+        "description": "Планируйте напоминания с уведомлениями браузера. Поддерживается ежечасное / ежедневное / еженедельное повторение."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Список задач",
+        "description": "Следите за своими задачами."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Таймеры",
+        "description": "Управляйте несколькими таймерами."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Стикер",
+        "description": "Пишите заметки или напоминания с настраиваемыми цветами."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Изображение",
+        "description": "Добавьте изображение по URL или загрузите локальный файл."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Текстовая метка",
+        "description": "Добавьте аккуратный плавающий текстовый заголовок для оформления сетки."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Встроенная страница",
+        "description": "Встройте любой сайт как живой виджет."
       }
     }
   },
@@ -390,29 +390,29 @@
         "image": "Изображение"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
-        "aqua": "Aqua",
-        "viridian": "Viridian",
-        "green": "Green",
-        "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
-        "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
-        "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "default": "По умолчанию",
+        "grey": "Серый",
+        "blue": "Синий",
+        "aqua": "Аква",
+        "viridian": "Вирид",
+        "green": "Зелёный",
+        "citron": "Цитрон",
+        "yellow": "Жёлтый",
+        "orange": "Оранжевый",
+        "apricot": "Абрикосовый",
+        "tomato": "Томатный",
+        "rose": "Розовый",
+        "pink": "Ярко-розовый",
+        "fuchsia": "Фуксия",
+        "violet": "Фиолетовый"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
-        "aurora": "Aurora"
+        "dusk": "Сумерки",
+        "sunset": "Закат",
+        "ocean": "Океан",
+        "forest": "Лес",
+        "slate": "Сланец",
+        "aurora": "Аврора"
       }
     },
     "clear": {

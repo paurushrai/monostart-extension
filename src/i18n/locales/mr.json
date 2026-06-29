@@ -190,7 +190,7 @@
         "slate": "स्लेट",
         "neutral": "तटस्थ"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "नवीन गट"
     },
     "groupHeader": {
       "addLink": "दुवा जोडा",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "विजेट काढा",
       "openInNewTab": "नवीन टॅबमध्ये उघडा",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "एम्बेडेड पृष्ठ"
     },
     "linkCard": {
       "options": "पर्याय",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google सर्च",
+        "description": "Google शोधा किंवा URL टाइप करा."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "गट",
+        "description": "तुमच्या दुव्यांची व्यवस्था करण्यासाठी सानुकूल रंगाचा गट."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "स्मरणपत्रे",
+        "description": "ब्राउझर सूचनांसह स्मरणपत्रे शेड्यूल करा. तासिक / दैनिक / साप्ताहिक पुनरावृत्ती समर्थित."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "कार्य सूची",
+        "description": "तुमच्या कार्यांचा मागोवा ठेवा."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "टायमर",
+        "description": "अनेक टायमर व्यवस्थापित करा."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "स्टिकी नोट",
+        "description": "सानुकूल रंगांसह नोंदी किंवा स्मरणपत्रे लिहा."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "प्रतिमा",
+        "description": "URL वरून प्रतिमा जोडा किंवा स्थानिक फाइल अपलोड करा."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "मजकूर लेबल",
+        "description": "तुमच्या ग्रिडला शैली देण्यासाठी स्वच्छ फ्लोटिंग मजकूर हेडर किंवा शीर्षक जोडा."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "एम्बेडेड पृष्ठ",
+        "description": "कोणतीही वेबसाइट थेट विजेट म्हणून एम्बेड करा."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "प्रतिमा"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "डीफॉल्ट",
+        "grey": "राखाडी",
+        "blue": "निळा",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "हिरवा",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "पिवळा",
+        "orange": "नारंगी",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "टोमॅटो",
+        "rose": "गुलाब",
+        "pink": "गुलाबी",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "जांभळा"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "संध्याकाळ",
+        "sunset": "सूर्यास्त",
+        "ocean": "महासागर",
+        "forest": "जंगल",
+        "slate": "स्लेट",
         "aurora": "Aurora"
       }
     },

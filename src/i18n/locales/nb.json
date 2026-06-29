@@ -190,7 +190,7 @@
         "slate": "Skifer",
         "neutral": "Nøytral"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Ny gruppe"
     },
     "groupHeader": {
       "addLink": "Legg til lenke",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Fjern widget",
       "openInNewTab": "Åpne i ny fane",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Innebygd side"
     },
     "linkCard": {
       "options": "Alternativer",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google-søk",
+        "description": "Søk på Google eller skriv inn en URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Gruppe",
+        "description": "En egendefinert gruppe med farge for å organisere lenkene dine."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Påminnelser",
+        "description": "Planlegg påminnelser med nettleservarsler. Støtter gjentakelse hver time / daglig / ukentlig."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Gjøremålsliste",
+        "description": "Hold oversikt over oppgavene dine."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Tidtakere",
+        "description": "Administrer flere tidtakere."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Klistelapp",
+        "description": "Skriv notater eller påminnelser med egendefinerte farger."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Bilde",
+        "description": "Legg til et bilde fra en URL eller last opp en lokal fil."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Tekstmerke",
+        "description": "Legg til en ren flytende tekstoverskrift eller tittel for å style rutenettet ditt."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Innebygd side",
+        "description": "Bygg inn et nettsted som en live widget."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Bilde"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Standard",
+        "grey": "Grå",
+        "blue": "Blå",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Grønn",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Gul",
+        "orange": "Oransje",
         "apricot": "Apricot",
-        "tomato": "Tomato",
+        "tomato": "Tomat",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "Rosa",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Lilla"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "Skumring",
+        "sunset": "Solnedgang",
+        "ocean": "Hav",
+        "forest": "Skog",
+        "slate": "Skifer",
         "aurora": "Aurora"
       }
     },

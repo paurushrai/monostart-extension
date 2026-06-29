@@ -190,7 +190,7 @@
         "slate": "Jivu",
         "neutral": "Wastani"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Kikundi Kipya"
     },
     "groupHeader": {
       "addLink": "Ongeza Kiungo",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Ondoa wijeti",
       "openInNewTab": "Fungua katika kichupo kipya",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Ukurasa Uliowekwa"
     },
     "linkCard": {
       "options": "Chaguo",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Utafutaji wa Google",
+        "description": "Tafuta Google au andika URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Kikundi",
+        "description": "Kikundi chenye rangi maalum kwa kupanga viungo vyako."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Vikumbusho",
+        "description": "Panga vikumbusho na arifa za kivinjari. Marudio ya kila saa / siku / wiki yanakubaliwa."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Orodha ya Kazi",
+        "description": "Fuatilia kazi zako."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Vipima Muda",
+        "description": "Simamia vipima muda vingi."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Kumbukumbu",
+        "description": "Andika maelezo au vikumbusho kwa rangi maalum."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Picha",
+        "description": "Ongeza picha kutoka URL au pakia faili ya ndani."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Lebo ya Maandishi",
+        "description": "Ongeza kichwa cha maandishi kinachoelea au kichwa cha ukurasa kwa mtindo wa gridi yako."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Ukurasa Uliowekwa",
+        "description": "Weka tovuti yoyote kama wijeti hai."
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "Picha"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Chaguo-msingi",
+        "grey": "Kijivu",
+        "blue": "Bluu",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Kijani",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Njano",
+        "orange": "Chungwa",
         "apricot": "Apricot",
-        "tomato": "Tomato",
+        "tomato": "Nyanya",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "Pinki",
         "fuchsia": "Fuchsia",
         "violet": "Violet"
       },
       "gradients": {
         "dusk": "Dusk",
         "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "ocean": "Bahari",
+        "forest": "Msitu",
         "slate": "Slate",
         "aurora": "Aurora"
       }

@@ -190,7 +190,7 @@
         "slate": "石板色",
         "neutral": "中性色"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "新增群組"
     },
     "groupHeader": {
       "addLink": "新增連結",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "移除小工具",
       "openInNewTab": "在新分頁中開啟",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "嵌入頁面"
     },
     "linkCard": {
       "options": "選項",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google 搜尋",
+        "description": "搜尋 Google 或輸入 URL。"
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "群組",
+        "description": "用於整理連結的自訂顏色群組。"
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "提醒事項",
+        "description": "設定提醒並透過瀏覽器通知推送。支援每小時 / 每天 / 每週重複。"
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "待辦清單",
+        "description": "追蹤您的任務。"
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "計時器",
+        "description": "管理多個計時器。"
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "便利貼",
+        "description": "以自訂顏色書寫筆記或提醒。"
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "圖片",
+        "description": "從 URL 新增圖片或上傳本機檔案。"
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "文字標籤",
+        "description": "新增簡潔的浮動文字標題，為您的格線增添風格。"
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "嵌入頁面",
+        "description": "將任何網站嵌入為即時小工具。"
       }
     }
   },
@@ -390,29 +390,29 @@
         "image": "圖片"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "預設",
+        "grey": "灰色",
+        "blue": "藍色",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "綠色",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "黃色",
+        "orange": "橙色",
         "apricot": "Apricot",
-        "tomato": "Tomato",
+        "tomato": "番茄紅",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "粉色",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "紫羅蘭"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "黃昏",
+        "sunset": "日落",
+        "ocean": "海洋",
+        "forest": "森林",
         "slate": "Slate",
-        "aurora": "Aurora"
+        "aurora": "極光"
       }
     },
     "clear": {

@@ -190,7 +190,7 @@
         "slate": "Kelabu Batu",
         "neutral": "Neutral"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Kumpulan Baharu"
     },
     "groupHeader": {
       "addLink": "Tambah Pautan",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Buang widget",
       "openInNewTab": "Buka dalam tab baharu",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Halaman Tersemat"
     },
     "linkCard": {
       "options": "Pilihan",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Cari di Google atau taip URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Kumpulan",
+        "description": "Kumpulan berwarna tersuai untuk mengatur pautan anda."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Peringatan",
+        "description": "Jadualkan peringatan dengan pemberitahuan pelayar. Pengulangan setiap jam / harian / mingguan disokong."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Senarai Tugasan",
+        "description": "Jejaki tugasan anda."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Pemasa",
+        "description": "Urus pelbagai pemasa."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Nota Lekat",
+        "description": "Tulis nota atau peringatan dengan warna tersuai."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Imej",
+        "description": "Tambah imej dari URL atau muat naik fail tempatan."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Label Teks",
+        "description": "Tambah pengepala atau tajuk teks terapung yang kemas untuk menghias grid anda."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Halaman Tersemat",
+        "description": "Semat mana-mana laman web sebagai widget langsung."
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "Imej"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Lalai",
+        "grey": "Kelabu",
+        "blue": "Biru",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Hijau",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Kuning",
+        "orange": "Oren",
         "apricot": "Apricot",
         "tomato": "Tomato",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "Merah Jambu",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Ungu"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "Senja",
+        "sunset": "Matahari Terbenam",
+        "ocean": "Lautan",
+        "forest": "Hutan",
         "slate": "Slate",
         "aurora": "Aurora"
       }

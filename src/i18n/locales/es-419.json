@@ -147,7 +147,7 @@
       "fontWeights": {
         "thin": "Delgado",
         "light": "Liviano",
-        "regular": "Regular",
+        "regular": "Normal",
         "medium": "Mediano",
         "semibold": "Semi negrita",
         "bold": "Negrita",
@@ -190,7 +190,7 @@
         "slate": "Pizarra",
         "neutral": "Neutro"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Nuevo grupo"
     },
     "groupHeader": {
       "addLink": "Agregar enlace",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Quitar widget",
       "openInNewTab": "Abrir en pestaña nueva",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Página incrustada"
     },
     "linkCard": {
       "options": "Opciones",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Buscá en Google o escribí una URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grupo",
+        "description": "Un grupo de color personalizado para organizar tus enlaces."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Recordatorios",
+        "description": "Programá recordatorios con notificaciones del navegador. Se admite recurrencia por hora / día / semana."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Lista de tareas",
+        "description": "Llevá un seguimiento de tus tareas."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Temporizadores",
+        "description": "Administrá múltiples temporizadores."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Nota adhesiva",
+        "description": "Escribí notas o recordatorios con colores personalizados."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Imagen",
+        "description": "Agregá una imagen desde una URL o subí un archivo local."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Etiqueta de texto",
+        "description": "Agregá un encabezado o título de texto flotante para darle estilo a tu cuadrícula."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Página incrustada",
+        "description": "Incrustá cualquier sitio web como un widget en vivo."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Imagen"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Predeterminado",
+        "grey": "Gris",
+        "blue": "Azul",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Verde",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Amarillo",
+        "orange": "Naranja",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "Tomate",
+        "rose": "Rosa",
+        "pink": "Rosa fuerte",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Violeta"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "Atardecer oscuro",
+        "sunset": "Puesta de sol",
+        "ocean": "Océano",
+        "forest": "Bosque",
+        "slate": "Pizarra",
         "aurora": "Aurora"
       }
     },

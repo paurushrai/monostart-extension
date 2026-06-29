@@ -190,7 +190,7 @@
         "slate": "સ્લેટ",
         "neutral": "તટસ્થ"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "નવું જૂથ"
     },
     "groupHeader": {
       "addLink": "લિંક ઉમેરો",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "વિજેટ હટાવો",
       "openInNewTab": "નવી ટૅબમાં ખોલો",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "એમ્બેડ કરેલ પૃષ્ઠ"
     },
     "linkCard": {
       "options": "વિકલ્પો",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Google પર શોધો અથવા URL ટાઇપ કરો."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "જૂથ",
+        "description": "તમારી લિંક્સ ગોઠવવા માટે કસ્ટમ-રંગીન જૂથ."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "રિમાઇન્ડર",
+        "description": "બ્રાઉઝર સૂચનાઓ સાથે રિમાઇન્ડર સુનિશ્ચિત કરો. કલાકદીઠ / દૈનિક / સાપ્તાહિક પુનરાવૃત્તિ સમર્થિત."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "કાર્ય સૂચિ",
+        "description": "તમારા કાર્યો ટ્રૅક કરો."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "ટાઇમર",
+        "description": "બહુવિધ ટાઇમર સંચાલિત કરો."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "સ્ટિકી નોટ",
+        "description": "કસ્ટમ રંગો સાથે નોંધ અથવા રિમાઇન્ડર લખો."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "છબી",
+        "description": "URL માંથી છબી ઉમેરો અથવા સ્થાનિક ફાઇલ અપલોડ કરો."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "ટેક્સ્ટ લેબલ",
+        "description": "તમારી ગ્રિડ સ્ટાઇલ કરવા માટે સ્વચ્છ ફ્લોટિંગ ટેક્સ્ટ હૅડર અથવા શીર્ષક ઉમેરો."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "એમ્બેડ કરેલ પૃષ્ઠ",
+        "description": "કોઈ પણ વેબસાઇટ લાઇવ વિજેટ તરીકે એમ્બેડ કરો."
       }
     }
   },
@@ -407,10 +407,10 @@
         "violet": "Violet"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "સાંજ",
+        "sunset": "સૂર્યાસ્ત",
+        "ocean": "સાગર",
+        "forest": "અરણ્ય",
         "slate": "Slate",
         "aurora": "Aurora"
       }

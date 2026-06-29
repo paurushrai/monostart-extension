@@ -190,7 +190,7 @@
         "slate": "Pelēka",
         "neutral": "Neitrāla"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Jauna grupa"
     },
     "groupHeader": {
       "addLink": "Pievienot saiti",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Noņemt logrīku",
       "openInNewTab": "Atvērt jaunā cilnē",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Iegultā lapa"
     },
     "linkCard": {
       "options": "Opcijas",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Meklēt Google vai ievadīt URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grupa",
+        "description": "Pielāgotu krāsu grupa saišu kārtošanai."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Atgādinājumi",
+        "description": "Ieplānojiet atgādinājumus ar pārlūka paziņojumiem. Atbalstīta atkārtošanās ik stundu / katru dienu / katru nedēļu."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Uzdevumu saraksts",
+        "description": "Sekojiet saviem uzdevumiem."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Taimeri",
+        "description": "Pārvaldiet vairākus taimerus."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Piezīmīte",
+        "description": "Rakstiet piezīmes vai atgādinājumus ar pielāgotām krāsām."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Attēls",
+        "description": "Pievienojiet attēlu no URL vai augšupielādējiet lokālu failu."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Teksta etiķete",
+        "description": "Pievienojiet tīru peldošu teksta virsrakstu vai nosaukumu, lai stilizētu savu režģi."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Iegultā lapa",
+        "description": "Ieguliet jebkuru vietni kā tiešraides logrīku."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Attēls"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Noklusējuma",
+        "grey": "Pelēka",
+        "blue": "Zila",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Zaļa",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
-        "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
-        "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "yellow": "Dzeltena",
+        "orange": "Oranža",
+        "apricot": "Aprikoze",
+        "tomato": "Tomātu",
+        "rose": "Roze",
+        "pink": "Rozā",
+        "fuchsia": "Fuksija",
+        "violet": "Violeta"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "Krēsla",
+        "sunset": "Saulriets",
+        "ocean": "Okeāns",
+        "forest": "Mežs",
+        "slate": "Slāneklis",
         "aurora": "Aurora"
       }
     },

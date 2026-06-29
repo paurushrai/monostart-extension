@@ -190,7 +190,7 @@
         "slate": "Łupkowy",
         "neutral": "Neutralny"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Nowa grupa"
     },
     "groupHeader": {
       "addLink": "Dodaj link",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Usuń widget",
       "openInNewTab": "Otwórz w nowej karcie",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Osadzona strona"
     },
     "linkCard": {
       "options": "Opcje",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Wyszukiwarka Google",
+        "description": "Szukaj w Google lub wpisz adres URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grupa",
+        "description": "Grupa z własnym kolorem do organizowania linków."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Przypomnienia",
+        "description": "Planuj przypomnienia z powiadomieniami przeglądarki. Obsługiwane powtarzanie: co godzinę / codziennie / co tydzień."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Lista zadań",
+        "description": "Śledź swoje zadania."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Timery",
+        "description": "Zarządzaj wieloma timerami."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Karteczka",
+        "description": "Pisz notatki lub przypomnienia z własnym kolorem."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Obraz",
+        "description": "Dodaj obraz z adresu URL lub prześlij lokalny plik."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Etykieta tekstowa",
+        "description": "Dodaj pływający nagłówek lub tytuł, aby nadać styl swojej siatce."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Osadzona strona",
+        "description": "Osadź dowolną stronę internetową jako live widget."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Obraz"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Domyślny",
+        "grey": "Szary",
+        "blue": "Niebieski",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Zielony",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Żółty",
+        "orange": "Pomarańczowy",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "Pomidor",
+        "rose": "Róża",
+        "pink": "Różowy",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Fioletowy"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
+        "dusk": "Zmierzch",
+        "sunset": "Zachód słońca",
         "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "forest": "Las",
+        "slate": "Łupek",
         "aurora": "Aurora"
       }
     },

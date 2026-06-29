@@ -190,7 +190,7 @@
         "slate": "ಸ್ಲೇಟ್",
         "neutral": "ತಟಸ್ಥ"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "ಹೊಸ ಗುಂಪು"
     },
     "groupHeader": {
       "addLink": "ಲಿಂಕ್ ಸೇರಿಸು",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "ವಿಜೆಟ್ ತೆಗೆ",
       "openInNewTab": "ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆ",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "ಎಂಬೆಡ್ ಮಾಡಿದ ಪುಟ"
     },
     "linkCard": {
       "options": "ಆಯ್ಕೆಗಳು",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Google ಹುಡುಕಿ ಅಥವಾ URL ಟೈಪ್ ಮಾಡಿ."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "ಗುಂಪು",
+        "description": "ನಿಮ್ಮ ಲಿಂಕ್‌ಗಳನ್ನು ಸಂಘಟಿಸಲು ಕಸ್ಟಮ್ ಬಣ್ಣದ ಗುಂಪು."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "ಜ್ಞಾಪಕಗಳು",
+        "description": "ಬ್ರೌಸರ್ ಅಧಿಸೂಚನೆಗಳೊಂದಿಗೆ ಜ್ಞಾಪಕಗಳನ್ನು ಶೆಡ್ಯೂಲ್ ಮಾಡಿ. ಗಂಟೆಗೊಮ್ಮೆ / ದಿನಕ್ಕೊಮ್ಮೆ / ವಾರಕ್ಕೊಮ್ಮೆ ಪುನರಾವರ್ತನೆ ಬೆಂಬಲಿತ."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "ಮಾಡಬೇಕಾದ ಪಟ್ಟಿ",
+        "description": "ನಿಮ್ಮ ಕೆಲಸಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "ಟೈಮರ್‌ಗಳು",
+        "description": "ಹಲವು ಟೈಮರ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಿ."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "ಸ್ಟಿಕ್ಕಿ ನೋಟ್",
+        "description": "ಕಸ್ಟಮ್ ಬಣ್ಣಗಳಲ್ಲಿ ಟಿಪ್ಪಣಿಗಳು ಅಥವಾ ಜ್ಞಾಪಕಗಳನ್ನು ಬರೆಯಿರಿ."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "ಚಿತ್ರ",
+        "description": "URL ನಿಂದ ಚಿತ್ರ ಸೇರಿಸಿ ಅಥವಾ ಸ್ಥಳೀಯ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "ಪಠ್ಯ ಲೇಬಲ್",
+        "description": "ನಿಮ್ಮ ಗ್ರಿಡ್ ಅಲಂಕರಿಸಲು ಸ್ವಚ್ಛ ತೇಲುವ ಪಠ್ಯ ಹೆಡರ್ ಅಥವಾ ಶೀರ್ಷಿಕೆ ಸೇರಿಸಿ."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "ಎಂಬೆಡ್ ಮಾಡಿದ ಪುಟ",
+        "description": "ಯಾವ ವೆಬ್‌ಸೈಟ್ ಅನ್ನಾದರೂ ಲೈವ್ ವಿಜೆಟ್ ಆಗಿ ಎಂಬೆಡ್ ಮಾಡಿ."
       }
     }
   },
@@ -390,29 +390,29 @@
         "image": "ಚಿತ್ರ"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "ಡಿಫಾಲ್ಟ್",
+        "grey": "ಬೂದು",
+        "blue": "ನೀಲಿ",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "ಹಸಿರು",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "ಹಳದಿ",
+        "orange": "ಕಿತ್ತಳೆ",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "ಟೊಮ್ಯಾಟೊ",
+        "rose": "ಗುಲಾಬಿ",
+        "pink": "ಗುಲಾಬಿ ಬಣ್ಣ",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "ನೇರಳೆ"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
-        "aurora": "Aurora"
+        "dusk": "ಸಂಜೆ",
+        "sunset": "ಸೂರ್ಯಾಸ್ತ",
+        "ocean": "ಸಮುದ್ರ",
+        "forest": "ಅರಣ್ಯ",
+        "slate": "ಸ್ಲೇಟ್",
+        "aurora": "ಅರೋರಾ"
       }
     },
     "clear": {

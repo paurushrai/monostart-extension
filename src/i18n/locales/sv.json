@@ -190,7 +190,7 @@
         "slate": "Skiffer",
         "neutral": "Neutral"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Ny grupp"
     },
     "groupHeader": {
       "addLink": "Lägg till länk",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Ta bort widget",
       "openInNewTab": "Öppna i ny flik",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Inbäddad sida"
     },
     "linkCard": {
       "options": "Alternativ",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Sök på Google eller ange en URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grupp",
+        "description": "En anpassningsfärgad grupp för att organisera dina länkar."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Påminnelser",
+        "description": "Schemalägg påminnelser med webbläsarnotifieringar. Stöd för varje timme / dag / vecka."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Att-göra-lista",
+        "description": "Håll koll på dina uppgifter."
       },
       "timer": {
         "name": "Timers",
-        "description": "Manage multiple timers."
+        "description": "Hantera flera timers."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Klisterlappar",
+        "description": "Skriv anteckningar eller påminnelser med anpassade färger."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Bild",
+        "description": "Lägg till en bild från en URL eller ladda upp en lokal fil."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Textetikett",
+        "description": "Lägg till en ren flytande textrubrik för att styla ditt rutnät."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Inbäddad sida",
+        "description": "Bädda in valfri webbplats som en live-widget."
       }
     }
   },
@@ -390,29 +390,29 @@
         "image": "Bild"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Standard",
+        "grey": "Grå",
+        "blue": "Blå",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Grön",
         "citron": "Citron",
-        "yellow": "Yellow",
+        "yellow": "Gul",
         "orange": "Orange",
-        "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "apricot": "Aprikos",
+        "tomato": "Tomat",
+        "rose": "Ros",
+        "pink": "Rosa",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Violett"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
-        "aurora": "Aurora"
+        "dusk": "Skymning",
+        "sunset": "Solnedgång",
+        "ocean": "Hav",
+        "forest": "Skog",
+        "slate": "Skiffer",
+        "aurora": "Norrsken"
       }
     },
     "clear": {

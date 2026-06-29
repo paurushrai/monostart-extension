@@ -190,7 +190,7 @@
         "slate": "Bridlicová",
         "neutral": "Neutrálna"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Nová skupina"
     },
     "groupHeader": {
       "addLink": "Pridať odkaz",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Odstrániť widget",
       "openInNewTab": "Otvoriť na novej karte",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Vložená stránka"
     },
     "linkCard": {
       "options": "Možnosti",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Vyhľadajte na Google alebo zadajte URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Skupina",
+        "description": "Farebne prispôsobená skupina na organizáciu odkazov."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Pripomienky",
+        "description": "Plánujte pripomienky s upozorneniami prehliadača. Podporované hodinové / denné / týždenné opakovanie."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Zoznam úloh",
+        "description": "Sledujte svoje úlohy."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Časovače",
+        "description": "Spravujte viacero časovačov."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Samolepka",
+        "description": "Píšte poznámky alebo pripomienky s vlastnými farbami."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Obrázok",
+        "description": "Pridajte obrázok z URL alebo nahrajte lokálny súbor."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Textový štítok",
+        "description": "Pridajte čistý plávajúci textový nadpis na štylizáciu vašej mriežky."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Vložená stránka",
+        "description": "Vložte ľubovoľnú webovú stránku ako živý widget."
       }
     }
   },
@@ -390,29 +390,29 @@
         "image": "Obrázok"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Predvolená",
+        "grey": "Sivá",
+        "blue": "Modrá",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
-        "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
-        "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "green": "Zelená",
+        "citron": "Citrónová",
+        "yellow": "Žltá",
+        "orange": "Oranžová",
+        "apricot": "Marhuľová",
+        "tomato": "Paradajková",
+        "rose": "Ružová",
+        "pink": "Svetloružová",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Fialová"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
-        "aurora": "Aurora"
+        "dusk": "Súmrak",
+        "sunset": "Západ slnka",
+        "ocean": "Oceán",
+        "forest": "Les",
+        "slate": "Bridlica",
+        "aurora": "Polárna žiara"
       }
     },
     "clear": {

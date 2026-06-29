@@ -190,7 +190,7 @@
         "slate": "స్లేట్",
         "neutral": "తటస్థ"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "కొత్త గ్రూప్"
     },
     "groupHeader": {
       "addLink": "లింక్ జోడించు",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "విజెట్ తొలగించు",
       "openInNewTab": "కొత్త ట్యాబ్‌లో తెరువు",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "ఎంబెడెడ్ పేజీ"
     },
     "linkCard": {
       "options": "ఎంపికలు",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google శోధన",
+        "description": "Google శోధించండి లేదా URL టైప్ చేయండి."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "గ్రూప్",
+        "description": "మీ లింక్‌లను నిర్వహించడానికి కస్టమ్ రంగు గ్రూప్."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "రిమైండర్లు",
+        "description": "బ్రౌజర్ నోటిఫికేషన్‌లతో రిమైండర్లను షెడ్యూల్ చేయండి. గంటవారీ / రోజువారీ / వారానికి పునరావృత్తి మద్దతు ఉంది."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "చేయవలసిన జాబితా",
+        "description": "మీ పనులను ట్రాక్ చేయండి."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "టైమర్లు",
+        "description": "బహుళ టైమర్లను నిర్వహించండి."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "స్టిక్కీ నోట్",
+        "description": "కస్టమ్ రంగులతో నోట్లు లేదా రిమైండర్లు రాయండి."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "చిత్రం",
+        "description": "URL నుండి చిత్రం జోడించండి లేదా స్థానిక ఫైల్ అప్‌లోడ్ చేయండి."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "వచన లేబుల్",
+        "description": "మీ గ్రిడ్‌ను స్టైల్ చేయడానికి స్పష్టమైన వచన శీర్షిక జోడించండి."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "ఎంబెడెడ్ పేజీ",
+        "description": "ఏదైనా వెబ్‌సైట్‌ను లైవ్ విడ్జెట్‌గా ఎంబెడ్ చేయండి."
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "చిత్రం"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "డిఫాల్ట్",
+        "grey": "బూడిద",
+        "blue": "నీలం",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "ఆకుపచ్చ",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "పసుపు",
+        "orange": "నారింజ",
         "apricot": "Apricot",
-        "tomato": "Tomato",
+        "tomato": "టమాటా",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "గులాబీ",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "వైలెట్"
       },
       "gradients": {
         "dusk": "Dusk",
         "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "ocean": "సముద్రం",
+        "forest": "అడవి",
         "slate": "Slate",
         "aurora": "Aurora"
       }

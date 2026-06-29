@@ -190,7 +190,7 @@
         "slate": "Ardesia",
         "neutral": "Neutro"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Nuovo gruppo"
     },
     "groupHeader": {
       "addLink": "Aggiungi Link",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Rimuovi widget",
       "openInNewTab": "Apri in una nuova scheda",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Pagina incorporata"
     },
     "linkCard": {
       "options": "Opzioni",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Cerca su Google o digita un URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Gruppo",
+        "description": "Un gruppo colorato personalizzato per organizzare i tuoi link."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Promemoria",
+        "description": "Pianifica promemoria con notifiche del browser. Supporta ripetizioni orarie / giornaliere / settimanali."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Lista delle attività",
+        "description": "Tieni traccia delle tue attività."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Timer",
+        "description": "Gestisci più timer contemporaneamente."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Nota adesiva",
+        "description": "Scrivi note o promemoria con colori personalizzati."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Immagine",
+        "description": "Aggiungi un'immagine da un URL o carica un file locale."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Etichetta di testo",
+        "description": "Aggiungi un'intestazione o un titolo di testo flottante per stilizzare la tua griglia."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Pagina incorporata",
+        "description": "Incorpora qualsiasi sito web come widget live."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Immagine"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
-        "aqua": "Aqua",
+        "default": "Predefinito",
+        "grey": "Grigio",
+        "blue": "Blu",
+        "aqua": "Acqua",
         "viridian": "Viridian",
-        "green": "Green",
-        "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
-        "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
-        "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "green": "Verde",
+        "citron": "Cedro",
+        "yellow": "Giallo",
+        "orange": "Arancione",
+        "apricot": "Albicocca",
+        "tomato": "Pomodoro",
+        "rose": "Rosa",
+        "pink": "Rosa",
+        "fuchsia": "Fucsia",
+        "violet": "Viola"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "Tramonto",
+        "sunset": "Tramonto dorato",
+        "ocean": "Oceano",
+        "forest": "Foresta",
+        "slate": "Ardesia",
         "aurora": "Aurora"
       }
     },

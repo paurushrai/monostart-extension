@@ -190,7 +190,7 @@
         "slate": "Xám xanh",
         "neutral": "Trung tính"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Nhóm mới"
     },
     "groupHeader": {
       "addLink": "Thêm liên kết",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Xóa tiện ích",
       "openInNewTab": "Mở trong tab mới",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Trang nhúng"
     },
     "linkCard": {
       "options": "Tùy chọn",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google Tìm kiếm",
+        "description": "Tìm kiếm Google hoặc nhập URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Nhóm",
+        "description": "Nhóm có màu tùy chỉnh để sắp xếp các liên kết của bạn."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Nhắc nhở",
+        "description": "Lên lịch nhắc nhở với thông báo trình duyệt. Hỗ trợ lặp lại hàng giờ / hàng ngày / hàng tuần."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Danh sách việc cần làm",
+        "description": "Theo dõi các nhiệm vụ của bạn."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Bộ hẹn giờ",
+        "description": "Quản lý nhiều bộ hẹn giờ."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Ghi chú dán",
+        "description": "Viết ghi chú hoặc nhắc nhở với màu sắc tùy chỉnh."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Hình ảnh",
+        "description": "Thêm hình ảnh từ URL hoặc tải lên tệp cục bộ."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Nhãn văn bản",
+        "description": "Thêm tiêu đề văn bản nổi gọn gàng để trang trí lưới của bạn."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Trang nhúng",
+        "description": "Nhúng bất kỳ trang web nào như một tiện ích trực tiếp."
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "Hình ảnh"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Mặc định",
+        "grey": "Xám",
+        "blue": "Xanh lam",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Xanh lá",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Vàng",
+        "orange": "Cam",
         "apricot": "Apricot",
-        "tomato": "Tomato",
+        "tomato": "Cà chua",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "Hồng",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Tím"
       },
       "gradients": {
         "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "sunset": "Hoàng hôn",
+        "ocean": "Đại dương",
+        "forest": "Rừng",
         "slate": "Slate",
         "aurora": "Aurora"
       }

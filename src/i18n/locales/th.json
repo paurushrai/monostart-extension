@@ -190,7 +190,7 @@
         "slate": "เทาอมน้ำเงิน",
         "neutral": "เป็นกลาง"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "กลุ่มใหม่"
     },
     "groupHeader": {
       "addLink": "เพิ่มลิงก์",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "ลบวิดเจ็ต",
       "openInNewTab": "เปิดในแท็บใหม่",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "หน้าเว็บที่ฝัง"
     },
     "linkCard": {
       "options": "ตัวเลือก",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "ค้นหา Google หรือพิมพ์ URL"
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "กลุ่ม",
+        "description": "กลุ่มที่มีสีแบบกำหนดเองสำหรับจัดระเบียบลิงก์ของคุณ"
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "การเตือนความจำ",
+        "description": "ตั้งเวลาการเตือนความจำด้วยการแจ้งเตือนของเบราว์เซอร์ รองรับการทำซ้ำรายชั่วโมง / รายวัน / รายสัปดาห์"
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "รายการสิ่งที่ต้องทำ",
+        "description": "ติดตามงานของคุณ"
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "ตัวจับเวลา",
+        "description": "จัดการตัวจับเวลาหลายรายการ"
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "โน้ตแปะ",
+        "description": "เขียนโน้ตหรือการเตือนความจำด้วยสีแบบกำหนดเอง"
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "รูปภาพ",
+        "description": "เพิ่มรูปภาพจาก URL หรืออัปโหลดไฟล์ในเครื่อง"
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "ป้ายข้อความ",
+        "description": "เพิ่มหัวเรื่องข้อความลอยที่สะอาดหรือชื่อเรื่องเพื่อตกแต่งกริดของคุณ"
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "หน้าเว็บที่ฝัง",
+        "description": "ฝังเว็บไซต์ใดก็ได้เป็นวิดเจ็ตสด"
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "รูปภาพ"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "ค่าเริ่มต้น",
+        "grey": "เทา",
+        "blue": "น้ำเงิน",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "เขียว",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "เหลือง",
+        "orange": "ส้ม",
         "apricot": "Apricot",
-        "tomato": "Tomato",
+        "tomato": "มะเขือเทศ",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "ชมพู",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "ม่วง"
       },
       "gradients": {
         "dusk": "Dusk",
         "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "ocean": "มหาสมุทร",
+        "forest": "ป่า",
         "slate": "Slate",
         "aurora": "Aurora"
       }

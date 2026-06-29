@@ -190,7 +190,7 @@
         "slate": "スレート",
         "neutral": "ニュートラル"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "新しいグループ"
     },
     "groupHeader": {
       "addLink": "リンクを追加",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "ウィジェットを削除",
       "openInNewTab": "新しいタブで開く",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "埋め込みページ"
     },
     "linkCard": {
       "options": "オプション",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google 検索",
+        "description": "Google で検索するか、URL を入力してください。"
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "グループ",
+        "description": "リンクを整理するためのカラーカスタマイズ可能なグループです。"
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "リマインダー",
+        "description": "ブラウザ通知でリマインダーを設定。毎時 / 毎日 / 毎週の繰り返しに対応。"
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "ToDoリスト",
+        "description": "タスクを管理しましょう。"
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "タイマー",
+        "description": "複数のタイマーを管理できます。"
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "付箋",
+        "description": "カスタムカラーでメモやリマインダーを書きましょう。"
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "画像",
+        "description": "URLから画像を追加するか、ローカルファイルをアップロードしてください。"
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "テキストラベル",
+        "description": "グリッドをスタイリングするためのすっきりしたフローティングテキストヘッダーまたはタイトルを追加します。"
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "埋め込みページ",
+        "description": "任意のウェブサイトをライブウィジェットとして埋め込みます。"
       }
     }
   },
@@ -390,29 +390,29 @@
         "image": "画像"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
-        "aqua": "Aqua",
-        "viridian": "Viridian",
-        "green": "Green",
-        "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
-        "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
-        "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "default": "デフォルト",
+        "grey": "グレー",
+        "blue": "ブルー",
+        "aqua": "アクア",
+        "viridian": "ビリジアン",
+        "green": "グリーン",
+        "citron": "シトロン",
+        "yellow": "イエロー",
+        "orange": "オレンジ",
+        "apricot": "アプリコット",
+        "tomato": "トマト",
+        "rose": "ローズ",
+        "pink": "ピンク",
+        "fuchsia": "フクシア",
+        "violet": "バイオレット"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
-        "aurora": "Aurora"
+        "dusk": "黄昏",
+        "sunset": "夕焼け",
+        "ocean": "海",
+        "forest": "森",
+        "slate": "スレート",
+        "aurora": "オーロラ"
       }
     },
     "clear": {

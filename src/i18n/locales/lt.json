@@ -190,7 +190,7 @@
         "slate": "Pilka",
         "neutral": "Neutrali"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Nauja grupė"
     },
     "groupHeader": {
       "addLink": "Pridėti nuorodą",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Pašalinti valdiklį",
       "openInNewTab": "Atidaryti naujame skirtuke",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Įterptinis puslapis"
     },
     "linkCard": {
       "options": "Parinktys",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Ieškokite Google arba įveskite URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grupė",
+        "description": "Pasirinktinės spalvos grupė nuorodoms tvarkyti."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Priminimai",
+        "description": "Planuokite priminimus su naršyklės pranešimais. Palaikomas kas valandą / kasdien / kas savaitę pasikartojimas."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Darbų sąrašas",
+        "description": "Sekite savo užduotis."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Laikmačiai",
+        "description": "Valdykite kelis laikmačius."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Lipni pastaba",
+        "description": "Rašykite pastabas ar priminimus su pasirinktinėmis spalvomis."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Vaizdas",
+        "description": "Pridėkite vaizdą iš URL arba įkelkite vietinį failą."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Teksto žymė",
+        "description": "Pridėkite švarią plaukiojančią teksto antraštę ar pavadinimą tinkleliui stilizuoti."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Įterptinis puslapis",
+        "description": "Įterpkite bet kurią svetainę kaip gyvą valdiklį."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Vaizdas"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Numatytoji",
+        "grey": "Pilka",
+        "blue": "Mėlyna",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Žalia",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
-        "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
-        "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "yellow": "Geltona",
+        "orange": "Oranžinė",
+        "apricot": "Abrikosų",
+        "tomato": "Pomidorų",
+        "rose": "Rožių",
+        "pink": "Rožinė",
+        "fuchsia": "Fuksijų",
+        "violet": "Violetinė"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "Sutemos",
+        "sunset": "Saulėlydis",
+        "ocean": "Vandenynas",
+        "forest": "Miškas",
+        "slate": "Skalūnas",
         "aurora": "Aurora"
       }
     },

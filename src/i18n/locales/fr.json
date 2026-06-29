@@ -190,7 +190,7 @@
         "slate": "Ardoise",
         "neutral": "Neutre"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Nouveau groupe"
     },
     "groupHeader": {
       "addLink": "Ajouter un lien",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Supprimer le widget",
       "openInNewTab": "Ouvrir dans un nouvel onglet",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Page intégrée"
     },
     "linkCard": {
       "options": "Options",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Rechercher sur Google ou entrer une URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Groupe",
+        "description": "Un groupe aux couleurs personnalisées pour organiser vos liens."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Rappels",
+        "description": "Planifiez des rappels avec des notifications du navigateur. Récurrence horaire / quotidienne / hebdomadaire prise en charge."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Liste de tâches",
+        "description": "Suivez vos tâches."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Minuteries",
+        "description": "Gérez plusieurs minuteries."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Note autocollante",
+        "description": "Rédigez des notes ou des rappels avec des couleurs personnalisées."
       },
       "image": {
         "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "description": "Ajoutez une image depuis une URL ou téléchargez un fichier local."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Étiquette de texte",
+        "description": "Ajoutez un en-tête ou titre de texte flottant pour styliser votre grille."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Page intégrée",
+        "description": "Intégrez n'importe quel site web comme widget en direct."
       }
     }
   },
@@ -407,12 +407,12 @@
         "violet": "Violet"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "Crépuscule",
+        "sunset": "Coucher de soleil",
+        "ocean": "Océan",
+        "forest": "Forêt",
         "slate": "Slate",
-        "aurora": "Aurora"
+        "aurora": "Aurore"
       }
     },
     "clear": {

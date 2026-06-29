@@ -190,7 +190,7 @@
         "slate": "Pissarra",
         "neutral": "Neutre"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Grup nou"
     },
     "groupHeader": {
       "addLink": "Afegeix un enllaç",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Elimina el widget",
       "openInNewTab": "Obre en una pestanya nova",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Pàgina incrustada"
     },
     "linkCard": {
       "options": "Opcions",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Cerca de Google",
+        "description": "Cercau a Google o escriviu un URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grup",
+        "description": "Un grup amb color personalitzat per organitzar els vostres enllaços."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Recordatoris",
+        "description": "Programeu recordatoris amb notificacions del navegador. S'admet la recurrència horària / diària / setmanal."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Llista de tasques",
+        "description": "Seguiu el rastre de les vostres tasques."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Temporitzadors",
+        "description": "Gestioneu múltiples temporitzadors."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Nota adhesiva",
+        "description": "Escriviu notes o recordatoris amb colors personalitzats."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Imatge",
+        "description": "Afegiu una imatge des d'un URL o pengeu un fitxer local."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Etiqueta de text",
+        "description": "Afegiu un encapçalament o títol flotant net per estilitzar la vostra quadrícula."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Pàgina incrustada",
+        "description": "Incrusteu qualsevol lloc web com a widget en viu."
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "Imatge"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Per defecte",
+        "grey": "Gris",
+        "blue": "Blau",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Verd",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Groc",
+        "orange": "Taronja",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "Tomàquet",
+        "rose": "Rosa",
+        "pink": "Rosa clar",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Violeta"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "Capvespre",
+        "sunset": "Posta de sol",
+        "ocean": "Oceà",
+        "forest": "Bosc",
         "slate": "Slate",
         "aurora": "Aurora"
       }

@@ -190,7 +190,7 @@
         "slate": "ስሌት",
         "neutral": "ገለልተኛ"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "አዲስ ቡድን"
     },
     "groupHeader": {
       "addLink": "ሊንክ ጨምር",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "ዊጄት አስወግድ",
       "openInNewTab": "በአዲስ ትር ክፈት",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "የተቀበሩ ገጽ"
     },
     "linkCard": {
       "options": "አማራጮች",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google ፍለጋ",
+        "description": "Google ፈልጉ ወይም URL ያስገቡ።"
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "ቡድን",
+        "description": "ሊንኮቻቸዎን ለማደራጀት ብጁ ቀለም ያለው ቡድን።"
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "አስታዋሾች",
+        "description": "በአሳሽ ማሳወቂያዎች አስታዋሾችን ያዘጋጁ። በሰዓት / በቀን / በሳምንት ድግግሞሽ ይደገፋል።"
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "የሥራ ዝርዝር",
+        "description": "ተግባሮቻቸዎን ይከታተሉ።"
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "ሰዓት ቆጣሪዎች",
+        "description": "ብዙ ሰዓት ቆጣሪዎችን ያስተዳድሩ።"
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "ማስታወሻ ወረቀት",
+        "description": "ብጁ ቀለሞችን በመጠቀም ማስታወሻዎች ወይም አስታዋሾች ይጻፉ።"
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "ምስል",
+        "description": "ከ URL ምስል ያክሉ ወይም ፋይል ከሥርዓቱ ስቀሉ።"
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "የጽሑፍ መለያ",
+        "description": "ፍርግርጉን ለማስጌጥ ንጹህ የሚንሳፈፍ የጽሑፍ ርዕስ ያክሉ።"
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "የተቀበሩ ገጽ",
+        "description": "ማንኛውንም ድህረ ገጽ እንደ ቀጥታ ዊጄት ቅቡ።"
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "ምስል"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "ነባሪ",
+        "grey": "ግራጫ",
+        "blue": "ሰማያዊ",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "አረንጓዴ",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "ቢጫ",
+        "orange": "ብርቱካናማ",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "ቲማቲም",
+        "rose": "ሮዝ",
+        "pink": "ሮዝ",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "ወይን ጠጅ"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "ምሽት",
+        "sunset": "ፀሐይ መጥለቅ",
+        "ocean": "ውቅያኖስ",
+        "forest": "ደን",
         "slate": "Slate",
         "aurora": "Aurora"
       }

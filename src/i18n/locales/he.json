@@ -190,7 +190,7 @@
         "slate": "אפרפר",
         "neutral": "ניטרלי"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "קבוצה חדשה"
     },
     "groupHeader": {
       "addLink": "הוסף קישור",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "הסר ווידג'ט",
       "openInNewTab": "פתח בכרטיסייה חדשה",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "דף מוטמע"
     },
     "linkCard": {
       "options": "אפשרויות",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "חפש ב-Google או הקלד כתובת URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "קבוצה",
+        "description": "קבוצה בצבע מותאם אישית לארגון הקישורים שלך."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "תזכורות",
+        "description": "קבע תזכורות עם התראות דפדפן. תמיכה בחזרה שעתית / יומית / שבועית."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "רשימת מטלות",
+        "description": "עקוב אחר המשימות שלך."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "טיימרים",
+        "description": "נהל מספר טיימרים."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "פתק דביק",
+        "description": "כתוב פתקים או תזכורות עם צבעים מותאמים אישית."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "תמונה",
+        "description": "הוסף תמונה מכתובת URL או העלה קובץ מקומי."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "תווית טקסט",
+        "description": "הוסף כותרת טקסט צפה נקייה לסגנון הרשת שלך."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "דף מוטמע",
+        "description": "הטמע כל אתר כווידג'ט חי."
       }
     }
   },
@@ -407,10 +407,10 @@
         "violet": "Violet"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "דמדומים",
+        "sunset": "שקיעה",
+        "ocean": "אוקיינוס",
+        "forest": "יער",
         "slate": "Slate",
         "aurora": "Aurora"
       }

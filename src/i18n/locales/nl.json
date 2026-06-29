@@ -190,7 +190,7 @@
         "slate": "Leisteen",
         "neutral": "Neutraal"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Nieuwe groep"
     },
     "groupHeader": {
       "addLink": "Link toevoegen",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Widget verwijderen",
       "openInNewTab": "In nieuw tabblad openen",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Ingesloten pagina"
     },
     "linkCard": {
       "options": "Opties",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google Zoeken",
+        "description": "Zoek op Google of typ een URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Groep",
+        "description": "Een groep met aangepaste kleur voor het organiseren van uw links."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Herinneringen",
+        "description": "Plan herinneringen met browsermeldingen. Ondersteuning voor uurlijkse, dagelijkse en wekelijkse herhaling."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Takenlijst",
+        "description": "Houd uw taken bij."
       },
       "timer": {
         "name": "Timers",
-        "description": "Manage multiple timers."
+        "description": "Beheer meerdere timers."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Plaknotitie",
+        "description": "Schrijf notities of herinneringen met aangepaste kleuren."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Afbeelding",
+        "description": "Voeg een afbeelding toe via een URL of upload een lokaal bestand."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Tekstlabel",
+        "description": "Voeg een zwevende tekstkoptekst of -titel toe om uw raster op te maken."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Ingesloten pagina",
+        "description": "Sluit elke website in als een live widget."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Afbeelding"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Standaard",
+        "grey": "Grijs",
+        "blue": "Blauw",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Groen",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Geel",
+        "orange": "Oranje",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "Tomaat",
+        "rose": "Roos",
+        "pink": "Roze",
         "fuchsia": "Fuchsia",
         "violet": "Violet"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "Schemering",
+        "sunset": "Zonsondergang",
+        "ocean": "Oceaan",
+        "forest": "Bos",
+        "slate": "Lei",
         "aurora": "Aurora"
       }
     },

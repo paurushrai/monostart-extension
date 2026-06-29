@@ -190,7 +190,7 @@
         "slate": "स्लेटी",
         "neutral": "तटस्थ"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "नया समूह"
     },
     "groupHeader": {
       "addLink": "लिंक जोड़ें",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "विजेट हटाएं",
       "openInNewTab": "नए टैब में खोलें",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "एम्बेडेड पेज"
     },
     "linkCard": {
       "options": "विकल्प",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Google पर खोजें या URL टाइप करें."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "समूह",
+        "description": "आपके लिंक व्यवस्थित करने के लिए एक कस्टम-रंगीन समूह."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "अनुस्मारक",
+        "description": "ब्राउज़र सूचनाओं के साथ अनुस्मारक शेड्यूल करें. प्रति घंटे / दैनिक / साप्ताहिक पुनरावृत्ति समर्थित."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "कार्य सूची",
+        "description": "अपने कार्यों पर नज़र रखें."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "टाइमर",
+        "description": "एकाधिक टाइमर प्रबंधित करें."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "स्टिकी नोट",
+        "description": "कस्टम रंगों के साथ नोट या अनुस्मारक लिखें."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "छवि",
+        "description": "URL से छवि जोड़ें या स्थानीय फ़ाइल अपलोड करें."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "टेक्स्ट लेबल",
+        "description": "अपनी ग्रिड को स्टाइल करने के लिए एक साफ़ फ्लोटिंग टेक्स्ट हेडर या शीर्षक जोड़ें."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "एम्बेडेड पेज",
+        "description": "किसी भी वेबसाइट को लाइव विजेट के रूप में एम्बेड करें."
       }
     }
   },
@@ -407,10 +407,10 @@
         "violet": "Violet"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "संध्या",
+        "sunset": "सूर्यास्त",
+        "ocean": "महासागर",
+        "forest": "वन",
         "slate": "Slate",
         "aurora": "Aurora"
       }

@@ -190,7 +190,7 @@
         "slate": "Škriljevac",
         "neutral": "Neutralna"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Nova grupa"
     },
     "groupHeader": {
       "addLink": "Dodaj vezu",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Ukloni widget",
       "openInNewTab": "Otvori u novoj kartici",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Ugrađena stranica"
     },
     "linkCard": {
       "options": "Opcije",
@@ -230,39 +230,39 @@
     "catalog": {
       "googleSearch": {
         "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "description": "Pretraži Google ili upiši URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Grupa",
+        "description": "Grupa s prilagođenim bojama za organiziranje vaših veza."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Podsjetnici",
+        "description": "Postavite podsjetnike s obavijestima preglednika. Podržano satno / dnevno / tjedno ponavljanje."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Popis zadataka",
+        "description": "Pratite svoje zadatke."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Mjerači vremena",
+        "description": "Upravljajte s više mjerača vremena."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Ljepljiva bilješka",
+        "description": "Pišite bilješke ili podsjetnike s prilagođenim bojama."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Slika",
+        "description": "Dodajte sliku s URL-a ili prenesite lokalnu datoteku."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Tekstualna oznaka",
+        "description": "Dodajte čist plutajući tekstualni naslov za stilizaciju vaše mreže."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Ugrađena stranica",
+        "description": "Ugradite bilo koje web-mjesto kao widget uživo."
       }
     }
   },
@@ -407,10 +407,10 @@
         "violet": "Violet"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
+        "dusk": "Sumrak",
+        "sunset": "Zalazak sunca",
         "ocean": "Ocean",
-        "forest": "Forest",
+        "forest": "Šuma",
         "slate": "Slate",
         "aurora": "Aurora"
       }

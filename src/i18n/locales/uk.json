@@ -190,7 +190,7 @@
         "slate": "Сірий",
         "neutral": "Нейтральний"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Нова група"
     },
     "groupHeader": {
       "addLink": "Додати посилання",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Видалити віджет",
       "openInNewTab": "Відкрити в новій вкладці",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Вбудована сторінка"
     },
     "linkCard": {
       "options": "Параметри",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Пошук Google",
+        "description": "Шукайте в Google або введіть URL."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Група",
+        "description": "Група з довільним кольором для організації ваших посилань."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Нагадування",
+        "description": "Плануйте нагадування з сповіщеннями браузера. Підтримується повторення щогодини / щодня / щотижня."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Список справ",
+        "description": "Відстежуйте свої завдання."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Таймери",
+        "description": "Керуйте кількома таймерами."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Стікер",
+        "description": "Пишіть нотатки або нагадування з довільними кольорами."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Зображення",
+        "description": "Додайте зображення з URL або завантажте локальний файл."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Текстова мітка",
+        "description": "Додайте чистий плаваючий текстовий заголовок для стилізації вашої сітки."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Вбудована сторінка",
+        "description": "Вбудуйте будь-який веб-сайт як живий віджет."
       }
     }
   },
@@ -390,29 +390,29 @@
         "image": "Зображення"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Типовий",
+        "grey": "Сірий",
+        "blue": "Синій",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Зелений",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "Жовтий",
+        "orange": "Помаранчевий",
         "apricot": "Apricot",
-        "tomato": "Tomato",
+        "tomato": "Томатний",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "Рожевий",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Фіолетовий"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "Сутінки",
+        "sunset": "Захід сонця",
+        "ocean": "Океан",
+        "forest": "Ліс",
         "slate": "Slate",
-        "aurora": "Aurora"
+        "aurora": "Аврора"
       }
     },
     "clear": {

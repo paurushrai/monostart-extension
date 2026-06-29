@@ -190,7 +190,7 @@
         "slate": "رمادي أردوازي",
         "neutral": "محايد"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "مجموعة جديدة"
     },
     "groupHeader": {
       "addLink": "إضافة رابط",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "إزالة الأداة",
       "openInNewTab": "فتح في علامة تبويب جديدة",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "صفحة مضمنة"
     },
     "linkCard": {
       "options": "الخيارات",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google بحث",
+        "description": "ابحث في Google أو أدخل رابطاً."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "مجموعة",
+        "description": "مجموعة بألوان مخصصة لتنظيم روابطك."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "تذكيرات",
+        "description": "جدول التذكيرات مع إشعارات المتصفح. التكرار كل ساعة / يومياً / أسبوعياً مدعوم."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "قائمة المهام",
+        "description": "تابع مهامك."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "مؤقتات",
+        "description": "إدارة عدة مؤقتات."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "ملاحظة لاصقة",
+        "description": "اكتب ملاحظات أو تذكيرات بألوان مخصصة."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "صورة",
+        "description": "أضف صورة من رابط أو ارفع ملفاً محلياً."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "تسمية نصية",
+        "description": "أضف عنواناً نصياً عائماً أنيقاً لتنسيق شبكتك."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "صفحة مضمنة",
+        "description": "ضمّن أي موقع كأداة مباشرة."
       }
     }
   },
@@ -390,27 +390,27 @@
         "image": "صورة"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "افتراضي",
+        "grey": "رمادي",
+        "blue": "أزرق",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "أخضر",
         "citron": "Citron",
-        "yellow": "Yellow",
-        "orange": "Orange",
+        "yellow": "أصفر",
+        "orange": "برتقالي",
         "apricot": "Apricot",
-        "tomato": "Tomato",
-        "rose": "Rose",
-        "pink": "Pink",
+        "tomato": "طماطم",
+        "rose": "وردي",
+        "pink": "وردي فاتح",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "بنفسجي"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
+        "dusk": "الغسق",
+        "sunset": "غروب الشمس",
+        "ocean": "المحيط",
+        "forest": "الغابة",
         "slate": "Slate",
         "aurora": "Aurora"
       }

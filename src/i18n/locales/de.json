@@ -93,7 +93,7 @@
       "color_default": "Standard",
       "color_amber": "Gelb",
       "color_sky": "Blau",
-      "color_rose": "Pink",
+      "color_rose": "Rosa",
       "color_emerald": "Grün",
       "color_purple": "Lila"
     },
@@ -178,7 +178,7 @@
       "pasteUrlPlaceholder": "URL einfügen...",
       "colors": {
         "red": "Rot",
-        "pink": "Pink",
+        "pink": "Rosa",
         "purple": "Lila",
         "indigo": "Indigo",
         "blue": "Blau",
@@ -190,7 +190,7 @@
         "slate": "Schiefergrau",
         "neutral": "Neutral"
       },
-      "defaultTitle": "New Group"
+      "defaultTitle": "Neue Gruppe"
     },
     "groupHeader": {
       "addLink": "Link hinzufügen",
@@ -213,7 +213,7 @@
     "iframe": {
       "removeWidget": "Widget entfernen",
       "openInNewTab": "In neuem Tab öffnen",
-      "defaultTitle": "Embedded Page"
+      "defaultTitle": "Eingebettete Seite"
     },
     "linkCard": {
       "options": "Optionen",
@@ -229,40 +229,40 @@
     },
     "catalog": {
       "googleSearch": {
-        "name": "Google Search",
-        "description": "Search Google or type a URL."
+        "name": "Google Suche",
+        "description": "Google durchsuchen oder eine URL eingeben."
       },
       "group": {
-        "name": "Group",
-        "description": "A custom-colored group for organizing your links."
+        "name": "Gruppe",
+        "description": "Eine farbig anpassbare Gruppe zum Organisieren deiner Links."
       },
       "reminders": {
-        "name": "Reminders",
-        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+        "name": "Erinnerungen",
+        "description": "Erinnerungen mit Browser-Benachrichtigungen planen. Stündliche / tägliche / wöchentliche Wiederholung unterstützt."
       },
       "todo": {
-        "name": "Todo List",
-        "description": "Keep track of your tasks."
+        "name": "Aufgabenliste",
+        "description": "Behalte den Überblick über deine Aufgaben."
       },
       "timer": {
-        "name": "Timers",
-        "description": "Manage multiple timers."
+        "name": "Timer",
+        "description": "Mehrere Timer verwalten."
       },
       "note": {
-        "name": "Sticky Note",
-        "description": "Write notes or reminders with custom colors."
+        "name": "Haftnotiz",
+        "description": "Notizen oder Erinnerungen in benutzerdefinierten Farben schreiben."
       },
       "image": {
-        "name": "Image",
-        "description": "Add an image from a URL or upload a local file."
+        "name": "Bild",
+        "description": "Ein Bild per URL hinzufügen oder eine lokale Datei hochladen."
       },
       "label": {
-        "name": "Text Label",
-        "description": "Add a clean floating text header or title to style your grid."
+        "name": "Textbeschriftung",
+        "description": "Eine schwebende Textüberschrift oder einen Titel hinzufügen, um das Raster zu gestalten."
       },
       "iframe": {
-        "name": "Embedded Page",
-        "description": "Embed any website as a live widget."
+        "name": "Eingebettete Seite",
+        "description": "Beliebige Website als Live-Widget einbetten."
       }
     }
   },
@@ -390,28 +390,28 @@
         "image": "Bild"
       },
       "themes": {
-        "default": "Default",
-        "grey": "Grey",
-        "blue": "Blue",
+        "default": "Standard",
+        "grey": "Grau",
+        "blue": "Blau",
         "aqua": "Aqua",
         "viridian": "Viridian",
-        "green": "Green",
+        "green": "Grün",
         "citron": "Citron",
-        "yellow": "Yellow",
+        "yellow": "Gelb",
         "orange": "Orange",
         "apricot": "Apricot",
-        "tomato": "Tomato",
+        "tomato": "Tomate",
         "rose": "Rose",
-        "pink": "Pink",
+        "pink": "Rosa",
         "fuchsia": "Fuchsia",
-        "violet": "Violet"
+        "violet": "Violett"
       },
       "gradients": {
-        "dusk": "Dusk",
-        "sunset": "Sunset",
-        "ocean": "Ocean",
-        "forest": "Forest",
-        "slate": "Slate",
+        "dusk": "Dämmerung",
+        "sunset": "Sonnenuntergang",
+        "ocean": "Ozean",
+        "forest": "Wald",
+        "slate": "Schiefer",
         "aurora": "Aurora"
       }
     },
