@@ -304,7 +304,7 @@
       "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
       "urlHint": "Tampal URL untuk embed mudah, atau tampal coretan <code>&lt;iframe&gt;</code> dari laman yang menyekat pemuatan terus (YouTube, Figma, Spotify, CodePen, dll.).",
       "back": "Kembali",
-      "embedWidget": "Embed Widget"
+      "embedWidget": "Widget Tersemat"
     },
     "addLink": {
       "title": "Tambah Pautan",

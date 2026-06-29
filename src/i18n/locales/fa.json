@@ -268,16 +268,16 @@
       "corner": {
         "title": "تجربه تمام‌صفحه را داشته باشید",
         "intro": "Chrome یک فوتر زیر MonoStart اضافه می‌کند. برای مخفی کردن آن، کلیک کنید",
-        "cta": "Customize Chrome",
+        "cta": "سفارشی‌سازی Chrome",
         "ctaSuffix": "در گوشه پایین-راست.",
         "noFooter": "فوتری نمی‌بینید؟ همه چیز درست است — این مرحله را رد کنید."
       },
       "panel": {
         "title": "تقریباً تمام شد",
         "intro": "زیر",
-        "setting": "Footer",
+        "setting": "فوتر",
         "turnOff": "، خاموش کنید",
-        "action": "Show footer on New Tab page",
+        "action": "نمایش فوتر در صفحه برگه جدید",
         "suffix": "، سپس پنل را ببندید."
       },
       "skip": "رد کردن",
