@@ -1,7 +1,12 @@
 import i18n from './config';
 
-// Eagerly-globbed locale modules; Vite emits one lazy chunk per file.
-const localeLoaders = import.meta.glob<{ default: Record<string, unknown> }>('./locales/*.json');
+// Lazily-globbed locale modules; Vite emits one chunk per file. en.json is
+// excluded because it is statically bundled as the fallback in config.ts —
+// globbing it too triggers Vite's INEFFECTIVE_DYNAMIC_IMPORT warning.
+const localeLoaders = import.meta.glob<{ default: Record<string, unknown> }>([
+  './locales/*.json',
+  '!./locales/en.json',
+]);
 
 const loaded = new Set<string>(['en']);
 
