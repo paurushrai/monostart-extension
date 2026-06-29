@@ -226,7 +226,8 @@
       "mainDashboard": "Tableau de bord principal",
       "header": "En-tête",
       "deleteLink": "Supprimer le lien",
-      "actionsAriaLabel": "Actions du lien"
+      "actionsAriaLabel": "Actions du lien",
+      "showTitleOnHover": "Afficher le titre au survol"
     },
     "catalog": {
       "googleSearch": {

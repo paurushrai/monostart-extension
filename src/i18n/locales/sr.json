@@ -226,7 +226,8 @@
       "mainDashboard": "Главна контролна табла",
       "header": "Заглавље",
       "deleteLink": "Избриши везу",
-      "actionsAriaLabel": "Акције везе"
+      "actionsAriaLabel": "Акције везе",
+      "showTitleOnHover": "Прикажи наслов при лебдењу"
     },
     "catalog": {
       "googleSearch": {

@@ -226,7 +226,8 @@
       "mainDashboard": "പ്രധാന ഡാഷ്‌ബോർഡ്",
       "header": "ഹെഡർ",
       "deleteLink": "ലിങ്ക് ഇല്ലാതാക്കുക",
-      "actionsAriaLabel": "ലിങ്ക് പ്രവർത്തനങ്ങൾ"
+      "actionsAriaLabel": "ലിങ്ക് പ്രവർത്തനങ്ങൾ",
+      "showTitleOnHover": "ഹോവർ ചെയ്യുമ്പോൾ ശീർഷകം കാണിക്കുക"
     },
     "catalog": {
       "googleSearch": {

@@ -226,7 +226,8 @@
       "mainDashboard": "Tauler principal",
       "header": "Capçalera",
       "deleteLink": "Elimina l'enllaç",
-      "actionsAriaLabel": "Accions de l'enllaç"
+      "actionsAriaLabel": "Accions de l'enllaç",
+      "showTitleOnHover": "Mostra el títol en passar el ratolí"
     },
     "catalog": {
       "googleSearch": {

@@ -226,7 +226,8 @@
       "mainDashboard": "Panel principal",
       "header": "Encabezado",
       "deleteLink": "Eliminar enlace",
-      "actionsAriaLabel": "Acciones del enlace"
+      "actionsAriaLabel": "Acciones del enlace",
+      "showTitleOnHover": "Mostrar título al pasar el cursor"
     },
     "catalog": {
       "googleSearch": {

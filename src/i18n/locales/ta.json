@@ -226,7 +226,8 @@
       "mainDashboard": "முகப்பு டாஷ்போர்டு",
       "header": "தலைப்பு",
       "deleteLink": "இணைப்பு நீக்கு",
-      "actionsAriaLabel": "இணைப்பு செயல்கள்"
+      "actionsAriaLabel": "இணைப்பு செயல்கள்",
+      "showTitleOnHover": "நகர்த்தும்போது தலைப்பு காட்டு"
     },
     "catalog": {
       "googleSearch": {

@@ -226,7 +226,8 @@
       "mainDashboard": "Hoofddashboard",
       "header": "Koptekst",
       "deleteLink": "Link verwijderen",
-      "actionsAriaLabel": "Linkacties"
+      "actionsAriaLabel": "Linkacties",
+      "showTitleOnHover": "Titel tonen bij hover"
     },
     "catalog": {
       "googleSearch": {

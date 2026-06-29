@@ -226,7 +226,8 @@
       "mainDashboard": "ಮುಖ್ಯ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
       "header": "ಹೆಡರ್",
       "deleteLink": "ಲಿಂಕ್ ಅಳಿಸು",
-      "actionsAriaLabel": "ಲಿಂಕ್ ಕ್ರಿಯೆಗಳು"
+      "actionsAriaLabel": "ಲಿಂಕ್ ಕ್ರಿಯೆಗಳು",
+      "showTitleOnHover": "ಹೋವರ್‌ನಲ್ಲಿ ಶೀರ್ಷಿಕೆ ತೋರಿಸಿ"
     },
     "catalog": {
       "googleSearch": {

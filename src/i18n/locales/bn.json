@@ -226,7 +226,8 @@
       "mainDashboard": "প্রধান ড্যাশবোর্ড",
       "header": "হেডার",
       "deleteLink": "লিঙ্ক মুছুন",
-      "actionsAriaLabel": "লিঙ্কের কার্যক্রম"
+      "actionsAriaLabel": "লিঙ্কের কার্যক্রম",
+      "showTitleOnHover": "হভারে শিরোনাম দেখান"
     },
     "catalog": {
       "googleSearch": {

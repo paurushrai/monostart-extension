@@ -226,7 +226,8 @@
       "mainDashboard": "ዋና ዳሽቦርድ",
       "header": "ራስጌ",
       "deleteLink": "ሊንክ ሰርዝ",
-      "actionsAriaLabel": "የሊንክ ድርጊቶች"
+      "actionsAriaLabel": "የሊንክ ድርጊቶች",
+      "showTitleOnHover": "በሆቨር ላይ ርዕስ አሳይ"
     },
     "catalog": {
       "googleSearch": {

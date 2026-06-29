@@ -226,7 +226,8 @@
       "mainDashboard": "داشبورد اصلی",
       "header": "هدر",
       "deleteLink": "حذف لینک",
-      "actionsAriaLabel": "اقدامات لینک"
+      "actionsAriaLabel": "اقدامات لینک",
+      "showTitleOnHover": "نمایش عنوان هنگام نگه‌داشتن موس"
     },
     "catalog": {
       "googleSearch": {

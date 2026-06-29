@@ -226,7 +226,8 @@
       "mainDashboard": "Haupt-Dashboard",
       "header": "Kopfzeile",
       "deleteLink": "Link löschen",
-      "actionsAriaLabel": "Linkaktionen"
+      "actionsAriaLabel": "Linkaktionen",
+      "showTitleOnHover": "Titel beim Hover anzeigen"
     },
     "catalog": {
       "googleSearch": {

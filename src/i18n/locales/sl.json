@@ -226,7 +226,8 @@
       "mainDashboard": "Glavna nadzorna plošča",
       "header": "Glava",
       "deleteLink": "Izbriši povezavo",
-      "actionsAriaLabel": "Dejanja povezave"
+      "actionsAriaLabel": "Dejanja povezave",
+      "showTitleOnHover": "Prikaži naslov ob lebdenju"
     },
     "catalog": {
       "googleSearch": {

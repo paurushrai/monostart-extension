@@ -226,7 +226,8 @@
       "mainDashboard": "Pagrindinis prietaisų skydelis",
       "header": "Antraštė",
       "deleteLink": "Ištrinti nuorodą",
-      "actionsAriaLabel": "Nuorodos veiksmai"
+      "actionsAriaLabel": "Nuorodos veiksmai",
+      "showTitleOnHover": "Rodyti pavadinimą užvedus pelę"
     },
     "catalog": {
       "googleSearch": {

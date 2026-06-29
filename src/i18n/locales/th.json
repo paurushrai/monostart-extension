@@ -226,7 +226,8 @@
       "mainDashboard": "แดชบอร์ดหลัก",
       "header": "ส่วนหัว",
       "deleteLink": "ลบลิงก์",
-      "actionsAriaLabel": "การดำเนินการลิงก์"
+      "actionsAriaLabel": "การดำเนินการลิงก์",
+      "showTitleOnHover": "แสดงชื่อเมื่อเลื่อนเมาส์ไปชี้"
     },
     "catalog": {
       "googleSearch": {

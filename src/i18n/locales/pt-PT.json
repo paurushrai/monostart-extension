@@ -226,7 +226,8 @@
       "mainDashboard": "Painel Principal",
       "header": "Cabeçalho",
       "deleteLink": "Eliminar Ligação",
-      "actionsAriaLabel": "Ações da ligação"
+      "actionsAriaLabel": "Ações da ligação",
+      "showTitleOnHover": "Mostrar título ao passar o rato"
     },
     "catalog": {
       "googleSearch": {

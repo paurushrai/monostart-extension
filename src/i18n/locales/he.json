@@ -226,7 +226,8 @@
       "mainDashboard": "לוח מחוונים ראשי",
       "header": "כותרת",
       "deleteLink": "מחק קישור",
-      "actionsAriaLabel": "פעולות קישור"
+      "actionsAriaLabel": "פעולות קישור",
+      "showTitleOnHover": "הצג כותרת בריחוף"
     },
     "catalog": {
       "googleSearch": {

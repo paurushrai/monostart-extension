@@ -226,7 +226,8 @@
       "mainDashboard": "메인 대시보드",
       "header": "헤더",
       "deleteLink": "링크 삭제",
-      "actionsAriaLabel": "링크 동작"
+      "actionsAriaLabel": "링크 동작",
+      "showTitleOnHover": "호버 시 제목 표시"
     },
     "catalog": {
       "googleSearch": {

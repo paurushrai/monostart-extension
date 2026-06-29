@@ -226,7 +226,8 @@
       "mainDashboard": "Pääkojelauta",
       "header": "Otsikko",
       "deleteLink": "Poista linkki",
-      "actionsAriaLabel": "Linkin toiminnot"
+      "actionsAriaLabel": "Linkin toiminnot",
+      "showTitleOnHover": "Näytä otsikko hover-tilassa"
     },
     "catalog": {
       "googleSearch": {

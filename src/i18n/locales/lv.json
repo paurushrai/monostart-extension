@@ -226,7 +226,8 @@
       "mainDashboard": "Galvenais panelis",
       "header": "Galvene",
       "deleteLink": "Dzēst saiti",
-      "actionsAriaLabel": "Saites darbības"
+      "actionsAriaLabel": "Saites darbības",
+      "showTitleOnHover": "Rādīt nosaukumu, virzot kursoru"
     },
     "catalog": {
       "googleSearch": {

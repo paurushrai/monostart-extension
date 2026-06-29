@@ -18,6 +18,8 @@ export interface LinkItem extends BaseItem {
   favicon?: string;
   customName?: string;
   theme?: string;
+  /** Icon-only cards: show the title in the hover overlay. Default false (icon only). */
+  showTitleOnHover?: boolean;
 }
 
 export interface GroupItem extends BaseItem {

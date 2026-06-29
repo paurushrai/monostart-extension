@@ -226,7 +226,8 @@
       "mainDashboard": "لوحة التحكم الرئيسية",
       "header": "الرأس",
       "deleteLink": "حذف الرابط",
-      "actionsAriaLabel": "إجراءات الرابط"
+      "actionsAriaLabel": "إجراءات الرابط",
+      "showTitleOnHover": "إظهار العنوان عند التمرير"
     },
     "catalog": {
       "googleSearch": {

@@ -226,7 +226,8 @@
       "mainDashboard": "ప్రధాన డాష్‌బోర్డ్",
       "header": "హెడర్",
       "deleteLink": "లింక్ తొలగించు",
-      "actionsAriaLabel": "లింక్ చర్యలు"
+      "actionsAriaLabel": "లింక్ చర్యలు",
+      "showTitleOnHover": "హోవర్ చేసినప్పుడు శీర్షిక చూపు"
     },
     "catalog": {
       "googleSearch": {

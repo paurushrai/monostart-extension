@@ -226,7 +226,8 @@
       "mainDashboard": "Hoveddashboard",
       "header": "Topplinje",
       "deleteLink": "Slett lenke",
-      "actionsAriaLabel": "Lenkehandlinger"
+      "actionsAriaLabel": "Lenkehandlinger",
+      "showTitleOnHover": "Vis tittel ved hover"
     },
     "catalog": {
       "googleSearch": {

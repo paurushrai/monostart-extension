@@ -226,7 +226,8 @@
       "mainDashboard": "Hlavný panel",
       "header": "Hlavička",
       "deleteLink": "Odstrániť odkaz",
-      "actionsAriaLabel": "Akcie odkazu"
+      "actionsAriaLabel": "Akcie odkazu",
+      "showTitleOnHover": "Zobraziť názov pri prechode myšou"
     },
     "catalog": {
       "googleSearch": {

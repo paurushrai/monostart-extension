@@ -226,7 +226,8 @@
       "mainDashboard": "Главная панель",
       "header": "Шапка",
       "deleteLink": "Удалить ссылку",
-      "actionsAriaLabel": "Действия со ссылкой"
+      "actionsAriaLabel": "Действия со ссылкой",
+      "showTitleOnHover": "Показывать заголовок при наведении"
     },
     "catalog": {
       "googleSearch": {
