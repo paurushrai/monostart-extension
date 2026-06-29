@@ -189,7 +189,8 @@
         "orange": "ஆரஞ்சு",
         "slate": "ஸ்லேட்",
         "neutral": "நடுநிலை"
-      }
+      },
+      "defaultTitle": "New Group"
     },
     "groupHeader": {
       "addLink": "இணைப்பு சேர்",
@@ -211,7 +212,8 @@
     },
     "iframe": {
       "removeWidget": "விட்ஜெட் நீக்கு",
-      "openInNewTab": "புதிய தாவலில் திற"
+      "openInNewTab": "புதிய தாவலில் திற",
+      "defaultTitle": "Embedded Page"
     },
     "linkCard": {
       "options": "விருப்பங்கள்",
@@ -224,6 +226,44 @@
       "header": "தலைப்பு",
       "deleteLink": "இணைப்பு நீக்கு",
       "actionsAriaLabel": "இணைப்பு செயல்கள்"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Search Google or type a URL."
+      },
+      "group": {
+        "name": "Group",
+        "description": "A custom-colored group for organizing your links."
+      },
+      "reminders": {
+        "name": "Reminders",
+        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+      },
+      "todo": {
+        "name": "Todo List",
+        "description": "Keep track of your tasks."
+      },
+      "timer": {
+        "name": "Timers",
+        "description": "Manage multiple timers."
+      },
+      "note": {
+        "name": "Sticky Note",
+        "description": "Write notes or reminders with custom colors."
+      },
+      "image": {
+        "name": "Image",
+        "description": "Add an image from a URL or upload a local file."
+      },
+      "label": {
+        "name": "Text Label",
+        "description": "Add a clean floating text header or title to style your grid."
+      },
+      "iframe": {
+        "name": "Embedded Page",
+        "description": "Embed any website as a live widget."
+      }
     }
   },
   "toasts": {
@@ -348,6 +388,31 @@
         "color": "நிறம்",
         "gradient": "சாயல்",
         "image": "படம்"
+      },
+      "themes": {
+        "default": "Default",
+        "grey": "Grey",
+        "blue": "Blue",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Green",
+        "citron": "Citron",
+        "yellow": "Yellow",
+        "orange": "Orange",
+        "apricot": "Apricot",
+        "tomato": "Tomato",
+        "rose": "Rose",
+        "pink": "Pink",
+        "fuchsia": "Fuchsia",
+        "violet": "Violet"
+      },
+      "gradients": {
+        "dusk": "Dusk",
+        "sunset": "Sunset",
+        "ocean": "Ocean",
+        "forest": "Forest",
+        "slate": "Slate",
+        "aurora": "Aurora"
       }
     },
     "clear": {

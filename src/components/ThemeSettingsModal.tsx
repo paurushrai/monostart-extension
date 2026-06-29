@@ -13,12 +13,12 @@ import { isIdbRef } from '../lib/imageRef';
 
 const bgColors = ['#0f172a', '#111827', '#1e293b', '#18181b', '#1e3a8a', '#3730a3', '#0b3b2e', '#7f1d1d'];
 const bgGradients = [
-  { name: 'Dusk', value: 'linear-gradient(135deg,#1e3a8a,#6d28d9)' },
-  { name: 'Sunset', value: 'linear-gradient(135deg,#f97316,#db2777)' },
-  { name: 'Ocean', value: 'linear-gradient(135deg,#0ea5e9,#14b8a6)' },
-  { name: 'Forest', value: 'linear-gradient(160deg,#065f46,#022c22)' },
-  { name: 'Slate', value: 'linear-gradient(160deg,#334155,#0f172a)' },
-  { name: 'Aurora', value: 'linear-gradient(135deg,#7c3aed,#2563eb,#06b6d4)' },
+  { name: 'Dusk', nameKey: 'modals.theme.gradients.dusk', value: 'linear-gradient(135deg,#1e3a8a,#6d28d9)' },
+  { name: 'Sunset', nameKey: 'modals.theme.gradients.sunset', value: 'linear-gradient(135deg,#f97316,#db2777)' },
+  { name: 'Ocean', nameKey: 'modals.theme.gradients.ocean', value: 'linear-gradient(135deg,#0ea5e9,#14b8a6)' },
+  { name: 'Forest', nameKey: 'modals.theme.gradients.forest', value: 'linear-gradient(160deg,#065f46,#022c22)' },
+  { name: 'Slate', nameKey: 'modals.theme.gradients.slate', value: 'linear-gradient(160deg,#334155,#0f172a)' },
+  { name: 'Aurora', nameKey: 'modals.theme.gradients.aurora', value: 'linear-gradient(135deg,#7c3aed,#2563eb,#06b6d4)' },
 ];
 
 // Translation keys for bg type labels — resolved in render via t()
@@ -273,7 +273,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                       bg.value === g.value ? 'ring-2 ring-offset-2 ring-offset-background ring-foreground' : 'ring-1 ring-border'
                     }`}
                     style={{ backgroundImage: g.value }}
-                    title={g.name}
+                    title={t(g.nameKey)}
                   />
                 ))}
               </div>

@@ -2,6 +2,7 @@ import { shiftLightness } from './color';
 
 export interface ChromeTheme {
   name: string;
+  nameKey: string;
   /** App HSL string format: "H S% L%" (matches settings.themeColor). */
   seed: string;
 }
@@ -17,21 +18,21 @@ export interface ChromeTheme {
  * captured 2026-06-04. Names follow Chrome's color labels.
  */
 export const CHROME_THEMES: readonly ChromeTheme[] = [
-  { name: 'Default', seed: '0 0% 30%' },
-  { name: 'Grey', seed: '0 0% 75%' },
-  { name: 'Blue', seed: '214 82% 51%' },
-  { name: 'Aqua', seed: '187 90% 42%' },
-  { name: 'Viridian', seed: '168 76% 36%' },
-  { name: 'Green', seed: '145 63% 42%' },
-  { name: 'Citron', seed: '66 60% 45%' },
-  { name: 'Yellow', seed: '45 95% 50%' },
-  { name: 'Orange', seed: '28 95% 53%' },
-  { name: 'Apricot', seed: '18 88% 62%' },
-  { name: 'Tomato', seed: '8 80% 56%' },
-  { name: 'Rose', seed: '345 80% 60%' },
-  { name: 'Pink', seed: '330 85% 70%' },
-  { name: 'Fuchsia', seed: '300 70% 55%' },
-  { name: 'Violet', seed: '271 70% 60%' },
+  { name: 'Default', nameKey: 'modals.theme.themes.default', seed: '0 0% 30%' },
+  { name: 'Grey', nameKey: 'modals.theme.themes.grey', seed: '0 0% 75%' },
+  { name: 'Blue', nameKey: 'modals.theme.themes.blue', seed: '214 82% 51%' },
+  { name: 'Aqua', nameKey: 'modals.theme.themes.aqua', seed: '187 90% 42%' },
+  { name: 'Viridian', nameKey: 'modals.theme.themes.viridian', seed: '168 76% 36%' },
+  { name: 'Green', nameKey: 'modals.theme.themes.green', seed: '145 63% 42%' },
+  { name: 'Citron', nameKey: 'modals.theme.themes.citron', seed: '66 60% 45%' },
+  { name: 'Yellow', nameKey: 'modals.theme.themes.yellow', seed: '45 95% 50%' },
+  { name: 'Orange', nameKey: 'modals.theme.themes.orange', seed: '28 95% 53%' },
+  { name: 'Apricot', nameKey: 'modals.theme.themes.apricot', seed: '18 88% 62%' },
+  { name: 'Tomato', nameKey: 'modals.theme.themes.tomato', seed: '8 80% 56%' },
+  { name: 'Rose', nameKey: 'modals.theme.themes.rose', seed: '345 80% 60%' },
+  { name: 'Pink', nameKey: 'modals.theme.themes.pink', seed: '330 85% 70%' },
+  { name: 'Fuchsia', nameKey: 'modals.theme.themes.fuchsia', seed: '300 70% 55%' },
+  { name: 'Violet', nameKey: 'modals.theme.themes.violet', seed: '271 70% 60%' },
 ] as const;
 
 /**

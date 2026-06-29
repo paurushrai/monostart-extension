@@ -99,7 +99,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
                       ${isEditing ? 'py-1.5 drag-handle cursor-grab active:cursor-grabbing' : 'py-1'}`}>
 
         <h3 className={`font-medium text-foreground truncate mr-2 ${isEditing ? 'text-sm' : 'text-xs'}`}>
-          {item.title}
+          {item.title || t('widgets.iframe.defaultTitle')}
         </h3>
 
         <div className="flex items-center gap-1 flex-shrink-0">
@@ -135,7 +135,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
       </header>
 
       <div className="relative flex-1 w-full overflow-hidden rounded-b-xl bg-background">
-        <UrlContent url={item.url} title={item.title} />
+        <UrlContent url={item.url} title={item.title || t('widgets.iframe.defaultTitle')} />
         {isEditing && <div className="absolute inset-0 z-10 bg-transparent" />}
       </div>
     </article>

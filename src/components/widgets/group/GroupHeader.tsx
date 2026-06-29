@@ -68,7 +68,7 @@ export default function GroupHeader({
           className={`font-semibold outline-none truncate select-text ${isEditing ? 'text-xs cursor-text px-1 bg-secondary/40 rounded focus:bg-secondary/80 min-w-[60px] max-w-[140px]' : 'text-2xs max-w-[200px]'}`}
           style={{ color: textCssColor }}
         >
-          {title}
+          {title || t('widgets.group.defaultTitle')}
         </span>
         <span className="text-2xs font-medium leading-none px-1 py-0.5 bg-secondary/60 text-muted-foreground rounded-full shrink-0">
           {count}

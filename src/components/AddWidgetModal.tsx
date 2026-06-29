@@ -118,7 +118,7 @@ const AddWidgetModal = ({ open, onClose, onSelect }: Readonly<Props>) => {
     ? t('modals.addWidget.title')
     : step === 3
       ? t('modals.addWidget.titleGoogleStyle')
-      : t('modals.addWidget.titleConfigure', { name: selectedWidget?.name });
+      : t('modals.addWidget.titleConfigure', { name: selectedWidget ? t(selectedWidget.nameKey ?? '') : '' });
 
   return (
     <Dialog open={open} onOpenChange={(isOpen) => !isOpen && handleClose()}>
@@ -150,10 +150,10 @@ const AddWidgetModal = ({ open, onClose, onSelect }: Readonly<Props>) => {
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="text-sm font-semibold text-foreground">
-                      {w.name}
+                      {t(w.nameKey ?? '')}
                     </div>
                     <div className="text-xs text-muted-foreground mt-0.5">
-                      {w.description}
+                      {t(w.descriptionKey ?? '')}
                     </div>
                   </div>
                 </Button>
