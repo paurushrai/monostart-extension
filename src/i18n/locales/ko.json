@@ -14,7 +14,8 @@
       "editDashboard": "대시보드 편집",
       "theme": "테마 및 외관",
       "share": "MonoStart 공유",
-      "openInNewTab": "새 탭에서 링크 열기"
+      "openInNewTab": "새 탭에서 링크 열기",
+      "rate": "Rate MonoStart"
     },
     "settings": "설정",
     "clear": "초기화",

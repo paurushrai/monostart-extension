@@ -14,7 +14,8 @@
       "editDashboard": "Muokkaa kojelautaa",
       "theme": "Teema ja ulkoasu",
       "share": "Jaa MonoStart",
-      "openInNewTab": "Avaa linkit uudessa välilehdessä"
+      "openInNewTab": "Avaa linkit uudessa välilehdessä",
+      "rate": "Rate MonoStart"
     },
     "settings": "Asetukset",
     "clear": "Tyhjennä",

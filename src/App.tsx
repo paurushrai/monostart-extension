@@ -202,6 +202,7 @@ function App() {
         onOpenAddWidget={() => setModalOpen(true)}
         onOpenTheme={() => setThemeModalOpen(true)}
         onOpenShare={() => setShareModalOpen(true)}
+        onRate={ratePrompt.rate}
         onOpenLanguage={() => setLanguageModalOpen(true)}
         onClearDashboard={() => setClearModalOpen(true)}
         isDropTarget={isHeaderTargeted}
