@@ -14,7 +14,8 @@
       "editDashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ತಿದ್ದು",
       "theme": "ಥೀಮ್ ಮತ್ತು ನೋಟ",
       "share": "MonoStart ಹಂಚಿಕೊಳ್ಳಿ",
-      "openInNewTab": "ಲಿಂಕ್‌ಗಳನ್ನು ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆ"
+      "openInNewTab": "ಲಿಂಕ್‌ಗಳನ್ನು ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆ",
+      "rate": "MonoStart ಅನ್ನು ರೇಟ್ ಮಾಡಿ"
     },
     "settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
     "clear": "ತೆರವು",
@@ -442,5 +443,13 @@
       "shareOn": "{{platform}} ನಲ್ಲಿ ಹಂಚಿ",
       "shareVia": "{{platform}} ಮೂಲಕ ಹಂಚಿ"
     }
+  },
+  "ratePrompt": {
+    "title": "MonoStart ಆನಂದಿಸುತ್ತಿದ್ದೀರಾ?",
+    "message": "Chrome Web Store ನಲ್ಲಿ ತ್ವರಿತ ರೇಟಿಂಗ್ ನೀಡುವುದು ನಿಜವಾಗಿಯೂ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+    "rate": "ರೇಟ್ ಮಾಡಿ",
+    "later": "ನಂತರ",
+    "dismiss": "ಮತ್ತೆ ಕೇಳಬೇಡ",
+    "close": "ಬಹುಶಃ ನಂತರ"
   }
 }

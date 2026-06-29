@@ -14,7 +14,8 @@
       "editDashboard": "ഡാഷ്‌ബോർഡ് തിരുത്തുക",
       "theme": "തീം & രൂപഭാവം",
       "share": "MonoStart പങ്കിടുക",
-      "openInNewTab": "ലിങ്കുകൾ പുതിയ ടാബിൽ തുറക്കുക"
+      "openInNewTab": "ലിങ്കുകൾ പുതിയ ടാബിൽ തുറക്കുക",
+      "rate": "MonoStart റേറ്റ് ചെയ്യുക"
     },
     "settings": "ക്രമീകരണങ്ങൾ",
     "clear": "മായ്ക്കുക",
@@ -442,5 +443,13 @@
       "shareOn": "{{platform}}-ൽ പങ്കിടുക",
       "shareVia": "{{platform}} വഴി പങ്കിടുക"
     }
+  },
+  "ratePrompt": {
+    "title": "MonoStart ഇഷ്ടപ്പെടുന്നുണ്ടോ?",
+    "message": "Chrome Web Store-ൽ ഒരു പെട്ടെന്നുള്ള റേറ്റിംഗ് ശരിക്കും സഹായിക്കും.",
+    "rate": "റേറ്റ് ചെയ്യുക",
+    "later": "പിന്നീട്",
+    "dismiss": "ഇനി ചോദിക്കേണ്ട",
+    "close": "ഒരുപക്ഷേ പിന്നീട്"
   }
 }

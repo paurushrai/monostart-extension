@@ -14,7 +14,8 @@
       "editDashboard": "Chỉnh sửa bảng điều khiển",
       "theme": "Giao diện & Hình thức",
       "share": "Chia sẻ MonoStart",
-      "openInNewTab": "Mở liên kết trong tab mới"
+      "openInNewTab": "Mở liên kết trong tab mới",
+      "rate": "Đánh giá MonoStart"
     },
     "settings": "Cài đặt",
     "clear": "Xóa",
@@ -442,5 +443,13 @@
       "shareOn": "Chia sẻ trên {{platform}}",
       "shareVia": "Chia sẻ qua {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Bạn có thích MonoStart không?",
+    "message": "Một đánh giá nhanh trên Chrome Web Store thực sự giúp ích.",
+    "rate": "Đánh giá",
+    "later": "Để sau",
+    "dismiss": "Đừng hỏi lại",
+    "close": "Có thể để sau"
   }
 }

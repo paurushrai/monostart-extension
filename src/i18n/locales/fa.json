@@ -14,7 +14,8 @@
       "editDashboard": "ویرایش داشبورد",
       "theme": "پوسته و ظاهر",
       "share": "اشتراک‌گذاری MonoStart",
-      "openInNewTab": "باز کردن لینک‌ها در برگه جدید"
+      "openInNewTab": "باز کردن لینک‌ها در برگه جدید",
+      "rate": "MonoStart را امتیاز دهید"
     },
     "settings": "تنظیمات",
     "clear": "پاک کردن",
@@ -442,5 +443,13 @@
       "shareOn": "اشتراک‌گذاری در {{platform}}",
       "shareVia": "اشتراک‌گذاری از طریق {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "از MonoStart لذت می‌برید؟",
+    "message": "یک امتیاز سریع در Chrome Web Store واقعاً کمک می‌کند.",
+    "rate": "امتیاز دهید",
+    "later": "بعداً",
+    "dismiss": "دیگر نپرس",
+    "close": "شاید بعداً"
   }
 }

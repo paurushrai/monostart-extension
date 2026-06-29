@@ -14,7 +14,8 @@
       "editDashboard": "Editar panel",
       "theme": "Tema y apariencia",
       "share": "Compartir MonoStart",
-      "openInNewTab": "Abrir enlaces en nueva pestaña"
+      "openInNewTab": "Abrir enlaces en nueva pestaña",
+      "rate": "Valorar MonoStart"
     },
     "settings": "Ajustes",
     "clear": "Limpiar",
@@ -442,5 +443,13 @@
       "shareOn": "Compartir en {{platform}}",
       "shareVia": "Compartir mediante {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "¿Disfrutas MonoStart?",
+    "message": "Una valoración rápida en la Chrome Web Store ayuda mucho.",
+    "rate": "Valorarlo",
+    "later": "Después",
+    "dismiss": "No volver a preguntar",
+    "close": "Quizás después"
   }
 }

@@ -14,7 +14,8 @@
       "editDashboard": "ダッシュボードを編集",
       "theme": "テーマと外観",
       "share": "MonoStartをシェア",
-      "openInNewTab": "リンクを新しいタブで開く"
+      "openInNewTab": "リンクを新しいタブで開く",
+      "rate": "MonoStartを評価する"
     },
     "settings": "設定",
     "clear": "クリア",
@@ -442,5 +443,13 @@
       "shareOn": "{{platform}}でシェア",
       "shareVia": "{{platform}}でシェア"
     }
+  },
+  "ratePrompt": {
+    "title": "MonoStart を楽しんでいますか？",
+    "message": "Chrome Web Store での評価がとても励みになります。",
+    "rate": "評価する",
+    "later": "後で",
+    "dismiss": "今後表示しない",
+    "close": "後で考える"
   }
 }

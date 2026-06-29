@@ -14,7 +14,8 @@
       "editDashboard": "Upravit nástěnku",
       "theme": "Téma a vzhled",
       "share": "Sdílet MonoStart",
-      "openInNewTab": "Otevírat odkazy na nové kartě"
+      "openInNewTab": "Otevírat odkazy na nové kartě",
+      "rate": "Ohodnoťte MonoStart"
     },
     "settings": "Nastavení",
     "clear": "Vymazat",
@@ -442,5 +443,13 @@
       "shareOn": "Sdílet na {{platform}}",
       "shareVia": "Sdílet přes {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Líbí se vám MonoStart?",
+    "message": "Rychlé hodnocení na Chrome Web Store opravdu pomáhá.",
+    "rate": "Ohodnotit",
+    "later": "Později",
+    "dismiss": "Znovu se neptej",
+    "close": "Možná později"
   }
 }

@@ -14,7 +14,8 @@
       "editDashboard": "I-edit ang Dashboard",
       "theme": "Tema at Hitsura",
       "share": "Ibahagi ang MonoStart",
-      "openInNewTab": "Buksan ang mga link sa bagong tab"
+      "openInNewTab": "Buksan ang mga link sa bagong tab",
+      "rate": "I-rate ang MonoStart"
     },
     "settings": "Mga Setting",
     "clear": "I-clear",
@@ -442,5 +443,13 @@
       "shareOn": "Ibahagi sa {{platform}}",
       "shareVia": "Ibahagi sa pamamagitan ng {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Nagugustuhan mo ba ang MonoStart?",
+    "message": "Ang mabilis na rating sa Chrome Web Store ay talagang nakakatulong.",
+    "rate": "I-rate ito",
+    "later": "Mamaya",
+    "dismiss": "Huwag nang itanong",
+    "close": "Marahil mamaya"
   }
 }

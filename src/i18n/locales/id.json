@@ -14,7 +14,8 @@
       "editDashboard": "Edit Dasbor",
       "theme": "Tema & Tampilan",
       "share": "Bagikan MonoStart",
-      "openInNewTab": "Buka tautan di tab baru"
+      "openInNewTab": "Buka tautan di tab baru",
+      "rate": "Nilai MonoStart"
     },
     "settings": "Pengaturan",
     "clear": "Bersihkan",
@@ -442,5 +443,13 @@
       "shareOn": "Bagikan di {{platform}}",
       "shareVia": "Bagikan melalui {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Menikmati MonoStart?",
+    "message": "Rating singkat di Chrome Web Store sangat membantu.",
+    "rate": "Beri rating",
+    "later": "Nanti",
+    "dismiss": "Jangan tanya lagi",
+    "close": "Mungkin nanti"
   }
 }

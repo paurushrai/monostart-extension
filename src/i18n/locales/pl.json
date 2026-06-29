@@ -14,7 +14,8 @@
       "editDashboard": "Edytuj pulpit",
       "theme": "Motyw i wygląd",
       "share": "Udostępnij MonoStart",
-      "openInNewTab": "Otwórz linki w nowej karcie"
+      "openInNewTab": "Otwórz linki w nowej karcie",
+      "rate": "Oceń MonoStart"
     },
     "settings": "Ustawienia",
     "clear": "Wyczyść",
@@ -442,5 +443,13 @@
       "shareOn": "Udostępnij na {{platform}}",
       "shareVia": "Udostępnij przez {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Lubisz MonoStart?",
+    "message": "Szybka ocena w Chrome Web Store bardzo pomaga.",
+    "rate": "Oceń",
+    "later": "Później",
+    "dismiss": "Nie pytaj więcej",
+    "close": "Może później"
   }
 }

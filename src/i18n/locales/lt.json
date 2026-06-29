@@ -14,7 +14,8 @@
       "editDashboard": "Redaguoti prietaisų skydelį",
       "theme": "Tema ir išvaizda",
       "share": "Dalintis MonoStart",
-      "openInNewTab": "Atidaryti nuorodas naujame skirtuke"
+      "openInNewTab": "Atidaryti nuorodas naujame skirtuke",
+      "rate": "Įvertinti MonoStart"
     },
     "settings": "Nustatymai",
     "clear": "Išvalyti",
@@ -442,5 +443,13 @@
       "shareOn": "Dalintis per {{platform}}",
       "shareVia": "Dalintis per {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Patinka MonoStart?",
+    "message": "Greitas įvertinimas Chrome Web Store tikrai padeda.",
+    "rate": "Įvertinti",
+    "later": "Vėliau",
+    "dismiss": "Nebeklausti",
+    "close": "Gal vėliau"
   }
 }

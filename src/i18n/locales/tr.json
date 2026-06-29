@@ -14,7 +14,8 @@
       "editDashboard": "Panoyu Düzenle",
       "theme": "Tema ve Görünüm",
       "share": "MonoStart'ı Paylaş",
-      "openInNewTab": "Bağlantıları yeni sekmede aç"
+      "openInNewTab": "Bağlantıları yeni sekmede aç",
+      "rate": "MonoStart'ı Puanla"
     },
     "settings": "Ayarlar",
     "clear": "Temizle",
@@ -442,5 +443,13 @@
       "shareOn": "{{platform}}'da paylaş",
       "shareVia": "{{platform}} ile paylaş"
     }
+  },
+  "ratePrompt": {
+    "title": "MonoStart'tan memnun musunuz?",
+    "message": "Chrome Web Store'da hızlı bir değerlendirme gerçekten yardımcı olur.",
+    "rate": "Değerlendir",
+    "later": "Sonra",
+    "dismiss": "Bir daha sorma",
+    "close": "Belki sonra"
   }
 }

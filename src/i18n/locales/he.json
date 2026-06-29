@@ -14,7 +14,8 @@
       "editDashboard": "ערוך לוח מחוונים",
       "theme": "ערכת נושא ומראה",
       "share": "שתף את MonoStart",
-      "openInNewTab": "פתח קישורים בכרטיסייה חדשה"
+      "openInNewTab": "פתח קישורים בכרטיסייה חדשה",
+      "rate": "דרג את MonoStart"
     },
     "settings": "הגדרות",
     "clear": "נקה",
@@ -442,5 +443,13 @@
       "shareOn": "שתף ב-{{platform}}",
       "shareVia": "שתף דרך {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "נהנה מ-MonoStart?",
+    "message": "דירוג מהיר ב-Chrome Web Store עוזר מאוד.",
+    "rate": "דרג עכשיו",
+    "later": "אחר כך",
+    "dismiss": "אל תשאל שוב",
+    "close": "אולי מאוחר יותר"
   }
 }

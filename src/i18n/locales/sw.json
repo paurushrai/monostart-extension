@@ -14,7 +14,8 @@
       "editDashboard": "Hariri Dashibodi",
       "theme": "Mandhari na Mwonekano",
       "share": "Shiriki MonoStart",
-      "openInNewTab": "Fungua viungo katika kichupo kipya"
+      "openInNewTab": "Fungua viungo katika kichupo kipya",
+      "rate": "Kadiria MonoStart"
     },
     "settings": "Mipangilio",
     "clear": "Futa",
@@ -442,5 +443,13 @@
       "shareOn": "Shiriki kwenye {{platform}}",
       "shareVia": "Shiriki kupitia {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Unafurahia MonoStart?",
+    "message": "Ukadiriaji wa haraka kwenye Chrome Web Store unasaidia sana.",
+    "rate": "Ikadirie",
+    "later": "Baadaye",
+    "dismiss": "Usiulize tena",
+    "close": "Labda baadaye"
   }
 }

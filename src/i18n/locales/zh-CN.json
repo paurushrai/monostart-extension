@@ -14,7 +14,8 @@
       "editDashboard": "编辑仪表板",
       "theme": "主题与外观",
       "share": "分享 MonoStart",
-      "openInNewTab": "在新标签页中打开链接"
+      "openInNewTab": "在新标签页中打开链接",
+      "rate": "评价 MonoStart"
     },
     "settings": "设置",
     "clear": "清除",
@@ -442,5 +443,13 @@
       "shareOn": "在 {{platform}} 上分享",
       "shareVia": "通过 {{platform}} 分享"
     }
+  },
+  "ratePrompt": {
+    "title": "喜欢 MonoStart 吗？",
+    "message": "在 Chrome Web Store 快速评分真的很有帮助。",
+    "rate": "去评分",
+    "later": "稍后",
+    "dismiss": "不再询问",
+    "close": "也许稍后"
   }
 }

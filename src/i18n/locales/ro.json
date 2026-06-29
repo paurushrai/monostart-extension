@@ -14,7 +14,8 @@
       "editDashboard": "Editează tabloul de bord",
       "theme": "Temă și aspect",
       "share": "Distribuie MonoStart",
-      "openInNewTab": "Deschide linkurile în filă nouă"
+      "openInNewTab": "Deschide linkurile în filă nouă",
+      "rate": "Evaluează MonoStart"
     },
     "settings": "Setări",
     "clear": "Curăță",
@@ -442,5 +443,13 @@
       "shareOn": "Distribuie pe {{platform}}",
       "shareVia": "Distribuie prin {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Îți place MonoStart?",
+    "message": "O evaluare rapidă pe Chrome Web Store ajută enorm.",
+    "rate": "Evaluează",
+    "later": "Mai târziu",
+    "dismiss": "Nu mai întreba",
+    "close": "Poate mai târziu"
   }
 }

@@ -14,7 +14,8 @@
       "editDashboard": "Irányítópult szerkesztése",
       "theme": "Téma és megjelenés",
       "share": "MonoStart megosztása",
-      "openInNewTab": "Linkek megnyitása új lapon"
+      "openInNewTab": "Linkek megnyitása új lapon",
+      "rate": "Értékelje a MonoStart-ot"
     },
     "settings": "Beállítások",
     "clear": "Törlés",
@@ -442,5 +443,13 @@
       "shareOn": "Megosztás itt: {{platform}}",
       "shareVia": "Megosztás: {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Tetszik a MonoStart?",
+    "message": "Egy gyors értékelés a Chrome Web Store-ban sokat segít.",
+    "rate": "Értékeld",
+    "later": "Később",
+    "dismiss": "Ne kérdezd újra",
+    "close": "Talán később"
   }
 }

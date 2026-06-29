@@ -14,7 +14,8 @@
       "editDashboard": "Редактирай таблото",
       "theme": "Тема и изглед",
       "share": "Сподели MonoStart",
-      "openInNewTab": "Отваряй връзки в нов раздел"
+      "openInNewTab": "Отваряй връзки в нов раздел",
+      "rate": "Оценете MonoStart"
     },
     "settings": "Настройки",
     "clear": "Изчисти",
@@ -442,5 +443,13 @@
       "shareOn": "Сподели в {{platform}}",
       "shareVia": "Сподели чрез {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Харесвате ли MonoStart?",
+    "message": "Бърза оценка в Chrome Web Store наистина помага.",
+    "rate": "Оцени го",
+    "later": "По-късно",
+    "dismiss": "Не питай отново",
+    "close": "Може би по-късно"
   }
 }

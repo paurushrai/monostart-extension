@@ -14,7 +14,8 @@
       "editDashboard": "Dashboard bewerken",
       "theme": "Thema & uiterlijk",
       "share": "MonoStart delen",
-      "openInNewTab": "Links in nieuw tabblad openen"
+      "openInNewTab": "Links in nieuw tabblad openen",
+      "rate": "Beoordeel MonoStart"
     },
     "settings": "Instellingen",
     "clear": "Wissen",
@@ -442,5 +443,13 @@
       "shareOn": "Delen op {{platform}}",
       "shareVia": "Delen via {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Bevalt MonoStart je?",
+    "message": "Een snelle beoordeling in de Chrome Web Store helpt enorm.",
+    "rate": "Beoordeel het",
+    "later": "Later",
+    "dismiss": "Niet meer vragen",
+    "close": "Misschien later"
   }
 }

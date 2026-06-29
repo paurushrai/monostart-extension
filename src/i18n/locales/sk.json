@@ -14,7 +14,8 @@
       "editDashboard": "Upraviť panel",
       "theme": "Téma a vzhľad",
       "share": "Zdieľať MonoStart",
-      "openInNewTab": "Otvoriť odkazy na novej karte"
+      "openInNewTab": "Otvoriť odkazy na novej karte",
+      "rate": "Ohodnotiť MonoStart"
     },
     "settings": "Nastavenia",
     "clear": "Vymazať",
@@ -442,5 +443,13 @@
       "shareOn": "Zdieľať na {{platform}}",
       "shareVia": "Zdieľať cez {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Páči sa vám MonoStart?",
+    "message": "Rýchle hodnotenie v Chrome Web Store naozaj pomáha.",
+    "rate": "Ohodnotiť",
+    "later": "Neskôr",
+    "dismiss": "Nepýtať sa znova",
+    "close": "Možno neskôr"
   }
 }

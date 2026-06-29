@@ -14,7 +14,8 @@
       "editDashboard": "Muuda juhtpaneeli",
       "theme": "Teema ja välimus",
       "share": "Jaga MonoStart",
-      "openInNewTab": "Ava lingid uues vahekaardis"
+      "openInNewTab": "Ava lingid uues vahekaardis",
+      "rate": "Hinnake MonoStart"
     },
     "settings": "Seaded",
     "clear": "Tühjenda",
@@ -442,5 +443,13 @@
       "shareOn": "Jaga platvormil {{platform}}",
       "shareVia": "Jaga teenuse {{platform}} kaudu"
     }
+  },
+  "ratePrompt": {
+    "title": "Kas naudid MonoStart?",
+    "message": "Kiire hinnang Chrome Web Store'is aitab tõesti.",
+    "rate": "Hinda seda",
+    "later": "Hiljem",
+    "dismiss": "Ära küsi enam",
+    "close": "Ehk hiljem"
   }
 }

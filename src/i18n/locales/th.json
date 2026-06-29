@@ -14,7 +14,8 @@
       "editDashboard": "แก้ไขแดชบอร์ด",
       "theme": "ธีมและรูปแบบ",
       "share": "แชร์ MonoStart",
-      "openInNewTab": "เปิดลิงก์ในแท็บใหม่"
+      "openInNewTab": "เปิดลิงก์ในแท็บใหม่",
+      "rate": "ให้คะแนน MonoStart"
     },
     "settings": "การตั้งค่า",
     "clear": "ล้าง",
@@ -442,5 +443,13 @@
       "shareOn": "แชร์บน {{platform}}",
       "shareVia": "แชร์ผ่าน {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "ชอบ MonoStart ไหม?",
+    "message": "การให้คะแนนสักครู่ใน Chrome Web Store ช่วยได้มาก",
+    "rate": "ให้คะแนน",
+    "later": "ภายหลัง",
+    "dismiss": "อย่าถามอีก",
+    "close": "ไว้ภายหลัง"
   }
 }

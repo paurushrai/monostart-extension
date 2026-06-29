@@ -14,7 +14,8 @@
       "editDashboard": "Rediģēt paneli",
       "theme": "Izskats un tēma",
       "share": "Kopīgot MonoStart",
-      "openInNewTab": "Atvērt saites jaunā cilnē"
+      "openInNewTab": "Atvērt saites jaunā cilnē",
+      "rate": "Novērtēt MonoStart"
     },
     "settings": "Iestatījumi",
     "clear": "Notīrīt",
@@ -442,5 +443,13 @@
       "shareOn": "Kopīgot {{platform}}",
       "shareVia": "Kopīgot, izmantojot {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Vai MonoStart patīk?",
+    "message": "Ātra novērtēšana Chrome Web Store patiešām palīdz.",
+    "rate": "Novērtēt",
+    "later": "Vēlāk",
+    "dismiss": "Vairs nejautāt",
+    "close": "Varbūt vēlāk"
   }
 }

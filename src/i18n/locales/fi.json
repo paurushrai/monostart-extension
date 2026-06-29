@@ -14,7 +14,8 @@
       "editDashboard": "Muokkaa kojelautaa",
       "theme": "Teema ja ulkoasu",
       "share": "Jaa MonoStart",
-      "openInNewTab": "Avaa linkit uudessa välilehdessä"
+      "openInNewTab": "Avaa linkit uudessa välilehdessä",
+      "rate": "Arvioi MonoStart"
     },
     "settings": "Asetukset",
     "clear": "Tyhjennä",
@@ -442,5 +443,13 @@
       "shareOn": "Jaa {{platform}}:ssä",
       "shareVia": "Jaa {{platform}}:n kautta"
     }
+  },
+  "ratePrompt": {
+    "title": "Nautitko MonoStart-laajennuksesta?",
+    "message": "Nopea arvostelu Chrome Web Storessa auttaa paljon.",
+    "rate": "Arvostele",
+    "later": "Myöhemmin",
+    "dismiss": "Älä kysy uudelleen",
+    "close": "Ehkä myöhemmin"
   }
 }

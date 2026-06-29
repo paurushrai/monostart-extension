@@ -14,7 +14,8 @@
       "editDashboard": "Uredi nadzorno ploščo",
       "theme": "Tema in videz",
       "share": "Deli MonoStart",
-      "openInNewTab": "Odpri povezave v novem zavihku"
+      "openInNewTab": "Odpri povezave v novem zavihku",
+      "rate": "Oceni MonoStart"
     },
     "settings": "Nastavitve",
     "clear": "Počisti",
@@ -442,5 +443,13 @@
       "shareOn": "Deli na {{platform}}",
       "shareVia": "Deli prek {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Uživate v MonoStart?",
+    "message": "Hitra ocena na Chrome Web Store resnično pomaga.",
+    "rate": "Ocenite",
+    "later": "Pozneje",
+    "dismiss": "Ne sprašuj več",
+    "close": "Morda pozneje"
   }
 }

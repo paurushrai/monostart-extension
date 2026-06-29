@@ -14,7 +14,8 @@
       "editDashboard": "Уреди контролну таблу",
       "theme": "Тема и изглед",
       "share": "Подели MonoStart",
-      "openInNewTab": "Отвори везе у новој картици"
+      "openInNewTab": "Отвори везе у новој картици",
+      "rate": "Оцени MonoStart"
     },
     "settings": "Подешавања",
     "clear": "Обриши",
@@ -442,5 +443,13 @@
       "shareOn": "Подели на {{platform}}",
       "shareVia": "Подели преко {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Уживате у MonoStart?",
+    "message": "Брза оцена на Chrome Web Store заиста помаже.",
+    "rate": "Оцените",
+    "later": "Касније",
+    "dismiss": "Не питај поново",
+    "close": "Можда касније"
   }
 }

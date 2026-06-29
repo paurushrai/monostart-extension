@@ -14,7 +14,8 @@
       "editDashboard": "डैशबोर्ड संपादित करें",
       "theme": "थीम और रूप",
       "share": "MonoStart साझा करें",
-      "openInNewTab": "लिंक नए टैब में खोलें"
+      "openInNewTab": "लिंक नए टैब में खोलें",
+      "rate": "MonoStart को रेट करें"
     },
     "settings": "सेटिंग्स",
     "clear": "साफ़ करें",
@@ -442,5 +443,13 @@
       "shareOn": "{{platform}} पर साझा करें",
       "shareVia": "{{platform}} के माध्यम से साझा करें"
     }
+  },
+  "ratePrompt": {
+    "title": "क्या आप MonoStart का आनंद ले रहे हैं?",
+    "message": "Chrome Web Store पर एक त्वरित रेटिंग वाकई मदद करती है।",
+    "rate": "रेट करें",
+    "later": "बाद में",
+    "dismiss": "दोबारा मत पूछो",
+    "close": "शायद बाद में"
   }
 }

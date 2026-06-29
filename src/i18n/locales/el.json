@@ -14,7 +14,8 @@
       "editDashboard": "Επεξεργασία πίνακα",
       "theme": "Θέμα & Εμφάνιση",
       "share": "Κοινοποίηση MonoStart",
-      "openInNewTab": "Άνοιγμα συνδέσμων σε νέα καρτέλα"
+      "openInNewTab": "Άνοιγμα συνδέσμων σε νέα καρτέλα",
+      "rate": "Αξιολογήστε το MonoStart"
     },
     "settings": "Ρυθμίσεις",
     "clear": "Εκκαθάριση",
@@ -442,5 +443,13 @@
       "shareOn": "Κοινοποίηση στο {{platform}}",
       "shareVia": "Κοινοποίηση μέσω {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Σας αρέσει το MonoStart;",
+    "message": "Μια γρήγορη αξιολόγηση στο Chrome Web Store βοηθά πραγματικά.",
+    "rate": "Αξιολόγησέ το",
+    "later": "Αργότερα",
+    "dismiss": "Να μη ρωτάς ξανά",
+    "close": "Ίσως αργότερα"
   }
 }

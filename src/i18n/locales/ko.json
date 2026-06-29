@@ -14,7 +14,8 @@
       "editDashboard": "대시보드 편집",
       "theme": "테마 및 외관",
       "share": "MonoStart 공유",
-      "openInNewTab": "새 탭에서 링크 열기"
+      "openInNewTab": "새 탭에서 링크 열기",
+      "rate": "MonoStart 평가하기"
     },
     "settings": "설정",
     "clear": "초기화",
@@ -442,5 +443,13 @@
       "shareOn": "{{platform}}에서 공유",
       "shareVia": "{{platform}}으로 공유"
     }
+  },
+  "ratePrompt": {
+    "title": "MonoStart가 마음에 드시나요?",
+    "message": "Chrome Web Store에 빠른 평점을 남겨주시면 정말 큰 도움이 됩니다.",
+    "rate": "평가하기",
+    "later": "나중에",
+    "dismiss": "다시 묻지 않기",
+    "close": "나중에 할게요"
   }
 }

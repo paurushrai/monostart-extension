@@ -14,7 +14,8 @@
       "editDashboard": "Редагувати панель",
       "theme": "Тема та зовнішній вигляд",
       "share": "Поділитися MonoStart",
-      "openInNewTab": "Відкривати посилання в новій вкладці"
+      "openInNewTab": "Відкривати посилання в новій вкладці",
+      "rate": "Оцінити MonoStart"
     },
     "settings": "Налаштування",
     "clear": "Очистити",
@@ -442,5 +443,13 @@
       "shareOn": "Поділитися на {{platform}}",
       "shareVia": "Поділитися через {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Подобається MonoStart?",
+    "message": "Швидка оцінка в Chrome Web Store справді допомагає.",
+    "rate": "Оцінити",
+    "later": "Пізніше",
+    "dismiss": "Більше не питати",
+    "close": "Можливо, пізніше"
   }
 }

@@ -14,7 +14,8 @@
       "editDashboard": "Edit Papan Pemuka",
       "theme": "Tema & Penampilan",
       "share": "Kongsi MonoStart",
-      "openInNewTab": "Buka pautan dalam tab baharu"
+      "openInNewTab": "Buka pautan dalam tab baharu",
+      "rate": "Nilai MonoStart"
     },
     "settings": "Tetapan",
     "clear": "Kosongkan",
@@ -442,5 +443,13 @@
       "shareOn": "Kongsi di {{platform}}",
       "shareVia": "Kongsi melalui {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Suka MonoStart?",
+    "message": "Penilaian ringkas di Chrome Web Store sangat membantu.",
+    "rate": "Nilai sekarang",
+    "later": "Kemudian",
+    "dismiss": "Jangan tanya lagi",
+    "close": "Mungkin kemudian"
   }
 }

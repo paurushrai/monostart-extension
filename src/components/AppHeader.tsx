@@ -7,7 +7,7 @@ import {
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
-import { Edit2, Check, Settings, Link as LinkIcon, Palette, AppWindow, LayoutGrid, Trash2, Share2, Languages } from 'lucide-react';
+import { Edit2, Check, Settings, Link as LinkIcon, Palette, AppWindow, LayoutGrid, Trash2, Share2, Languages, Star } from 'lucide-react';
 import HeaderBranding from './HeaderBranding';
 import type { WidgetItem, LinkItem, GroupItem, Settings as AppSettings, GridSlot } from '../types';
 import type { UseHeaderDrag } from '../hooks/useHeaderDrag';
@@ -29,6 +29,7 @@ interface Props {
   onOpenAddWidget: () => void;
   onOpenTheme: () => void;
   onOpenShare: () => void;
+  onRate: () => void;
   onOpenLanguage: () => void;
   onClearDashboard: () => void;
   isDropTarget?: boolean;
@@ -50,6 +51,7 @@ export default function AppHeader({
   onOpenAddWidget,
   onOpenTheme,
   onOpenShare,
+  onRate,
   onOpenLanguage,
   onClearDashboard,
   isDropTarget = false,
@@ -163,22 +165,6 @@ export default function AppHeader({
 
             <DropdownMenuSeparator />
             <DropdownMenuItem
-              onClick={onOpenShare}
-              className="flex items-center gap-2 cursor-pointer"
-            >
-              <Share2 size={14} className="text-muted-foreground" />
-              <span>{t('header.menu.share')}</span>
-            </DropdownMenuItem>
-            <DropdownMenuItem
-              onClick={onOpenLanguage}
-              className="flex items-center gap-2 cursor-pointer"
-            >
-              <Languages size={14} className="text-muted-foreground" />
-              <span>{t('header.menu.language')}</span>
-            </DropdownMenuItem>
-
-            <DropdownMenuSeparator />
-            <DropdownMenuItem
               onClick={onOpenTheme}
               className="flex items-center justify-between cursor-pointer"
             >
@@ -191,7 +177,13 @@ export default function AppHeader({
                 style={{ backgroundColor: 'hsl(var(--primary))' }}
               />
             </DropdownMenuItem>
-            <DropdownMenuSeparator />
+            <DropdownMenuItem
+              onClick={onOpenLanguage}
+              className="flex items-center gap-2 cursor-pointer"
+            >
+              <Languages size={14} className="text-muted-foreground" />
+              <span>{t('header.menu.language')}</span>
+            </DropdownMenuItem>
             <DropdownMenuItem
               onSelect={(e) => {
                 e.preventDefault();
@@ -212,6 +204,22 @@ export default function AppHeader({
               >
                 {settings.openInNewTab && <Check className="w-3 h-3" strokeWidth={3} />}
               </span>
+            </DropdownMenuItem>
+
+            <DropdownMenuSeparator />
+            <DropdownMenuItem
+              onClick={onOpenShare}
+              className="flex items-center gap-2 cursor-pointer"
+            >
+              <Share2 size={14} className="text-muted-foreground" />
+              <span>{t('header.menu.share')}</span>
+            </DropdownMenuItem>
+            <DropdownMenuItem
+              onClick={onRate}
+              className="flex items-center gap-2 cursor-pointer"
+            >
+              <Star size={14} className="text-muted-foreground" />
+              <span>{t('header.menu.rate')}</span>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>

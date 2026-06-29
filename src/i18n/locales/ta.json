@@ -14,7 +14,8 @@
       "editDashboard": "டாஷ்போர்டு திருத்து",
       "theme": "தீம் & தோற்றம்",
       "share": "MonoStart பகிர்",
-      "openInNewTab": "இணைப்புகளை புதிய தாவலில் திற"
+      "openInNewTab": "இணைப்புகளை புதிய தாவலில் திற",
+      "rate": "MonoStart-ஐ மதிப்பிடுங்கள்"
     },
     "settings": "அமைப்புகள்",
     "clear": "அழி",
@@ -442,5 +443,13 @@
       "shareOn": "{{platform}} இல் பகிர்",
       "shareVia": "{{platform}} வழியாக பகிர்"
     }
+  },
+  "ratePrompt": {
+    "title": "MonoStart பிடிக்கிறதா?",
+    "message": "Chrome Web Store இல் ஒரு விரைவான மதிப்பீடு மிகவும் உதவுகிறது.",
+    "rate": "மதிப்பிடுங்கள்",
+    "later": "பின்னர்",
+    "dismiss": "மீண்டும் கேட்காதே",
+    "close": "ஒருவேளை பின்னர்"
   }
 }

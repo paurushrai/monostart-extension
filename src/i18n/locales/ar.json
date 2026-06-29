@@ -14,7 +14,8 @@
       "editDashboard": "تعديل لوحة التحكم",
       "theme": "المظهر والشكل",
       "share": "مشاركة MonoStart",
-      "openInNewTab": "فتح الروابط في علامة تبويب جديدة"
+      "openInNewTab": "فتح الروابط في علامة تبويب جديدة",
+      "rate": "قيّم MonoStart"
     },
     "settings": "الإعدادات",
     "clear": "مسح",
@@ -442,5 +443,13 @@
       "shareOn": "مشاركة على {{platform}}",
       "shareVia": "مشاركة عبر {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "هل تستمتع بـ MonoStart؟",
+    "message": "تقييم سريع على Chrome Web Store يساعد كثيراً.",
+    "rate": "قيّمه",
+    "later": "لاحقاً",
+    "dismiss": "لا تسألني مجدداً",
+    "close": "ربما لاحقاً"
   }
 }

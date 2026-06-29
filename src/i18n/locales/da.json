@@ -14,7 +14,8 @@
       "editDashboard": "Rediger dashboard",
       "theme": "Tema og udseende",
       "share": "Del MonoStart",
-      "openInNewTab": "Åbn links i ny fane"
+      "openInNewTab": "Åbn links i ny fane",
+      "rate": "Bedøm MonoStart"
     },
     "settings": "Indstillinger",
     "clear": "Ryd",
@@ -442,5 +443,13 @@
       "shareOn": "Del på {{platform}}",
       "shareVia": "Del via {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Nyder du MonoStart?",
+    "message": "En hurtig bedømmelse på Chrome Web Store hjælper virkelig.",
+    "rate": "Bedøm den",
+    "later": "Senere",
+    "dismiss": "Spørg ikke igen",
+    "close": "Måske senere"
   }
 }

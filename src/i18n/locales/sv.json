@@ -14,7 +14,8 @@
       "editDashboard": "Redigera instrumentpanel",
       "theme": "Tema och utseende",
       "share": "Dela MonoStart",
-      "openInNewTab": "Öppna länkar i ny flik"
+      "openInNewTab": "Öppna länkar i ny flik",
+      "rate": "Betygsätt MonoStart"
     },
     "settings": "Inställningar",
     "clear": "Rensa",
@@ -442,5 +443,13 @@
       "shareOn": "Dela på {{platform}}",
       "shareVia": "Dela via {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "Gillar du MonoStart?",
+    "message": "Ett snabbt betyg på Chrome Web Store hjälper verkligen.",
+    "rate": "Betygsätt",
+    "later": "Senare",
+    "dismiss": "Fråga inte igen",
+    "close": "Kanske senare"
   }
 }

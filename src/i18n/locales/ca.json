@@ -14,7 +14,8 @@
       "editDashboard": "Edita el tauler",
       "theme": "Tema i aparença",
       "share": "Comparteix MonoStart",
-      "openInNewTab": "Obre els enllaços en una pestanya nova"
+      "openInNewTab": "Obre els enllaços en una pestanya nova",
+      "rate": "Valora MonoStart"
     },
     "settings": "Configuració",
     "clear": "Esborra",
@@ -442,5 +443,13 @@
       "shareOn": "Comparteix a {{platform}}",
       "shareVia": "Comparteix via {{platform}}"
     }
+  },
+  "ratePrompt": {
+    "title": "T'agrada MonoStart?",
+    "message": "Una valoració ràpida a la Chrome Web Store ajuda molt.",
+    "rate": "Valora'l",
+    "later": "Més tard",
+    "dismiss": "No tornis a preguntar",
+    "close": "Potser més tard"
   }
 }

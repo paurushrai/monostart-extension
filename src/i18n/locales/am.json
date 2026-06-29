@@ -14,7 +14,8 @@
       "editDashboard": "ዳሽቦርድ አርትዕ",
       "theme": "ገጽታ እና ምስል",
       "share": "MonoStart አጋራ",
-      "openInNewTab": "ሊንኮችን በአዲስ ትር ክፈት"
+      "openInNewTab": "ሊንኮችን በአዲስ ትር ክፈት",
+      "rate": "MonoStartን ይገምግሙ"
     },
     "settings": "ቅንብሮች",
     "clear": "አጽዳ",
@@ -442,5 +443,13 @@
       "shareOn": "በ {{platform}} ላይ አጋራ",
       "shareVia": "በ {{platform}} አማካኝነት አጋራ"
     }
+  },
+  "ratePrompt": {
+    "title": "MonoStart እየደሰቱዎት ነው?",
+    "message": "በ Chrome Web Store ላይ ፈጣን ደረጃ መስጠት በጣም ይረዳል።",
+    "rate": "ደረጃ ይስጡ",
+    "later": "በኋላ",
+    "dismiss": "እንደገና አይጠይቁ",
+    "close": "ምናልባት በኋላ"
   }
 }
