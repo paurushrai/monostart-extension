@@ -19,12 +19,12 @@ import { buildFeedbackUrl } from './lib/feedbackUrl';
 //   - Open the action popup so any newly-pending reminders are immediately
 //     visible (silently fails if Chrome isn't focused — badge still covers it).
 
-// Post-uninstall feedback form. Set FEEDBACK_FORM_URL to the Google Form's
-// .../viewform base URL and the two prefill field IDs before release. While
-// FEEDBACK_FORM_URL is empty, no uninstall URL is registered.
-const FEEDBACK_FORM_URL = '';
-const FEEDBACK_VERSION_FIELD = 'entry.VERSION_ID';
-const FEEDBACK_LOCALE_FIELD = 'entry.LOCALE_ID';
+// Post-uninstall feedback form (Google Form). The two field IDs are the
+// prefilled "Version" and "Language" questions. If FEEDBACK_FORM_URL is ever
+// emptied, no uninstall URL is registered.
+const FEEDBACK_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScNK715_2lTRdT6WjF3SbbXaDKPSxxWfUqWwN0eGFgzt62VlQ/viewform';
+const FEEDBACK_VERSION_FIELD = 'entry.398698455';
+const FEEDBACK_LOCALE_FIELD = 'entry.1217773708';
 
 const registerUninstallUrl = () => {
   if (!FEEDBACK_FORM_URL) return;
