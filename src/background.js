@@ -1,3 +1,5 @@
+import { buildFeedbackUrl } from './lib/feedbackUrl';
+
 // MV3 service worker.
 //
 // Reminder firing — precision strategy:
@@ -16,6 +18,33 @@
 //   - Opportunistically fire chrome.notifications if permission is granted.
 //   - Open the action popup so any newly-pending reminders are immediately
 //     visible (silently fails if Chrome isn't focused — badge still covers it).
+
+// Post-uninstall feedback form (Google Form). The two field IDs are the
+// prefilled "Version" and "Language" questions. If FEEDBACK_FORM_URL is ever
+// emptied, no uninstall URL is registered.
+const FEEDBACK_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScNK715_2lTRdT6WjF3SbbXaDKPSxxWfUqWwN0eGFgzt62VlQ/viewform';
+const FEEDBACK_VERSION_FIELD = 'entry.398698455';
+const FEEDBACK_LOCALE_FIELD = 'entry.1217773708';
+
+const registerUninstallUrl = () => {
+  if (!FEEDBACK_FORM_URL) return;
+  try {
+    const version = chrome.runtime.getManifest().version;
+    const locale = chrome.i18n ? chrome.i18n.getUILanguage() : '';
+    const url = buildFeedbackUrl(
+      FEEDBACK_FORM_URL,
+      FEEDBACK_VERSION_FIELD,
+      FEEDBACK_LOCALE_FIELD,
+      version,
+      locale,
+    );
+    chrome.runtime.setUninstallURL(url);
+  } catch (err) {
+    console.error('[uninstall-feedback] failed to set uninstall URL', err);
+  }
+};
+
+registerUninstallUrl();
 
 const NEXT_TICK_ALARM = 'reminders-next-tick';
 const SAFETY_ALARM = 'reminders-safety';
@@ -216,6 +245,7 @@ const seedDefaultLayout = (reason) => {
 
 chrome.runtime.onInstalled.addListener((details) => {
   seedDefaultLayout(details.reason);
+  registerUninstallUrl();
   ensureSafetyAlarm();
   refreshBadge();
   runReminderTick().then(rescheduleNextTick).catch((err) => console.error('[reminders] boot failed', err));
