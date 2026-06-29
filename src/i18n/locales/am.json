@@ -444,11 +444,11 @@
     }
   },
   "ratePrompt": {
-    "title": "Enjoying MonoStart?",
-    "message": "A quick rating on the Chrome Web Store really helps.",
-    "rate": "Rate it",
-    "later": "Later",
-    "dismiss": "Don't ask again",
-    "close": "Maybe later"
+    "title": "MonoStart እየደሰቱዎት ነው?",
+    "message": "በ Chrome Web Store ላይ ፈጣን ደረጃ መስጠት በጣም ይረዳል።",
+    "rate": "ደረጃ ይስጡ",
+    "later": "በኋላ",
+    "dismiss": "እንደገና አይጠይቁ",
+    "close": "ምናልባት በኋላ"
   }
 }

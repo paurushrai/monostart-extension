@@ -444,11 +444,11 @@
     }
   },
   "ratePrompt": {
-    "title": "Enjoying MonoStart?",
-    "message": "A quick rating on the Chrome Web Store really helps.",
-    "rate": "Rate it",
-    "later": "Later",
-    "dismiss": "Don't ask again",
-    "close": "Maybe later"
+    "title": "MonoStart가 마음에 드시나요?",
+    "message": "Chrome Web Store에 빠른 평점을 남겨주시면 정말 큰 도움이 됩니다.",
+    "rate": "평가하기",
+    "later": "나중에",
+    "dismiss": "다시 묻지 않기",
+    "close": "나중에 할게요"
   }
 }

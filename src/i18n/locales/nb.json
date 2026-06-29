@@ -444,11 +444,11 @@
     }
   },
   "ratePrompt": {
-    "title": "Enjoying MonoStart?",
-    "message": "A quick rating on the Chrome Web Store really helps.",
-    "rate": "Rate it",
-    "later": "Later",
-    "dismiss": "Don't ask again",
-    "close": "Maybe later"
+    "title": "Liker du MonoStart?",
+    "message": "En rask vurdering på Chrome Web Store hjelper virkelig.",
+    "rate": "Gi en vurdering",
+    "later": "Senere",
+    "dismiss": "Ikke spør igjen",
+    "close": "Kanskje senere"
   }
 }

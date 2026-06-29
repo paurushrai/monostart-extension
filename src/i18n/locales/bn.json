@@ -444,11 +444,11 @@
     }
   },
   "ratePrompt": {
-    "title": "Enjoying MonoStart?",
-    "message": "A quick rating on the Chrome Web Store really helps.",
-    "rate": "Rate it",
-    "later": "Later",
-    "dismiss": "Don't ask again",
-    "close": "Maybe later"
+    "title": "MonoStart উপভোগ করছেন?",
+    "message": "Chrome Web Store-এ একটি দ্রুত রেটিং সত্যিই সাহায্য করে।",
+    "rate": "রেট করুন",
+    "later": "পরে",
+    "dismiss": "আর জিজ্ঞেস করবেন না",
+    "close": "হয়তো পরে"
   }
 }

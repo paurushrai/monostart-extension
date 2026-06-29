@@ -444,11 +444,11 @@
     }
   },
   "ratePrompt": {
-    "title": "Enjoying MonoStart?",
-    "message": "A quick rating on the Chrome Web Store really helps.",
-    "rate": "Rate it",
-    "later": "Later",
-    "dismiss": "Don't ask again",
-    "close": "Maybe later"
+    "title": "ชอบ MonoStart ไหม?",
+    "message": "การให้คะแนนสักครู่ใน Chrome Web Store ช่วยได้มาก",
+    "rate": "ให้คะแนน",
+    "later": "ภายหลัง",
+    "dismiss": "อย่าถามอีก",
+    "close": "ไว้ภายหลัง"
   }
 }

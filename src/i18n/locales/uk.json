@@ -444,11 +444,11 @@
     }
   },
   "ratePrompt": {
-    "title": "Enjoying MonoStart?",
-    "message": "A quick rating on the Chrome Web Store really helps.",
-    "rate": "Rate it",
-    "later": "Later",
-    "dismiss": "Don't ask again",
-    "close": "Maybe later"
+    "title": "Подобається MonoStart?",
+    "message": "Швидка оцінка в Chrome Web Store справді допомагає.",
+    "rate": "Оцінити",
+    "later": "Пізніше",
+    "dismiss": "Більше не питати",
+    "close": "Можливо, пізніше"
   }
 }
