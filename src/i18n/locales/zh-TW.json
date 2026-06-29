@@ -442,5 +442,13 @@
       "shareOn": "在 {{platform}} 上分享",
       "shareVia": "透過 {{platform}} 分享"
     }
+  },
+  "ratePrompt": {
+    "title": "Enjoying MonoStart?",
+    "message": "A quick rating on the Chrome Web Store really helps.",
+    "rate": "Rate it",
+    "later": "Later",
+    "dismiss": "Don't ask again",
+    "close": "Maybe later"
   }
 }

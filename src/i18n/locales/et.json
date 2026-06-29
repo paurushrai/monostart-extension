@@ -442,5 +442,13 @@
       "shareOn": "Jaga platvormil {{platform}}",
       "shareVia": "Jaga teenuse {{platform}} kaudu"
     }
+  },
+  "ratePrompt": {
+    "title": "Enjoying MonoStart?",
+    "message": "A quick rating on the Chrome Web Store really helps.",
+    "rate": "Rate it",
+    "later": "Later",
+    "dismiss": "Don't ask again",
+    "close": "Maybe later"
   }
 }

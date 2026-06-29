@@ -14,7 +14,9 @@ const ClearDashboardModal = lazy(() => import('./components/ClearDashboardModal'
 const ShareModal = lazy(() => import('./components/ShareModal'));
 const LanguageModal = lazy(() => import('./components/LanguageModal'));
 import Toast from './components/Toast';
+import RatePromptBanner from './components/RatePromptBanner';
 import { useDashboard, type SwapFailureCode } from './hooks/useDashboard';
+import { useRatePrompt } from './hooks/useRatePrompt';
 import { DashboardActionsProvider, type DashboardActions } from './contexts/dashboardActions';
 import { useTheme } from './hooks/useTheme';
 import { useHeaderDrag } from './hooks/useHeaderDrag';
@@ -34,6 +36,7 @@ const ORIGINAL_LINKS_KEY = 'dashboardEditOriginalLinks';
 function App() {
   const { t } = useTranslation();
   const { toast, showToast, dismissToast } = useToast();
+  const ratePrompt = useRatePrompt();
 
   const handleSwapFailed = useCallback((code: SwapFailureCode) => {
     showToast(t(`toasts.swap.${code}`));
@@ -281,6 +284,14 @@ function App() {
       <FooterGuide />
 
       <Toast message={toast} onDismiss={dismissToast} />
+
+      {ratePrompt.visible && (
+        <RatePromptBanner
+          onRate={ratePrompt.rate}
+          onLater={ratePrompt.later}
+          onDismiss={ratePrompt.dismiss}
+        />
+      )}
     </div>
   );
 }

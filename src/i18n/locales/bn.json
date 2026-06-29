@@ -442,5 +442,13 @@
       "shareOn": "{{platform}} এ শেয়ার করুন",
       "shareVia": "{{platform}} এর মাধ্যমে শেয়ার করুন"
     }
+  },
+  "ratePrompt": {
+    "title": "Enjoying MonoStart?",
+    "message": "A quick rating on the Chrome Web Store really helps.",
+    "rate": "Rate it",
+    "later": "Later",
+    "dismiss": "Don't ask again",
+    "close": "Maybe later"
   }
 }
