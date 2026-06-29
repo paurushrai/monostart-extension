@@ -226,7 +226,8 @@
       "mainDashboard": "Ana Pano",
       "header": "Üst Bilgi",
       "deleteLink": "Bağlantıyı Sil",
-      "actionsAriaLabel": "Bağlantı eylemleri"
+      "actionsAriaLabel": "Bağlantı eylemleri",
+      "showTitleOnHover": "Üzerine gelince başlığı göster"
     },
     "catalog": {
       "googleSearch": {

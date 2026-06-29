@@ -226,7 +226,8 @@
       "mainDashboard": "主仪表板",
       "header": "顶栏",
       "deleteLink": "删除链接",
-      "actionsAriaLabel": "链接操作"
+      "actionsAriaLabel": "链接操作",
+      "showTitleOnHover": "悬停时显示标题"
     },
     "catalog": {
       "googleSearch": {

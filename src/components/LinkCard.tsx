@@ -13,6 +13,7 @@ import {
   RectangleHorizontal,
   LayoutGrid,
   Pencil,
+  Type,
 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import {
@@ -147,7 +148,7 @@ const LinkCard = ({
   };
 
   return (
-    <div className={`group card-base relative w-full h-full ${listMode ? '!rounded-sm' : ''} ${!isEditing ? 'overflow-hidden' : ''}`}>
+    <div className={`group card-base relative w-full h-full ${listMode ? '!rounded-sm' : ''} ${!isEditing ? 'overflow-hidden' : ''} ${!isEditing && parentId ? 'bg-transparent border-transparent shadow-none transition-colors hover:bg-primary/10' : 'bg-card/65 backdrop-blur-md'} ${!isEditing && !parentId ? 'hover:ring-2 hover:ring-inset hover:ring-primary/60' : ''}`}>
 
       {isEditing && (
         <div 
@@ -223,7 +224,31 @@ const LinkCard = ({
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
               </DropdownMenuSub>
-              
+
+              {isIconOnly && (
+                <DropdownMenuItem
+                  onSelect={(e) => {
+                    e.preventDefault();
+                    onUpdateItem(item.id, { showTitleOnHover: !item.showTitleOnHover });
+                  }}
+                  className="flex items-center justify-between"
+                >
+                  <div className="flex items-center gap-2">
+                    <Type size={13} className="text-muted-foreground" />
+                    <span>{t('widgets.linkCard.showTitleOnHover')}</span>
+                  </div>
+                  <span
+                    className={`flex items-center justify-center w-4 h-4 rounded border transition-colors ${
+                      item.showTitleOnHover
+                        ? 'bg-primary border-primary text-primary-foreground'
+                        : 'border-muted-foreground/50 bg-transparent'
+                    }`}
+                  >
+                    {item.showTitleOnHover && <Check className="w-3 h-3" strokeWidth={3} />}
+                  </span>
+                </DropdownMenuItem>
+              )}
+
               {onMoveItem && (
                 <DropdownMenuSub>
                   <DropdownMenuSubTrigger className="flex items-center gap-2">
@@ -359,8 +384,8 @@ const LinkCard = ({
           </div>
         )}
 
-        {isIconOnly && !isEditing && !isRenaming && (
-          <div className="absolute inset-0 bg-background/70 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-200 flex items-center justify-center p-2 z-10 pointer-events-none">
+        {isIconOnly && !isEditing && !isRenaming && item.showTitleOnHover && (
+          <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center justify-center p-2 z-10 pointer-events-none">
             <span className="text-2xs font-semibold text-foreground text-center truncate w-full drop-shadow-sm">
               {siteName}
             </span>

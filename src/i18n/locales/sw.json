@@ -226,7 +226,8 @@
       "mainDashboard": "Dashibodi Kuu",
       "header": "Kichwa",
       "deleteLink": "Futa Kiungo",
-      "actionsAriaLabel": "Vitendo vya kiungo"
+      "actionsAriaLabel": "Vitendo vya kiungo",
+      "showTitleOnHover": "Onyesha kichwa cha habari ukisogeza"
     },
     "catalog": {
       "googleSearch": {

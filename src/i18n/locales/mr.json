@@ -226,7 +226,8 @@
       "mainDashboard": "मुख्य डॅशबोर्ड",
       "header": "हेडर",
       "deleteLink": "दुवा हटवा",
-      "actionsAriaLabel": "दुवा क्रिया"
+      "actionsAriaLabel": "दुवा क्रिया",
+      "showTitleOnHover": "होव्हर केल्यावर शीर्षक दाखवा"
     },
     "catalog": {
       "googleSearch": {

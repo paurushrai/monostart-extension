@@ -226,7 +226,8 @@
       "mainDashboard": "Dashboard Principale",
       "header": "Intestazione",
       "deleteLink": "Elimina Link",
-      "actionsAriaLabel": "Azioni link"
+      "actionsAriaLabel": "Azioni link",
+      "showTitleOnHover": "Mostra il titolo al passaggio del mouse"
     },
     "catalog": {
       "googleSearch": {

@@ -226,7 +226,8 @@
       "mainDashboard": "મુખ્ય ડૅશબોર્ડ",
       "header": "હૅડર",
       "deleteLink": "લિંક કાઢી નાખો",
-      "actionsAriaLabel": "લિંક ક્રિયાઓ"
+      "actionsAriaLabel": "લિંક ક્રિયાઓ",
+      "showTitleOnHover": "હૉવર પર શીર્ષક બતાવો"
     },
     "catalog": {
       "googleSearch": {

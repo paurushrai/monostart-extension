@@ -226,7 +226,8 @@
       "mainDashboard": "Główny pulpit",
       "header": "Nagłówek",
       "deleteLink": "Usuń link",
-      "actionsAriaLabel": "Akcje linku"
+      "actionsAriaLabel": "Akcje linku",
+      "showTitleOnHover": "Pokaż tytuł po najechaniu"
     },
     "catalog": {
       "googleSearch": {

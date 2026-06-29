@@ -226,7 +226,8 @@
       "mainDashboard": "Pangunahing Dashboard",
       "header": "Header",
       "deleteLink": "Burahin ang Link",
-      "actionsAriaLabel": "Mga aksyon ng link"
+      "actionsAriaLabel": "Mga aksyon ng link",
+      "showTitleOnHover": "Ipakita ang pamagat sa pag-hover"
     },
     "catalog": {
       "googleSearch": {

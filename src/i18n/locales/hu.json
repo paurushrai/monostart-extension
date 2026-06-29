@@ -226,7 +226,8 @@
       "mainDashboard": "Fő irányítópult",
       "header": "Fejléc",
       "deleteLink": "Link törlése",
-      "actionsAriaLabel": "Link műveletek"
+      "actionsAriaLabel": "Link műveletek",
+      "showTitleOnHover": "Cím megjelenítése lebegtetéskor"
     },
     "catalog": {
       "googleSearch": {

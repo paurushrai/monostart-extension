@@ -226,7 +226,8 @@
       "mainDashboard": "Peamine juhtpaneel",
       "header": "Päis",
       "deleteLink": "Kustuta link",
-      "actionsAriaLabel": "Lingi toimingud"
+      "actionsAriaLabel": "Lingi toimingud",
+      "showTitleOnHover": "Kuva pealkiri hõljutamisel"
     },
     "catalog": {
       "googleSearch": {

@@ -226,7 +226,8 @@
       "mainDashboard": "Главно табло",
       "header": "Заглавна лента",
       "deleteLink": "Изтрий връзка",
-      "actionsAriaLabel": "Действия с връзката"
+      "actionsAriaLabel": "Действия с връзката",
+      "showTitleOnHover": "Показване на заглавие при задържане"
     },
     "catalog": {
       "googleSearch": {

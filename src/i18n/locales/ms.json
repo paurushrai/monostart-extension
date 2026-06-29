@@ -226,7 +226,8 @@
       "mainDashboard": "Papan Pemuka Utama",
       "header": "Pengepala",
       "deleteLink": "Padam Pautan",
-      "actionsAriaLabel": "Tindakan pautan"
+      "actionsAriaLabel": "Tindakan pautan",
+      "showTitleOnHover": "Tunjuk tajuk semasa hover"
     },
     "catalog": {
       "googleSearch": {

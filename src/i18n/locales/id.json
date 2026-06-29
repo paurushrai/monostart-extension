@@ -226,7 +226,8 @@
       "mainDashboard": "Dasbor Utama",
       "header": "Header",
       "deleteLink": "Hapus Tautan",
-      "actionsAriaLabel": "Aksi tautan"
+      "actionsAriaLabel": "Aksi tautan",
+      "showTitleOnHover": "Tampilkan judul saat diarahkan"
     },
     "catalog": {
       "googleSearch": {

@@ -226,7 +226,8 @@
       "mainDashboard": "Bảng điều khiển chính",
       "header": "Tiêu đề",
       "deleteLink": "Xóa liên kết",
-      "actionsAriaLabel": "Hành động liên kết"
+      "actionsAriaLabel": "Hành động liên kết",
+      "showTitleOnHover": "Hiện tiêu đề khi di chuột"
     },
     "catalog": {
       "googleSearch": {

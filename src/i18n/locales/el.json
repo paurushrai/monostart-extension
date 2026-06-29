@@ -226,7 +226,8 @@
       "mainDashboard": "Κύριος πίνακας",
       "header": "Κεφαλίδα",
       "deleteLink": "Διαγραφή συνδέσμου",
-      "actionsAriaLabel": "Ενέργειες συνδέσμου"
+      "actionsAriaLabel": "Ενέργειες συνδέσμου",
+      "showTitleOnHover": "Εμφάνιση τίτλου κατά την παραμονή"
     },
     "catalog": {
       "googleSearch": {

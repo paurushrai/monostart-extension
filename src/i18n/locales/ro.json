@@ -226,7 +226,8 @@
       "mainDashboard": "Tabloul de bord principal",
       "header": "Antet",
       "deleteLink": "Șterge linkul",
-      "actionsAriaLabel": "Acțiuni link"
+      "actionsAriaLabel": "Acțiuni link",
+      "showTitleOnHover": "Afișează titlul la hover"
     },
     "catalog": {
       "googleSearch": {

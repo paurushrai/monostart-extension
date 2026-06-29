@@ -226,7 +226,8 @@
       "mainDashboard": "Huvudinstrumentpanel",
       "header": "Rubrik",
       "deleteLink": "Ta bort länk",
-      "actionsAriaLabel": "Länkåtgärder"
+      "actionsAriaLabel": "Länkåtgärder",
+      "showTitleOnHover": "Visa titel vid hovring"
     },
     "catalog": {
       "googleSearch": {

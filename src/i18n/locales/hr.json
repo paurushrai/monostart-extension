@@ -226,7 +226,8 @@
       "mainDashboard": "Glavna nadzorna ploča",
       "header": "Zaglavlje",
       "deleteLink": "Obriši vezu",
-      "actionsAriaLabel": "Radnje veze"
+      "actionsAriaLabel": "Radnje veze",
+      "showTitleOnHover": "Prikaži naslov pri prelasku mišem"
     },
     "catalog": {
       "googleSearch": {
