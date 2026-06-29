@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Törlés",
+    "cancel": "Mégse",
+    "save": "Mentés",
+    "copy": "Másolás",
+    "copied": "Másolva"
+  },
+  "header": {
+    "menu": {
+      "language": "Nyelv",
+      "addLink": "Link hozzáadása",
+      "addWidget": "Widget hozzáadása",
+      "editDashboard": "Irányítópult szerkesztése",
+      "theme": "Téma és megjelenés",
+      "share": "MonoStart megosztása",
+      "openInNewTab": "Linkek megnyitása új lapon"
+    },
+    "settings": "Beállítások",
+    "clear": "Törlés",
+    "clearDashboard": "Irányítópult törlése",
+    "cancel": "Mégse",
+    "save": "Mentés"
+  },
+  "widgets": {
+    "deleteWidget": "Widget törlése",
+    "placeholder": {
+      "place": "Elhelyezés",
+      "dropToPlace": "Húzd ide az elhelyezéshez"
+    },
+    "todo": {
+      "defaultTitle": "Teendők",
+      "empty": "Még nincsenek feladatok.",
+      "deleteTask": "Feladat törlése",
+      "placeholder": "Feladat hozzáadása...",
+      "newTaskAriaLabel": "Új feladat",
+      "addTask": "Feladat hozzáadása",
+      "toggleAriaLabel": "\"{{text}}\" megjelölése {{status}} állapotúként",
+      "statusComplete": "kész",
+      "statusIncomplete": "befejezetlen"
+    },
+    "timer": {
+      "defaultTitle": "Időzítők",
+      "empty": "Nincs beállított időzítő.",
+      "deleteTimer": "Időzítő törlése",
+      "pause": "Szünet",
+      "start": "Indítás",
+      "reset": "Visszaállítás",
+      "placeholderMin": "Perc",
+      "durationAriaLabel": "Időzítő időtartama percben",
+      "placeholderLabel": "Felirat (opcionális)",
+      "labelAriaLabel": "Időzítő felirata (opcionális)",
+      "addTimer": "Időzítő hozzáadása"
+    },
+    "reminders": {
+      "defaultTitle": "Emlékeztetők",
+      "empty": "Még nincsenek emlékeztetők.",
+      "deleteReminder": "Emlékeztető törlése",
+      "placeholder": "Emlékeztess erre...",
+      "textAriaLabel": "Emlékeztető szövege",
+      "recurrenceTitle": "Ismétlődés",
+      "addReminder": "Emlékeztető hozzáadása",
+      "customIntervalAriaLabel": "Egyéni intervallum értéke",
+      "customUnitAriaLabel": "Egyéni intervallum egysége",
+      "unitMinutes": "Perc",
+      "unitHours": "Óra",
+      "unitDays": "Nap",
+      "saveRecurrence": "Mentés",
+      "toggleAriaLabel": "\"{{text}}\" megjelölése {{status}} állapotúként",
+      "statusComplete": "kész",
+      "statusIncomplete": "befejezetlen",
+      "recurrenceNone": "Egyszer",
+      "recurrence30min": "Minden 30 percben",
+      "recurrenceHourly": "Óránként",
+      "recurrenceDaily": "Naponta",
+      "recurrenceWeekly": "Hetente",
+      "recurrenceCustom": "Egyéni",
+      "everyDay": "Minden {{count}}n",
+      "everyHour": "Minden {{count}}ó",
+      "everyMin": "Minden {{count}}p",
+      "every": "Minden",
+      "today": "Ma {{time}}",
+      "tomorrow": "Holnap {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Jegyzet",
+      "changeColor": "Szín megváltoztatása",
+      "placeholder": "Írj valamit...",
+      "contentAriaLabel": "Jegyzet tartalma",
+      "titleAriaLabel": "Jegyzet címe",
+      "actionsAriaLabel": "Jegyzet műveletek",
+      "color_default": "Alapértelmezett",
+      "color_amber": "Sárga",
+      "color_sky": "Kék",
+      "color_rose": "Rózsaszín",
+      "color_emerald": "Zöld",
+      "color_purple": "Lila"
+    },
+    "image": {
+      "defaultTitle": "Kép",
+      "settings": "Képbeállítások",
+      "actionsAriaLabel": "Kép műveletek",
+      "titleAriaLabel": "Kép címe",
+      "changeImage": "Kép megváltoztatása",
+      "fitCover": "Borítás (Vágás)",
+      "fitContain": "Tartalmazás (Arány)",
+      "fitFill": "Kitöltés (Nyújtás)",
+      "configureTitle": "Widget kép konfigurálása",
+      "urlPlaceholder": "Illeszd be a kép URL-jét...",
+      "or": "Vagy",
+      "uploadLocal": "Helyi kép feltöltése",
+      "cancelConfig": "Konfiguráció mégse",
+      "loadError": "A kép betöltése nem sikerült. Az URL megszakadt vagy blokkolt lehet."
+    },
+    "label": {
+      "defaultText": "Szöveg",
+      "settings": "Szövegbeállítások",
+      "actionsAriaLabel": "Felirat műveletek",
+      "textAriaLabel": "Felirat szövege",
+      "editText": "Szöveg szerkesztése",
+      "showCardStyle": "Kártyastílus megjelenítése",
+      "fontSize": "Betűméret",
+      "alignment": "Igazítás",
+      "fontWeight": "Betűvastagság",
+      "opacity": "Átlátszóság",
+      "deleteText": "Szöveg törlése",
+      "alignLeft": "Balra",
+      "alignCenter": "Középre",
+      "alignRight": "Jobbra",
+      "fontSizes": {
+        "sm": "Kicsi",
+        "base": "Közepes",
+        "lg": "Nagy",
+        "xl": "Extra nagy",
+        "xl2": "2× nagy",
+        "xl3": "3× nagy",
+        "xl4": "4× nagy",
+        "xl5": "5× nagy",
+        "xl6": "6× nagy",
+        "xl7": "7× nagy",
+        "xl8": "8× nagy",
+        "xl9": "9× nagy",
+        "xl10": "10× nagy",
+        "xl12": "12× nagy"
+      },
+      "fontWeights": {
+        "thin": "Vékony",
+        "light": "Könnyű",
+        "regular": "Normál",
+        "medium": "Közepes",
+        "semibold": "Félkövér",
+        "bold": "Kövér",
+        "extrabold": "Extra kövér",
+        "black": "Fekete"
+      },
+      "opacities": {
+        "full": "100% (Élénk)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Halványított)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Keresés Google-ben vagy URL beírása",
+      "searchAriaLabel": "Keresési lekérdezés",
+      "voiceSearch": "Hangos keresés",
+      "lensSearch": "Bármely kép keresése Lens-szel",
+      "removeWidget": "Widget eltávolítása",
+      "switchToBarOnly": "Váltás csak sávra",
+      "switchToLogoBar": "Váltás logó + sávra",
+      "barOnly": "Csak sáv",
+      "showLogo": "Logó megjelenítése",
+      "toggleLogoStyle": "Logóstílus váltása"
+    },
+    "group": {
+      "borderColorAriaLabel": "Csoport keretszíne",
+      "pasteUrlPlaceholder": "URL beillesztése...",
+      "colors": {
+        "red": "Piros",
+        "pink": "Rózsaszín",
+        "purple": "Lila",
+        "indigo": "Indigó",
+        "blue": "Kék",
+        "cyan": "Cián",
+        "teal": "Kékeszöld",
+        "green": "Zöld",
+        "yellow": "Sárga",
+        "orange": "Narancs",
+        "slate": "Palakék",
+        "neutral": "Semleges"
+      },
+      "defaultTitle": "Új csoport"
+    },
+    "groupHeader": {
+      "addLink": "Link hozzáadása",
+      "colorBorder": "Keret színe",
+      "layout": "Elrendezés",
+      "layoutGrid": "Rács",
+      "layoutList": "Lista",
+      "gridColumns": "Rácsoszlopok",
+      "column_one": "{{count}} oszlop",
+      "column_other": "{{count}} oszlop",
+      "deleteGroup": "Csoport törlése",
+      "actionsAriaLabel": "Csoport műveletek"
+    },
+    "groupInnerGrid": {
+      "empty": "Üres csoport",
+      "addFirstLink": "Első link hozzáadása",
+      "dropToAdd": "Húzd ide a hozzáadáshoz",
+      "add": "Hozzáadás"
+    },
+    "iframe": {
+      "removeWidget": "Widget eltávolítása",
+      "openInNewTab": "Megnyitás új lapon",
+      "defaultTitle": "Beágyazott oldal"
+    },
+    "linkCard": {
+      "options": "Beállítások",
+      "rename": "Átnevezés",
+      "size": "Méret",
+      "sizeSmall": "Kicsi (1×1)",
+      "sizeMedium": "Közepes (3×1)",
+      "moveTo": "Áthelyezés ide...",
+      "mainDashboard": "Fő irányítópult",
+      "header": "Fejléc",
+      "deleteLink": "Link törlése",
+      "actionsAriaLabel": "Link műveletek"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Keresés Google-ben vagy URL beírása."
+      },
+      "group": {
+        "name": "Csoport",
+        "description": "Egyedi színű csoport a linkek rendszerezéséhez."
+      },
+      "reminders": {
+        "name": "Emlékeztetők",
+        "description": "Emlékeztetők ütemezése böngésző-értesítésekkel. Óránkénti / napi / heti ismétlés támogatott."
+      },
+      "todo": {
+        "name": "Feladatlista",
+        "description": "Kövesd nyomon a feladataidat."
+      },
+      "timer": {
+        "name": "Időzítők",
+        "description": "Kezelj több időzítőt."
+      },
+      "note": {
+        "name": "Öntapadó cetli",
+        "description": "Írj jegyzeteket vagy emlékeztetőket egyedi színekkel."
+      },
+      "image": {
+        "name": "Kép",
+        "description": "Adj hozzá képet egy URL-ről vagy tölts fel helyi fájlt."
+      },
+      "label": {
+        "name": "Szöveges felirat",
+        "description": "Adj hozzá lebegő szöveges fejlécet a rács stílusozásához."
+      },
+      "iframe": {
+        "name": "Beágyazott oldal",
+        "description": "Ágyazz be bármely weboldalt élő widgetként."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} üres fotó widget eltávolítva.",
+    "removedEmptyPhotos_other": "{{count}} üres fotó widget eltávolítva.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widget",
+    "clearedHeaderLinks_one": "{{count}} fejléc link",
+    "clearedHeaderLinks_other": "{{count}} fejléc link",
+    "clearedSummary": "{{items}} törölve. A mégse gombbal visszavonható, vagy mentéssel megerősíthető.",
+    "onlyOneGoogleSearch": "Csak egy Google keresési widget engedélyezett.",
+    "noRoomForWidget": "Nincs hely a widgetnek. Méretezz át vagy távolíts el valamit, hogy helyet csinálj.",
+    "swap": {
+      "no-room": "Nem lehet felcserélni — nincs elég hely mindkét widgetnek az új pozícióban.",
+      "out-of-bounds": "Nem lehet felcserélni — az egyik widget túlnyúlna a rács szélén a minimális méreténél.",
+      "overlap": "Nem lehet felcserélni — a két widget minimális mérete átfed egymással.",
+      "obstacle": "Nem lehet felcserélni — egy másik widget útban van. Helyezd át vagy méretezd át először."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Mentés a MonoStart-ba",
+    "saveLink": "Link mentése",
+    "saved": "Mentve!",
+    "openDashboard": "Irányítópult megnyitása",
+    "destination": {
+      "label": "Cél",
+      "main": "Fő irányítópult",
+      "header": "Fejléc sáv"
+    },
+    "reminders": {
+      "ariaLabel": "Függő emlékeztetők",
+      "count_one": "{{count}} emlékeztető",
+      "count_other": "{{count}} emlékeztető",
+      "clearAll": "Mind törlése",
+      "dismiss": "Elutasítás"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome lábléc útmutató elrejtése",
+      "success": "Lábléc elrejtve — élvezd a teljes képernyőt!",
+      "corner": {
+        "title": "Teljes képernyős élmény elérése",
+        "intro": "A Chrome láblécet ad a MonoStart alá. Az elrejtéséhez kattints a",
+        "cta": "Chrome testreszabása",
+        "ctaSuffix": "lehetőségre a jobb alsó sarokban.",
+        "noFooter": "Nem látod a láblécet? Minden rendben — ezt a lépést kihagyhatod."
+      },
+      "panel": {
+        "title": "Majdnem kész",
+        "intro": "A",
+        "setting": "Lábléc",
+        "turnOff": "alatt kapcsold ki a",
+        "action": "Lábléc megjelenítése az Új lap oldalon",
+        "suffix": "opciót, majd zárd be a panelt."
+      },
+      "skip": "Kihagyás",
+      "next": "Következő",
+      "done": "Kész"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Nyelv",
+      "subtitle": "Válassz nyelvet",
+      "search": "Nyelvek keresése…",
+      "empty": "Nincs a keresésnek megfelelő nyelv."
+    },
+    "addWidget": {
+      "title": "Widget hozzáadása",
+      "titleConfigure": "{{name}} konfigurálása",
+      "titleGoogleStyle": "Válassz Google keresési stílust",
+      "logoBarTitle": "Logó + Sáv",
+      "logoBarDesc": "Nagy Google logó a keresősáv felett. 4 sort foglal el.",
+      "barOnlyTitle": "Csak sáv",
+      "barOnlyDesc": "Csak a keresősáv. 1 sort foglal el. Kompakt.",
+      "urlLabel": "URL vagy beágyazó kód",
+      "urlPlaceholder": "https://example.com\nvagy\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Illessz be egy URL-t egyszerű beágyazáshoz, vagy illessz be egy <code>&lt;iframe&gt;</code> részletet azon oldalakról, amelyek blokkolják a közvetlen betöltést (YouTube, Figma, Spotify, CodePen stb.).",
+      "back": "Vissza",
+      "embedWidget": "Widget beágyazása"
+    },
+    "addLink": {
+      "title": "Link hozzáadása",
+      "description": "Illeszd be az URL-t egy új link kártya hozzáadásához az irányítópultodra.",
+      "urlLabel": "Weboldal URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Cím (opcionális)",
+      "titlePlaceholder": "Saját link",
+      "locationLabel": "Helyszín",
+      "locationMainDashboard": "Fő irányítópult",
+      "locationHeader": "Fejléc (csak favicon)",
+      "locationFolder": "Mappa: {{title}}",
+      "locationGroup": "Csoport: {{title}}",
+      "cancel": "Mégse",
+      "submit": "Link hozzáadása"
+    },
+    "theme": {
+      "title": "Téma és megjelenés",
+      "description": "Szabd testre az irányítópultod megjelenését.",
+      "modeGroupLabel": "Téma mód",
+      "light": "Világos",
+      "dark": "Sötét",
+      "device": "Eszköz",
+      "primaryColorHeading": "Elsődleges szín",
+      "primaryColorPresetsLabel": "Elsődleges szín előbeállítások",
+      "customColorLabel": "Egyéni szín",
+      "customColorTitle": "Egyéni szín",
+      "customHue": "Egyéni árnyalat",
+      "backgroundHeading": "Háttér",
+      "backgroundTypeLabel": "Háttér típusa",
+      "backgroundColorLabel": "Háttérszín",
+      "backgroundGradientLabel": "Háttér gradiens",
+      "imageUrlPlaceholder": "Illeszd be a kép URL-jét...",
+      "uploadImage": "Kép feltöltése",
+      "imageUploaded": "Egyéni kép feltöltve.",
+      "blur": "Elmosás",
+      "dim": "Sötétítés",
+      "fileReadError": "Fájl olvasása sikertelen.",
+      "bgType": {
+        "none": "Nincs",
+        "color": "Szín",
+        "gradient": "Gradiens",
+        "image": "Kép"
+      },
+      "themes": {
+        "default": "Default",
+        "grey": "Grey",
+        "blue": "Blue",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Green",
+        "citron": "Citron",
+        "yellow": "Yellow",
+        "orange": "Orange",
+        "apricot": "Apricot",
+        "tomato": "Tomato",
+        "rose": "Rose",
+        "pink": "Pink",
+        "fuchsia": "Fuchsia",
+        "violet": "Violet"
+      },
+      "gradients": {
+        "dusk": "Szürkület",
+        "sunset": "Napnyugta",
+        "ocean": "Óceán",
+        "forest": "Erdő",
+        "slate": "Slate",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "Irányítópult törlése",
+      "description": "Ez eltávolítja a widgeteket az irányítópultról. Szerkesztési módban vagy, ezért még megnyomhatod a Mégse gombot a mentés előtti visszavonáshoz.",
+      "widgetsGroups": "Widgetek és csoportok a fő rácson",
+      "linksInsideGroups": "↳ linkek a csoportokon belül",
+      "headerBarLinks": "Fejléc sáv linkjei",
+      "alsoClearHeaderLabel": "Fejléc sáv linkjeinek törlése is",
+      "alsoClearHeaderDesc": "Alapértelmezés szerint a fejléc sáv megmarad. Jelöld be ezt is a törléshez.",
+      "widgetGroups_one": "Körülbelül <strong>{{count}}</strong> widget/csoport törlése",
+      "widgetGroups_other": "Körülbelül <strong>{{count}}</strong> widget/csoport törlése",
+      "headerLinks_one": "<strong>{{count}}</strong> fejléc link",
+      "headerLinks_other": "<strong>{{count}}</strong> fejléc link",
+      "andConnector": " és ",
+      "cancelRestores": ". A szerkesztési mód eszköztárában a Mégse visszaállítja őket.",
+      "nothingToClear": "A jelenlegi kijelöléssel nincs mit törölni.",
+      "cancelButton": "Mégse",
+      "clearWidgets": "Widgetek törlése",
+      "clearEverything": "Minden törlése"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Elem megosztása",
+      "copyLink": "Link másolása",
+      "linkCopied": "Link másolva",
+      "shareOn": "Megosztás itt: {{platform}}",
+      "shareVia": "Megosztás: {{platform}}"
+    }
+  }
+}

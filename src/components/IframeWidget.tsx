@@ -3,6 +3,7 @@ import { X, ExternalLink } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { sanitizeEmbed, extractEmbedSrc } from '@/lib/embedSanitizer';
 import type { IframeItem } from '../types';
+import { useTranslation } from 'react-i18next';
 
 const EmbedContent = React.memo(function EmbedContent({ html }: { html: string }) {
   return (
@@ -33,6 +34,7 @@ interface Props {
 }
 
 const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>) => {
+  const { t } = useTranslation();
   const isEmbed = item.mode === 'embed' && !!item.embedHtml;
 
   const sanitizedHtml = useMemo(
@@ -76,7 +78,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
               onPointerDown={stopPointer}
               onTouchStart={stopPointer}
               onClick={handleDeleteClick}
-              title="Remove widget"
+              title={t('widgets.iframe.removeWidget')}
               className="h-6 w-6 rounded-md bg-background/80 backdrop-blur-sm hover:text-red-500 shadow-sm"
             >
               <X size={12} />
@@ -97,7 +99,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
                       ${isEditing ? 'py-1.5 drag-handle cursor-grab active:cursor-grabbing' : 'py-1'}`}>
 
         <h3 className={`font-medium text-foreground truncate mr-2 ${isEditing ? 'text-sm' : 'text-xs'}`}>
-          {item.title}
+          {item.title || t('widgets.iframe.defaultTitle')}
         </h3>
 
         <div className="flex items-center gap-1 flex-shrink-0">
@@ -108,7 +110,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
               asChild
               onMouseDown={(e) => e.stopPropagation()}
               className={`rounded-md hover:bg-background ${isEditing ? 'h-7 w-7' : 'h-5 w-5'}`}
-              title="Open in new tab"
+              title={t('widgets.iframe.openInNewTab')}
             >
               <a href={openUrl} target="_blank" rel="noopener noreferrer">
                 <ExternalLink size={isEditing ? 14 : 10} />
@@ -123,7 +125,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
               onPointerDown={stopPointer}
               onTouchStart={stopPointer}
               onClick={handleDeleteClick}
-              title="Remove widget"
+              title={t('widgets.iframe.removeWidget')}
               className="h-7 w-7 rounded-md hover:text-red-500 hover:bg-background"
             >
               <X size={14} />
@@ -133,7 +135,7 @@ const IframeWidget = React.memo(({ item, onDelete, isEditing }: Readonly<Props>)
       </header>
 
       <div className="relative flex-1 w-full overflow-hidden rounded-b-xl bg-background">
-        <UrlContent url={item.url} title={item.title} />
+        <UrlContent url={item.url} title={item.title || t('widgets.iframe.defaultTitle')} />
         {isEditing && <div className="absolute inset-0 z-10 bg-transparent" />}
       </div>
     </article>

@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Избриши",
+    "cancel": "Откажи",
+    "save": "Сачувај",
+    "copy": "Копирај",
+    "copied": "Копирано"
+  },
+  "header": {
+    "menu": {
+      "language": "Језик",
+      "addLink": "Додај везу",
+      "addWidget": "Додај виџет",
+      "editDashboard": "Уреди контролну таблу",
+      "theme": "Тема и изглед",
+      "share": "Подели MonoStart",
+      "openInNewTab": "Отвори везе у новој картици"
+    },
+    "settings": "Подешавања",
+    "clear": "Обриши",
+    "clearDashboard": "Обриши контролну таблу",
+    "cancel": "Откажи",
+    "save": "Сачувај"
+  },
+  "widgets": {
+    "deleteWidget": "Избриши виџет",
+    "placeholder": {
+      "place": "Постави",
+      "dropToPlace": "Пусти да поставиш"
+    },
+    "todo": {
+      "defaultTitle": "Задаци",
+      "empty": "Нема задатака.",
+      "deleteTask": "Избриши задатак",
+      "placeholder": "Додај задатак...",
+      "newTaskAriaLabel": "Нови задатак",
+      "addTask": "Додај задатак",
+      "toggleAriaLabel": "Означи „{{text}}” као {{status}}",
+      "statusComplete": "завршено",
+      "statusIncomplete": "незавршено"
+    },
+    "timer": {
+      "defaultTitle": "Тајмери",
+      "empty": "Нема постављених тајмера.",
+      "deleteTimer": "Избриши тајмер",
+      "pause": "Паузирај",
+      "start": "Покрени",
+      "reset": "Ресетуј",
+      "placeholderMin": "Мин",
+      "durationAriaLabel": "Трајање тајмера у минутима",
+      "placeholderLabel": "Ознака (необавезно)",
+      "labelAriaLabel": "Ознака тајмера (необавезно)",
+      "addTimer": "Додај тајмер"
+    },
+    "reminders": {
+      "defaultTitle": "Подсетници",
+      "empty": "Нема подсетника.",
+      "deleteReminder": "Избриши подсетник",
+      "placeholder": "Подсети ме да...",
+      "textAriaLabel": "Текст подсетника",
+      "recurrenceTitle": "Понављање",
+      "addReminder": "Додај подсетник",
+      "customIntervalAriaLabel": "Вредност прилагођеног интервала",
+      "customUnitAriaLabel": "Јединица прилагођеног интервала",
+      "unitMinutes": "Минути",
+      "unitHours": "Сати",
+      "unitDays": "Дани",
+      "saveRecurrence": "Сачувај",
+      "toggleAriaLabel": "Означи „{{text}}” као {{status}}",
+      "statusComplete": "завршено",
+      "statusIncomplete": "незавршено",
+      "recurrenceNone": "Једанпут",
+      "recurrence30min": "Сваких 30 мин",
+      "recurrenceHourly": "Сваки сат",
+      "recurrenceDaily": "Свакодневно",
+      "recurrenceWeekly": "Недељно",
+      "recurrenceCustom": "Прилагођено",
+      "everyDay": "Сваких {{count}}д",
+      "everyHour": "Сваких {{count}}ч",
+      "everyMin": "Сваких {{count}}м",
+      "every": "Сваких",
+      "today": "Данас {{time}}",
+      "tomorrow": "Сутра {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Белешка",
+      "changeColor": "Промени боју",
+      "placeholder": "Напиши нешто...",
+      "contentAriaLabel": "Садржај белешке",
+      "titleAriaLabel": "Наслов белешке",
+      "actionsAriaLabel": "Акције белешке",
+      "color_default": "Подразумевана",
+      "color_amber": "Жута",
+      "color_sky": "Плава",
+      "color_rose": "Ружичаста",
+      "color_emerald": "Зелена",
+      "color_purple": "Љубичаста"
+    },
+    "image": {
+      "defaultTitle": "Слика",
+      "settings": "Подешавања слике",
+      "actionsAriaLabel": "Акције слике",
+      "titleAriaLabel": "Наслов слике",
+      "changeImage": "Промени слику",
+      "fitCover": "Покриј (Исечи)",
+      "fitContain": "Садржи (Размера)",
+      "fitFill": "Попуни (Истегни)",
+      "configureTitle": "Конфигуриши слику виџета",
+      "urlPlaceholder": "Налепи URL слике...",
+      "or": "Или",
+      "uploadLocal": "Отпреми локалну слику",
+      "cancelConfig": "Откажи конфигурацију",
+      "loadError": "Слика се није учитала. URL можда не ради или је блокирана."
+    },
+    "label": {
+      "defaultText": "Текст",
+      "settings": "Подешавања текста",
+      "actionsAriaLabel": "Акције ознаке",
+      "textAriaLabel": "Текст ознаке",
+      "editText": "Уреди текст",
+      "showCardStyle": "Прикажи стил картице",
+      "fontSize": "Величина фонта",
+      "alignment": "Поравнање",
+      "fontWeight": "Дебљина фонта",
+      "opacity": "Прозирност",
+      "deleteText": "Избриши текст",
+      "alignLeft": "Лево",
+      "alignCenter": "На средину",
+      "alignRight": "Десно",
+      "fontSizes": {
+        "sm": "Мала",
+        "base": "Средња",
+        "lg": "Велика",
+        "xl": "Додатно велика",
+        "xl2": "2× велика",
+        "xl3": "3× велика",
+        "xl4": "4× велика",
+        "xl5": "5× велика",
+        "xl6": "6× велика",
+        "xl7": "7× велика",
+        "xl8": "8× велика",
+        "xl9": "9× велика",
+        "xl10": "10× велика",
+        "xl12": "12× велика"
+      },
+      "fontWeights": {
+        "thin": "Танак",
+        "light": "Лаган",
+        "regular": "Нормалан",
+        "medium": "Средњи",
+        "semibold": "Полубold",
+        "bold": "Подебљан",
+        "extrabold": "Додатно подебљан",
+        "black": "Црни"
+      },
+      "opacities": {
+        "full": "100% (Потпуна)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Пригушена)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Претражи Google или унеси URL",
+      "searchAriaLabel": "Упит за претрагу",
+      "voiceSearch": "Гласовна претрага",
+      "lensSearch": "Претражи слику помоћу Lens",
+      "removeWidget": "Уклони виџет",
+      "switchToBarOnly": "Пребаци само на траку",
+      "switchToLogoBar": "Пребаци на лого + траку",
+      "barOnly": "Само трака",
+      "showLogo": "Прикажи лого",
+      "toggleLogoStyle": "Промени стил лога"
+    },
+    "group": {
+      "borderColorAriaLabel": "Боја ивице групе",
+      "pasteUrlPlaceholder": "Налепи URL...",
+      "colors": {
+        "red": "Црвена",
+        "pink": "Ружичаста",
+        "purple": "Љубичаста",
+        "indigo": "Индиго",
+        "blue": "Плава",
+        "cyan": "Цијан",
+        "teal": "Зеленкасто-плава",
+        "green": "Зелена",
+        "yellow": "Жута",
+        "orange": "Наранџаста",
+        "slate": "Шкриљац",
+        "neutral": "Неутрална"
+      },
+      "defaultTitle": "Нова група"
+    },
+    "groupHeader": {
+      "addLink": "Додај везу",
+      "colorBorder": "Боја ивице",
+      "layout": "Распоред",
+      "layoutGrid": "Мрежа",
+      "layoutList": "Списак",
+      "gridColumns": "Колоне мреже",
+      "column_one": "{{count}} колона",
+      "column_other": "{{count}} колоне",
+      "deleteGroup": "Избриши групу",
+      "actionsAriaLabel": "Акције групе"
+    },
+    "groupInnerGrid": {
+      "empty": "Празна група",
+      "addFirstLink": "Додај прву везу",
+      "dropToAdd": "Пусти да додаш",
+      "add": "Додај"
+    },
+    "iframe": {
+      "removeWidget": "Уклони виџет",
+      "openInNewTab": "Отвори у новој картици",
+      "defaultTitle": "Уграђена страница"
+    },
+    "linkCard": {
+      "options": "Опције",
+      "rename": "Преименуј",
+      "size": "Величина",
+      "sizeSmall": "Мала (1×1)",
+      "sizeMedium": "Средња (3×1)",
+      "moveTo": "Премести у...",
+      "mainDashboard": "Главна контролна табла",
+      "header": "Заглавље",
+      "deleteLink": "Избриши везу",
+      "actionsAriaLabel": "Акције везе"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Претражите Google или унесите URL."
+      },
+      "group": {
+        "name": "Група",
+        "description": "Група са прилагођеном бојом за организовање веза."
+      },
+      "reminders": {
+        "name": "Подсетници",
+        "description": "Закажите подсетнике са обавештењима прегледача. Подржано сатно / дневно / недељно понављање."
+      },
+      "todo": {
+        "name": "Списак задатака",
+        "description": "Пратите своје задатке."
+      },
+      "timer": {
+        "name": "Тајмери",
+        "description": "Управљајте вишеструким тајмерима."
+      },
+      "note": {
+        "name": "Лепљива белешка",
+        "description": "Пишите белешке или подсетнике са прилагођеним бојама."
+      },
+      "image": {
+        "name": "Слика",
+        "description": "Додајте слику са URL-а или отпремите локалну датотеку."
+      },
+      "label": {
+        "name": "Текстуална ознака",
+        "description": "Додајте чист плутајући текстуални наслов за стилизовање ваше мреже."
+      },
+      "iframe": {
+        "name": "Уграђена страница",
+        "description": "Уградите било коју веб-страницу као живи виџет."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Уклоњен {{count}} празан виџет фотографије.",
+    "removedEmptyPhotos_other": "Уклоњени {{count}} празних виџета фотографија.",
+    "clearedWidgets_one": "{{count}} виџет",
+    "clearedWidgets_other": "{{count}} виџета",
+    "clearedHeaderLinks_one": "{{count}} веза у заглављу",
+    "clearedHeaderLinks_other": "{{count}} веза у заглављу",
+    "clearedSummary": "Обрисано {{items}}. Откажи да поништиш или Сачувај да потврдиш.",
+    "onlyOneGoogleSearch": "Дозвољен је само један виџет за Google претрагу.",
+    "noRoomForWidget": "Нема места за овај виџет. Промените величину или уклоните нешто да бисте направили простор.",
+    "swap": {
+      "no-room": "Замена није могућа — нема довољно места за оба виџета на новим позицијама.",
+      "out-of-bounds": "Замена није могућа — један од виџета би при минималној величини прешао ивицу мреже.",
+      "overlap": "Замена није могућа — минималне величине два виџета се преклапају.",
+      "obstacle": "Замена није могућа — на путу је други виџет. Прво га преместите или промените величину."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Сачувај у MonoStart",
+    "saveLink": "Сачувај везу",
+    "saved": "Сачувано!",
+    "openDashboard": "Отвори контролну таблу",
+    "destination": {
+      "label": "Одредиште",
+      "main": "Главна контролна табла",
+      "header": "Трака заглавља"
+    },
+    "reminders": {
+      "ariaLabel": "Подсетници на чекању",
+      "count_one": "{{count}} подсетник",
+      "count_other": "{{count}} подсетника",
+      "clearAll": "Обриши све",
+      "dismiss": "Одбаци"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Сакриј водич подножја Chrome",
+      "success": "Подножје скривено — уживајте у целом екрану!",
+      "corner": {
+        "title": "Добијте искуство на целом екрану",
+        "intro": "Chrome додаје подножје испод MonoStart. Да бисте га сакрили, кликните",
+        "cta": "Прилагоди Chrome",
+        "ctaSuffix": "у доњем десном углу.",
+        "noFooter": "Не видите подножје? Све је у реду — прескочите ово."
+      },
+      "panel": {
+        "title": "Скоро сте тамо",
+        "intro": "Под",
+        "setting": "Подножје",
+        "turnOff": "искључите",
+        "action": "Прикажи подножје на страници нове картице",
+        "suffix": "затим затворите таблу."
+      },
+      "skip": "Прескочи",
+      "next": "Следеће",
+      "done": "Готово"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Језик",
+      "subtitle": "Изаберите језик",
+      "search": "Претражи језике…",
+      "empty": "Ниједан језик не одговара вашој претрази."
+    },
+    "addWidget": {
+      "title": "Додај виџет",
+      "titleConfigure": "Конфигуриши {{name}}",
+      "titleGoogleStyle": "Изаберите стил Google претраге",
+      "logoBarTitle": "Лого + трака",
+      "logoBarDesc": "Велики Google лого изнад траке за претрагу. Заузима 4 реда.",
+      "barOnlyTitle": "Само трака",
+      "barOnlyDesc": "Само трака за претрагу. Заузима 1 ред. Компактно.",
+      "urlLabel": "URL или код за уграђивање",
+      "urlPlaceholder": "https://example.com\nили\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Налепите URL за једноставна уграђивања или налепите исечак <code>&lt;iframe&gt;</code> са сајтова који блокирају директно учитавање (YouTube, Figma, Spotify, CodePen итд.).",
+      "back": "Назад",
+      "embedWidget": "Угради виџет"
+    },
+    "addLink": {
+      "title": "Додај везу",
+      "description": "Налепите URL да бисте додали нову картицу везе на вашу контролну таблу.",
+      "urlLabel": "URL веб-сајта",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Наслов (необавезно)",
+      "titlePlaceholder": "Моја веза",
+      "locationLabel": "Локација",
+      "locationMainDashboard": "Главна контролна табла",
+      "locationHeader": "Заглавље (само favicon)",
+      "locationFolder": "Фасцикла: {{title}}",
+      "locationGroup": "Група: {{title}}",
+      "cancel": "Откажи",
+      "submit": "Додај везу"
+    },
+    "theme": {
+      "title": "Тема и изглед",
+      "description": "Прилагодите изглед ваше контролне табле.",
+      "modeGroupLabel": "Режим теме",
+      "light": "Светла",
+      "dark": "Тамна",
+      "device": "Уређај",
+      "primaryColorHeading": "Примарна боја",
+      "primaryColorPresetsLabel": "Унапред постављене примарне боје",
+      "customColorLabel": "Прилагођена боја",
+      "customColorTitle": "Прилагођена боја",
+      "customHue": "Прилагођени тон",
+      "backgroundHeading": "Позадина",
+      "backgroundTypeLabel": "Врста позадине",
+      "backgroundColorLabel": "Боја позадине",
+      "backgroundGradientLabel": "Градијент позадине",
+      "imageUrlPlaceholder": "Налепи URL слике...",
+      "uploadImage": "Отпреми слику",
+      "imageUploaded": "Прилагођена слика отпремљена.",
+      "blur": "Замућење",
+      "dim": "Затамњење",
+      "fileReadError": "Грешка при читању датотеке.",
+      "bgType": {
+        "none": "Ниједна",
+        "color": "Боја",
+        "gradient": "Градијент",
+        "image": "Слика"
+      },
+      "themes": {
+        "default": "Подразумевана",
+        "grey": "Сива",
+        "blue": "Плава",
+        "aqua": "Аква",
+        "viridian": "Viridian",
+        "green": "Зелена",
+        "citron": "Лимунска",
+        "yellow": "Жута",
+        "orange": "Наранџаста",
+        "apricot": "Кајсијева",
+        "tomato": "Томатна",
+        "rose": "Ружичаста",
+        "pink": "Светлоружичаста",
+        "fuchsia": "Фуксија",
+        "violet": "Љубичаста"
+      },
+      "gradients": {
+        "dusk": "Сутон",
+        "sunset": "Залазак",
+        "ocean": "Океан",
+        "forest": "Шума",
+        "slate": "Шкриљац",
+        "aurora": "Аурора"
+      }
+    },
+    "clear": {
+      "title": "Обриши контролну таблу",
+      "description": "Ово уклања виџете са контролне табле. У режиму сте уређивања, тако да можете притиснути Откажи да поништите пре чувања.",
+      "widgetsGroups": "Виџети и групе на главној мрежи",
+      "linksInsideGroups": "↳ везе унутар група",
+      "headerBarLinks": "Везе у траци заглавља",
+      "alsoClearHeaderLabel": "Такође обриши везе у траци заглавља",
+      "alsoClearHeaderDesc": "Подразумевано се трака заглавља чува. Означите ово да бисте је такође обрисали.",
+      "widgetGroups_one": "На путу сте да избришете <strong>{{count}}</strong> виџет/групу",
+      "widgetGroups_other": "На путу сте да избришете <strong>{{count}}</strong> виџета/група",
+      "headerLinks_one": "<strong>{{count}}</strong> веза у заглављу",
+      "headerLinks_other": "<strong>{{count}}</strong> веза у заглављу",
+      "andConnector": " и ",
+      "cancelRestores": ". Откажи у траци алата за уређивање их враћа.",
+      "nothingToClear": "Нема ничега за брисање са тренутним избором.",
+      "cancelButton": "Откажи",
+      "clearWidgets": "Обриши виџете",
+      "clearEverything": "Обриши све"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Подели ову ставку",
+      "copyLink": "Копирај везу",
+      "linkCopied": "Веза копирана",
+      "shareOn": "Подели на {{platform}}",
+      "shareVia": "Подели преко {{platform}}"
+    }
+  }
+}

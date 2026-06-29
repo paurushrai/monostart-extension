@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "header": {
+    "menu": {
+      "language": "Language",
+      "addLink": "Add Link",
+      "addWidget": "Add Widget",
+      "editDashboard": "Edit Dashboard",
+      "theme": "Theme & Appearance",
+      "share": "Share MonoStart",
+      "openInNewTab": "Open links in new tab"
+    },
+    "settings": "Settings",
+    "clear": "Clear",
+    "clearDashboard": "Clear Dashboard",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "widgets": {
+    "deleteWidget": "Delete Widget",
+    "placeholder": {
+      "place": "Place",
+      "dropToPlace": "Drop to Place"
+    },
+    "todo": {
+      "defaultTitle": "Todos",
+      "empty": "No tasks yet.",
+      "deleteTask": "Delete Task",
+      "placeholder": "Add a task...",
+      "newTaskAriaLabel": "New task",
+      "addTask": "Add Task",
+      "toggleAriaLabel": "Mark \"{{text}}\" as {{status}}",
+      "statusComplete": "complete",
+      "statusIncomplete": "incomplete"
+    },
+    "timer": {
+      "defaultTitle": "Timers",
+      "empty": "No timers set.",
+      "deleteTimer": "Delete Timer",
+      "pause": "Pause",
+      "start": "Start",
+      "reset": "Reset",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Timer duration in minutes",
+      "placeholderLabel": "Label (optional)",
+      "labelAriaLabel": "Timer label (optional)",
+      "addTimer": "Add Timer"
+    },
+    "reminders": {
+      "defaultTitle": "Reminders",
+      "empty": "No reminders yet.",
+      "deleteReminder": "Delete Reminder",
+      "placeholder": "Remind me to...",
+      "textAriaLabel": "Reminder text",
+      "recurrenceTitle": "Recurrence",
+      "addReminder": "Add Reminder",
+      "customIntervalAriaLabel": "Custom interval value",
+      "customUnitAriaLabel": "Custom interval unit",
+      "unitMinutes": "Minutes",
+      "unitHours": "Hours",
+      "unitDays": "Days",
+      "saveRecurrence": "Save",
+      "toggleAriaLabel": "Mark \"{{text}}\" as {{status}}",
+      "statusComplete": "complete",
+      "statusIncomplete": "incomplete",
+      "recurrenceNone": "Once",
+      "recurrence30min": "Every 30 min",
+      "recurrenceHourly": "Hourly",
+      "recurrenceDaily": "Daily",
+      "recurrenceWeekly": "Weekly",
+      "recurrenceCustom": "Custom",
+      "everyDay": "Every {{count}}d",
+      "everyHour": "Every {{count}}h",
+      "everyMin": "Every {{count}}m",
+      "every": "Every",
+      "today": "Today {{time}}",
+      "tomorrow": "Tomorrow {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Note",
+      "changeColor": "Change Colour",
+      "placeholder": "Write something...",
+      "contentAriaLabel": "Note content",
+      "titleAriaLabel": "Note title",
+      "actionsAriaLabel": "Note actions",
+      "color_default": "Default",
+      "color_amber": "Yellow",
+      "color_sky": "Blue",
+      "color_rose": "Pink",
+      "color_emerald": "Green",
+      "color_purple": "Purple"
+    },
+    "image": {
+      "defaultTitle": "Image",
+      "settings": "Image Settings",
+      "actionsAriaLabel": "Image actions",
+      "titleAriaLabel": "Image title",
+      "changeImage": "Change Image",
+      "fitCover": "Cover (Crop)",
+      "fitContain": "Contain (Aspect)",
+      "fitFill": "Fill (Stretch)",
+      "configureTitle": "Configure Widget Image",
+      "urlPlaceholder": "Paste image URL...",
+      "or": "Or",
+      "uploadLocal": "Upload Local Image",
+      "cancelConfig": "Cancel Configuration",
+      "loadError": "Image failed to load. The URL might be broken or blocked."
+    },
+    "label": {
+      "defaultText": "Text",
+      "settings": "Text Settings",
+      "actionsAriaLabel": "Label actions",
+      "textAriaLabel": "Label text",
+      "editText": "Edit Text",
+      "showCardStyle": "Show Card Style",
+      "fontSize": "Font Size",
+      "alignment": "Alignment",
+      "fontWeight": "Font Weight",
+      "opacity": "Opacity",
+      "deleteText": "Delete Text",
+      "alignLeft": "Left",
+      "alignCenter": "Centre",
+      "alignRight": "Right",
+      "fontSizes": {
+        "sm": "Small",
+        "base": "Medium",
+        "lg": "Large",
+        "xl": "Extra Large",
+        "xl2": "2X Large",
+        "xl3": "3X Large",
+        "xl4": "4X Large",
+        "xl5": "5X Large",
+        "xl6": "6X Large",
+        "xl7": "7X Large",
+        "xl8": "8X Large",
+        "xl9": "9X Large",
+        "xl10": "10X Large",
+        "xl12": "12X Large"
+      },
+      "fontWeights": {
+        "thin": "Thin",
+        "light": "Light",
+        "regular": "Regular",
+        "medium": "Medium",
+        "semibold": "Semi Bold",
+        "bold": "Bold",
+        "extrabold": "Extra Bold",
+        "black": "Black"
+      },
+      "opacities": {
+        "full": "100% (Bright)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Muted)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Search Google or type a URL",
+      "searchAriaLabel": "Search query",
+      "voiceSearch": "Voice search",
+      "lensSearch": "Search any image with Lens",
+      "removeWidget": "Remove widget",
+      "switchToBarOnly": "Switch to bar only",
+      "switchToLogoBar": "Switch to logo + bar",
+      "barOnly": "Bar only",
+      "showLogo": "Show logo",
+      "toggleLogoStyle": "Toggle logo style"
+    },
+    "group": {
+      "borderColorAriaLabel": "Group border colour",
+      "pasteUrlPlaceholder": "Paste URL...",
+      "colors": {
+        "red": "Red",
+        "pink": "Pink",
+        "purple": "Purple",
+        "indigo": "Indigo",
+        "blue": "Blue",
+        "cyan": "Cyan",
+        "teal": "Teal",
+        "green": "Green",
+        "yellow": "Yellow",
+        "orange": "Orange",
+        "slate": "Slate",
+        "neutral": "Neutral"
+      },
+      "defaultTitle": "New Group"
+    },
+    "groupHeader": {
+      "addLink": "Add Link",
+      "colorBorder": "Colour Border",
+      "layout": "Layout",
+      "layoutGrid": "Grid",
+      "layoutList": "List",
+      "gridColumns": "Grid Columns",
+      "column_one": "{{count}} Column",
+      "column_other": "{{count}} Columns",
+      "deleteGroup": "Delete Group",
+      "actionsAriaLabel": "Group actions"
+    },
+    "groupInnerGrid": {
+      "empty": "Empty Group",
+      "addFirstLink": "Add first link",
+      "dropToAdd": "Drop to Add",
+      "add": "Add"
+    },
+    "iframe": {
+      "removeWidget": "Remove widget",
+      "openInNewTab": "Open in new tab",
+      "defaultTitle": "Embedded Page"
+    },
+    "linkCard": {
+      "options": "Options",
+      "rename": "Rename",
+      "size": "Size",
+      "sizeSmall": "Small (1×1)",
+      "sizeMedium": "Medium (3×1)",
+      "moveTo": "Move to...",
+      "mainDashboard": "Main Dashboard",
+      "header": "Header",
+      "deleteLink": "Delete Link",
+      "actionsAriaLabel": "Link actions"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Search Google or type a URL."
+      },
+      "group": {
+        "name": "Group",
+        "description": "A custom-colored group for organizing your links."
+      },
+      "reminders": {
+        "name": "Reminders",
+        "description": "Schedule reminders with browser notifications. Hourly / daily / weekly recurrence supported."
+      },
+      "todo": {
+        "name": "Todo List",
+        "description": "Keep track of your tasks."
+      },
+      "timer": {
+        "name": "Timers",
+        "description": "Manage multiple timers."
+      },
+      "note": {
+        "name": "Sticky Note",
+        "description": "Write notes or reminders with custom colors."
+      },
+      "image": {
+        "name": "Image",
+        "description": "Add an image from a URL or upload a local file."
+      },
+      "label": {
+        "name": "Text Label",
+        "description": "Add a clean floating text header or title to style your grid."
+      },
+      "iframe": {
+        "name": "Embedded Page",
+        "description": "Embed any website as a live widget."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Removed {{count}} empty photo widget.",
+    "removedEmptyPhotos_other": "Removed {{count}} empty photo widgets.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgets",
+    "clearedHeaderLinks_one": "{{count}} header link",
+    "clearedHeaderLinks_other": "{{count}} header links",
+    "clearedSummary": "Cleared {{items}}. Cancel to undo, or Save to confirm.",
+    "onlyOneGoogleSearch": "Only one Google search widget is allowed.",
+    "noRoomForWidget": "No room for this widget. Resize or remove something to make space.",
+    "swap": {
+      "no-room": "Can't swap — not enough room to fit both widgets at their new positions.",
+      "out-of-bounds": "Can't swap — one of the widgets would extend past the grid edge at its minimum size.",
+      "overlap": "Can't swap — the two widgets' minimum sizes overlap each other.",
+      "obstacle": "Can't swap — another widget is in the way. Move or resize it first."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Save to MonoStart",
+    "saveLink": "Save Link",
+    "saved": "Saved!",
+    "openDashboard": "Open Dashboard",
+    "destination": {
+      "label": "Destination",
+      "main": "Main dashboard",
+      "header": "Header bar"
+    },
+    "reminders": {
+      "ariaLabel": "Pending reminders",
+      "count_one": "{{count}} reminder",
+      "count_other": "{{count}} reminders",
+      "clearAll": "Clear all",
+      "dismiss": "Dismiss"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Hide Chrome footer guide",
+      "success": "Footer hidden — enjoy the full screen!",
+      "corner": {
+        "title": "Get the full-screen experience",
+        "intro": "Chrome adds a footer below MonoStart. To hide it, click",
+        "cta": "Customise Chrome",
+        "ctaSuffix": "in the bottom-right corner.",
+        "noFooter": "Don't see a footer? You're all set — skip this."
+      },
+      "panel": {
+        "title": "Almost there",
+        "intro": "Under",
+        "setting": "Footer",
+        "turnOff": ", turn off",
+        "action": "Show footer on New Tab page",
+        "suffix": ", then close the panel."
+      },
+      "skip": "Skip",
+      "next": "Next",
+      "done": "Done"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Language",
+      "subtitle": "Choose your language",
+      "search": "Search languages…",
+      "empty": "No languages match your search."
+    },
+    "addWidget": {
+      "title": "Add Widget",
+      "titleConfigure": "Configure {{name}}",
+      "titleGoogleStyle": "Choose Google Search style",
+      "logoBarTitle": "Logo + Bar",
+      "logoBarDesc": "Big Google logo above the search bar. Takes 4 rows.",
+      "barOnlyTitle": "Bar only",
+      "barOnlyDesc": "Just the search bar. Takes 1 row. Compact.",
+      "urlLabel": "URL or embed code",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Paste a URL for simple embeds, or paste an <code>&lt;iframe&gt;</code> snippet from sites that block direct loading (YouTube, Figma, Spotify, CodePen, etc.).",
+      "back": "Back",
+      "embedWidget": "Embed Widget"
+    },
+    "addLink": {
+      "title": "Add Link",
+      "description": "Paste a URL to add a new link card to your dashboard.",
+      "urlLabel": "Website URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Title (Optional)",
+      "titlePlaceholder": "My Link",
+      "locationLabel": "Location",
+      "locationMainDashboard": "Main Dashboard",
+      "locationHeader": "Header (Favicon only)",
+      "locationFolder": "Folder: {{title}}",
+      "locationGroup": "Group: {{title}}",
+      "cancel": "Cancel",
+      "submit": "Add Link"
+    },
+    "theme": {
+      "title": "Theme & Appearance",
+      "description": "Customise the look and feel of your dashboard.",
+      "modeGroupLabel": "Theme mode",
+      "light": "Light",
+      "dark": "Dark",
+      "device": "Device",
+      "primaryColorHeading": "Primary Colour",
+      "primaryColorPresetsLabel": "Primary colour presets",
+      "customColorLabel": "Custom colour",
+      "customColorTitle": "Custom colour",
+      "customHue": "Custom Hue",
+      "backgroundHeading": "Background",
+      "backgroundTypeLabel": "Background type",
+      "backgroundColorLabel": "Background colour",
+      "backgroundGradientLabel": "Background gradient",
+      "imageUrlPlaceholder": "Paste image URL...",
+      "uploadImage": "Upload Image",
+      "imageUploaded": "Custom image uploaded.",
+      "blur": "Blur",
+      "dim": "Dim",
+      "fileReadError": "Failed to read file.",
+      "bgType": {
+        "none": "None",
+        "color": "Colour",
+        "gradient": "Gradient",
+        "image": "Image"
+      },
+      "themes": {
+        "default": "Default",
+        "grey": "Grey",
+        "blue": "Blue",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Green",
+        "citron": "Citron",
+        "yellow": "Yellow",
+        "orange": "Orange",
+        "apricot": "Apricot",
+        "tomato": "Tomato",
+        "rose": "Rose",
+        "pink": "Pink",
+        "fuchsia": "Fuchsia",
+        "violet": "Violet"
+      },
+      "gradients": {
+        "dusk": "Dusk",
+        "sunset": "Sunset",
+        "ocean": "Ocean",
+        "forest": "Forest",
+        "slate": "Slate",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "Clear dashboard",
+      "description": "This removes widgets from the dashboard. You're in edit mode, so you can still hit Cancel to undo before saving.",
+      "widgetsGroups": "Widgets & groups on the main grid",
+      "linksInsideGroups": "↳ links inside groups",
+      "headerBarLinks": "Header bar links",
+      "alsoClearHeaderLabel": "Also clear the header bar links",
+      "alsoClearHeaderDesc": "By default the header bar is preserved. Tick this to wipe it too.",
+      "widgetGroups_one": "About to delete <strong>{{count}}</strong> widget/group",
+      "widgetGroups_other": "About to delete <strong>{{count}}</strong> widgets/groups",
+      "headerLinks_one": "<strong>{{count}}</strong> header link",
+      "headerLinks_other": "<strong>{{count}}</strong> header links",
+      "andConnector": " and ",
+      "cancelRestores": ". Cancel in edit-mode toolbar restores them.",
+      "nothingToClear": "Nothing to clear with the current selection.",
+      "cancelButton": "Cancel",
+      "clearWidgets": "Clear widgets",
+      "clearEverything": "Clear everything"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Share this item",
+      "copyLink": "Copy link",
+      "linkCopied": "Link copied",
+      "shareOn": "Share on {{platform}}",
+      "shareVia": "Share via {{platform}}"
+    }
+  }
+}

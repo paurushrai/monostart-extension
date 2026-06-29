@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Futa",
+    "cancel": "Ghairi",
+    "save": "Hifadhi",
+    "copy": "Nakili",
+    "copied": "Imenakiliwa"
+  },
+  "header": {
+    "menu": {
+      "language": "Lugha",
+      "addLink": "Ongeza Kiungo",
+      "addWidget": "Ongeza Wijeti",
+      "editDashboard": "Hariri Dashibodi",
+      "theme": "Mandhari na Mwonekano",
+      "share": "Shiriki MonoStart",
+      "openInNewTab": "Fungua viungo katika kichupo kipya"
+    },
+    "settings": "Mipangilio",
+    "clear": "Futa",
+    "clearDashboard": "Futa Dashibodi",
+    "cancel": "Ghairi",
+    "save": "Hifadhi"
+  },
+  "widgets": {
+    "deleteWidget": "Futa Wijeti",
+    "placeholder": {
+      "place": "Weka",
+      "dropToPlace": "Acha Kuweka"
+    },
+    "todo": {
+      "defaultTitle": "Majukumu",
+      "empty": "Hakuna kazi bado.",
+      "deleteTask": "Futa Kazi",
+      "placeholder": "Ongeza kazi...",
+      "newTaskAriaLabel": "Kazi mpya",
+      "addTask": "Ongeza Kazi",
+      "toggleAriaLabel": "Weka alama \"{{text}}\" kama {{status}}",
+      "statusComplete": "imekamilika",
+      "statusIncomplete": "haikukamilika"
+    },
+    "timer": {
+      "defaultTitle": "Vipima Muda",
+      "empty": "Hakuna vipima muda vilivyowekwa.",
+      "deleteTimer": "Futa Kipima Muda",
+      "pause": "Simamisha",
+      "start": "Anza",
+      "reset": "Rejesha",
+      "placeholderMin": "Dak",
+      "durationAriaLabel": "Muda wa kipima muda kwa dakika",
+      "placeholderLabel": "Lebo (si lazima)",
+      "labelAriaLabel": "Lebo ya kipima muda (si lazima)",
+      "addTimer": "Ongeza Kipima Muda"
+    },
+    "reminders": {
+      "defaultTitle": "Vikumbusho",
+      "empty": "Hakuna vikumbusho bado.",
+      "deleteReminder": "Futa Ukumbusho",
+      "placeholder": "Nikumbushe...",
+      "textAriaLabel": "Maandishi ya ukumbusho",
+      "recurrenceTitle": "Kurudiwa",
+      "addReminder": "Ongeza Ukumbusho",
+      "customIntervalAriaLabel": "Thamani ya muda maalum",
+      "customUnitAriaLabel": "Kipimo cha muda maalum",
+      "unitMinutes": "Dakika",
+      "unitHours": "Masaa",
+      "unitDays": "Siku",
+      "saveRecurrence": "Hifadhi",
+      "toggleAriaLabel": "Weka alama \"{{text}}\" kama {{status}}",
+      "statusComplete": "imekamilika",
+      "statusIncomplete": "haikukamilika",
+      "recurrenceNone": "Mara moja",
+      "recurrence30min": "Kila dakika 30",
+      "recurrenceHourly": "Kila saa",
+      "recurrenceDaily": "Kila siku",
+      "recurrenceWeekly": "Kila wiki",
+      "recurrenceCustom": "Maalum",
+      "everyDay": "Kila {{count}}s",
+      "everyHour": "Kila {{count}}s",
+      "everyMin": "Kila {{count}}d",
+      "every": "Kila",
+      "today": "Leo {{time}}",
+      "tomorrow": "Kesho {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Kumbukumbu",
+      "changeColor": "Badilisha Rangi",
+      "placeholder": "Andika kitu...",
+      "contentAriaLabel": "Maudhui ya kumbukumbu",
+      "titleAriaLabel": "Kichwa cha kumbukumbu",
+      "actionsAriaLabel": "Vitendo vya kumbukumbu",
+      "color_default": "Chaguo-msingi",
+      "color_amber": "Njano",
+      "color_sky": "Bluu",
+      "color_rose": "Waridi",
+      "color_emerald": "Kijani",
+      "color_purple": "Zambarau"
+    },
+    "image": {
+      "defaultTitle": "Picha",
+      "settings": "Mipangilio ya Picha",
+      "actionsAriaLabel": "Vitendo vya picha",
+      "titleAriaLabel": "Kichwa cha picha",
+      "changeImage": "Badilisha Picha",
+      "fitCover": "Funika (Kata)",
+      "fitContain": "Weka Ndani (Uwiano)",
+      "fitFill": "Jaza (Nyoosha)",
+      "configureTitle": "Sanidi Picha ya Wijeti",
+      "urlPlaceholder": "Bandika URL ya picha...",
+      "or": "Au",
+      "uploadLocal": "Pakia Picha ya Ndani",
+      "cancelConfig": "Ghairi Usanidi",
+      "loadError": "Picha imeshindwa kupakia. URL inaweza kuwa imevunjika au imezuiwa."
+    },
+    "label": {
+      "defaultText": "Maandishi",
+      "settings": "Mipangilio ya Maandishi",
+      "actionsAriaLabel": "Vitendo vya lebo",
+      "textAriaLabel": "Maandishi ya lebo",
+      "editText": "Hariri Maandishi",
+      "showCardStyle": "Onyesha Mtindo wa Kadi",
+      "fontSize": "Ukubwa wa Fonti",
+      "alignment": "Mpangilio",
+      "fontWeight": "Uzito wa Fonti",
+      "opacity": "Uwazi",
+      "deleteText": "Futa Maandishi",
+      "alignLeft": "Kushoto",
+      "alignCenter": "Katikati",
+      "alignRight": "Kulia",
+      "fontSizes": {
+        "sm": "Ndogo",
+        "base": "Wastani",
+        "lg": "Kubwa",
+        "xl": "Kubwa Sana",
+        "xl2": "Kubwa 2X",
+        "xl3": "Kubwa 3X",
+        "xl4": "Kubwa 4X",
+        "xl5": "Kubwa 5X",
+        "xl6": "Kubwa 6X",
+        "xl7": "Kubwa 7X",
+        "xl8": "Kubwa 8X",
+        "xl9": "Kubwa 9X",
+        "xl10": "Kubwa 10X",
+        "xl12": "Kubwa 12X"
+      },
+      "fontWeights": {
+        "thin": "Nyembamba",
+        "light": "Nyepesi",
+        "regular": "Kawaida",
+        "medium": "Wastani",
+        "semibold": "Nusu Nzito",
+        "bold": "Nzito",
+        "extrabold": "Nzito Sana",
+        "black": "Nyeusi"
+      },
+      "opacities": {
+        "full": "100% (Mkali)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Hafifu)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Tafuta Google au andika URL",
+      "searchAriaLabel": "Swali la utafutaji",
+      "voiceSearch": "Utafutaji wa sauti",
+      "lensSearch": "Tafuta picha yoyote na Lens",
+      "removeWidget": "Ondoa wijeti",
+      "switchToBarOnly": "Badilisha kuwa upau peke yake",
+      "switchToLogoBar": "Badilisha kuwa nembo + upau",
+      "barOnly": "Upau peke yake",
+      "showLogo": "Onyesha nembo",
+      "toggleLogoStyle": "Badilisha mtindo wa nembo"
+    },
+    "group": {
+      "borderColorAriaLabel": "Rangi ya mpaka wa kikundi",
+      "pasteUrlPlaceholder": "Bandika URL...",
+      "colors": {
+        "red": "Nyekundu",
+        "pink": "Waridi",
+        "purple": "Zambarau",
+        "indigo": "Indigo",
+        "blue": "Bluu",
+        "cyan": "Siani",
+        "teal": "Tili",
+        "green": "Kijani",
+        "yellow": "Njano",
+        "orange": "Chungwa",
+        "slate": "Jivu",
+        "neutral": "Wastani"
+      },
+      "defaultTitle": "Kikundi Kipya"
+    },
+    "groupHeader": {
+      "addLink": "Ongeza Kiungo",
+      "colorBorder": "Rangi ya Mpaka",
+      "layout": "Mpangilio",
+      "layoutGrid": "Gridi",
+      "layoutList": "Orodha",
+      "gridColumns": "Safu za Gridi",
+      "column_one": "Safu {{count}}",
+      "column_other": "Safu {{count}}",
+      "deleteGroup": "Futa Kikundi",
+      "actionsAriaLabel": "Vitendo vya kikundi"
+    },
+    "groupInnerGrid": {
+      "empty": "Kikundi Tupu",
+      "addFirstLink": "Ongeza kiungo cha kwanza",
+      "dropToAdd": "Acha Kuongeza",
+      "add": "Ongeza"
+    },
+    "iframe": {
+      "removeWidget": "Ondoa wijeti",
+      "openInNewTab": "Fungua katika kichupo kipya",
+      "defaultTitle": "Ukurasa Uliowekwa"
+    },
+    "linkCard": {
+      "options": "Chaguo",
+      "rename": "Piga jina upya",
+      "size": "Ukubwa",
+      "sizeSmall": "Ndogo (1×1)",
+      "sizeMedium": "Wastani (3×1)",
+      "moveTo": "Hamia...",
+      "mainDashboard": "Dashibodi Kuu",
+      "header": "Kichwa",
+      "deleteLink": "Futa Kiungo",
+      "actionsAriaLabel": "Vitendo vya kiungo"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Utafutaji wa Google",
+        "description": "Tafuta Google au andika URL."
+      },
+      "group": {
+        "name": "Kikundi",
+        "description": "Kikundi chenye rangi maalum kwa kupanga viungo vyako."
+      },
+      "reminders": {
+        "name": "Vikumbusho",
+        "description": "Panga vikumbusho na arifa za kivinjari. Marudio ya kila saa / siku / wiki yanakubaliwa."
+      },
+      "todo": {
+        "name": "Orodha ya Kazi",
+        "description": "Fuatilia kazi zako."
+      },
+      "timer": {
+        "name": "Vipima Muda",
+        "description": "Simamia vipima muda vingi."
+      },
+      "note": {
+        "name": "Kumbukumbu",
+        "description": "Andika maelezo au vikumbusho kwa rangi maalum."
+      },
+      "image": {
+        "name": "Picha",
+        "description": "Ongeza picha kutoka URL au pakia faili ya ndani."
+      },
+      "label": {
+        "name": "Lebo ya Maandishi",
+        "description": "Ongeza kichwa cha maandishi kinachoelea au kichwa cha ukurasa kwa mtindo wa gridi yako."
+      },
+      "iframe": {
+        "name": "Ukurasa Uliowekwa",
+        "description": "Weka tovuti yoyote kama wijeti hai."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Imeondoa wijeti {{count}} ya picha tupu.",
+    "removedEmptyPhotos_other": "Imeondoa vijeti {{count}} vya picha tupu.",
+    "clearedWidgets_one": "Wijeti {{count}}",
+    "clearedWidgets_other": "Vijeti {{count}}",
+    "clearedHeaderLinks_one": "Kiungo {{count}} cha kichwa",
+    "clearedHeaderLinks_other": "Viungo {{count}} vya kichwa",
+    "clearedSummary": "Imefuta {{items}}. Ghairi kutendua, au Hifadhi kuthibitisha.",
+    "onlyOneGoogleSearch": "Wijeti moja tu ya utafutaji wa Google inaruhusiwa.",
+    "noRoomForWidget": "Hakuna nafasi kwa wijeti hii. Badilisha ukubwa au ondoa kitu ili kupata nafasi.",
+    "swap": {
+      "no-room": "Haiwezi kubadilishana — nafasi haitoshi kuweka vijeti vyote viwili katika nafasi mpya.",
+      "out-of-bounds": "Haiwezi kubadilishana — moja ya vijeti ingeendelea zaidi ya ukingo wa gridi kwa ukubwa wake wa chini.",
+      "overlap": "Haiwezi kubadilishana — ukubwa wa chini wa vijeti viwili unaingiliana.",
+      "obstacle": "Haiwezi kubadilishana — wijeti nyingine iko njiani. Ihamie au ibadilishe ukubwa kwanza."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Hifadhi kwenye MonoStart",
+    "saveLink": "Hifadhi Kiungo",
+    "saved": "Imehifadhiwa!",
+    "openDashboard": "Fungua Dashibodi",
+    "destination": {
+      "label": "Mahali pa kuweka",
+      "main": "Dashibodi kuu",
+      "header": "Upau wa kichwa"
+    },
+    "reminders": {
+      "ariaLabel": "Vikumbusho vinavyosubiri",
+      "count_one": "Ukumbusho {{count}}",
+      "count_other": "Vikumbusho {{count}}",
+      "clearAll": "Futa vyote",
+      "dismiss": "Ondoa"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Ficha mwongozo wa kijachini cha Chrome",
+      "success": "Kijachini kimefichwa — furahia skrini nzima!",
+      "corner": {
+        "title": "Pata uzoefu wa skrini nzima",
+        "intro": "Chrome inaongeza kijachini chini ya MonoStart. Ili kukificha, bonyeza",
+        "cta": "Binafsisha Chrome",
+        "ctaSuffix": "katika kona ya chini-kulia.",
+        "noFooter": "Huoni kijachini? Uko tayari — ruka hili."
+      },
+      "panel": {
+        "title": "Karibu sana",
+        "intro": "Chini ya",
+        "setting": "Kijachini",
+        "turnOff": ", zima",
+        "action": "Onyesha kijachini kwenye ukurasa wa Kichupo Kipya",
+        "suffix": ", kisha funga paneli."
+      },
+      "skip": "Ruka",
+      "next": "Ifuatayo",
+      "done": "Imekamilika"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Lugha",
+      "subtitle": "Chagua lugha yako",
+      "search": "Tafuta lugha…",
+      "empty": "Hakuna lugha zinazofanana na utafutaji wako."
+    },
+    "addWidget": {
+      "title": "Ongeza Wijeti",
+      "titleConfigure": "Sanidi {{name}}",
+      "titleGoogleStyle": "Chagua mtindo wa Utafutaji wa Google",
+      "logoBarTitle": "Nembo + Upau",
+      "logoBarDesc": "Nembo kubwa ya Google juu ya upau wa utafutaji. Inachukua safu 4.",
+      "barOnlyTitle": "Upau peke yake",
+      "barOnlyDesc": "Upau wa utafutaji tu. Inachukua safu 1. Fupi.",
+      "urlLabel": "URL au msimbo wa kuingiza",
+      "urlPlaceholder": "https://example.com\nau\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Bandika URL kwa uingizaji rahisi, au bandika kipande cha <code>&lt;iframe&gt;</code> kutoka kwa tovuti zinazozuia upakiaji wa moja kwa moja (YouTube, Figma, Spotify, CodePen, n.k.).",
+      "back": "Rudi",
+      "embedWidget": "Ingiza Wijeti"
+    },
+    "addLink": {
+      "title": "Ongeza Kiungo",
+      "description": "Bandika URL kuongeza kadi mpya ya kiungo kwenye dashibodi yako.",
+      "urlLabel": "URL ya Tovuti",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Kichwa (Si Lazima)",
+      "titlePlaceholder": "Kiungo Changu",
+      "locationLabel": "Mahali",
+      "locationMainDashboard": "Dashibodi Kuu",
+      "locationHeader": "Kichwa (Favicon peke yake)",
+      "locationFolder": "Folda: {{title}}",
+      "locationGroup": "Kikundi: {{title}}",
+      "cancel": "Ghairi",
+      "submit": "Ongeza Kiungo"
+    },
+    "theme": {
+      "title": "Mandhari na Mwonekano",
+      "description": "Binafsisha mwonekano wa dashibodi yako.",
+      "modeGroupLabel": "Hali ya mandhari",
+      "light": "Mwanga",
+      "dark": "Giza",
+      "device": "Kifaa",
+      "primaryColorHeading": "Rangi Kuu",
+      "primaryColorPresetsLabel": "Viposauri vya rangi kuu",
+      "customColorLabel": "Rangi maalum",
+      "customColorTitle": "Rangi maalum",
+      "customHue": "Toni Maalum",
+      "backgroundHeading": "Mandhari",
+      "backgroundTypeLabel": "Aina ya mandhari",
+      "backgroundColorLabel": "Rangi ya mandhari",
+      "backgroundGradientLabel": "Mteremko wa mandhari",
+      "imageUrlPlaceholder": "Bandika URL ya picha...",
+      "uploadImage": "Pakia Picha",
+      "imageUploaded": "Picha maalum imepakiwa.",
+      "blur": "Ukungu",
+      "dim": "Mwangaza Chini",
+      "fileReadError": "Imeshindwa kusoma faili.",
+      "bgType": {
+        "none": "Hakuna",
+        "color": "Rangi",
+        "gradient": "Mteremko",
+        "image": "Picha"
+      },
+      "themes": {
+        "default": "Chaguo-msingi",
+        "grey": "Kijivu",
+        "blue": "Bluu",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Kijani",
+        "citron": "Citron",
+        "yellow": "Njano",
+        "orange": "Chungwa",
+        "apricot": "Apricot",
+        "tomato": "Nyanya",
+        "rose": "Rose",
+        "pink": "Pinki",
+        "fuchsia": "Fuchsia",
+        "violet": "Violet"
+      },
+      "gradients": {
+        "dusk": "Dusk",
+        "sunset": "Sunset",
+        "ocean": "Bahari",
+        "forest": "Msitu",
+        "slate": "Slate",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "Futa dashibodi",
+      "description": "Hii inaondoa vijeti kutoka kwa dashibodi. Uko katika hali ya kuhariri, kwa hivyo bado unaweza kubonyeza Ghairi kutendua kabla ya kuhifadhi.",
+      "widgetsGroups": "Vijeti na vikundi kwenye gridi kuu",
+      "linksInsideGroups": "↳ viungo ndani ya vikundi",
+      "headerBarLinks": "Viungo vya upau wa kichwa",
+      "alsoClearHeaderLabel": "Pia futa viungo vya upau wa kichwa",
+      "alsoClearHeaderDesc": "Kwa chaguo-msingi upau wa kichwa unahifadhiwa. Tia alama hii kuifuta pia.",
+      "widgetGroups_one": "Karibu kufuta <strong>{{count}}</strong> wijeti/kikundi",
+      "widgetGroups_other": "Karibu kufuta <strong>{{count}}</strong> vijeti/vikundi",
+      "headerLinks_one": "<strong>{{count}}</strong> kiungo cha kichwa",
+      "headerLinks_other": "<strong>{{count}}</strong> viungo vya kichwa",
+      "andConnector": " na ",
+      "cancelRestores": ". Ghairi katika upau wa zana wa kuhariri itavirudisha.",
+      "nothingToClear": "Hakuna kitu cha kufuta na uteuzi wa sasa.",
+      "cancelButton": "Ghairi",
+      "clearWidgets": "Futa vijeti",
+      "clearEverything": "Futa kila kitu"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Shiriki kipengele hiki",
+      "copyLink": "Nakili kiungo",
+      "linkCopied": "Kiungo kimenakiliwa",
+      "shareOn": "Shiriki kwenye {{platform}}",
+      "shareVia": "Shiriki kupitia {{platform}}"
+    }
+  }
+}

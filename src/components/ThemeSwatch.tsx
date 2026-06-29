@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { deriveSwatchTones, type ChromeTheme } from '../lib/chromeThemes';
 
 interface Props {
@@ -7,6 +8,7 @@ interface Props {
 }
 
 export default function ThemeSwatch({ theme, selected, onSelect }: Readonly<Props>) {
+  const { t } = useTranslation();
   const tones = deriveSwatchTones(theme.seed);
   // Bottom layer: left/right halves. Top layer: upper half overlays the bottom.
   const background = [
@@ -19,8 +21,8 @@ export default function ThemeSwatch({ theme, selected, onSelect }: Readonly<Prop
       type="button"
       role="radio"
       aria-checked={selected}
-      aria-label={theme.name}
-      title={theme.name}
+      aria-label={t(theme.nameKey)}
+      title={t(theme.nameKey)}
       onClick={() => onSelect(theme.seed)}
       className={`w-10 h-10 p-0 rounded-full transition-transform hover:scale-110 ${
         selected

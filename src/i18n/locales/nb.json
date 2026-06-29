@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Slett",
+    "cancel": "Avbryt",
+    "save": "Lagre",
+    "copy": "Kopier",
+    "copied": "Kopiert"
+  },
+  "header": {
+    "menu": {
+      "language": "Språk",
+      "addLink": "Legg til lenke",
+      "addWidget": "Legg til widget",
+      "editDashboard": "Rediger dashboard",
+      "theme": "Tema og utseende",
+      "share": "Del MonoStart",
+      "openInNewTab": "Åpne lenker i ny fane"
+    },
+    "settings": "Innstillinger",
+    "clear": "Tøm",
+    "clearDashboard": "Tøm dashboard",
+    "cancel": "Avbryt",
+    "save": "Lagre"
+  },
+  "widgets": {
+    "deleteWidget": "Slett widget",
+    "placeholder": {
+      "place": "Plasser",
+      "dropToPlace": "Slipp for å plassere"
+    },
+    "todo": {
+      "defaultTitle": "Gjøremål",
+      "empty": "Ingen oppgaver ennå.",
+      "deleteTask": "Slett oppgave",
+      "placeholder": "Legg til en oppgave...",
+      "newTaskAriaLabel": "Ny oppgave",
+      "addTask": "Legg til oppgave",
+      "toggleAriaLabel": "Merk «{{text}}» som {{status}}",
+      "statusComplete": "fullført",
+      "statusIncomplete": "ikke fullført"
+    },
+    "timer": {
+      "defaultTitle": "Tidtakere",
+      "empty": "Ingen tidtakere satt.",
+      "deleteTimer": "Slett tidtaker",
+      "pause": "Pause",
+      "start": "Start",
+      "reset": "Tilbakestill",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Tidtakervarighet i minutter",
+      "placeholderLabel": "Etikett (valgfritt)",
+      "labelAriaLabel": "Tidtakeretikett (valgfritt)",
+      "addTimer": "Legg til tidtaker"
+    },
+    "reminders": {
+      "defaultTitle": "Påminnelser",
+      "empty": "Ingen påminnelser ennå.",
+      "deleteReminder": "Slett påminnelse",
+      "placeholder": "Påminn meg om å...",
+      "textAriaLabel": "Påminnelsestekst",
+      "recurrenceTitle": "Gjentakelse",
+      "addReminder": "Legg til påminnelse",
+      "customIntervalAriaLabel": "Egendefinert intervallverdi",
+      "customUnitAriaLabel": "Egendefinert intervallenhet",
+      "unitMinutes": "Minutter",
+      "unitHours": "Timer",
+      "unitDays": "Dager",
+      "saveRecurrence": "Lagre",
+      "toggleAriaLabel": "Merk «{{text}}» som {{status}}",
+      "statusComplete": "fullført",
+      "statusIncomplete": "ikke fullført",
+      "recurrenceNone": "Én gang",
+      "recurrence30min": "Hver 30. min",
+      "recurrenceHourly": "Hver time",
+      "recurrenceDaily": "Daglig",
+      "recurrenceWeekly": "Ukentlig",
+      "recurrenceCustom": "Egendefinert",
+      "everyDay": "Hver {{count}}d",
+      "everyHour": "Hver {{count}}t",
+      "everyMin": "Hver {{count}}m",
+      "every": "Hver",
+      "today": "I dag {{time}}",
+      "tomorrow": "I morgen {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Notat",
+      "changeColor": "Endre farge",
+      "placeholder": "Skriv noe...",
+      "contentAriaLabel": "Notatinnhold",
+      "titleAriaLabel": "Notattittel",
+      "actionsAriaLabel": "Notathandlinger",
+      "color_default": "Standard",
+      "color_amber": "Gul",
+      "color_sky": "Blå",
+      "color_rose": "Rosa",
+      "color_emerald": "Grønn",
+      "color_purple": "Lilla"
+    },
+    "image": {
+      "defaultTitle": "Bilde",
+      "settings": "Bildeinnstillinger",
+      "actionsAriaLabel": "Bildehandlinger",
+      "titleAriaLabel": "Bildetittel",
+      "changeImage": "Endre bilde",
+      "fitCover": "Dekk (beskjær)",
+      "fitContain": "Tilpass (proporsjon)",
+      "fitFill": "Fyll (strekk)",
+      "configureTitle": "Konfigurer widget-bilde",
+      "urlPlaceholder": "Lim inn bilde-URL...",
+      "or": "Eller",
+      "uploadLocal": "Last opp lokalt bilde",
+      "cancelConfig": "Avbryt konfigurering",
+      "loadError": "Bildet kunne ikke lastes. URL-en kan være ødelagt eller blokkert."
+    },
+    "label": {
+      "defaultText": "Tekst",
+      "settings": "Tekstinnstillinger",
+      "actionsAriaLabel": "Etiketthandlinger",
+      "textAriaLabel": "Etiketttekst",
+      "editText": "Rediger tekst",
+      "showCardStyle": "Vis kortstil",
+      "fontSize": "Skriftstørrelse",
+      "alignment": "Justering",
+      "fontWeight": "Skriftvekt",
+      "opacity": "Gjennomsiktighet",
+      "deleteText": "Slett tekst",
+      "alignLeft": "Venstre",
+      "alignCenter": "Midtstilt",
+      "alignRight": "Høyre",
+      "fontSizes": {
+        "sm": "Liten",
+        "base": "Middels",
+        "lg": "Stor",
+        "xl": "Ekstra stor",
+        "xl2": "2× stor",
+        "xl3": "3× stor",
+        "xl4": "4× stor",
+        "xl5": "5× stor",
+        "xl6": "6× stor",
+        "xl7": "7× stor",
+        "xl8": "8× stor",
+        "xl9": "9× stor",
+        "xl10": "10× stor",
+        "xl12": "12× stor"
+      },
+      "fontWeights": {
+        "thin": "Tynn",
+        "light": "Lett",
+        "regular": "Normal",
+        "medium": "Middels",
+        "semibold": "Halvfet",
+        "bold": "Fet",
+        "extrabold": "Ekstra fet",
+        "black": "Svart"
+      },
+      "opacities": {
+        "full": "100 % (Klar)",
+        "p80": "80 %",
+        "p60": "60 %",
+        "muted": "40 % (Dempet)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Søk på Google eller skriv en URL",
+      "searchAriaLabel": "Søkespørring",
+      "voiceSearch": "Talesøk",
+      "lensSearch": "Søk etter et bilde med Lens",
+      "removeWidget": "Fjern widget",
+      "switchToBarOnly": "Bytt til bare søkefelt",
+      "switchToLogoBar": "Bytt til logo + søkefelt",
+      "barOnly": "Bare søkefelt",
+      "showLogo": "Vis logo",
+      "toggleLogoStyle": "Bytt logostil"
+    },
+    "group": {
+      "borderColorAriaLabel": "Gruppekantfarge",
+      "pasteUrlPlaceholder": "Lim inn URL...",
+      "colors": {
+        "red": "Rød",
+        "pink": "Rosa",
+        "purple": "Lilla",
+        "indigo": "Indigo",
+        "blue": "Blå",
+        "cyan": "Cyan",
+        "teal": "Blågrønn",
+        "green": "Grønn",
+        "yellow": "Gul",
+        "orange": "Oransje",
+        "slate": "Skifer",
+        "neutral": "Nøytral"
+      },
+      "defaultTitle": "Ny gruppe"
+    },
+    "groupHeader": {
+      "addLink": "Legg til lenke",
+      "colorBorder": "Fargekant",
+      "layout": "Oppsett",
+      "layoutGrid": "Rutenett",
+      "layoutList": "Liste",
+      "gridColumns": "Rutenettkolonner",
+      "column_one": "{{count}} kolonne",
+      "column_other": "{{count}} kolonner",
+      "deleteGroup": "Slett gruppe",
+      "actionsAriaLabel": "Gruppehandlinger"
+    },
+    "groupInnerGrid": {
+      "empty": "Tom gruppe",
+      "addFirstLink": "Legg til første lenke",
+      "dropToAdd": "Slipp for å legge til",
+      "add": "Legg til"
+    },
+    "iframe": {
+      "removeWidget": "Fjern widget",
+      "openInNewTab": "Åpne i ny fane",
+      "defaultTitle": "Innebygd side"
+    },
+    "linkCard": {
+      "options": "Alternativer",
+      "rename": "Gi nytt navn",
+      "size": "Størrelse",
+      "sizeSmall": "Liten (1×1)",
+      "sizeMedium": "Middels (3×1)",
+      "moveTo": "Flytt til...",
+      "mainDashboard": "Hoveddashboard",
+      "header": "Topplinje",
+      "deleteLink": "Slett lenke",
+      "actionsAriaLabel": "Lenkehandlinger"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google-søk",
+        "description": "Søk på Google eller skriv inn en URL."
+      },
+      "group": {
+        "name": "Gruppe",
+        "description": "En egendefinert gruppe med farge for å organisere lenkene dine."
+      },
+      "reminders": {
+        "name": "Påminnelser",
+        "description": "Planlegg påminnelser med nettleservarsler. Støtter gjentakelse hver time / daglig / ukentlig."
+      },
+      "todo": {
+        "name": "Gjøremålsliste",
+        "description": "Hold oversikt over oppgavene dine."
+      },
+      "timer": {
+        "name": "Tidtakere",
+        "description": "Administrer flere tidtakere."
+      },
+      "note": {
+        "name": "Klistelapp",
+        "description": "Skriv notater eller påminnelser med egendefinerte farger."
+      },
+      "image": {
+        "name": "Bilde",
+        "description": "Legg til et bilde fra en URL eller last opp en lokal fil."
+      },
+      "label": {
+        "name": "Tekstmerke",
+        "description": "Legg til en ren flytende tekstoverskrift eller tittel for å style rutenettet ditt."
+      },
+      "iframe": {
+        "name": "Innebygd side",
+        "description": "Bygg inn et nettsted som en live widget."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Fjernet {{count}} tom bildewidget.",
+    "removedEmptyPhotos_other": "Fjernet {{count}} tomme bildewidgeter.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgeter",
+    "clearedHeaderLinks_one": "{{count}} topplinjelenke",
+    "clearedHeaderLinks_other": "{{count}} topplinjelenker",
+    "clearedSummary": "Tømt {{items}}. Avbryt for å angre, eller lagre for å bekrefte.",
+    "onlyOneGoogleSearch": "Bare én Google-søkewidget er tillatt.",
+    "noRoomForWidget": "Ikke plass til denne widgeten. Endre størrelse eller fjern noe for å frigjøre plass.",
+    "swap": {
+      "no-room": "Kan ikke bytte — ikke nok plass til begge widgetene på de nye posisjonene.",
+      "out-of-bounds": "Kan ikke bytte — én av widgetene ville gått utenfor rutenettkanten ved minimumsstørrelse.",
+      "overlap": "Kan ikke bytte — minimumsstørrelsene til de to widgetene overlapper hverandre.",
+      "obstacle": "Kan ikke bytte — en annen widget er i veien. Flytt eller endre størrelse på den først."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Lagre til MonoStart",
+    "saveLink": "Lagre lenke",
+    "saved": "Lagret!",
+    "openDashboard": "Åpne dashboard",
+    "destination": {
+      "label": "Destinasjon",
+      "main": "Hoveddashboard",
+      "header": "Topplinje"
+    },
+    "reminders": {
+      "ariaLabel": "Ventende påminnelser",
+      "count_one": "{{count}} påminnelse",
+      "count_other": "{{count}} påminnelser",
+      "clearAll": "Fjern alle",
+      "dismiss": "Avvis"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Skjul Chrome-bunntekstveiledning",
+      "success": "Bunntekst skjult — nyt fullskjerm!",
+      "corner": {
+        "title": "Få fullskjermopplevelsen",
+        "intro": "Chrome legger til en bunntekst under MonoStart. For å skjule den, klikk",
+        "cta": "Tilpass Chrome",
+        "ctaSuffix": "i nedre høyre hjørne.",
+        "noFooter": "Ser du ingen bunntekst? Du er klar — hopp over dette."
+      },
+      "panel": {
+        "title": "Nesten i mål",
+        "intro": "Under",
+        "setting": "Bunntekst",
+        "turnOff": ", slå av",
+        "action": "Vis bunntekst på ny-fane-side",
+        "suffix": ", og lukk deretter panelet."
+      },
+      "skip": "Hopp over",
+      "next": "Neste",
+      "done": "Ferdig"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Språk",
+      "subtitle": "Velg språk",
+      "search": "Søk etter språk…",
+      "empty": "Ingen språk samsvarer med søket ditt."
+    },
+    "addWidget": {
+      "title": "Legg til widget",
+      "titleConfigure": "Konfigurer {{name}}",
+      "titleGoogleStyle": "Velg Google-søkestil",
+      "logoBarTitle": "Logo + søkefelt",
+      "logoBarDesc": "Stor Google-logo over søkefeltet. Tar 4 rader.",
+      "barOnlyTitle": "Bare søkefelt",
+      "barOnlyDesc": "Bare søkefeltet. Tar 1 rad. Kompakt.",
+      "urlLabel": "URL eller innebyggingskode",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Lim inn en URL for enkle innebygginger, eller lim inn et <code>&lt;iframe&gt;</code>-utdrag fra nettsteder som blokkerer direkte innlasting (YouTube, Figma, Spotify, CodePen osv.).",
+      "back": "Tilbake",
+      "embedWidget": "Bygg inn widget"
+    },
+    "addLink": {
+      "title": "Legg til lenke",
+      "description": "Lim inn en URL for å legge til et nytt lenkekort i dashboardet ditt.",
+      "urlLabel": "Nettstedsadresse (URL)",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Tittel (valgfritt)",
+      "titlePlaceholder": "Min lenke",
+      "locationLabel": "Plassering",
+      "locationMainDashboard": "Hoveddashboard",
+      "locationHeader": "Topplinje (kun favorittikon)",
+      "locationFolder": "Mappe: {{title}}",
+      "locationGroup": "Gruppe: {{title}}",
+      "cancel": "Avbryt",
+      "submit": "Legg til lenke"
+    },
+    "theme": {
+      "title": "Tema og utseende",
+      "description": "Tilpass utseendet og følelsen til dashboardet ditt.",
+      "modeGroupLabel": "Temamodus",
+      "light": "Lyst",
+      "dark": "Mørkt",
+      "device": "Enhet",
+      "primaryColorHeading": "Primærfarge",
+      "primaryColorPresetsLabel": "Forhåndsinnstilte primærfarger",
+      "customColorLabel": "Egendefinert farge",
+      "customColorTitle": "Egendefinert farge",
+      "customHue": "Egendefinert fargetone",
+      "backgroundHeading": "Bakgrunn",
+      "backgroundTypeLabel": "Bakgrunnstype",
+      "backgroundColorLabel": "Bakgrunnsfarge",
+      "backgroundGradientLabel": "Bakgrunnsgradering",
+      "imageUrlPlaceholder": "Lim inn bilde-URL...",
+      "uploadImage": "Last opp bilde",
+      "imageUploaded": "Egendefinert bilde lastet opp.",
+      "blur": "Uskarphet",
+      "dim": "Dimme",
+      "fileReadError": "Kunne ikke lese filen.",
+      "bgType": {
+        "none": "Ingen",
+        "color": "Farge",
+        "gradient": "Gradering",
+        "image": "Bilde"
+      },
+      "themes": {
+        "default": "Standard",
+        "grey": "Grå",
+        "blue": "Blå",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Grønn",
+        "citron": "Citron",
+        "yellow": "Gul",
+        "orange": "Oransje",
+        "apricot": "Apricot",
+        "tomato": "Tomat",
+        "rose": "Rose",
+        "pink": "Rosa",
+        "fuchsia": "Fuchsia",
+        "violet": "Lilla"
+      },
+      "gradients": {
+        "dusk": "Skumring",
+        "sunset": "Solnedgang",
+        "ocean": "Hav",
+        "forest": "Skog",
+        "slate": "Skifer",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "Tøm dashboard",
+      "description": "Dette fjerner widgeter fra dashboardet. Du er i redigeringsmodus, så du kan fremdeles trykke Avbryt for å angre før du lagrer.",
+      "widgetsGroups": "Widgeter og grupper på hovedrutenettet",
+      "linksInsideGroups": "↳ lenker inne i grupper",
+      "headerBarLinks": "TopplinjeLenker",
+      "alsoClearHeaderLabel": "Tøm også topplinjeLenkene",
+      "alsoClearHeaderDesc": "Topplinje bevares som standard. Kryss av her for å slette den også.",
+      "widgetGroups_one": "I ferd med å slette <strong>{{count}}</strong> widget/gruppe",
+      "widgetGroups_other": "I ferd med å slette <strong>{{count}}</strong> widgeter/grupper",
+      "headerLinks_one": "<strong>{{count}}</strong> topplinjelenke",
+      "headerLinks_other": "<strong>{{count}}</strong> topplinjelenker",
+      "andConnector": " og ",
+      "cancelRestores": ". Avbryt i redigeringsmodusverktøylinjen gjenoppretter dem.",
+      "nothingToClear": "Ingenting å tømme med gjeldende valg.",
+      "cancelButton": "Avbryt",
+      "clearWidgets": "Tøm widgeter",
+      "clearEverything": "Tøm alt"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Del dette elementet",
+      "copyLink": "Kopier lenke",
+      "linkCopied": "Lenke kopiert",
+      "shareOn": "Del på {{platform}}",
+      "shareVia": "Del via {{platform}}"
+    }
+  }
+}

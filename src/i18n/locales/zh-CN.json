@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "删除",
+    "cancel": "取消",
+    "save": "保存",
+    "copy": "复制",
+    "copied": "已复制"
+  },
+  "header": {
+    "menu": {
+      "language": "语言",
+      "addLink": "添加链接",
+      "addWidget": "添加组件",
+      "editDashboard": "编辑仪表板",
+      "theme": "主题与外观",
+      "share": "分享 MonoStart",
+      "openInNewTab": "在新标签页中打开链接"
+    },
+    "settings": "设置",
+    "clear": "清除",
+    "clearDashboard": "清除仪表板",
+    "cancel": "取消",
+    "save": "保存"
+  },
+  "widgets": {
+    "deleteWidget": "删除组件",
+    "placeholder": {
+      "place": "放置",
+      "dropToPlace": "拖放以放置"
+    },
+    "todo": {
+      "defaultTitle": "待办事项",
+      "empty": "暂无任务。",
+      "deleteTask": "删除任务",
+      "placeholder": "添加任务...",
+      "newTaskAriaLabel": "新任务",
+      "addTask": "添加任务",
+      "toggleAriaLabel": "将\"{{text}}\"标记为{{status}}",
+      "statusComplete": "已完成",
+      "statusIncomplete": "未完成"
+    },
+    "timer": {
+      "defaultTitle": "计时器",
+      "empty": "暂无计时器。",
+      "deleteTimer": "删除计时器",
+      "pause": "暂停",
+      "start": "开始",
+      "reset": "重置",
+      "placeholderMin": "分钟",
+      "durationAriaLabel": "计时器时长（分钟）",
+      "placeholderLabel": "标签（可选）",
+      "labelAriaLabel": "计时器标签（可选）",
+      "addTimer": "添加计时器"
+    },
+    "reminders": {
+      "defaultTitle": "提醒",
+      "empty": "暂无提醒。",
+      "deleteReminder": "删除提醒",
+      "placeholder": "提醒我...",
+      "textAriaLabel": "提醒文本",
+      "recurrenceTitle": "重复",
+      "addReminder": "添加提醒",
+      "customIntervalAriaLabel": "自定义间隔值",
+      "customUnitAriaLabel": "自定义间隔单位",
+      "unitMinutes": "分钟",
+      "unitHours": "小时",
+      "unitDays": "天",
+      "saveRecurrence": "保存",
+      "toggleAriaLabel": "将\"{{text}}\"标记为{{status}}",
+      "statusComplete": "已完成",
+      "statusIncomplete": "未完成",
+      "recurrenceNone": "一次",
+      "recurrence30min": "每 30 分钟",
+      "recurrenceHourly": "每小时",
+      "recurrenceDaily": "每天",
+      "recurrenceWeekly": "每周",
+      "recurrenceCustom": "自定义",
+      "everyDay": "每 {{count}} 天",
+      "everyHour": "每 {{count}} 小时",
+      "everyMin": "每 {{count}} 分钟",
+      "every": "每",
+      "today": "今天 {{time}}",
+      "tomorrow": "明天 {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "笔记",
+      "changeColor": "更改颜色",
+      "placeholder": "写点什么...",
+      "contentAriaLabel": "笔记内容",
+      "titleAriaLabel": "笔记标题",
+      "actionsAriaLabel": "笔记操作",
+      "color_default": "默认",
+      "color_amber": "黄色",
+      "color_sky": "蓝色",
+      "color_rose": "粉色",
+      "color_emerald": "绿色",
+      "color_purple": "紫色"
+    },
+    "image": {
+      "defaultTitle": "图片",
+      "settings": "图片设置",
+      "actionsAriaLabel": "图片操作",
+      "titleAriaLabel": "图片标题",
+      "changeImage": "更换图片",
+      "fitCover": "封面（裁剪）",
+      "fitContain": "包含（保持比例）",
+      "fitFill": "填充（拉伸）",
+      "configureTitle": "配置组件图片",
+      "urlPlaceholder": "粘贴图片 URL...",
+      "or": "或",
+      "uploadLocal": "上传本地图片",
+      "cancelConfig": "取消配置",
+      "loadError": "图片加载失败，URL 可能已失效或被屏蔽。"
+    },
+    "label": {
+      "defaultText": "文本",
+      "settings": "文本设置",
+      "actionsAriaLabel": "标签操作",
+      "textAriaLabel": "标签文本",
+      "editText": "编辑文本",
+      "showCardStyle": "显示卡片样式",
+      "fontSize": "字体大小",
+      "alignment": "对齐方式",
+      "fontWeight": "字体粗细",
+      "opacity": "不透明度",
+      "deleteText": "删除文本",
+      "alignLeft": "左对齐",
+      "alignCenter": "居中",
+      "alignRight": "右对齐",
+      "fontSizes": {
+        "sm": "小",
+        "base": "中",
+        "lg": "大",
+        "xl": "特大",
+        "xl2": "2X 大",
+        "xl3": "3X 大",
+        "xl4": "4X 大",
+        "xl5": "5X 大",
+        "xl6": "6X 大",
+        "xl7": "7X 大",
+        "xl8": "8X 大",
+        "xl9": "9X 大",
+        "xl10": "10X 大",
+        "xl12": "12X 大"
+      },
+      "fontWeights": {
+        "thin": "极细",
+        "light": "细",
+        "regular": "常规",
+        "medium": "中等",
+        "semibold": "半粗",
+        "bold": "粗",
+        "extrabold": "特粗",
+        "black": "黑体"
+      },
+      "opacities": {
+        "full": "100%（明亮）",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40%（柔和）"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "搜索 Google 或输入网址",
+      "searchAriaLabel": "搜索查询",
+      "voiceSearch": "语音搜索",
+      "lensSearch": "使用 Lens 搜索任意图片",
+      "removeWidget": "移除组件",
+      "switchToBarOnly": "切换为仅搜索栏",
+      "switchToLogoBar": "切换为徽标 + 搜索栏",
+      "barOnly": "仅搜索栏",
+      "showLogo": "显示徽标",
+      "toggleLogoStyle": "切换徽标样式"
+    },
+    "group": {
+      "borderColorAriaLabel": "分组边框颜色",
+      "pasteUrlPlaceholder": "粘贴 URL...",
+      "colors": {
+        "red": "红色",
+        "pink": "粉色",
+        "purple": "紫色",
+        "indigo": "靛蓝",
+        "blue": "蓝色",
+        "cyan": "青色",
+        "teal": "蓝绿色",
+        "green": "绿色",
+        "yellow": "黄色",
+        "orange": "橙色",
+        "slate": "石板灰",
+        "neutral": "中性色"
+      },
+      "defaultTitle": "新建分组"
+    },
+    "groupHeader": {
+      "addLink": "添加链接",
+      "colorBorder": "边框颜色",
+      "layout": "布局",
+      "layoutGrid": "网格",
+      "layoutList": "列表",
+      "gridColumns": "网格列数",
+      "column_one": "{{count}} 列",
+      "column_other": "{{count}} 列",
+      "deleteGroup": "删除分组",
+      "actionsAriaLabel": "分组操作"
+    },
+    "groupInnerGrid": {
+      "empty": "空分组",
+      "addFirstLink": "添加第一个链接",
+      "dropToAdd": "拖放以添加",
+      "add": "添加"
+    },
+    "iframe": {
+      "removeWidget": "移除组件",
+      "openInNewTab": "在新标签页中打开",
+      "defaultTitle": "嵌入页面"
+    },
+    "linkCard": {
+      "options": "选项",
+      "rename": "重命名",
+      "size": "大小",
+      "sizeSmall": "小（1×1）",
+      "sizeMedium": "中（3×1）",
+      "moveTo": "移动到...",
+      "mainDashboard": "主仪表板",
+      "header": "顶栏",
+      "deleteLink": "删除链接",
+      "actionsAriaLabel": "链接操作"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google 搜索",
+        "description": "搜索 Google 或输入 URL。"
+      },
+      "group": {
+        "name": "分组",
+        "description": "用于整理链接的自定义颜色分组。"
+      },
+      "reminders": {
+        "name": "提醒",
+        "description": "设置提醒并通过浏览器通知推送。支持每小时 / 每天 / 每周重复。"
+      },
+      "todo": {
+        "name": "待办列表",
+        "description": "跟踪您的任务。"
+      },
+      "timer": {
+        "name": "计时器",
+        "description": "管理多个计时器。"
+      },
+      "note": {
+        "name": "便利贴",
+        "description": "以自定义颜色书写笔记或提醒。"
+      },
+      "image": {
+        "name": "图片",
+        "description": "从 URL 添加图片或上传本地文件。"
+      },
+      "label": {
+        "name": "文字标签",
+        "description": "添加简洁的浮动文字标题，为您的网格增添风格。"
+      },
+      "iframe": {
+        "name": "嵌入页面",
+        "description": "将任何网站嵌入为实时小部件。"
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "已移除 {{count}} 个空图片组件。",
+    "removedEmptyPhotos_other": "已移除 {{count}} 个空图片组件。",
+    "clearedWidgets_one": "{{count}} 个组件",
+    "clearedWidgets_other": "{{count}} 个组件",
+    "clearedHeaderLinks_one": "{{count}} 个顶栏链接",
+    "clearedHeaderLinks_other": "{{count}} 个顶栏链接",
+    "clearedSummary": "已清除 {{items}}。取消可撤销，保存可确认。",
+    "onlyOneGoogleSearch": "只允许添加一个 Google 搜索组件。",
+    "noRoomForWidget": "没有空间放置此组件，请调整大小或移除其他内容以腾出空间。",
+    "swap": {
+      "no-room": "无法交换——没有足够空间在新位置容纳两个组件。",
+      "out-of-bounds": "无法交换——某个组件在最小尺寸下会超出网格边界。",
+      "overlap": "无法交换——两个组件的最小尺寸相互重叠。",
+      "obstacle": "无法交换——另一个组件阻挡了路径，请先移动或调整它。"
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "保存到 MonoStart",
+    "saveLink": "保存链接",
+    "saved": "已保存！",
+    "openDashboard": "打开仪表板",
+    "destination": {
+      "label": "目标位置",
+      "main": "主仪表板",
+      "header": "顶栏"
+    },
+    "reminders": {
+      "ariaLabel": "待处理提醒",
+      "count_one": "{{count}} 条提醒",
+      "count_other": "{{count}} 条提醒",
+      "clearAll": "全部清除",
+      "dismiss": "关闭"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "隐藏 Chrome 底栏指引",
+      "success": "底栏已隐藏——享受全屏体验！",
+      "corner": {
+        "title": "获得全屏体验",
+        "intro": "Chrome 会在 MonoStart 下方添加底栏。若要隐藏它，请点击",
+        "cta": "自定义 Chrome",
+        "ctaSuffix": "位于右下角。",
+        "noFooter": "没有看到底栏？您已设置完成——跳过此步骤。"
+      },
+      "panel": {
+        "title": "即将完成",
+        "intro": "在",
+        "setting": "底栏",
+        "turnOff": "下，关闭",
+        "action": "在新标签页上显示底栏",
+        "suffix": "，然后关闭面板。"
+      },
+      "skip": "跳过",
+      "next": "下一步",
+      "done": "完成"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "语言",
+      "subtitle": "选择您的语言",
+      "search": "搜索语言…",
+      "empty": "没有匹配的语言。"
+    },
+    "addWidget": {
+      "title": "添加组件",
+      "titleConfigure": "配置 {{name}}",
+      "titleGoogleStyle": "选择 Google 搜索样式",
+      "logoBarTitle": "徽标 + 搜索栏",
+      "logoBarDesc": "搜索栏上方显示大型 Google 徽标，占用 4 行。",
+      "barOnlyTitle": "仅搜索栏",
+      "barOnlyDesc": "仅显示搜索栏，占用 1 行，紧凑型。",
+      "urlLabel": "URL 或嵌入代码",
+      "urlPlaceholder": "https://example.com\n或\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "粘贴 URL 以进行简单嵌入，或从屏蔽直接加载的网站（YouTube、Figma、Spotify、CodePen 等）粘贴 <code>&lt;iframe&gt;</code> 代码片段。",
+      "back": "返回",
+      "embedWidget": "嵌入组件"
+    },
+    "addLink": {
+      "title": "添加链接",
+      "description": "粘贴一个 URL，将新链接卡片添加到仪表板。",
+      "urlLabel": "网站 URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "标题（可选）",
+      "titlePlaceholder": "我的链接",
+      "locationLabel": "位置",
+      "locationMainDashboard": "主仪表板",
+      "locationHeader": "顶栏（仅限网站图标）",
+      "locationFolder": "文件夹：{{title}}",
+      "locationGroup": "分组：{{title}}",
+      "cancel": "取消",
+      "submit": "添加链接"
+    },
+    "theme": {
+      "title": "主题与外观",
+      "description": "自定义仪表板的外观与风格。",
+      "modeGroupLabel": "主题模式",
+      "light": "浅色",
+      "dark": "深色",
+      "device": "跟随系统",
+      "primaryColorHeading": "主色调",
+      "primaryColorPresetsLabel": "主色调预设",
+      "customColorLabel": "自定义颜色",
+      "customColorTitle": "自定义颜色",
+      "customHue": "自定义色相",
+      "backgroundHeading": "背景",
+      "backgroundTypeLabel": "背景类型",
+      "backgroundColorLabel": "背景颜色",
+      "backgroundGradientLabel": "背景渐变",
+      "imageUrlPlaceholder": "粘贴图片 URL...",
+      "uploadImage": "上传图片",
+      "imageUploaded": "自定义图片已上传。",
+      "blur": "模糊",
+      "dim": "调暗",
+      "fileReadError": "文件读取失败。",
+      "bgType": {
+        "none": "无",
+        "color": "纯色",
+        "gradient": "渐变",
+        "image": "图片"
+      },
+      "themes": {
+        "default": "默认",
+        "grey": "灰色",
+        "blue": "蓝色",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "绿色",
+        "citron": "Citron",
+        "yellow": "黄色",
+        "orange": "橙色",
+        "apricot": "Apricot",
+        "tomato": "番茄红",
+        "rose": "Rose",
+        "pink": "粉色",
+        "fuchsia": "Fuchsia",
+        "violet": "紫罗兰"
+      },
+      "gradients": {
+        "dusk": "黄昏",
+        "sunset": "日落",
+        "ocean": "海洋",
+        "forest": "森林",
+        "slate": "Slate",
+        "aurora": "极光"
+      }
+    },
+    "clear": {
+      "title": "清除仪表板",
+      "description": "此操作将从仪表板移除组件。您当前处于编辑模式，保存前仍可点击取消撤销。",
+      "widgetsGroups": "主网格上的组件与分组",
+      "linksInsideGroups": "↳ 分组内的链接",
+      "headerBarLinks": "顶栏链接",
+      "alsoClearHeaderLabel": "同时清除顶栏链接",
+      "alsoClearHeaderDesc": "默认情况下顶栏会被保留，勾选此项以同时清除。",
+      "widgetGroups_one": "即将删除 <strong>{{count}}</strong> 个组件/分组",
+      "widgetGroups_other": "即将删除 <strong>{{count}}</strong> 个组件/分组",
+      "headerLinks_one": "<strong>{{count}}</strong> 个顶栏链接",
+      "headerLinks_other": "<strong>{{count}}</strong> 个顶栏链接",
+      "andConnector": "和",
+      "cancelRestores": "。在编辑模式工具栏中取消可恢复它们。",
+      "nothingToClear": "当前选择无需清除任何内容。",
+      "cancelButton": "取消",
+      "clearWidgets": "清除组件",
+      "clearEverything": "清除全部"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "分享此内容",
+      "copyLink": "复制链接",
+      "linkCopied": "链接已复制",
+      "shareOn": "在 {{platform}} 上分享",
+      "shareVia": "通过 {{platform}} 分享"
+    }
+  }
+}

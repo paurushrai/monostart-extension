@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Dzēst",
+    "cancel": "Atcelt",
+    "save": "Saglabāt",
+    "copy": "Kopēt",
+    "copied": "Nokopēts"
+  },
+  "header": {
+    "menu": {
+      "language": "Valoda",
+      "addLink": "Pievienot saiti",
+      "addWidget": "Pievienot logrīku",
+      "editDashboard": "Rediģēt paneli",
+      "theme": "Izskats un tēma",
+      "share": "Kopīgot MonoStart",
+      "openInNewTab": "Atvērt saites jaunā cilnē"
+    },
+    "settings": "Iestatījumi",
+    "clear": "Notīrīt",
+    "clearDashboard": "Notīrīt paneli",
+    "cancel": "Atcelt",
+    "save": "Saglabāt"
+  },
+  "widgets": {
+    "deleteWidget": "Dzēst logrīku",
+    "placeholder": {
+      "place": "Novietot",
+      "dropToPlace": "Nometiet, lai novietotu"
+    },
+    "todo": {
+      "defaultTitle": "Uzdevumi",
+      "empty": "Vēl nav uzdevumu.",
+      "deleteTask": "Dzēst uzdevumu",
+      "placeholder": "Pievienot uzdevumu...",
+      "newTaskAriaLabel": "Jauns uzdevums",
+      "addTask": "Pievienot uzdevumu",
+      "toggleAriaLabel": "Atzīmēt \"{{text}}\" kā {{status}}",
+      "statusComplete": "pabeigtu",
+      "statusIncomplete": "nepabeigtu"
+    },
+    "timer": {
+      "defaultTitle": "Taimeri",
+      "empty": "Nav iestatītu taimeru.",
+      "deleteTimer": "Dzēst taimeri",
+      "pause": "Pauzēt",
+      "start": "Sākt",
+      "reset": "Atiestatīt",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Taimera ilgums minūtēs",
+      "placeholderLabel": "Nosaukums (neobligāti)",
+      "labelAriaLabel": "Taimera nosaukums (neobligāti)",
+      "addTimer": "Pievienot taimeri"
+    },
+    "reminders": {
+      "defaultTitle": "Atgādinājumi",
+      "empty": "Vēl nav atgādinājumu.",
+      "deleteReminder": "Dzēst atgādinājumu",
+      "placeholder": "Atgādināt man par...",
+      "textAriaLabel": "Atgādinājuma teksts",
+      "recurrenceTitle": "Atkārtošanās",
+      "addReminder": "Pievienot atgādinājumu",
+      "customIntervalAriaLabel": "Pielāgotā intervāla vērtība",
+      "customUnitAriaLabel": "Pielāgotā intervāla vienība",
+      "unitMinutes": "Minūtes",
+      "unitHours": "Stundas",
+      "unitDays": "Dienas",
+      "saveRecurrence": "Saglabāt",
+      "toggleAriaLabel": "Atzīmēt \"{{text}}\" kā {{status}}",
+      "statusComplete": "pabeigtu",
+      "statusIncomplete": "nepabeigtu",
+      "recurrenceNone": "Vienu reizi",
+      "recurrence30min": "Ik pēc 30 min",
+      "recurrenceHourly": "Ik stundu",
+      "recurrenceDaily": "Katru dienu",
+      "recurrenceWeekly": "Katru nedēļu",
+      "recurrenceCustom": "Pielāgots",
+      "everyDay": "Ik {{count}}d",
+      "everyHour": "Ik {{count}}h",
+      "everyMin": "Ik {{count}}m",
+      "every": "Ik",
+      "today": "Šodien {{time}}",
+      "tomorrow": "Rīt {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Piezīme",
+      "changeColor": "Mainīt krāsu",
+      "placeholder": "Rakstiet kaut ko...",
+      "contentAriaLabel": "Piezīmes saturs",
+      "titleAriaLabel": "Piezīmes nosaukums",
+      "actionsAriaLabel": "Piezīmes darbības",
+      "color_default": "Noklusējuma",
+      "color_amber": "Dzeltena",
+      "color_sky": "Zila",
+      "color_rose": "Rozā",
+      "color_emerald": "Zaļa",
+      "color_purple": "Violeta"
+    },
+    "image": {
+      "defaultTitle": "Attēls",
+      "settings": "Attēla iestatījumi",
+      "actionsAriaLabel": "Attēla darbības",
+      "titleAriaLabel": "Attēla nosaukums",
+      "changeImage": "Mainīt attēlu",
+      "fitCover": "Aizpildīt (Apgriezt)",
+      "fitContain": "Ietvert (Proporcijas)",
+      "fitFill": "Izstiept (Piepildīt)",
+      "configureTitle": "Konfigurēt logrīka attēlu",
+      "urlPlaceholder": "Ielīmēt attēla URL...",
+      "or": "Vai",
+      "uploadLocal": "Augšupielādēt vietējo attēlu",
+      "cancelConfig": "Atcelt konfigurāciju",
+      "loadError": "Attēlu neizdevās ielādēt. URL var būt bojāts vai bloķēts."
+    },
+    "label": {
+      "defaultText": "Teksts",
+      "settings": "Teksta iestatījumi",
+      "actionsAriaLabel": "Etiķetes darbības",
+      "textAriaLabel": "Etiķetes teksts",
+      "editText": "Rediģēt tekstu",
+      "showCardStyle": "Rādīt kartes stilu",
+      "fontSize": "Fonta izmērs",
+      "alignment": "Izlīdzinājums",
+      "fontWeight": "Fonta biezums",
+      "opacity": "Caurspīdīgums",
+      "deleteText": "Dzēst tekstu",
+      "alignLeft": "Pa kreisi",
+      "alignCenter": "Centrā",
+      "alignRight": "Pa labi",
+      "fontSizes": {
+        "sm": "Mazs",
+        "base": "Vidējs",
+        "lg": "Liels",
+        "xl": "Ļoti liels",
+        "xl2": "2X liels",
+        "xl3": "3X liels",
+        "xl4": "4X liels",
+        "xl5": "5X liels",
+        "xl6": "6X liels",
+        "xl7": "7X liels",
+        "xl8": "8X liels",
+        "xl9": "9X liels",
+        "xl10": "10X liels",
+        "xl12": "12X liels"
+      },
+      "fontWeights": {
+        "thin": "Plāns",
+        "light": "Viegls",
+        "regular": "Parasts",
+        "medium": "Vidējs",
+        "semibold": "Daļēji trekns",
+        "bold": "Trekns",
+        "extrabold": "Ļoti trekns",
+        "black": "Melns"
+      },
+      "opacities": {
+        "full": "100% (Spilgts)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Blāvs)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Meklēt Google vai ievadīt URL",
+      "searchAriaLabel": "Meklēšanas vaicājums",
+      "voiceSearch": "Balss meklēšana",
+      "lensSearch": "Meklēt jebkuru attēlu ar Lens",
+      "removeWidget": "Noņemt logrīku",
+      "switchToBarOnly": "Pārslēgties uz tikai joslu",
+      "switchToLogoBar": "Pārslēgties uz logo + joslu",
+      "barOnly": "Tikai josla",
+      "showLogo": "Rādīt logo",
+      "toggleLogoStyle": "Pārslēgt logo stilu"
+    },
+    "group": {
+      "borderColorAriaLabel": "Grupas apmales krāsa",
+      "pasteUrlPlaceholder": "Ielīmēt URL...",
+      "colors": {
+        "red": "Sarkana",
+        "pink": "Rozā",
+        "purple": "Violeta",
+        "indigo": "Indigo",
+        "blue": "Zila",
+        "cyan": "Ciāna",
+        "teal": "Tirkīza",
+        "green": "Zaļa",
+        "yellow": "Dzeltena",
+        "orange": "Oranža",
+        "slate": "Pelēka",
+        "neutral": "Neitrāla"
+      },
+      "defaultTitle": "Jauna grupa"
+    },
+    "groupHeader": {
+      "addLink": "Pievienot saiti",
+      "colorBorder": "Krāsaina apmale",
+      "layout": "Izkārtojums",
+      "layoutGrid": "Režģis",
+      "layoutList": "Saraksts",
+      "gridColumns": "Režģa kolonnas",
+      "column_one": "{{count}} kolonna",
+      "column_other": "{{count}} kolonnas",
+      "deleteGroup": "Dzēst grupu",
+      "actionsAriaLabel": "Grupas darbības"
+    },
+    "groupInnerGrid": {
+      "empty": "Tukša grupa",
+      "addFirstLink": "Pievienot pirmo saiti",
+      "dropToAdd": "Nometiet, lai pievienotu",
+      "add": "Pievienot"
+    },
+    "iframe": {
+      "removeWidget": "Noņemt logrīku",
+      "openInNewTab": "Atvērt jaunā cilnē",
+      "defaultTitle": "Iegultā lapa"
+    },
+    "linkCard": {
+      "options": "Opcijas",
+      "rename": "Pārdēvēt",
+      "size": "Izmērs",
+      "sizeSmall": "Mazs (1×1)",
+      "sizeMedium": "Vidējs (3×1)",
+      "moveTo": "Pārvietot uz...",
+      "mainDashboard": "Galvenais panelis",
+      "header": "Galvene",
+      "deleteLink": "Dzēst saiti",
+      "actionsAriaLabel": "Saites darbības"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Meklēt Google vai ievadīt URL."
+      },
+      "group": {
+        "name": "Grupa",
+        "description": "Pielāgotu krāsu grupa saišu kārtošanai."
+      },
+      "reminders": {
+        "name": "Atgādinājumi",
+        "description": "Ieplānojiet atgādinājumus ar pārlūka paziņojumiem. Atbalstīta atkārtošanās ik stundu / katru dienu / katru nedēļu."
+      },
+      "todo": {
+        "name": "Uzdevumu saraksts",
+        "description": "Sekojiet saviem uzdevumiem."
+      },
+      "timer": {
+        "name": "Taimeri",
+        "description": "Pārvaldiet vairākus taimerus."
+      },
+      "note": {
+        "name": "Piezīmīte",
+        "description": "Rakstiet piezīmes vai atgādinājumus ar pielāgotām krāsām."
+      },
+      "image": {
+        "name": "Attēls",
+        "description": "Pievienojiet attēlu no URL vai augšupielādējiet lokālu failu."
+      },
+      "label": {
+        "name": "Teksta etiķete",
+        "description": "Pievienojiet tīru peldošu teksta virsrakstu vai nosaukumu, lai stilizētu savu režģi."
+      },
+      "iframe": {
+        "name": "Iegultā lapa",
+        "description": "Ieguliet jebkuru vietni kā tiešraides logrīku."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Noņemts {{count}} tukšs foto logrīks.",
+    "removedEmptyPhotos_other": "Noņemti {{count}} tukši foto logrīki.",
+    "clearedWidgets_one": "{{count}} logrīks",
+    "clearedWidgets_other": "{{count}} logrīki",
+    "clearedHeaderLinks_one": "{{count}} galvenes saite",
+    "clearedHeaderLinks_other": "{{count}} galvenes saites",
+    "clearedSummary": "Notīrīts {{items}}. Atcelt, lai atsauktu, vai Saglabāt, lai apstiprinātu.",
+    "onlyOneGoogleSearch": "Atļauts tikai viens Google meklēšanas logrīks.",
+    "noRoomForWidget": "Nav vietas šim logrīkam. Mainiet izmēru vai noņemiet kaut ko, lai atbrīvotu vietu.",
+    "swap": {
+      "no-room": "Nevar mainīt vietām — nepietiek vietas, lai ievietotu abus logrīkus to jaunajās pozīcijās.",
+      "out-of-bounds": "Nevar mainīt vietām — viens no logrīkiem pārsniedzot tā minimālo izmēru izietu ārpus režģa robežas.",
+      "overlap": "Nevar mainīt vietām — abu logrīku minimālie izmēri pārklājas.",
+      "obstacle": "Nevar mainīt vietām — ceļā atrodas cits logrīks. Vispirms pārvietojiet vai mainiet tā izmēru."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Saglabāt MonoStart",
+    "saveLink": "Saglabāt saiti",
+    "saved": "Saglabāts!",
+    "openDashboard": "Atvērt paneli",
+    "destination": {
+      "label": "Galamērķis",
+      "main": "Galvenais panelis",
+      "header": "Galvenes josla"
+    },
+    "reminders": {
+      "ariaLabel": "Gaidošie atgādinājumi",
+      "count_one": "{{count}} atgādinājums",
+      "count_other": "{{count}} atgādinājumi",
+      "clearAll": "Notīrīt visus",
+      "dismiss": "Noraidīt"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Paslēpt Chrome kājenes ceļvedi",
+      "success": "Kājene paslēpta — baudiet pilnekrāna skatu!",
+      "corner": {
+        "title": "Iegūstiet pilnekrāna pieredzi",
+        "intro": "Chrome pievieno kājeni zem MonoStart. Lai to paslēptu, noklikšķiniet uz",
+        "cta": "Pielāgot Chrome",
+        "ctaSuffix": "apakšējā labajā stūrī.",
+        "noFooter": "Neredzat kājeni? Viss kārtībā — izlaidiet šo soli."
+      },
+      "panel": {
+        "title": "Gandrīz gatavs",
+        "intro": "Sadaļā",
+        "setting": "Kājene",
+        "turnOff": ", izslēdziet",
+        "action": "Rādīt kājeni jaunās cilnes lapā",
+        "suffix": ", pēc tam aizveriet paneli."
+      },
+      "skip": "Izlaist",
+      "next": "Tālāk",
+      "done": "Gatavs"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Valoda",
+      "subtitle": "Izvēlieties valodu",
+      "search": "Meklēt valodas…",
+      "empty": "Neviena valoda neatbilst meklēšanai."
+    },
+    "addWidget": {
+      "title": "Pievienot logrīku",
+      "titleConfigure": "Konfigurēt {{name}}",
+      "titleGoogleStyle": "Izvēlieties Google meklēšanas stilu",
+      "logoBarTitle": "Logo + josla",
+      "logoBarDesc": "Liels Google logo virs meklēšanas joslas. Aizņem 4 rindas.",
+      "barOnlyTitle": "Tikai josla",
+      "barOnlyDesc": "Tikai meklēšanas josla. Aizņem 1 rindu. Kompakts.",
+      "urlLabel": "URL vai iegultais kods",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Ielīmējiet URL vienkāršai iegulšanai vai ielīmējiet <code>&lt;iframe&gt;</code> fragmentu no vietnēm, kas bloķē tiešu ielādi (YouTube, Figma, Spotify, CodePen u.c.).",
+      "back": "Atpakaļ",
+      "embedWidget": "Iegult logrīku"
+    },
+    "addLink": {
+      "title": "Pievienot saiti",
+      "description": "Ielīmējiet URL, lai pievienotu jaunu saites karti savam panelim.",
+      "urlLabel": "Vietnes URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Nosaukums (neobligāti)",
+      "titlePlaceholder": "Mana saite",
+      "locationLabel": "Atrašanās vieta",
+      "locationMainDashboard": "Galvenais panelis",
+      "locationHeader": "Galvene (tikai favicon)",
+      "locationFolder": "Mape: {{title}}",
+      "locationGroup": "Grupa: {{title}}",
+      "cancel": "Atcelt",
+      "submit": "Pievienot saiti"
+    },
+    "theme": {
+      "title": "Izskats un tēma",
+      "description": "Pielāgojiet sava paneļa izskatu.",
+      "modeGroupLabel": "Tēmas režīms",
+      "light": "Gaišs",
+      "dark": "Tumšs",
+      "device": "Ierīce",
+      "primaryColorHeading": "Primārā krāsa",
+      "primaryColorPresetsLabel": "Primārās krāsas iepriekš iestatītās",
+      "customColorLabel": "Pielāgota krāsa",
+      "customColorTitle": "Pielāgota krāsa",
+      "customHue": "Pielāgots nokrāsa",
+      "backgroundHeading": "Fons",
+      "backgroundTypeLabel": "Fona veids",
+      "backgroundColorLabel": "Fona krāsa",
+      "backgroundGradientLabel": "Fona gradients",
+      "imageUrlPlaceholder": "Ielīmēt attēla URL...",
+      "uploadImage": "Augšupielādēt attēlu",
+      "imageUploaded": "Pielāgots attēls augšupielādēts.",
+      "blur": "Izplūšana",
+      "dim": "Aptumšošana",
+      "fileReadError": "Neizdevās nolasīt failu.",
+      "bgType": {
+        "none": "Nav",
+        "color": "Krāsa",
+        "gradient": "Gradients",
+        "image": "Attēls"
+      },
+      "themes": {
+        "default": "Noklusējuma",
+        "grey": "Pelēka",
+        "blue": "Zila",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Zaļa",
+        "citron": "Citron",
+        "yellow": "Dzeltena",
+        "orange": "Oranža",
+        "apricot": "Aprikoze",
+        "tomato": "Tomātu",
+        "rose": "Roze",
+        "pink": "Rozā",
+        "fuchsia": "Fuksija",
+        "violet": "Violeta"
+      },
+      "gradients": {
+        "dusk": "Krēsla",
+        "sunset": "Saulriets",
+        "ocean": "Okeāns",
+        "forest": "Mežs",
+        "slate": "Slāneklis",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "Notīrīt paneli",
+      "description": "Tādējādi logrīki tiek noņemti no paneļa. Jūs esat rediģēšanas režīmā, tāpēc joprojām varat nospiest Atcelt, lai atsauktu pirms saglabāšanas.",
+      "widgetsGroups": "Logrīki un grupas galvenajā režģī",
+      "linksInsideGroups": "↳ saites grupās",
+      "headerBarLinks": "Galvenes joslas saites",
+      "alsoClearHeaderLabel": "Arī notīrīt galvenes joslas saites",
+      "alsoClearHeaderDesc": "Pēc noklusējuma galvenes josla tiek saglabāta. Atzīmējiet šo, lai to arī notīrītu.",
+      "widgetGroups_one": "Tiks dzēsts <strong>{{count}}</strong> logrīks/grupa",
+      "widgetGroups_other": "Tiks dzēsti <strong>{{count}}</strong> logrīki/grupas",
+      "headerLinks_one": "<strong>{{count}}</strong> galvenes saite",
+      "headerLinks_other": "<strong>{{count}}</strong> galvenes saites",
+      "andConnector": " un ",
+      "cancelRestores": ". Atcelt rediģēšanas rīkjoslā tos atjauno.",
+      "nothingToClear": "Nav ko notīrīt ar pašreizējo atlasi.",
+      "cancelButton": "Atcelt",
+      "clearWidgets": "Notīrīt logrīkus",
+      "clearEverything": "Notīrīt visu"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Kopīgot šo vienumu",
+      "copyLink": "Kopēt saiti",
+      "linkCopied": "Saite nokopēta",
+      "shareOn": "Kopīgot {{platform}}",
+      "shareVia": "Kopīgot, izmantojot {{platform}}"
+    }
+  }
+}

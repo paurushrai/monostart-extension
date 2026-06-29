@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "કાઢી નાખો",
+    "cancel": "રદ કરો",
+    "save": "સાચવો",
+    "copy": "કૉપિ કરો",
+    "copied": "કૉપિ થઈ ગઈ"
+  },
+  "header": {
+    "menu": {
+      "language": "ભાષા",
+      "addLink": "લિંક ઉમેરો",
+      "addWidget": "વિજેટ ઉમેરો",
+      "editDashboard": "ડૅશબોર્ડ સંપાદિત કરો",
+      "theme": "થીમ અને દેખાવ",
+      "share": "MonoStart શૅર કરો",
+      "openInNewTab": "નવી ટૅબમાં લિંક ખોલો"
+    },
+    "settings": "સેટિંગ્સ",
+    "clear": "સાફ કરો",
+    "clearDashboard": "ડૅશબોર્ડ સાફ કરો",
+    "cancel": "રદ કરો",
+    "save": "સાચવો"
+  },
+  "widgets": {
+    "deleteWidget": "વિજેટ કાઢી નાખો",
+    "placeholder": {
+      "place": "મૂકો",
+      "dropToPlace": "મૂકવા માટે છોડો"
+    },
+    "todo": {
+      "defaultTitle": "કાર્યો",
+      "empty": "હજી કોઈ કાર્ય નથી.",
+      "deleteTask": "કાર્ય કાઢી નાખો",
+      "placeholder": "કાર્ય ઉમેરો...",
+      "newTaskAriaLabel": "નવું કાર્ય",
+      "addTask": "કાર્ય ઉમેરો",
+      "toggleAriaLabel": "\"{{text}}\" ને {{status}} તરીકે ચિહ્નિત કરો",
+      "statusComplete": "પૂર્ણ",
+      "statusIncomplete": "અધૂરું"
+    },
+    "timer": {
+      "defaultTitle": "ટાઇમર",
+      "empty": "કોઈ ટાઇમર સેટ નથી.",
+      "deleteTimer": "ટાઇમર કાઢી નાખો",
+      "pause": "થોભો",
+      "start": "શરૂ કરો",
+      "reset": "રીસેટ કરો",
+      "placeholderMin": "મિનિટ",
+      "durationAriaLabel": "ટાઇમરની અવધિ મિનિટમાં",
+      "placeholderLabel": "લેબલ (વૈકલ્પિક)",
+      "labelAriaLabel": "ટાઇમર લેબલ (વૈકલ્પિક)",
+      "addTimer": "ટાઇમર ઉમેરો"
+    },
+    "reminders": {
+      "defaultTitle": "રિમાઇન્ડર",
+      "empty": "હજી કોઈ રિમાઇન્ડર નથી.",
+      "deleteReminder": "રિમાઇન્ડર કાઢી નાખો",
+      "placeholder": "મને યાદ કરાવો...",
+      "textAriaLabel": "રિમાઇન્ડર ટેક્સ્ટ",
+      "recurrenceTitle": "પુનરાવૃત્તિ",
+      "addReminder": "રિમાઇન્ડર ઉમેરો",
+      "customIntervalAriaLabel": "કસ્ટમ અંતરાલ મૂલ્ય",
+      "customUnitAriaLabel": "કસ્ટમ અંતરાલ એકમ",
+      "unitMinutes": "મિનિટ",
+      "unitHours": "કલાક",
+      "unitDays": "દિવસ",
+      "saveRecurrence": "સાચવો",
+      "toggleAriaLabel": "\"{{text}}\" ને {{status}} તરીકે ચિહ્નિત કરો",
+      "statusComplete": "પૂર્ણ",
+      "statusIncomplete": "અધૂરું",
+      "recurrenceNone": "એક વખત",
+      "recurrence30min": "દર 30 મિનિટે",
+      "recurrenceHourly": "કલાકદીઠ",
+      "recurrenceDaily": "દૈનિક",
+      "recurrenceWeekly": "સાપ્તાહિક",
+      "recurrenceCustom": "કસ્ટમ",
+      "everyDay": "દર {{count}}દ",
+      "everyHour": "દર {{count}}ક",
+      "everyMin": "દર {{count}}મ",
+      "every": "દર",
+      "today": "આજે {{time}}",
+      "tomorrow": "કાલે {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "નોંધ",
+      "changeColor": "રંગ બદલો",
+      "placeholder": "કંઈક લખો...",
+      "contentAriaLabel": "નોંધની સામગ્રી",
+      "titleAriaLabel": "નોંધનું શીર્ષક",
+      "actionsAriaLabel": "નોંધની ક્રિયાઓ",
+      "color_default": "ડિફૉલ્ટ",
+      "color_amber": "પીળો",
+      "color_sky": "વાદળી",
+      "color_rose": "ગુલાબી",
+      "color_emerald": "લીલો",
+      "color_purple": "જાંબલી"
+    },
+    "image": {
+      "defaultTitle": "છબી",
+      "settings": "છબી સેટિંગ્સ",
+      "actionsAriaLabel": "છબીની ક્રિયાઓ",
+      "titleAriaLabel": "છબીનું શીર્ષક",
+      "changeImage": "છબી બદલો",
+      "fitCover": "કવર (ક્રૉપ)",
+      "fitContain": "સમાવો (પ્રમાણ)",
+      "fitFill": "ભરો (ખેંચો)",
+      "configureTitle": "વિજેટ છબી ગોઠવો",
+      "urlPlaceholder": "છબી URL પૅસ્ટ કરો...",
+      "or": "અથવા",
+      "uploadLocal": "સ્થાનિક છબી અપલોડ કરો",
+      "cancelConfig": "ગોઠવણ રદ કરો",
+      "loadError": "છબી લોડ થઈ શકી નહીં. URL ભૂલભર્યો અથવા અવરોધિત હોઈ શકે છે."
+    },
+    "label": {
+      "defaultText": "ટેક્સ્ટ",
+      "settings": "ટેક્સ્ટ સેટિંગ્સ",
+      "actionsAriaLabel": "લેબલની ક્રિયાઓ",
+      "textAriaLabel": "લેબલ ટેક્સ્ટ",
+      "editText": "ટેક્સ્ટ સંપાદિત કરો",
+      "showCardStyle": "કાર્ડ શૈલી બતાવો",
+      "fontSize": "ફૉન્ટ કદ",
+      "alignment": "સંરેખણ",
+      "fontWeight": "ફૉન્ટ વજન",
+      "opacity": "અપારદર્શિતા",
+      "deleteText": "ટેક્સ્ટ કાઢી નાખો",
+      "alignLeft": "ડાબે",
+      "alignCenter": "મધ્યમાં",
+      "alignRight": "જમણે",
+      "fontSizes": {
+        "sm": "નાનો",
+        "base": "મધ્યમ",
+        "lg": "મોટો",
+        "xl": "ખૂબ મોટો",
+        "xl2": "2× મોટો",
+        "xl3": "3× મોટો",
+        "xl4": "4× મોટો",
+        "xl5": "5× મોટો",
+        "xl6": "6× મોટો",
+        "xl7": "7× મોટો",
+        "xl8": "8× મોટો",
+        "xl9": "9× મોટો",
+        "xl10": "10× મોટો",
+        "xl12": "12× મોટો"
+      },
+      "fontWeights": {
+        "thin": "પાતળો",
+        "light": "હળવો",
+        "regular": "સામાન્ય",
+        "medium": "મધ્યમ",
+        "semibold": "અર્ધ-ઘાટો",
+        "bold": "ઘાટો",
+        "extrabold": "અધિ-ઘાટો",
+        "black": "કાળો"
+      },
+      "opacities": {
+        "full": "100% (ઉજ્જ્વળ)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (ઝાંખો)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google પર શોધો અથવા URL ટાઇપ કરો",
+      "searchAriaLabel": "શોધ ક્વેરી",
+      "voiceSearch": "વૉઇસ સર્ચ",
+      "lensSearch": "Lens વડે કોઈ પણ છબી શોધો",
+      "removeWidget": "વિજેટ હટાવો",
+      "switchToBarOnly": "ફક્ત બાર પર સ્વિચ કરો",
+      "switchToLogoBar": "લોગો + બાર પર સ્વિચ કરો",
+      "barOnly": "ફક્ત બાર",
+      "showLogo": "લોગો બતાવો",
+      "toggleLogoStyle": "લોગો શૈલી ટૉગલ કરો"
+    },
+    "group": {
+      "borderColorAriaLabel": "જૂથ બૉર્ડર રંગ",
+      "pasteUrlPlaceholder": "URL પૅસ્ટ કરો...",
+      "colors": {
+        "red": "લાલ",
+        "pink": "ગુલાબી",
+        "purple": "જાંબલી",
+        "indigo": "ઇન્ડિગો",
+        "blue": "વાદળી",
+        "cyan": "સિયાન",
+        "teal": "ટીલ",
+        "green": "લીલો",
+        "yellow": "પીળો",
+        "orange": "નારંગી",
+        "slate": "સ્લેટ",
+        "neutral": "તટસ્થ"
+      },
+      "defaultTitle": "નવું જૂથ"
+    },
+    "groupHeader": {
+      "addLink": "લિંક ઉમેરો",
+      "colorBorder": "રંગ બૉર્ડર",
+      "layout": "લેઆઉટ",
+      "layoutGrid": "ગ્રિડ",
+      "layoutList": "સૂચિ",
+      "gridColumns": "ગ્રિડ કૉલમ",
+      "column_one": "{{count}} કૉલમ",
+      "column_other": "{{count}} કૉલમ",
+      "deleteGroup": "જૂથ કાઢી નાખો",
+      "actionsAriaLabel": "જૂથ ક્રિયાઓ"
+    },
+    "groupInnerGrid": {
+      "empty": "ખાલી જૂથ",
+      "addFirstLink": "પ્રથમ લિંક ઉમેરો",
+      "dropToAdd": "ઉમેરવા માટે છોડો",
+      "add": "ઉમેરો"
+    },
+    "iframe": {
+      "removeWidget": "વિજેટ હટાવો",
+      "openInNewTab": "નવી ટૅબમાં ખોલો",
+      "defaultTitle": "એમ્બેડ કરેલ પૃષ્ઠ"
+    },
+    "linkCard": {
+      "options": "વિકલ્પો",
+      "rename": "નામ બદલો",
+      "size": "કદ",
+      "sizeSmall": "નાનો (1×1)",
+      "sizeMedium": "મધ્યમ (3×1)",
+      "moveTo": "ખસેડો...",
+      "mainDashboard": "મુખ્ય ડૅશબોર્ડ",
+      "header": "હૅડર",
+      "deleteLink": "લિંક કાઢી નાખો",
+      "actionsAriaLabel": "લિંક ક્રિયાઓ"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Google પર શોધો અથવા URL ટાઇપ કરો."
+      },
+      "group": {
+        "name": "જૂથ",
+        "description": "તમારી લિંક્સ ગોઠવવા માટે કસ્ટમ-રંગીન જૂથ."
+      },
+      "reminders": {
+        "name": "રિમાઇન્ડર",
+        "description": "બ્રાઉઝર સૂચનાઓ સાથે રિમાઇન્ડર સુનિશ્ચિત કરો. કલાકદીઠ / દૈનિક / સાપ્તાહિક પુનરાવૃત્તિ સમર્થિત."
+      },
+      "todo": {
+        "name": "કાર્ય સૂચિ",
+        "description": "તમારા કાર્યો ટ્રૅક કરો."
+      },
+      "timer": {
+        "name": "ટાઇમર",
+        "description": "બહુવિધ ટાઇમર સંચાલિત કરો."
+      },
+      "note": {
+        "name": "સ્ટિકી નોટ",
+        "description": "કસ્ટમ રંગો સાથે નોંધ અથવા રિમાઇન્ડર લખો."
+      },
+      "image": {
+        "name": "છબી",
+        "description": "URL માંથી છબી ઉમેરો અથવા સ્થાનિક ફાઇલ અપલોડ કરો."
+      },
+      "label": {
+        "name": "ટેક્સ્ટ લેબલ",
+        "description": "તમારી ગ્રિડ સ્ટાઇલ કરવા માટે સ્વચ્છ ફ્લોટિંગ ટેક્સ્ટ હૅડર અથવા શીર્ષક ઉમેરો."
+      },
+      "iframe": {
+        "name": "એમ્બેડ કરેલ પૃષ્ઠ",
+        "description": "કોઈ પણ વેબસાઇટ લાઇવ વિજેટ તરીકે એમ્બેડ કરો."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} ખાલી ફોટો વિજેટ દૂર કર્યું.",
+    "removedEmptyPhotos_other": "{{count}} ખાલી ફોટો વિજેટ્સ દૂર કર્યા.",
+    "clearedWidgets_one": "{{count}} વિજેટ",
+    "clearedWidgets_other": "{{count}} વિજેટ્સ",
+    "clearedHeaderLinks_one": "{{count}} હૅડર લિંક",
+    "clearedHeaderLinks_other": "{{count}} હૅડર લિંક્સ",
+    "clearedSummary": "{{items}} સાફ કર્યા. પૂર્વવત્ કરવા રદ કરો, અથવા પુષ્ટિ કરવા સાચવો.",
+    "onlyOneGoogleSearch": "ફક્ત એક Google સર્ચ વિજેટ જ માન્ય છે.",
+    "noRoomForWidget": "આ વિજેટ માટે જગ્યા નથી. જગ્યા બનાવવા માટે કંઈક બદલો અથવા દૂર કરો.",
+    "swap": {
+      "no-room": "સ્વૅપ શક્ય નથી — બંને વિજેટ્સ માટે નવી સ્થિતિઓ પર પૂરતી જગ્યા નથી.",
+      "out-of-bounds": "સ્વૅપ શક્ય નથી — એક વિજેટ ન્યૂનતમ કદ પર ગ્રિડની ધારથી બહાર જશે.",
+      "overlap": "સ્વૅપ શક્ય નથી — બે વિજેટ્સના ન્યૂનતમ કદ એકબીજા સાથે ઓવરલૅપ થાય છે.",
+      "obstacle": "સ્વૅપ શક્ય નથી — રસ્તામાં બીજો વિજેટ છે. પહેલા તેને ખસેડો અથવા બદલો."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStart માં સાચવો",
+    "saveLink": "લિંક સાચવો",
+    "saved": "સચવાઈ ગઈ!",
+    "openDashboard": "ડૅશબોર્ડ ખોલો",
+    "destination": {
+      "label": "સ્થળ",
+      "main": "મુખ્ય ડૅશબોર્ડ",
+      "header": "હૅડર બાર"
+    },
+    "reminders": {
+      "ariaLabel": "બાકી રિમાઇન્ડર",
+      "count_one": "{{count}} રિમાઇન્ડર",
+      "count_other": "{{count}} રિમાઇન્ડર",
+      "clearAll": "બધા સાફ કરો",
+      "dismiss": "બરતરફ કરો"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome ફૂટર માર્ગદર્શિકા છુપાવો",
+      "success": "ફૂટર છૂપાઈ ગઈ — સંપૂર્ણ સ્ક્રીનનો આનંદ માણો!",
+      "corner": {
+        "title": "ફુલ-સ્ક્રીન અનુભવ મેળવો",
+        "intro": "Chrome MonoStart ની નીચે ફૂટર ઉમેરે છે. તેને છૂપાવવા, ક્લિક કરો",
+        "cta": "Chrome કસ્ટમાઇઝ કરો",
+        "ctaSuffix": "નીચે-જમણા ખૂણામાં.",
+        "noFooter": "ફૂટર દેખાતી નથી? તમે તૈયાર છો — આ છોડો."
+      },
+      "panel": {
+        "title": "લગભગ થઈ ગયું",
+        "intro": "અંતર્ગત",
+        "setting": "ફૂટર",
+        "turnOff": ", બંધ કરો",
+        "action": "નવી ટૅબ પૃષ્ઠ પર ફૂટર બતાવો",
+        "suffix": ", પછી પૅનલ બંધ કરો."
+      },
+      "skip": "છોડો",
+      "next": "આગળ",
+      "done": "થઈ ગયું"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "ભાષા",
+      "subtitle": "તમારી ભાષા પસંદ કરો",
+      "search": "ભાષાઓ શોધો…",
+      "empty": "તમારી શોધ સાથે કોઈ ભાષા મળી નહીં."
+    },
+    "addWidget": {
+      "title": "વિજેટ ઉમેરો",
+      "titleConfigure": "{{name}} ગોઠવો",
+      "titleGoogleStyle": "Google સર્ચ શૈલી પસંદ કરો",
+      "logoBarTitle": "લોગો + બાર",
+      "logoBarDesc": "સર્ચ બારની ઉપર મોટો Google લોગો. 4 પંક્તિઓ લે છે.",
+      "barOnlyTitle": "ફક્ત બાર",
+      "barOnlyDesc": "ફક્ત સર્ચ બાર. 1 પંક્તિ લે છે. સંક્ષિપ્ત.",
+      "urlLabel": "URL અથવા એમ્બેડ કોડ",
+      "urlPlaceholder": "https://example.com\nઅથવા\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "સરળ એમ્બેડ માટે URL પૅસ્ટ કરો, અથવા એવી સાઇટ્સ કે જે સીધું લૉડ અટકાવે છે (YouTube, Figma, Spotify, CodePen, વગેરે) ત્યાંથી <code>&lt;iframe&gt;</code> સ્નિપેટ પૅસ્ટ કરો.",
+      "back": "પાછળ",
+      "embedWidget": "વિજેટ એમ્બેડ કરો"
+    },
+    "addLink": {
+      "title": "લિંક ઉમેરો",
+      "description": "તમારા ડૅશબોર્ડ પર નવી લિંક કાર્ડ ઉમેરવા URL પૅસ્ટ કરો.",
+      "urlLabel": "વેબસાઇટ URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "શીર્ષક (વૈકલ્પિક)",
+      "titlePlaceholder": "મારી લિંક",
+      "locationLabel": "સ્થળ",
+      "locationMainDashboard": "મુખ્ય ડૅશબોર્ડ",
+      "locationHeader": "હૅડર (ફૅવિકૉન માત્ર)",
+      "locationFolder": "ફૉલ્ડર: {{title}}",
+      "locationGroup": "જૂથ: {{title}}",
+      "cancel": "રદ કરો",
+      "submit": "લિંક ઉમેરો"
+    },
+    "theme": {
+      "title": "થીમ અને દેખાવ",
+      "description": "તમારા ડૅશબોર્ડનો દેખાવ કસ્ટમાઇઝ કરો.",
+      "modeGroupLabel": "થીમ મોડ",
+      "light": "પ્રકાશ",
+      "dark": "અંધારો",
+      "device": "ઉપકરણ",
+      "primaryColorHeading": "પ્રાથમિક રંગ",
+      "primaryColorPresetsLabel": "પ્રાથમિક રંગ પ્રીસેટ",
+      "customColorLabel": "કસ્ટમ રંગ",
+      "customColorTitle": "કસ્ટમ રંગ",
+      "customHue": "કસ્ટમ રંગ છટા",
+      "backgroundHeading": "પૃષ્ઠભૂમિ",
+      "backgroundTypeLabel": "પૃષ્ઠભૂમિ પ્રકાર",
+      "backgroundColorLabel": "પૃષ્ઠભૂમિ રંગ",
+      "backgroundGradientLabel": "પૃષ્ઠભૂમિ ઢાળ",
+      "imageUrlPlaceholder": "છબી URL પૅસ્ટ કરો...",
+      "uploadImage": "છબી અપલોડ કરો",
+      "imageUploaded": "કસ્ટમ છબી અપલોડ થઈ.",
+      "blur": "ઝાંખું",
+      "dim": "ઘાટું",
+      "fileReadError": "ફાઇલ વાંચી શકાઈ નહીં.",
+      "bgType": {
+        "none": "કોઈ નહીં",
+        "color": "રંગ",
+        "gradient": "ઢાળ",
+        "image": "છબી"
+      },
+      "themes": {
+        "default": "Default",
+        "grey": "Grey",
+        "blue": "Blue",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Green",
+        "citron": "Citron",
+        "yellow": "Yellow",
+        "orange": "Orange",
+        "apricot": "Apricot",
+        "tomato": "Tomato",
+        "rose": "Rose",
+        "pink": "Pink",
+        "fuchsia": "Fuchsia",
+        "violet": "Violet"
+      },
+      "gradients": {
+        "dusk": "સાંજ",
+        "sunset": "સૂર્યાસ્ત",
+        "ocean": "સાગર",
+        "forest": "અરણ્ય",
+        "slate": "Slate",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "ડૅશબોર્ડ સાફ કરો",
+      "description": "આ ડૅશબોર્ડ પરથી વિજેટ્સ દૂર કરે છે. તમે સંપાદન મોડમાં છો, તેથી સાચવ્યા પહેલા રદ કરવા માટે હજી પણ રદ દબાવી શકો છો.",
+      "widgetsGroups": "મુખ્ય ગ્રિડ પર વિજેટ્સ અને જૂથો",
+      "linksInsideGroups": "↳ જૂથોની અંદર લિંક્સ",
+      "headerBarLinks": "હૅડર બારની લિંક્સ",
+      "alsoClearHeaderLabel": "હૅડર બારની લિંક્સ પણ સાફ કરો",
+      "alsoClearHeaderDesc": "ડિફૉલ્ટ રૂપે હૅડર બાર સચવાઈ રહે છે. તેને પણ સાફ કરવા આ ટિક કરો.",
+      "widgetGroups_one": "<strong>{{count}}</strong> વિજેટ/જૂથ કાઢી નાખવાનો છે",
+      "widgetGroups_other": "<strong>{{count}}</strong> વિજેટ્સ/જૂથો કાઢી નાખવાના છે",
+      "headerLinks_one": "<strong>{{count}}</strong> હૅડર લિંક",
+      "headerLinks_other": "<strong>{{count}}</strong> હૅડર લિંક્સ",
+      "andConnector": " અને ",
+      "cancelRestores": ". સંપાદન-મોડ ટૂલબારમાં રદ કરો તેમને પુનઃસ્થાપિત કરે છે.",
+      "nothingToClear": "વર્તમાન પસંદગી સાથે સાફ કરવા માટે કંઈ નથી.",
+      "cancelButton": "રદ કરો",
+      "clearWidgets": "વિજેટ્સ સાફ કરો",
+      "clearEverything": "બધું સાફ કરો"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "આ આઇટમ શૅર કરો",
+      "copyLink": "લિંક કૉપિ કરો",
+      "linkCopied": "લિંક કૉપિ થઈ",
+      "shareOn": "{{platform}} પર શૅર કરો",
+      "shareVia": "{{platform}} દ્વારા શૅર કરો"
+    }
+  }
+}

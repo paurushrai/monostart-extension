@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "刪除",
+    "cancel": "取消",
+    "save": "儲存",
+    "copy": "複製",
+    "copied": "已複製"
+  },
+  "header": {
+    "menu": {
+      "language": "語言",
+      "addLink": "新增連結",
+      "addWidget": "新增小工具",
+      "editDashboard": "編輯儀表板",
+      "theme": "主題與外觀",
+      "share": "分享 MonoStart",
+      "openInNewTab": "在新分頁中開啟連結"
+    },
+    "settings": "設定",
+    "clear": "清除",
+    "clearDashboard": "清除儀表板",
+    "cancel": "取消",
+    "save": "儲存"
+  },
+  "widgets": {
+    "deleteWidget": "刪除小工具",
+    "placeholder": {
+      "place": "放置",
+      "dropToPlace": "拖放以放置"
+    },
+    "todo": {
+      "defaultTitle": "待辦事項",
+      "empty": "尚無任務。",
+      "deleteTask": "刪除任務",
+      "placeholder": "新增任務...",
+      "newTaskAriaLabel": "新任務",
+      "addTask": "新增任務",
+      "toggleAriaLabel": "將「{{text}}」標記為{{status}}",
+      "statusComplete": "已完成",
+      "statusIncomplete": "未完成"
+    },
+    "timer": {
+      "defaultTitle": "計時器",
+      "empty": "尚未設定計時器。",
+      "deleteTimer": "刪除計時器",
+      "pause": "暫停",
+      "start": "開始",
+      "reset": "重設",
+      "placeholderMin": "分鐘",
+      "durationAriaLabel": "計時器時長（分鐘）",
+      "placeholderLabel": "標籤（選填）",
+      "labelAriaLabel": "計時器標籤（選填）",
+      "addTimer": "新增計時器"
+    },
+    "reminders": {
+      "defaultTitle": "提醒事項",
+      "empty": "尚無提醒事項。",
+      "deleteReminder": "刪除提醒",
+      "placeholder": "提醒我...",
+      "textAriaLabel": "提醒內容",
+      "recurrenceTitle": "重複頻率",
+      "addReminder": "新增提醒",
+      "customIntervalAriaLabel": "自訂間隔值",
+      "customUnitAriaLabel": "自訂間隔單位",
+      "unitMinutes": "分鐘",
+      "unitHours": "小時",
+      "unitDays": "天",
+      "saveRecurrence": "儲存",
+      "toggleAriaLabel": "將「{{text}}」標記為{{status}}",
+      "statusComplete": "已完成",
+      "statusIncomplete": "未完成",
+      "recurrenceNone": "一次",
+      "recurrence30min": "每 30 分鐘",
+      "recurrenceHourly": "每小時",
+      "recurrenceDaily": "每天",
+      "recurrenceWeekly": "每週",
+      "recurrenceCustom": "自訂",
+      "everyDay": "每 {{count}} 天",
+      "everyHour": "每 {{count}} 小時",
+      "everyMin": "每 {{count}} 分鐘",
+      "every": "每隔",
+      "today": "今天 {{time}}",
+      "tomorrow": "明天 {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "備忘錄",
+      "changeColor": "更改顏色",
+      "placeholder": "寫點什麼...",
+      "contentAriaLabel": "備忘錄內容",
+      "titleAriaLabel": "備忘錄標題",
+      "actionsAriaLabel": "備忘錄操作",
+      "color_default": "預設",
+      "color_amber": "黃色",
+      "color_sky": "藍色",
+      "color_rose": "粉紅色",
+      "color_emerald": "綠色",
+      "color_purple": "紫色"
+    },
+    "image": {
+      "defaultTitle": "圖片",
+      "settings": "圖片設定",
+      "actionsAriaLabel": "圖片操作",
+      "titleAriaLabel": "圖片標題",
+      "changeImage": "更換圖片",
+      "fitCover": "覆蓋（裁切）",
+      "fitContain": "包含（比例）",
+      "fitFill": "填滿（拉伸）",
+      "configureTitle": "設定小工具圖片",
+      "urlPlaceholder": "貼上圖片網址...",
+      "or": "或",
+      "uploadLocal": "上傳本機圖片",
+      "cancelConfig": "取消設定",
+      "loadError": "圖片載入失敗。網址可能已失效或遭到封鎖。"
+    },
+    "label": {
+      "defaultText": "文字",
+      "settings": "文字設定",
+      "actionsAriaLabel": "標籤操作",
+      "textAriaLabel": "標籤文字",
+      "editText": "編輯文字",
+      "showCardStyle": "顯示卡片樣式",
+      "fontSize": "字體大小",
+      "alignment": "對齊方式",
+      "fontWeight": "字體粗細",
+      "opacity": "不透明度",
+      "deleteText": "刪除文字",
+      "alignLeft": "靠左",
+      "alignCenter": "置中",
+      "alignRight": "靠右",
+      "fontSizes": {
+        "sm": "小",
+        "base": "中",
+        "lg": "大",
+        "xl": "特大",
+        "xl2": "2X 大",
+        "xl3": "3X 大",
+        "xl4": "4X 大",
+        "xl5": "5X 大",
+        "xl6": "6X 大",
+        "xl7": "7X 大",
+        "xl8": "8X 大",
+        "xl9": "9X 大",
+        "xl10": "10X 大",
+        "xl12": "12X 大"
+      },
+      "fontWeights": {
+        "thin": "極細",
+        "light": "細",
+        "regular": "標準",
+        "medium": "中等",
+        "semibold": "半粗",
+        "bold": "粗體",
+        "extrabold": "特粗",
+        "black": "黑體"
+      },
+      "opacities": {
+        "full": "100%（明亮）",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40%（柔和）"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "搜尋 Google 或輸入網址",
+      "searchAriaLabel": "搜尋查詢",
+      "voiceSearch": "語音搜尋",
+      "lensSearch": "使用 Lens 搜尋任何圖片",
+      "removeWidget": "移除小工具",
+      "switchToBarOnly": "切換為僅顯示搜尋列",
+      "switchToLogoBar": "切換為標誌加搜尋列",
+      "barOnly": "僅顯示搜尋列",
+      "showLogo": "顯示標誌",
+      "toggleLogoStyle": "切換標誌樣式"
+    },
+    "group": {
+      "borderColorAriaLabel": "群組邊框顏色",
+      "pasteUrlPlaceholder": "貼上網址...",
+      "colors": {
+        "red": "紅色",
+        "pink": "粉紅色",
+        "purple": "紫色",
+        "indigo": "靛藍色",
+        "blue": "藍色",
+        "cyan": "青色",
+        "teal": "藍綠色",
+        "green": "綠色",
+        "yellow": "黃色",
+        "orange": "橙色",
+        "slate": "石板色",
+        "neutral": "中性色"
+      },
+      "defaultTitle": "新增群組"
+    },
+    "groupHeader": {
+      "addLink": "新增連結",
+      "colorBorder": "邊框顏色",
+      "layout": "版面配置",
+      "layoutGrid": "格狀",
+      "layoutList": "清單",
+      "gridColumns": "格狀欄數",
+      "column_one": "{{count}} 欄",
+      "column_other": "{{count}} 欄",
+      "deleteGroup": "刪除群組",
+      "actionsAriaLabel": "群組操作"
+    },
+    "groupInnerGrid": {
+      "empty": "空群組",
+      "addFirstLink": "新增第一個連結",
+      "dropToAdd": "拖放以新增",
+      "add": "新增"
+    },
+    "iframe": {
+      "removeWidget": "移除小工具",
+      "openInNewTab": "在新分頁中開啟",
+      "defaultTitle": "嵌入頁面"
+    },
+    "linkCard": {
+      "options": "選項",
+      "rename": "重新命名",
+      "size": "大小",
+      "sizeSmall": "小（1×1）",
+      "sizeMedium": "中（3×1）",
+      "moveTo": "移至...",
+      "mainDashboard": "主儀表板",
+      "header": "頁首",
+      "deleteLink": "刪除連結",
+      "actionsAriaLabel": "連結操作"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google 搜尋",
+        "description": "搜尋 Google 或輸入 URL。"
+      },
+      "group": {
+        "name": "群組",
+        "description": "用於整理連結的自訂顏色群組。"
+      },
+      "reminders": {
+        "name": "提醒事項",
+        "description": "設定提醒並透過瀏覽器通知推送。支援每小時 / 每天 / 每週重複。"
+      },
+      "todo": {
+        "name": "待辦清單",
+        "description": "追蹤您的任務。"
+      },
+      "timer": {
+        "name": "計時器",
+        "description": "管理多個計時器。"
+      },
+      "note": {
+        "name": "便利貼",
+        "description": "以自訂顏色書寫筆記或提醒。"
+      },
+      "image": {
+        "name": "圖片",
+        "description": "從 URL 新增圖片或上傳本機檔案。"
+      },
+      "label": {
+        "name": "文字標籤",
+        "description": "新增簡潔的浮動文字標題，為您的格線增添風格。"
+      },
+      "iframe": {
+        "name": "嵌入頁面",
+        "description": "將任何網站嵌入為即時小工具。"
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "已移除 {{count}} 個空白照片小工具。",
+    "removedEmptyPhotos_other": "已移除 {{count}} 個空白照片小工具。",
+    "clearedWidgets_one": "{{count}} 個小工具",
+    "clearedWidgets_other": "{{count}} 個小工具",
+    "clearedHeaderLinks_one": "{{count}} 個頁首連結",
+    "clearedHeaderLinks_other": "{{count}} 個頁首連結",
+    "clearedSummary": "已清除 {{items}}。取消可復原，儲存則確認。",
+    "onlyOneGoogleSearch": "只允許一個 Google 搜尋小工具。",
+    "noRoomForWidget": "此小工具沒有足夠空間。請調整大小或移除其他項目以騰出空間。",
+    "swap": {
+      "no-room": "無法交換——沒有足夠空間將兩個小工具放置於新位置。",
+      "out-of-bounds": "無法交換——其中一個小工具在最小尺寸下會超出格線邊界。",
+      "overlap": "無法交換——兩個小工具的最小尺寸互相重疊。",
+      "obstacle": "無法交換——另一個小工具擋住了路。請先移動或調整它的大小。"
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "儲存至 MonoStart",
+    "saveLink": "儲存連結",
+    "saved": "已儲存！",
+    "openDashboard": "開啟儀表板",
+    "destination": {
+      "label": "目的地",
+      "main": "主儀表板",
+      "header": "頁首列"
+    },
+    "reminders": {
+      "ariaLabel": "待處理提醒",
+      "count_one": "{{count}} 個提醒",
+      "count_other": "{{count}} 個提醒",
+      "clearAll": "全部清除",
+      "dismiss": "關閉"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "隱藏 Chrome 頁尾指南",
+      "success": "頁尾已隱藏——享受全螢幕體驗！",
+      "corner": {
+        "title": "取得全螢幕體驗",
+        "intro": "Chrome 在 MonoStart 下方新增了頁尾。若要隱藏它，請點擊",
+        "cta": "自訂 Chrome",
+        "ctaSuffix": "位於右下角。",
+        "noFooter": "沒看到頁尾？您已完成設定——跳過此步驟。"
+      },
+      "panel": {
+        "title": "即將完成",
+        "intro": "在",
+        "setting": "頁尾",
+        "turnOff": "下，關閉",
+        "action": "在新分頁頁面顯示頁尾",
+        "suffix": "，然後關閉面板。"
+      },
+      "skip": "跳過",
+      "next": "下一步",
+      "done": "完成"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "語言",
+      "subtitle": "選擇您的語言",
+      "search": "搜尋語言…",
+      "empty": "沒有符合搜尋的語言。"
+    },
+    "addWidget": {
+      "title": "新增小工具",
+      "titleConfigure": "設定 {{name}}",
+      "titleGoogleStyle": "選擇 Google 搜尋樣式",
+      "logoBarTitle": "標誌加搜尋列",
+      "logoBarDesc": "搜尋列上方顯示大型 Google 標誌。佔用 4 列。",
+      "barOnlyTitle": "僅顯示搜尋列",
+      "barOnlyDesc": "只顯示搜尋列。佔用 1 列，精簡版。",
+      "urlLabel": "網址或嵌入代碼",
+      "urlPlaceholder": "https://example.com\n或\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "貼上網址以進行簡單嵌入，或從封鎖直接載入的網站（YouTube、Figma、Spotify、CodePen 等）貼上 <code>&lt;iframe&gt;</code> 片段。",
+      "back": "返回",
+      "embedWidget": "嵌入小工具"
+    },
+    "addLink": {
+      "title": "新增連結",
+      "description": "貼上網址以在儀表板新增連結卡片。",
+      "urlLabel": "網站網址",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "標題（選填）",
+      "titlePlaceholder": "我的連結",
+      "locationLabel": "位置",
+      "locationMainDashboard": "主儀表板",
+      "locationHeader": "頁首（僅顯示網站圖示）",
+      "locationFolder": "資料夾：{{title}}",
+      "locationGroup": "群組：{{title}}",
+      "cancel": "取消",
+      "submit": "新增連結"
+    },
+    "theme": {
+      "title": "主題與外觀",
+      "description": "自訂儀表板的外觀與風格。",
+      "modeGroupLabel": "主題模式",
+      "light": "淺色",
+      "dark": "深色",
+      "device": "跟隨裝置",
+      "primaryColorHeading": "主要顏色",
+      "primaryColorPresetsLabel": "主要顏色預設值",
+      "customColorLabel": "自訂顏色",
+      "customColorTitle": "自訂顏色",
+      "customHue": "自訂色相",
+      "backgroundHeading": "背景",
+      "backgroundTypeLabel": "背景類型",
+      "backgroundColorLabel": "背景顏色",
+      "backgroundGradientLabel": "背景漸層",
+      "imageUrlPlaceholder": "貼上圖片網址...",
+      "uploadImage": "上傳圖片",
+      "imageUploaded": "已上傳自訂圖片。",
+      "blur": "模糊",
+      "dim": "調暗",
+      "fileReadError": "讀取檔案失敗。",
+      "bgType": {
+        "none": "無",
+        "color": "顏色",
+        "gradient": "漸層",
+        "image": "圖片"
+      },
+      "themes": {
+        "default": "預設",
+        "grey": "灰色",
+        "blue": "藍色",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "綠色",
+        "citron": "Citron",
+        "yellow": "黃色",
+        "orange": "橙色",
+        "apricot": "Apricot",
+        "tomato": "番茄紅",
+        "rose": "Rose",
+        "pink": "粉色",
+        "fuchsia": "Fuchsia",
+        "violet": "紫羅蘭"
+      },
+      "gradients": {
+        "dusk": "黃昏",
+        "sunset": "日落",
+        "ocean": "海洋",
+        "forest": "森林",
+        "slate": "Slate",
+        "aurora": "極光"
+      }
+    },
+    "clear": {
+      "title": "清除儀表板",
+      "description": "這將移除儀表板上的小工具。您目前處於編輯模式，儲存前仍可點擊取消以復原。",
+      "widgetsGroups": "主格線上的小工具與群組",
+      "linksInsideGroups": "↳ 群組內的連結",
+      "headerBarLinks": "頁首列連結",
+      "alsoClearHeaderLabel": "同時清除頁首列連結",
+      "alsoClearHeaderDesc": "預設情況下頁首列會保留。勾選此項以一併清除。",
+      "widgetGroups_one": "即將刪除 <strong>{{count}}</strong> 個小工具/群組",
+      "widgetGroups_other": "即將刪除 <strong>{{count}}</strong> 個小工具/群組",
+      "headerLinks_one": "<strong>{{count}}</strong> 個頁首連結",
+      "headerLinks_other": "<strong>{{count}}</strong> 個頁首連結",
+      "andConnector": " 和 ",
+      "cancelRestores": "。在編輯模式工具列中點擊取消可還原。",
+      "nothingToClear": "目前選擇沒有任何內容可清除。",
+      "cancelButton": "取消",
+      "clearWidgets": "清除小工具",
+      "clearEverything": "全部清除"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "分享此項目",
+      "copyLink": "複製連結",
+      "linkCopied": "連結已複製",
+      "shareOn": "在 {{platform}} 上分享",
+      "shareVia": "透過 {{platform}} 分享"
+    }
+  }
+}

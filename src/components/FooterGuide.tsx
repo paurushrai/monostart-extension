@@ -1,6 +1,7 @@
 import { ArrowDown, ArrowDownRight, ArrowRight, PartyPopper } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useFooterGuide } from '../hooks/useFooterGuide';
+import { useTranslation } from 'react-i18next';
 
 /** Viewport-top offset of the Customize Chrome panel's Footer toggle. */
 const PANEL_ANCHOR_TOP_PX = 760;
@@ -14,6 +15,7 @@ const PANEL_CLAMP_BOTTOM_PX = 110;
  */
 export default function FooterGuide() {
   const { step, advance, complete, skip } = useFooterGuide();
+  const { t } = useTranslation();
 
   if (step === null) return null;
 
@@ -24,7 +26,7 @@ export default function FooterGuide() {
         className="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 rounded-xl bg-zinc-900 px-4 py-3 text-sm font-medium text-white shadow-2xl ring-1 ring-white/10"
       >
         <PartyPopper size={18} className="text-emerald-400" />
-        Footer hidden — enjoy the full screen!
+        {t('footer.guide.success')}
       </div>
     );
   }
@@ -45,7 +47,7 @@ export default function FooterGuide() {
   return (
     <div
       role="dialog"
-      aria-label="Hide Chrome footer guide"
+      aria-label={t('footer.guide.ariaLabel')}
       style={isCorner ? undefined : panelStepTop}
       className={`fixed z-50 flex max-w-sm gap-2 transition-all duration-300 ${
         isCorner
@@ -55,28 +57,30 @@ export default function FooterGuide() {
     >
       <div className="rounded-xl bg-zinc-900 p-4 text-white shadow-2xl ring-1 ring-white/10">
         <h2 className="m-0 text-sm font-semibold">
-          {isCorner ? 'Get the full-screen experience' : 'Almost there'}
+          {isCorner ? t('footer.guide.corner.title') : t('footer.guide.panel.title')}
         </h2>
         <p className="mb-0 mt-1.5 text-[13px] leading-snug opacity-80">
           {isCorner ? (
             <>
-              Chrome adds a footer below MonoStart. To hide it, click{' '}
-              <strong className="font-semibold opacity-100">Customize Chrome</strong> in the
-              bottom-right corner.
+              {t('footer.guide.corner.intro')}{' '}
+              <strong className="font-semibold opacity-100">{t('footer.guide.corner.cta')}</strong>{' '}
+              {t('footer.guide.corner.ctaSuffix')}
             </>
           ) : (
             <>
-              Under <strong className="font-semibold opacity-100">Footer</strong>, turn off{' '}
+              {t('footer.guide.panel.intro')}{' '}
+              <strong className="font-semibold opacity-100">{t('footer.guide.panel.setting')}</strong>
+              {t('footer.guide.panel.turnOff')}{' '}
               <strong className="font-semibold opacity-100">
-                Show footer on New Tab page
+                {t('footer.guide.panel.action')}
               </strong>
-              , then close the panel.
+              {t('footer.guide.panel.suffix')}
             </>
           )}
         </p>
         {isCorner && (
           <p className="mb-0 mt-1.5 text-xs opacity-50">
-            Don&apos;t see a footer? You&apos;re all set — skip this.
+            {t('footer.guide.corner.noFooter')}
           </p>
         )}
         <div className="mt-3 flex justify-end gap-2">
@@ -86,14 +90,14 @@ export default function FooterGuide() {
             onClick={skip}
             className="text-white/70 hover:bg-white/10 hover:text-white"
           >
-            Skip
+            {t('footer.guide.skip')}
           </Button>
           <Button
             size="sm"
             onClick={isCorner ? advance : complete}
             className="bg-white text-zinc-900 hover:bg-white/90"
           >
-            {isCorner ? 'Next' : 'Done'}
+            {isCorner ? t('footer.guide.next') : t('footer.guide.done')}
           </Button>
         </div>
       </div>

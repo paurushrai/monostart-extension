@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Izbriši",
+    "cancel": "Prekliči",
+    "save": "Shrani",
+    "copy": "Kopiraj",
+    "copied": "Kopirano"
+  },
+  "header": {
+    "menu": {
+      "language": "Jezik",
+      "addLink": "Dodaj povezavo",
+      "addWidget": "Dodaj pripomoček",
+      "editDashboard": "Uredi nadzorno ploščo",
+      "theme": "Tema in videz",
+      "share": "Deli MonoStart",
+      "openInNewTab": "Odpri povezave v novem zavihku"
+    },
+    "settings": "Nastavitve",
+    "clear": "Počisti",
+    "clearDashboard": "Počisti nadzorno ploščo",
+    "cancel": "Prekliči",
+    "save": "Shrani"
+  },
+  "widgets": {
+    "deleteWidget": "Izbriši pripomoček",
+    "placeholder": {
+      "place": "Postavi",
+      "dropToPlace": "Spusti za postavitev"
+    },
+    "todo": {
+      "defaultTitle": "Opravila",
+      "empty": "Še ni opravil.",
+      "deleteTask": "Izbriši opravilo",
+      "placeholder": "Dodaj opravilo...",
+      "newTaskAriaLabel": "Novo opravilo",
+      "addTask": "Dodaj opravilo",
+      "toggleAriaLabel": "Označi »{{text}}« kot {{status}}",
+      "statusComplete": "dokončano",
+      "statusIncomplete": "nedokončano"
+    },
+    "timer": {
+      "defaultTitle": "Časovniki",
+      "empty": "Ni nastavljenih časovnikov.",
+      "deleteTimer": "Izbriši časovnik",
+      "pause": "Premor",
+      "start": "Zaženi",
+      "reset": "Ponastavi",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Trajanje časovnika v minutah",
+      "placeholderLabel": "Oznaka (neobvezno)",
+      "labelAriaLabel": "Oznaka časovnika (neobvezno)",
+      "addTimer": "Dodaj časovnik"
+    },
+    "reminders": {
+      "defaultTitle": "Opomniki",
+      "empty": "Še ni opomnikov.",
+      "deleteReminder": "Izbriši opomnik",
+      "placeholder": "Opomni me na...",
+      "textAriaLabel": "Besedilo opomnika",
+      "recurrenceTitle": "Ponavljanje",
+      "addReminder": "Dodaj opomnik",
+      "customIntervalAriaLabel": "Vrednost pogostosti po meri",
+      "customUnitAriaLabel": "Enota pogostosti po meri",
+      "unitMinutes": "Minute",
+      "unitHours": "Ure",
+      "unitDays": "Dnevi",
+      "saveRecurrence": "Shrani",
+      "toggleAriaLabel": "Označi »{{text}}« kot {{status}}",
+      "statusComplete": "dokončano",
+      "statusIncomplete": "nedokončano",
+      "recurrenceNone": "Enkrat",
+      "recurrence30min": "Vsakih 30 min",
+      "recurrenceHourly": "Vsako uro",
+      "recurrenceDaily": "Vsak dan",
+      "recurrenceWeekly": "Vsak teden",
+      "recurrenceCustom": "Po meri",
+      "everyDay": "Vsakih {{count}}d",
+      "everyHour": "Vsakih {{count}}h",
+      "everyMin": "Vsakih {{count}}m",
+      "every": "Vsakih",
+      "today": "Danes {{time}}",
+      "tomorrow": "Jutri {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Opomba",
+      "changeColor": "Spremeni barvo",
+      "placeholder": "Napiši kaj...",
+      "contentAriaLabel": "Vsebina opombe",
+      "titleAriaLabel": "Naslov opombe",
+      "actionsAriaLabel": "Dejanja opombe",
+      "color_default": "Privzeta",
+      "color_amber": "Rumena",
+      "color_sky": "Modra",
+      "color_rose": "Rožnata",
+      "color_emerald": "Zelena",
+      "color_purple": "Vijolična"
+    },
+    "image": {
+      "defaultTitle": "Slika",
+      "settings": "Nastavitve slike",
+      "actionsAriaLabel": "Dejanja slike",
+      "titleAriaLabel": "Naslov slike",
+      "changeImage": "Spremeni sliko",
+      "fitCover": "Pokri (Obreži)",
+      "fitContain": "Vsebuj (Razmerje)",
+      "fitFill": "Zapolni (Raztegni)",
+      "configureTitle": "Nastavi sliko pripomočka",
+      "urlPlaceholder": "Prilepi URL slike...",
+      "or": "Ali",
+      "uploadLocal": "Naloži lokalno sliko",
+      "cancelConfig": "Prekliči konfiguracijo",
+      "loadError": "Slike ni bilo mogoče naložiti. URL je morda neveljavna ali blokirana."
+    },
+    "label": {
+      "defaultText": "Besedilo",
+      "settings": "Nastavitve besedila",
+      "actionsAriaLabel": "Dejanja oznake",
+      "textAriaLabel": "Besedilo oznake",
+      "editText": "Uredi besedilo",
+      "showCardStyle": "Prikaži slog kartice",
+      "fontSize": "Velikost pisave",
+      "alignment": "Poravnava",
+      "fontWeight": "Debelina pisave",
+      "opacity": "Prosojnost",
+      "deleteText": "Izbriši besedilo",
+      "alignLeft": "Levo",
+      "alignCenter": "Na sredino",
+      "alignRight": "Desno",
+      "fontSizes": {
+        "sm": "Majhna",
+        "base": "Srednja",
+        "lg": "Velika",
+        "xl": "Zelo velika",
+        "xl2": "2× velika",
+        "xl3": "3× velika",
+        "xl4": "4× velika",
+        "xl5": "5× velika",
+        "xl6": "6× velika",
+        "xl7": "7× velika",
+        "xl8": "8× velika",
+        "xl9": "9× velika",
+        "xl10": "10× velika",
+        "xl12": "12× velika"
+      },
+      "fontWeights": {
+        "thin": "Tanka",
+        "light": "Lahka",
+        "regular": "Navadna",
+        "medium": "Srednja",
+        "semibold": "Polkrepka",
+        "bold": "Krepka",
+        "extrabold": "Zelo krepka",
+        "black": "Črna"
+      },
+      "opacities": {
+        "full": "100% (Polna)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Bleda)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Išči v Google ali vnesi URL",
+      "searchAriaLabel": "Iskalna poizvedba",
+      "voiceSearch": "Glasovno iskanje",
+      "lensSearch": "Išči katero koli sliko z Lens",
+      "removeWidget": "Odstrani pripomoček",
+      "switchToBarOnly": "Preklopi samo na vrstico",
+      "switchToLogoBar": "Preklopi na logo + vrstico",
+      "barOnly": "Samo vrstica",
+      "showLogo": "Prikaži logotip",
+      "toggleLogoStyle": "Preklopi slog logotipa"
+    },
+    "group": {
+      "borderColorAriaLabel": "Barva obrobe skupine",
+      "pasteUrlPlaceholder": "Prilepi URL...",
+      "colors": {
+        "red": "Rdeča",
+        "pink": "Rožnata",
+        "purple": "Vijolična",
+        "indigo": "Indigo",
+        "blue": "Modra",
+        "cyan": "Cijan",
+        "teal": "Modrozelena",
+        "green": "Zelena",
+        "yellow": "Rumena",
+        "orange": "Oranžna",
+        "slate": "Skrilavec",
+        "neutral": "Nevtralna"
+      },
+      "defaultTitle": "Nova skupina"
+    },
+    "groupHeader": {
+      "addLink": "Dodaj povezavo",
+      "colorBorder": "Barva obrobe",
+      "layout": "Razporeditev",
+      "layoutGrid": "Mreža",
+      "layoutList": "Seznam",
+      "gridColumns": "Stolpci mreže",
+      "column_one": "{{count}} stolpec",
+      "column_other": "{{count}} stolpci",
+      "deleteGroup": "Izbriši skupino",
+      "actionsAriaLabel": "Dejanja skupine"
+    },
+    "groupInnerGrid": {
+      "empty": "Prazna skupina",
+      "addFirstLink": "Dodaj prvo povezavo",
+      "dropToAdd": "Spusti za dodajanje",
+      "add": "Dodaj"
+    },
+    "iframe": {
+      "removeWidget": "Odstrani pripomoček",
+      "openInNewTab": "Odpri v novem zavihku",
+      "defaultTitle": "Vdelana stran"
+    },
+    "linkCard": {
+      "options": "Možnosti",
+      "rename": "Preimenuj",
+      "size": "Velikost",
+      "sizeSmall": "Majhna (1×1)",
+      "sizeMedium": "Srednja (3×1)",
+      "moveTo": "Premakni v...",
+      "mainDashboard": "Glavna nadzorna plošča",
+      "header": "Glava",
+      "deleteLink": "Izbriši povezavo",
+      "actionsAriaLabel": "Dejanja povezave"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Iščite v Googlu ali vnesite URL."
+      },
+      "group": {
+        "name": "Skupina",
+        "description": "Barvno prilagojena skupina za organizacijo vaših povezav."
+      },
+      "reminders": {
+        "name": "Opomniki",
+        "description": "Načrtujte opomnike z brskalnikovimi obvestili. Podprto urno / dnevno / tedensko ponavljanje."
+      },
+      "todo": {
+        "name": "Seznam opravil",
+        "description": "Sledite svojim opravilom."
+      },
+      "timer": {
+        "name": "Časovniki",
+        "description": "Upravljajte z več časovniki."
+      },
+      "note": {
+        "name": "Lepljiva opomba",
+        "description": "Pišite opombe ali opomnike z lastnimi barvami."
+      },
+      "image": {
+        "name": "Slika",
+        "description": "Dodajte sliko iz URL-ja ali naložite lokalno datoteko."
+      },
+      "label": {
+        "name": "Besedilna oznaka",
+        "description": "Dodajte čist plavajoči besedilni naslov za oblikovanje mreže."
+      },
+      "iframe": {
+        "name": "Vdelana stran",
+        "description": "Vdelajte katero koli spletno mesto kot živi pripomoček."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Odstranjen {{count}} prazen pripomoček za fotografijo.",
+    "removedEmptyPhotos_other": "Odstranjeni {{count}} prazni pripomočki za fotografije.",
+    "clearedWidgets_one": "{{count}} pripomoček",
+    "clearedWidgets_other": "{{count}} pripomočki",
+    "clearedHeaderLinks_one": "{{count}} povezava v glavi",
+    "clearedHeaderLinks_other": "{{count}} povezave v glavi",
+    "clearedSummary": "Počiščeno {{items}}. Prekliči za razveljavitev ali Shrani za potrditev.",
+    "onlyOneGoogleSearch": "Dovoljen je samo en pripomoček za Google iskanje.",
+    "noRoomForWidget": "Za ta pripomoček ni prostora. Spremenite velikost ali odstranite kaj, da sprostite prostor.",
+    "swap": {
+      "no-room": "Zamenjava ni mogoča — ni dovolj prostora za oba pripomočka na novih položajih.",
+      "out-of-bounds": "Zamenjava ni mogoča — eden od pripomočkov bi pri minimalni velikosti segal čez rob mreže.",
+      "overlap": "Zamenjava ni mogoča — minimalni velikosti obeh pripomočkov se prekrivata.",
+      "obstacle": "Zamenjava ni mogoča — na poti je drug pripomoček. Najprej ga premaknite ali spremenite njegovo velikost."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Shrani v MonoStart",
+    "saveLink": "Shrani povezavo",
+    "saved": "Shranjeno!",
+    "openDashboard": "Odpri nadzorno ploščo",
+    "destination": {
+      "label": "Cilj",
+      "main": "Glavna nadzorna plošča",
+      "header": "Naslovna vrstica"
+    },
+    "reminders": {
+      "ariaLabel": "Čakajoči opomniki",
+      "count_one": "{{count}} opomnik",
+      "count_other": "{{count}} opomniki",
+      "clearAll": "Počisti vse",
+      "dismiss": "Opusti"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Skrij vodič noge Chrome",
+      "success": "Noga skrita — uživajte v celozaslonskem prikazu!",
+      "corner": {
+        "title": "Pridobite celozaslonsko izkušnjo",
+        "intro": "Chrome doda nogo pod MonoStart. Če jo želite skriti, kliknite",
+        "cta": "Prilagodi Chrome",
+        "ctaSuffix": "v spodnjem desnem kotu.",
+        "noFooter": "Ne vidite noge? Vse je v redu — preskočite to."
+      },
+      "panel": {
+        "title": "Skoraj ste tu",
+        "intro": "Pod",
+        "setting": "Noga",
+        "turnOff": "izklopite",
+        "action": "Prikaži nogo na strani novega zavihka",
+        "suffix": "nato zaprite ploščo."
+      },
+      "skip": "Preskoči",
+      "next": "Naprej",
+      "done": "Končano"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Jezik",
+      "subtitle": "Izberite jezik",
+      "search": "Išči jezike…",
+      "empty": "Nobeden od jezikov se ne ujema z vašim iskanjem."
+    },
+    "addWidget": {
+      "title": "Dodaj pripomoček",
+      "titleConfigure": "Nastavi {{name}}",
+      "titleGoogleStyle": "Izberite slog Google iskanja",
+      "logoBarTitle": "Logo + vrstica",
+      "logoBarDesc": "Velik logotip Google nad iskalno vrstico. Zavzame 4 vrstice.",
+      "barOnlyTitle": "Samo vrstica",
+      "barOnlyDesc": "Samo iskalna vrstica. Zavzame 1 vrstico. Kompaktno.",
+      "urlLabel": "URL ali koda za vdelavo",
+      "urlPlaceholder": "https://example.com\nali\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Prilepite URL za enostavne vdelave ali prilepite odrezek <code>&lt;iframe&gt;</code> s spletnih mest, ki blokirajo neposredno nalaganje (YouTube, Figma, Spotify, CodePen itd.).",
+      "back": "Nazaj",
+      "embedWidget": "Vdelaj pripomoček"
+    },
+    "addLink": {
+      "title": "Dodaj povezavo",
+      "description": "Prilepite URL, da dodate novo kartico povezave na vašo nadzorno ploščo.",
+      "urlLabel": "URL spletnega mesta",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Naslov (neobvezno)",
+      "titlePlaceholder": "Moja povezava",
+      "locationLabel": "Lokacija",
+      "locationMainDashboard": "Glavna nadzorna plošča",
+      "locationHeader": "Glava (samo favicon)",
+      "locationFolder": "Mapa: {{title}}",
+      "locationGroup": "Skupina: {{title}}",
+      "cancel": "Prekliči",
+      "submit": "Dodaj povezavo"
+    },
+    "theme": {
+      "title": "Tema in videz",
+      "description": "Prilagodite izgled vaše nadzorne plošče.",
+      "modeGroupLabel": "Način teme",
+      "light": "Svetla",
+      "dark": "Temna",
+      "device": "Naprava",
+      "primaryColorHeading": "Primarna barva",
+      "primaryColorPresetsLabel": "Prednastavitve primarne barve",
+      "customColorLabel": "Barva po meri",
+      "customColorTitle": "Barva po meri",
+      "customHue": "Odtenek po meri",
+      "backgroundHeading": "Ozadje",
+      "backgroundTypeLabel": "Vrsta ozadja",
+      "backgroundColorLabel": "Barva ozadja",
+      "backgroundGradientLabel": "Gradient ozadja",
+      "imageUrlPlaceholder": "Prilepi URL slike...",
+      "uploadImage": "Naloži sliko",
+      "imageUploaded": "Slika po meri naložena.",
+      "blur": "Zameglitev",
+      "dim": "Zatemnitev",
+      "fileReadError": "Datoteke ni bilo mogoče prebrati.",
+      "bgType": {
+        "none": "Brez",
+        "color": "Barva",
+        "gradient": "Gradient",
+        "image": "Slika"
+      },
+      "themes": {
+        "default": "Privzeta",
+        "grey": "Siva",
+        "blue": "Modra",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Zelena",
+        "citron": "Citronska",
+        "yellow": "Rumena",
+        "orange": "Oranžna",
+        "apricot": "Marelična",
+        "tomato": "Paradižnikova",
+        "rose": "Rožnata",
+        "pink": "Svetlo rožnata",
+        "fuchsia": "Fuksija",
+        "violet": "Vijolična"
+      },
+      "gradients": {
+        "dusk": "Mrak",
+        "sunset": "Sončni zahod",
+        "ocean": "Ocean",
+        "forest": "Gozd",
+        "slate": "Skrilavec",
+        "aurora": "Zora"
+      }
+    },
+    "clear": {
+      "title": "Počisti nadzorno ploščo",
+      "description": "S tem odstranite pripomočke z nadzorne plošče. Ste v načinu urejanja, zato lahko še vedno pritisnete Prekliči za razveljavitev pred shranjevanjem.",
+      "widgetsGroups": "Pripomočki in skupine na glavni mreži",
+      "linksInsideGroups": "↳ povezave znotraj skupin",
+      "headerBarLinks": "Povezave v naslovni vrstici",
+      "alsoClearHeaderLabel": "Počisti tudi povezave v naslovni vrstici",
+      "alsoClearHeaderDesc": "Privzeto je naslovna vrstica ohranjena. Označite to, da jo izbrišete.",
+      "widgetGroups_one": "Nameravate izbrisati <strong>{{count}}</strong> pripomoček/skupino",
+      "widgetGroups_other": "Nameravate izbrisati <strong>{{count}}</strong> pripomočkov/skupin",
+      "headerLinks_one": "<strong>{{count}}</strong> povezava v glavi",
+      "headerLinks_other": "<strong>{{count}}</strong> povezave v glavi",
+      "andConnector": " in ",
+      "cancelRestores": ". Preklic v orodni vrstici za urejanje jih obnovi.",
+      "nothingToClear": "Pri trenutni izbiri ni ničesar za počistiti.",
+      "cancelButton": "Prekliči",
+      "clearWidgets": "Počisti pripomočke",
+      "clearEverything": "Počisti vse"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Deli ta element",
+      "copyLink": "Kopiraj povezavo",
+      "linkCopied": "Povezava kopirana",
+      "shareOn": "Deli na {{platform}}",
+      "shareVia": "Deli prek {{platform}}"
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import { useState, useCallback, useMemo, useRef, useEffect, lazy, Suspense } from 'react';
+import { useTranslation } from 'react-i18next';
 import DashboardGrid from './components/DashboardGrid';
 import DashboardBackground from './components/DashboardBackground';
 import AppHeader from './components/AppHeader';
@@ -11,8 +12,9 @@ const ThemeSettingsModal = lazy(() => import('./components/ThemeSettingsModal'))
 const AddLinkModal = lazy(() => import('./components/AddLinkModal'));
 const ClearDashboardModal = lazy(() => import('./components/ClearDashboardModal'));
 const ShareModal = lazy(() => import('./components/ShareModal'));
+const LanguageModal = lazy(() => import('./components/LanguageModal'));
 import Toast from './components/Toast';
-import { useDashboard } from './hooks/useDashboard';
+import { useDashboard, type SwapFailureCode } from './hooks/useDashboard';
 import { DashboardActionsProvider, type DashboardActions } from './contexts/dashboardActions';
 import { useTheme } from './hooks/useTheme';
 import { useHeaderDrag } from './hooks/useHeaderDrag';
@@ -30,7 +32,12 @@ const EDIT_MODE_KEY = 'dashboardEditMode';
 const ORIGINAL_LINKS_KEY = 'dashboardEditOriginalLinks';
 
 function App() {
+  const { t } = useTranslation();
   const { toast, showToast, dismissToast } = useToast();
+
+  const handleSwapFailed = useCallback((code: SwapFailureCode) => {
+    showToast(t(`toasts.swap.${code}`));
+  }, [showToast, t]);
 
   const {
     links,
@@ -43,7 +50,7 @@ function App() {
     handleHeaderLinkReorder,
     handleSwap,
     addWidget,
-  } = useDashboard({ onSwapFailed: showToast });
+  } = useDashboard({ onSwapFailed: handleSwapFailed });
 
   const { settings, updateSettings } = useTheme();
   const headerDrag = useHeaderDrag(handleHeaderLinkReorder);
@@ -62,6 +69,7 @@ function App() {
   const [addLinkModalOpen, setAddLinkModalOpen] = useState(false);
   const [clearModalOpen, setClearModalOpen] = useState(false);
   const [shareModalOpen, setShareModalOpen] = useState(false);
+  const [languageModalOpen, setLanguageModalOpen] = useState(false);
   const [isHeaderTargeted, setIsHeaderTargeted] = useState(false);
 
   const preAddSnapshotRef = useRef<WidgetItem[] | null>(null);
@@ -94,7 +102,7 @@ function App() {
     const emptyImageCount = links.filter(isEmptyImage).length;
     if (emptyImageCount > 0) {
       replaceLinks(links.filter((l) => !isEmptyImage(l)));
-      showToast(`Removed ${emptyImageCount} empty photo widget${emptyImageCount === 1 ? '' : 's'}.`);
+      showToast(t('toasts.removedEmptyPhotos', { count: emptyImageCount }));
     }
     setIsEditing(false);
     setOriginalLinks([]);
@@ -102,7 +110,7 @@ function App() {
       localStorage.removeItem(EDIT_MODE_KEY);
       localStorage.removeItem(ORIGINAL_LINKS_KEY);
     } catch { /* empty */ }
-  }, [links, replaceLinks, showToast]);
+  }, [links, replaceLinks, showToast, t]);
 
   const cancelEditMode = useCallback(() => {
     replaceLinks(originalLinks);
@@ -121,25 +129,25 @@ function App() {
     if (removedMain === 0 && removedHeader === 0) return;
     replaceLinks(kept);
     const parts: string[] = [];
-    if (removedMain > 0) parts.push(`${removedMain} widget${removedMain === 1 ? '' : 's'}`);
-    if (removedHeader > 0) parts.push(`${removedHeader} header link${removedHeader === 1 ? '' : 's'}`);
-    showToast(`Cleared ${parts.join(' + ')}. Cancel to undo, or Save to confirm.`);
-  }, [links, replaceLinks, showToast]);
+    if (removedMain > 0) parts.push(t('toasts.clearedWidgets', { count: removedMain }));
+    if (removedHeader > 0) parts.push(t('toasts.clearedHeaderLinks', { count: removedHeader }));
+    showToast(t('toasts.clearedSummary', { items: parts.join(' + ') }));
+  }, [links, replaceLinks, showToast, t]);
 
   const handleAddWidget = useCallback(async (widget: AddWidgetInput) => {
     if (widget.type === 'google-search' && links.some((l) => l.type === 'google-search')) {
-      showToast('Only one Google search widget is allowed.');
+      showToast(t('toasts.onlyOneGoogleSearch'));
       return;
     }
     if (!isEditing) preAddSnapshotRef.current = getItemsSync();
     const saved = await addWidget(widget);
     if (!saved) {
       preAddSnapshotRef.current = null;
-      showToast('No room for this widget. Resize or remove something to make space.');
+      showToast(t('toasts.noRoomForWidget'));
       return;
     }
     enterEditModeAfterAdd();
-  }, [addWidget, showToast, links, isEditing, enterEditModeAfterAdd]);
+  }, [addWidget, showToast, links, isEditing, enterEditModeAfterAdd, t]);
 
   // Memoized so unrelated re-renders (opening a modal, a toast, header-drag
   // hover) don't allocate new array refs and cascade into DashboardGrid.
@@ -191,6 +199,7 @@ function App() {
         onOpenAddWidget={() => setModalOpen(true)}
         onOpenTheme={() => setThemeModalOpen(true)}
         onOpenShare={() => setShareModalOpen(true)}
+        onOpenLanguage={() => setLanguageModalOpen(true)}
         onClearDashboard={() => setClearModalOpen(true)}
         isDropTarget={isHeaderTargeted}
       />
@@ -262,6 +271,10 @@ function App() {
             open
             onClose={() => setShareModalOpen(false)}
           />
+        )}
+
+        {languageModalOpen && (
+          <LanguageModal open onClose={() => setLanguageModalOpen(false)} />
         )}
       </Suspense>
 

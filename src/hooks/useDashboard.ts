@@ -33,8 +33,10 @@ export interface UseDashboard {
   addWidget: (widget: { type: WidgetItem['type']; defaults?: Partial<WidgetItem> }) => Promise<WidgetItem | null>;
 }
 
+export type SwapFailureCode = 'no-room' | 'out-of-bounds' | 'overlap' | 'obstacle';
+
 export interface UseDashboardOptions {
-  onSwapFailed?: (reason: string) => void;
+  onSwapFailed?: (code: SwapFailureCode) => void;
 }
 
 export function useDashboard(opts: UseDashboardOptions = {}): UseDashboard {
@@ -310,17 +312,17 @@ export function useDashboard(opts: UseDashboardOptions = {}): UseDashboard {
           draggedFinal = minDragged;
           targetFinal = minTarget;
         } else {
-          let reason = 'Can’t swap — not enough room to fit both widgets at their new positions.';
           const draggedOutOfBounds = draggedFinal.x < 0 || draggedFinal.x + draggedFinal.w > MAIN_COLS;
           const targetOutOfBounds = targetFinal.x < 0 || targetFinal.x + targetFinal.w > MAIN_COLS;
+          let code: SwapFailureCode = 'no-room';
           if (draggedOutOfBounds || targetOutOfBounds) {
-            reason = 'Can’t swap — one of the widgets would extend past the grid edge at its minimum size.';
+            code = 'out-of-bounds';
           } else if (rectsOverlap(minDragged, minTarget)) {
-            reason = 'Can’t swap — the two widgets’ minimum sizes overlap each other.';
+            code = 'overlap';
           } else if (obstacles.some((o) => rectsOverlap(minDragged, o) || rectsOverlap(minTarget, o))) {
-            reason = 'Can’t swap — another widget is in the way. Move or resize it first.';
+            code = 'obstacle';
           }
-          onSwapFailedRef.current?.(reason);
+          onSwapFailedRef.current?.(code);
           return prevLinks;
         }
       }

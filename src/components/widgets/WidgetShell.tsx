@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { Trash2, type LucideIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useTranslation } from 'react-i18next';
 
 interface Props {
   icon: LucideIcon;
@@ -17,6 +18,7 @@ interface Props {
  * versions these widgets previously carried — only the icon, title and body vary.
  */
 export default function WidgetShell({ icon: Icon, title, isEditing, onDelete, children }: Readonly<Props>) {
+  const { t } = useTranslation();
   return (
     <article className="card-base w-full h-full relative group overflow-hidden flex flex-col bg-card/65 backdrop-blur-md">
       <header className={`flex items-center justify-between px-2 border-b border-border bg-gray-50/50 dark:bg-black/10 shrink-0 rounded-t-xl ${isEditing ? 'py-1 drag-handle cursor-grab active:cursor-grabbing' : 'py-0.5'}`}>
@@ -32,7 +34,7 @@ export default function WidgetShell({ icon: Icon, title, isEditing, onDelete, ch
             onMouseDown={(e) => e.stopPropagation()}
             onClick={(e) => { e.stopPropagation(); onDelete(); }}
             className="h-6 w-6 text-red-500 hover:bg-red-50 hover:text-red-500 dark:hover:bg-red-900/20 relative z-20"
-            title="Delete Widget"
+            title={t('widgets.deleteWidget')}
           >
             <Trash2 size={13} />
           </Button>

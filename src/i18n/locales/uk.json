@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Видалити",
+    "cancel": "Скасувати",
+    "save": "Зберегти",
+    "copy": "Копіювати",
+    "copied": "Скопійовано"
+  },
+  "header": {
+    "menu": {
+      "language": "Мова",
+      "addLink": "Додати посилання",
+      "addWidget": "Додати віджет",
+      "editDashboard": "Редагувати панель",
+      "theme": "Тема та зовнішній вигляд",
+      "share": "Поділитися MonoStart",
+      "openInNewTab": "Відкривати посилання в новій вкладці"
+    },
+    "settings": "Налаштування",
+    "clear": "Очистити",
+    "clearDashboard": "Очистити панель",
+    "cancel": "Скасувати",
+    "save": "Зберегти"
+  },
+  "widgets": {
+    "deleteWidget": "Видалити віджет",
+    "placeholder": {
+      "place": "Розмістити",
+      "dropToPlace": "Перетягніть для розміщення"
+    },
+    "todo": {
+      "defaultTitle": "Завдання",
+      "empty": "Завдань ще немає.",
+      "deleteTask": "Видалити завдання",
+      "placeholder": "Додати завдання...",
+      "newTaskAriaLabel": "Нове завдання",
+      "addTask": "Додати завдання",
+      "toggleAriaLabel": "Позначити \"{{text}}\" як {{status}}",
+      "statusComplete": "виконано",
+      "statusIncomplete": "не виконано"
+    },
+    "timer": {
+      "defaultTitle": "Таймери",
+      "empty": "Таймерів не встановлено.",
+      "deleteTimer": "Видалити таймер",
+      "pause": "Пауза",
+      "start": "Старт",
+      "reset": "Скинути",
+      "placeholderMin": "Хв",
+      "durationAriaLabel": "Тривалість таймера в хвилинах",
+      "placeholderLabel": "Назва (необов'язково)",
+      "labelAriaLabel": "Назва таймера (необов'язково)",
+      "addTimer": "Додати таймер"
+    },
+    "reminders": {
+      "defaultTitle": "Нагадування",
+      "empty": "Нагадувань ще немає.",
+      "deleteReminder": "Видалити нагадування",
+      "placeholder": "Нагадати мені про...",
+      "textAriaLabel": "Текст нагадування",
+      "recurrenceTitle": "Повторення",
+      "addReminder": "Додати нагадування",
+      "customIntervalAriaLabel": "Значення власного інтервалу",
+      "customUnitAriaLabel": "Одиниця власного інтервалу",
+      "unitMinutes": "Хвилини",
+      "unitHours": "Години",
+      "unitDays": "Дні",
+      "saveRecurrence": "Зберегти",
+      "toggleAriaLabel": "Позначити \"{{text}}\" як {{status}}",
+      "statusComplete": "виконано",
+      "statusIncomplete": "не виконано",
+      "recurrenceNone": "Одноразово",
+      "recurrence30min": "Кожні 30 хв",
+      "recurrenceHourly": "Щогодини",
+      "recurrenceDaily": "Щодня",
+      "recurrenceWeekly": "Щотижня",
+      "recurrenceCustom": "Власне",
+      "everyDay": "Кожні {{count}}д",
+      "everyHour": "Кожні {{count}}г",
+      "everyMin": "Кожні {{count}}хв",
+      "every": "Кожні",
+      "today": "Сьогодні {{time}}",
+      "tomorrow": "Завтра {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Нотатка",
+      "changeColor": "Змінити колір",
+      "placeholder": "Напишіть щось...",
+      "contentAriaLabel": "Вміст нотатки",
+      "titleAriaLabel": "Заголовок нотатки",
+      "actionsAriaLabel": "Дії з нотаткою",
+      "color_default": "Стандартний",
+      "color_amber": "Жовтий",
+      "color_sky": "Блакитний",
+      "color_rose": "Рожевий",
+      "color_emerald": "Зелений",
+      "color_purple": "Фіолетовий"
+    },
+    "image": {
+      "defaultTitle": "Зображення",
+      "settings": "Налаштування зображення",
+      "actionsAriaLabel": "Дії із зображенням",
+      "titleAriaLabel": "Заголовок зображення",
+      "changeImage": "Змінити зображення",
+      "fitCover": "Заповнення (обрізка)",
+      "fitContain": "Вмістити (пропорційно)",
+      "fitFill": "Розтягнути",
+      "configureTitle": "Налаштувати зображення віджета",
+      "urlPlaceholder": "Вставте URL зображення...",
+      "or": "Або",
+      "uploadLocal": "Завантажити локальне зображення",
+      "cancelConfig": "Скасувати налаштування",
+      "loadError": "Не вдалося завантажити зображення. URL може бути недійсним або заблокованим."
+    },
+    "label": {
+      "defaultText": "Текст",
+      "settings": "Налаштування тексту",
+      "actionsAriaLabel": "Дії з міткою",
+      "textAriaLabel": "Текст мітки",
+      "editText": "Редагувати текст",
+      "showCardStyle": "Показати стиль картки",
+      "fontSize": "Розмір шрифту",
+      "alignment": "Вирівнювання",
+      "fontWeight": "Товщина шрифту",
+      "opacity": "Прозорість",
+      "deleteText": "Видалити текст",
+      "alignLeft": "Ліворуч",
+      "alignCenter": "По центру",
+      "alignRight": "Праворуч",
+      "fontSizes": {
+        "sm": "Маленький",
+        "base": "Середній",
+        "lg": "Великий",
+        "xl": "Дуже великий",
+        "xl2": "2X великий",
+        "xl3": "3X великий",
+        "xl4": "4X великий",
+        "xl5": "5X великий",
+        "xl6": "6X великий",
+        "xl7": "7X великий",
+        "xl8": "8X великий",
+        "xl9": "9X великий",
+        "xl10": "10X великий",
+        "xl12": "12X великий"
+      },
+      "fontWeights": {
+        "thin": "Тонкий",
+        "light": "Легкий",
+        "regular": "Звичайний",
+        "medium": "Середній",
+        "semibold": "Напівжирний",
+        "bold": "Жирний",
+        "extrabold": "Дуже жирний",
+        "black": "Чорний"
+      },
+      "opacities": {
+        "full": "100% (Яскравий)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Приглушений)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Шукати у Google або введіть URL",
+      "searchAriaLabel": "Пошуковий запит",
+      "voiceSearch": "Голосовий пошук",
+      "lensSearch": "Шукати будь-яке зображення за допомогою Lens",
+      "removeWidget": "Видалити віджет",
+      "switchToBarOnly": "Перейти лише до рядка",
+      "switchToLogoBar": "Перейти до логотипу + рядка",
+      "barOnly": "Лише рядок",
+      "showLogo": "Показати логотип",
+      "toggleLogoStyle": "Змінити стиль логотипу"
+    },
+    "group": {
+      "borderColorAriaLabel": "Колір рамки групи",
+      "pasteUrlPlaceholder": "Вставте URL...",
+      "colors": {
+        "red": "Червоний",
+        "pink": "Рожевий",
+        "purple": "Фіолетовий",
+        "indigo": "Індиго",
+        "blue": "Синій",
+        "cyan": "Бірюзовий",
+        "teal": "Темно-бірюзовий",
+        "green": "Зелений",
+        "yellow": "Жовтий",
+        "orange": "Помаранчевий",
+        "slate": "Сірий",
+        "neutral": "Нейтральний"
+      },
+      "defaultTitle": "Нова група"
+    },
+    "groupHeader": {
+      "addLink": "Додати посилання",
+      "colorBorder": "Колір рамки",
+      "layout": "Макет",
+      "layoutGrid": "Сітка",
+      "layoutList": "Список",
+      "gridColumns": "Стовпці сітки",
+      "column_one": "{{count}} стовпець",
+      "column_other": "{{count}} стовпців",
+      "deleteGroup": "Видалити групу",
+      "actionsAriaLabel": "Дії з групою"
+    },
+    "groupInnerGrid": {
+      "empty": "Порожня група",
+      "addFirstLink": "Додати перше посилання",
+      "dropToAdd": "Перетягніть для додавання",
+      "add": "Додати"
+    },
+    "iframe": {
+      "removeWidget": "Видалити віджет",
+      "openInNewTab": "Відкрити в новій вкладці",
+      "defaultTitle": "Вбудована сторінка"
+    },
+    "linkCard": {
+      "options": "Параметри",
+      "rename": "Перейменувати",
+      "size": "Розмір",
+      "sizeSmall": "Маленький (1×1)",
+      "sizeMedium": "Середній (3×1)",
+      "moveTo": "Перемістити до...",
+      "mainDashboard": "Головна панель",
+      "header": "Заголовок",
+      "deleteLink": "Видалити посилання",
+      "actionsAriaLabel": "Дії з посиланням"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Пошук Google",
+        "description": "Шукайте в Google або введіть URL."
+      },
+      "group": {
+        "name": "Група",
+        "description": "Група з довільним кольором для організації ваших посилань."
+      },
+      "reminders": {
+        "name": "Нагадування",
+        "description": "Плануйте нагадування з сповіщеннями браузера. Підтримується повторення щогодини / щодня / щотижня."
+      },
+      "todo": {
+        "name": "Список справ",
+        "description": "Відстежуйте свої завдання."
+      },
+      "timer": {
+        "name": "Таймери",
+        "description": "Керуйте кількома таймерами."
+      },
+      "note": {
+        "name": "Стікер",
+        "description": "Пишіть нотатки або нагадування з довільними кольорами."
+      },
+      "image": {
+        "name": "Зображення",
+        "description": "Додайте зображення з URL або завантажте локальний файл."
+      },
+      "label": {
+        "name": "Текстова мітка",
+        "description": "Додайте чистий плаваючий текстовий заголовок для стилізації вашої сітки."
+      },
+      "iframe": {
+        "name": "Вбудована сторінка",
+        "description": "Вбудуйте будь-який веб-сайт як живий віджет."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Видалено {{count}} порожній фотовіджет.",
+    "removedEmptyPhotos_other": "Видалено {{count}} порожніх фотовіджетів.",
+    "clearedWidgets_one": "{{count}} віджет",
+    "clearedWidgets_other": "{{count}} віджетів",
+    "clearedHeaderLinks_one": "{{count}} посилання у заголовку",
+    "clearedHeaderLinks_other": "{{count}} посилань у заголовку",
+    "clearedSummary": "Очищено {{items}}. Скасуйте для відновлення або збережіть для підтвердження.",
+    "onlyOneGoogleSearch": "Дозволено лише один віджет пошуку Google.",
+    "noRoomForWidget": "Недостатньо місця для цього віджета. Змініть розмір або видаліть щось, щоб звільнити місце.",
+    "swap": {
+      "no-room": "Неможливо поміняти — недостатньо місця для обох віджетів на нових позиціях.",
+      "out-of-bounds": "Неможливо поміняти — один із віджетів виходить за межі сітки при мінімальному розмірі.",
+      "overlap": "Неможливо поміняти — мінімальні розміри двох віджетів перекриваються.",
+      "obstacle": "Неможливо поміняти — заважає інший віджет. Спочатку перемістіть або змініть його розмір."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Зберегти до MonoStart",
+    "saveLink": "Зберегти посилання",
+    "saved": "Збережено!",
+    "openDashboard": "Відкрити панель",
+    "destination": {
+      "label": "Призначення",
+      "main": "Головна панель",
+      "header": "Рядок заголовка"
+    },
+    "reminders": {
+      "ariaLabel": "Очікуючі нагадування",
+      "count_one": "{{count}} нагадування",
+      "count_other": "{{count}} нагадувань",
+      "clearAll": "Очистити все",
+      "dismiss": "Закрити"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Сховати посібник нижнього колонтитула Chrome",
+      "success": "Нижній колонтитул приховано — насолоджуйтесь повним екраном!",
+      "corner": {
+        "title": "Отримайте повноекранний досвід",
+        "intro": "Chrome додає нижній колонтитул під MonoStart. Щоб сховати його, натисніть",
+        "cta": "Налаштувати Chrome",
+        "ctaSuffix": "у правому нижньому куті.",
+        "noFooter": "Не бачите нижнього колонтитула? Все готово — пропустіть цей крок."
+      },
+      "panel": {
+        "title": "Майже готово",
+        "intro": "У розділі",
+        "setting": "Нижній колонтитул",
+        "turnOff": ", вимкніть",
+        "action": "Показувати нижній колонтитул на сторінці нової вкладки",
+        "suffix": ", потім закрийте панель."
+      },
+      "skip": "Пропустити",
+      "next": "Далі",
+      "done": "Готово"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Мова",
+      "subtitle": "Оберіть мову",
+      "search": "Пошук мов…",
+      "empty": "Жодна мова не відповідає вашому запиту."
+    },
+    "addWidget": {
+      "title": "Додати віджет",
+      "titleConfigure": "Налаштувати {{name}}",
+      "titleGoogleStyle": "Оберіть стиль пошуку Google",
+      "logoBarTitle": "Логотип + рядок",
+      "logoBarDesc": "Великий логотип Google над рядком пошуку. Займає 4 рядки.",
+      "barOnlyTitle": "Лише рядок",
+      "barOnlyDesc": "Лише рядок пошуку. Займає 1 рядок. Компактний.",
+      "urlLabel": "URL або код вбудовування",
+      "urlPlaceholder": "https://example.com\nабо\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Вставте URL для простих вбудовувань або вставте фрагмент <code>&lt;iframe&gt;</code> із сайтів, що блокують пряме завантаження (YouTube, Figma, Spotify, CodePen тощо).",
+      "back": "Назад",
+      "embedWidget": "Вбудувати віджет"
+    },
+    "addLink": {
+      "title": "Додати посилання",
+      "description": "Вставте URL, щоб додати нову картку посилання на вашу панель.",
+      "urlLabel": "URL веб-сайту",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Заголовок (необов'язково)",
+      "titlePlaceholder": "Моє посилання",
+      "locationLabel": "Розташування",
+      "locationMainDashboard": "Головна панель",
+      "locationHeader": "Заголовок (лише фавікон)",
+      "locationFolder": "Тека: {{title}}",
+      "locationGroup": "Група: {{title}}",
+      "cancel": "Скасувати",
+      "submit": "Додати посилання"
+    },
+    "theme": {
+      "title": "Тема та зовнішній вигляд",
+      "description": "Налаштуйте вигляд вашої панелі.",
+      "modeGroupLabel": "Режим теми",
+      "light": "Світла",
+      "dark": "Темна",
+      "device": "Пристрій",
+      "primaryColorHeading": "Основний колір",
+      "primaryColorPresetsLabel": "Заготовки основного кольору",
+      "customColorLabel": "Власний колір",
+      "customColorTitle": "Власний колір",
+      "customHue": "Власний відтінок",
+      "backgroundHeading": "Фон",
+      "backgroundTypeLabel": "Тип фону",
+      "backgroundColorLabel": "Колір фону",
+      "backgroundGradientLabel": "Градієнт фону",
+      "imageUrlPlaceholder": "Вставте URL зображення...",
+      "uploadImage": "Завантажити зображення",
+      "imageUploaded": "Власне зображення завантажено.",
+      "blur": "Розмиття",
+      "dim": "Затемнення",
+      "fileReadError": "Не вдалося прочитати файл.",
+      "bgType": {
+        "none": "Немає",
+        "color": "Колір",
+        "gradient": "Градієнт",
+        "image": "Зображення"
+      },
+      "themes": {
+        "default": "Типовий",
+        "grey": "Сірий",
+        "blue": "Синій",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Зелений",
+        "citron": "Citron",
+        "yellow": "Жовтий",
+        "orange": "Помаранчевий",
+        "apricot": "Apricot",
+        "tomato": "Томатний",
+        "rose": "Rose",
+        "pink": "Рожевий",
+        "fuchsia": "Fuchsia",
+        "violet": "Фіолетовий"
+      },
+      "gradients": {
+        "dusk": "Сутінки",
+        "sunset": "Захід сонця",
+        "ocean": "Океан",
+        "forest": "Ліс",
+        "slate": "Slate",
+        "aurora": "Аврора"
+      }
+    },
+    "clear": {
+      "title": "Очистити панель",
+      "description": "Це видаляє віджети з панелі. Ви перебуваєте в режимі редагування, тому ви можете натиснути «Скасувати» для відновлення перед збереженням.",
+      "widgetsGroups": "Віджети та групи на головній сітці",
+      "linksInsideGroups": "↳ посилання всередині груп",
+      "headerBarLinks": "Посилання у рядку заголовка",
+      "alsoClearHeaderLabel": "Також очистити посилання у рядку заголовка",
+      "alsoClearHeaderDesc": "За замовчуванням рядок заголовка зберігається. Позначте це, щоб очистити і його.",
+      "widgetGroups_one": "Буде видалено <strong>{{count}}</strong> віджет/групу",
+      "widgetGroups_other": "Буде видалено <strong>{{count}}</strong> віджетів/груп",
+      "headerLinks_one": "<strong>{{count}}</strong> посилання у заголовку",
+      "headerLinks_other": "<strong>{{count}}</strong> посилань у заголовку",
+      "andConnector": " та ",
+      "cancelRestores": ". «Скасувати» на панелі інструментів режиму редагування відновить їх.",
+      "nothingToClear": "Нічого очищати з поточним вибором.",
+      "cancelButton": "Скасувати",
+      "clearWidgets": "Очистити віджети",
+      "clearEverything": "Очистити все"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Поділитися цим елементом",
+      "copyLink": "Копіювати посилання",
+      "linkCopied": "Посилання скопійовано",
+      "shareOn": "Поділитися на {{platform}}",
+      "shareVia": "Поділитися через {{platform}}"
+    }
+  }
+}

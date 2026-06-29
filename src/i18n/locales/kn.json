@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "ಅಳಿಸು",
+    "cancel": "ರದ್ದುಮಾಡು",
+    "save": "ಉಳಿಸು",
+    "copy": "ನಕಲಿಸು",
+    "copied": "ನಕಲಿಸಲಾಗಿದೆ"
+  },
+  "header": {
+    "menu": {
+      "language": "ಭಾಷೆ",
+      "addLink": "ಲಿಂಕ್ ಸೇರಿಸು",
+      "addWidget": "ವಿಜೆಟ್ ಸೇರಿಸು",
+      "editDashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ತಿದ್ದು",
+      "theme": "ಥೀಮ್ ಮತ್ತು ನೋಟ",
+      "share": "MonoStart ಹಂಚಿಕೊಳ್ಳಿ",
+      "openInNewTab": "ಲಿಂಕ್‌ಗಳನ್ನು ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆ"
+    },
+    "settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "clear": "ತೆರವು",
+    "clearDashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ತೆರವು",
+    "cancel": "ರದ್ದುಮಾಡು",
+    "save": "ಉಳಿಸು"
+  },
+  "widgets": {
+    "deleteWidget": "ವಿಜೆಟ್ ಅಳಿಸು",
+    "placeholder": {
+      "place": "ಇಡು",
+      "dropToPlace": "ಇಡಲು ಬಿಡು"
+    },
+    "todo": {
+      "defaultTitle": "ಮಾಡಬೇಕಾದ ಕೆಲಸಗಳು",
+      "empty": "ಇನ್ನೂ ಯಾವ ಕೆಲಸಗಳಿಲ್ಲ.",
+      "deleteTask": "ಕೆಲಸ ಅಳಿಸು",
+      "placeholder": "ಕೆಲಸ ಸೇರಿಸು...",
+      "newTaskAriaLabel": "ಹೊಸ ಕೆಲಸ",
+      "addTask": "ಕೆಲಸ ಸೇರಿಸು",
+      "toggleAriaLabel": "\"{{text}}\" ಅನ್ನು {{status}} ಎಂದು ಗುರುತಿಸು",
+      "statusComplete": "ಮುಗಿದಿದೆ",
+      "statusIncomplete": "ಮುಗಿದಿಲ್ಲ"
+    },
+    "timer": {
+      "defaultTitle": "ಟೈಮರ್‌ಗಳು",
+      "empty": "ಯಾವ ಟೈಮರ್ ಹೊಂದಿಸಿಲ್ಲ.",
+      "deleteTimer": "ಟೈಮರ್ ಅಳಿಸು",
+      "pause": "ನಿಲ್ಲಿಸು",
+      "start": "ಶುರು",
+      "reset": "ಮರುಹೊಂದಿಸು",
+      "placeholderMin": "ನಿಮಿ",
+      "durationAriaLabel": "ಟೈಮರ್ ಅವಧಿ ನಿಮಿಷಗಳಲ್ಲಿ",
+      "placeholderLabel": "ಲೇಬಲ್ (ಐಚ್ಛಿಕ)",
+      "labelAriaLabel": "ಟೈಮರ್ ಲೇಬಲ್ (ಐಚ್ಛಿಕ)",
+      "addTimer": "ಟೈಮರ್ ಸೇರಿಸು"
+    },
+    "reminders": {
+      "defaultTitle": "ಜ್ಞಾಪಕಗಳು",
+      "empty": "ಇನ್ನೂ ಯಾವ ಜ್ಞಾಪಕಗಳಿಲ್ಲ.",
+      "deleteReminder": "ಜ್ಞಾಪಕ ಅಳಿಸು",
+      "placeholder": "ನನಗೆ ನೆನಪಿಸು...",
+      "textAriaLabel": "ಜ್ಞಾಪಕ ಪಠ್ಯ",
+      "recurrenceTitle": "ಪುನರಾವರ್ತನೆ",
+      "addReminder": "ಜ್ಞಾಪಕ ಸೇರಿಸು",
+      "customIntervalAriaLabel": "ಕಸ್ಟಮ್ ಮಧ್ಯಂತರ ಮೌಲ್ಯ",
+      "customUnitAriaLabel": "ಕಸ್ಟಮ್ ಮಧ್ಯಂತರ ಘಟಕ",
+      "unitMinutes": "ನಿಮಿಷಗಳು",
+      "unitHours": "ಗಂಟೆಗಳು",
+      "unitDays": "ದಿನಗಳು",
+      "saveRecurrence": "ಉಳಿಸು",
+      "toggleAriaLabel": "\"{{text}}\" ಅನ್ನು {{status}} ಎಂದು ಗುರುತಿಸು",
+      "statusComplete": "ಮುಗಿದಿದೆ",
+      "statusIncomplete": "ಮುಗಿದಿಲ್ಲ",
+      "recurrenceNone": "ಒಮ್ಮೆ",
+      "recurrence30min": "ಪ್ರತಿ 30 ನಿಮಿ",
+      "recurrenceHourly": "ಗಂಟೆಗೊಮ್ಮೆ",
+      "recurrenceDaily": "ದಿನಕ್ಕೊಮ್ಮೆ",
+      "recurrenceWeekly": "ವಾರಕ್ಕೊಮ್ಮೆ",
+      "recurrenceCustom": "ಕಸ್ಟಮ್",
+      "everyDay": "ಪ್ರತಿ {{count}}ದಿ",
+      "everyHour": "ಪ್ರತಿ {{count}}ಗಂ",
+      "everyMin": "ಪ್ರತಿ {{count}}ನಿ",
+      "every": "ಪ್ರತಿ",
+      "today": "ಇಂದು {{time}}",
+      "tomorrow": "ನಾಳೆ {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "ಟಿಪ್ಪಣಿ",
+      "changeColor": "ಬಣ್ಣ ಬದಲಿಸು",
+      "placeholder": "ಏನಾದರೂ ಬರೆಯಿರಿ...",
+      "contentAriaLabel": "ಟಿಪ್ಪಣಿ ವಿಷಯ",
+      "titleAriaLabel": "ಟಿಪ್ಪಣಿ ಶೀರ್ಷಿಕೆ",
+      "actionsAriaLabel": "ಟಿಪ್ಪಣಿ ಕ್ರಿಯೆಗಳು",
+      "color_default": "ಡಿಫಾಲ್ಟ್",
+      "color_amber": "ಹಳದಿ",
+      "color_sky": "ನೀಲಿ",
+      "color_rose": "ಗುಲಾಬಿ",
+      "color_emerald": "ಹಸಿರು",
+      "color_purple": "ನೇರಳೆ"
+    },
+    "image": {
+      "defaultTitle": "ಚಿತ್ರ",
+      "settings": "ಚಿತ್ರ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+      "actionsAriaLabel": "ಚಿತ್ರ ಕ್ರಿಯೆಗಳು",
+      "titleAriaLabel": "ಚಿತ್ರ ಶೀರ್ಷಿಕೆ",
+      "changeImage": "ಚಿತ್ರ ಬದಲಿಸು",
+      "fitCover": "ಕವರ್ (ಕತ್ತರಿಸು)",
+      "fitContain": "ಒಳಗೊಳ್ಳು (ಅನುಪಾತ)",
+      "fitFill": "ತುಂಬು (ವಿಸ್ತರಿಸು)",
+      "configureTitle": "ವಿಜೆಟ್ ಚಿತ್ರ ಹೊಂದಿಸು",
+      "urlPlaceholder": "ಚಿತ್ರ URL ಅಂಟಿಸಿ...",
+      "or": "ಅಥವಾ",
+      "uploadLocal": "ಸ್ಥಳೀಯ ಚಿತ್ರ ಅಪ್‌ಲೋಡ್",
+      "cancelConfig": "ಸಂರಚನೆ ರದ್ದು",
+      "loadError": "ಚಿತ್ರ ಲೋಡ್ ಆಗಲಿಲ್ಲ. URL ತಪ್ಪಾಗಿರಬಹುದು ಅಥವಾ ನಿರ್ಬಂಧಿತವಾಗಿರಬಹುದು."
+    },
+    "label": {
+      "defaultText": "ಪಠ್ಯ",
+      "settings": "ಪಠ್ಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+      "actionsAriaLabel": "ಲೇಬಲ್ ಕ್ರಿಯೆಗಳು",
+      "textAriaLabel": "ಲೇಬಲ್ ಪಠ್ಯ",
+      "editText": "ಪಠ್ಯ ತಿದ್ದು",
+      "showCardStyle": "ಕಾರ್ಡ್ ಶೈಲಿ ತೋರಿಸು",
+      "fontSize": "ಅಕ್ಷರ ಗಾತ್ರ",
+      "alignment": "ಜೋಡಣೆ",
+      "fontWeight": "ಅಕ್ಷರ ತೂಕ",
+      "opacity": "ಪಾರದರ್ಶಕತೆ",
+      "deleteText": "ಪಠ್ಯ ಅಳಿಸು",
+      "alignLeft": "ಎಡ",
+      "alignCenter": "ಮಧ್ಯ",
+      "alignRight": "ಬಲ",
+      "fontSizes": {
+        "sm": "ಚಿಕ್ಕದು",
+        "base": "ಮಧ್ಯಮ",
+        "lg": "ದೊಡ್ಡದು",
+        "xl": "ಅತಿ ದೊಡ್ಡದು",
+        "xl2": "2X ದೊಡ್ಡದು",
+        "xl3": "3X ದೊಡ್ಡದು",
+        "xl4": "4X ದೊಡ್ಡದು",
+        "xl5": "5X ದೊಡ್ಡದು",
+        "xl6": "6X ದೊಡ್ಡದು",
+        "xl7": "7X ದೊಡ್ಡದು",
+        "xl8": "8X ದೊಡ್ಡದು",
+        "xl9": "9X ದೊಡ್ಡದು",
+        "xl10": "10X ದೊಡ್ಡದು",
+        "xl12": "12X ದೊಡ್ಡದು"
+      },
+      "fontWeights": {
+        "thin": "ತೆಳು",
+        "light": "ಹಗುರ",
+        "regular": "ಸಾಮಾನ್ಯ",
+        "medium": "ಮಧ್ಯಮ",
+        "semibold": "ಅರೆ ದಪ್ಪ",
+        "bold": "ದಪ್ಪ",
+        "extrabold": "ಅತಿ ದಪ್ಪ",
+        "black": "ಬ್ಲ್ಯಾಕ್"
+      },
+      "opacities": {
+        "full": "100% (ಪ್ರಕಾಶಮಾನ)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (ಮಸುಕು)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google ಹುಡುಕಿ ಅಥವಾ URL ಟೈಪ್ ಮಾಡಿ",
+      "searchAriaLabel": "ಹುಡುಕಾಟ ಪ್ರಶ್ನೆ",
+      "voiceSearch": "ಧ್ವನಿ ಹುಡುಕಾಟ",
+      "lensSearch": "Lens ನಿಂದ ಯಾವ ಚಿತ್ರವನ್ನಾದರೂ ಹುಡುಕಿ",
+      "removeWidget": "ವಿಜೆಟ್ ತೆಗೆ",
+      "switchToBarOnly": "ಬಾರ್ ಮಾತ್ರಕ್ಕೆ ಬದಲಿಸು",
+      "switchToLogoBar": "ಲೋಗೋ + ಬಾರ್‌ಗೆ ಬದಲಿಸು",
+      "barOnly": "ಬಾರ್ ಮಾತ್ರ",
+      "showLogo": "ಲೋಗೋ ತೋರಿಸು",
+      "toggleLogoStyle": "ಲೋಗೋ ಶೈಲಿ ಬದಲಿಸು"
+    },
+    "group": {
+      "borderColorAriaLabel": "ಗುಂಪು ಗಡಿ ಬಣ್ಣ",
+      "pasteUrlPlaceholder": "URL ಅಂಟಿಸಿ...",
+      "colors": {
+        "red": "ಕೆಂಪು",
+        "pink": "ಗುಲಾಬಿ",
+        "purple": "ನೇರಳೆ",
+        "indigo": "ನೀಲೇ",
+        "blue": "ನೀಲಿ",
+        "cyan": "ಸಯಾನ್",
+        "teal": "ತೀಲ್",
+        "green": "ಹಸಿರು",
+        "yellow": "ಹಳದಿ",
+        "orange": "ಕಿತ್ತಳೆ",
+        "slate": "ಸ್ಲೇಟ್",
+        "neutral": "ತಟಸ್ಥ"
+      },
+      "defaultTitle": "ಹೊಸ ಗುಂಪು"
+    },
+    "groupHeader": {
+      "addLink": "ಲಿಂಕ್ ಸೇರಿಸು",
+      "colorBorder": "ಬಣ್ಣ ಗಡಿ",
+      "layout": "ವಿನ್ಯಾಸ",
+      "layoutGrid": "ಗ್ರಿಡ್",
+      "layoutList": "ಪಟ್ಟಿ",
+      "gridColumns": "ಗ್ರಿಡ್ ಕಾಲಮ್‌ಗಳು",
+      "column_one": "{{count}} ಕಾಲಮ್",
+      "column_other": "{{count}} ಕಾಲಮ್‌ಗಳು",
+      "deleteGroup": "ಗುಂಪು ಅಳಿಸು",
+      "actionsAriaLabel": "ಗುಂಪು ಕ್ರಿಯೆಗಳು"
+    },
+    "groupInnerGrid": {
+      "empty": "ಖಾಲಿ ಗುಂಪು",
+      "addFirstLink": "ಮೊದಲ ಲಿಂಕ್ ಸೇರಿಸು",
+      "dropToAdd": "ಸೇರಿಸಲು ಬಿಡು",
+      "add": "ಸೇರಿಸು"
+    },
+    "iframe": {
+      "removeWidget": "ವಿಜೆಟ್ ತೆಗೆ",
+      "openInNewTab": "ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆ",
+      "defaultTitle": "ಎಂಬೆಡ್ ಮಾಡಿದ ಪುಟ"
+    },
+    "linkCard": {
+      "options": "ಆಯ್ಕೆಗಳು",
+      "rename": "ಮರುನಾಮಕರಣ",
+      "size": "ಗಾತ್ರ",
+      "sizeSmall": "ಚಿಕ್ಕದು (1×1)",
+      "sizeMedium": "ಮಧ್ಯಮ (3×1)",
+      "moveTo": "ಇಲ್ಲಿಗೆ ಸರಿಸು...",
+      "mainDashboard": "ಮುಖ್ಯ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+      "header": "ಹೆಡರ್",
+      "deleteLink": "ಲಿಂಕ್ ಅಳಿಸು",
+      "actionsAriaLabel": "ಲಿಂಕ್ ಕ್ರಿಯೆಗಳು"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Google ಹುಡುಕಿ ಅಥವಾ URL ಟೈಪ್ ಮಾಡಿ."
+      },
+      "group": {
+        "name": "ಗುಂಪು",
+        "description": "ನಿಮ್ಮ ಲಿಂಕ್‌ಗಳನ್ನು ಸಂಘಟಿಸಲು ಕಸ್ಟಮ್ ಬಣ್ಣದ ಗುಂಪು."
+      },
+      "reminders": {
+        "name": "ಜ್ಞಾಪಕಗಳು",
+        "description": "ಬ್ರೌಸರ್ ಅಧಿಸೂಚನೆಗಳೊಂದಿಗೆ ಜ್ಞಾಪಕಗಳನ್ನು ಶೆಡ್ಯೂಲ್ ಮಾಡಿ. ಗಂಟೆಗೊಮ್ಮೆ / ದಿನಕ್ಕೊಮ್ಮೆ / ವಾರಕ್ಕೊಮ್ಮೆ ಪುನರಾವರ್ತನೆ ಬೆಂಬಲಿತ."
+      },
+      "todo": {
+        "name": "ಮಾಡಬೇಕಾದ ಪಟ್ಟಿ",
+        "description": "ನಿಮ್ಮ ಕೆಲಸಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ."
+      },
+      "timer": {
+        "name": "ಟೈಮರ್‌ಗಳು",
+        "description": "ಹಲವು ಟೈಮರ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಿ."
+      },
+      "note": {
+        "name": "ಸ್ಟಿಕ್ಕಿ ನೋಟ್",
+        "description": "ಕಸ್ಟಮ್ ಬಣ್ಣಗಳಲ್ಲಿ ಟಿಪ್ಪಣಿಗಳು ಅಥವಾ ಜ್ಞಾಪಕಗಳನ್ನು ಬರೆಯಿರಿ."
+      },
+      "image": {
+        "name": "ಚಿತ್ರ",
+        "description": "URL ನಿಂದ ಚಿತ್ರ ಸೇರಿಸಿ ಅಥವಾ ಸ್ಥಳೀಯ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
+      },
+      "label": {
+        "name": "ಪಠ್ಯ ಲೇಬಲ್",
+        "description": "ನಿಮ್ಮ ಗ್ರಿಡ್ ಅಲಂಕರಿಸಲು ಸ್ವಚ್ಛ ತೇಲುವ ಪಠ್ಯ ಹೆಡರ್ ಅಥವಾ ಶೀರ್ಷಿಕೆ ಸೇರಿಸಿ."
+      },
+      "iframe": {
+        "name": "ಎಂಬೆಡ್ ಮಾಡಿದ ಪುಟ",
+        "description": "ಯಾವ ವೆಬ್‌ಸೈಟ್ ಅನ್ನಾದರೂ ಲೈವ್ ವಿಜೆಟ್ ಆಗಿ ಎಂಬೆಡ್ ಮಾಡಿ."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} ಖಾಲಿ ಫೋಟೋ ವಿಜೆಟ್ ತೆಗೆದಿದೆ.",
+    "removedEmptyPhotos_other": "{{count}} ಖಾಲಿ ಫೋಟೋ ವಿಜೆಟ್‌ಗಳನ್ನು ತೆಗೆದಿದೆ.",
+    "clearedWidgets_one": "{{count}} ವಿಜೆಟ್",
+    "clearedWidgets_other": "{{count}} ವಿಜೆಟ್‌ಗಳು",
+    "clearedHeaderLinks_one": "{{count}} ಹೆಡರ್ ಲಿಂಕ್",
+    "clearedHeaderLinks_other": "{{count}} ಹೆಡರ್ ಲಿಂಕ್‌ಗಳು",
+    "clearedSummary": "{{items}} ತೆರವು ಮಾಡಲಾಗಿದೆ. ರದ್ದು ಮಾಡಲು ರದ್ದುಮಾಡು, ದೃಢೀಕರಿಸಲು ಉಳಿಸು.",
+    "onlyOneGoogleSearch": "ಒಂದು Google ಹುಡುಕಾಟ ವಿಜೆಟ್ ಮಾತ್ರ ಅನುಮತಿಸಲಾಗಿದೆ.",
+    "noRoomForWidget": "ಈ ವಿಜೆಟ್‌ಗೆ ಜಾಗವಿಲ್ಲ. ಜಾಗ ಮಾಡಲು ಗಾತ್ರ ಬದಲಿಸಿ ಅಥವಾ ತೆಗೆದುಹಾಕಿ.",
+    "swap": {
+      "no-room": "ಬದಲಾಯಿಸಲು ಆಗದು — ಎರಡೂ ವಿಜೆಟ್‌ಗಳಿಗೆ ಹೊಸ ಸ್ಥಾನಗಳಲ್ಲಿ ಸಾಕಷ್ಟು ಜಾಗವಿಲ್ಲ.",
+      "out-of-bounds": "ಬದಲಾಯಿಸಲು ಆಗದು — ಒಂದು ವಿಜೆಟ್ ಅದರ ಕನಿಷ್ಠ ಗಾತ್ರದಲ್ಲಿ ಗ್ರಿಡ್ ಅಂಚನ್ನು ದಾಟುತ್ತದೆ.",
+      "overlap": "ಬದಲಾಯಿಸಲು ಆಗದು — ಎರಡೂ ವಿಜೆಟ್‌ಗಳ ಕನಿಷ್ಠ ಗಾತ್ರಗಳು ಒಂದಕ್ಕೊಂದು ಅತಿಕ್ರಮಿಸುತ್ತವೆ.",
+      "obstacle": "ಬದಲಾಯಿಸಲು ಆಗದು — ಇನ್ನೊಂದು ವಿಜೆಟ್ ದಾರಿಯಲ್ಲಿದೆ. ಅದನ್ನು ಮೊದಲು ಸರಿಸಿ ಅಥವಾ ಗಾತ್ರ ಬದಲಿಸಿ."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStart ಗೆ ಉಳಿಸು",
+    "saveLink": "ಲಿಂಕ್ ಉಳಿಸು",
+    "saved": "ಉಳಿಸಲಾಗಿದೆ!",
+    "openDashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ತೆರೆ",
+    "destination": {
+      "label": "ಗಮ್ಯ",
+      "main": "ಮುಖ್ಯ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+      "header": "ಹೆಡರ್ ಬಾರ್"
+    },
+    "reminders": {
+      "ariaLabel": "ಬಾಕಿ ಜ್ಞಾಪಕಗಳು",
+      "count_one": "{{count}} ಜ್ಞಾಪಕ",
+      "count_other": "{{count}} ಜ್ಞಾಪಕಗಳು",
+      "clearAll": "ಎಲ್ಲ ತೆರವು",
+      "dismiss": "ವಜಾ"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome ಫೂಟರ್ ಮಾರ್ಗದರ್ಶಿ ಮರೆಮಾಡು",
+      "success": "ಫೂಟರ್ ಮರೆಮಾಡಲಾಗಿದೆ — ಪೂರ್ಣ ಪರದೆ ಆನಂದಿಸಿ!",
+      "corner": {
+        "title": "ಪೂರ್ಣ-ಪರದೆ ಅನುಭವ ಪಡೆಯಿರಿ",
+        "intro": "Chrome, MonoStart ಕೆಳಗೆ ಫೂಟರ್ ಸೇರಿಸುತ್ತದೆ. ಅದನ್ನು ಮರೆಮಾಡಲು, ಕ್ಲಿಕ್ ಮಾಡಿ",
+        "cta": "Chrome ಅನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ",
+        "ctaSuffix": "ಕೆಳ-ಬಲ ಮೂಲೆಯಲ್ಲಿ.",
+        "noFooter": "ಫೂಟರ್ ಕಾಣಿಸುತ್ತಿಲ್ಲವೇ? ನೀವು ಸಿದ್ಧ — ಇದನ್ನು ಬಿಟ್ಟು ಹೋಗಿ."
+      },
+      "panel": {
+        "title": "ಬಹುತೇಕ ಮುಗಿದಿದೆ",
+        "intro": "ಅಡಿಯಲ್ಲಿ",
+        "setting": "ಫೂಟರ್",
+        "turnOff": ", ಆಫ್ ಮಾಡಿ",
+        "action": "ಹೊಸ ಟ್ಯಾಬ್ ಪುಟದಲ್ಲಿ ಫೂಟರ್ ತೋರಿಸು",
+        "suffix": ", ನಂತರ ಪ್ಯಾನೆಲ್ ಮುಚ್ಚಿ."
+      },
+      "skip": "ಬಿಟ್ಟುಬಿಡು",
+      "next": "ಮುಂದೆ",
+      "done": "ಮುಗಿದಿದೆ"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "ಭಾಷೆ",
+      "subtitle": "ನಿಮ್ಮ ಭಾಷೆ ಆರಿಸಿ",
+      "search": "ಭಾಷೆಗಳನ್ನು ಹುಡುಕಿ…",
+      "empty": "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ಯಾವ ಭಾಷೆಯೂ ಹೊಂದಿಕೆಯಾಗಲಿಲ್ಲ."
+    },
+    "addWidget": {
+      "title": "ವಿಜೆಟ್ ಸೇರಿಸು",
+      "titleConfigure": "{{name}} ಸಂರಚಿಸಿ",
+      "titleGoogleStyle": "Google ಹುಡುಕಾಟ ಶೈಲಿ ಆರಿಸಿ",
+      "logoBarTitle": "ಲೋಗೋ + ಬಾರ್",
+      "logoBarDesc": "ಹುಡುಕಾಟ ಬಾರ್‌ನ ಮೇಲೆ ದೊಡ್ಡ Google ಲೋಗೋ. 4 ಸಾಲುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ.",
+      "barOnlyTitle": "ಬಾರ್ ಮಾತ್ರ",
+      "barOnlyDesc": "ಕೇವಲ ಹುಡುಕಾಟ ಬಾರ್. 1 ಸಾಲು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ. ಸಂಕ್ಷಿಪ್ತ.",
+      "urlLabel": "URL ಅಥವಾ ಎಂಬೆಡ್ ಕೋಡ್",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "ಸರಳ ಎಂಬೆಡ್‌ಗಳಿಗೆ URL ಅಂಟಿಸಿ, ಅಥವಾ ನೇರ ಲೋಡಿಂಗ್ ನಿರ್ಬಂಧಿಸುವ ಸೈಟ್‌ಗಳಿಂದ <code>&lt;iframe&gt;</code> ತುಂಡನ್ನು ಅಂಟಿಸಿ (YouTube, Figma, Spotify, CodePen, ಇತ್ಯಾದಿ).",
+      "back": "ಹಿಂದೆ",
+      "embedWidget": "ವಿಜೆಟ್ ಎಂಬೆಡ್"
+    },
+    "addLink": {
+      "title": "ಲಿಂಕ್ ಸೇರಿಸು",
+      "description": "ನಿಮ್ಮ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಹೊಸ ಲಿಂಕ್ ಕಾರ್ಡ್ ಸೇರಿಸಲು URL ಅಂಟಿಸಿ.",
+      "urlLabel": "ವೆಬ್‌ಸೈಟ್ URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "ಶೀರ್ಷಿಕೆ (ಐಚ್ಛಿಕ)",
+      "titlePlaceholder": "ನನ್ನ ಲಿಂಕ್",
+      "locationLabel": "ಸ್ಥಳ",
+      "locationMainDashboard": "ಮುಖ್ಯ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+      "locationHeader": "ಹೆಡರ್ (ಫ್ಯಾವಿಕಾನ್ ಮಾತ್ರ)",
+      "locationFolder": "ಫೋಲ್ಡರ್: {{title}}",
+      "locationGroup": "ಗುಂಪು: {{title}}",
+      "cancel": "ರದ್ದುಮಾಡು",
+      "submit": "ಲಿಂಕ್ ಸೇರಿಸು"
+    },
+    "theme": {
+      "title": "ಥೀಮ್ ಮತ್ತು ನೋಟ",
+      "description": "ನಿಮ್ಮ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನ ನೋಟ ಕಸ್ಟಮೈಸ್ ಮಾಡಿ.",
+      "modeGroupLabel": "ಥೀಮ್ ಮೋಡ್",
+      "light": "ಬೆಳಕು",
+      "dark": "ಕತ್ತಲು",
+      "device": "ಸಾಧನ",
+      "primaryColorHeading": "ಪ್ರಾಥಮಿಕ ಬಣ್ಣ",
+      "primaryColorPresetsLabel": "ಪ್ರಾಥಮಿಕ ಬಣ್ಣ ಪ್ರಿಸೆಟ್‌ಗಳು",
+      "customColorLabel": "ಕಸ್ಟಮ್ ಬಣ್ಣ",
+      "customColorTitle": "ಕಸ್ಟಮ್ ಬಣ್ಣ",
+      "customHue": "ಕಸ್ಟಮ್ ಹ್ಯೂ",
+      "backgroundHeading": "ಹಿನ್ನೆಲೆ",
+      "backgroundTypeLabel": "ಹಿನ್ನೆಲೆ ಪ್ರಕಾರ",
+      "backgroundColorLabel": "ಹಿನ್ನೆಲೆ ಬಣ್ಣ",
+      "backgroundGradientLabel": "ಹಿನ್ನೆಲೆ ಗ್ರೇಡಿಯಂಟ್",
+      "imageUrlPlaceholder": "ಚಿತ್ರ URL ಅಂಟಿಸಿ...",
+      "uploadImage": "ಚಿತ್ರ ಅಪ್‌ಲೋಡ್",
+      "imageUploaded": "ಕಸ್ಟಮ್ ಚಿತ್ರ ಅಪ್‌ಲೋಡ್ ಆಗಿದೆ.",
+      "blur": "ಮಬ್ಬು",
+      "dim": "ಮಂದ",
+      "fileReadError": "ಫೈಲ್ ಓದಲು ವಿಫಲವಾಗಿದೆ.",
+      "bgType": {
+        "none": "ಯಾವುದೂ ಇಲ್ಲ",
+        "color": "ಬಣ್ಣ",
+        "gradient": "ಗ್ರೇಡಿಯಂಟ್",
+        "image": "ಚಿತ್ರ"
+      },
+      "themes": {
+        "default": "ಡಿಫಾಲ್ಟ್",
+        "grey": "ಬೂದು",
+        "blue": "ನೀಲಿ",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "ಹಸಿರು",
+        "citron": "Citron",
+        "yellow": "ಹಳದಿ",
+        "orange": "ಕಿತ್ತಳೆ",
+        "apricot": "Apricot",
+        "tomato": "ಟೊಮ್ಯಾಟೊ",
+        "rose": "ಗುಲಾಬಿ",
+        "pink": "ಗುಲಾಬಿ ಬಣ್ಣ",
+        "fuchsia": "Fuchsia",
+        "violet": "ನೇರಳೆ"
+      },
+      "gradients": {
+        "dusk": "ಸಂಜೆ",
+        "sunset": "ಸೂರ್ಯಾಸ್ತ",
+        "ocean": "ಸಮುದ್ರ",
+        "forest": "ಅರಣ್ಯ",
+        "slate": "ಸ್ಲೇಟ್",
+        "aurora": "ಅರೋರಾ"
+      }
+    },
+    "clear": {
+      "title": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ತೆರವು",
+      "description": "ಇದು ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಿಂದ ವಿಜೆಟ್‌ಗಳನ್ನು ತೆಗೆಯುತ್ತದೆ. ನೀವು ಸಂಪಾದನಾ ಮೋಡ್‌ನಲ್ಲಿದ್ದೀರಿ, ಉಳಿಸುವ ಮೊದಲು ರದ್ದು ಒತ್ತಬಹುದು.",
+      "widgetsGroups": "ಮುಖ್ಯ ಗ್ರಿಡ್‌ನಲ್ಲಿ ವಿಜೆಟ್‌ಗಳು ಮತ್ತು ಗುಂಪುಗಳು",
+      "linksInsideGroups": "↳ ಗುಂಪುಗಳ ಒಳಗಿನ ಲಿಂಕ್‌ಗಳು",
+      "headerBarLinks": "ಹೆಡರ್ ಬಾರ್ ಲಿಂಕ್‌ಗಳು",
+      "alsoClearHeaderLabel": "ಹೆಡರ್ ಬಾರ್ ಲಿಂಕ್‌ಗಳನ್ನೂ ತೆರವು ಮಾಡಿ",
+      "alsoClearHeaderDesc": "ಡಿಫಾಲ್ಟ್ ಆಗಿ ಹೆಡರ್ ಬಾರ್ ಉಳಿಸಲಾಗುತ್ತದೆ. ಇದನ್ನೂ ಅಳಿಸಲು ಟಿಕ್ ಮಾಡಿ.",
+      "widgetGroups_one": "<strong>{{count}}</strong> ವಿಜೆಟ್/ಗುಂಪನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ",
+      "widgetGroups_other": "<strong>{{count}}</strong> ವಿಜೆಟ್‌ಗಳು/ಗುಂಪುಗಳನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ",
+      "headerLinks_one": "<strong>{{count}}</strong> ಹೆಡರ್ ಲಿಂಕ್",
+      "headerLinks_other": "<strong>{{count}}</strong> ಹೆಡರ್ ಲಿಂಕ್‌ಗಳು",
+      "andConnector": " ಮತ್ತು ",
+      "cancelRestores": ". ಸಂಪಾದನಾ-ಮೋಡ್ ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿ ರದ್ದು ಅವುಗಳನ್ನು ಮರಳಿ ತರುತ್ತದೆ.",
+      "nothingToClear": "ಪ್ರಸ್ತುತ ಆಯ್ಕೆಯಲ್ಲಿ ತೆರವು ಮಾಡಲು ಏನೂ ಇಲ್ಲ.",
+      "cancelButton": "ರದ್ದುಮಾಡು",
+      "clearWidgets": "ವಿಜೆಟ್‌ಗಳನ್ನು ತೆರವು ಮಾಡಿ",
+      "clearEverything": "ಎಲ್ಲವನ್ನೂ ತೆರವು ಮಾಡಿ"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "ಈ ಐಟಂ ಹಂಚಿಕೊಳ್ಳಿ",
+      "copyLink": "ಲಿಂಕ್ ನಕಲಿಸು",
+      "linkCopied": "ಲಿಂಕ್ ನಕಲಿಸಲಾಗಿದೆ",
+      "shareOn": "{{platform}} ನಲ್ಲಿ ಹಂಚಿ",
+      "shareVia": "{{platform}} ಮೂಲಕ ಹಂಚಿ"
+    }
+  }
+}

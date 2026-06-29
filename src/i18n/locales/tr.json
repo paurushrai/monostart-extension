@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Sil",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı"
+  },
+  "header": {
+    "menu": {
+      "language": "Dil",
+      "addLink": "Bağlantı Ekle",
+      "addWidget": "Widget Ekle",
+      "editDashboard": "Panoyu Düzenle",
+      "theme": "Tema ve Görünüm",
+      "share": "MonoStart'ı Paylaş",
+      "openInNewTab": "Bağlantıları yeni sekmede aç"
+    },
+    "settings": "Ayarlar",
+    "clear": "Temizle",
+    "clearDashboard": "Panoyu Temizle",
+    "cancel": "İptal",
+    "save": "Kaydet"
+  },
+  "widgets": {
+    "deleteWidget": "Widget'ı Sil",
+    "placeholder": {
+      "place": "Yerleştir",
+      "dropToPlace": "Yerleştirmek için bırak"
+    },
+    "todo": {
+      "defaultTitle": "Yapılacaklar",
+      "empty": "Henüz görev yok.",
+      "deleteTask": "Görevi Sil",
+      "placeholder": "Görev ekle...",
+      "newTaskAriaLabel": "Yeni görev",
+      "addTask": "Görev Ekle",
+      "toggleAriaLabel": "\"{{text}}\" öğesini {{status}} olarak işaretle",
+      "statusComplete": "tamamlandı",
+      "statusIncomplete": "tamamlanmadı"
+    },
+    "timer": {
+      "defaultTitle": "Zamanlayıcılar",
+      "empty": "Zamanlayıcı ayarlanmamış.",
+      "deleteTimer": "Zamanlayıcıyı Sil",
+      "pause": "Duraklat",
+      "start": "Başlat",
+      "reset": "Sıfırla",
+      "placeholderMin": "Dak",
+      "durationAriaLabel": "Dakika cinsinden zamanlayıcı süresi",
+      "placeholderLabel": "Etiket (isteğe bağlı)",
+      "labelAriaLabel": "Zamanlayıcı etiketi (isteğe bağlı)",
+      "addTimer": "Zamanlayıcı Ekle"
+    },
+    "reminders": {
+      "defaultTitle": "Hatırlatıcılar",
+      "empty": "Henüz hatırlatıcı yok.",
+      "deleteReminder": "Hatırlatıcıyı Sil",
+      "placeholder": "Beni hatırlat...",
+      "textAriaLabel": "Hatırlatıcı metni",
+      "recurrenceTitle": "Tekrarlama",
+      "addReminder": "Hatırlatıcı Ekle",
+      "customIntervalAriaLabel": "Özel aralık değeri",
+      "customUnitAriaLabel": "Özel aralık birimi",
+      "unitMinutes": "Dakika",
+      "unitHours": "Saat",
+      "unitDays": "Gün",
+      "saveRecurrence": "Kaydet",
+      "toggleAriaLabel": "\"{{text}}\" öğesini {{status}} olarak işaretle",
+      "statusComplete": "tamamlandı",
+      "statusIncomplete": "tamamlanmadı",
+      "recurrenceNone": "Bir kez",
+      "recurrence30min": "Her 30 dakikada bir",
+      "recurrenceHourly": "Saatlik",
+      "recurrenceDaily": "Günlük",
+      "recurrenceWeekly": "Haftalık",
+      "recurrenceCustom": "Özel",
+      "everyDay": "Her {{count}}g",
+      "everyHour": "Her {{count}}s",
+      "everyMin": "Her {{count}}d",
+      "every": "Her",
+      "today": "Bugün {{time}}",
+      "tomorrow": "Yarın {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Not",
+      "changeColor": "Rengi Değiştir",
+      "placeholder": "Bir şeyler yaz...",
+      "contentAriaLabel": "Not içeriği",
+      "titleAriaLabel": "Not başlığı",
+      "actionsAriaLabel": "Not eylemleri",
+      "color_default": "Varsayılan",
+      "color_amber": "Sarı",
+      "color_sky": "Mavi",
+      "color_rose": "Pembe",
+      "color_emerald": "Yeşil",
+      "color_purple": "Mor"
+    },
+    "image": {
+      "defaultTitle": "Resim",
+      "settings": "Resim Ayarları",
+      "actionsAriaLabel": "Resim eylemleri",
+      "titleAriaLabel": "Resim başlığı",
+      "changeImage": "Resmi Değiştir",
+      "fitCover": "Kapla (Kırp)",
+      "fitContain": "Sığdır (En Boy Oranı)",
+      "fitFill": "Doldur (Gerdirme)",
+      "configureTitle": "Widget Resmini Yapılandır",
+      "urlPlaceholder": "Resim URL'si yapıştır...",
+      "or": "Veya",
+      "uploadLocal": "Yerel Resim Yükle",
+      "cancelConfig": "Yapılandırmayı İptal Et",
+      "loadError": "Resim yüklenemedi. URL bozuk veya engellenmiş olabilir."
+    },
+    "label": {
+      "defaultText": "Metin",
+      "settings": "Metin Ayarları",
+      "actionsAriaLabel": "Etiket eylemleri",
+      "textAriaLabel": "Etiket metni",
+      "editText": "Metni Düzenle",
+      "showCardStyle": "Kart Stilini Göster",
+      "fontSize": "Yazı Boyutu",
+      "alignment": "Hizalama",
+      "fontWeight": "Yazı Kalınlığı",
+      "opacity": "Opaklık",
+      "deleteText": "Metni Sil",
+      "alignLeft": "Sol",
+      "alignCenter": "Orta",
+      "alignRight": "Sağ",
+      "fontSizes": {
+        "sm": "Küçük",
+        "base": "Orta",
+        "lg": "Büyük",
+        "xl": "Çok Büyük",
+        "xl2": "2X Büyük",
+        "xl3": "3X Büyük",
+        "xl4": "4X Büyük",
+        "xl5": "5X Büyük",
+        "xl6": "6X Büyük",
+        "xl7": "7X Büyük",
+        "xl8": "8X Büyük",
+        "xl9": "9X Büyük",
+        "xl10": "10X Büyük",
+        "xl12": "12X Büyük"
+      },
+      "fontWeights": {
+        "thin": "İnce",
+        "light": "Hafif",
+        "regular": "Normal",
+        "medium": "Orta",
+        "semibold": "Yarı Kalın",
+        "bold": "Kalın",
+        "extrabold": "Çok Kalın",
+        "black": "Siyah"
+      },
+      "opacities": {
+        "full": "100% (Parlak)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Soluk)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google'da ara veya URL gir",
+      "searchAriaLabel": "Arama sorgusu",
+      "voiceSearch": "Sesli arama",
+      "lensSearch": "Lens ile herhangi bir resmi ara",
+      "removeWidget": "Widget'ı kaldır",
+      "switchToBarOnly": "Yalnızca çubuğa geç",
+      "switchToLogoBar": "Logo + çubuğa geç",
+      "barOnly": "Yalnızca çubuk",
+      "showLogo": "Logoyu göster",
+      "toggleLogoStyle": "Logo stilini değiştir"
+    },
+    "group": {
+      "borderColorAriaLabel": "Grup kenarlık rengi",
+      "pasteUrlPlaceholder": "URL yapıştır...",
+      "colors": {
+        "red": "Kırmızı",
+        "pink": "Pembe",
+        "purple": "Mor",
+        "indigo": "Çivit",
+        "blue": "Mavi",
+        "cyan": "Camgöbeği",
+        "teal": "Deniz yeşili",
+        "green": "Yeşil",
+        "yellow": "Sarı",
+        "orange": "Turuncu",
+        "slate": "Kurşuni",
+        "neutral": "Nötr"
+      },
+      "defaultTitle": "Yeni Grup"
+    },
+    "groupHeader": {
+      "addLink": "Bağlantı Ekle",
+      "colorBorder": "Kenarlık Rengi",
+      "layout": "Düzen",
+      "layoutGrid": "Izgara",
+      "layoutList": "Liste",
+      "gridColumns": "Izgara Sütunları",
+      "column_one": "{{count}} Sütun",
+      "column_other": "{{count}} Sütun",
+      "deleteGroup": "Grubu Sil",
+      "actionsAriaLabel": "Grup eylemleri"
+    },
+    "groupInnerGrid": {
+      "empty": "Boş Grup",
+      "addFirstLink": "İlk bağlantıyı ekle",
+      "dropToAdd": "Eklemek için bırak",
+      "add": "Ekle"
+    },
+    "iframe": {
+      "removeWidget": "Widget'ı kaldır",
+      "openInNewTab": "Yeni sekmede aç",
+      "defaultTitle": "Gömülü Sayfa"
+    },
+    "linkCard": {
+      "options": "Seçenekler",
+      "rename": "Yeniden Adlandır",
+      "size": "Boyut",
+      "sizeSmall": "Küçük (1×1)",
+      "sizeMedium": "Orta (3×1)",
+      "moveTo": "Taşı...",
+      "mainDashboard": "Ana Pano",
+      "header": "Üst Bilgi",
+      "deleteLink": "Bağlantıyı Sil",
+      "actionsAriaLabel": "Bağlantı eylemleri"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Arama",
+        "description": "Google'da ara veya bir URL gir."
+      },
+      "group": {
+        "name": "Grup",
+        "description": "Bağlantılarını düzenlemek için özel renkli bir grup."
+      },
+      "reminders": {
+        "name": "Hatırlatıcılar",
+        "description": "Tarayıcı bildirimleriyle hatırlatıcılar planla. Saatlik / günlük / haftalık tekrar desteklenir."
+      },
+      "todo": {
+        "name": "Yapılacaklar Listesi",
+        "description": "Görevlerini takip et."
+      },
+      "timer": {
+        "name": "Zamanlayıcılar",
+        "description": "Birden fazla zamanlayıcıyı yönet."
+      },
+      "note": {
+        "name": "Yapışkan Not",
+        "description": "Özel renklerle notlar veya hatırlatıcılar yaz."
+      },
+      "image": {
+        "name": "Görsel",
+        "description": "Bir URL'den görsel ekle veya yerel dosya yükle."
+      },
+      "label": {
+        "name": "Metin Etiketi",
+        "description": "Izgaranı şekillendirmek için temiz bir yüzen metin başlığı ekle."
+      },
+      "iframe": {
+        "name": "Gömülü Sayfa",
+        "description": "Herhangi bir web sitesini canlı widget olarak göm."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} boş fotoğraf widget'ı kaldırıldı.",
+    "removedEmptyPhotos_other": "{{count}} boş fotoğraf widget'ı kaldırıldı.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widget",
+    "clearedHeaderLinks_one": "{{count}} üst bilgi bağlantısı",
+    "clearedHeaderLinks_other": "{{count}} üst bilgi bağlantısı",
+    "clearedSummary": "{{items}} temizlendi. Geri almak için İptal'e, onaylamak için Kaydet'e tıklayın.",
+    "onlyOneGoogleSearch": "Yalnızca bir Google arama widget'ına izin verilir.",
+    "noRoomForWidget": "Bu widget için yer yok. Alan açmak için bir şeyi yeniden boyutlandırın veya kaldırın.",
+    "swap": {
+      "no-room": "Değiştirilemez — her iki widget'ı yeni konumlarına sığdırmak için yeterli alan yok.",
+      "out-of-bounds": "Değiştirilemez — widget'lardan biri minimum boyutunda ızgara kenarını aşıyor.",
+      "overlap": "Değiştirilemez — iki widget'ın minimum boyutları birbirine çakışıyor.",
+      "obstacle": "Değiştirilemez — başka bir widget yolda. Önce onu taşıyın veya yeniden boyutlandırın."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStart'a Kaydet",
+    "saveLink": "Bağlantıyı Kaydet",
+    "saved": "Kaydedildi!",
+    "openDashboard": "Panoyu Aç",
+    "destination": {
+      "label": "Hedef",
+      "main": "Ana pano",
+      "header": "Üst bilgi çubuğu"
+    },
+    "reminders": {
+      "ariaLabel": "Bekleyen hatırlatıcılar",
+      "count_one": "{{count}} hatırlatıcı",
+      "count_other": "{{count}} hatırlatıcı",
+      "clearAll": "Tümünü temizle",
+      "dismiss": "Kapat"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome alt bilgi kılavuzunu gizle",
+      "success": "Alt bilgi gizlendi — tam ekranın keyfini çıkarın!",
+      "corner": {
+        "title": "Tam ekran deneyimini yaşayın",
+        "intro": "Chrome, MonoStart'ın altına bir alt bilgi ekler. Gizlemek için tıklayın",
+        "cta": "Chrome'u Özelleştir",
+        "ctaSuffix": "sağ alt köşede.",
+        "noFooter": "Alt bilgi görmüyor musunuz? Hazırsınız — bunu atlayın."
+      },
+      "panel": {
+        "title": "Neredeyse tamam",
+        "intro": "Şunun altında",
+        "setting": "Alt Bilgi",
+        "turnOff": ", kapat",
+        "action": "Yeni Sekme sayfasında alt bilgiyi göster",
+        "suffix": ", sonra paneli kapatın."
+      },
+      "skip": "Atla",
+      "next": "İleri",
+      "done": "Tamam"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Dil",
+      "subtitle": "Dilinizi seçin",
+      "search": "Dil ara…",
+      "empty": "Aramanızla eşleşen dil yok."
+    },
+    "addWidget": {
+      "title": "Widget Ekle",
+      "titleConfigure": "{{name}} Yapılandır",
+      "titleGoogleStyle": "Google Arama stilini seçin",
+      "logoBarTitle": "Logo + Çubuk",
+      "logoBarDesc": "Arama çubuğunun üzerinde büyük Google logosu. 4 satır kaplar.",
+      "barOnlyTitle": "Yalnızca çubuk",
+      "barOnlyDesc": "Sadece arama çubuğu. 1 satır kaplar. Kompakt.",
+      "urlLabel": "URL veya gömme kodu",
+      "urlPlaceholder": "https://example.com\nveya\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Basit gömmeler için URL yapıştırın veya doğrudan yüklemeyi engelleyen sitelerden (YouTube, Figma, Spotify, CodePen vb.) <code>&lt;iframe&gt;</code> kodu yapıştırın.",
+      "back": "Geri",
+      "embedWidget": "Widget'ı Göm"
+    },
+    "addLink": {
+      "title": "Bağlantı Ekle",
+      "description": "Panonuza yeni bir bağlantı kartı eklemek için URL yapıştırın.",
+      "urlLabel": "Web Sitesi URL'si",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Başlık (İsteğe Bağlı)",
+      "titlePlaceholder": "Bağlantım",
+      "locationLabel": "Konum",
+      "locationMainDashboard": "Ana Pano",
+      "locationHeader": "Üst Bilgi (Yalnızca Favicon)",
+      "locationFolder": "Klasör: {{title}}",
+      "locationGroup": "Grup: {{title}}",
+      "cancel": "İptal",
+      "submit": "Bağlantı Ekle"
+    },
+    "theme": {
+      "title": "Tema ve Görünüm",
+      "description": "Panonuzun görünümünü özelleştirin.",
+      "modeGroupLabel": "Tema modu",
+      "light": "Açık",
+      "dark": "Koyu",
+      "device": "Cihaz",
+      "primaryColorHeading": "Ana Renk",
+      "primaryColorPresetsLabel": "Ana renk ön ayarları",
+      "customColorLabel": "Özel renk",
+      "customColorTitle": "Özel renk",
+      "customHue": "Özel Ton",
+      "backgroundHeading": "Arka Plan",
+      "backgroundTypeLabel": "Arka plan türü",
+      "backgroundColorLabel": "Arka plan rengi",
+      "backgroundGradientLabel": "Arka plan gradyanı",
+      "imageUrlPlaceholder": "Resim URL'si yapıştır...",
+      "uploadImage": "Resim Yükle",
+      "imageUploaded": "Özel resim yüklendi.",
+      "blur": "Bulanıklık",
+      "dim": "Karartma",
+      "fileReadError": "Dosya okunamadı.",
+      "bgType": {
+        "none": "Yok",
+        "color": "Renk",
+        "gradient": "Gradyan",
+        "image": "Resim"
+      },
+      "themes": {
+        "default": "Varsayılan",
+        "grey": "Gri",
+        "blue": "Mavi",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Yeşil",
+        "citron": "Citron",
+        "yellow": "Sarı",
+        "orange": "Turuncu",
+        "apricot": "Apricot",
+        "tomato": "Domates",
+        "rose": "Rose",
+        "pink": "Pembe",
+        "fuchsia": "Fuchsia",
+        "violet": "Violet"
+      },
+      "gradients": {
+        "dusk": "Dusk",
+        "sunset": "Gün Batımı",
+        "ocean": "Okyanus",
+        "forest": "Orman",
+        "slate": "Slate",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "Panoyu temizle",
+      "description": "Bu, panodaki widget'ları kaldırır. Düzenleme modundasınız, bu nedenle kaydetmeden önce İptal'e tıklayarak geri alabilirsiniz.",
+      "widgetsGroups": "Ana ızgaradaki widget'lar ve gruplar",
+      "linksInsideGroups": "↳ grupların içindeki bağlantılar",
+      "headerBarLinks": "Üst bilgi çubuğu bağlantıları",
+      "alsoClearHeaderLabel": "Üst bilgi çubuğu bağlantılarını da temizle",
+      "alsoClearHeaderDesc": "Varsayılan olarak üst bilgi çubuğu korunur. Onu da silmek için işaretleyin.",
+      "widgetGroups_one": "<strong>{{count}}</strong> widget/grup silinecek",
+      "widgetGroups_other": "<strong>{{count}}</strong> widget/grup silinecek",
+      "headerLinks_one": "<strong>{{count}}</strong> üst bilgi bağlantısı",
+      "headerLinks_other": "<strong>{{count}}</strong> üst bilgi bağlantısı",
+      "andConnector": " ve ",
+      "cancelRestores": ". Düzenleme modu araç çubuğunda İptal, onları geri yükler.",
+      "nothingToClear": "Mevcut seçimle temizlenecek bir şey yok.",
+      "cancelButton": "İptal",
+      "clearWidgets": "Widget'ları temizle",
+      "clearEverything": "Her şeyi temizle"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Bu öğeyi paylaş",
+      "copyLink": "Bağlantıyı kopyala",
+      "linkCopied": "Bağlantı kopyalandı",
+      "shareOn": "{{platform}}'da paylaş",
+      "shareVia": "{{platform}} ile paylaş"
+    }
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "copy": "نسخ",
+    "copied": "تم النسخ"
+  },
+  "header": {
+    "menu": {
+      "language": "اللغة",
+      "addLink": "إضافة رابط",
+      "addWidget": "إضافة أداة",
+      "editDashboard": "تعديل لوحة التحكم",
+      "theme": "المظهر والشكل",
+      "share": "مشاركة MonoStart",
+      "openInNewTab": "فتح الروابط في علامة تبويب جديدة"
+    },
+    "settings": "الإعدادات",
+    "clear": "مسح",
+    "clearDashboard": "مسح لوحة التحكم",
+    "cancel": "إلغاء",
+    "save": "حفظ"
+  },
+  "widgets": {
+    "deleteWidget": "حذف الأداة",
+    "placeholder": {
+      "place": "وضع",
+      "dropToPlace": "اسحب للوضع"
+    },
+    "todo": {
+      "defaultTitle": "المهام",
+      "empty": "لا توجد مهام بعد.",
+      "deleteTask": "حذف المهمة",
+      "placeholder": "أضف مهمة...",
+      "newTaskAriaLabel": "مهمة جديدة",
+      "addTask": "إضافة مهمة",
+      "toggleAriaLabel": "تحديد \"{{text}}\" كـ {{status}}",
+      "statusComplete": "مكتمل",
+      "statusIncomplete": "غير مكتمل"
+    },
+    "timer": {
+      "defaultTitle": "المؤقتات",
+      "empty": "لا توجد مؤقتات محددة.",
+      "deleteTimer": "حذف المؤقت",
+      "pause": "إيقاف مؤقت",
+      "start": "بدء",
+      "reset": "إعادة تعيين",
+      "placeholderMin": "دقيقة",
+      "durationAriaLabel": "مدة المؤقت بالدقائق",
+      "placeholderLabel": "تسمية (اختياري)",
+      "labelAriaLabel": "تسمية المؤقت (اختياري)",
+      "addTimer": "إضافة مؤقت"
+    },
+    "reminders": {
+      "defaultTitle": "التذكيرات",
+      "empty": "لا توجد تذكيرات بعد.",
+      "deleteReminder": "حذف التذكير",
+      "placeholder": "ذكّرني بـ...",
+      "textAriaLabel": "نص التذكير",
+      "recurrenceTitle": "التكرار",
+      "addReminder": "إضافة تذكير",
+      "customIntervalAriaLabel": "قيمة الفترة الزمنية المخصصة",
+      "customUnitAriaLabel": "وحدة الفترة الزمنية المخصصة",
+      "unitMinutes": "دقائق",
+      "unitHours": "ساعات",
+      "unitDays": "أيام",
+      "saveRecurrence": "حفظ",
+      "toggleAriaLabel": "تحديد \"{{text}}\" كـ {{status}}",
+      "statusComplete": "مكتمل",
+      "statusIncomplete": "غير مكتمل",
+      "recurrenceNone": "مرة واحدة",
+      "recurrence30min": "كل 30 دقيقة",
+      "recurrenceHourly": "كل ساعة",
+      "recurrenceDaily": "يومياً",
+      "recurrenceWeekly": "أسبوعياً",
+      "recurrenceCustom": "مخصص",
+      "everyDay": "كل {{count}}ي",
+      "everyHour": "كل {{count}}س",
+      "everyMin": "كل {{count}}د",
+      "every": "كل",
+      "today": "اليوم {{time}}",
+      "tomorrow": "غداً {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "ملاحظة",
+      "changeColor": "تغيير اللون",
+      "placeholder": "اكتب شيئاً...",
+      "contentAriaLabel": "محتوى الملاحظة",
+      "titleAriaLabel": "عنوان الملاحظة",
+      "actionsAriaLabel": "إجراءات الملاحظة",
+      "color_default": "افتراضي",
+      "color_amber": "أصفر",
+      "color_sky": "أزرق",
+      "color_rose": "وردي",
+      "color_emerald": "أخضر",
+      "color_purple": "بنفسجي"
+    },
+    "image": {
+      "defaultTitle": "صورة",
+      "settings": "إعدادات الصورة",
+      "actionsAriaLabel": "إجراءات الصورة",
+      "titleAriaLabel": "عنوان الصورة",
+      "changeImage": "تغيير الصورة",
+      "fitCover": "تغطية (قص)",
+      "fitContain": "احتواء (نسبة العرض)",
+      "fitFill": "ملء (تمديد)",
+      "configureTitle": "تهيئة صورة الأداة",
+      "urlPlaceholder": "الصق رابط الصورة...",
+      "or": "أو",
+      "uploadLocal": "رفع صورة محلية",
+      "cancelConfig": "إلغاء التهيئة",
+      "loadError": "فشل تحميل الصورة. قد يكون الرابط معطوباً أو محجوباً."
+    },
+    "label": {
+      "defaultText": "نص",
+      "settings": "إعدادات النص",
+      "actionsAriaLabel": "إجراءات التسمية",
+      "textAriaLabel": "نص التسمية",
+      "editText": "تعديل النص",
+      "showCardStyle": "إظهار نمط البطاقة",
+      "fontSize": "حجم الخط",
+      "alignment": "المحاذاة",
+      "fontWeight": "وزن الخط",
+      "opacity": "الشفافية",
+      "deleteText": "حذف النص",
+      "alignLeft": "يسار",
+      "alignCenter": "وسط",
+      "alignRight": "يمين",
+      "fontSizes": {
+        "sm": "صغير",
+        "base": "متوسط",
+        "lg": "كبير",
+        "xl": "كبير جداً",
+        "xl2": "2X كبير",
+        "xl3": "3X كبير",
+        "xl4": "4X كبير",
+        "xl5": "5X كبير",
+        "xl6": "6X كبير",
+        "xl7": "7X كبير",
+        "xl8": "8X كبير",
+        "xl9": "9X كبير",
+        "xl10": "10X كبير",
+        "xl12": "12X كبير"
+      },
+      "fontWeights": {
+        "thin": "رفيع",
+        "light": "خفيف",
+        "regular": "عادي",
+        "medium": "متوسط",
+        "semibold": "شبه عريض",
+        "bold": "عريض",
+        "extrabold": "عريض جداً",
+        "black": "أسود"
+      },
+      "opacities": {
+        "full": "100% (ساطع)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (باهت)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "ابحث في Google أو أدخل رابطاً",
+      "searchAriaLabel": "استعلام البحث",
+      "voiceSearch": "البحث الصوتي",
+      "lensSearch": "ابحث عن أي صورة باستخدام Lens",
+      "removeWidget": "إزالة الأداة",
+      "switchToBarOnly": "التبديل إلى شريط فقط",
+      "switchToLogoBar": "التبديل إلى شعار + شريط",
+      "barOnly": "شريط فقط",
+      "showLogo": "إظهار الشعار",
+      "toggleLogoStyle": "تبديل نمط الشعار"
+    },
+    "group": {
+      "borderColorAriaLabel": "لون حدود المجموعة",
+      "pasteUrlPlaceholder": "الصق الرابط...",
+      "colors": {
+        "red": "أحمر",
+        "pink": "وردي",
+        "purple": "بنفسجي",
+        "indigo": "نيلي",
+        "blue": "أزرق",
+        "cyan": "سماوي",
+        "teal": "أزرق مخضر",
+        "green": "أخضر",
+        "yellow": "أصفر",
+        "orange": "برتقالي",
+        "slate": "رمادي أردوازي",
+        "neutral": "محايد"
+      },
+      "defaultTitle": "مجموعة جديدة"
+    },
+    "groupHeader": {
+      "addLink": "إضافة رابط",
+      "colorBorder": "لون الحدود",
+      "layout": "التخطيط",
+      "layoutGrid": "شبكة",
+      "layoutList": "قائمة",
+      "gridColumns": "أعمدة الشبكة",
+      "column_one": "{{count}} عمود",
+      "column_other": "{{count}} أعمدة",
+      "deleteGroup": "حذف المجموعة",
+      "actionsAriaLabel": "إجراءات المجموعة"
+    },
+    "groupInnerGrid": {
+      "empty": "مجموعة فارغة",
+      "addFirstLink": "إضافة الرابط الأول",
+      "dropToAdd": "اسحب للإضافة",
+      "add": "إضافة"
+    },
+    "iframe": {
+      "removeWidget": "إزالة الأداة",
+      "openInNewTab": "فتح في علامة تبويب جديدة",
+      "defaultTitle": "صفحة مضمنة"
+    },
+    "linkCard": {
+      "options": "الخيارات",
+      "rename": "إعادة تسمية",
+      "size": "الحجم",
+      "sizeSmall": "صغير (1×1)",
+      "sizeMedium": "متوسط (3×1)",
+      "moveTo": "نقل إلى...",
+      "mainDashboard": "لوحة التحكم الرئيسية",
+      "header": "الرأس",
+      "deleteLink": "حذف الرابط",
+      "actionsAriaLabel": "إجراءات الرابط"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google بحث",
+        "description": "ابحث في Google أو أدخل رابطاً."
+      },
+      "group": {
+        "name": "مجموعة",
+        "description": "مجموعة بألوان مخصصة لتنظيم روابطك."
+      },
+      "reminders": {
+        "name": "تذكيرات",
+        "description": "جدول التذكيرات مع إشعارات المتصفح. التكرار كل ساعة / يومياً / أسبوعياً مدعوم."
+      },
+      "todo": {
+        "name": "قائمة المهام",
+        "description": "تابع مهامك."
+      },
+      "timer": {
+        "name": "مؤقتات",
+        "description": "إدارة عدة مؤقتات."
+      },
+      "note": {
+        "name": "ملاحظة لاصقة",
+        "description": "اكتب ملاحظات أو تذكيرات بألوان مخصصة."
+      },
+      "image": {
+        "name": "صورة",
+        "description": "أضف صورة من رابط أو ارفع ملفاً محلياً."
+      },
+      "label": {
+        "name": "تسمية نصية",
+        "description": "أضف عنواناً نصياً عائماً أنيقاً لتنسيق شبكتك."
+      },
+      "iframe": {
+        "name": "صفحة مضمنة",
+        "description": "ضمّن أي موقع كأداة مباشرة."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "تمت إزالة {{count}} أداة صورة فارغة.",
+    "removedEmptyPhotos_other": "تمت إزالة {{count}} أدوات صور فارغة.",
+    "clearedWidgets_one": "{{count}} أداة",
+    "clearedWidgets_other": "{{count}} أدوات",
+    "clearedHeaderLinks_one": "{{count}} رابط رأس",
+    "clearedHeaderLinks_other": "{{count}} روابط رأس",
+    "clearedSummary": "تم مسح {{items}}. اضغط إلغاء للتراجع، أو حفظ للتأكيد.",
+    "onlyOneGoogleSearch": "يُسمح بأداة بحث Google واحدة فقط.",
+    "noRoomForWidget": "لا توجد مساحة لهذه الأداة. قم بتغيير الحجم أو الإزالة لإنشاء مساحة.",
+    "swap": {
+      "no-room": "لا يمكن التبديل — لا توجد مساحة كافية لاحتواء كلتا الأداتين في مواضعهما الجديدة.",
+      "out-of-bounds": "لا يمكن التبديل — إحدى الأدوات ستتجاوز حافة الشبكة عند حجمها الأدنى.",
+      "overlap": "لا يمكن التبديل — الحجم الأدنى للأداتين يتداخل مع بعضهما.",
+      "obstacle": "لا يمكن التبديل — هناك أداة أخرى في الطريق. قم بنقلها أو تغيير حجمها أولاً."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "حفظ إلى MonoStart",
+    "saveLink": "حفظ الرابط",
+    "saved": "تم الحفظ!",
+    "openDashboard": "فتح لوحة التحكم",
+    "destination": {
+      "label": "الوجهة",
+      "main": "لوحة التحكم الرئيسية",
+      "header": "شريط الرأس"
+    },
+    "reminders": {
+      "ariaLabel": "التذكيرات المعلقة",
+      "count_one": "{{count}} تذكير",
+      "count_other": "{{count}} تذكيرات",
+      "clearAll": "مسح الكل",
+      "dismiss": "رفض"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "إخفاء دليل تذييل Chrome",
+      "success": "تم إخفاء التذييل — استمتع بالشاشة الكاملة!",
+      "corner": {
+        "title": "احصل على تجربة الشاشة الكاملة",
+        "intro": "يضيف Chrome تذييلاً أسفل MonoStart. لإخفائه، انقر",
+        "cta": "تخصيص Chrome",
+        "ctaSuffix": "في الزاوية السفلية اليمنى.",
+        "noFooter": "لا ترى تذييلاً؟ أنت جاهز — تخطَّ هذا."
+      },
+      "panel": {
+        "title": "أوشكت على الانتهاء",
+        "intro": "ضمن",
+        "setting": "التذييل",
+        "turnOff": "، أوقف تشغيل",
+        "action": "إظهار التذييل في صفحة علامة التبويب الجديدة",
+        "suffix": "، ثم أغلق اللوحة."
+      },
+      "skip": "تخطي",
+      "next": "التالي",
+      "done": "تم"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "اللغة",
+      "subtitle": "اختر لغتك",
+      "search": "البحث في اللغات…",
+      "empty": "لا توجد لغات تطابق بحثك."
+    },
+    "addWidget": {
+      "title": "إضافة أداة",
+      "titleConfigure": "تهيئة {{name}}",
+      "titleGoogleStyle": "اختر نمط بحث Google",
+      "logoBarTitle": "شعار + شريط",
+      "logoBarDesc": "شعار Google الكبير فوق شريط البحث. يأخذ 4 صفوف.",
+      "barOnlyTitle": "شريط فقط",
+      "barOnlyDesc": "شريط البحث فقط. يأخذ صفاً واحداً. مدمج.",
+      "urlLabel": "الرابط أو كود التضمين",
+      "urlPlaceholder": "https://example.com\nأو\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "الصق رابطاً للتضمينات البسيطة، أو الصق مقتطف <code>&lt;iframe&gt;</code> من المواقع التي تحجب التحميل المباشر (YouTube, Figma, Spotify, CodePen, إلخ.).",
+      "back": "رجوع",
+      "embedWidget": "تضمين الأداة"
+    },
+    "addLink": {
+      "title": "إضافة رابط",
+      "description": "الصق رابطاً لإضافة بطاقة رابط جديدة إلى لوحة التحكم.",
+      "urlLabel": "رابط الموقع",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "العنوان (اختياري)",
+      "titlePlaceholder": "رابطي",
+      "locationLabel": "الموقع",
+      "locationMainDashboard": "لوحة التحكم الرئيسية",
+      "locationHeader": "الرأس (أيقونة موقع فقط)",
+      "locationFolder": "المجلد: {{title}}",
+      "locationGroup": "المجموعة: {{title}}",
+      "cancel": "إلغاء",
+      "submit": "إضافة رابط"
+    },
+    "theme": {
+      "title": "المظهر والشكل",
+      "description": "خصّص مظهر لوحة التحكم وأسلوبها.",
+      "modeGroupLabel": "وضع المظهر",
+      "light": "فاتح",
+      "dark": "داكن",
+      "device": "الجهاز",
+      "primaryColorHeading": "اللون الأساسي",
+      "primaryColorPresetsLabel": "إعدادات مسبقة للون الأساسي",
+      "customColorLabel": "لون مخصص",
+      "customColorTitle": "لون مخصص",
+      "customHue": "درجة اللون المخصصة",
+      "backgroundHeading": "الخلفية",
+      "backgroundTypeLabel": "نوع الخلفية",
+      "backgroundColorLabel": "لون الخلفية",
+      "backgroundGradientLabel": "تدرج الخلفية",
+      "imageUrlPlaceholder": "الصق رابط الصورة...",
+      "uploadImage": "رفع صورة",
+      "imageUploaded": "تم رفع الصورة المخصصة.",
+      "blur": "تمويه",
+      "dim": "تعتيم",
+      "fileReadError": "فشل قراءة الملف.",
+      "bgType": {
+        "none": "لا شيء",
+        "color": "لون",
+        "gradient": "تدرج",
+        "image": "صورة"
+      },
+      "themes": {
+        "default": "افتراضي",
+        "grey": "رمادي",
+        "blue": "أزرق",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "أخضر",
+        "citron": "Citron",
+        "yellow": "أصفر",
+        "orange": "برتقالي",
+        "apricot": "Apricot",
+        "tomato": "طماطم",
+        "rose": "وردي",
+        "pink": "وردي فاتح",
+        "fuchsia": "Fuchsia",
+        "violet": "بنفسجي"
+      },
+      "gradients": {
+        "dusk": "الغسق",
+        "sunset": "غروب الشمس",
+        "ocean": "المحيط",
+        "forest": "الغابة",
+        "slate": "Slate",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "مسح لوحة التحكم",
+      "description": "يؤدي هذا إلى إزالة الأدوات من لوحة التحكم. أنت في وضع التعديل، لذا يمكنك الضغط على إلغاء للتراجع قبل الحفظ.",
+      "widgetsGroups": "الأدوات والمجموعات في الشبكة الرئيسية",
+      "linksInsideGroups": "↳ الروابط داخل المجموعات",
+      "headerBarLinks": "روابط شريط الرأس",
+      "alsoClearHeaderLabel": "مسح روابط شريط الرأس أيضاً",
+      "alsoClearHeaderDesc": "يتم الاحتفاظ بشريط الرأس افتراضياً. حدد هذا لمسحه أيضاً.",
+      "widgetGroups_one": "على وشك حذف <strong>{{count}}</strong> أداة/مجموعة",
+      "widgetGroups_other": "على وشك حذف <strong>{{count}}</strong> أدوات/مجموعات",
+      "headerLinks_one": "<strong>{{count}}</strong> رابط رأس",
+      "headerLinks_other": "<strong>{{count}}</strong> روابط رأس",
+      "andConnector": " و",
+      "cancelRestores": ". الإلغاء في شريط أدوات وضع التعديل يستعيدها.",
+      "nothingToClear": "لا يوجد شيء لمسحه مع التحديد الحالي.",
+      "cancelButton": "إلغاء",
+      "clearWidgets": "مسح الأدوات",
+      "clearEverything": "مسح كل شيء"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "مشاركة هذا العنصر",
+      "copyLink": "نسخ الرابط",
+      "linkCopied": "تم نسخ الرابط",
+      "shareOn": "مشاركة على {{platform}}",
+      "shareVia": "مشاركة عبر {{platform}}"
+    }
+  }
+}

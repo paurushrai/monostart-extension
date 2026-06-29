@@ -138,6 +138,8 @@ export interface Settings {
   themeMode?: 'light' | 'dark' | 'device';
   themeColor?: string;
   background?: DashboardBackground;
+  /** BCP-47-ish locale code for UI language; undefined = auto-detect. */
+  language?: string;
 }
 
 export interface DragCoords { x: number; y: number; }

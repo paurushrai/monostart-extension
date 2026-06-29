@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useTranslation, Trans } from 'react-i18next';
 import { AlertTriangle, Trash2 } from 'lucide-react';
 import {
   Dialog,
@@ -46,6 +47,7 @@ const computeCounts = (links: readonly WidgetItem[]): Counts => {
 };
 
 export default function ClearDashboardModal({ open, onClose, links, onConfirm }: Readonly<Props>) {
+  const { t } = useTranslation();
   const [clearHeaderToo, setClearHeaderToo] = useState(false);
   const counts = computeCounts(links);
 
@@ -63,27 +65,27 @@ export default function ClearDashboardModal({ open, onClose, links, onConfirm }:
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2 text-destructive">
             <AlertTriangle size={18} />
-            Clear dashboard
+            {t('modals.clear.title')}
           </DialogTitle>
           <DialogDescription>
-            This removes widgets from the dashboard. You&apos;re in edit mode, so you can still hit Cancel to undo before saving.
+            {t('modals.clear.description')}
           </DialogDescription>
         </DialogHeader>
 
         <div className="space-y-3 text-sm">
           <div className="rounded-md border border-border bg-gray-100 dark:bg-white/5 p-3 space-y-1.5 text-foreground">
             <div className="flex justify-between">
-              <span>Widgets &amp; groups on the main grid</span>
+              <span>{t('modals.clear.widgetsGroups')}</span>
               <span className="font-medium">{widgetTotal}</span>
             </div>
             {counts.linksInsideGroups > 0 && (
               <div className="flex justify-between text-xs text-muted-foreground pl-3">
-                <span>↳ links inside groups</span>
+                <span>{t('modals.clear.linksInsideGroups')}</span>
                 <span>{counts.linksInsideGroups}</span>
               </div>
             )}
             <div className="flex justify-between border-t border-border pt-1.5">
-              <span>Header bar links</span>
+              <span>{t('modals.clear.headerBarLinks')}</span>
               <span className="font-medium">{counts.headerLinks}</span>
             </div>
           </div>
@@ -96,9 +98,9 @@ export default function ClearDashboardModal({ open, onClose, links, onConfirm }:
               className="mt-0.5 accent-destructive w-4 h-4 cursor-pointer"
             />
             <span>
-              <span className="text-foreground font-medium">Also clear the header bar links</span>
+              <span className="text-foreground font-medium">{t('modals.clear.alsoClearHeaderLabel')}</span>
               <span className="block text-xs text-muted-foreground mt-0.5">
-                By default the header bar is preserved. Tick this to wipe it too.
+                {t('modals.clear.alsoClearHeaderDesc')}
               </span>
             </span>
           </label>
@@ -106,18 +108,30 @@ export default function ClearDashboardModal({ open, onClose, links, onConfirm }:
           <div className="flex items-start gap-2 rounded-md bg-destructive/10 p-3 text-destructive text-xs">
             <AlertTriangle size={14} className="mt-0.5 shrink-0" />
             <span>
-              {widgetTotal > 0 && <>About to delete <strong>{widgetTotal}</strong> widget{widgetTotal === 1 ? '' : 's'}/group{widgetTotal === 1 ? '' : 's'}</>}
-              {widgetTotal > 0 && willDeleteHeader > 0 && <> and </>}
-              {willDeleteHeader > 0 && <><strong>{willDeleteHeader}</strong> header link{willDeleteHeader === 1 ? '' : 's'}</>}
-              {(widgetTotal > 0 || willDeleteHeader > 0) && <>. Cancel in edit-mode toolbar restores them.</>}
-              {nothingToClear && <>Nothing to clear with the current selection.</>}
+              {widgetTotal > 0 && (
+                <Trans
+                  i18nKey="modals.clear.widgetGroups"
+                  count={widgetTotal}
+                  components={{ strong: <strong /> }}
+                />
+              )}
+              {widgetTotal > 0 && willDeleteHeader > 0 && t('modals.clear.andConnector')}
+              {willDeleteHeader > 0 && (
+                <Trans
+                  i18nKey="modals.clear.headerLinks"
+                  count={willDeleteHeader}
+                  components={{ strong: <strong /> }}
+                />
+              )}
+              {(widgetTotal > 0 || willDeleteHeader > 0) && t('modals.clear.cancelRestores')}
+              {nothingToClear && t('modals.clear.nothingToClear')}
             </span>
           </div>
         </div>
 
         <DialogFooter className="gap-2 sm:gap-2">
           <Button variant="outline" size="sm" onClick={onClose}>
-            Cancel
+            {t('modals.clear.cancelButton')}
           </Button>
           <Button
             size="sm"
@@ -126,7 +140,7 @@ export default function ClearDashboardModal({ open, onClose, links, onConfirm }:
             className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
           >
             <Trash2 size={14} className="mr-1.5" />
-            {clearHeaderToo ? 'Clear everything' : 'Clear widgets'}
+            {clearHeaderToo ? t('modals.clear.clearEverything') : t('modals.clear.clearWidgets')}
           </Button>
         </DialogFooter>
       </DialogContent>

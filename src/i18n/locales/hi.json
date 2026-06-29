@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "हटाएं",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "copy": "कॉपी करें",
+    "copied": "कॉपी हो गया"
+  },
+  "header": {
+    "menu": {
+      "language": "भाषा",
+      "addLink": "लिंक जोड़ें",
+      "addWidget": "विजेट जोड़ें",
+      "editDashboard": "डैशबोर्ड संपादित करें",
+      "theme": "थीम और रूप",
+      "share": "MonoStart साझा करें",
+      "openInNewTab": "लिंक नए टैब में खोलें"
+    },
+    "settings": "सेटिंग्स",
+    "clear": "साफ़ करें",
+    "clearDashboard": "डैशबोर्ड साफ़ करें",
+    "cancel": "रद्द करें",
+    "save": "सहेजें"
+  },
+  "widgets": {
+    "deleteWidget": "विजेट हटाएं",
+    "placeholder": {
+      "place": "रखें",
+      "dropToPlace": "रखने के लिए छोड़ें"
+    },
+    "todo": {
+      "defaultTitle": "कार्य सूची",
+      "empty": "अभी कोई कार्य नहीं।",
+      "deleteTask": "कार्य हटाएं",
+      "placeholder": "एक कार्य जोड़ें...",
+      "newTaskAriaLabel": "नया कार्य",
+      "addTask": "कार्य जोड़ें",
+      "toggleAriaLabel": "\"{{text}}\" को {{status}} के रूप में चिह्नित करें",
+      "statusComplete": "पूर्ण",
+      "statusIncomplete": "अपूर्ण"
+    },
+    "timer": {
+      "defaultTitle": "टाइमर",
+      "empty": "कोई टाइमर सेट नहीं है।",
+      "deleteTimer": "टाइमर हटाएं",
+      "pause": "रोकें",
+      "start": "शुरू करें",
+      "reset": "रीसेट करें",
+      "placeholderMin": "मिनट",
+      "durationAriaLabel": "टाइमर की अवधि मिनटों में",
+      "placeholderLabel": "लेबल (वैकल्पिक)",
+      "labelAriaLabel": "टाइमर लेबल (वैकल्पिक)",
+      "addTimer": "टाइमर जोड़ें"
+    },
+    "reminders": {
+      "defaultTitle": "अनुस्मारक",
+      "empty": "अभी कोई अनुस्मारक नहीं।",
+      "deleteReminder": "अनुस्मारक हटाएं",
+      "placeholder": "मुझे याद दिलाएं...",
+      "textAriaLabel": "अनुस्मारक पाठ",
+      "recurrenceTitle": "पुनरावृत्ति",
+      "addReminder": "अनुस्मारक जोड़ें",
+      "customIntervalAriaLabel": "कस्टम अंतराल मान",
+      "customUnitAriaLabel": "कस्टम अंतराल इकाई",
+      "unitMinutes": "मिनट",
+      "unitHours": "घंटे",
+      "unitDays": "दिन",
+      "saveRecurrence": "सहेजें",
+      "toggleAriaLabel": "\"{{text}}\" को {{status}} के रूप में चिह्नित करें",
+      "statusComplete": "पूर्ण",
+      "statusIncomplete": "अपूर्ण",
+      "recurrenceNone": "एक बार",
+      "recurrence30min": "हर 30 मिनट",
+      "recurrenceHourly": "हर घंटे",
+      "recurrenceDaily": "दैनिक",
+      "recurrenceWeekly": "साप्ताहिक",
+      "recurrenceCustom": "कस्टम",
+      "everyDay": "हर {{count}}दि",
+      "everyHour": "हर {{count}}घं",
+      "everyMin": "हर {{count}}मि",
+      "every": "हर",
+      "today": "आज {{time}}",
+      "tomorrow": "कल {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "नोट",
+      "changeColor": "रंग बदलें",
+      "placeholder": "कुछ लिखें...",
+      "contentAriaLabel": "नोट सामग्री",
+      "titleAriaLabel": "नोट शीर्षक",
+      "actionsAriaLabel": "नोट क्रियाएं",
+      "color_default": "डिफ़ॉल्ट",
+      "color_amber": "पीला",
+      "color_sky": "नीला",
+      "color_rose": "गुलाबी",
+      "color_emerald": "हरा",
+      "color_purple": "बैंगनी"
+    },
+    "image": {
+      "defaultTitle": "छवि",
+      "settings": "छवि सेटिंग्स",
+      "actionsAriaLabel": "छवि क्रियाएं",
+      "titleAriaLabel": "छवि शीर्षक",
+      "changeImage": "छवि बदलें",
+      "fitCover": "कवर (क्रॉप)",
+      "fitContain": "समाहित (अनुपात)",
+      "fitFill": "भरें (खिंचाव)",
+      "configureTitle": "विजेट छवि कॉन्फ़िगर करें",
+      "urlPlaceholder": "छवि URL पेस्ट करें...",
+      "or": "या",
+      "uploadLocal": "स्थानीय छवि अपलोड करें",
+      "cancelConfig": "कॉन्फ़िगरेशन रद्द करें",
+      "loadError": "छवि लोड करने में विफल। URL टूटी हुई या अवरुद्ध हो सकती है।"
+    },
+    "label": {
+      "defaultText": "पाठ",
+      "settings": "पाठ सेटिंग्स",
+      "actionsAriaLabel": "लेबल क्रियाएं",
+      "textAriaLabel": "लेबल पाठ",
+      "editText": "पाठ संपादित करें",
+      "showCardStyle": "कार्ड शैली दिखाएं",
+      "fontSize": "फ़ॉन्ट आकार",
+      "alignment": "संरेखण",
+      "fontWeight": "फ़ॉन्ट भार",
+      "opacity": "अपारदर्शिता",
+      "deleteText": "पाठ हटाएं",
+      "alignLeft": "बाएं",
+      "alignCenter": "केंद्र",
+      "alignRight": "दाएं",
+      "fontSizes": {
+        "sm": "छोटा",
+        "base": "मध्यम",
+        "lg": "बड़ा",
+        "xl": "अतिरिक्त बड़ा",
+        "xl2": "2X बड़ा",
+        "xl3": "3X बड़ा",
+        "xl4": "4X बड़ा",
+        "xl5": "5X बड़ा",
+        "xl6": "6X बड़ा",
+        "xl7": "7X बड़ा",
+        "xl8": "8X बड़ा",
+        "xl9": "9X बड़ा",
+        "xl10": "10X बड़ा",
+        "xl12": "12X बड़ा"
+      },
+      "fontWeights": {
+        "thin": "पतला",
+        "light": "हल्का",
+        "regular": "सामान्य",
+        "medium": "मध्यम",
+        "semibold": "अर्ध-बोल्ड",
+        "bold": "बोल्ड",
+        "extrabold": "अतिरिक्त बोल्ड",
+        "black": "काला"
+      },
+      "opacities": {
+        "full": "100% (चमकीला)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (म्यूट)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google पर खोजें या URL टाइप करें",
+      "searchAriaLabel": "खोज क्वेरी",
+      "voiceSearch": "आवाज़ से खोज",
+      "lensSearch": "Lens से कोई भी छवि खोजें",
+      "removeWidget": "विजेट हटाएं",
+      "switchToBarOnly": "केवल बार पर स्विच करें",
+      "switchToLogoBar": "लोगो + बार पर स्विच करें",
+      "barOnly": "केवल बार",
+      "showLogo": "लोगो दिखाएं",
+      "toggleLogoStyle": "लोगो शैली टॉगल करें"
+    },
+    "group": {
+      "borderColorAriaLabel": "समूह बॉर्डर रंग",
+      "pasteUrlPlaceholder": "URL पेस्ट करें...",
+      "colors": {
+        "red": "लाल",
+        "pink": "गुलाबी",
+        "purple": "बैंगनी",
+        "indigo": "नील",
+        "blue": "नीला",
+        "cyan": "सियान",
+        "teal": "टील",
+        "green": "हरा",
+        "yellow": "पीला",
+        "orange": "नारंगी",
+        "slate": "स्लेटी",
+        "neutral": "तटस्थ"
+      },
+      "defaultTitle": "नया समूह"
+    },
+    "groupHeader": {
+      "addLink": "लिंक जोड़ें",
+      "colorBorder": "रंगीन बॉर्डर",
+      "layout": "लेआउट",
+      "layoutGrid": "ग्रिड",
+      "layoutList": "सूची",
+      "gridColumns": "ग्रिड कॉलम",
+      "column_one": "{{count}} कॉलम",
+      "column_other": "{{count}} कॉलम",
+      "deleteGroup": "समूह हटाएं",
+      "actionsAriaLabel": "समूह क्रियाएं"
+    },
+    "groupInnerGrid": {
+      "empty": "खाली समूह",
+      "addFirstLink": "पहला लिंक जोड़ें",
+      "dropToAdd": "जोड़ने के लिए छोड़ें",
+      "add": "जोड़ें"
+    },
+    "iframe": {
+      "removeWidget": "विजेट हटाएं",
+      "openInNewTab": "नए टैब में खोलें",
+      "defaultTitle": "एम्बेडेड पेज"
+    },
+    "linkCard": {
+      "options": "विकल्प",
+      "rename": "नाम बदलें",
+      "size": "आकार",
+      "sizeSmall": "छोटा (1×1)",
+      "sizeMedium": "मध्यम (3×1)",
+      "moveTo": "यहाँ ले जाएं...",
+      "mainDashboard": "मुख्य डैशबोर्ड",
+      "header": "हेडर",
+      "deleteLink": "लिंक हटाएं",
+      "actionsAriaLabel": "लिंक क्रियाएं"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Google पर खोजें या URL टाइप करें."
+      },
+      "group": {
+        "name": "समूह",
+        "description": "आपके लिंक व्यवस्थित करने के लिए एक कस्टम-रंगीन समूह."
+      },
+      "reminders": {
+        "name": "अनुस्मारक",
+        "description": "ब्राउज़र सूचनाओं के साथ अनुस्मारक शेड्यूल करें. प्रति घंटे / दैनिक / साप्ताहिक पुनरावृत्ति समर्थित."
+      },
+      "todo": {
+        "name": "कार्य सूची",
+        "description": "अपने कार्यों पर नज़र रखें."
+      },
+      "timer": {
+        "name": "टाइमर",
+        "description": "एकाधिक टाइमर प्रबंधित करें."
+      },
+      "note": {
+        "name": "स्टिकी नोट",
+        "description": "कस्टम रंगों के साथ नोट या अनुस्मारक लिखें."
+      },
+      "image": {
+        "name": "छवि",
+        "description": "URL से छवि जोड़ें या स्थानीय फ़ाइल अपलोड करें."
+      },
+      "label": {
+        "name": "टेक्स्ट लेबल",
+        "description": "अपनी ग्रिड को स्टाइल करने के लिए एक साफ़ फ्लोटिंग टेक्स्ट हेडर या शीर्षक जोड़ें."
+      },
+      "iframe": {
+        "name": "एम्बेडेड पेज",
+        "description": "किसी भी वेबसाइट को लाइव विजेट के रूप में एम्बेड करें."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} खाली फ़ोटो विजेट हटाया गया।",
+    "removedEmptyPhotos_other": "{{count}} खाली फ़ोटो विजेट हटाए गए।",
+    "clearedWidgets_one": "{{count}} विजेट",
+    "clearedWidgets_other": "{{count}} विजेट",
+    "clearedHeaderLinks_one": "{{count}} हेडर लिंक",
+    "clearedHeaderLinks_other": "{{count}} हेडर लिंक",
+    "clearedSummary": "{{items}} साफ़ किया गया। रद्द करें पूर्ववत करने के लिए, या सहेजें पुष्टि करने के लिए।",
+    "onlyOneGoogleSearch": "केवल एक Google खोज विजेट की अनुमति है।",
+    "noRoomForWidget": "इस विजेट के लिए जगह नहीं है। जगह बनाने के लिए कुछ का आकार बदलें या हटाएं।",
+    "swap": {
+      "no-room": "स्वैप नहीं हो सकता — दोनों विजेट के नए स्थानों पर फिट होने के लिए पर्याप्त जगह नहीं है।",
+      "out-of-bounds": "स्वैप नहीं हो सकता — एक विजेट अपने न्यूनतम आकार पर ग्रिड के किनारे से बाहर जाएगा।",
+      "overlap": "स्वैप नहीं हो सकता — दोनों विजेट के न्यूनतम आकार एक-दूसरे को ओवरलैप करते हैं।",
+      "obstacle": "स्वैप नहीं हो सकता — रास्ते में एक और विजेट है। पहले उसे हटाएं या आकार बदलें।"
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "MonoStart में सहेजें",
+    "saveLink": "लिंक सहेजें",
+    "saved": "सहेजा गया!",
+    "openDashboard": "डैशबोर्ड खोलें",
+    "destination": {
+      "label": "गंतव्य",
+      "main": "मुख्य डैशबोर्ड",
+      "header": "हेडर बार"
+    },
+    "reminders": {
+      "ariaLabel": "लंबित अनुस्मारक",
+      "count_one": "{{count}} अनुस्मारक",
+      "count_other": "{{count}} अनुस्मारक",
+      "clearAll": "सभी साफ़ करें",
+      "dismiss": "खारिज करें"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome फ़ुटर गाइड छुपाएं",
+      "success": "फ़ुटर छुपा दिया गया — पूरी स्क्रीन का आनंद लें!",
+      "corner": {
+        "title": "पूर्ण-स्क्रीन अनुभव प्राप्त करें",
+        "intro": "Chrome MonoStart के नीचे एक फ़ुटर जोड़ता है। इसे छुपाने के लिए क्लिक करें",
+        "cta": "Chrome कस्टमाइज़ करें",
+        "ctaSuffix": "निचले-दाएं कोने में।",
+        "noFooter": "फ़ुटर नहीं दिखता? आप तैयार हैं — इसे छोड़ दें।"
+      },
+      "panel": {
+        "title": "लगभग हो गया",
+        "intro": "के अंतर्गत",
+        "setting": "फ़ुटर",
+        "turnOff": ", बंद करें",
+        "action": "नए टैब पेज पर फ़ुटर दिखाएं",
+        "suffix": ", फिर पैनल बंद करें।"
+      },
+      "skip": "छोड़ें",
+      "next": "अगला",
+      "done": "हो गया"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "भाषा",
+      "subtitle": "अपनी भाषा चुनें",
+      "search": "भाषाएं खोजें…",
+      "empty": "आपकी खोज से मेल खाने वाली कोई भाषा नहीं मिली।"
+    },
+    "addWidget": {
+      "title": "विजेट जोड़ें",
+      "titleConfigure": "{{name}} कॉन्फ़िगर करें",
+      "titleGoogleStyle": "Google खोज शैली चुनें",
+      "logoBarTitle": "लोगो + बार",
+      "logoBarDesc": "खोज बार के ऊपर बड़ा Google लोगो। 4 पंक्तियां लेता है।",
+      "barOnlyTitle": "केवल बार",
+      "barOnlyDesc": "केवल खोज बार। 1 पंक्ति लेता है। कॉम्पैक्ट।",
+      "urlLabel": "URL या एम्बेड कोड",
+      "urlPlaceholder": "https://example.com\nया\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "सरल एम्बेड के लिए URL पेस्ट करें, या उन साइटों से <code>&lt;iframe&gt;</code> स्निपेट पेस्ट करें जो सीधी लोडिंग ब्लॉक करती हैं (YouTube, Figma, Spotify, CodePen, आदि)।",
+      "back": "वापस",
+      "embedWidget": "विजेट एम्बेड करें"
+    },
+    "addLink": {
+      "title": "लिंक जोड़ें",
+      "description": "अपने डैशबोर्ड में नया लिंक कार्ड जोड़ने के लिए URL पेस्ट करें।",
+      "urlLabel": "वेबसाइट URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "शीर्षक (वैकल्पिक)",
+      "titlePlaceholder": "मेरा लिंक",
+      "locationLabel": "स्थान",
+      "locationMainDashboard": "मुख्य डैशबोर्ड",
+      "locationHeader": "हेडर (केवल फ़ेविकॉन)",
+      "locationFolder": "फ़ोल्डर: {{title}}",
+      "locationGroup": "समूह: {{title}}",
+      "cancel": "रद्द करें",
+      "submit": "लिंक जोड़ें"
+    },
+    "theme": {
+      "title": "थीम और रूप",
+      "description": "अपने डैशबोर्ड के लुक और फील को कस्टमाइज़ करें।",
+      "modeGroupLabel": "थीम मोड",
+      "light": "हल्का",
+      "dark": "गहरा",
+      "device": "डिवाइस",
+      "primaryColorHeading": "प्राथमिक रंग",
+      "primaryColorPresetsLabel": "प्राथमिक रंग प्रीसेट",
+      "customColorLabel": "कस्टम रंग",
+      "customColorTitle": "कस्टम रंग",
+      "customHue": "कस्टम ह्यू",
+      "backgroundHeading": "पृष्ठभूमि",
+      "backgroundTypeLabel": "पृष्ठभूमि प्रकार",
+      "backgroundColorLabel": "पृष्ठभूमि रंग",
+      "backgroundGradientLabel": "पृष्ठभूमि ग्रेडिएंट",
+      "imageUrlPlaceholder": "छवि URL पेस्ट करें...",
+      "uploadImage": "छवि अपलोड करें",
+      "imageUploaded": "कस्टम छवि अपलोड हो गई।",
+      "blur": "धुंधला",
+      "dim": "मंद",
+      "fileReadError": "फ़ाइल पढ़ने में विफल।",
+      "bgType": {
+        "none": "कोई नहीं",
+        "color": "रंग",
+        "gradient": "ग्रेडिएंट",
+        "image": "छवि"
+      },
+      "themes": {
+        "default": "Default",
+        "grey": "Grey",
+        "blue": "Blue",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Green",
+        "citron": "Citron",
+        "yellow": "Yellow",
+        "orange": "Orange",
+        "apricot": "Apricot",
+        "tomato": "Tomato",
+        "rose": "Rose",
+        "pink": "Pink",
+        "fuchsia": "Fuchsia",
+        "violet": "Violet"
+      },
+      "gradients": {
+        "dusk": "संध्या",
+        "sunset": "सूर्यास्त",
+        "ocean": "महासागर",
+        "forest": "वन",
+        "slate": "Slate",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "डैशबोर्ड साफ़ करें",
+      "description": "यह डैशबोर्ड से विजेट हटाता है। आप संपादन मोड में हैं, इसलिए सहेजने से पहले रद्द करने के लिए अभी भी क्लिक कर सकते हैं।",
+      "widgetsGroups": "मुख्य ग्रिड पर विजेट और समूह",
+      "linksInsideGroups": "↳ समूहों के अंदर लिंक",
+      "headerBarLinks": "हेडर बार लिंक",
+      "alsoClearHeaderLabel": "हेडर बार लिंक भी साफ़ करें",
+      "alsoClearHeaderDesc": "डिफ़ॉल्ट रूप से हेडर बार सुरक्षित रहता है। इसे भी मिटाने के लिए यहाँ टिक करें।",
+      "widgetGroups_one": "<strong>{{count}}</strong> विजेट/समूह हटाने वाला है",
+      "widgetGroups_other": "<strong>{{count}}</strong> विजेट/समूह हटाने वाला है",
+      "headerLinks_one": "<strong>{{count}}</strong> हेडर लिंक",
+      "headerLinks_other": "<strong>{{count}}</strong> हेडर लिंक",
+      "andConnector": " और ",
+      "cancelRestores": "। संपादन-मोड टूलबार में रद्द करें उन्हें पुनर्स्थापित करता है।",
+      "nothingToClear": "वर्तमान चयन के साथ साफ़ करने के लिए कुछ नहीं है।",
+      "cancelButton": "रद्द करें",
+      "clearWidgets": "विजेट साफ़ करें",
+      "clearEverything": "सब कुछ साफ़ करें"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "यह आइटम साझा करें",
+      "copyLink": "लिंक कॉपी करें",
+      "linkCopied": "लिंक कॉपी हो गया",
+      "shareOn": "{{platform}} पर साझा करें",
+      "shareVia": "{{platform}} के माध्यम से साझा करें"
+    }
+  }
+}

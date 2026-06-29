@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Löschen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "copy": "Kopieren",
+    "copied": "Kopiert"
+  },
+  "header": {
+    "menu": {
+      "language": "Sprache",
+      "addLink": "Link hinzufügen",
+      "addWidget": "Widget hinzufügen",
+      "editDashboard": "Dashboard bearbeiten",
+      "theme": "Design & Erscheinungsbild",
+      "share": "MonoStart teilen",
+      "openInNewTab": "Links in neuem Tab öffnen"
+    },
+    "settings": "Einstellungen",
+    "clear": "Leeren",
+    "clearDashboard": "Dashboard leeren",
+    "cancel": "Abbrechen",
+    "save": "Speichern"
+  },
+  "widgets": {
+    "deleteWidget": "Widget löschen",
+    "placeholder": {
+      "place": "Platzieren",
+      "dropToPlace": "Ablegen zum Platzieren"
+    },
+    "todo": {
+      "defaultTitle": "Aufgaben",
+      "empty": "Noch keine Aufgaben.",
+      "deleteTask": "Aufgabe löschen",
+      "placeholder": "Aufgabe hinzufügen...",
+      "newTaskAriaLabel": "Neue Aufgabe",
+      "addTask": "Aufgabe hinzufügen",
+      "toggleAriaLabel": "\"{{text}}\" als {{status}} markieren",
+      "statusComplete": "erledigt",
+      "statusIncomplete": "unerledigt"
+    },
+    "timer": {
+      "defaultTitle": "Timer",
+      "empty": "Keine Timer gesetzt.",
+      "deleteTimer": "Timer löschen",
+      "pause": "Pause",
+      "start": "Start",
+      "reset": "Zurücksetzen",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Timer-Dauer in Minuten",
+      "placeholderLabel": "Bezeichnung (optional)",
+      "labelAriaLabel": "Timer-Bezeichnung (optional)",
+      "addTimer": "Timer hinzufügen"
+    },
+    "reminders": {
+      "defaultTitle": "Erinnerungen",
+      "empty": "Noch keine Erinnerungen.",
+      "deleteReminder": "Erinnerung löschen",
+      "placeholder": "Erinnere mich an...",
+      "textAriaLabel": "Erinnerungstext",
+      "recurrenceTitle": "Wiederholung",
+      "addReminder": "Erinnerung hinzufügen",
+      "customIntervalAriaLabel": "Benutzerdefinierter Intervallwert",
+      "customUnitAriaLabel": "Benutzerdefinierte Intervalleinheit",
+      "unitMinutes": "Minuten",
+      "unitHours": "Stunden",
+      "unitDays": "Tage",
+      "saveRecurrence": "Speichern",
+      "toggleAriaLabel": "\"{{text}}\" als {{status}} markieren",
+      "statusComplete": "erledigt",
+      "statusIncomplete": "unerledigt",
+      "recurrenceNone": "Einmalig",
+      "recurrence30min": "Alle 30 Min.",
+      "recurrenceHourly": "Stündlich",
+      "recurrenceDaily": "Täglich",
+      "recurrenceWeekly": "Wöchentlich",
+      "recurrenceCustom": "Benutzerdefiniert",
+      "everyDay": "Alle {{count}}T",
+      "everyHour": "Alle {{count}}Std.",
+      "everyMin": "Alle {{count}}Min.",
+      "every": "Alle",
+      "today": "Heute {{time}}",
+      "tomorrow": "Morgen {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Notiz",
+      "changeColor": "Farbe ändern",
+      "placeholder": "Etwas schreiben...",
+      "contentAriaLabel": "Notizinhalt",
+      "titleAriaLabel": "Notiztitel",
+      "actionsAriaLabel": "Notizaktionen",
+      "color_default": "Standard",
+      "color_amber": "Gelb",
+      "color_sky": "Blau",
+      "color_rose": "Rosa",
+      "color_emerald": "Grün",
+      "color_purple": "Lila"
+    },
+    "image": {
+      "defaultTitle": "Bild",
+      "settings": "Bildeinstellungen",
+      "actionsAriaLabel": "Bildaktionen",
+      "titleAriaLabel": "Bildtitel",
+      "changeImage": "Bild ändern",
+      "fitCover": "Abdecken (Zuschneiden)",
+      "fitContain": "Einpassen (Seitenverhältnis)",
+      "fitFill": "Füllen (Strecken)",
+      "configureTitle": "Widget-Bild konfigurieren",
+      "urlPlaceholder": "Bild-URL einfügen...",
+      "or": "Oder",
+      "uploadLocal": "Lokales Bild hochladen",
+      "cancelConfig": "Konfiguration abbrechen",
+      "loadError": "Bild konnte nicht geladen werden. Die URL ist möglicherweise defekt oder blockiert."
+    },
+    "label": {
+      "defaultText": "Text",
+      "settings": "Texteinstellungen",
+      "actionsAriaLabel": "Beschriftungsaktionen",
+      "textAriaLabel": "Beschriftungstext",
+      "editText": "Text bearbeiten",
+      "showCardStyle": "Kartenstil anzeigen",
+      "fontSize": "Schriftgröße",
+      "alignment": "Ausrichtung",
+      "fontWeight": "Schriftstärke",
+      "opacity": "Deckkraft",
+      "deleteText": "Text löschen",
+      "alignLeft": "Links",
+      "alignCenter": "Zentriert",
+      "alignRight": "Rechts",
+      "fontSizes": {
+        "sm": "Klein",
+        "base": "Mittel",
+        "lg": "Groß",
+        "xl": "Sehr groß",
+        "xl2": "2-fach groß",
+        "xl3": "3-fach groß",
+        "xl4": "4-fach groß",
+        "xl5": "5-fach groß",
+        "xl6": "6-fach groß",
+        "xl7": "7-fach groß",
+        "xl8": "8-fach groß",
+        "xl9": "9-fach groß",
+        "xl10": "10-fach groß",
+        "xl12": "12-fach groß"
+      },
+      "fontWeights": {
+        "thin": "Dünn",
+        "light": "Leicht",
+        "regular": "Normal",
+        "medium": "Mittel",
+        "semibold": "Halbfett",
+        "bold": "Fett",
+        "extrabold": "Extra fett",
+        "black": "Schwarz"
+      },
+      "opacities": {
+        "full": "100% (Hell)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Gedämpft)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google durchsuchen oder URL eingeben",
+      "searchAriaLabel": "Suchanfrage",
+      "voiceSearch": "Sprachsuche",
+      "lensSearch": "Beliebiges Bild mit Lens suchen",
+      "removeWidget": "Widget entfernen",
+      "switchToBarOnly": "Nur zur Leiste wechseln",
+      "switchToLogoBar": "Zu Logo + Leiste wechseln",
+      "barOnly": "Nur Leiste",
+      "showLogo": "Logo anzeigen",
+      "toggleLogoStyle": "Logostil umschalten"
+    },
+    "group": {
+      "borderColorAriaLabel": "Rahmenfarbe der Gruppe",
+      "pasteUrlPlaceholder": "URL einfügen...",
+      "colors": {
+        "red": "Rot",
+        "pink": "Rosa",
+        "purple": "Lila",
+        "indigo": "Indigo",
+        "blue": "Blau",
+        "cyan": "Cyan",
+        "teal": "Blaugrün",
+        "green": "Grün",
+        "yellow": "Gelb",
+        "orange": "Orange",
+        "slate": "Schiefergrau",
+        "neutral": "Neutral"
+      },
+      "defaultTitle": "Neue Gruppe"
+    },
+    "groupHeader": {
+      "addLink": "Link hinzufügen",
+      "colorBorder": "Rahmen einfärben",
+      "layout": "Layout",
+      "layoutGrid": "Raster",
+      "layoutList": "Liste",
+      "gridColumns": "Rasterspalten",
+      "column_one": "{{count}} Spalte",
+      "column_other": "{{count}} Spalten",
+      "deleteGroup": "Gruppe löschen",
+      "actionsAriaLabel": "Gruppenaktionen"
+    },
+    "groupInnerGrid": {
+      "empty": "Leere Gruppe",
+      "addFirstLink": "Ersten Link hinzufügen",
+      "dropToAdd": "Ablegen zum Hinzufügen",
+      "add": "Hinzufügen"
+    },
+    "iframe": {
+      "removeWidget": "Widget entfernen",
+      "openInNewTab": "In neuem Tab öffnen",
+      "defaultTitle": "Eingebettete Seite"
+    },
+    "linkCard": {
+      "options": "Optionen",
+      "rename": "Umbenennen",
+      "size": "Größe",
+      "sizeSmall": "Klein (1×1)",
+      "sizeMedium": "Mittel (3×1)",
+      "moveTo": "Verschieben nach...",
+      "mainDashboard": "Haupt-Dashboard",
+      "header": "Kopfzeile",
+      "deleteLink": "Link löschen",
+      "actionsAriaLabel": "Linkaktionen"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Suche",
+        "description": "Google durchsuchen oder eine URL eingeben."
+      },
+      "group": {
+        "name": "Gruppe",
+        "description": "Eine farbig anpassbare Gruppe zum Organisieren deiner Links."
+      },
+      "reminders": {
+        "name": "Erinnerungen",
+        "description": "Erinnerungen mit Browser-Benachrichtigungen planen. Stündliche / tägliche / wöchentliche Wiederholung unterstützt."
+      },
+      "todo": {
+        "name": "Aufgabenliste",
+        "description": "Behalte den Überblick über deine Aufgaben."
+      },
+      "timer": {
+        "name": "Timer",
+        "description": "Mehrere Timer verwalten."
+      },
+      "note": {
+        "name": "Haftnotiz",
+        "description": "Notizen oder Erinnerungen in benutzerdefinierten Farben schreiben."
+      },
+      "image": {
+        "name": "Bild",
+        "description": "Ein Bild per URL hinzufügen oder eine lokale Datei hochladen."
+      },
+      "label": {
+        "name": "Textbeschriftung",
+        "description": "Eine schwebende Textüberschrift oder einen Titel hinzufügen, um das Raster zu gestalten."
+      },
+      "iframe": {
+        "name": "Eingebettete Seite",
+        "description": "Beliebige Website als Live-Widget einbetten."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} leeres Foto-Widget entfernt.",
+    "removedEmptyPhotos_other": "{{count}} leere Foto-Widgets entfernt.",
+    "clearedWidgets_one": "{{count}} Widget",
+    "clearedWidgets_other": "{{count}} Widgets",
+    "clearedHeaderLinks_one": "{{count}} Kopfzeilenlink",
+    "clearedHeaderLinks_other": "{{count}} Kopfzeilenlinks",
+    "clearedSummary": "{{items}} gelöscht. Abbrechen zum Rückgängigmachen oder Speichern zum Bestätigen.",
+    "onlyOneGoogleSearch": "Nur ein Google-Suchwidget ist erlaubt.",
+    "noRoomForWidget": "Kein Platz für dieses Widget. Größe ändern oder etwas entfernen, um Platz zu schaffen.",
+    "swap": {
+      "no-room": "Tausch nicht möglich – nicht genug Platz für beide Widgets an den neuen Positionen.",
+      "out-of-bounds": "Tausch nicht möglich – eines der Widgets würde bei seiner Mindestgröße über den Rasterrand hinausgehen.",
+      "overlap": "Tausch nicht möglich – die Mindestgrößen der beiden Widgets überlappen sich.",
+      "obstacle": "Tausch nicht möglich – ein anderes Widget ist im Weg. Zuerst verschieben oder Größe ändern."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "In MonoStart speichern",
+    "saveLink": "Link speichern",
+    "saved": "Gespeichert!",
+    "openDashboard": "Dashboard öffnen",
+    "destination": {
+      "label": "Ziel",
+      "main": "Haupt-Dashboard",
+      "header": "Kopfzeile"
+    },
+    "reminders": {
+      "ariaLabel": "Ausstehende Erinnerungen",
+      "count_one": "{{count}} Erinnerung",
+      "count_other": "{{count}} Erinnerungen",
+      "clearAll": "Alle löschen",
+      "dismiss": "Verwerfen"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Chrome-Fußzeilen-Anleitung ausblenden",
+      "success": "Fußzeile ausgeblendet – genießen Sie den Vollbildmodus!",
+      "corner": {
+        "title": "Vollbilderlebnis aktivieren",
+        "intro": "Chrome fügt unterhalb von MonoStart eine Fußzeile hinzu. Um sie auszublenden, klicken Sie auf",
+        "cta": "Chrome anpassen",
+        "ctaSuffix": "in der unteren rechten Ecke.",
+        "noFooter": "Keine Fußzeile? Dann sind Sie fertig – diesen Schritt überspringen."
+      },
+      "panel": {
+        "title": "Fast geschafft",
+        "intro": "Unter",
+        "setting": "Fußzeile",
+        "turnOff": ", deaktivieren Sie",
+        "action": "Fußzeile auf der Seite „Neuer Tab“ anzeigen",
+        "suffix": ", dann schließen Sie das Panel."
+      },
+      "skip": "Überspringen",
+      "next": "Weiter",
+      "done": "Fertig"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Sprache",
+      "subtitle": "Sprache auswählen",
+      "search": "Sprachen suchen…",
+      "empty": "Keine Sprachen entsprechen Ihrer Suche."
+    },
+    "addWidget": {
+      "title": "Widget hinzufügen",
+      "titleConfigure": "{{name}} konfigurieren",
+      "titleGoogleStyle": "Google-Suchstil auswählen",
+      "logoBarTitle": "Logo + Leiste",
+      "logoBarDesc": "Großes Google-Logo über der Suchleiste. Belegt 4 Zeilen.",
+      "barOnlyTitle": "Nur Leiste",
+      "barOnlyDesc": "Nur die Suchleiste. Belegt 1 Zeile. Kompakt.",
+      "urlLabel": "URL oder Einbettungscode",
+      "urlPlaceholder": "https://example.com\noder\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Fügen Sie eine URL für einfache Einbettungen ein oder fügen Sie einen <code>&lt;iframe&gt;</code>-Schnipsel von Seiten ein, die direkte Ladevorgänge blockieren (YouTube, Figma, Spotify, CodePen usw.).",
+      "back": "Zurück",
+      "embedWidget": "Widget einbetten"
+    },
+    "addLink": {
+      "title": "Link hinzufügen",
+      "description": "URL einfügen, um eine neue Linkkarte zum Dashboard hinzuzufügen.",
+      "urlLabel": "Website-URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Titel (optional)",
+      "titlePlaceholder": "Mein Link",
+      "locationLabel": "Ort",
+      "locationMainDashboard": "Haupt-Dashboard",
+      "locationHeader": "Kopfzeile (nur Favicon)",
+      "locationFolder": "Ordner: {{title}}",
+      "locationGroup": "Gruppe: {{title}}",
+      "cancel": "Abbrechen",
+      "submit": "Link hinzufügen"
+    },
+    "theme": {
+      "title": "Design & Erscheinungsbild",
+      "description": "Passen Sie das Aussehen Ihres Dashboards an.",
+      "modeGroupLabel": "Designmodus",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "device": "Gerät",
+      "primaryColorHeading": "Primärfarbe",
+      "primaryColorPresetsLabel": "Primärfarben-Voreinstellungen",
+      "customColorLabel": "Benutzerdefinierte Farbe",
+      "customColorTitle": "Benutzerdefinierte Farbe",
+      "customHue": "Benutzerdefinierter Farbton",
+      "backgroundHeading": "Hintergrund",
+      "backgroundTypeLabel": "Hintergrundtyp",
+      "backgroundColorLabel": "Hintergrundfarbe",
+      "backgroundGradientLabel": "Hintergrundverlauf",
+      "imageUrlPlaceholder": "Bild-URL einfügen...",
+      "uploadImage": "Bild hochladen",
+      "imageUploaded": "Benutzerdefiniertes Bild hochgeladen.",
+      "blur": "Unschärfe",
+      "dim": "Abdunkeln",
+      "fileReadError": "Datei konnte nicht gelesen werden.",
+      "bgType": {
+        "none": "Keiner",
+        "color": "Farbe",
+        "gradient": "Verlauf",
+        "image": "Bild"
+      },
+      "themes": {
+        "default": "Standard",
+        "grey": "Grau",
+        "blue": "Blau",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Grün",
+        "citron": "Citron",
+        "yellow": "Gelb",
+        "orange": "Orange",
+        "apricot": "Apricot",
+        "tomato": "Tomate",
+        "rose": "Rose",
+        "pink": "Rosa",
+        "fuchsia": "Fuchsia",
+        "violet": "Violett"
+      },
+      "gradients": {
+        "dusk": "Dämmerung",
+        "sunset": "Sonnenuntergang",
+        "ocean": "Ozean",
+        "forest": "Wald",
+        "slate": "Schiefer",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "Dashboard leeren",
+      "description": "Hiermit werden Widgets vom Dashboard entfernt. Sie befinden sich im Bearbeitungsmodus, sodass Sie weiterhin auf Abbrechen klicken können, um rückgängig zu machen.",
+      "widgetsGroups": "Widgets & Gruppen im Hauptraster",
+      "linksInsideGroups": "↳ Links innerhalb von Gruppen",
+      "headerBarLinks": "Kopfzeilenlinks",
+      "alsoClearHeaderLabel": "Kopfzeilenlinks ebenfalls löschen",
+      "alsoClearHeaderDesc": "Standardmäßig bleibt die Kopfzeile erhalten. Aktivieren Sie dies, um sie ebenfalls zu leeren.",
+      "widgetGroups_one": "Etwa zu löschen: <strong>{{count}}</strong> Widget/Gruppe",
+      "widgetGroups_other": "Etwa zu löschen: <strong>{{count}}</strong> Widgets/Gruppen",
+      "headerLinks_one": "<strong>{{count}}</strong> Kopfzeilenlink",
+      "headerLinks_other": "<strong>{{count}}</strong> Kopfzeilenlinks",
+      "andConnector": " und ",
+      "cancelRestores": ". Abbrechen im Bearbeitungsmodus stellt sie wieder her.",
+      "nothingToClear": "Mit der aktuellen Auswahl gibt es nichts zu löschen.",
+      "cancelButton": "Abbrechen",
+      "clearWidgets": "Widgets löschen",
+      "clearEverything": "Alles löschen"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Dieses Element teilen",
+      "copyLink": "Link kopieren",
+      "linkCopied": "Link kopiert",
+      "shareOn": "Teilen auf {{platform}}",
+      "shareVia": "Teilen über {{platform}}"
+    }
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "حذف",
+    "cancel": "لغو",
+    "save": "ذخیره",
+    "copy": "کپی",
+    "copied": "کپی شد"
+  },
+  "header": {
+    "menu": {
+      "language": "زبان",
+      "addLink": "افزودن لینک",
+      "addWidget": "افزودن ویجت",
+      "editDashboard": "ویرایش داشبورد",
+      "theme": "پوسته و ظاهر",
+      "share": "اشتراک‌گذاری MonoStart",
+      "openInNewTab": "باز کردن لینک‌ها در برگه جدید"
+    },
+    "settings": "تنظیمات",
+    "clear": "پاک کردن",
+    "clearDashboard": "پاک کردن داشبورد",
+    "cancel": "لغو",
+    "save": "ذخیره"
+  },
+  "widgets": {
+    "deleteWidget": "حذف ویجت",
+    "placeholder": {
+      "place": "قرار دادن",
+      "dropToPlace": "رها کنید تا قرار گیرد"
+    },
+    "todo": {
+      "defaultTitle": "کارها",
+      "empty": "هنوز هیچ وظیفه‌ای وجود ندارد.",
+      "deleteTask": "حذف وظیفه",
+      "placeholder": "افزودن وظیفه...",
+      "newTaskAriaLabel": "وظیفه جدید",
+      "addTask": "افزودن وظیفه",
+      "toggleAriaLabel": "علامت‌گذاری «{{text}}» به عنوان {{status}}",
+      "statusComplete": "انجام شده",
+      "statusIncomplete": "انجام نشده"
+    },
+    "timer": {
+      "defaultTitle": "تایمرها",
+      "empty": "هیچ تایمری تنظیم نشده.",
+      "deleteTimer": "حذف تایمر",
+      "pause": "توقف",
+      "start": "شروع",
+      "reset": "بازنشانی",
+      "placeholderMin": "دقیقه",
+      "durationAriaLabel": "مدت زمان تایمر به دقیقه",
+      "placeholderLabel": "برچسب (اختیاری)",
+      "labelAriaLabel": "برچسب تایمر (اختیاری)",
+      "addTimer": "افزودن تایمر"
+    },
+    "reminders": {
+      "defaultTitle": "یادآورها",
+      "empty": "هنوز هیچ یادآوری وجود ندارد.",
+      "deleteReminder": "حذف یادآور",
+      "placeholder": "یادم بنداز که...",
+      "textAriaLabel": "متن یادآور",
+      "recurrenceTitle": "تکرار",
+      "addReminder": "افزودن یادآور",
+      "customIntervalAriaLabel": "مقدار بازه سفارشی",
+      "customUnitAriaLabel": "واحد بازه سفارشی",
+      "unitMinutes": "دقیقه",
+      "unitHours": "ساعت",
+      "unitDays": "روز",
+      "saveRecurrence": "ذخیره",
+      "toggleAriaLabel": "علامت‌گذاری «{{text}}» به عنوان {{status}}",
+      "statusComplete": "انجام شده",
+      "statusIncomplete": "انجام نشده",
+      "recurrenceNone": "یک بار",
+      "recurrence30min": "هر ۳۰ دقیقه",
+      "recurrenceHourly": "هر ساعت",
+      "recurrenceDaily": "روزانه",
+      "recurrenceWeekly": "هفتگی",
+      "recurrenceCustom": "سفارشی",
+      "everyDay": "هر {{count}} روز",
+      "everyHour": "هر {{count}} ساعت",
+      "everyMin": "هر {{count}} دقیقه",
+      "every": "هر",
+      "today": "امروز {{time}}",
+      "tomorrow": "فردا {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "یادداشت",
+      "changeColor": "تغییر رنگ",
+      "placeholder": "چیزی بنویسید...",
+      "contentAriaLabel": "محتوای یادداشت",
+      "titleAriaLabel": "عنوان یادداشت",
+      "actionsAriaLabel": "اقدامات یادداشت",
+      "color_default": "پیش‌فرض",
+      "color_amber": "زرد",
+      "color_sky": "آبی",
+      "color_rose": "صورتی",
+      "color_emerald": "سبز",
+      "color_purple": "بنفش"
+    },
+    "image": {
+      "defaultTitle": "تصویر",
+      "settings": "تنظیمات تصویر",
+      "actionsAriaLabel": "اقدامات تصویر",
+      "titleAriaLabel": "عنوان تصویر",
+      "changeImage": "تغییر تصویر",
+      "fitCover": "پوشش (برش)",
+      "fitContain": "محتوا (نسبت)",
+      "fitFill": "پر کردن (کشیده)",
+      "configureTitle": "پیکربندی تصویر ویجت",
+      "urlPlaceholder": "آدرس تصویر را وارد کنید...",
+      "or": "یا",
+      "uploadLocal": "بارگذاری تصویر محلی",
+      "cancelConfig": "لغو پیکربندی",
+      "loadError": "بارگذاری تصویر ناموفق بود. آدرس ممکن است خراب یا مسدود باشد."
+    },
+    "label": {
+      "defaultText": "متن",
+      "settings": "تنظیمات متن",
+      "actionsAriaLabel": "اقدامات برچسب",
+      "textAriaLabel": "متن برچسب",
+      "editText": "ویرایش متن",
+      "showCardStyle": "نمایش سبک کارت",
+      "fontSize": "اندازه قلم",
+      "alignment": "تراز",
+      "fontWeight": "وزن قلم",
+      "opacity": "شفافیت",
+      "deleteText": "حذف متن",
+      "alignLeft": "چپ",
+      "alignCenter": "وسط",
+      "alignRight": "راست",
+      "fontSizes": {
+        "sm": "کوچک",
+        "base": "متوسط",
+        "lg": "بزرگ",
+        "xl": "خیلی بزرگ",
+        "xl2": "۲ برابر بزرگ",
+        "xl3": "۳ برابر بزرگ",
+        "xl4": "۴ برابر بزرگ",
+        "xl5": "۵ برابر بزرگ",
+        "xl6": "۶ برابر بزرگ",
+        "xl7": "۷ برابر بزرگ",
+        "xl8": "۸ برابر بزرگ",
+        "xl9": "۹ برابر بزرگ",
+        "xl10": "۱۰ برابر بزرگ",
+        "xl12": "۱۲ برابر بزرگ"
+      },
+      "fontWeights": {
+        "thin": "نازک",
+        "light": "سبک",
+        "regular": "معمولی",
+        "medium": "متوسط",
+        "semibold": "نیمه ضخیم",
+        "bold": "ضخیم",
+        "extrabold": "خیلی ضخیم",
+        "black": "سیاه"
+      },
+      "opacities": {
+        "full": "۱۰۰٪ (روشن)",
+        "p80": "۸۰٪",
+        "p60": "۶۰٪",
+        "muted": "۴۰٪ (کمرنگ)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "در Google جستجو کنید یا آدرس وارد کنید",
+      "searchAriaLabel": "عبارت جستجو",
+      "voiceSearch": "جستجوی صوتی",
+      "lensSearch": "جستجوی هر تصویر با Lens",
+      "removeWidget": "حذف ویجت",
+      "switchToBarOnly": "تغییر به نوار تنها",
+      "switchToLogoBar": "تغییر به لوگو + نوار",
+      "barOnly": "نوار تنها",
+      "showLogo": "نمایش لوگو",
+      "toggleLogoStyle": "تغییر سبک لوگو"
+    },
+    "group": {
+      "borderColorAriaLabel": "رنگ حاشیه گروه",
+      "pasteUrlPlaceholder": "آدرس را وارد کنید...",
+      "colors": {
+        "red": "قرمز",
+        "pink": "صورتی",
+        "purple": "بنفش",
+        "indigo": "نیلی",
+        "blue": "آبی",
+        "cyan": "فیروزه‌ای",
+        "teal": "سبز آبی",
+        "green": "سبز",
+        "yellow": "زرد",
+        "orange": "نارنجی",
+        "slate": "خاکستری",
+        "neutral": "خنثی"
+      },
+      "defaultTitle": "گروه جدید"
+    },
+    "groupHeader": {
+      "addLink": "افزودن لینک",
+      "colorBorder": "رنگ حاشیه",
+      "layout": "چیدمان",
+      "layoutGrid": "شبکه",
+      "layoutList": "لیست",
+      "gridColumns": "ستون‌های شبکه",
+      "column_one": "{{count}} ستون",
+      "column_other": "{{count}} ستون",
+      "deleteGroup": "حذف گروه",
+      "actionsAriaLabel": "اقدامات گروه"
+    },
+    "groupInnerGrid": {
+      "empty": "گروه خالی",
+      "addFirstLink": "افزودن اولین لینک",
+      "dropToAdd": "رها کنید تا اضافه شود",
+      "add": "افزودن"
+    },
+    "iframe": {
+      "removeWidget": "حذف ویجت",
+      "openInNewTab": "باز کردن در برگه جدید",
+      "defaultTitle": "صفحه جاسازی‌شده"
+    },
+    "linkCard": {
+      "options": "گزینه‌ها",
+      "rename": "تغییر نام",
+      "size": "اندازه",
+      "sizeSmall": "کوچک (۱×۱)",
+      "sizeMedium": "متوسط (۳×۱)",
+      "moveTo": "انتقال به...",
+      "mainDashboard": "داشبورد اصلی",
+      "header": "هدر",
+      "deleteLink": "حذف لینک",
+      "actionsAriaLabel": "اقدامات لینک"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "جستجوی Google",
+        "description": "در Google جستجو کنید یا یک آدرس URL وارد کنید."
+      },
+      "group": {
+        "name": "گروه",
+        "description": "یک گروه با رنگ دلخواه برای سازماندهی لینک‌هایتان."
+      },
+      "reminders": {
+        "name": "یادآورها",
+        "description": "یادآورها را با اعلان‌های مرورگر زمان‌بندی کنید. تکرار ساعتی / روزانه / هفتگی پشتیبانی می‌شود."
+      },
+      "todo": {
+        "name": "فهرست کارها",
+        "description": "وظایفتان را پیگیری کنید."
+      },
+      "timer": {
+        "name": "تایمرها",
+        "description": "چندین تایمر را مدیریت کنید."
+      },
+      "note": {
+        "name": "یادداشت چسبنده",
+        "description": "یادداشت‌ها یا یادآورها را با رنگ‌های دلخواه بنویسید."
+      },
+      "image": {
+        "name": "تصویر",
+        "description": "یک تصویر از URL اضافه کنید یا یک فایل محلی بارگذاری کنید."
+      },
+      "label": {
+        "name": "برچسب متنی",
+        "description": "یک عنوان یا سرتیتر متنی شناور تمیز اضافه کنید تا شبکه‌تان را سبک‌دهی کنید."
+      },
+      "iframe": {
+        "name": "صفحه جاسازی‌شده",
+        "description": "هر وب‌سایتی را به‌صورت یک ویجت زنده جاسازی کنید."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} ویجت عکس خالی حذف شد.",
+    "removedEmptyPhotos_other": "{{count}} ویجت عکس خالی حذف شد.",
+    "clearedWidgets_one": "{{count}} ویجت",
+    "clearedWidgets_other": "{{count}} ویجت",
+    "clearedHeaderLinks_one": "{{count}} لینک هدر",
+    "clearedHeaderLinks_other": "{{count}} لینک هدر",
+    "clearedSummary": "{{items}} پاک شد. برای بازگشت لغو کنید، یا برای تأیید ذخیره کنید.",
+    "onlyOneGoogleSearch": "فقط یک ویجت جستجوی Google مجاز است.",
+    "noRoomForWidget": "جای کافی برای این ویجت وجود ندارد. چیزی را تغییر اندازه داده یا حذف کنید.",
+    "swap": {
+      "no-room": "تعویض ممکن نیست — فضای کافی برای هر دو ویجت در موقعیت‌های جدید وجود ندارد.",
+      "out-of-bounds": "تعویض ممکن نیست — یکی از ویجت‌ها از لبه شبکه در حداقل اندازه خارج می‌شود.",
+      "overlap": "تعویض ممکن نیست — حداقل اندازه‌های دو ویجت با هم تداخل دارند.",
+      "obstacle": "تعویض ممکن نیست — ویجت دیگری مانع است. ابتدا آن را جابه‌جا یا تغییر اندازه دهید."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "ذخیره در MonoStart",
+    "saveLink": "ذخیره لینک",
+    "saved": "ذخیره شد!",
+    "openDashboard": "باز کردن داشبورد",
+    "destination": {
+      "label": "مقصد",
+      "main": "داشبورد اصلی",
+      "header": "نوار هدر"
+    },
+    "reminders": {
+      "ariaLabel": "یادآورهای معلق",
+      "count_one": "{{count}} یادآور",
+      "count_other": "{{count}} یادآور",
+      "clearAll": "پاک کردن همه",
+      "dismiss": "رد کردن"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "مخفی کردن راهنمای فوتر Chrome",
+      "success": "فوتر مخفی شد — از تمام صفحه لذت ببرید!",
+      "corner": {
+        "title": "تجربه تمام‌صفحه را داشته باشید",
+        "intro": "Chrome یک فوتر زیر MonoStart اضافه می‌کند. برای مخفی کردن آن، کلیک کنید",
+        "cta": "سفارشی‌سازی Chrome",
+        "ctaSuffix": "در گوشه پایین-راست.",
+        "noFooter": "فوتری نمی‌بینید؟ همه چیز درست است — این مرحله را رد کنید."
+      },
+      "panel": {
+        "title": "تقریباً تمام شد",
+        "intro": "زیر",
+        "setting": "فوتر",
+        "turnOff": "، خاموش کنید",
+        "action": "نمایش فوتر در صفحه برگه جدید",
+        "suffix": "، سپس پنل را ببندید."
+      },
+      "skip": "رد کردن",
+      "next": "بعدی",
+      "done": "انجام شد"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "زبان",
+      "subtitle": "زبان خود را انتخاب کنید",
+      "search": "جستجوی زبان‌ها…",
+      "empty": "هیچ زبانی با جستجوی شما مطابقت ندارد."
+    },
+    "addWidget": {
+      "title": "افزودن ویجت",
+      "titleConfigure": "پیکربندی {{name}}",
+      "titleGoogleStyle": "سبک جستجوی Google را انتخاب کنید",
+      "logoBarTitle": "لوگو + نوار",
+      "logoBarDesc": "لوگوی بزرگ Google بالای نوار جستجو. ۴ ردیف می‌گیرد.",
+      "barOnlyTitle": "نوار تنها",
+      "barOnlyDesc": "فقط نوار جستجو. ۱ ردیف می‌گیرد. فشرده.",
+      "urlLabel": "آدرس یا کد جاسازی",
+      "urlPlaceholder": "https://example.com\nیا\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "یک آدرس برای جاسازی‌های ساده وارد کنید، یا یک قطعه <code>&lt;iframe&gt;</code> از سایت‌هایی که بارگذاری مستقیم را مسدود می‌کنند (YouTube، Figma، Spotify، CodePen و غیره) وارد کنید.",
+      "back": "بازگشت",
+      "embedWidget": "جاسازی ویجت"
+    },
+    "addLink": {
+      "title": "افزودن لینک",
+      "description": "یک آدرس وارد کنید تا کارت لینک جدیدی به داشبورد اضافه شود.",
+      "urlLabel": "آدرس وب‌سایت",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "عنوان (اختیاری)",
+      "titlePlaceholder": "لینک من",
+      "locationLabel": "مکان",
+      "locationMainDashboard": "داشبورد اصلی",
+      "locationHeader": "هدر (فقط فاوآیکون)",
+      "locationFolder": "پوشه: {{title}}",
+      "locationGroup": "گروه: {{title}}",
+      "cancel": "لغو",
+      "submit": "افزودن لینک"
+    },
+    "theme": {
+      "title": "پوسته و ظاهر",
+      "description": "ظاهر و احساس داشبورد خود را سفارشی کنید.",
+      "modeGroupLabel": "حالت پوسته",
+      "light": "روشن",
+      "dark": "تاریک",
+      "device": "دستگاه",
+      "primaryColorHeading": "رنگ اصلی",
+      "primaryColorPresetsLabel": "پیش‌تنظیمات رنگ اصلی",
+      "customColorLabel": "رنگ سفارشی",
+      "customColorTitle": "رنگ سفارشی",
+      "customHue": "رنگ‌دهی سفارشی",
+      "backgroundHeading": "پس‌زمینه",
+      "backgroundTypeLabel": "نوع پس‌زمینه",
+      "backgroundColorLabel": "رنگ پس‌زمینه",
+      "backgroundGradientLabel": "گرادیان پس‌زمینه",
+      "imageUrlPlaceholder": "آدرس تصویر را وارد کنید...",
+      "uploadImage": "بارگذاری تصویر",
+      "imageUploaded": "تصویر سفارشی بارگذاری شد.",
+      "blur": "تار کردن",
+      "dim": "کم‌نور کردن",
+      "fileReadError": "خواندن فایل ناموفق بود.",
+      "bgType": {
+        "none": "هیچ",
+        "color": "رنگ",
+        "gradient": "گرادیان",
+        "image": "تصویر"
+      },
+      "themes": {
+        "default": "پیش‌فرض",
+        "grey": "خاکستری",
+        "blue": "آبی",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "سبز",
+        "citron": "Citron",
+        "yellow": "زرد",
+        "orange": "نارنجی",
+        "apricot": "Apricot",
+        "tomato": "گوجه‌فرنگی",
+        "rose": "رز",
+        "pink": "صورتی",
+        "fuchsia": "Fuchsia",
+        "violet": "بنفش"
+      },
+      "gradients": {
+        "dusk": "غروب",
+        "sunset": "غروب آفتاب",
+        "ocean": "اقیانوس",
+        "forest": "جنگل",
+        "slate": "سنگ لوح",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "پاک کردن داشبورد",
+      "description": "این ویجت‌ها را از داشبورد حذف می‌کند. شما در حالت ویرایش هستید، بنابراین هنوز می‌توانید قبل از ذخیره، لغو کنید.",
+      "widgetsGroups": "ویجت‌ها و گروه‌ها در شبکه اصلی",
+      "linksInsideGroups": "↳ لینک‌های داخل گروه‌ها",
+      "headerBarLinks": "لینک‌های نوار هدر",
+      "alsoClearHeaderLabel": "همچنین لینک‌های نوار هدر را پاک کن",
+      "alsoClearHeaderDesc": "به‌طور پیش‌فرض نوار هدر حفظ می‌شود. این گزینه را تیک بزنید تا آن هم پاک شود.",
+      "widgetGroups_one": "در شرف حذف <strong>{{count}}</strong> ویجت/گروه",
+      "widgetGroups_other": "در شرف حذف <strong>{{count}}</strong> ویجت/گروه",
+      "headerLinks_one": "<strong>{{count}}</strong> لینک هدر",
+      "headerLinks_other": "<strong>{{count}}</strong> لینک هدر",
+      "andConnector": " و ",
+      "cancelRestores": ". لغو در نوار ابزار حالت ویرایش آن‌ها را بازمی‌گرداند.",
+      "nothingToClear": "با انتخاب فعلی چیزی برای پاک کردن وجود ندارد.",
+      "cancelButton": "لغو",
+      "clearWidgets": "پاک کردن ویجت‌ها",
+      "clearEverything": "پاک کردن همه چیز"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "این مورد را به اشتراک بگذارید",
+      "copyLink": "کپی لینک",
+      "linkCopied": "لینک کپی شد",
+      "shareOn": "اشتراک‌گذاری در {{platform}}",
+      "shareVia": "اشتراک‌گذاری از طریق {{platform}}"
+    }
+  }
+}

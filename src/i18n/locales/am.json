@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "ሰርዝ",
+    "cancel": "ሰርዝ",
+    "save": "አስቀምጥ",
+    "copy": "ቅዳ",
+    "copied": "ተቀድቷል"
+  },
+  "header": {
+    "menu": {
+      "language": "ቋንቋ",
+      "addLink": "ሊንክ ጨምር",
+      "addWidget": "ዊጄት ጨምር",
+      "editDashboard": "ዳሽቦርድ አርትዕ",
+      "theme": "ገጽታ እና ምስል",
+      "share": "MonoStart አጋራ",
+      "openInNewTab": "ሊንኮችን በአዲስ ትር ክፈት"
+    },
+    "settings": "ቅንብሮች",
+    "clear": "አጽዳ",
+    "clearDashboard": "ዳሽቦርድ አጽዳ",
+    "cancel": "ሰርዝ",
+    "save": "አስቀምጥ"
+  },
+  "widgets": {
+    "deleteWidget": "ዊጄት ሰርዝ",
+    "placeholder": {
+      "place": "አስቀምጥ",
+      "dropToPlace": "ለማስቀመጥ ጣል"
+    },
+    "todo": {
+      "defaultTitle": "ተግባሮች",
+      "empty": "ምንም ተግባሮች የሉም።",
+      "deleteTask": "ተግባር ሰርዝ",
+      "placeholder": "ተግባር ጨምር...",
+      "newTaskAriaLabel": "አዲስ ተግባር",
+      "addTask": "ተግባር ጨምር",
+      "toggleAriaLabel": "\"{{text}}\"ን እንደ {{status}} ምልክት አድርግ",
+      "statusComplete": "ተጠናቅቋል",
+      "statusIncomplete": "አልተጠናቀቀም"
+    },
+    "timer": {
+      "defaultTitle": "ሰዓት ቆጣሪዎች",
+      "empty": "ምንም ሰዓት ቆጣሪ አልተቀናጀም።",
+      "deleteTimer": "ሰዓት ቆጣሪ ሰርዝ",
+      "pause": "አቁም",
+      "start": "ጀምር",
+      "reset": "ዳግም ጀምር",
+      "placeholderMin": "ደቂቃ",
+      "durationAriaLabel": "የሰዓት ቆጣሪ ጊዜ በደቂቃዎች",
+      "placeholderLabel": "መለያ (አማራጭ)",
+      "labelAriaLabel": "የሰዓት ቆጣሪ መለያ (አማራጭ)",
+      "addTimer": "ሰዓት ቆጣሪ ጨምር"
+    },
+    "reminders": {
+      "defaultTitle": "አስታዋሾች",
+      "empty": "ምንም አስታዋሾች የሉም።",
+      "deleteReminder": "አስታዋሽ ሰርዝ",
+      "placeholder": "አስታውሰኝ...",
+      "textAriaLabel": "የአስታዋሽ ጽሑፍ",
+      "recurrenceTitle": "ድግግሞሽ",
+      "addReminder": "አስታዋሽ ጨምር",
+      "customIntervalAriaLabel": "ብጁ የጊዜ ክፍተት ዋጋ",
+      "customUnitAriaLabel": "ብጁ የጊዜ ክፍተት አሃድ",
+      "unitMinutes": "ደቂቃዎች",
+      "unitHours": "ሰዓቶች",
+      "unitDays": "ቀናት",
+      "saveRecurrence": "አስቀምጥ",
+      "toggleAriaLabel": "\"{{text}}\"ን እንደ {{status}} ምልክት አድርግ",
+      "statusComplete": "ተጠናቅቋል",
+      "statusIncomplete": "አልተጠናቀቀም",
+      "recurrenceNone": "አንድ ጊዜ",
+      "recurrence30min": "በእያንዳንዱ 30 ደቂቃ",
+      "recurrenceHourly": "በየሰዓቱ",
+      "recurrenceDaily": "በየቀኑ",
+      "recurrenceWeekly": "በየሳምንቱ",
+      "recurrenceCustom": "ብጁ",
+      "everyDay": "በእያንዳንዱ {{count}}ቀ",
+      "everyHour": "በእያንዳንዱ {{count}}ሰ",
+      "everyMin": "በእያንዳንዱ {{count}}ደ",
+      "every": "በእያንዳንዱ",
+      "today": "ዛሬ {{time}}",
+      "tomorrow": "ነገ {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "ማስታወሻ",
+      "changeColor": "ቀለም ቀይር",
+      "placeholder": "ጻፍ...",
+      "contentAriaLabel": "የማስታወሻ ይዘት",
+      "titleAriaLabel": "የማስታወሻ ርዕስ",
+      "actionsAriaLabel": "የማስታወሻ ድርጊቶች",
+      "color_default": "ነባሪ",
+      "color_amber": "ቢጫ",
+      "color_sky": "ሰማያዊ",
+      "color_rose": "ሮዝ",
+      "color_emerald": "አረንጓዴ",
+      "color_purple": "ወይን ጠጅ"
+    },
+    "image": {
+      "defaultTitle": "ምስል",
+      "settings": "የምስል ቅንብሮች",
+      "actionsAriaLabel": "የምስል ድርጊቶች",
+      "titleAriaLabel": "የምስል ርዕስ",
+      "changeImage": "ምስል ቀይር",
+      "fitCover": "ሸፍን (ቁረጥ)",
+      "fitContain": "ያዝ (ጎን)",
+      "fitFill": "ሙላ (ዘርጋ)",
+      "configureTitle": "የዊጄት ምስል አዋቅር",
+      "urlPlaceholder": "የምስል URL ለጥፍ...",
+      "or": "ወይም",
+      "uploadLocal": "የአካባቢ ምስል ስቀል",
+      "cancelConfig": "ማዋቀር ሰርዝ",
+      "loadError": "ምስሉ መጫን አልቻለም። URL ሊሰበር ወይም ሊታገድ ይችላል።"
+    },
+    "label": {
+      "defaultText": "ጽሑፍ",
+      "settings": "የጽሑፍ ቅንብሮች",
+      "actionsAriaLabel": "የመለያ ድርጊቶች",
+      "textAriaLabel": "የመለያ ጽሑፍ",
+      "editText": "ጽሑፍ አርትዕ",
+      "showCardStyle": "የካርድ ዘይቤ አሳይ",
+      "fontSize": "የፊደል መጠን",
+      "alignment": "አሰላለፍ",
+      "fontWeight": "የፊደል ክብደት",
+      "opacity": "ግልጽነት",
+      "deleteText": "ጽሑፍ ሰርዝ",
+      "alignLeft": "ግራ",
+      "alignCenter": "መሃል",
+      "alignRight": "ቀኝ",
+      "fontSizes": {
+        "sm": "ትንሽ",
+        "base": "መካከለኛ",
+        "lg": "ትልቅ",
+        "xl": "በጣም ትልቅ",
+        "xl2": "2X ትልቅ",
+        "xl3": "3X ትልቅ",
+        "xl4": "4X ትልቅ",
+        "xl5": "5X ትልቅ",
+        "xl6": "6X ትልቅ",
+        "xl7": "7X ትልቅ",
+        "xl8": "8X ትልቅ",
+        "xl9": "9X ትልቅ",
+        "xl10": "10X ትልቅ",
+        "xl12": "12X ትልቅ"
+      },
+      "fontWeights": {
+        "thin": "ቀጭን",
+        "light": "ቀላል",
+        "regular": "መደበኛ",
+        "medium": "መካከለኛ",
+        "semibold": "ከፊል ደፋር",
+        "bold": "ደፋር",
+        "extrabold": "ተጨማሪ ደፋር",
+        "black": "ጥቁር"
+      },
+      "opacities": {
+        "full": "100% (ብሩህ)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (ደበዛዛ)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Google ፈልግ ወይም URL ተይብ",
+      "searchAriaLabel": "የፍለጋ ጥያቄ",
+      "voiceSearch": "የድምጽ ፍለጋ",
+      "lensSearch": "ማንኛውም ምስል በ Lens ፈልግ",
+      "removeWidget": "ዊጄት አስወግድ",
+      "switchToBarOnly": "ወደ አሞሌ ብቻ ቀይር",
+      "switchToLogoBar": "ወደ አርማ + አሞሌ ቀይር",
+      "barOnly": "አሞሌ ብቻ",
+      "showLogo": "አርማ አሳይ",
+      "toggleLogoStyle": "የአርማ ዘይቤ ቀይር"
+    },
+    "group": {
+      "borderColorAriaLabel": "የቡድን ድንበር ቀለም",
+      "pasteUrlPlaceholder": "URL ለጥፍ...",
+      "colors": {
+        "red": "ቀይ",
+        "pink": "ሮዝ",
+        "purple": "ወይን ጠጅ",
+        "indigo": "ኢንዲጎ",
+        "blue": "ሰማያዊ",
+        "cyan": "ሲያን",
+        "teal": "ቲል",
+        "green": "አረንጓዴ",
+        "yellow": "ቢጫ",
+        "orange": "ብርቱካናማ",
+        "slate": "ስሌት",
+        "neutral": "ገለልተኛ"
+      },
+      "defaultTitle": "አዲስ ቡድን"
+    },
+    "groupHeader": {
+      "addLink": "ሊንክ ጨምር",
+      "colorBorder": "ቀለም ድንበር",
+      "layout": "አቀማመጥ",
+      "layoutGrid": "ፍርግርግ",
+      "layoutList": "ዝርዝር",
+      "gridColumns": "የፍርግርግ አምዶች",
+      "column_one": "{{count}} አምድ",
+      "column_other": "{{count}} አምዶች",
+      "deleteGroup": "ቡድን ሰርዝ",
+      "actionsAriaLabel": "የቡድን ድርጊቶች"
+    },
+    "groupInnerGrid": {
+      "empty": "ባዶ ቡድን",
+      "addFirstLink": "የመጀመሪያ ሊንክ ጨምር",
+      "dropToAdd": "ለመጨመር ጣል",
+      "add": "ጨምር"
+    },
+    "iframe": {
+      "removeWidget": "ዊጄት አስወግድ",
+      "openInNewTab": "በአዲስ ትር ክፈት",
+      "defaultTitle": "የተቀበሩ ገጽ"
+    },
+    "linkCard": {
+      "options": "አማራጮች",
+      "rename": "ስም ቀይር",
+      "size": "መጠን",
+      "sizeSmall": "ትንሽ (1×1)",
+      "sizeMedium": "መካከለኛ (3×1)",
+      "moveTo": "ወደ...",
+      "mainDashboard": "ዋና ዳሽቦርድ",
+      "header": "ራስጌ",
+      "deleteLink": "ሊንክ ሰርዝ",
+      "actionsAriaLabel": "የሊንክ ድርጊቶች"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google ፍለጋ",
+        "description": "Google ፈልጉ ወይም URL ያስገቡ።"
+      },
+      "group": {
+        "name": "ቡድን",
+        "description": "ሊንኮቻቸዎን ለማደራጀት ብጁ ቀለም ያለው ቡድን።"
+      },
+      "reminders": {
+        "name": "አስታዋሾች",
+        "description": "በአሳሽ ማሳወቂያዎች አስታዋሾችን ያዘጋጁ። በሰዓት / በቀን / በሳምንት ድግግሞሽ ይደገፋል።"
+      },
+      "todo": {
+        "name": "የሥራ ዝርዝር",
+        "description": "ተግባሮቻቸዎን ይከታተሉ።"
+      },
+      "timer": {
+        "name": "ሰዓት ቆጣሪዎች",
+        "description": "ብዙ ሰዓት ቆጣሪዎችን ያስተዳድሩ።"
+      },
+      "note": {
+        "name": "ማስታወሻ ወረቀት",
+        "description": "ብጁ ቀለሞችን በመጠቀም ማስታወሻዎች ወይም አስታዋሾች ይጻፉ።"
+      },
+      "image": {
+        "name": "ምስል",
+        "description": "ከ URL ምስል ያክሉ ወይም ፋይል ከሥርዓቱ ስቀሉ።"
+      },
+      "label": {
+        "name": "የጽሑፍ መለያ",
+        "description": "ፍርግርጉን ለማስጌጥ ንጹህ የሚንሳፈፍ የጽሑፍ ርዕስ ያክሉ።"
+      },
+      "iframe": {
+        "name": "የተቀበሩ ገጽ",
+        "description": "ማንኛውንም ድህረ ገጽ እንደ ቀጥታ ዊጄት ቅቡ።"
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "{{count}} ባዶ የፎቶ ዊጄት ተወግዷል።",
+    "removedEmptyPhotos_other": "{{count}} ባዶ የፎቶ ዊጄቶች ተወግደዋል።",
+    "clearedWidgets_one": "{{count}} ዊጄት",
+    "clearedWidgets_other": "{{count}} ዊጄቶች",
+    "clearedHeaderLinks_one": "{{count}} የራስጌ ሊንክ",
+    "clearedHeaderLinks_other": "{{count}} የራስጌ ሊንኮች",
+    "clearedSummary": "{{items}} ጸድቷል። ለመሰረዝ ሰርዝ ይጫኑ፤ ወይም ለማረጋገጥ አስቀምጥ ይጫኑ።",
+    "onlyOneGoogleSearch": "አንድ Google ፍለጋ ዊጄት ብቻ ይፈቀዳል።",
+    "noRoomForWidget": "ለዚህ ዊጄት ቦታ የለም። ቦታ ለማስፈጠር አንድ ነገር ይቀንሱ ወይም ያስወግዱ።",
+    "swap": {
+      "no-room": "መቀያየር አይቻልም — ሁለቱ ዊጄቶች በአዲስ ቦታቸው ሊገጥሙ አይችሉም።",
+      "out-of-bounds": "መቀያየር አይቻልም — አንዱ ዊጄት ከፍርግርጉ ወሰን ውጭ ይሆናል።",
+      "overlap": "መቀያየር አይቻልም — ሁለቱ ዊጄቶች ትንሹ መጠናቸው ይደራረባሉ።",
+      "obstacle": "መቀያየር አይቻልም — ሌላ ዊጄት በመንገዱ ላይ ነው። መጀመሪያ ያንቀሳቅሱ ወይም መጠን ይቀይሩ።"
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "ወደ MonoStart አስቀምጥ",
+    "saveLink": "ሊንክ አስቀምጥ",
+    "saved": "ተቀምጧል!",
+    "openDashboard": "ዳሽቦርድ ክፈት",
+    "destination": {
+      "label": "መዳረሻ",
+      "main": "ዋና ዳሽቦርድ",
+      "header": "ራስጌ አሞሌ"
+    },
+    "reminders": {
+      "ariaLabel": "በመጠባበቅ ላይ ያሉ አስታዋሾች",
+      "count_one": "{{count}} አስታዋሽ",
+      "count_other": "{{count}} አስታዋሾች",
+      "clearAll": "ሁሉንም አጽዳ",
+      "dismiss": "አሰናብት"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "የ Chrome ግርጌ መመሪያ ደብቅ",
+      "success": "ግርጌ ተደብቋል — ሙሉ ማያ ይደሰቱ!",
+      "corner": {
+        "title": "ሙሉ ማያ ልምድ ያግኙ",
+        "intro": "Chrome ከ MonoStart በታች ግርጌ ያክላል። ለመደበቅ፣ ይጫኑ",
+        "cta": "Chrome አብጅ",
+        "ctaSuffix": "በታቺ-ቀኝ ጥግ።",
+        "noFooter": "ግርጌ አያዩም? ሁሉም ዝግጁ ነው — ይህን ይዝለሉ።"
+      },
+      "panel": {
+        "title": "ሊደርሱ ነው",
+        "intro": "ከ",
+        "setting": "ግርጌ",
+        "turnOff": "ስር፣ ያጥፉ",
+        "action": "በአዲስ ትር ገጽ ላይ ግርጌ አሳይ",
+        "suffix": "፤ ከዚያ ፓናሉን ዝጉ።"
+      },
+      "skip": "ዝለል",
+      "next": "ቀጣይ",
+      "done": "ተጠናቀቀ"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "ቋንቋ",
+      "subtitle": "ቋንቋዎን ይምረጡ",
+      "search": "ቋንቋዎችን ፈልግ…",
+      "empty": "ምንም ቋንቋዎች ፍለጋዎን አይዛመዱም።"
+    },
+    "addWidget": {
+      "title": "ዊጄት ጨምር",
+      "titleConfigure": "{{name}} አዋቅር",
+      "titleGoogleStyle": "የ Google ፍለጋ ዘይቤ ምረጥ",
+      "logoBarTitle": "አርማ + አሞሌ",
+      "logoBarDesc": "ትልቅ Google አርማ ከፍለጋ አሞሌ በላይ። 4 ረድፎችን ይወስዳል።",
+      "barOnlyTitle": "አሞሌ ብቻ",
+      "barOnlyDesc": "ፍለጋ አሞሌ ብቻ። 1 ረድፍ ይወስዳል። ታሽጓል።",
+      "urlLabel": "URL ወይም የቅጡ ኮድ",
+      "urlPlaceholder": "https://example.com\nወይም\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "ቀላል ቅጦች ለ URL ይለጥፉ፣ ወይም ቀጥታ ጫኚ ከሚያግዱ ጣቢያዎች (YouTube, Figma, Spotify, CodePen, ወዘተ.) <code>&lt;iframe&gt;</code> ቅጥቅጥ ለጥፉ።",
+      "back": "ተመለስ",
+      "embedWidget": "ዊጄት ቅጣ"
+    },
+    "addLink": {
+      "title": "ሊንክ ጨምር",
+      "description": "አዲስ ሊንክ ካርድ ወደ ዳሽቦርድዎ ለመጨመር URL ይለጥፉ።",
+      "urlLabel": "የድህረ ገጽ URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "ርዕስ (አማራጭ)",
+      "titlePlaceholder": "የእኔ ሊንክ",
+      "locationLabel": "ቦታ",
+      "locationMainDashboard": "ዋና ዳሽቦርድ",
+      "locationHeader": "ራስጌ (ፋቪኮን ብቻ)",
+      "locationFolder": "ፎልደር: {{title}}",
+      "locationGroup": "ቡድን: {{title}}",
+      "cancel": "ሰርዝ",
+      "submit": "ሊንክ ጨምር"
+    },
+    "theme": {
+      "title": "ገጽታ እና ምስል",
+      "description": "የዳሽቦርድዎን ውጫዊ ይዘት ያብጁ።",
+      "modeGroupLabel": "የገጽታ ሁነታ",
+      "light": "ብሩህ",
+      "dark": "ጨለማ",
+      "device": "መሳሪያ",
+      "primaryColorHeading": "ዋና ቀለም",
+      "primaryColorPresetsLabel": "የዋና ቀለም ቅድመ ቅናሾች",
+      "customColorLabel": "ብጁ ቀለም",
+      "customColorTitle": "ብጁ ቀለም",
+      "customHue": "ብጁ ቀለም ቃናት",
+      "backgroundHeading": "ጀርባ",
+      "backgroundTypeLabel": "የጀርባ አይነት",
+      "backgroundColorLabel": "የጀርባ ቀለም",
+      "backgroundGradientLabel": "የጀርባ ቅልጥፍ",
+      "imageUrlPlaceholder": "የምስል URL ለጥፍ...",
+      "uploadImage": "ምስል ስቀል",
+      "imageUploaded": "ብጁ ምስል ተጭኗል።",
+      "blur": "ደብዛዛ",
+      "dim": "ጨልም",
+      "fileReadError": "ፋይሉን ማንበብ አልተቻለም።",
+      "bgType": {
+        "none": "ምንም",
+        "color": "ቀለም",
+        "gradient": "ቅልጥፍ",
+        "image": "ምስል"
+      },
+      "themes": {
+        "default": "ነባሪ",
+        "grey": "ግራጫ",
+        "blue": "ሰማያዊ",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "አረንጓዴ",
+        "citron": "Citron",
+        "yellow": "ቢጫ",
+        "orange": "ብርቱካናማ",
+        "apricot": "Apricot",
+        "tomato": "ቲማቲም",
+        "rose": "ሮዝ",
+        "pink": "ሮዝ",
+        "fuchsia": "Fuchsia",
+        "violet": "ወይን ጠጅ"
+      },
+      "gradients": {
+        "dusk": "ምሽት",
+        "sunset": "ፀሐይ መጥለቅ",
+        "ocean": "ውቅያኖስ",
+        "forest": "ደን",
+        "slate": "Slate",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "ዳሽቦርድ አጽዳ",
+      "description": "ይህ ዊጄቶችን ከዳሽቦርዱ ያስወግዳል። አርትዕ ሁነታ ላይ ነዎት፣ ስለዚህ ከማስቀመጥ በፊት ሰርዝ ይጫኑ ሊሰርዙ ይችላሉ።",
+      "widgetsGroups": "ዊጄቶች እና ቡድኖች በዋና ፍርግርጉ ላይ",
+      "linksInsideGroups": "↳ ቡድኖች ውስጥ ያሉ ሊንኮች",
+      "headerBarLinks": "የራስጌ አሞሌ ሊንኮች",
+      "alsoClearHeaderLabel": "የራስጌ አሞሌ ሊንኮችንም አጽዳ",
+      "alsoClearHeaderDesc": "በነባሪ ራስጌ አሞሌ ይቆያል። ሊጠርጉት ይህን ምልክት ያድርጉ።",
+      "widgetGroups_one": "ልሰርዝ ተዘጋጅቷል <strong>{{count}}</strong> ዊጄት/ቡድን",
+      "widgetGroups_other": "ልሰርዝ ተዘጋጅቷል <strong>{{count}}</strong> ዊጄቶች/ቡድኖች",
+      "headerLinks_one": "<strong>{{count}}</strong> የራስጌ ሊንክ",
+      "headerLinks_other": "<strong>{{count}}</strong> የራስጌ ሊንኮች",
+      "andConnector": " እና ",
+      "cancelRestores": "። በአርትዕ-ሁነታ የሳሰናጅ ሰርዝ ያስመለሳቸዋል።",
+      "nothingToClear": "በአሁኑ ምርጫ ምንም ለማጽዳት የለም።",
+      "cancelButton": "ሰርዝ",
+      "clearWidgets": "ዊጄቶችን አጽዳ",
+      "clearEverything": "ሁሉንም አጽዳ"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "ይህንን ንጥል አጋራ",
+      "copyLink": "ሊንክ ቅዳ",
+      "linkCopied": "ሊንክ ተቀድቷል",
+      "shareOn": "በ {{platform}} ላይ አጋራ",
+      "shareVia": "በ {{platform}} አማካኝነት አጋራ"
+    }
+  }
+}

@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input';
 import Favicon from '../Favicon';
 import { useSearchSuggestions, type Suggestion } from '../../hooks/useSearchSuggestions';
 import type { GoogleSearchItem, WidgetItem } from '../../types';
+import { useTranslation } from 'react-i18next';
 
 const GoogleLogo = ({ className = '', mono = false }: { className?: string; mono?: boolean }) => (
   <span
@@ -117,6 +118,7 @@ const GoogleSearchWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonl
   const containerRef = useRef<HTMLDivElement | null>(null);
   const suggestionRefs = useRef<(HTMLDivElement | null)[]>([]);
   const recognizerRef = useRef<SpeechRecognitionLike | null>(null);
+  const { t } = useTranslation();
 
   // Release the speech recognizer (and the microphone it holds) if the widget
   // unmounts mid-listen — otherwise the recognizer keeps the mic active with no
@@ -260,7 +262,7 @@ const GoogleSearchWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonl
             onPointerDown={(e) => e.stopPropagation()}
             onTouchStart={(e) => e.stopPropagation()}
             onClick={(e) => { e.preventDefault(); e.stopPropagation(); onDelete(item.id); }}
-            title="Remove widget"
+            title={t('widgets.googleSearch.removeWidget')}
             className="absolute -top-2 -right-2 z-[100] h-6 w-6 rounded-full bg-background border border-border hover:bg-background hover:text-red-500 shadow-md"
           >
             <X size={12} />
@@ -272,10 +274,10 @@ const GoogleSearchWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonl
             onPointerDown={(e) => e.stopPropagation()}
             onTouchStart={(e) => e.stopPropagation()}
             onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleVariant(); }}
-            title={variant === 'logo' ? 'Switch to bar only' : 'Switch to logo + bar'}
+            title={variant === 'logo' ? t('widgets.googleSearch.switchToBarOnly') : t('widgets.googleSearch.switchToLogoBar')}
             className="absolute -top-2 -left-2 z-[100] h-6 px-2 rounded-full bg-background border border-border text-2xs font-medium text-foreground hover:border-primary hover:bg-background shadow-md"
           >
-            {variant === 'logo' ? 'Bar only' : 'Show logo'}
+            {variant === 'logo' ? t('widgets.googleSearch.barOnly') : t('widgets.googleSearch.showLogo')}
           </Button>
         </>
       )}
@@ -288,7 +290,7 @@ const GoogleSearchWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonl
             onMouseDown={(e) => e.stopPropagation()}
             onPointerDown={(e) => e.stopPropagation()}
             onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleLogoStyle(); }}
-            title="Toggle logo style"
+            title={t('widgets.googleSearch.toggleLogoStyle')}
             className="h-auto bg-transparent border-0 p-0 hover:bg-transparent hover:text-inherit dark:hover:bg-transparent dark:hover:text-inherit transition-none"
           >
             <GoogleLogo mono={logoStyle === 'mono'} className="text-[clamp(3.25rem,4.5vw,7rem)]" />
@@ -318,9 +320,9 @@ const GoogleSearchWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonl
             }}
             onFocus={() => setShowSuggestions(true)}
             onKeyDown={handleInputKeyDown}
-            placeholder="Search Google or type a URL"
+            placeholder={t('widgets.googleSearch.placeholder')}
             disabled={isEditing}
-            aria-label="Search query"
+            aria-label={t('widgets.googleSearch.searchAriaLabel')}
             className="h-auto flex-1 mx-4 bg-transparent dark:bg-transparent border-0 outline-none text-gray-800 dark:text-gray-800 placeholder:text-gray-500 dark:placeholder:text-gray-500 text-base rounded-none focus-visible:ring-0 focus-visible:ring-offset-0 px-0 disabled:opacity-100 disabled:cursor-default"
           />
           <Button
@@ -328,7 +330,7 @@ const GoogleSearchWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonl
             variant="ghost"
             size="icon"
             onClick={handleVoice}
-            title="Voice search"
+            title={t('widgets.googleSearch.voiceSearch')}
             className="h-auto p-1 flex-shrink-0 hover:bg-transparent dark:hover:bg-transparent"
             tabIndex={-1}
           >
@@ -339,7 +341,7 @@ const GoogleSearchWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonl
             variant="ghost"
             size="icon"
             onClick={() => setLensOpen(true)}
-            title="Search any image with Lens"
+            title={t('widgets.googleSearch.lensSearch')}
             className="h-auto p-1 ml-1 flex-shrink-0 hover:bg-transparent dark:hover:bg-transparent"
             tabIndex={-1}
           >

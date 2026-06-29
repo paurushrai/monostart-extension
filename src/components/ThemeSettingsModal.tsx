@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,18 +13,20 @@ import { isIdbRef } from '../lib/imageRef';
 
 const bgColors = ['#0f172a', '#111827', '#1e293b', '#18181b', '#1e3a8a', '#3730a3', '#0b3b2e', '#7f1d1d'];
 const bgGradients = [
-  { name: 'Dusk', value: 'linear-gradient(135deg,#1e3a8a,#6d28d9)' },
-  { name: 'Sunset', value: 'linear-gradient(135deg,#f97316,#db2777)' },
-  { name: 'Ocean', value: 'linear-gradient(135deg,#0ea5e9,#14b8a6)' },
-  { name: 'Forest', value: 'linear-gradient(160deg,#065f46,#022c22)' },
-  { name: 'Slate', value: 'linear-gradient(160deg,#334155,#0f172a)' },
-  { name: 'Aurora', value: 'linear-gradient(135deg,#7c3aed,#2563eb,#06b6d4)' },
+  { name: 'Dusk', nameKey: 'modals.theme.gradients.dusk', value: 'linear-gradient(135deg,#1e3a8a,#6d28d9)' },
+  { name: 'Sunset', nameKey: 'modals.theme.gradients.sunset', value: 'linear-gradient(135deg,#f97316,#db2777)' },
+  { name: 'Ocean', nameKey: 'modals.theme.gradients.ocean', value: 'linear-gradient(135deg,#0ea5e9,#14b8a6)' },
+  { name: 'Forest', nameKey: 'modals.theme.gradients.forest', value: 'linear-gradient(160deg,#065f46,#022c22)' },
+  { name: 'Slate', nameKey: 'modals.theme.gradients.slate', value: 'linear-gradient(160deg,#334155,#0f172a)' },
+  { name: 'Aurora', nameKey: 'modals.theme.gradients.aurora', value: 'linear-gradient(135deg,#7c3aed,#2563eb,#06b6d4)' },
 ];
-const bgTypes: ReadonlyArray<{ id: DashboardBackground['type']; label: string }> = [
-  { id: 'none', label: 'None' },
-  { id: 'color', label: 'Color' },
-  { id: 'gradient', label: 'Gradient' },
-  { id: 'image', label: 'Image' },
+
+// Translation keys for bg type labels — resolved in render via t()
+const BG_TYPES: ReadonlyArray<{ id: DashboardBackground['type']; labelKey: string }> = [
+  { id: 'none', labelKey: 'modals.theme.bgType.none' },
+  { id: 'color', labelKey: 'modals.theme.bgType.color' },
+  { id: 'gradient', labelKey: 'modals.theme.bgType.gradient' },
+  { id: 'image', labelKey: 'modals.theme.bgType.image' },
 ];
 
 interface Props {
@@ -36,6 +39,7 @@ interface Props {
 type ThemeMode = NonNullable<Settings['themeMode']>;
 
 export default function ThemeSettingsModal({ open, onOpenChange, settings, updateSettings }: Readonly<Props>) {
+  const { t } = useTranslation();
   const currentMode: ThemeMode = settings.themeMode || 'device';
   const currentColor = settings.themeColor || '0 0% 30%';
 
@@ -62,14 +66,14 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
   const fileRef = useRef<HTMLInputElement | null>(null);
   const [bgError, setBgError] = useState('');
 
-  const chooseType = (t: DashboardBackground['type']) => {
+  const chooseType = (bgType: DashboardBackground['type']) => {
     setBgError('');
-    if (t !== 'image' && bg.type === 'image' && isIdbRef(bg.value)) {
+    if (bgType !== 'image' && bg.type === 'image' && isIdbRef(bg.value)) {
       deleteImage(bg.value).catch(() => { /* best-effort cleanup */ });
     }
-    if (t === 'color') setBg({ type: 'color', value: bg.type === 'color' && bg.value ? bg.value : bgColors[0] });
-    else if (t === 'gradient') setBg({ type: 'gradient', value: bg.type === 'gradient' && bg.value ? bg.value : bgGradients[0]!.value });
-    else if (t === 'image') setBg({ type: 'image', value: bg.type === 'image' ? bg.value : '' });
+    if (bgType === 'color') setBg({ type: 'color', value: bg.type === 'color' && bg.value ? bg.value : bgColors[0] });
+    else if (bgType === 'gradient') setBg({ type: 'gradient', value: bg.type === 'gradient' && bg.value ? bg.value : bgGradients[0]!.value });
+    else if (bgType === 'image') setBg({ type: 'image', value: bg.type === 'image' ? bg.value : '' });
     else setBg({ type: 'none' });
   };
 
@@ -85,7 +89,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
       }
       setBg({ type: 'image', value });
     } catch (err) {
-      setBgError(err instanceof Error ? err.message : 'Failed to read file.');
+      setBgError(err instanceof Error ? err.message : t('modals.theme.fileReadError'));
     }
   };
 
@@ -96,14 +100,14 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
         onOpenAutoFocus={(e) => e.preventDefault()}
       >
         <DialogHeader>
-          <DialogTitle>Theme & Appearance</DialogTitle>
+          <DialogTitle>{t('modals.theme.title')}</DialogTitle>
           <DialogDescription className="text-muted-foreground">
-            Customize the look and feel of your dashboard.
+            {t('modals.theme.description')}
           </DialogDescription>
         </DialogHeader>
 
         <div className="py-4 flex flex-col gap-6">
-          <div role="radiogroup" aria-label="Theme mode" className="flex bg-muted p-1 rounded-lg border border-border">
+          <div role="radiogroup" aria-label={t('modals.theme.modeGroupLabel')} className="flex bg-muted p-1 rounded-lg border border-border">
             <Button
               type="button"
               variant="ghost"
@@ -114,7 +118,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                 currentMode === 'light' ? 'bg-card shadow-sm text-foreground hover:bg-card' : 'text-muted-foreground hover:text-foreground'
               }`}
             >
-              <Sun size={16} className="mr-2" aria-hidden="true" /> Light
+              <Sun size={16} className="mr-2" aria-hidden="true" /> {t('modals.theme.light')}
             </Button>
             <Button
               type="button"
@@ -126,7 +130,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                 currentMode === 'dark' ? 'bg-card shadow-sm text-foreground hover:bg-card' : 'text-muted-foreground hover:text-foreground'
               }`}
             >
-              <Moon size={16} className="mr-2" aria-hidden="true" /> Dark
+              <Moon size={16} className="mr-2" aria-hidden="true" /> {t('modals.theme.dark')}
             </Button>
             <Button
               type="button"
@@ -138,13 +142,13 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                 currentMode === 'device' ? 'bg-card shadow-sm text-foreground hover:bg-card' : 'text-muted-foreground hover:text-foreground'
               }`}
             >
-              <Monitor size={16} className="mr-2" aria-hidden="true" /> Device
+              <Monitor size={16} className="mr-2" aria-hidden="true" /> {t('modals.theme.device')}
             </Button>
           </div>
 
           <section aria-labelledby="primary-color-heading" className="space-y-3">
-            <h4 id="primary-color-heading" className="text-sm font-medium text-foreground">Primary Color</h4>
-            <div role="radiogroup" aria-label="Primary color presets" className="grid grid-cols-4 gap-3 justify-items-center">
+            <h4 id="primary-color-heading" className="text-sm font-medium text-foreground">{t('modals.theme.primaryColorHeading')}</h4>
+            <div role="radiogroup" aria-label={t('modals.theme.primaryColorPresetsLabel')} className="grid grid-cols-4 gap-3 justify-items-center">
               {CHROME_THEMES.map((theme) => (
                 <ThemeSwatch
                   key={theme.name}
@@ -157,8 +161,8 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                 type="button"
                 role="radio"
                 aria-checked={isCustomColor}
-                aria-label="Custom color"
-                title="Custom color"
+                aria-label={t('modals.theme.customColorLabel')}
+                title={t('modals.theme.customColorTitle')}
                 onClick={() => setShowCustomHue(true)}
                 className={`w-10 h-10 p-0 rounded-full transition-transform hover:scale-110 ${
                   isCustomColor
@@ -168,13 +172,13 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                 style={{ background: 'conic-gradient(from 90deg, #ff0000, #ffea00, #00ff2f, #00e5ff, #2f00ff, #ff00d4, #ff0000)' }}
               />
             </div>
-            
+
             {(isCustomColor || showCustomHue) && (
             <div className="pt-2">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-sm font-medium text-foreground">Custom Hue</span>
-                <div 
-                  className="w-5 h-5 rounded-full border border-border shadow-sm" 
+                <span className="text-sm font-medium text-foreground">{t('modals.theme.customHue')}</span>
+                <div
+                  className="w-5 h-5 rounded-full border border-border shadow-sm"
                   style={{ backgroundColor: `hsl(${currentColor})` }}
                 />
               </div>
@@ -217,28 +221,28 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
           </section>
 
           <section aria-labelledby="background-heading" className="space-y-3">
-            <h4 id="background-heading" className="text-sm font-medium text-foreground">Background</h4>
+            <h4 id="background-heading" className="text-sm font-medium text-foreground">{t('modals.theme.backgroundHeading')}</h4>
 
-            <div role="radiogroup" aria-label="Background type" className="flex bg-muted p-1 rounded-lg border border-border">
-              {bgTypes.map((t) => (
+            <div role="radiogroup" aria-label={t('modals.theme.backgroundTypeLabel')} className="flex bg-muted p-1 rounded-lg border border-border">
+              {BG_TYPES.map((bgT) => (
                 <Button
-                  key={t.id}
+                  key={bgT.id}
                   type="button"
                   variant="ghost"
                   role="radio"
-                  aria-checked={bg.type === t.id}
-                  onClick={() => chooseType(t.id)}
+                  aria-checked={bg.type === bgT.id}
+                  onClick={() => chooseType(bgT.id)}
                   className={`flex-1 h-auto py-1.5 rounded-md text-xs font-medium transition-all ${
-                    bg.type === t.id ? 'bg-card shadow-sm text-foreground hover:bg-card' : 'text-muted-foreground hover:text-foreground'
+                    bg.type === bgT.id ? 'bg-card shadow-sm text-foreground hover:bg-card' : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
-                  {t.label}
+                  {t(bgT.labelKey)}
                 </Button>
               ))}
             </div>
 
             {bg.type === 'color' && (
-              <div role="radiogroup" aria-label="Background color" className="grid grid-cols-8 gap-2">
+              <div role="radiogroup" aria-label={t('modals.theme.backgroundColorLabel')} className="grid grid-cols-8 gap-2">
                 {bgColors.map((c) => (
                   <button
                     key={c}
@@ -257,7 +261,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
             )}
 
             {bg.type === 'gradient' && (
-              <div role="radiogroup" aria-label="Background gradient" className="grid grid-cols-3 gap-2">
+              <div role="radiogroup" aria-label={t('modals.theme.backgroundGradientLabel')} className="grid grid-cols-3 gap-2">
                 {bgGradients.map((g) => (
                   <button
                     key={g.name}
@@ -269,7 +273,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                       bg.value === g.value ? 'ring-2 ring-offset-2 ring-offset-background ring-foreground' : 'ring-1 ring-border'
                     }`}
                     style={{ backgroundImage: g.value }}
-                    title={g.name}
+                    title={t(g.nameKey)}
                   />
                 ))}
               </div>
@@ -279,7 +283,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
               <div className="space-y-2">
                 <Input
                   type="text"
-                  placeholder="Paste image URL..."
+                  placeholder={t('modals.theme.imageUrlPlaceholder')}
                   value={bg.value && !bg.value.startsWith('data:') && !isIdbRef(bg.value) ? bg.value : ''}
                   onChange={(e) => setBg({ value: e.target.value })}
                 />
@@ -290,10 +294,10 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                   onClick={() => fileRef.current?.click()}
                   className="w-full h-8 gap-1.5 border-dashed"
                 >
-                  <Upload size={12} /> Upload Image
+                  <Upload size={12} /> {t('modals.theme.uploadImage')}
                 </Button>
                 {(bg.value?.startsWith('data:') || isIdbRef(bg.value)) && (
-                  <p className="text-2xs text-muted-foreground text-center">Custom image uploaded.</p>
+                  <p className="text-2xs text-muted-foreground text-center">{t('modals.theme.imageUploaded')}</p>
                 )}
                 {bgError && <p className="text-2xs text-red-500 text-center">{bgError}</p>}
               </div>
@@ -303,7 +307,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
               <div className="space-y-3 pt-1">
                 <div>
                   <div className="flex items-center justify-between mb-1">
-                    <span className="text-xs font-medium text-foreground">Blur</span>
+                    <span className="text-xs font-medium text-foreground">{t('modals.theme.blur')}</span>
                     <span className="text-2xs text-muted-foreground">{bg.blur ?? 0}px</span>
                   </div>
                   <input
@@ -317,7 +321,7 @@ export default function ThemeSettingsModal({ open, onOpenChange, settings, updat
                 </div>
                 <div>
                   <div className="flex items-center justify-between mb-1">
-                    <span className="text-xs font-medium text-foreground">Dim</span>
+                    <span className="text-xs font-medium text-foreground">{t('modals.theme.dim')}</span>
                     <span className="text-2xs text-muted-foreground">{Math.round((bg.dim ?? 0) * 100)}%</span>
                   </div>
                   <input

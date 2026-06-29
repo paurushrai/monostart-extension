@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Ta bort",
+    "cancel": "Avbryt",
+    "save": "Spara",
+    "copy": "Kopiera",
+    "copied": "Kopierad"
+  },
+  "header": {
+    "menu": {
+      "language": "Språk",
+      "addLink": "Lägg till länk",
+      "addWidget": "Lägg till widget",
+      "editDashboard": "Redigera instrumentpanel",
+      "theme": "Tema och utseende",
+      "share": "Dela MonoStart",
+      "openInNewTab": "Öppna länkar i ny flik"
+    },
+    "settings": "Inställningar",
+    "clear": "Rensa",
+    "clearDashboard": "Rensa instrumentpanel",
+    "cancel": "Avbryt",
+    "save": "Spara"
+  },
+  "widgets": {
+    "deleteWidget": "Ta bort widget",
+    "placeholder": {
+      "place": "Placera",
+      "dropToPlace": "Släpp för att placera"
+    },
+    "todo": {
+      "defaultTitle": "Uppgifter",
+      "empty": "Inga uppgifter ännu.",
+      "deleteTask": "Ta bort uppgift",
+      "placeholder": "Lägg till en uppgift...",
+      "newTaskAriaLabel": "Ny uppgift",
+      "addTask": "Lägg till uppgift",
+      "toggleAriaLabel": "Markera \"{{text}}\" som {{status}}",
+      "statusComplete": "klar",
+      "statusIncomplete": "ofullständig"
+    },
+    "timer": {
+      "defaultTitle": "Timers",
+      "empty": "Inga timers inställda.",
+      "deleteTimer": "Ta bort timer",
+      "pause": "Pausa",
+      "start": "Starta",
+      "reset": "Återställ",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Timerns varaktighet i minuter",
+      "placeholderLabel": "Etikett (valfritt)",
+      "labelAriaLabel": "Timeretikett (valfritt)",
+      "addTimer": "Lägg till timer"
+    },
+    "reminders": {
+      "defaultTitle": "Påminnelser",
+      "empty": "Inga påminnelser ännu.",
+      "deleteReminder": "Ta bort påminnelse",
+      "placeholder": "Påminn mig om att...",
+      "textAriaLabel": "Påminnelsetext",
+      "recurrenceTitle": "Upprepning",
+      "addReminder": "Lägg till påminnelse",
+      "customIntervalAriaLabel": "Anpassat intervallvärde",
+      "customUnitAriaLabel": "Anpassad intervallenhet",
+      "unitMinutes": "Minuter",
+      "unitHours": "Timmar",
+      "unitDays": "Dagar",
+      "saveRecurrence": "Spara",
+      "toggleAriaLabel": "Markera \"{{text}}\" som {{status}}",
+      "statusComplete": "klar",
+      "statusIncomplete": "ofullständig",
+      "recurrenceNone": "En gång",
+      "recurrence30min": "Var 30:e minut",
+      "recurrenceHourly": "Varje timme",
+      "recurrenceDaily": "Dagligen",
+      "recurrenceWeekly": "Varje vecka",
+      "recurrenceCustom": "Anpassad",
+      "everyDay": "Var {{count}}d",
+      "everyHour": "Var {{count}}h",
+      "everyMin": "Var {{count}}m",
+      "every": "Var",
+      "today": "Idag {{time}}",
+      "tomorrow": "Imorgon {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Anteckning",
+      "changeColor": "Byt färg",
+      "placeholder": "Skriv något...",
+      "contentAriaLabel": "Anteckningsinnehåll",
+      "titleAriaLabel": "Anteckningstitel",
+      "actionsAriaLabel": "Anteckningsåtgärder",
+      "color_default": "Standard",
+      "color_amber": "Gul",
+      "color_sky": "Blå",
+      "color_rose": "Rosa",
+      "color_emerald": "Grön",
+      "color_purple": "Lila"
+    },
+    "image": {
+      "defaultTitle": "Bild",
+      "settings": "Bildinställningar",
+      "actionsAriaLabel": "Bildåtgärder",
+      "titleAriaLabel": "Bildtitel",
+      "changeImage": "Byt bild",
+      "fitCover": "Täck (Beskär)",
+      "fitContain": "Innehåll (Bildformat)",
+      "fitFill": "Fyll (Sträck)",
+      "configureTitle": "Konfigurera widgetbild",
+      "urlPlaceholder": "Klistra in bild-URL...",
+      "or": "Eller",
+      "uploadLocal": "Ladda upp lokal bild",
+      "cancelConfig": "Avbryt konfiguration",
+      "loadError": "Bilden kunde inte laddas. URL:en kan vara trasig eller blockerad."
+    },
+    "label": {
+      "defaultText": "Text",
+      "settings": "Textinställningar",
+      "actionsAriaLabel": "Etikettåtgärder",
+      "textAriaLabel": "Etiketttext",
+      "editText": "Redigera text",
+      "showCardStyle": "Visa kortstil",
+      "fontSize": "Teckenstorlek",
+      "alignment": "Justering",
+      "fontWeight": "Teckensnittsvikt",
+      "opacity": "Opacitet",
+      "deleteText": "Ta bort text",
+      "alignLeft": "Vänster",
+      "alignCenter": "Centrera",
+      "alignRight": "Höger",
+      "fontSizes": {
+        "sm": "Liten",
+        "base": "Medel",
+        "lg": "Stor",
+        "xl": "Extra stor",
+        "xl2": "2X stor",
+        "xl3": "3X stor",
+        "xl4": "4X stor",
+        "xl5": "5X stor",
+        "xl6": "6X stor",
+        "xl7": "7X stor",
+        "xl8": "8X stor",
+        "xl9": "9X stor",
+        "xl10": "10X stor",
+        "xl12": "12X stor"
+      },
+      "fontWeights": {
+        "thin": "Tunn",
+        "light": "Lätt",
+        "regular": "Normal",
+        "medium": "Medel",
+        "semibold": "Halvfet",
+        "bold": "Fet",
+        "extrabold": "Extra fet",
+        "black": "Svart"
+      },
+      "opacities": {
+        "full": "100% (Ljus)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Dämpad)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Sök på Google eller skriv en URL",
+      "searchAriaLabel": "Sökfråga",
+      "voiceSearch": "Röstsökning",
+      "lensSearch": "Sök efter valfri bild med Lens",
+      "removeWidget": "Ta bort widget",
+      "switchToBarOnly": "Byt till enbart fält",
+      "switchToLogoBar": "Byt till logotyp + fält",
+      "barOnly": "Enbart fält",
+      "showLogo": "Visa logotyp",
+      "toggleLogoStyle": "Växla logotypstil"
+    },
+    "group": {
+      "borderColorAriaLabel": "Gruppramfärg",
+      "pasteUrlPlaceholder": "Klistra in URL...",
+      "colors": {
+        "red": "Röd",
+        "pink": "Rosa",
+        "purple": "Lila",
+        "indigo": "Indigo",
+        "blue": "Blå",
+        "cyan": "Cyan",
+        "teal": "Blågrönt",
+        "green": "Grön",
+        "yellow": "Gul",
+        "orange": "Orange",
+        "slate": "Skiffer",
+        "neutral": "Neutral"
+      },
+      "defaultTitle": "Ny grupp"
+    },
+    "groupHeader": {
+      "addLink": "Lägg till länk",
+      "colorBorder": "Färgram",
+      "layout": "Layout",
+      "layoutGrid": "Rutnät",
+      "layoutList": "Lista",
+      "gridColumns": "Rutnätskolumner",
+      "column_one": "{{count}} kolumn",
+      "column_other": "{{count}} kolumner",
+      "deleteGroup": "Ta bort grupp",
+      "actionsAriaLabel": "Gruppåtgärder"
+    },
+    "groupInnerGrid": {
+      "empty": "Tom grupp",
+      "addFirstLink": "Lägg till första länken",
+      "dropToAdd": "Släpp för att lägga till",
+      "add": "Lägg till"
+    },
+    "iframe": {
+      "removeWidget": "Ta bort widget",
+      "openInNewTab": "Öppna i ny flik",
+      "defaultTitle": "Inbäddad sida"
+    },
+    "linkCard": {
+      "options": "Alternativ",
+      "rename": "Byt namn",
+      "size": "Storlek",
+      "sizeSmall": "Liten (1×1)",
+      "sizeMedium": "Medel (3×1)",
+      "moveTo": "Flytta till...",
+      "mainDashboard": "Huvudinstrumentpanel",
+      "header": "Rubrik",
+      "deleteLink": "Ta bort länk",
+      "actionsAriaLabel": "Länkåtgärder"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Sök på Google eller ange en URL."
+      },
+      "group": {
+        "name": "Grupp",
+        "description": "En anpassningsfärgad grupp för att organisera dina länkar."
+      },
+      "reminders": {
+        "name": "Påminnelser",
+        "description": "Schemalägg påminnelser med webbläsarnotifieringar. Stöd för varje timme / dag / vecka."
+      },
+      "todo": {
+        "name": "Att-göra-lista",
+        "description": "Håll koll på dina uppgifter."
+      },
+      "timer": {
+        "name": "Timers",
+        "description": "Hantera flera timers."
+      },
+      "note": {
+        "name": "Klisterlappar",
+        "description": "Skriv anteckningar eller påminnelser med anpassade färger."
+      },
+      "image": {
+        "name": "Bild",
+        "description": "Lägg till en bild från en URL eller ladda upp en lokal fil."
+      },
+      "label": {
+        "name": "Textetikett",
+        "description": "Lägg till en ren flytande textrubrik för att styla ditt rutnät."
+      },
+      "iframe": {
+        "name": "Inbäddad sida",
+        "description": "Bädda in valfri webbplats som en live-widget."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Tog bort {{count}} tom fotowidget.",
+    "removedEmptyPhotos_other": "Tog bort {{count}} tomma fotowidgetar.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgetar",
+    "clearedHeaderLinks_one": "{{count}} rubriklänk",
+    "clearedHeaderLinks_other": "{{count}} rubriklänkar",
+    "clearedSummary": "Rensade {{items}}. Avbryt för att ångra, eller spara för att bekräfta.",
+    "onlyOneGoogleSearch": "Endast en Google-sökwidget är tillåten.",
+    "noRoomForWidget": "Inget utrymme för den här widgeten. Ändra storlek eller ta bort något för att skapa plats.",
+    "swap": {
+      "no-room": "Kan inte byta — inte tillräckligt med utrymme för båda widgetarna på deras nya positioner.",
+      "out-of-bounds": "Kan inte byta — en av widgetarna skulle sträcka sig förbi rutnätskanten vid minsta storlek.",
+      "overlap": "Kan inte byta — de två widgetarnas minimistorlekar överlappar varandra.",
+      "obstacle": "Kan inte byta — en annan widget är i vägen. Flytta eller ändra storlek på den först."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Spara till MonoStart",
+    "saveLink": "Spara länk",
+    "saved": "Sparad!",
+    "openDashboard": "Öppna instrumentpanel",
+    "destination": {
+      "label": "Destination",
+      "main": "Huvudinstrumentpanel",
+      "header": "Rubrikfält"
+    },
+    "reminders": {
+      "ariaLabel": "Väntande påminnelser",
+      "count_one": "{{count}} påminnelse",
+      "count_other": "{{count}} påminnelser",
+      "clearAll": "Rensa alla",
+      "dismiss": "Avfärda"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Dölj Chrome-sidfotguide",
+      "success": "Sidfoten är dold — njut av helskärm!",
+      "corner": {
+        "title": "Få helskärmsupplevelsen",
+        "intro": "Chrome lägger till en sidfot under MonoStart. För att dölja den, klicka på",
+        "cta": "Anpassa Chrome",
+        "ctaSuffix": "i det nedre högra hörnet.",
+        "noFooter": "Ser du ingen sidfot? Du är klar — hoppa över detta."
+      },
+      "panel": {
+        "title": "Nästan klart",
+        "intro": "Under",
+        "setting": "Sidfot",
+        "turnOff": ", stäng av",
+        "action": "Visa sidfot på sidan Ny flik",
+        "suffix": ", stäng sedan panelen."
+      },
+      "skip": "Hoppa över",
+      "next": "Nästa",
+      "done": "Klar"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Språk",
+      "subtitle": "Välj ditt språk",
+      "search": "Sök språk…",
+      "empty": "Inga språk matchar din sökning."
+    },
+    "addWidget": {
+      "title": "Lägg till widget",
+      "titleConfigure": "Konfigurera {{name}}",
+      "titleGoogleStyle": "Välj Google Sök-stil",
+      "logoBarTitle": "Logotyp + fält",
+      "logoBarDesc": "Stor Google-logotyp ovanför sökfältet. Tar 4 rader.",
+      "barOnlyTitle": "Enbart fält",
+      "barOnlyDesc": "Bara sökfältet. Tar 1 rad. Kompakt.",
+      "urlLabel": "URL eller inbäddningskod",
+      "urlPlaceholder": "https://example.com\neller\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Klistra in en URL för enkla inbäddningar, eller klistra in ett <code>&lt;iframe&gt;</code>-kodavsnitt från webbplatser som blockerar direkt inläsning (YouTube, Figma, Spotify, CodePen, etc.).",
+      "back": "Tillbaka",
+      "embedWidget": "Bädda in widget"
+    },
+    "addLink": {
+      "title": "Lägg till länk",
+      "description": "Klistra in en URL för att lägga till ett nytt länkkort på din instrumentpanel.",
+      "urlLabel": "Webbplats-URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Titel (valfritt)",
+      "titlePlaceholder": "Min länk",
+      "locationLabel": "Plats",
+      "locationMainDashboard": "Huvudinstrumentpanel",
+      "locationHeader": "Rubrik (endast favikon)",
+      "locationFolder": "Mapp: {{title}}",
+      "locationGroup": "Grupp: {{title}}",
+      "cancel": "Avbryt",
+      "submit": "Lägg till länk"
+    },
+    "theme": {
+      "title": "Tema och utseende",
+      "description": "Anpassa utseendet på din instrumentpanel.",
+      "modeGroupLabel": "Temaläge",
+      "light": "Ljust",
+      "dark": "Mörkt",
+      "device": "Enhet",
+      "primaryColorHeading": "Primärfärg",
+      "primaryColorPresetsLabel": "Förinställningar för primärfärg",
+      "customColorLabel": "Anpassad färg",
+      "customColorTitle": "Anpassad färg",
+      "customHue": "Anpassad nyans",
+      "backgroundHeading": "Bakgrund",
+      "backgroundTypeLabel": "Bakgrundstyp",
+      "backgroundColorLabel": "Bakgrundsfärg",
+      "backgroundGradientLabel": "Bakgrundsövertoning",
+      "imageUrlPlaceholder": "Klistra in bild-URL...",
+      "uploadImage": "Ladda upp bild",
+      "imageUploaded": "Anpassad bild uppladdad.",
+      "blur": "Oskärpa",
+      "dim": "Dämpa",
+      "fileReadError": "Det gick inte att läsa filen.",
+      "bgType": {
+        "none": "Ingen",
+        "color": "Färg",
+        "gradient": "Övertoning",
+        "image": "Bild"
+      },
+      "themes": {
+        "default": "Standard",
+        "grey": "Grå",
+        "blue": "Blå",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Grön",
+        "citron": "Citron",
+        "yellow": "Gul",
+        "orange": "Orange",
+        "apricot": "Aprikos",
+        "tomato": "Tomat",
+        "rose": "Ros",
+        "pink": "Rosa",
+        "fuchsia": "Fuchsia",
+        "violet": "Violett"
+      },
+      "gradients": {
+        "dusk": "Skymning",
+        "sunset": "Solnedgång",
+        "ocean": "Hav",
+        "forest": "Skog",
+        "slate": "Skiffer",
+        "aurora": "Norrsken"
+      }
+    },
+    "clear": {
+      "title": "Rensa instrumentpanel",
+      "description": "Detta tar bort widgets från instrumentpanelen. Du är i redigeringsläge, så du kan fortfarande trycka på Avbryt för att ångra innan du sparar.",
+      "widgetsGroups": "Widgets och grupper på huvudrutnätet",
+      "linksInsideGroups": "↳ länkar inuti grupper",
+      "headerBarLinks": "Rubrikfältslänkar",
+      "alsoClearHeaderLabel": "Rensa även rubrikfältslänkarna",
+      "alsoClearHeaderDesc": "Som standard bevaras rubrikfältet. Markera detta för att rensa det också.",
+      "widgetGroups_one": "Håller på att ta bort <strong>{{count}}</strong> widget/grupp",
+      "widgetGroups_other": "Håller på att ta bort <strong>{{count}}</strong> widgets/grupper",
+      "headerLinks_one": "<strong>{{count}}</strong> rubriklänk",
+      "headerLinks_other": "<strong>{{count}}</strong> rubriklänkar",
+      "andConnector": " och ",
+      "cancelRestores": ". Avbryt i redigeringslägesverktygsfältet återställer dem.",
+      "nothingToClear": "Inget att rensa med det aktuella valet.",
+      "cancelButton": "Avbryt",
+      "clearWidgets": "Rensa widgets",
+      "clearEverything": "Rensa allt"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Dela det här objektet",
+      "copyLink": "Kopiera länk",
+      "linkCopied": "Länk kopierad",
+      "shareOn": "Dela på {{platform}}",
+      "shareVia": "Dela via {{platform}}"
+    }
+  }
+}

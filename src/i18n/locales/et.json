@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Kustuta",
+    "cancel": "Tühista",
+    "save": "Salvesta",
+    "copy": "Kopeeri",
+    "copied": "Kopeeritud"
+  },
+  "header": {
+    "menu": {
+      "language": "Keel",
+      "addLink": "Lisa link",
+      "addWidget": "Lisa vidin",
+      "editDashboard": "Muuda juhtpaneeli",
+      "theme": "Teema ja välimus",
+      "share": "Jaga MonoStart",
+      "openInNewTab": "Ava lingid uues vahekaardis"
+    },
+    "settings": "Seaded",
+    "clear": "Tühjenda",
+    "clearDashboard": "Tühjenda juhtpaneel",
+    "cancel": "Tühista",
+    "save": "Salvesta"
+  },
+  "widgets": {
+    "deleteWidget": "Kustuta vidin",
+    "placeholder": {
+      "place": "Aseta",
+      "dropToPlace": "Lohista asetamiseks"
+    },
+    "todo": {
+      "defaultTitle": "Ülesanded",
+      "empty": "Ühtegi ülesannet pole.",
+      "deleteTask": "Kustuta ülesanne",
+      "placeholder": "Lisa ülesanne...",
+      "newTaskAriaLabel": "Uus ülesanne",
+      "addTask": "Lisa ülesanne",
+      "toggleAriaLabel": "Märgi \"{{text}}\" olekuks {{status}}",
+      "statusComplete": "lõpetatud",
+      "statusIncomplete": "lõpetamata"
+    },
+    "timer": {
+      "defaultTitle": "Taimerid",
+      "empty": "Ühtegi taimerit pole seatud.",
+      "deleteTimer": "Kustuta taimer",
+      "pause": "Peata",
+      "start": "Alusta",
+      "reset": "Lähtesta",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Taimeri kestus minutites",
+      "placeholderLabel": "Silt (valikuline)",
+      "labelAriaLabel": "Taimeri silt (valikuline)",
+      "addTimer": "Lisa taimer"
+    },
+    "reminders": {
+      "defaultTitle": "Meeldetuletused",
+      "empty": "Ühtegi meeldetuletust pole.",
+      "deleteReminder": "Kustuta meeldetuletus",
+      "placeholder": "Tuleta meelde...",
+      "textAriaLabel": "Meeldetuletuse tekst",
+      "recurrenceTitle": "Korduvus",
+      "addReminder": "Lisa meeldetuletus",
+      "customIntervalAriaLabel": "Kohandatud intervalli väärtus",
+      "customUnitAriaLabel": "Kohandatud intervalli ühik",
+      "unitMinutes": "Minutid",
+      "unitHours": "Tunnid",
+      "unitDays": "Päevad",
+      "saveRecurrence": "Salvesta",
+      "toggleAriaLabel": "Märgi \"{{text}}\" olekuks {{status}}",
+      "statusComplete": "lõpetatud",
+      "statusIncomplete": "lõpetamata",
+      "recurrenceNone": "Üks kord",
+      "recurrence30min": "Iga 30 min",
+      "recurrenceHourly": "Iga tund",
+      "recurrenceDaily": "Iga päev",
+      "recurrenceWeekly": "Iga nädal",
+      "recurrenceCustom": "Kohandatud",
+      "everyDay": "Iga {{count}}p",
+      "everyHour": "Iga {{count}}t",
+      "everyMin": "Iga {{count}}m",
+      "every": "Iga",
+      "today": "Täna {{time}}",
+      "tomorrow": "Homme {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Märkus",
+      "changeColor": "Muuda värvi",
+      "placeholder": "Kirjuta midagi...",
+      "contentAriaLabel": "Märkuse sisu",
+      "titleAriaLabel": "Märkuse pealkiri",
+      "actionsAriaLabel": "Märkuse toimingud",
+      "color_default": "Vaikimisi",
+      "color_amber": "Kollane",
+      "color_sky": "Sinine",
+      "color_rose": "Roosa",
+      "color_emerald": "Roheline",
+      "color_purple": "Lilla"
+    },
+    "image": {
+      "defaultTitle": "Pilt",
+      "settings": "Pildi seaded",
+      "actionsAriaLabel": "Pildi toimingud",
+      "titleAriaLabel": "Pildi pealkiri",
+      "changeImage": "Muuda pilti",
+      "fitCover": "Kata (kärbi)",
+      "fitContain": "Mahuta (proportsioon)",
+      "fitFill": "Täida (venita)",
+      "configureTitle": "Seadista vidina pilt",
+      "urlPlaceholder": "Kleebi pildi URL...",
+      "or": "Või",
+      "uploadLocal": "Laadi üles kohalik pilt",
+      "cancelConfig": "Tühista seadistamine",
+      "loadError": "Pilti ei õnnestunud laadida. URL võib olla katki või blokeeritud."
+    },
+    "label": {
+      "defaultText": "Tekst",
+      "settings": "Teksti seaded",
+      "actionsAriaLabel": "Sildi toimingud",
+      "textAriaLabel": "Sildi tekst",
+      "editText": "Muuda teksti",
+      "showCardStyle": "Näita kaardi stiili",
+      "fontSize": "Fondi suurus",
+      "alignment": "Joondus",
+      "fontWeight": "Fondi paksus",
+      "opacity": "Läbipaistvus",
+      "deleteText": "Kustuta tekst",
+      "alignLeft": "Vasak",
+      "alignCenter": "Kesk",
+      "alignRight": "Parem",
+      "fontSizes": {
+        "sm": "Väike",
+        "base": "Keskmine",
+        "lg": "Suur",
+        "xl": "Ekstra suur",
+        "xl2": "2X suur",
+        "xl3": "3X suur",
+        "xl4": "4X suur",
+        "xl5": "5X suur",
+        "xl6": "6X suur",
+        "xl7": "7X suur",
+        "xl8": "8X suur",
+        "xl9": "9X suur",
+        "xl10": "10X suur",
+        "xl12": "12X suur"
+      },
+      "fontWeights": {
+        "thin": "Õhuke",
+        "light": "Kerge",
+        "regular": "Tavaline",
+        "medium": "Keskmine",
+        "semibold": "Poolpaks",
+        "bold": "Paks",
+        "extrabold": "Ekstra paks",
+        "black": "Must"
+      },
+      "opacities": {
+        "full": "100% (ere)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (summutatud)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Otsi Google'ist või sisesta URL",
+      "searchAriaLabel": "Otsingupäring",
+      "voiceSearch": "Häälots",
+      "lensSearch": "Otsi mis tahes pilti Lensiga",
+      "removeWidget": "Eemalda vidin",
+      "switchToBarOnly": "Lülitu ainult ribale",
+      "switchToLogoBar": "Lülitu logo + ribale",
+      "barOnly": "Ainult riba",
+      "showLogo": "Näita logo",
+      "toggleLogoStyle": "Vaheta logo stiili"
+    },
+    "group": {
+      "borderColorAriaLabel": "Grupi äärise värv",
+      "pasteUrlPlaceholder": "Kleebi URL...",
+      "colors": {
+        "red": "Punane",
+        "pink": "Roosa",
+        "purple": "Lilla",
+        "indigo": "Indigosinine",
+        "blue": "Sinine",
+        "cyan": "Tsüaan",
+        "teal": "Sinakasroheline",
+        "green": "Roheline",
+        "yellow": "Kollane",
+        "orange": "Oranž",
+        "slate": "Kiltkivi",
+        "neutral": "Neutraalne"
+      },
+      "defaultTitle": "Uus grupp"
+    },
+    "groupHeader": {
+      "addLink": "Lisa link",
+      "colorBorder": "Äärise värv",
+      "layout": "Paigutus",
+      "layoutGrid": "Ruudustik",
+      "layoutList": "Loend",
+      "gridColumns": "Ruudustiku veerud",
+      "column_one": "{{count}} veerg",
+      "column_other": "{{count}} veergu",
+      "deleteGroup": "Kustuta grupp",
+      "actionsAriaLabel": "Grupi toimingud"
+    },
+    "groupInnerGrid": {
+      "empty": "Tühi grupp",
+      "addFirstLink": "Lisa esimene link",
+      "dropToAdd": "Lohista lisamiseks",
+      "add": "Lisa"
+    },
+    "iframe": {
+      "removeWidget": "Eemalda vidin",
+      "openInNewTab": "Ava uues vahekaardis",
+      "defaultTitle": "Manustatud leht"
+    },
+    "linkCard": {
+      "options": "Valikud",
+      "rename": "Nimeta ümber",
+      "size": "Suurus",
+      "sizeSmall": "Väike (1×1)",
+      "sizeMedium": "Keskmine (3×1)",
+      "moveTo": "Liiguta...",
+      "mainDashboard": "Peamine juhtpaneel",
+      "header": "Päis",
+      "deleteLink": "Kustuta link",
+      "actionsAriaLabel": "Lingi toimingud"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Google Search",
+        "description": "Otsi Google'ist või sisesta URL."
+      },
+      "group": {
+        "name": "Grupp",
+        "description": "Kohandatud värviga grupp linkide korraldamiseks."
+      },
+      "reminders": {
+        "name": "Meeldetuletused",
+        "description": "Planeeri meeldetuletused brauseri teavitustega. Toetatud tunnipõhine / igapäevane / iganädalane korduvus."
+      },
+      "todo": {
+        "name": "Ülesannete nimekiri",
+        "description": "Jälgi oma ülesandeid."
+      },
+      "timer": {
+        "name": "Taimerid",
+        "description": "Halda mitut taimerit."
+      },
+      "note": {
+        "name": "Kleepuv märkus",
+        "description": "Kirjuta märkmeid või meeldetuletusi kohandatud värvidega."
+      },
+      "image": {
+        "name": "Pilt",
+        "description": "Lisa pilt URL-ilt või laadi üles kohalik fail."
+      },
+      "label": {
+        "name": "Tekstisilt",
+        "description": "Lisa puhas hõljuv tekstipäis või pealkiri, et kujundada oma ruudustikku."
+      },
+      "iframe": {
+        "name": "Manustatud leht",
+        "description": "Manusta iga veebisait reaalajas vidinana."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "Eemaldati {{count}} tühi fotovidin.",
+    "removedEmptyPhotos_other": "Eemaldati {{count}} tühja fotovidinat.",
+    "clearedWidgets_one": "{{count}} vidin",
+    "clearedWidgets_other": "{{count}} vidinat",
+    "clearedHeaderLinks_one": "{{count}} päise link",
+    "clearedHeaderLinks_other": "{{count}} päise linki",
+    "clearedSummary": "Kustutati {{items}}. Tühistamiseks vajuta Tühista või kinnitamiseks Salvesta.",
+    "onlyOneGoogleSearch": "Lubatud on ainult üks Google otsingu vidin.",
+    "noRoomForWidget": "Vidinale pole ruumi. Muuda suurust või eemalda midagi, et ruumi teha.",
+    "swap": {
+      "no-room": "Vahetamine pole võimalik — mõlemal vidinat pole piisavalt ruumi uutes positsioonides.",
+      "out-of-bounds": "Vahetamine pole võimalik — üks vidinatest ulatuks miinimumsurusega ruudustikust välja.",
+      "overlap": "Vahetamine pole võimalik — vidinate miinimumsuurused kattuvad üksteisega.",
+      "obstacle": "Vahetamine pole võimalik — tee on blokeeritud teise vidina poolt. Liiguta või muuda selle suurust."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Salvesta MonoStart'i",
+    "saveLink": "Salvesta link",
+    "saved": "Salvestatud!",
+    "openDashboard": "Ava juhtpaneel",
+    "destination": {
+      "label": "Sihtkoht",
+      "main": "Peamine juhtpaneel",
+      "header": "Päiseriba"
+    },
+    "reminders": {
+      "ariaLabel": "Ootel meeldetuletused",
+      "count_one": "{{count}} meeldetuletus",
+      "count_other": "{{count}} meeldetuletust",
+      "clearAll": "Kustuta kõik",
+      "dismiss": "Sulge"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Peida Chrome'i jaluse juhend",
+      "success": "Jalus peidetud — naudi täisekraani!",
+      "corner": {
+        "title": "Hangi täisekraani kogemus",
+        "intro": "Chrome lisab MonoStart alla jaluse. Selle peitmiseks klõpsa",
+        "cta": "Kohandage Chrome'i",
+        "ctaSuffix": "paremas alanurgas.",
+        "noFooter": "Ei näe jalust? Oled valmis — jäta see samm vahele."
+      },
+      "panel": {
+        "title": "Peaaegu valmis",
+        "intro": "Jaotises",
+        "setting": "Jalus",
+        "turnOff": ", lülita välja",
+        "action": "Kuva jalus uue vahekaardi lehel",
+        "suffix": ", seejärel sulge paneel."
+      },
+      "skip": "Jäta vahele",
+      "next": "Järgmine",
+      "done": "Valmis"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Keel",
+      "subtitle": "Vali oma keel",
+      "search": "Otsi keeli…",
+      "empty": "Ükski keel ei vasta su otsingule."
+    },
+    "addWidget": {
+      "title": "Lisa vidin",
+      "titleConfigure": "Seadista {{name}}",
+      "titleGoogleStyle": "Vali Google otsingu stiil",
+      "logoBarTitle": "Logo + riba",
+      "logoBarDesc": "Suur Google logo otsingurea kohal. Võtab 4 rida.",
+      "barOnlyTitle": "Ainult riba",
+      "barOnlyDesc": "Ainult otsingurea riba. Võtab 1 rea. Kompaktne.",
+      "urlLabel": "URL või manustamiskood",
+      "urlPlaceholder": "https://example.com\nvõi\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Kleebi URL lihtsate manuste jaoks või kleebi <code>&lt;iframe&gt;</code> lõik saitidelt, mis blokeerivad otsese laadimise (YouTube, Figma, Spotify, CodePen jne).",
+      "back": "Tagasi",
+      "embedWidget": "Manusta vidin"
+    },
+    "addLink": {
+      "title": "Lisa link",
+      "description": "Kleebi URL, et lisada juhtpaneelile uus lingikaart.",
+      "urlLabel": "Veebisaidi URL",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Pealkiri (valikuline)",
+      "titlePlaceholder": "Minu link",
+      "locationLabel": "Asukoht",
+      "locationMainDashboard": "Peamine juhtpaneel",
+      "locationHeader": "Päis (ainult favicon)",
+      "locationFolder": "Kaust: {{title}}",
+      "locationGroup": "Grupp: {{title}}",
+      "cancel": "Tühista",
+      "submit": "Lisa link"
+    },
+    "theme": {
+      "title": "Teema ja välimus",
+      "description": "Kohanda oma juhtpaneeli välimust.",
+      "modeGroupLabel": "Teema režiim",
+      "light": "Hele",
+      "dark": "Tume",
+      "device": "Seade",
+      "primaryColorHeading": "Põhivärv",
+      "primaryColorPresetsLabel": "Põhivärvi eelseaded",
+      "customColorLabel": "Kohandatud värv",
+      "customColorTitle": "Kohandatud värv",
+      "customHue": "Kohandatud toon",
+      "backgroundHeading": "Taust",
+      "backgroundTypeLabel": "Tausta tüüp",
+      "backgroundColorLabel": "Tausta värv",
+      "backgroundGradientLabel": "Tausta gradient",
+      "imageUrlPlaceholder": "Kleebi pildi URL...",
+      "uploadImage": "Laadi pilt üles",
+      "imageUploaded": "Kohandatud pilt üles laaditud.",
+      "blur": "Hägusus",
+      "dim": "Tumendus",
+      "fileReadError": "Faili lugemine ebaõnnestus.",
+      "bgType": {
+        "none": "Puudub",
+        "color": "Värv",
+        "gradient": "Gradient",
+        "image": "Pilt"
+      },
+      "themes": {
+        "default": "Vaikimisi",
+        "grey": "Hall",
+        "blue": "Sinine",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Roheline",
+        "citron": "Citron",
+        "yellow": "Kollane",
+        "orange": "Oranž",
+        "apricot": "Apricot",
+        "tomato": "Tomat",
+        "rose": "Roos",
+        "pink": "Roosa",
+        "fuchsia": "Fuchsia",
+        "violet": "Violett"
+      },
+      "gradients": {
+        "dusk": "Hämarik",
+        "sunset": "Loojang",
+        "ocean": "Ookean",
+        "forest": "Mets",
+        "slate": "Kiltkivi",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "Tühjenda juhtpaneel",
+      "description": "See eemaldab juhtpaneelilt vidinad. Oled redigeerimisrežiimis, seega saad enne salvestamist Tühistada.",
+      "widgetsGroups": "Vidinad ja grupid peamisel ruudustikul",
+      "linksInsideGroups": "↳ lingid gruppide sees",
+      "headerBarLinks": "Päiseriba lingid",
+      "alsoClearHeaderLabel": "Tühjenda ka päiseriba lingid",
+      "alsoClearHeaderDesc": "Vaikimisi säilitatakse päiseriba. Märgi see, et see samuti kustutada.",
+      "widgetGroups_one": "Kustutamisel <strong>{{count}}</strong> vidin/grupp",
+      "widgetGroups_other": "Kustutamisel <strong>{{count}}</strong> vidinat/gruppi",
+      "headerLinks_one": "<strong>{{count}}</strong> päise link",
+      "headerLinks_other": "<strong>{{count}}</strong> päise linki",
+      "andConnector": " ja ",
+      "cancelRestores": ". Tühistamine redigeerimisrežiimis taastab need.",
+      "nothingToClear": "Praeguse valikuga pole midagi tühjendada.",
+      "cancelButton": "Tühista",
+      "clearWidgets": "Tühjenda vidinad",
+      "clearEverything": "Tühjenda kõik"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Jaga seda elementi",
+      "copyLink": "Kopeeri link",
+      "linkCopied": "Link kopeeritud",
+      "shareOn": "Jaga platvormil {{platform}}",
+      "shareVia": "Jaga teenuse {{platform}} kaudu"
+    }
+  }
+}

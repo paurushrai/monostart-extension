@@ -9,6 +9,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import type { NoteItem } from '../../types';
+import { useTranslation } from 'react-i18next';
 
 const NOTE_COLORS = [
   { id: 'default', name: 'Default', bg: 'bg-card/65 backdrop-blur-md border-border text-foreground', headerBg: 'bg-gray-50/50 dark:bg-black/10', dot: 'bg-gray-300 dark:bg-gray-600' },
@@ -29,7 +30,9 @@ interface Props {
 }
 
 const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>) => {
-  const { title = 'Note', content = '', noteColor = 'default' } = item;
+  const { title, content = '', noteColor = 'default' } = item;
+  const { t } = useTranslation();
+  const noteTitle = title || t('widgets.note.defaultTitle');
   const [text, setText] = useState(content);
   const [prevContent, setPrevContent] = useState(content);
   const [isEditingTitle, setIsEditingTitle] = useState(false);
@@ -72,7 +75,7 @@ const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>
 
   const handleTitleBlur = () => {
     setIsEditingTitle(false);
-    const newTitle = titleInputRef.current?.value.trim() || 'Note';
+    const newTitle = titleInputRef.current?.value.trim() || t('widgets.note.defaultTitle');
     onUpdateItem(item.id, { title: newTitle });
   };
 
@@ -88,10 +91,10 @@ const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>
             <Input
               ref={titleInputRef}
               type="text"
-              defaultValue={title}
+              defaultValue={noteTitle}
               onBlur={handleTitleBlur}
               onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); }}
-              aria-label="Note title"
+              aria-label={t('widgets.note.titleAriaLabel')}
               className={`h-auto font-medium bg-background border border-border rounded px-1 py-0.5 focus-visible:ring-0 focus-visible:ring-offset-0 ${isEditing ? 'text-xs max-w-[140px]' : 'text-xs max-w-[120px]'}`}
             />
           ) : (
@@ -99,12 +102,12 @@ const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>
               onClick={handleTitleClick}
               className={`font-medium truncate select-none ${isEditing ? 'text-xs cursor-pointer hover:bg-black/5 dark:hover:bg-white/5 px-1 rounded' : 'text-2xs pointer-events-none'}`}
             >
-              {title}
+              {noteTitle}
             </h3>
           )}
         </div>
 
-        <div role="toolbar" aria-label="Note actions" className="flex items-center gap-1 shrink-0 relative z-20">
+        <div role="toolbar" aria-label={t('widgets.note.actionsAriaLabel')} className="flex items-center gap-1 shrink-0 relative z-20">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button
@@ -112,7 +115,7 @@ const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>
                 variant="ghost"
                 size="icon"
                 onMouseDown={(e) => e.stopPropagation()}
-                title="Change Color"
+                title={t('widgets.note.changeColor')}
                 className={`text-muted-foreground hover:bg-black/5 dark:hover:bg-white/5 hover:text-foreground ${isEditing ? 'h-6 w-6' : 'h-5 w-5'}`}
               >
                 <Palette size={isEditing ? 12 : 11} />
@@ -127,7 +130,7 @@ const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>
                 >
                   <div className="flex items-center gap-2">
                     <span className={`w-3.5 h-3.5 rounded-full border border-border/50 ${c.dot}`} aria-hidden="true" />
-                    <span>{c.name}</span>
+                    <span>{t(`widgets.note.color_${c.id}`)}</span>
                   </div>
                   {noteColor === c.id && <Check size={12} className="text-primary ml-1" aria-hidden="true" />}
                 </DropdownMenuItem>
@@ -143,7 +146,7 @@ const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>
               onMouseDown={(e) => e.stopPropagation()}
               onClick={(e) => { e.stopPropagation(); onDelete(item.id); }}
               className="h-6 w-6 text-red-500 hover:bg-red-50 hover:text-red-500 dark:hover:bg-red-900/20"
-              title="Delete Widget"
+              title={t('widgets.deleteWidget')}
             >
               <Trash2 size={13} />
             </Button>
@@ -158,9 +161,9 @@ const NoteWidget = ({ item, onDelete, onUpdateItem, isEditing }: Readonly<Props>
           value={text}
           onChange={(e) => handleTextChange(e.target.value)}
           onBlur={handleBlur}
-          placeholder="Write something..."
+          placeholder={t('widgets.note.placeholder')}
           disabled={isEditing}
-          aria-label="Note content"
+          aria-label={t('widgets.note.contentAriaLabel')}
           className="w-full h-full resize-none bg-transparent border-none outline-none focus:ring-0 text-sm leading-relaxed placeholder-muted-foreground/50 overflow-y-auto"
         />
       </div>

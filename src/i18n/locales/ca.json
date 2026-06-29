@@ -1,0 +1,446 @@
+{
+  "common": {
+    "delete": "Elimina",
+    "cancel": "Cancel·la",
+    "save": "Desa",
+    "copy": "Copia",
+    "copied": "Copiat"
+  },
+  "header": {
+    "menu": {
+      "language": "Idioma",
+      "addLink": "Afegeix un enllaç",
+      "addWidget": "Afegeix un widget",
+      "editDashboard": "Edita el tauler",
+      "theme": "Tema i aparença",
+      "share": "Comparteix MonoStart",
+      "openInNewTab": "Obre els enllaços en una pestanya nova"
+    },
+    "settings": "Configuració",
+    "clear": "Esborra",
+    "clearDashboard": "Esborra el tauler",
+    "cancel": "Cancel·la",
+    "save": "Desa"
+  },
+  "widgets": {
+    "deleteWidget": "Elimina el widget",
+    "placeholder": {
+      "place": "Col·loca",
+      "dropToPlace": "Deixa anar per col·locar"
+    },
+    "todo": {
+      "defaultTitle": "Tasques",
+      "empty": "Encara no hi ha tasques.",
+      "deleteTask": "Elimina la tasca",
+      "placeholder": "Afegeix una tasca...",
+      "newTaskAriaLabel": "Nova tasca",
+      "addTask": "Afegeix una tasca",
+      "toggleAriaLabel": "Marca \"{{text}}\" com a {{status}}",
+      "statusComplete": "completada",
+      "statusIncomplete": "incompleta"
+    },
+    "timer": {
+      "defaultTitle": "Temporitzadors",
+      "empty": "No hi ha cap temporitzador establert.",
+      "deleteTimer": "Elimina el temporitzador",
+      "pause": "Pausa",
+      "start": "Inicia",
+      "reset": "Reinicia",
+      "placeholderMin": "Min",
+      "durationAriaLabel": "Durada del temporitzador en minuts",
+      "placeholderLabel": "Etiqueta (opcional)",
+      "labelAriaLabel": "Etiqueta del temporitzador (opcional)",
+      "addTimer": "Afegeix un temporitzador"
+    },
+    "reminders": {
+      "defaultTitle": "Recordatoris",
+      "empty": "Encara no hi ha recordatoris.",
+      "deleteReminder": "Elimina el recordatori",
+      "placeholder": "Recorda'm que...",
+      "textAriaLabel": "Text del recordatori",
+      "recurrenceTitle": "Recurrència",
+      "addReminder": "Afegeix un recordatori",
+      "customIntervalAriaLabel": "Valor d'interval personalitzat",
+      "customUnitAriaLabel": "Unitat d'interval personalitzada",
+      "unitMinutes": "Minuts",
+      "unitHours": "Hores",
+      "unitDays": "Dies",
+      "saveRecurrence": "Desa",
+      "toggleAriaLabel": "Marca \"{{text}}\" com a {{status}}",
+      "statusComplete": "completat",
+      "statusIncomplete": "incomplet",
+      "recurrenceNone": "Una vegada",
+      "recurrence30min": "Cada 30 min",
+      "recurrenceHourly": "Cada hora",
+      "recurrenceDaily": "Diàriament",
+      "recurrenceWeekly": "Setmanalment",
+      "recurrenceCustom": "Personalitzat",
+      "everyDay": "Cada {{count}}d",
+      "everyHour": "Cada {{count}}h",
+      "everyMin": "Cada {{count}}m",
+      "every": "Cada",
+      "today": "Avui {{time}}",
+      "tomorrow": "Demà {{time}}",
+      "dateTime": "{{date}} {{time}}"
+    },
+    "note": {
+      "defaultTitle": "Nota",
+      "changeColor": "Canvia el color",
+      "placeholder": "Escriu alguna cosa...",
+      "contentAriaLabel": "Contingut de la nota",
+      "titleAriaLabel": "Títol de la nota",
+      "actionsAriaLabel": "Accions de la nota",
+      "color_default": "Per defecte",
+      "color_amber": "Groc",
+      "color_sky": "Blau",
+      "color_rose": "Rosa",
+      "color_emerald": "Verd",
+      "color_purple": "Porpra"
+    },
+    "image": {
+      "defaultTitle": "Imatge",
+      "settings": "Configuració de la imatge",
+      "actionsAriaLabel": "Accions de la imatge",
+      "titleAriaLabel": "Títol de la imatge",
+      "changeImage": "Canvia la imatge",
+      "fitCover": "Cobrir (Retallar)",
+      "fitContain": "Contenir (Proporció)",
+      "fitFill": "Omplir (Estirar)",
+      "configureTitle": "Configura la imatge del widget",
+      "urlPlaceholder": "Enganxa l'URL de la imatge...",
+      "or": "O",
+      "uploadLocal": "Puja una imatge local",
+      "cancelConfig": "Cancel·la la configuració",
+      "loadError": "No s'ha pogut carregar la imatge. L'URL pot estar trencat o bloquejat."
+    },
+    "label": {
+      "defaultText": "Text",
+      "settings": "Configuració del text",
+      "actionsAriaLabel": "Accions de l'etiqueta",
+      "textAriaLabel": "Text de l'etiqueta",
+      "editText": "Edita el text",
+      "showCardStyle": "Mostra l'estil de targeta",
+      "fontSize": "Mida de la lletra",
+      "alignment": "Alineació",
+      "fontWeight": "Pes de la lletra",
+      "opacity": "Opacitat",
+      "deleteText": "Elimina el text",
+      "alignLeft": "Esquerra",
+      "alignCenter": "Centre",
+      "alignRight": "Dreta",
+      "fontSizes": {
+        "sm": "Petit",
+        "base": "Mitjà",
+        "lg": "Gran",
+        "xl": "Molt gran",
+        "xl2": "2X gran",
+        "xl3": "3X gran",
+        "xl4": "4X gran",
+        "xl5": "5X gran",
+        "xl6": "6X gran",
+        "xl7": "7X gran",
+        "xl8": "8X gran",
+        "xl9": "9X gran",
+        "xl10": "10X gran",
+        "xl12": "12X gran"
+      },
+      "fontWeights": {
+        "thin": "Prim",
+        "light": "Lleuger",
+        "regular": "Normal",
+        "medium": "Mitjà",
+        "semibold": "Semi negreta",
+        "bold": "Negreta",
+        "extrabold": "Negreta extra",
+        "black": "Negre"
+      },
+      "opacities": {
+        "full": "100% (Brillant)",
+        "p80": "80%",
+        "p60": "60%",
+        "muted": "40% (Apagat)"
+      }
+    },
+    "googleSearch": {
+      "placeholder": "Cerca a Google o escriu una URL",
+      "searchAriaLabel": "Consulta de cerca",
+      "voiceSearch": "Cerca per veu",
+      "lensSearch": "Cerca qualsevol imatge amb Lens",
+      "removeWidget": "Elimina el widget",
+      "switchToBarOnly": "Canvia a només la barra",
+      "switchToLogoBar": "Canvia a logotip + barra",
+      "barOnly": "Només la barra",
+      "showLogo": "Mostra el logotip",
+      "toggleLogoStyle": "Alterna l'estil del logotip"
+    },
+    "group": {
+      "borderColorAriaLabel": "Color de la vora del grup",
+      "pasteUrlPlaceholder": "Enganxa l'URL...",
+      "colors": {
+        "red": "Vermell",
+        "pink": "Rosa",
+        "purple": "Porpra",
+        "indigo": "Índigo",
+        "blue": "Blau",
+        "cyan": "Cian",
+        "teal": "Verd blavós",
+        "green": "Verd",
+        "yellow": "Groc",
+        "orange": "Taronja",
+        "slate": "Pissarra",
+        "neutral": "Neutre"
+      },
+      "defaultTitle": "Grup nou"
+    },
+    "groupHeader": {
+      "addLink": "Afegeix un enllaç",
+      "colorBorder": "Color de la vora",
+      "layout": "Disseny",
+      "layoutGrid": "Quadrícula",
+      "layoutList": "Llista",
+      "gridColumns": "Columnes de la quadrícula",
+      "column_one": "{{count}} Columna",
+      "column_other": "{{count}} Columnes",
+      "deleteGroup": "Elimina el grup",
+      "actionsAriaLabel": "Accions del grup"
+    },
+    "groupInnerGrid": {
+      "empty": "Grup buit",
+      "addFirstLink": "Afegeix el primer enllaç",
+      "dropToAdd": "Deixa anar per afegir",
+      "add": "Afegeix"
+    },
+    "iframe": {
+      "removeWidget": "Elimina el widget",
+      "openInNewTab": "Obre en una pestanya nova",
+      "defaultTitle": "Pàgina incrustada"
+    },
+    "linkCard": {
+      "options": "Opcions",
+      "rename": "Canvia el nom",
+      "size": "Mida",
+      "sizeSmall": "Petit (1×1)",
+      "sizeMedium": "Mitjà (3×1)",
+      "moveTo": "Mou a...",
+      "mainDashboard": "Tauler principal",
+      "header": "Capçalera",
+      "deleteLink": "Elimina l'enllaç",
+      "actionsAriaLabel": "Accions de l'enllaç"
+    },
+    "catalog": {
+      "googleSearch": {
+        "name": "Cerca de Google",
+        "description": "Cercau a Google o escriviu un URL."
+      },
+      "group": {
+        "name": "Grup",
+        "description": "Un grup amb color personalitzat per organitzar els vostres enllaços."
+      },
+      "reminders": {
+        "name": "Recordatoris",
+        "description": "Programeu recordatoris amb notificacions del navegador. S'admet la recurrència horària / diària / setmanal."
+      },
+      "todo": {
+        "name": "Llista de tasques",
+        "description": "Seguiu el rastre de les vostres tasques."
+      },
+      "timer": {
+        "name": "Temporitzadors",
+        "description": "Gestioneu múltiples temporitzadors."
+      },
+      "note": {
+        "name": "Nota adhesiva",
+        "description": "Escriviu notes o recordatoris amb colors personalitzats."
+      },
+      "image": {
+        "name": "Imatge",
+        "description": "Afegiu una imatge des d'un URL o pengeu un fitxer local."
+      },
+      "label": {
+        "name": "Etiqueta de text",
+        "description": "Afegiu un encapçalament o títol flotant net per estilitzar la vostra quadrícula."
+      },
+      "iframe": {
+        "name": "Pàgina incrustada",
+        "description": "Incrusteu qualsevol lloc web com a widget en viu."
+      }
+    }
+  },
+  "toasts": {
+    "removedEmptyPhotos_one": "S'ha eliminat {{count}} widget de foto buit.",
+    "removedEmptyPhotos_other": "S'han eliminat {{count}} widgets de foto buits.",
+    "clearedWidgets_one": "{{count}} widget",
+    "clearedWidgets_other": "{{count}} widgets",
+    "clearedHeaderLinks_one": "{{count}} enllaç de capçalera",
+    "clearedHeaderLinks_other": "{{count}} enllaços de capçalera",
+    "clearedSummary": "S'ha esborrat {{items}}. Cancel·la per desfer o desa per confirmar.",
+    "onlyOneGoogleSearch": "Només es permet un widget de cerca de Google.",
+    "noRoomForWidget": "No hi ha espai per a aquest widget. Canvia la mida o elimina alguna cosa per fer espai.",
+    "swap": {
+      "no-room": "No es pot intercanviar — no hi ha prou espai per als dos widgets en les noves posicions.",
+      "out-of-bounds": "No es pot intercanviar — un dels widgets sobressortiria de la quadrícula amb la seva mida mínima.",
+      "overlap": "No es pot intercanviar — les mides mínimes dels dos widgets se superposen.",
+      "obstacle": "No es pot intercanviar — hi ha un altre widget al camí. Mou-lo o canvia'n la mida primer."
+    }
+  },
+  "popup": {
+    "saveToMonoStart": "Desa a MonoStart",
+    "saveLink": "Desa l'enllaç",
+    "saved": "Desat!",
+    "openDashboard": "Obre el tauler",
+    "destination": {
+      "label": "Destinació",
+      "main": "Tauler principal",
+      "header": "Barra de capçalera"
+    },
+    "reminders": {
+      "ariaLabel": "Recordatoris pendents",
+      "count_one": "{{count}} recordatori",
+      "count_other": "{{count}} recordatoris",
+      "clearAll": "Esborra-ho tot",
+      "dismiss": "Descarta"
+    }
+  },
+  "footer": {
+    "guide": {
+      "ariaLabel": "Amaga la guia del peu de pàgina de Chrome",
+      "success": "Peu de pàgina amagat — gaudeix de la pantalla completa!",
+      "corner": {
+        "title": "Obtén l'experiència a pantalla completa",
+        "intro": "Chrome afegeix un peu de pàgina sota MonoStart. Per amagar-lo, fes clic a",
+        "cta": "Personalitza Chrome",
+        "ctaSuffix": "a la cantonada inferior dreta.",
+        "noFooter": "No veus un peu de pàgina? Estàs a punt — omete aquest pas."
+      },
+      "panel": {
+        "title": "Gairebé a punt",
+        "intro": "A",
+        "setting": "Peu de pàgina",
+        "turnOff": ", desactiva",
+        "action": "Mostra el peu de pàgina a la pàgina de pestanya nova",
+        "suffix": ", i tanca el panell."
+      },
+      "skip": "Omet",
+      "next": "Següent",
+      "done": "Fet"
+    }
+  },
+  "modals": {
+    "language": {
+      "title": "Idioma",
+      "subtitle": "Tria el teu idioma",
+      "search": "Cerca idiomes…",
+      "empty": "Cap idioma coincideix amb la teva cerca."
+    },
+    "addWidget": {
+      "title": "Afegeix un widget",
+      "titleConfigure": "Configura {{name}}",
+      "titleGoogleStyle": "Tria l'estil de cerca de Google",
+      "logoBarTitle": "Logotip + Barra",
+      "logoBarDesc": "Gran logotip de Google sobre la barra de cerca. Ocupa 4 files.",
+      "barOnlyTitle": "Només la barra",
+      "barOnlyDesc": "Només la barra de cerca. Ocupa 1 fila. Compacte.",
+      "urlLabel": "URL o codi d'incrustació",
+      "urlPlaceholder": "https://example.com\nor\n<iframe src=\"https://www.youtube.com/embed/...\" ...></iframe>",
+      "urlHint": "Enganxa una URL per a incrustacions simples, o enganxa un fragment <code>&lt;iframe&gt;</code> de llocs que bloquegen la càrrega directa (YouTube, Figma, Spotify, CodePen, etc.).",
+      "back": "Enrere",
+      "embedWidget": "Incrusta el widget"
+    },
+    "addLink": {
+      "title": "Afegeix un enllaç",
+      "description": "Enganxa una URL per afegir una nova targeta d'enllaç al tauler.",
+      "urlLabel": "URL del lloc web",
+      "urlPlaceholder": "https://example.com",
+      "titleLabel": "Títol (opcional)",
+      "titlePlaceholder": "El meu enllaç",
+      "locationLabel": "Ubicació",
+      "locationMainDashboard": "Tauler principal",
+      "locationHeader": "Capçalera (només favicon)",
+      "locationFolder": "Carpeta: {{title}}",
+      "locationGroup": "Grup: {{title}}",
+      "cancel": "Cancel·la",
+      "submit": "Afegeix un enllaç"
+    },
+    "theme": {
+      "title": "Tema i aparença",
+      "description": "Personalitza l'aspecte del tauler.",
+      "modeGroupLabel": "Mode de tema",
+      "light": "Clar",
+      "dark": "Fosc",
+      "device": "Dispositiu",
+      "primaryColorHeading": "Color principal",
+      "primaryColorPresetsLabel": "Presets de color principal",
+      "customColorLabel": "Color personalitzat",
+      "customColorTitle": "Color personalitzat",
+      "customHue": "To personalitzat",
+      "backgroundHeading": "Fons",
+      "backgroundTypeLabel": "Tipus de fons",
+      "backgroundColorLabel": "Color de fons",
+      "backgroundGradientLabel": "Gradient de fons",
+      "imageUrlPlaceholder": "Enganxa l'URL de la imatge...",
+      "uploadImage": "Puja una imatge",
+      "imageUploaded": "Imatge personalitzada pujada.",
+      "blur": "Desenfoca",
+      "dim": "Atenua",
+      "fileReadError": "No s'ha pogut llegir el fitxer.",
+      "bgType": {
+        "none": "Cap",
+        "color": "Color",
+        "gradient": "Gradient",
+        "image": "Imatge"
+      },
+      "themes": {
+        "default": "Per defecte",
+        "grey": "Gris",
+        "blue": "Blau",
+        "aqua": "Aqua",
+        "viridian": "Viridian",
+        "green": "Verd",
+        "citron": "Citron",
+        "yellow": "Groc",
+        "orange": "Taronja",
+        "apricot": "Apricot",
+        "tomato": "Tomàquet",
+        "rose": "Rosa",
+        "pink": "Rosa clar",
+        "fuchsia": "Fuchsia",
+        "violet": "Violeta"
+      },
+      "gradients": {
+        "dusk": "Capvespre",
+        "sunset": "Posta de sol",
+        "ocean": "Oceà",
+        "forest": "Bosc",
+        "slate": "Slate",
+        "aurora": "Aurora"
+      }
+    },
+    "clear": {
+      "title": "Esborra el tauler",
+      "description": "Això elimina els widgets del tauler. Estàs en mode d'edició, de manera que encara pots prémer Cancel·la per desfer abans de desar.",
+      "widgetsGroups": "Widgets i grups a la quadrícula principal",
+      "linksInsideGroups": "↳ enllaços dins dels grups",
+      "headerBarLinks": "Enllaços de la barra de capçalera",
+      "alsoClearHeaderLabel": "Esborra també els enllaços de la barra de capçalera",
+      "alsoClearHeaderDesc": "Per defecte, la barra de capçalera es conserva. Marca això per esborrar-la també.",
+      "widgetGroups_one": "A punt d'eliminar <strong>{{count}}</strong> widget/grup",
+      "widgetGroups_other": "A punt d'eliminar <strong>{{count}}</strong> widgets/grups",
+      "headerLinks_one": "<strong>{{count}}</strong> enllaç de capçalera",
+      "headerLinks_other": "<strong>{{count}}</strong> enllaços de capçalera",
+      "andConnector": " i ",
+      "cancelRestores": ". Cancel·la a la barra d'eines del mode d'edició per restaurar-los.",
+      "nothingToClear": "No hi ha res a esborrar amb la selecció actual.",
+      "cancelButton": "Cancel·la",
+      "clearWidgets": "Esborra els widgets",
+      "clearEverything": "Esborra-ho tot"
+    },
+    "share": {
+      "title": "MonoStart",
+      "description": "Comparteix aquest element",
+      "copyLink": "Copia l'enllaç",
+      "linkCopied": "Enllaç copiat",
+      "shareOn": "Comparteix a {{platform}}",
+      "shareVia": "Comparteix via {{platform}}"
+    }
+  }
+}
