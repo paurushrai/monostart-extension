@@ -48,10 +48,21 @@
         // there's no flash of the theme color or an un-dimmed/un-blurred image.
         const bg = settings.background;
         if (bg && bg.type !== 'none' && bg.value) {
+            // These strings are concatenated into a <style> element, so each
+            // value must be proven to parse as a lone CSS value (CSS.supports
+            // rejects anything with a breakout like `;}`) before use. Image
+            // URLs additionally must not contain url() delimiter characters.
+            // Invalid values skip the pre-paint; React's DashboardBackground
+            // still renders them via CSSOM, so nothing user-visible is lost.
+            const isSafeCssValue = (prop, value) =>
+                typeof value === 'string' && CSS.supports(prop, value);
+            const isSafeImageUrl = (value) =>
+                typeof value === 'string' && !/["'\\()\s]/.test(value);
+
             let fill = '';
-            if (bg.type === 'color') fill = 'background:' + bg.value + ';';
-            else if (bg.type === 'gradient') fill = 'background-image:' + bg.value + ';';
-            else if (bg.type === 'image') fill = 'background:#0b0b12 url("' + bg.value + '") center/cover no-repeat;';
+            if (bg.type === 'color' && isSafeCssValue('background', bg.value)) fill = 'background:' + bg.value + ';';
+            else if (bg.type === 'gradient' && isSafeCssValue('background-image', bg.value)) fill = 'background-image:' + bg.value + ';';
+            else if (bg.type === 'image' && isSafeImageUrl(bg.value)) fill = 'background:#0b0b12 url("' + bg.value + '") center/cover no-repeat;';
 
             const blur = typeof bg.blur === 'number' && bg.blur > 0
                 ? 'filter:blur(' + bg.blur + 'px);transform:scale(1.08);'
