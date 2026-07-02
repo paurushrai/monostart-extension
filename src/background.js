@@ -57,8 +57,14 @@ const HOUR_MS = 60 * MINUTE_MS;
 const DAY_MS = 24 * HOUR_MS;
 const WEEK_MS = 7 * DAY_MS;
 
+const MAX_SUGGESTION_QUERY_LENGTH = 2048;
+
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'fetchSuggestions') {
+    if (typeof request.query !== 'string' || request.query.length > MAX_SUGGESTION_QUERY_LENGTH) {
+      sendResponse({ error: 'invalid query' });
+      return false;
+    }
     fetch(`https://suggestqueries.google.com/complete/search?client=firefox&q=${encodeURIComponent(request.query)}`)
       .then(res => res.json())
       .then(data => sendResponse({ data }))

@@ -2,6 +2,9 @@ import DOMPurify from 'dompurify';
 
 const ADD_TAGS = ['iframe', 'blockquote'];
 
+// `srcdoc` is deliberately NOT allowed: DOMPurify does not sanitize srcdoc
+// content, and a srcdoc iframe inherits the extension page's origin — an
+// extension-origin XSS foothold if the page CSP ever loosens.
 const ADD_ATTR = [
   'allow',
   'allowfullscreen',
@@ -9,7 +12,6 @@ const ADD_ATTR = [
   'frameborder',
   'scrolling',
   'sandbox',
-  'srcdoc',
   'referrerpolicy',
   'loading',
   'csp',
@@ -17,6 +19,27 @@ const ADD_ATTR = [
   'data-instgrm-permalink',
   'data-instgrm-version',
 ];
+
+// Forced onto every sanitized iframe, replacing any author-supplied sandbox
+// (which could otherwise grant allow-top-navigation). Grants everything the
+// supported providers (YouTube, Vimeo, Spotify, Twitch, Loom) need; withholds
+// only top-navigation, pointer-lock, and orientation-lock.
+const IFRAME_SANDBOX = [
+  'allow-scripts',
+  'allow-same-origin',
+  'allow-popups',
+  'allow-popups-to-escape-sandbox',
+  'allow-forms',
+  'allow-modals',
+  'allow-presentation',
+  'allow-downloads',
+].join(' ');
+
+DOMPurify.addHook('afterSanitizeAttributes', (node) => {
+  if (node.tagName === 'IFRAME') {
+    node.setAttribute('sandbox', IFRAME_SANDBOX);
+  }
+});
 
 export const isEmbedCode = (input: string | null | undefined): boolean => {
   if (!input) return false;
